@@ -1,0 +1,15 @@
+group,item,status,next_action
+POSS,rank 15 fa13177 / E779,partial,6 correct E779 tiles complete; 3 eastern tiles blocked by E205 substitution; retrieve correct plate
+POSS,rank 25 ai44306 / O1023 rec799,identity reset,rerun clean at correct rec799 field; old DEF-011 is rank23-field contamination
+POSS,rank 30 ai44246 / O988,blocked pixels,obtain alternative correct O988 pixels; previous DSS calibration/image failure is not a negative
+POSS,rank 40 ai44291 / O1009 rec785,partial,"tile1 closed zero survivors; tile2 detector done, crossmatch pending; continue deterministic strip"
+POSS,rank 41 ka02474 / E305,partial,continue far-northern true-overlap strip
+POSS,rank 46 ai43235 / O297,partial,continue NE partial-overlap strip
+non-POSS,APPLAUSE:13623 / bi05607,pixel follow-up,true WCS pixel follow-up
+non-POSS,APPLAUSE:132097 / b76371,pixel follow-up,thin-strip follow-up
+non-POSS,APPLAUSE:131892 / ax04674,pixel follow-up,substantial-overlap follow-up
+non-POSS,APPLAUSE:115054 / fa13406,pixel confirm,catalogue-zero pixel confirm
+non-POSS,APPLAUSE:12469 / bi05459,pixel confirm,true partial-overlap pixel confirm
+non-POSS,APPLAUSE:11787 / bi05352,pixel confirm,catalogue-zero pixel confirm
+non-POSS,APPLAUSE:11788 / bi05352,pixel confirm,catalogue-zero pixel confirm
+non-POSS,Hamburg/Vatican pair family (6 rows),manual astrometry,Vatican DR4 plates lack usable source_calib WCS; solve manually from FITS

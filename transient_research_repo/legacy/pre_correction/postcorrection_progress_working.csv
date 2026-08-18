@@ -1,0 +1,60 @@
+rank,exposure,other,status,notes
+1,POSS-I:413:E,ai43437,negative_nine_tile_sample,"Nine fixed 20-arcmin tiles: 16 official DASCH detections, all reference-catalogued; zero unmatched sources"
+2,POSS-I:368:E,ai43330,negative_nine_tile_sample,"Nine fixed 20-arcmin DASCH tiles: 37 official detections, one non-reference/reject=0 near-limit object at RA358.801152 Dec50.173352; absent on simultaneous E368 (max 1.65sigma) and preceding O368 (1.34sigma), so no two-observatory transient"
+3,POSS-I:606:E,fa12998,pixel_fullgrid_followup_no_transient,"Full frozen-detector 3x3 pixel grid complete for fa12998/E606. 92 H/E coincidences within 3 arcsec across 9 tiles; 47 Gaia<=3.5 arcsec. Paired O606 and Pan-STARRS rejection left 14 morphology-review cases (DEF-003, DEF-042..054 excluding non-rank3 IDs); zero defensible astrophysical transients. Useful second empirical plate-defect/background population, less dense than rank28."
+4,POSS-I:320:E,ka02524,negative_nine_tile_sample,"Nine fixed tiles: 2 official Harvard detections, both reference-catalogued; zero unmatched."
+5,POSS-I:1102:E,ai44467,negative_nine_tile_sample,"Nine fixed tiles: 4 official Harvard detections, all reference-catalogued; zero unmatched."
+6,POSS-I:236:E,fa12528,pixel_center_negative,"Centre pixel screen: 11 H/E236 matches within 3 arcsec; 9 Gaia-explained, remaining 2 Pan-STARRS-explained. No survivor."
+7,POSS-I:320:E,kh00192,negative_nine_tile_sample,"Nine tiles: 8 unmatched Harvard detections, all reject_flag=5; none reaches 4sigma on contemporaneous E320 (max 3.04sigma)."
+8,POSS-I:320:E,ai43280,negative_nine_tile_sample,Nine tiles: 12 unmatched Harvard detections. Ten lack >=4sigma E320 counterpart; one strong POSS counterpart is Gaia static star (~5.6in); one 4.27sigma POSS counterpart has Pan-STARRS sources at 5.8/6.2in; no transient.
+9,POSS-I:293:E,kh00158,pixel_center_negative,Centre pixel screen: 15 H/E293 matches within 3 arcsec; all Gaia-consistent (~0.7-3.4 arcsec). No survivor.
+10,POSS-I:340:E,ai43301,negative_nine_tile_sample,"Nine fixed tiles: 10 official Harvard detections total, all reference-catalogued; zero unmatched."
+11,POSS-I:407:E,ka02643,negative_calibrated_depth,"True WCS; official DASCH platephot 6 sources, all static/catalogued; no unmatched source to local ~12.4-12.9 mag"
+12,POSS-I:306:E,ai43241,pixel_fullgrid_followup_no_transient,"Full 3x3 frozen-detector pixel grid complete for ai43241/E306: 57 H/E coincidences within 3 arcsec; 27 Gaia-close (<=3.5 arcsec). O306 and Pan-STARRS vetoes applied. 5 morphology-review cases retained (DEF-004, DEF-065..068); zero defensible astrophysical transients."
+13,POSS-I:318:E,ka02504,pixel_fullgrid_followup_no_transient,"Full 3x3 frozen-detector pixel grid complete for ka02504/E318: 51 H/E coincidences within 3 arcsec; 22 Gaia-close (<=3.5 arcsec). O318 and Pan-STARRS vetoes applied to Gaia-weak residue. 8 morphology-review cases retained (DEF-005..007, DEF-055..059); zero defensible astrophysical transients."
+14,POSS-I:1103:E,ai44469,negative_nine_tile_sample,"Nine fixed sample tiles: 8 official DASCH detections total (1+6+1), all reference-catalogued; zero unmatched Harvard sources."
+15,POSS-I:779:E,fa13177,pixel_fullgrid_followup_no_transient,"Full 3x3 frozen-detector pixel grid complete for fa13177/E779: 83 H/E coincidences within 3 arcsec; 40 Gaia-close (<=3.5 arcsec). O779 and Pan-STARRS vetoes applied to Gaia-weak residue. 6 morphology-review cases retained (DEF-008, DEF-060..064); zero defensible astrophysical transients."
+16,POSS-I:782:E,fa13182,pixel_center_negative,"Centre pixel screen: 82 H/E782 matches within 3 arcsec, all Gaia-consistent. No survivor."
+17,POSS-I:876:E,fa13273,negative_nine_tile_sample,Nine fixed sample tiles: 53 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+18,POSS-I:976:E,ai44227,negative_nine_tile_sample,Nine fixed sample tiles: 13 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+19,POSS-I:832:E,fa13203,negative_nine_tile_sample,Nine fixed sample tiles: 34 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+20,POSS-I:875:E,ai44092,negative_nine_tile_sample,Nine fixed sample tiles: 13 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+21,POSS-I:985:E,ai44244,pixel_center_negative,"Centre pixel screen: 13 H/E985 matches; 12 Gaia<=3 arcsec, last Gaia~3.15 arcsec with Pan-STARRS ~0.36 arcsec. No survivor."
+22,POSS-I:1024:E,ai44307,negative_nine_tile_sample,Nine fixed sample tiles: 1 official DASCH detection total; reference-catalogued; zero unmatched Harvard sources.
+23,POSS-I:1023:O,ai44304,pixel_fullgrid_followup_no_transient,"Full 3x3 pixel grid complete: 52 Harvard/O1023 coincidences within 3 arcsec; 20 Gaia-close; 4 retained morphology controls (DEF009, DEF010, DEF069, DEF070); no defensible astrophysical transient."
+24,POSS-I:872:O,fa13267,pixel_center_negative,Centre pixel screen: 62 H/O872 coincidences within 3 arcsec; 51 Gaia<=3.5 arcsec and all remaining <=4.93 arcsec. No survivor.
+25,POSS-I:1023:O,ai44306,pixel_center_followup,Centre pixel screen completed; DEF-011 retained. Other candidates resolved with E1023/Gaia/static checks. No astrophysical transient.
+26,POSS-I:297:O,kh00163,pixel_center_negative,Centre pixel screen: 24 H/O297 matches; residue eliminated by E297 and Pan-STARRS. No survivor.
+27,POSS-I:872:O,ai44088,negative_nine_tile_sample,"Nine fixed sample tiles completed after splitting around StarGlass 502; 13 official DASCH detections total, all reference-catalogued; zero unmatched."
+28,POSS-I:989:O,ai44247,pixel_fullgrid_followup_no_transient,"Full frozen-detector 3x3 pixel grid complete for ai44247/O989. 120 H/O coincidences within 3 arcsec across 9 tiles; 38 Gaia<=3.5 arcsec. After paired E989 and Pan-STARRS/static rejection, 25 morphology-review cases retained (DEF-012..014, DEF-020..041 excluding non-rank28 gaps); zero defensible astrophysical transients. Rank28 is a useful plate-defect/background control population."
+29,POSS-I:1405:O,ai44487,negative_nine_tile_sample,Nine fixed sample tiles: 6 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+30,POSS-I:988:O,ai44246,pixel_retrieval_blocked_stsci,"STScI POSS O988 product unavailable: DSS returns HTML error ""Calibration and image data not available""; not classified negative."
+31,POSS-I:236:O,kg00061,rejected_spatial_false_positive,Corrected solved-WCS polygon has no intersection with POSS field
+32,POSS-I:236:O,kg00060,pixel_center_negative,Centre pixel screen: 7 H/O236 matches; residue eliminated by E236 and Pan-STARRS. No survivor.
+33,POSS-I:372:O,ai43336,negative_nine_tile_sample,"Nine fixed sample tiles completed after splitting around StarGlass 502; 52 official DASCH detections total, all reference-catalogued; zero unmatched Harvard sources."
+34,POSS-I:313:O,ai43246,negative_nine_tile_sample,Nine fixed sample tiles: 9 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+35,POSS-I:449:O,fa15108,negative_nine_tile_sample,Nine fixed sample tiles: 44 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+36,POSS-I:415:O,ka02650,negative_nine_tile_sample,Nine fixed sample tiles: 39 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+37,POSS-I:415:O,ai43439,negative_nine_tile_sample,Nine fixed sample tiles: 29 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+38,POSS-I:558:O,ai43708,negative_nine_tile_sample,Nine fixed sample tiles: 6 official DASCH detections total; all reference-catalogued; zero unmatched Harvard sources.
+39,POSS-I:305:O,ka02473,pixel_partial_overlap_negative,"True far-northern overlap sampled at RA~313.86 Dec~+3.4: 9 H/O305 matches within 3 arcsec, all Gaia<=3.5 arcsec. No survivor."
+40,POSS-I:1009:O,ai44291,pixel_partial_overlap_followup,"True northern strip (centre/south 422, north row live). Sampled strip: 11 H/O matches, 9 Gaia-close; DEF-015/016 retained as morphology controls."
+41,POSS-I:305:E,ka02474,pixel_partial_overlap_followup,True far-northern strip sampled: 3 H/E305 matches; 2 Gaia-close; DEF-017 retained after O305/PS1 checks.
+42,POSS-I:500:E,ka02737,rejected_spatial_false_positive,"Linear wide-field WCS suggested marginal cap, but DASCH cutout service returned 422 at radial and 5-point edge-arc probes"
+43,POSS-I:236:O,kg00059,rejected_spatial_false_positive,Corrected solved-WCS polygon has no intersection with POSS field
+44,POSS-I:445:E,j03761,rejected_bright_star_psf,True WCS; apparent 3-plate survivor embedded in G~8.8 star saturation/PSF complex
+45,POSS-I:314:E,ka02481,rejected_spatial_false_positive,"Linear wide-field WCS suggested marginal cap, but DASCH cutout service returned 422 at radial and 5-point edge-arc probes"
+46,POSS-I:297:O,ai43235,pixel_partial_overlap_followup,"True NE overlap sampled: 19 H/O297 matches, 14 Gaia-close; DEF-018/019 retained after E297/PS1 checks."
+47,POSS-I:533:O,fa12840,rejected_spatial_false_positive,Centre/south/edge plus 5-point arc DASCH cutout probes all HTTP 422; local linear wide-field WCS sliver was false.
+49,APPLAUSE:13623,bi05607,parked_pixel_followup,True WCS overlap; no DR7 platephot at field centre
+59,APPLAUSE:131892,ax04674,parked_pixel_followup,Substantial true WCS overlap (~39% smaller field); no DR7 platephot at overlap centroid
+60,APPLAUSE:12414,APPLAUSE:139005,parked_manual_astrometric_solve,High-overlap independent pair; Vatican FITS exists but no published WCS/source_calib
+64,APPLAUSE:132099,bi05640,rejected_spatial_false_positive,Solved Harvard WCS polygon does not intersect Bamberg field
+65,APPLAUSE:132097,b76371,parked_pixel_followup,True WCS thin-strip overlap; AP calibrated edge sparse; no corroboration of one AP unmatched-looking source
+68,APPLAUSE:139012,APPLAUSE:12569,negative_calibrated_catalogue,"At 10 arcsec due coarse Vatican astrometry, 12 matches collapse to two Gaia stars; no non-Gaia match"
+69,APPLAUSE:12563,APPLAUSE:139010,negative_calibrated_catalogue,6 <=3 arcsec matches collapse to one Gaia star repeated by Hamburg multi-exposure plate; no non-Gaia match
+70,APPLAUSE:139011,APPLAUSE:12566,negative_calibrated_catalogue,6 <=3 arcsec matches collapse to one Gaia star; no non-Gaia match
+71,APPLAUSE:12565,APPLAUSE:139011,negative_calibrated_catalogue,Same physical Hamburg/Vatican plate pair family; no non-Gaia shared source in calibrated comparison
+72,APPLAUSE:12568,APPLAUSE:139012,negative_calibrated_catalogue,Same physical Hamburg/Vatican plate pair family; no non-Gaia shared source
+73,APPLAUSE:13390,b75958,rejected_spatial_false_positive,Solved Harvard WCS does not intersect Hamburg field
+74,APPLAUSE:13389,b75958,rejected_spatial_false_positive,Solved Harvard WCS does not intersect Hamburg field

@@ -1,0 +1,6 @@
+priority_rank,dasch_plate_id,poss_exposure_id,poss_band,center_ra_deg,center_dec_deg,center_rule,dasch_solution_number,cutout_width_arcmin,dasch_file,poss_file,retrieval_status,retrieval_error
+1,bi05397,POSS-I:266:E,E,259.9533333333333,-6.147500000000001,center_of_non_dasch_plate,0,20,cutouts/rank01_bi05397_POSS-I_266_E_dasch.fits.gz,cutouts/rank01_bi05397_POSS-I_266_E_poss.fits,retrieved,
+2,pz00145,POSS-I:969:E,E,73.86250000000001,0.2333333333333333,center_of_non_dasch_plate,0,20,cutouts/rank02_pz00145_POSS-I_969_E_dasch.fits.gz,cutouts/rank02_pz00145_POSS-I_969_E_poss.fits,rejected_no_dasch_wcs_coverage,DASCH cutout service rejected the deterministic center (HTTP 422)
+3,fa13455,POSS-I:999:O,O,109.93375,5.732222222222222,center_of_non_dasch_plate,0,20,cutouts/rank03_fa13455_POSS-I_999_O_dasch.fits.gz,cutouts/rank03_fa13455_POSS-I_999_O_poss.fits,retrieved,
+4,fa13434,POSS-I:984:O,O,97.95708333333334,53.90638888888888,center_of_non_dasch_plate,0,20,cutouts/rank04_fa13434_POSS-I_984_O_dasch.fits.gz,cutouts/rank04_fa13434_POSS-I_984_O_poss.fits,retrieved,
+5,am28320,POSS-I:495:O,O,178.03093655893232,2.899785422638811,midpoint_of_approximate_radial_intersection,0,20,cutouts/rank05_am28320_POSS-I_495_O_dasch.fits.gz,cutouts/rank05_am28320_POSS-I_495_O_poss.fits,rejected_no_dasch_wcs_coverage,DASCH cutout service rejected the deterministic center (HTTP 422)

@@ -1,0 +1,63 @@
+{
+  "checkpoint_date": "2026-08-17",
+  "timezone": "Europe/London",
+  "objective": "Find contemporaneous transients in independent photographic plate archives; exhaust <=5 min before <=10/15 min.",
+  "corrected_sub5_pairs_total": 74,
+  "corrected_poss_pairs": 47,
+  "nonposs_pairs": 27,
+  "manual_review_cases": 41,
+  "manual_review_case_range": [
+    "DEF-001",
+    "DEF-041"
+  ],
+  "defensible_astrophysical_transients": 0,
+  "rank28_full_grid_complete": true,
+  "authoritative_files": {
+    "poss_progress": "checkpoints/AUTHORITATIVE_postcorrection_progress.csv",
+    "nonposs_progress": "checkpoints/AUTHORITATIVE_nonposs_sub5_progress.csv",
+    "manual_review": "checkpoints/AUTHORITATIVE_probable_plate_defects_manual_review.csv",
+    "poss_screen": "checkpoints/corrected_poss47_true_wcs_screen.csv"
+  },
+  "poss_status_counts": {
+    "negative_nine_tile_sample": 21,
+    "negative_catalogue_pixel_pending": 1,
+    "pixel_center_negative": 7,
+    "negative_calibrated_depth": 1,
+    "pixel_center_followup": 5,
+    "pixel_full_grid_followup_complete": 1,
+    "pixel_retrieval_blocked_stsci": 1,
+    "rejected_spatial_false_positive": 8,
+    "pixel_partial_overlap_negative": 1,
+    "pixel_partial_overlap_followup": 3,
+    "rejected_bright_star_psf": 1,
+    "parked_pixel_followup": 3,
+    "parked_manual_astrometric_solve": 1,
+    "negative_calibrated_catalogue": 5
+  },
+  "nonposs_status_counts": {
+    "negative_nine_tile_sample": 3,
+    "parked_pixel_followup": 3,
+    "parked_manual_astrometric_solve": 6,
+    "rejected_spatial_false_positive": 6,
+    "negative_calibrated_catalogue": 5,
+    "negative_catalogue_pixel_pending": 3,
+    "negative_partial_overlap_catalogue_pixel_pending": 1
+  },
+  "very_high_manual_cases": [
+    "DEF-006",
+    "DEF-008",
+    "DEF-009",
+    "DEF-010",
+    "DEF-011",
+    "DEF-014",
+    "DEF-023",
+    "DEF-027",
+    "DEF-031",
+    "DEF-037",
+    "DEF-040"
+  ],
+  "known_checkpoint_discrepancies": [
+    "Rank 3 progress row remains negative_catalogue_pixel_pending, but later pixel work produced DEF-003."
+  ],
+  "next_gate": "Complete viable <=5-minute pixel/manual work before expanding to <=10 minutes."
+}

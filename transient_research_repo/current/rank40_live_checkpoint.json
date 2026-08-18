@@ -1,0 +1,41 @@
+{
+  "pair": "rank 40: Harvard ai44291 vs POSS-I:1009:O:rec785",
+  "midpoint_delta_minutes": 2.0,
+  "actual_exposure_overlap_minutes": 12.0,
+  "tile1": {
+    "harvard_frozen_detections": 209,
+    "poss_frozen_detections": 2309,
+    "strict_matches_le_3arcsec": 11,
+    "shifted_control_match_counts": [
+      11,
+      12,
+      19,
+      9,
+      8,
+      7,
+      12,
+      13,
+      15,
+      22,
+      7,
+      12
+    ],
+    "shifted_control_mean": 12.25,
+    "shifted_control_range": [
+      7,
+      22
+    ],
+    "initial_non_gaia_matches": 2,
+    "direct_panstarrs_nearest_arcsec": [
+      3.7085715672593436,
+      3.7890732302629453
+    ],
+    "disposition": "closed_zero_survivors"
+  },
+  "tile2": {
+    "harvard_frozen_detections": 229,
+    "poss_frozen_detections": 2130,
+    "disposition": "retrieved_detector_complete_crossmatch_not_yet_dispositioned"
+  },
+  "strong_candidate_stop_triggered": false
+}

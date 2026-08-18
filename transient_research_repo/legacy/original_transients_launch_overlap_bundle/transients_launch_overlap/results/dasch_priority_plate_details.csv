@@ -1,0 +1,17 @@
+plate_id,telescope,location,latitude_deg,longitude_deg,elevation_m,wcs_solution_count,retrieval_error,source_url
+am28320,1-inch,Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/am28320
+ax04674,3 inch Ross-Tessar Lens,Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/ax04674
+b75958,8-inch Bache Doublet,Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/b75958
+b76371,8-inch Bache Doublet,Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/b76371
+bi05352,1.5 inch Ross (short focus),Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05352
+bi05397,1.5 inch Ross (short focus),Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05397
+bi05459,1.5 inch Ross (short focus),Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05459
+bi05485,1.5 inch Ross (short focus),,0.0,0.0,,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05485
+bi05607,1.5 inch Ross (short focus),,0.0,0.0,,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05607
+bi05640,1.5 inch Ross (short focus),,0.0,0.0,,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/bi05640
+fa13400,1.5-inch Ross-Xpress,"Soledad, NM",32.304418,106.594162,1200,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/fa13400
+fa13405,1.5-inch Ross-Xpress,"Soledad, NM",32.304418,106.594162,1200,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/fa13405
+fa13406,1.5-inch Ross-Xpress,"Soledad, NM",32.304418,106.594162,1200,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/fa13406
+fa13434,1.5-inch Ross-Xpress,"Soledad, NM",32.304418,106.594162,1200,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/fa13434
+fa13455,1.5-inch Ross-Xpress,"Soledad, NM",32.304418,106.594162,1200,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/fa13455
+pz00145,3 inch Perkin-Zeiss Lens,Bloemfontein,-29.0383,-26.4042,1387,1,,https://api.starglass.cfa.harvard.edu/public/plates/p/pz00145

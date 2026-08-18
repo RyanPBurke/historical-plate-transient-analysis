@@ -1,0 +1,20 @@
+priority,category,item,status,next_action
+1,POSS pixel grid,rank 3 fa12998 vs E606,centre produced DEF-003; checkpoint rank status stale,finish deterministic full grid and reconcile rank-3 checkpoint
+1,POSS pixel grid,rank 12 ai43241 vs E306,DEF-004 retained; full grid pending,finish 3x3 pixel grid with frozen detector and static vetoes
+1,POSS pixel grid,rank 13 ka02504 vs E318,DEF-005/006/007 retained; full grid pending,finish 3x3 pixel grid
+1,POSS pixel grid,rank 15 fa13177 vs E779,DEF-008 retained; full grid pending,finish 3x3 pixel grid
+1,POSS pixel grid,rank 23 ai44304 vs O1023,DEF-009/010 retained; full grid pending,finish 3x3 pixel grid
+1,POSS pixel grid,rank 25 ai44306 vs O1023,DEF-011 retained; full grid pending,finish 3x3 pixel grid
+2,POSS partial overlap,rank 40 ai44291 vs O1009,northern strip; DEF-015/016; partial sampling only,continue deterministic strip sampling
+2,POSS partial overlap,rank 41 ka02474 vs E305,far-northern edge; DEF-017; partial sampling only,continue deterministic strip sampling
+2,POSS partial overlap,rank 46 ai43235 vs O297,NE overlap; DEF-018/019; partial sampling only,continue deterministic strip sampling
+2,POSS unavailable pixels,rank 30 ai44246 vs O988,STScI DSS calibration/image unavailable,locate alternative plate pixel source
+2,non-POSS pixel,APPLAUSE:13623 vs bi05607,parked pixel follow-up,perform matched pixel comparison
+2,non-POSS pixel,APPLAUSE:132097 vs b76371,thin-strip true overlap,perform matched pixel comparison
+2,non-POSS pixel,APPLAUSE:131892 vs ax04674,substantial true overlap,perform matched pixel comparison
+2,non-POSS pixel,APPLAUSE:115054 vs fa13406,catalogue-zero,pixel confirmation
+2,non-POSS pixel,APPLAUSE:12469 vs bi05459,partial overlap catalogue-zero,pixel confirmation in true overlap
+2,non-POSS pixel,APPLAUSE:11787 vs bi05352,catalogue-zero,pixel confirmation
+2,non-POSS pixel,APPLAUSE:11788 vs bi05352,catalogue-zero,pixel confirmation
+3,non-POSS manual solve,Hamburg/Vatican family (6 rows),Vatican DR4 source_calib/WCS unavailable,manual astrometric solve then matched pixel comparison
+4,time-window expansion,all pairs <=10 min,NOT STARTED,only begin after viable <=5 min work above is exhausted

@@ -1,0 +1,2 @@
+rank,harvard_plate,poss_unique_id,midpoint_delta_minutes,actual_exposure_overlap_minutes,tile1_h_detections,tile1_p_detections,tile1_matches_le3arcsec,tile1_control_mean,tile1_control_min,tile1_control_max,tile1_survivors,tile2_h_detections,tile2_p_detections,tile2_status,strong_candidate_stop_triggered
+40,ai44291,POSS-I:1009:O:rec785,2.0,12.0,209,2309,11,12.25,7,22,0,229,2130,crossmatch pending,False

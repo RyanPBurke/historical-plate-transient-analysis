@@ -1,0 +1,4 @@
+priority_rank,dasch_plate_id,poss_exposure_id,dasch_detections,poss_detections,dasch_matched,poss_matched,dasch_unmatched,poss_unmatched,match_radius_arcsec
+1,bi05397,POSS-I:266:E,73,1672,27,31,46,1641,10.0
+3,fa13455,POSS-I:999:O,34,1927,12,16,22,1911,10.0
+4,fa13434,POSS-I:984:O,49,1082,10,11,39,1071,10.0

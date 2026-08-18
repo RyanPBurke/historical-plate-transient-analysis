@@ -1,0 +1,16 @@
+name,library_file_id,role
+CONTINUE_HERE.md,file_00000000663481f4bfaaaf3675c308c6,persistent handoff
+transient_continuation_bundle_2026-08-17.zip,file_00000000a87481f49645948489e2b6fa,preserved bundle
+SUMMARY.md,file_00000000a34081fdb72b0acf9ec5999d,legacy summary; materialized
+archive_pair_overlap_candidates.csv,file_00000000485081fdab03d9a86d4c13cb,legacy/pre-correction pair table; equivalent copy in bundle
+archive_triplet_overlap_candidates.csv,file_000000002f8481fdab43bbccd1b7405f,legacy triplet table; materialized
+archive_pair_same_night_candidates.csv,file_00000000083881fdb30558f1371c27e3,legacy same-night table; materialized
+PAIR_VALIDATION_REPORT.md,file_000000009b5481fd9a7215b898dce966,legacy validation report; materialized
+validated_sub5_pairs.csv,file_00000000c4fc81fd8452b910026c8e08,pre-correction validated table; materialized
+REPORT.md,file_00000000fd24822faa95b51e56d0808f,methodology/paper audit; materialized
+poss1_plate_metadata.csv,file_00000000a24081fda94c0c07192cd899,POSS VI/25 source; equivalent copy in bundle
+dasch_exposures_1951_1955.csv,file_000000002f5481fda6536497a46c7f8c,DASCH source; equivalent copy in bundle
+applause_exposures_1951_1955.csv,file_00000000f72c81fd811927f72ccdb291,APPLAUSE source; equivalent copy in bundle
+launches_1951_1955.csv,file_0000000027d081fd95ad058abc20b5c7,legacy launch list; copy inside extracted legacy bundle
+launch_plate_date_candidates.csv,file_00000000b3c881fd9cd204afd3d758ea,legacy launch/date screen; copy inside extracted legacy bundle
+claim_matrix.csv,file_00000000b404822fb73c6d5b6f5f6624,Villarroel/VASCO paper-claim audit context; materialized under context_paper_audit

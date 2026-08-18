@@ -1,0 +1,7 @@
+canonical pair count: 74 (expected 74)
+POSS corrected rows: 47 (expected 47)
+non-POSS <=5 rows: 27 (expected 27)
+legacy POSS IDs duplicated globally: 118
+duplicated legacy IDs represented in POSS47 queue: 4
+all POSS47 rows mapped to a physical VI/25 recno with <=1 s time and <=0.01 deg coordinate residual
+all 74 pairs have positive actual exposure overlap: True

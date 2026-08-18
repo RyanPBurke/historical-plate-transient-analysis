@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-08-18T15:56:00Z",
+  "canonical_sub5_pair_count": 74,
+  "poss_involving_count": 47,
+  "nonposs_count": 27,
+  "frozen_detector": {
+    "gaussian_background_sigma_px": 8,
+    "polarity": "both via absolute residual local maxima",
+    "threshold_sigma": 4,
+    "sigma_estimator": "robust MAD",
+    "local_max_window_px": 7,
+    "edge_mask_px": 30,
+    "original_match_radius_arcsec": 10,
+    "strict_diagnostic_radius_arcsec": 3
+  },
+  "recovered_late_state": {
+    "morphology_case_count_reported": 106,
+    "row_level_cases_preserved_in_current_files": 41,
+    "row_level_cases_DEF_042_to_DEF_106": "not recoverable from preserved Library/bundle; do not fabricate",
+    "defensible_astrophysical_survivors": 0,
+    "ranks_complete_9_of_9": [
+      3,
+      12,
+      13,
+      23
+    ],
+    "rank15": "6 correct E779 tiles complete; 3 eastern tiles blocked by E205 substitution",
+    "rank25": "previous 8/9 result unsafe after duplicate POSS 1023 ID discovery; clean rec799 rerun required",
+    "rank30": "alternative POSS O988 pixel source required",
+    "partial_ranks": [
+      40,
+      41,
+      46
+    ]
+  },
+  "methodology_change_pending": "split into distant same-sky coincidence, independent per-observatory transient replication, and parallax-aware near-Earth matching",
+  "strong_candidate_stop_rule": true
+}

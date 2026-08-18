@@ -1,0 +1,11 @@
+site_pattern,canonical_site,latitude_deg,longitude_deg,coordinate_precision,notes
+White Sands,White Sands Missile Range,32.4,-106.4,approximate,Complex-level only; resolve pad for trajectory work
+Holloman,Holloman Air Force Base,32.85,-106.1,approximate,Complex-level only
+Kapustin Yar,Kapustin Yar,48.58,45.75,approximate,Historical range coordinate
+Hammaguir,Hammaguir,30.88,-3.07,approximate,French Saharan launch range
+Cape Canaveral,Cape Canaveral,28.49,-80.58,approximate,Complex-level only
+Wallops,Wallops Flight Facility,37.84,-75.48,approximate,Complex-level only
+USS Norton Sound,USS Norton Sound,,,mobile,Ship position must be recovered per launch
+USS Eastwind,USS Eastwind,,,mobile,Ship position must be recovered per launch
+USS Ashland,USS Ashland,,,mobile,Ship position must be recovered per launch
+
