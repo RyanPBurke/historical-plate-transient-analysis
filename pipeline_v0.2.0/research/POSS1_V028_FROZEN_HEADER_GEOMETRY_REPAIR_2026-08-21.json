@@ -1,0 +1,180 @@
+{
+  "backup_directory": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\patch_backups\\pre_remaining_geometry_repair_20260821T203408Z",
+  "detector_run": false,
+  "historical_image_arrays_read": false,
+  "reconstructed_poss_grids": [
+    {
+      "canonical_order": 2,
+      "cnpix": [
+        6706,
+        6861
+      ],
+      "cutout_shape": [
+        530,
+        530
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 1.2458666172810737e-10,
+        "median_sep_arcsec": 5.494062452091253e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity\\POSS-I_985_E_rec726\\0EGP_identity.fits",
+      "frozen_fits_sha256": "bcf76fa980418182235d60223de9ea1728f799a42e84677bdfb035fb043bd41f",
+      "full_plate_shape": [
+        13999,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_985_E_rec726_XE726_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "25c9cdc35cfdaf09cad6e6029a7639f0318b483b460f2769cbc77f27ee8935bb",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:985:E:rec726",
+      "region": "XE726"
+    },
+    {
+      "canonical_order": 48,
+      "cnpix": [
+        6672,
+        6794
+      ],
+      "cutout_shape": [
+        530,
+        530
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 7.104832715669993e-11,
+        "median_sep_arcsec": 1.717499527990299e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity\\POSS-I_314_E_rec646\\0D9V_identity.fits",
+      "frozen_fits_sha256": "2145cd017731a3a6e6554ea9b509fb7a2e5ae2244c1b382cbfc3bce943cb9430",
+      "full_plate_shape": [
+        13999,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_314_E_rec646_XE645_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "245e3bb1eacfe9b26fdd76e0f12735b7d57d618daa5232abc6edfdc47c37c68b",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:314:E:rec646",
+      "region": "XE645"
+    },
+    {
+      "canonical_order": 49,
+      "cnpix": [
+        6755,
+        6754
+      ],
+      "cutout_shape": [
+        530,
+        530
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 2.068477639294276e-10,
+        "median_sep_arcsec": 2.8624992133171652e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity\\POSS-I_293_E_rec754\\0FHF_identity.fits",
+      "frozen_fits_sha256": "c70859e517bfe2002bbefc81313d789d15ac3ab2d26dc52105e4bda519e82418",
+      "full_plate_shape": [
+        13999,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_293_E_rec754_XE754_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "78274b858f1f89f0e5294f4398f91ec1fff31cc7cc4e126563f5e7db1d4d18ad",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:293:E:rec754",
+      "region": "XE754"
+    },
+    {
+      "canonical_order": 62,
+      "cnpix": [
+        6584,
+        6758
+      ],
+      "cutout_shape": [
+        530,
+        530
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 2.1696937066134973e-10,
+        "median_sep_arcsec": 2.0037494493220157e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity_v028_extension\\POSS-I_306_E_rec703\\0E2B_identity.fits",
+      "frozen_fits_sha256": "8b5734bf0752a943f7f709c38c352637ebf4f10ca5adb04155e3b50d1ab054a7",
+      "full_plate_shape": [
+        13999,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_306_E_rec703_XE702_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "2740495f961fc199f4a6601e89ecc4d4bf6579cd5aa77e3e4d635c2ce70c9736",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:306:E:rec703",
+      "region": "XE702"
+    },
+    {
+      "canonical_order": 65,
+      "cnpix": [
+        6718,
+        6845
+      ],
+      "cutout_shape": [
+        530,
+        530
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 1.151340096632644e-10,
+        "median_sep_arcsec": 2.289999370653732e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity\\POSS-I_1024_E_rec742\\0FGT_identity.fits",
+      "frozen_fits_sha256": "722cb1c44951398fe20fa86f6a6de77b2ede4af1335c596dcabff2937f0d6bd7",
+      "full_plate_shape": [
+        13999,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_1024_E_rec742_XE742_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "349147799738024d8813049e0fe74bc134e024fad3764ea3f94eb209802504dd",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:1024:E:rec742",
+      "region": "XE742"
+    },
+    {
+      "canonical_order": 66,
+      "cnpix": [
+        6538,
+        6630
+      ],
+      "cutout_shape": [
+        536,
+        536
+      ],
+      "dimension_source": "frozen_fits_XPIXELS_YPIXELS",
+      "dss_polynomial_vs_local_wcs": {
+        "max_sep_arcsec": 1.195226761280464e-10,
+        "median_sep_arcsec": 1.717499527990299e-11
+      },
+      "frozen_fits": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\cache\\poss1_identity\\POSS-I_500_E_rec679\\0DH1_identity.fits",
+      "frozen_fits_sha256": "49f4283d4c57131b9d7e7a48604d49e9e363d8a6fabdc98d98337f08cbd0f931",
+      "full_plate_shape": [
+        14000,
+        14000
+      ],
+      "grid": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss47_tpv_geometry_census_v028\\poss_wcs_grids\\POSS-I_500_E_rec679_XE678_grid65.csv",
+      "grid_points": 4225,
+      "grid_sha256": "3fe8ea85950cd142c159cff68efdf2fadb65fc2439bfd095e780dc444073c40b",
+      "pixel_coverage_note": "Full-plate geometry reconstructed from retained DSS header. Actual frozen image pixels remain limited to the stored cutout.",
+      "poss_exposure_id": "POSS-I:500:E:rec679",
+      "region": "XE678"
+    }
+  ],
+  "recorded_at_utc": "2026-08-21T20:34:08.814608+00:00",
+  "wrapper_repairs": [
+    "DASCH seconds=60 timestamp normalization",
+    "precomputed frozen-DSS geometry grid bypasses live HHH"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "analysis_kind": "wide_census_supplemental_gaia_dr3_acquisition_v066",
+  "guards": {
+    "astrometric_registration_run": false,
+    "candidate_state_mutation": false,
+    "network_access": true,
+    "science_pixels_read": false,
+    "science_policy_changed": false,
+    "transient_detector_rerun": false
+  },
+  "individual_candidate_dispositions": "NONE",
+  "inputs": {
+    "corrected_hpm_plan_sha256": "0f56450e983e649f4e4150b3a808457524c7cd996ecf61538719e0601352b288",
+    "supplemental_plan_sha256": "03b40ff5b1618a83847f34060fe4f2456aacdc54f79bd7efe51cadd2664de560",
+    "v002_corrective_freeze_sha256": "458a043dfbdda8dbb853cbae77c269ff17a586c0ddb2fdcf7ac0388ee57ab3fc",
+    "v064_report_sha256": "96b59544503a33b419ca062893e80e2cc42f02490bca2490bc38ae0bd52c776b",
+    "v065_report_sha256": "444019582d0b4066ee464ca94af74eafa8af092585fe00a8e47850c53f531625"
+  },
+  "next_stage": "After COMPLETE: offline pair-wise Gaia source_id deduplication across v064+v066, pair-epoch propagation, reciprocal-nearest candidate/Gaia association, common-reference construction and frozen primary/sparse registration.",
+  "progress": {
+    "hpm_cached_rows": 9,
+    "hpm_complete": 33,
+    "hpm_compressed_bytes": 5501,
+    "hpm_total": 33,
+    "network_calls_this_invocation": 12825,
+    "ordinary_cached_rows_including_overlap": 52453208,
+    "ordinary_compressed_bytes": 4683205056,
+    "ordinary_resolved_leaf_queries": 13916,
+    "ordinary_root_complete": 13631,
+    "ordinary_root_total": 13631
+  },
+  "science_positives": 0,
+  "status": "COMPLETE",
+  "transport": {
+    "cache_encoding": "gzip lossless; deterministic mtime=0",
+    "default_workers": 2,
+    "global_request_start_interval_s": 0.75,
+    "low_disk_abort_gib": 12.0,
+    "maximum_workers_allowed": 8,
+    "new_full_cell_maxrec_policy": "recursive quarter-cell subdivision to 0.03125 deg",
+    "ordinary_annulus_maxrec_policy": "operational blocker per v065 freeze",
+    "workers": 8
+  },
+  "updated_at_utc": "2026-08-31T18:26:22.247041+00:00"
+}

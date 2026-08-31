@@ -1,0 +1,31 @@
+{
+  "applause_done": true,
+  "applause_plate_count": 49,
+  "attempts": {},
+  "classification_counts": {
+    "EXACT_FOOTPRINT_UNRESOLVED": 41,
+    "NO_TRUE_SKY_FOOTPRINT_OVERLAP_ROBUST": 8,
+    "TRUE_SKY_FOOTPRINT_OVERLAP_ROBUST": 33
+  },
+  "dasch_done": 24,
+  "dasch_total": 24,
+  "hold_count": 41,
+  "last_error": null,
+  "parser_repair_2": {
+    "cleared_transport_key": "applause:solution_batch",
+    "post_patch_normalized_sha256": "0d02dd78a7b2f318e3b30b245ee0578007c0ff531707e04eed0042ac57c29a86",
+    "pre_patch_normalized_sha256": "0721adba691dc4292ca9df778244297e4f8f40a127ce85b55d90ae39f2866657",
+    "pre_patch_raw_sha256": "7f7a971188b642f8a59c28e0eb90173d5d3bb551400296c585ca915d75f0eb08",
+    "previous_attempt_count": 4,
+    "previous_terminal_record": {
+      "attempt": 4,
+      "key": "applause:solution_batch",
+      "message": "APPLAUSE TAP did not return CSV; first 300 chars: '<?xml version=\"1.0\"?>\\n<VOTABLE version=\"1.3\"\\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\\n    xmlns=\"http://www.ivoa.net/xml/VOTable/v1.3\"\\n    xmlns:stc=\"http://www.ivoa.net/xml/STC/v1.30\">\\n    <RESOURCE type=\"results\">\\n        <LINK title=\"applause_dr4.solution\" content-role=\"doc\" href'",
+      "type": "RuntimeError"
+    },
+    "reason": "Pre-fix worker received a valid APPLAUSE IVOA VOTable but accepted CSV only; raw line-ending differences are separately normalized by this installer guard."
+  },
+  "status": "COMPLETE",
+  "transport_terminal": {},
+  "true_overlap_survivor_count": 33
+}

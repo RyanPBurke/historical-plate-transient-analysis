@@ -1,0 +1,18 @@
+{
+  "astropy_version": "8.0.1",
+  "detector_manifest_sha256": "4d66c8f7099ece364053a451f15688ba7d2105c8a3b112d392e8e7a4a6c97c06",
+  "detector_run": false,
+  "detector_sha256": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+  "detector_snapshot_id": "e3a9b42eaf58027171bb5449533e8bc413672acae7881d9641884363fb2aef7a",
+  "frozen_method_sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+  "gaussian_filter_signature": "(input, sigma, order=0, output=None, mode='reflect', cval=0.0, truncate=4.0, *, radius=None, axes=None)",
+  "maximum_filter_signature": "(input, size=None, footprint=None, output=None, mode='reflect', cval=0.0, origin=0, *, axes=None)",
+  "numpy_version": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol_sha256": "9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700",
+  "python_executable": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "recorded_at_utc": "2026-08-21T19:36:49.511449+00:00",
+  "science_pixels_processed": false,
+  "scipy_version": "1.18.0"
+}

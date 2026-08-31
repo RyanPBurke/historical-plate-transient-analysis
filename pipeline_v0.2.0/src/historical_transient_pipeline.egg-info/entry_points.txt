@@ -1,0 +1,2 @@
+[console_scripts]
+transient-pipeline = transient_pipeline.cli:main

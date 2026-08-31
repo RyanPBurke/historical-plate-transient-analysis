@@ -1,0 +1,26 @@
+PAIR 61 DIRECT TPV GEOMETRY CONTROL
+============================================================================
+POSS:  POSS-I:875:E:rec521 / XE520 / 090N
+DASCH: ai44092
+
+DASCH WCS solutions: 1
+Selected solution: 0 (input tag '')
+Exposure midpoint delta: 0.000005000 s
+Exposure duration delta: 0.000000000 s
+Canonical-centre separation: 212.5971966511007
+
+DASCH rotationDelta: 0
+Final bin16 dimensions: 1088 x 1377
+TPV coefficients copied: 30
+Selected exposure centre in image: True
+
+XE520 grid inside DASCH: 4225/4225
+Boundary inside DASCH: 256/256
+All grid samples inside: True
+All boundary samples inside: True
+Minimum inside DASCH edge margin: 343.7760952562244 bin16 pixels
+Maximum TPV roundtrip error: 0.000000005 arcsec
+
+DASCH base mosaic pixels downloaded: False
+Historical science pixels read: False
+Transient detector run: False

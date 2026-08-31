@@ -1,0 +1,54 @@
+POSS-I physical-plate identity/availability preflight v0.2.7
+Unique prospective POSS-I exposures: 31
+Primary source: STScI DSS. On retryable archive failure OR primary Plate Finder non-resolution: validated SkyView raw-DSS fallback. Valid VI/25 exposures with no current digital DSS pixels are accounted separately and remain in the denominator.
+No transient detection is performed by this command.
+
+[15:59:35] 31/31 processed (100%) | succeeded=31 pending=0 running=0 retryable=0 terminal=0
+POSS-I identity jobs: 31 unique exposures; added 0 new jobs
+{
+  "succeeded": 31
+}
+
+Final checkpoint: {
+  "succeeded": 31
+}
+
+Identity summary for succeeded jobs:
+
+Name                                    Count
+----                                    -----
+catalogue_identified_pixels_unavailable     2
+validated                                  29
+
+
+Identity source summary (blank = original STScI success):
+
+Name                                                               Count
+----                                                               -----
+                                                                      25
+skyview_raw_fallback                                                   4
+vi25_plus_primary_stsci_failure_and_skyview_descriptor_raw_hhh_gap     1
+vi25_plus_primary_stsci_failure_and_skyview_gap                        1
+
+
+
+Evidence verification:
+{
+  "verified_artifacts": 447,
+  "errors": 0
+}
+
+POSS-I IDENTITY/AVAILABILITY PREFLIGHT ACCOUNTED: 31/31 exposures.
+  pixel-validated / detector-eligible: 29
+  catalogue-identified but digital pixels unavailable: 2
+
+exposure_id         identity_status                         identity_source                                                    finder_region archive_availabili
+                                                                                                                                             ty_status         
+-----------         ---------------                         ---------------                                                    ------------- ------------------
+POSS-I:449:O:rec198 catalogue_identified_pixels_unavailable vi25_plus_primary_stsci_failure_and_skyview_gap                    XO197         digital_pixels_...
+POSS-I:832:E:rec760 catalogue_identified_pixels_unavailable vi25_plus_primary_stsci_failure_and_skyview_descriptor_raw_hhh_gap XE760         digital_pixels_...
+
+
+Archive-unavailable exposure(s) remain in the frozen prospective denominator and are NOT scientific negatives.
+No transient detector was run.
+Transcript: .\logs\poss1_identity_preflight_20260821_155925.log

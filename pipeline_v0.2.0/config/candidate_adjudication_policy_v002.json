@@ -1,0 +1,95 @@
+{
+  "astrometry": {
+    "broad_raw_match_arcsec": 10.0,
+    "diagnostic_catalogue_arcsec": 5.0,
+    "primary": {
+      "fit": "translation_only_median",
+      "minimum_common_same_catalogue_references": 5,
+      "reference_clipping": false,
+      "target_independent": true
+    },
+    "reference_acquisition_arcsec": 15.0,
+    "science_exclusion_arcsec": 30.0,
+    "sparse_fallback": {
+      "allowed_only_if_primary_insufficient": true,
+      "closure_from_sparse_mismatch_requires_leave_one_reference_out_robustness": true,
+      "confidence": "diagnostic_only",
+      "fit": "independent_archive_to_Gaia_translation_only_medians",
+      "minimum_independent_references_per_archive": 3,
+      "report_5arcsec_robustness_too": true,
+      "robust_mismatch_requirement": "every leave-one-reference-out trial remains outside strict 3 arcsec gate",
+      "target_independent": true
+    },
+    "strict_registered_match_arcsec": 3.0
+  },
+  "created_after_match3_test_case": true,
+  "execution_strategy": {
+    "census_first": true,
+    "dashboard_is_read_only": true,
+    "freeze_eligible_pair_universe_before_bulk_candidate_adjudication": true,
+    "manual_review_only_after_mechanical_explanations_exhausted": true,
+    "run_same_frozen_logic_over_full_eligible_set": true
+  },
+  "interpretation_boundaries": {
+    "catalogue_absence_is_not_transience": true,
+    "compact_morphology_is_not_transience": true,
+    "copies_or_scans_of_same_physical_plate_are_not_independent_observations": true,
+    "pair_closure_does_not_automatically_close_individual_single_observatory_endpoints": true,
+    "parallax_aware_search_is_separate_hypothesis_test": true,
+    "raw_coordinate_coincidence_is_not_source_identity": true,
+    "transport_or_api_failure_is_not_scientific_negative": true
+  },
+  "match3_lessons": [
+    "A raw 1.596 arcsec cross-observatory coincidence can disappear after target-independent registration.",
+    "Sparse DASCH fields can make a >=5 common-reference solution impossible even when independent archive-to-Gaia ties exist.",
+    "Sparse fallback must remain diagnostic and must not silently replace the primary registration criterion.",
+    "With only four sparse references, leave-one-reference-out robustness is required before using the mismatch for pair closure.",
+    "Ordinary morphology supports an ordinary-source/artifact context but is not the reason a common-sky coincidence is rejected.",
+    "Pair-level closure must not be propagated automatically into the independent single-observatory transient branches."
+  ],
+  "morphology": {
+    "fallback_snr_ratio": [
+      0.5,
+      1.5
+    ],
+    "interpretation": "contextual evidence; ordinary morphology cannot establish persistence and compact morphology cannot establish transience",
+    "maximum_controls": 32,
+    "preferred_minimum_controls": 12,
+    "preferred_snr_ratio": [
+      0.75,
+      1.25
+    ],
+    "robust_outlier_abs_z": 3.5,
+    "same_polarity": true,
+    "same_tile": true
+  },
+  "other_epoch": {
+    "comparison_plate_must_have_adequate_local_completeness": true,
+    "injection_recovery_where_needed": true,
+    "non_detection_must_be_sensitivity_qualified": true,
+    "required_for_surviving_common_sky_candidate": true
+  },
+  "policy_id": "candidate_adjudication_policy_v002",
+  "population_controls": {
+    "population_level_null_does_not_reject_individual_candidate": true,
+    "shifted_or_randomised_coordinate_background_required": true
+  },
+  "purpose": "Generic two-observatory candidate adjudication policy incorporating lessons demonstrated by Order 11 match 3.",
+  "state_model": {
+    "do_not_delete_rejected_candidates": true,
+    "preserve_frozen_measurements": true,
+    "single_observatory_endpoint_state_is_separate": true,
+    "two_observatory_dispositions": [
+      "CLOSED_PERSISTENT_SOURCE_EXPLANATION",
+      "CLOSED_RAW_COINCIDENCE_NOT_SUPPORTED_AFTER_REGISTRATION",
+      "CLOSED_COMMON_SKY_COINCIDENCE_SPARSE_REGISTRATION_ROBUST",
+      "SURVIVES_TO_SENSITIVITY_QUALIFIED_RECURRENCE",
+      "UNRESOLVED_REQUIRES_FURTHER_EVIDENCE"
+    ]
+  },
+  "timing": {
+    "do_not_substitute_midpoint_separation_for_overlap": true,
+    "record_actual_overlap_interval": true,
+    "use_physical_exposure_intervals": true
+  }
+}

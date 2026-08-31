@@ -1,0 +1,84 @@
+{
+  "canonical_order": 61,
+  "canonical_queue_sha256": "58529e1d4de46f3c49865a89454d1cd488ee23ec920b01250006f2180d2ed99a",
+  "dasch": {
+    "api": "https://api.starglass.cfa.harvard.edu/public/dasch/dr7/mosaic_package",
+    "api_payload": {
+      "binning": 16,
+      "plate_id": "ai44092"
+    },
+    "astrometry_header_sha256": "0de900c020552d7f313bca0374691ee770c56df6bda256f67bca9e88ed7e3dd2",
+    "b01_height": 22041,
+    "b01_width": 17410,
+    "base_fits_downloaded": false,
+    "bin16_final_height": 1377,
+    "bin16_final_width": 1088,
+    "binning": 16,
+    "metadata_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair61_direct_tpv_geometry_v028\\ai44092_mosaic_package_metadata.json",
+    "metadata_sha256": "d78666409fe09f57e93e67c46e761d45792e5b0c1466b18f53536ff7e344e1b9",
+    "number_of_wcs_solutions": 1,
+    "plate_id": "ai44092",
+    "rot_k_equivalent": 0,
+    "rotation_delta": 0,
+    "selected_center_inside": true,
+    "selected_center_pixel": [
+      542.92440748817,
+      688.458730432546
+    ],
+    "selected_exposure": {
+      "canonical_center_sep_arcsec": 212.5971966511007,
+      "canonical_duration_s": 6300.0,
+      "canonical_midpoint_utc": "1953-10-31T03:57:29.999995+00:00",
+      "center_source": "imWCS",
+      "date_accuracy_days": 0.0007,
+      "date_source": "Logbook",
+      "dec_deg": 23.612414,
+      "duration_delta_s": 0.0,
+      "duration_s": 6300.0,
+      "exposure_number": 0,
+      "has_wcs": true,
+      "midpoint_delta_s": 5e-06,
+      "midpoint_raw": "1953-10-31T03:57:30.0Z",
+      "ra_deg": 347.248149,
+      "solnum": 0
+    },
+    "selected_input_wcs_tag": "",
+    "selected_solution_number": 0,
+    "tpv_header_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair61_direct_tpv_geometry_v028\\ai44092_selected_tpv_header.txt",
+    "tpv_header_sha256": "b2f0bbb00d28ca0d0e25e9030c47427fe9adf04ecfe3652b2737a7d06f617477",
+    "tpv_pv_coefficient_count": 30
+  },
+  "geometry": {
+    "all_boundary_inside": true,
+    "all_grid_inside": true,
+    "boundary_points_inside": 256,
+    "boundary_points_total": 256,
+    "maximum_tpv_roundtrip_arcsec": 5.013566880057655e-09,
+    "minimum_inside_edge_margin_bin16_px": 343.7760952562244,
+    "old_true_wcs_intersection": "True",
+    "old_true_wcs_overlap_fraction": "1.0",
+    "points_inside": 4225,
+    "points_total": 4225
+  },
+  "method": {
+    "dasch_wcs_reconstruction": "Direct implementation of current daschlab mosaics._do_astrometry semantics: archived b01HeaderGz; TPV projection; CRPIX/CD scaled for bin16; PV coefficients unchanged.",
+    "detector_run": false,
+    "geometry_only": true,
+    "historical_science_pixels_read": false,
+    "poss_wcs": "SkyView native DSSImage WCS previously validated pixel-for-pixel against exact STScI XE520 extraction."
+  },
+  "operation": "v028_pair61_direct_public_api_tpv_geometry_control",
+  "pair_key": "POSS-I:875:E:rec521 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44092",
+  "poss": {
+    "exposure_id": "POSS-I:875:E:rec521",
+    "grid_csv": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair61_direct_tpv_geometry_v028\\xe520_wcs_grid_65.csv",
+    "grid_csv_sha256": "93997c073a4b18a818161c086ffc213857a0689d2e0f8ac337c88794b9e5e873",
+    "grid_n": 65,
+    "grid_points": 4225,
+    "plate_id": "090N",
+    "raw_plate_directory": "https://skyview.gsfc.nasa.gov/surveys/dss/xe520",
+    "region": "XE520"
+  },
+  "recorded_at_utc": "2026-08-21T20:03:20.195820+00:00",
+  "script_sha256": "90ecaed668c98599278f773ef637e3d8db7a4b28a36ddc7920877bcd184e804e"
+}

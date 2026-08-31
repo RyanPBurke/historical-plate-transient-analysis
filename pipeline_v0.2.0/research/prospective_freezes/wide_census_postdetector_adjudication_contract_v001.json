@@ -1,0 +1,248 @@
+{
+  "batch_order": [
+    "freeze_v056_raw_inventory_without_pruning",
+    "record_detector_coverage_holds",
+    "deterministic_shifted_coordinate_population_background",
+    "epoch_aware_Gaia_static_source_association",
+    "target_independent_primary_registration",
+    "predeclared_sparse_fallback_only_if_primary_insufficient",
+    "deterministic_local_morphology_controls",
+    "sensitivity_qualified_recurrence_and_injection_recovery_for_survivors",
+    "manual_review_of_terminal_survivors_or_ambiguities_only",
+    "separate_parallax_aware_branch_if_still_motivated"
+  ],
+  "contract_id": "wide_census_postdetector_adjudication_contract_v001",
+  "detector_coverage_rule": {
+    "absence_of_raw_matches_on_affected_pair_is_scientifically_negative": false,
+    "pair_state_if_common_footprint_touches_uninformative_tile": "INCOMPLETE_UNINFORMATIVE_TILE_HOLD",
+    "raw_matches_in_valid_covered_regions_are_still_adjudicated": true,
+    "transport_or_execution_failure_is_scientific_negative": false,
+    "zero_robust_sigma_state": "UNINFORMATIVE_ZERO_ROBUST_SIGMA"
+  },
+  "epoch_aware_static_catalogue": {
+    "catalogue": "Gaia DR3",
+    "catalogue_absence_is_transience": false,
+    "catalogue_association_alone_closes_pair": false,
+    "diagnostic_endpoint_gate_arcsec": 5.0,
+    "high_proper_motion_rescue_cone_arcsec": 900.0,
+    "high_proper_motion_rescue_min_masyr": 1700.0,
+    "identified_target_source_excluded_from_reference_fit": true,
+    "ordinary_query_cone_arcsec": 120.0,
+    "parallax": "Record parallax and maximum annual angular amplitude but do not fold it into the ordinary-source positional gate; parallax-aware near-Earth search is separate.",
+    "proper_motion": "Propagate Gaia rows to target epoch with apply_space_motion only when pmra/pmdec and reference epoch are available; retain rows lacking PM with explicit incompleteness caveat.",
+    "strict_endpoint_gate_arcsec": 3.0,
+    "target_epoch": "physical exposure-overlap midpoint"
+  },
+  "frozen_at_utc": "2026-08-29T14:24:00.681387+00:00",
+  "frozen_input_sha256": {
+    "v052_exact_footprint": "1c4872cd13db125474451c0564921c18940fa1e497c660b70e804fb1315b1f04",
+    "v053_detector_plan": "36a426e4c2ab6415a1920082764824354752ff4b4bc43fe2923c5bdf8d3b9af5",
+    "v053_detector_queue": "4914b3d9902d06de8a469ffa9be0422dc6cd04f76de43496aedfc68b1c57c6dc",
+    "v054_endpoint_plan": "308a3f7a0c4c93cafa8d12fe390a2879f957c3575eb204af64d3c08679fd6200",
+    "v054_heavy_preflight": "164281647b360189eb50b70fd7c7315d89a2ea133d6e02ec304ee6fe9e9b4d24",
+    "v054_pair_plan": "10b0bb33d7ce43536267a0a16bc7f1b1fcb1f4b823078939454ab7f505af1a10",
+    "v054_tile_plan": "d9bfeedb3e6dde28ee3041f9bac185677f4c800175c206e5ce56a7e84eb5962a"
+  },
+  "frozen_universe": {
+    "scope_boundary": "This contract governs raw coincidences from the 33 robust true-footprint opportunities only. The 41 geometry holds remain unresolved and are not negatives.",
+    "v052_geometry_holds_separate_unresolved_branch": 41,
+    "v052_robust_no_spatial_overlap": 8,
+    "v052_true_overlap_opportunities": 33,
+    "v053_detector_opportunities": 33,
+    "v054_native_tiles": 6293,
+    "v054_unique_detector_endpoints": 53
+  },
+  "morphology": {
+    "compact_morphology_proves_transience": false,
+    "fallback_snr_ratio": [
+      0.5,
+      1.5
+    ],
+    "fallback_trigger_minimum_controls": 12,
+    "maximum_controls": 32,
+    "metrics": [
+      "sigma_major_px",
+      "sigma_minor_px",
+      "ellipticity",
+      "centroid_offset_px",
+      "concentration_f3_f8",
+      "peak_to_flux5"
+    ],
+    "ordinary_morphology_alone_closes_pair": false,
+    "patch_radius_pixels": 10,
+    "preferred_snr_ratio": [
+      0.75,
+      1.25
+    ],
+    "robust_outlier_abs_z": 3.5,
+    "role": "contextual_only",
+    "same_polarity": true,
+    "same_tile": true,
+    "science_target_exclusion_pixels": 32.0
+  },
+  "pair_disposition_logic": {
+    "insufficient_evidence": "UNRESOLVED_REQUIRES_FURTHER_EVIDENCE",
+    "persistent_source": "CLOSED_PERSISTENT_SOURCE_EXPLANATION only when the same epoch-aware source is supported consistently after applicable target-independent registration; raw catalogue proximity alone is insufficient.",
+    "primary_registration_mismatch": "CLOSED_RAW_COINCIDENCE_NOT_SUPPORTED_AFTER_REGISTRATION when a valid primary common-reference solution moves the pair outside the strict 3 arcsec gate.",
+    "raw_match_only": "UNRESOLVED_REQUIRES_FURTHER_EVIDENCE",
+    "sparse_registration_mismatch": "CLOSED_COMMON_SKY_COINCIDENCE_SPARSE_REGISTRATION_ROBUST only when the sparse fallback prerequisites and leave-one-reference-out mismatch robustness are met.",
+    "surviving_registered_common_sky_match": "SURVIVES_TO_SENSITIVITY_QUALIFIED_RECURRENCE",
+    "uninformative_detector_coverage": "Does not erase a positive raw match, but prevents interpreting absence of matches as complete negative coverage for the affected pair."
+  },
+  "population_background_control": {
+    "control_count_per_pair_when_geometry_allows": 16,
+    "directions_unit_xy": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        -1.0
+      ],
+      [
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        -0.7071067811865476
+      ],
+      [
+        -0.7071067811865476,
+        -0.7071067811865476
+      ]
+    ],
+    "footprint_rule": "After shifting, retain only shifted coordinates lying inside the same exact v054 common-sky polygon; report the valid shifted denominator for each control.",
+    "match_gates_arcsec": [
+      3.0,
+      10.0
+    ],
+    "method": "deterministic_tangent_plane_shift_of_endpoint_b_candidate_coordinates",
+    "no_candidate_outcome_used_to_choose_shifts": true,
+    "purpose": "Contextualise pair/raw-match counts; never reject an individual candidate by population null alone.",
+    "required": true,
+    "shift_rings_arcsec": [
+      60.0,
+      120.0
+    ]
+  },
+  "primary_astrometry": {
+    "diagnostic_catalogue_arcsec": 5.0,
+    "higher_order_fit": false,
+    "minimum_common_same_Gaia_references": 5,
+    "model": "translation_only_median",
+    "reference_acquisition_arcsec": 15.0,
+    "reference_clipping": false,
+    "reference_matching": "reciprocal-nearest candidate_to_epoch_propagated_Gaia",
+    "reference_windows_arcmin": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "science_exclusion_arcsec": 30.0,
+    "strict_registered_match_arcsec": 3.0,
+    "target_independent": true,
+    "window_choice": "smallest window meeting minimum common-reference count"
+  },
+  "prospective_guard": {
+    "candidate_specific_rule_changes_after_v056": false,
+    "forbidden_outcome_paths": [
+      "results/wide_census_detector_execution_v056.json",
+      "results/wide_census_detector_candidates_v056.csv",
+      "results/wide_census_pair_raw_match_summary_v056.csv",
+      "results/wide_census_pair_raw_matches_v056.csv"
+    ],
+    "threshold_retuning_after_v056": false,
+    "v056_outcome_files_read_by_this_freeze": false
+  },
+  "purpose": "Operationalise candidate_adjudication_policy_v002 over the full robust wide-census detector subset before inspecting the completed v056 raw-match outcome.",
+  "raw_candidate_inventory": {
+    "do_not_filter_on": [
+      "SNR",
+      "polarity",
+      "morphology",
+      "catalogue proximity",
+      "pair family",
+      "candidate density",
+      "whether another raw match shares an endpoint"
+    ],
+    "include_every_row_at_or_below_arcsec": 10.0,
+    "pre_adjudication_exclusions": [],
+    "raw_coordinate_coincidence_is_not_source_identity": true,
+    "raw_separation_must_not_determine_processing_inclusion": true,
+    "source_after_completion": "results/wide_census_pair_raw_matches_v056.csv",
+    "stable_processing_order": [
+      "pair_index ascending",
+      "endpoint_a tile_id lexicographic",
+      "endpoint_a candidate_index ascending",
+      "endpoint_b tile_id lexicographic",
+      "endpoint_b candidate_index ascending"
+    ],
+    "strict_flag_arcsec": 3.0
+  },
+  "recurrence_and_sensitivity": {
+    "comparison_exposure_priority": "nearest adequate preceding and subsequent same-field exposures from the same observing system; independent archives may add corroboration",
+    "copies_or_scans_same_physical_plate_are_independent_recurrence": false,
+    "negative_evidence_requires": [
+      "adequate local background/noise characterization",
+      "local candidate-coordinate SNR or forced measurement",
+      "nearby comparison-star recovery",
+      "equivalent-source injection/recovery or empirically equivalent completeness test",
+      "plate/scan provenance and usable-region status"
+    ],
+    "non_detection_without_sensitivity_is_negative": false,
+    "required_for_unexplained_common_sky_survivors": true
+  },
+  "source_policies": {
+    "candidate_adjudication_policy_v001": {
+      "path": "config/candidate_adjudication_policy_v001.json",
+      "raw_local_sha256": "a42be953f8162520de83f3b9d4e7e8f9cf2935d9a78b7b743de267107bea3af5",
+      "role": "pre-Match3-outcome operational details and windows",
+      "sha256": "a42be953f8162520de83f3b9d4e7e8f9cf2935d9a78b7b743de267107bea3af5",
+      "sha256_kind": "newline_normalized_text"
+    },
+    "candidate_adjudication_policy_v002": {
+      "path": "config/candidate_adjudication_policy_v002.json",
+      "raw_local_sha256": "3fc40ebab3b9e3c6e846d39f0c71abefb84a2994dde0a7692707aa9e9154dca7",
+      "role": "post-validation generic governing policy",
+      "sha256": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+      "sha256_kind": "newline_normalized_text"
+    }
+  },
+  "sparse_fallback": {
+    "confidence": "DIAGNOSTIC_ONLY",
+    "higher_order_fit": false,
+    "maximum_window_arcmin": 30.0,
+    "minimum_independent_references_per_archive": 3,
+    "mismatch_pair_closure_requires": "leave-one-reference-out robustness on sparse side(s), with every trial remaining outside the strict 3 arcsec gate; also report the 5 arcsec result",
+    "model": "independent_per_archive_translation_only_median_against_epoch_propagated_Gaia",
+    "reference_acquisition_arcsec": 15.0,
+    "reference_clipping": false,
+    "science_exclusion_arcsec": 30.0,
+    "sparse_solution_must_not_be_reported_as_primary_confidence": true,
+    "trigger": "primary common-reference solution has fewer than 5 references at 30 arcmin"
+  },
+  "state_and_review": {
+    "do_not_delete_closed_candidates": true,
+    "manual_review_cannot_change_frozen_thresholds": true,
+    "manual_review_only_after_mechanical_explanations_exhausted": true,
+    "pair_closure_does_not_close_individual_endpoints": true,
+    "parallax_aware_search_is_separate_hypothesis_branch": true,
+    "preserve_frozen_measurements": true
+  },
+  "status": "FROZEN_PROSPECTIVE_BEFORE_V056_OUTCOME"
+}

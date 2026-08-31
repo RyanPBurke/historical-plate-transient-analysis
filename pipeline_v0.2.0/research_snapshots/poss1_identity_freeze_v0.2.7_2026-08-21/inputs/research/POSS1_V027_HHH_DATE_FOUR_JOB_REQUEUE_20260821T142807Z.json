@@ -1,0 +1,51 @@
+{
+  "checkpoint_backup": {
+    "path": "state\\poss1_identity_prospective.pre_v027_hhh_date_requeue_20260821T142807Z.sqlite",
+    "sha256": "3117deea67e278eb2489260054b13a3a87e2c42bcf3c0619369556858c67f538"
+  },
+  "created_at_utc": "2026-08-21T14:28:07.294310+00:00",
+  "detector_execution": false,
+  "methodological_policy": "HHH calendar date must equal either VI/25 initial observing-night date or the authoritative normalized UTC exposure-start date; no arbitrary +/-1-day tolerance.",
+  "pre_migration_counts": {
+    "failed_terminal": 4,
+    "succeeded": 27
+  },
+  "reason": "Four SkyView fallback jobs were terminal solely because the old HHH DATE-OBS gate required equality with VI/25 initial observing-night date. Reviewed pixel-equivalent controls and VI/25 timestamp normalization establish two supported historical encodings: initial observing-night date or normalized UTC exposure date.",
+  "reviewed_rows": [
+    {
+      "attempts": 6,
+      "job_key": "POSS-I:782:E:rec514",
+      "last_error": "terminal_error: ValueError: SkyView HHH observing-date mismatch for XE513: '1953-08-13' != VI/25 '1953-08-12'",
+      "status": "failed_terminal"
+    },
+    {
+      "attempts": 6,
+      "job_key": "POSS-I:872:O:rec148",
+      "last_error": "terminal_error: ValueError: SkyView HHH observing-date mismatch for XO147: '1953-10-29' != VI/25 '1953-10-28'",
+      "status": "failed_terminal"
+    },
+    {
+      "attempts": 6,
+      "job_key": "POSS-I:875:E:rec521",
+      "last_error": "terminal_error: ValueError: SkyView HHH observing-date mismatch for XE520: '1953-10-31' != VI/25 '1953-10-30'",
+      "status": "failed_terminal"
+    },
+    {
+      "attempts": 6,
+      "job_key": "POSS-I:876:E:rec239",
+      "last_error": "terminal_error: ValueError: SkyView HHH observing-date mismatch for XE238: '1953-10-31' != VI/25 '1953-10-30'",
+      "status": "failed_terminal"
+    }
+  ],
+  "source_hashes": {
+    "src\\transient_pipeline\\poss1.py": "6161a74d5ce76f70235c66a748077b3517f7d2d7946e9f48998927c331374ac7",
+    "src\\transient_pipeline\\poss1_skyview.py": "22470c1956e6b0ddb885d51092aa0a30dd322bfc1d48c6b49bcd0ed3620a732e"
+  },
+  "stage": "poss1-identity:prospective_production",
+  "target_job_keys": [
+    "POSS-I:782:E:rec514",
+    "POSS-I:872:O:rec148",
+    "POSS-I:875:E:rec521",
+    "POSS-I:876:E:rec239"
+  ]
+}

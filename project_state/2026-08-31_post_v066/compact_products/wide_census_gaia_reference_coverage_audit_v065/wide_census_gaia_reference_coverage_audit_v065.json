@@ -1,0 +1,46 @@
+{
+  "analysis_kind": "wide_census_gaia_reference_domain_coverage_audit_v065",
+  "completed_at_utc": "2026-08-31T10:14:00.303231+00:00",
+  "coverage_correction": {
+    "corrected_ordinary_margin_arcsec": 125.4,
+    "corrected_pair_hpm_queries": 33,
+    "global_new_full_cells_required": 6980,
+    "global_required_candidate_cells": 12398,
+    "global_required_cells_already_acquired_v064": 5418,
+    "old_ordinary_margin_arcsec": 120.0,
+    "reference_candidate_domain_radius_arcmin": 30.25,
+    "supplemental_existing_leaf_annulus_queries": 6651,
+    "supplemental_new_full_base_queries": 6980,
+    "total_supplemental_ordinary_queries_before_any_maxrec_subdivision": 13631,
+    "worst_epoch_delta_years": 64.91886641620403
+  },
+  "freeze_v002": {
+    "path": "research/prospective_freezes/wide_census_gaia_reference_acquisition_contract_v002.json",
+    "sha256": "458a043dfbdda8dbb853cbae77c269ff17a586c0ddb2fdcf7ac0388ee57ab3fc"
+  },
+  "guards": {
+    "astrometric_registration_run": false,
+    "candidate_state_mutation": false,
+    "gaia_source_rows_read": 0,
+    "network_access": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "input_sha256": {
+    "candidate_coordinates": "d6e339b0ee1636b4a9dc2fdabf160ecd07f5a072ba22bbc3705bed4787890293",
+    "global_query_plan_v063a": "b29960e824ceca53b4de92aee6fb217d8d898b6ec3ada684855fe814d863989f",
+    "pair_plan": "10b0bb33d7ce43536267a0a16bc7f1b1fcb1f4b823078939454ab7f505af1a10",
+    "raw_matches": "f99cde6fba869944c58dbdb5bb360f59daca8412d4cf6173a1c5de8397a4f506",
+    "v001_freeze": "7a182349455a814423d68411d49aa7640dacdbe8dd6bafd5a5ec747c64b097fc",
+    "v063": "e9dd532ba3e1c7d8e05a7ce4aba070b94683ac29bb5821e7c1ad76c46d7d9bad",
+    "v064": "96b59544503a33b419ca062893e80e2cc42f02490bca2490bc38ae0bd52c776b"
+  },
+  "interpretation_boundary": "No Gaia source row or registration outcome was inspected; this stage only repairs acquisition completeness.",
+  "next_stage": "Execute the checkpointed v066 supplemental Gaia acquisition, then begin pair-wise offline deduplication, epoch propagation and frozen primary/sparse registration.",
+  "status": "COMPLETE",
+  "verified": {
+    "candidate_rows": 5083325,
+    "pairs": 33,
+    "raw_matches": 512788
+  }
+}

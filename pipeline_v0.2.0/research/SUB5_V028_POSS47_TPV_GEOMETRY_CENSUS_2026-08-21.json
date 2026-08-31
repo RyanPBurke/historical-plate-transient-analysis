@@ -1,0 +1,28 @@
+{
+  "dasch_mosaic_pixels_downloaded": false,
+  "dense_grid_n": 65,
+  "dense_grid_points_per_plate": 4225,
+  "detector_run": false,
+  "geometry_state_counts": {
+    "BLOCKED_POSS_ARCHIVE_UNAVAILABLE_NOT_A_NONDETECTION": 3,
+    "FULL_POSS_FOOTPRINT_DENSELY_SAMPLED_INSIDE_DASCH": 32,
+    "NO_SAMPLED_INTERSECTION_REQUIRES_REVIEW": 4,
+    "PARTIAL_COMMON_FOOTPRINT_REQUIRES_EXACT_BOUNDARY": 8
+  },
+  "inputs": {
+    "canonical_sha256": "58529e1d4de46f3c49865a89454d1cd488ee23ec920b01250006f2180d2ed99a",
+    "native10_sha256": "e4b07846ded7e7311ab5de884ba610968df2f8020d60edbc3ca2b48851da7a09",
+    "pair_map_sha256": "bcce46a8b72c72822ec245dbec530424ae06152bafe06c5487e0a8523dd1a0d5",
+    "poss1_skyview_sha256": "22470c1956e6b0ddb885d51092aa0a30dd322bfc1d48c6b49bcd0ed3620a732e",
+    "skyview_jar_sha256": "2b949f68d73899cd63b2f600f60f6c5dfd1795532ed29b6ea986f71f83d36afe"
+  },
+  "old_full_overlap_disagreements": [
+    73
+  ],
+  "operation": "v028_poss47_distortion_geometry_census",
+  "output_csv": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research\\SUB5_V028_POSS47_TPV_GEOMETRY_CENSUS_2026-08-21.csv",
+  "output_csv_sha256": "97c205d0260601aeff4be7c866700c0313e22f361318d8320b0e503e9052ae81",
+  "poss_pair_rows": 47,
+  "recorded_at_utc": "2026-08-21T20:34:15.230249+00:00",
+  "science_pixels_processed": false
+}

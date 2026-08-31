@@ -1,0 +1,50 @@
+{
+  "contract_id": "wide_census_gaia_reference_acquisition_contract_v001",
+  "created_at_utc": "2026-08-29T18:21:45.673150+00:00",
+  "gaia": {
+    "epoch": "midpoint of each pair's authoritative physical overlap interval",
+    "hpm_rescue_j2016_coverage_arcsec": 900.0,
+    "hpm_rescue_min_masyr": 1700.0,
+    "ordinary_j2016_coverage_arcsec": 120.0,
+    "propagation": "proper motion to registration epoch; include distance/RV perspective terms when physically usable; conservative PM-only fallback",
+    "release": "DR3",
+    "table": "gaiadr3.gaia_source"
+  },
+  "interpretation_boundary": "This contract freezes query/caching mechanics only. Gaia association and astrometric outcomes have not been read. Transport subdivision is not a scientific decision and cannot promote/reject a candidate.",
+  "offline_reference_construction": {
+    "match_each_archive_independently": true,
+    "matching": "reciprocal-nearest detector-candidate <-> epoch-propagated Gaia within 15 arcsec",
+    "no_outcome_based_pruning": true,
+    "per_target_exclusion": "exclude the target raw endpoints and any reference Gaia/source within 30 arcsec of the target midpoint before selecting local 5/10/20/30 arcmin window",
+    "primary_reference": "same Gaia source_id matched independently in both archives",
+    "sparse_trigger": "<5 primary common references at 30 arcmin",
+    "window_choice": "smallest 5/10/20/30 arcmin window containing >=5 primary references"
+  },
+  "purpose": "Scalable Gaia DR3 reference acquisition for the already-frozen candidate-independent primary/sparse astrometric registration.",
+  "science_parameters_unchanged": {
+    "minimum_common_same_gaia_references": 5,
+    "primary_fit": "translation-only median; no clipping; no higher-order fit",
+    "reference_acquisition_arcsec": 15.0,
+    "reference_windows_arcmin": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "science_exclusion_arcsec": 30.0,
+    "sparse_confidence": "diagnostic_only",
+    "sparse_minimum_references_per_archive": 3
+  },
+  "science_policy_source": {
+    "v057_sha256": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+    "v061_execution_plan_sha256": "08330cb1c1693e1b40cfb7e41dd35abe721206df3a6437511cb0e642e6b5bfd3"
+  },
+  "transport_partition": {
+    "base_cell_deg": 0.25,
+    "candidate_domain": "occupied cells are generated from all <=10 arcsec raw-match midpoints; no SNR/polarity/morphology/catalogue pruning",
+    "hpm_query_geometry": "one high-PM pair-level cone containing every raw-match midpoint plus 900 arcsec; deduplicate by Gaia source_id",
+    "maxrec": 50000,
+    "maxrec_recovery": "recursively quarter only the affected transport cell until response is below MAXREC or cell size reaches 0.03125 deg; no science threshold changes",
+    "ordinary_query_geometry": "one Gaia cone per occupied raw-match-midpoint cell; cone radius is spherical farthest cell corner plus 120 arcsec"
+  }
+}

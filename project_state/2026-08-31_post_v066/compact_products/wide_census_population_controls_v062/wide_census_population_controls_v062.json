@@ -1,0 +1,83 @@
+{
+  "analysis_kind": "wide_census_population_controls_v062",
+  "completed_at_utc": "2026-08-29T17:44:02.654665+00:00",
+  "global_control_distribution": {
+    "le_10arcsec": {
+      "max": 192771.0,
+      "mean": 190525.9375,
+      "median": 190353.0,
+      "min": 187989.0,
+      "n": 16,
+      "stdev": 1287.1497954136237
+    },
+    "le_3arcsec": {
+      "max": 17712.0,
+      "mean": 17165.5,
+      "median": 17120.5,
+      "min": 16778.0,
+      "n": 16,
+      "stdev": 236.46451460349536
+    },
+    "observed_to_control10_mean_ratio": 2.6914340731166853,
+    "observed_to_control3_mean_ratio": 10.80842387346713
+  },
+  "guards": {
+    "automation_registry_mutation": false,
+    "candidate_state_mutation": false,
+    "geometry_state_mutation": false,
+    "network_access": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "inputs_sha256": {
+    "candidate_csv": "d6e339b0ee1636b4a9dc2fdabf160ecd07f5a072ba22bbc3705bed4787890293",
+    "pair_plan": "10b0bb33d7ce43536267a0a16bc7f1b1fcb1f4b823078939454ab7f505af1a10",
+    "pair_summary": "52dafd68a7cd928b1f580adb7218507b16fcfb8ce26861f272802837bf425bad",
+    "v056_report": "77b0ead820e0e23854ccabe82240193374cba4658233c0e9c98b28695e3039ce",
+    "v057": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+    "v061_plan": "08330cb1c1693e1b40cfb7e41dd35abe721206df3a6437511cb0e642e6b5bfd3"
+  },
+  "interpretation_boundary": "Shifted controls estimate population-level local coincidence structure only. An observed excess or null does not promote, reject or close any individual candidate. Astrometric registration and candidate-level static/morphology/recurrence adjudication remain separate frozen stages.",
+  "method": {
+    "candidate_denominator": "fixed endpoint_b candidates selected inside common polygon before shift; no outside candidates are introduced",
+    "directions": [
+      "N",
+      "NE",
+      "E",
+      "SE",
+      "S",
+      "SW",
+      "W",
+      "NW"
+    ],
+    "gates_arcsec": [
+      3.0,
+      10.0
+    ],
+    "neighbor_counter": "scipy.spatial.cKDTree on unit-sphere chord distance",
+    "observed_candidate_domain": "exact same per-pair common_polygon membership as v056",
+    "radii_arcsec": [
+      60.0,
+      120.0
+    ],
+    "shift_model": "exact great-circle directional offset",
+    "shifted_endpoint": "endpoint_b",
+    "unshifted_exact_reproduction_required": true
+  },
+  "outputs": {
+    "control_rows": "results/wide_census_population_controls_v062/wide_census_population_controls_v062.csv",
+    "global_summary": "results/wide_census_population_controls_v062/wide_census_population_control_global_summary_v062.csv",
+    "pair_summary": "results/wide_census_population_controls_v062/wide_census_population_control_pair_summary_v062.csv"
+  },
+  "pairs_with_uninformative_detector_coverage": 2,
+  "prospective_contract": {
+    "v057_sha256": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+    "v061_execution_plan_sha256": "08330cb1c1693e1b40cfb7e41dd35abe721206df3a6437511cb0e642e6b5bfd3"
+  },
+  "status": "COMPLETE",
+  "verified_observed": {
+    "pair_count": 33,
+    "raw_le_10arcsec": 512788,
+    "raw_le_3arcsec": 185532
+  }
+}

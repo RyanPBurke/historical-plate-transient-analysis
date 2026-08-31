@@ -1,0 +1,19 @@
+{
+  "applause_datalink_done": 39,
+  "applause_datalink_total": 39,
+  "applause_endpoint_count": 39,
+  "attempts": {},
+  "capacity_pass": false,
+  "dasch_endpoint_count": 14,
+  "file_resolution_repair_3": {
+    "cleared_attempt_keys": 30,
+    "cleared_terminal_keys": 30,
+    "failed_cache_preserved_at": "patch_backups/pre_v054_file_resolution_fix3_20260828T200602Z/failed_html_datalink_cache",
+    "new_method": "DIRECT /files/<filename_scan> + bounded first FITS-header-block Range probe",
+    "reason": "Human HTML datalink pages yielded zero href-parsed FITS links; DR4 scan.filename_scan is itself the repository-relative scan path."
+  },
+  "last_error": null,
+  "status": "COMPLETE",
+  "terminal": {},
+  "unique_tile_count": 6293
+}

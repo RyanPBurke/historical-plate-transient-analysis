@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: historical-transient-pipeline
+Version: 0.2.6
+Summary: Restart-safe frozen-method pipeline for cross-observatory historical plate transient analysis
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.0
+Requires-Dist: scipy>=1.11
+Requires-Dist: astropy>=6.0
+Requires-Dist: requests>=2.31

@@ -1,0 +1,17 @@
+{
+  "analysis_kind": "wide_census_postdetector_adjudication_freeze_v057",
+  "contract_path": "research/prospective_freezes/wide_census_postdetector_adjudication_contract_v001.json",
+  "contract_sha256": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+  "frozen_at_utc": "2026-08-29T14:24:00.681387+00:00",
+  "guards": {
+    "candidate_state_mutation": false,
+    "network_access": false,
+    "non_science_pixels_read": false,
+    "policy_hash_guard": "newline_normalized_text_LF_CRLF_equivalent",
+    "science_pixels_read": false,
+    "transient_detector_rerun": false,
+    "v056_outcome_read": false
+  },
+  "interpretation": "The post-detector adjudication logic is frozen before reading completed v056 candidate outcomes. Later automation may implement this contract but may not change its thresholds or candidate-inclusion rules in response to v056 results.",
+  "status": "COMPLETE"
+}

@@ -1,0 +1,38 @@
+{
+  "analysis_kind": "wide_census_cached_gaia_dr3_acquisition_v064",
+  "cache_semantics": "Gaia DR3 J2016 response bytes are transport evidence and may be reused by multiple pairs. Pair-specific propagation and astrometric fitting are deferred.",
+  "guards": {
+    "astrometric_registration_run": false,
+    "candidate_state_mutation": false,
+    "network_access": true,
+    "science_pixels_read": false,
+    "science_policy_changed": false,
+    "transient_detector_rerun": false
+  },
+  "individual_candidate_dispositions": "NONE",
+  "inputs": {
+    "hpm_plan_sha256": "34f1a505117c28f961f597352a73dbffc442e0cffed6cab10e55c84a566b8dbe",
+    "ordinary_plan_sha256": "b29960e824ceca53b4de92aee6fb217d8d898b6ec3ada684855fe814d863989f",
+    "v063_freeze_sha256": "7a182349455a814423d68411d49aa7640dacdbe8dd6bafd5a5ec747c64b097fc",
+    "v063a_audit_sha256": "95d41d9d07f292a9f517c99a411171de2dac51766f610430384c3b8e648671a3"
+  },
+  "next_stage": "After COMPLETE, build per-pair epoch-propagated Gaia pools and execute the prospectively frozen target-independent primary/sparse registration offline.",
+  "progress": {
+    "hpm_cached_rows": 7,
+    "hpm_complete": 24,
+    "hpm_total": 24,
+    "new_network_calls_this_invocation": 2366,
+    "ordinary_base_complete": 5418,
+    "ordinary_base_total": 5418,
+    "ordinary_cached_rows_including_overlap": 111593914,
+    "ordinary_resolved_leaf_queries": 6651
+  },
+  "resume_performance_fix": {
+    "change": "one startup cache scan plus bounded checkpoint scans; removed per-plan-row full-cache rescans",
+    "science_or_transport_semantics_changed": false,
+    "version": "v064_fix1"
+  },
+  "science_positives": 0,
+  "status": "COMPLETE",
+  "updated_at_utc": "2026-08-31T04:03:42.463737+00:00"
+}

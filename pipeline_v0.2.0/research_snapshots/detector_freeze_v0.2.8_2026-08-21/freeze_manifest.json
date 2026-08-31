@@ -1,0 +1,65 @@
+{
+  "created_at_utc": "2026-08-21T17:51:24.481749+00:00",
+  "detector_source_sha256": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+  "files": [
+    {
+      "bytes": 304,
+      "sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+      "snapshot_path": "config/frozen_method.json",
+      "source": "config/frozen_method.json"
+    },
+    {
+      "bytes": 7581,
+      "sha256": "fa244be73a15c140886919dc7ba4a7458b1208320082c41bc067a4343d741c22",
+      "snapshot_path": "conformance/detector_conformance.json",
+      "source": "<generated>"
+    },
+    {
+      "bytes": 11222,
+      "sha256": "9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700",
+      "snapshot_path": "protocol/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md",
+      "source": "protocol/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md"
+    },
+    {
+      "bytes": 26227,
+      "sha256": "4ed68300baef88b540dddc4999090722695b85b9620c4cd4a506625b11b25199",
+      "snapshot_path": "provenance/POSS1_V028_PIXEL_PROVENANCE_RECONCILIATION_2026-08-21.json",
+      "source": "research/POSS1_V028_PIXEL_PROVENANCE_RECONCILIATION_2026-08-21.json"
+    },
+    {
+      "bytes": 9792,
+      "sha256": "56025ac7d0686be332fb0590411d097f642d668cd36c26c8ceb2f97924f9d36e",
+      "snapshot_path": "provenance/poss1_identity_v028_freeze_manifest.json",
+      "source": "research_snapshots/poss1_identity_freeze_v0.2.8_2026-08-21/freeze_manifest.json"
+    },
+    {
+      "bytes": 671,
+      "sha256": "bd8f9e7ed25bfd4f83c4fe90f94a7ae459cca8bca6c0418fab2d65adb77459fe",
+      "snapshot_path": "source/transient_pipeline/config.py",
+      "source": "src/transient_pipeline/config.py"
+    },
+    {
+      "bytes": 3389,
+      "sha256": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+      "snapshot_path": "source/transient_pipeline/detector.py",
+      "source": "src/transient_pipeline/detector.py"
+    },
+    {
+      "bytes": 754,
+      "sha256": "245bfdc09b80707585d834e6e1b416001a63e7c63a5aaaa2f574631e56955023",
+      "snapshot_path": "tests/test_detector_array.py",
+      "source": "tests/test_detector_array.py"
+    }
+  ],
+  "frozen_method_sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+  "identity_manifest_sha256": "56025ac7d0686be332fb0590411d097f642d668cd36c26c8ceb2f97924f9d36e",
+  "identity_snapshot_id": "8dc070b9df3febaa5db3585408e1fe88e9b3b9d71d436ddba16a71081b066d0e",
+  "project_root_at_capture": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0",
+  "protocol_sha256": "9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700",
+  "purpose": "freeze exact 4-sigma detector implementation and method before clean <=5-minute science execution",
+  "science_pixel_detector_runs_during_freeze": 0,
+  "snapshot_format": 1,
+  "snapshot_id": "e3a9b42eaf58027171bb5449533e8bc413672acae7881d9641884363fb2aef7a",
+  "synthetic_conformance": "passed",
+  "version": "0.2.8"
+}

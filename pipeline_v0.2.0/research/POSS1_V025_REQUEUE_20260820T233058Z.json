@@ -1,0 +1,207 @@
+{
+  "allowed_error_prefixes": [
+    "terminal_error: ValueError: VI/25 MLP/recno mismatch prevents deterministic DSS region mapping:",
+    "terminal_error: ValueError: SkyView descriptor center mismatch for",
+    "terminal_error: ValueError: SkyView HHH center mismatch for",
+    "terminal_error: ValueError: SkyView descriptor expected exactly one image for XO197, got 0"
+  ],
+  "archive_exception_validation": {
+    "path": "research\\POSS1_XO197_ARCHIVE_EXCEPTION_VALIDATION_v0.2.5.json",
+    "sha256": "c0084f8ff8bdea8deaf48c278b34934f8b47381c805d18748a7ca8747db35599"
+  },
+  "backup_db": "state\\poss1_identity_prospective.pre_v025_requeue_20260820T233058Z.sqlite",
+  "backup_db_sha256": "ded2e7c1c6d99a1cd6b066f45e2a8a139e8ac07c3a771004291d54c4e4927a14",
+  "created_at_utc": "2026-08-20T23:30:58.337209+00:00",
+  "pre_counts": {
+    "failed_terminal": 26,
+    "succeeded": 5
+  },
+  "reason": "Requeue 26 v0.2.3 terminal rows after v0.2.4/v0.2.5 implementation review. Twenty-five were invalid identity gates; XO197 is requeued so v0.2.5 can record it as an archive-pixels-unavailable workflow completion if STScI remains unavailable and SkyView still lacks the region.",
+  "rows": [
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:1024:E:rec742",
+      "last_error": "terminal_error: ValueError: VI/25 MLP/recno mismatch prevents deterministic DSS region mapping: MLP=743 recno=742",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:28:17.856480+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:1102:E:rec140",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE139: 76.764 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:28:38.783388+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:1103:E:rec397",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE396: 118.864 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:29:00.409006+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:1405:O:rec616",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO615: 338.961 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:29:21.254435+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:236:O:rec425",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO424: 136.946 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:29:42.081984+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:293:E:rec754",
+      "last_error": "terminal_error: ValueError: VI/25 MLP/recno mismatch prevents deterministic DSS region mapping: MLP=755 recno=754",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:30:02.139138+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:297:O:rec635",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO634: 167.346 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:30:23.118861+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:305:O:rec637",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO636: 129.996 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:30:44.938406+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:314:E:rec646",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE645: 146.808 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:31:05.796988+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:320:E:rec463",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE462: 308.747 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:31:26.672865+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:340:E:rec231",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE230: 194.374 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:31:47.513121+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:413:E:rec297",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE296: 180.502 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:32:09.700475+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:415:O:rec479",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO478: 147.916 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:32:30.530319+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:445:E:rec481",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE480: 431.689 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:33:02.815377+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:449:O:rec198",
+      "last_error": "terminal_error: ValueError: SkyView descriptor expected exactly one image for XO197, got 0",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:33:23.678886+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:500:E:rec679",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE678: 367.059 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:33:44.574821+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:533:O:rec187",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO186: 436.710 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:34:07.282702+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:558:O:rec517",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO516: 32.870 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:34:28.116737+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:782:E:rec514",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE513: 262.517 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:34:48.996242+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:832:E:rec760",
+      "last_error": "terminal_error: ValueError: VI/25 MLP/recno mismatch prevents deterministic DSS region mapping: MLP=761 recno=760",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:35:09.042093+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:872:O:rec148",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO147: 247.280 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:35:30.125159+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:875:E:rec521",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE520: 105.640 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:35:51.052084+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:876:E:rec239",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE238: 245.551 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:36:11.915255+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:976:E:rec492",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XE491: 346.052 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:36:32.961297+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:985:E:rec726",
+      "last_error": "terminal_error: ValueError: VI/25 MLP/recno mismatch prevents deterministic DSS region mapping: MLP=727 recno=726",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:36:53.014499+00:00"
+    },
+    {
+      "attempts": 3,
+      "job_key": "POSS-I:989:O:rec258",
+      "last_error": "terminal_error: ValueError: SkyView descriptor center mismatch for XO257: 233.939 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T21:37:13.874968+00:00"
+    }
+  ],
+  "science_analysis_performed": false,
+  "source_db": "state\\poss1_identity_prospective.sqlite",
+  "stage": "poss1-identity:prospective_production"
+}

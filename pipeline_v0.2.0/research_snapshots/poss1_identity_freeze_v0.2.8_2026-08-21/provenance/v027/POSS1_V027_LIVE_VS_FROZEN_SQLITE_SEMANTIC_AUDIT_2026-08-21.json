@@ -1,0 +1,126 @@
+{
+  "frozen": {
+    "bytes": 299008,
+    "file_sha256": "aba436d1fead8c53b7e00422591c8b16d741379fd5ce24e5fa79c52d61bdfad2",
+    "integrity_check": [
+      "ok"
+    ],
+    "path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research_snapshots\\poss1_identity_freeze_v0.2.7_2026-08-21\\inputs\\state\\poss1_identity_prospective.sqlite",
+    "pragmas": {
+      "application_id": 0,
+      "auto_vacuum": 0,
+      "encoding": "UTF-8",
+      "foreign_keys": 0,
+      "freelist_count": 1,
+      "journal_mode": "wal",
+      "page_count": 73,
+      "page_size": 4096,
+      "schema_version": 1,
+      "user_version": 0
+    },
+    "quick_check": [
+      "ok"
+    ],
+    "schema": [
+      {
+        "name": "idx_jobs_stage_status",
+        "sql": "CREATE INDEX idx_jobs_stage_status ON jobs(stage, status)",
+        "table": "jobs",
+        "type": "index"
+      },
+      {
+        "name": "idx_stage_runs_stage",
+        "sql": "CREATE INDEX idx_stage_runs_stage ON stage_runs(stage, started_at)",
+        "table": "stage_runs",
+        "type": "index"
+      },
+      {
+        "name": "jobs",
+        "sql": "CREATE TABLE jobs (\n                    job_key TEXT PRIMARY KEY,\n                    stage TEXT NOT NULL,\n                    status TEXT NOT NULL,\n                    attempts INTEGER NOT NULL DEFAULT 0,\n                    payload_json TEXT NOT NULL,\n                    result_json TEXT,\n                    last_error TEXT,\n                    created_at TEXT NOT NULL,\n                    updated_at TEXT NOT NULL\n                )",
+        "table": "jobs",
+        "type": "table"
+      },
+      {
+        "name": "stage_runs",
+        "sql": "CREATE TABLE stage_runs (\n                    run_id TEXT PRIMARY KEY,\n                    stage TEXT NOT NULL,\n                    started_at TEXT NOT NULL,\n                    finished_at TEXT,\n                    invocation_json TEXT NOT NULL,\n                    context_json TEXT NOT NULL,\n                    final_summary_json TEXT\n                )",
+        "table": "stage_runs",
+        "type": "table"
+      }
+    ]
+  },
+  "layout_pragma_differences": {
+    "schema_version": {
+      "frozen": 1,
+      "live": 4
+    }
+  },
+  "live": {
+    "bytes": 299008,
+    "file_sha256": "d1e3684540523909ef296185b81bd1f97e7909a91515759ea5ae9dc7d2edf5c4",
+    "integrity_check": [
+      "ok"
+    ],
+    "path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\state\\poss1_identity_prospective.sqlite",
+    "pragmas": {
+      "application_id": 0,
+      "auto_vacuum": 0,
+      "encoding": "UTF-8",
+      "foreign_keys": 0,
+      "freelist_count": 1,
+      "journal_mode": "wal",
+      "page_count": 73,
+      "page_size": 4096,
+      "schema_version": 4,
+      "user_version": 0
+    },
+    "quick_check": [
+      "ok"
+    ],
+    "schema": [
+      {
+        "name": "idx_jobs_stage_status",
+        "sql": "CREATE INDEX idx_jobs_stage_status ON jobs(stage, status)",
+        "table": "jobs",
+        "type": "index"
+      },
+      {
+        "name": "idx_stage_runs_stage",
+        "sql": "CREATE INDEX idx_stage_runs_stage ON stage_runs(stage, started_at)",
+        "table": "stage_runs",
+        "type": "index"
+      },
+      {
+        "name": "jobs",
+        "sql": "CREATE TABLE jobs (\n                    job_key TEXT PRIMARY KEY,\n                    stage TEXT NOT NULL,\n                    status TEXT NOT NULL,\n                    attempts INTEGER NOT NULL DEFAULT 0,\n                    payload_json TEXT NOT NULL,\n                    result_json TEXT,\n                    last_error TEXT,\n                    created_at TEXT NOT NULL,\n                    updated_at TEXT NOT NULL\n                )",
+        "table": "jobs",
+        "type": "table"
+      },
+      {
+        "name": "stage_runs",
+        "sql": "CREATE TABLE stage_runs (\n                    run_id TEXT PRIMARY KEY,\n                    stage TEXT NOT NULL,\n                    started_at TEXT NOT NULL,\n                    finished_at TEXT,\n                    invocation_json TEXT NOT NULL,\n                    context_json TEXT NOT NULL,\n                    final_summary_json TEXT\n                )",
+        "table": "stage_runs",
+        "type": "table"
+      }
+    ]
+  },
+  "operation": "read_only_v027_sqlite_semantic_equivalence_audit",
+  "science_analysis_performed": false,
+  "semantic_database_equivalence": true,
+  "semantic_pragma_differences": {},
+  "table_differences": {},
+  "table_summary": {
+    "jobs": {
+      "frozen_rows": 31,
+      "frozen_semantic_sha256": "68f921fe62040ab282fef63ffddb4c6b834eabf6ca922357d77fee20b4238a8d",
+      "live_rows": 31,
+      "live_semantic_sha256": "68f921fe62040ab282fef63ffddb4c6b834eabf6ca922357d77fee20b4238a8d"
+    },
+    "stage_runs": {
+      "frozen_rows": 9,
+      "frozen_semantic_sha256": "c690e47ff821049634494bae08e018c0734a79a90ebb02e915d3cefef571ec90",
+      "live_rows": 9,
+      "live_semantic_sha256": "c690e47ff821049634494bae08e018c0734a79a90ebb02e915d3cefef571ec90"
+    }
+  },
+  "transient_detector_run": false
+}

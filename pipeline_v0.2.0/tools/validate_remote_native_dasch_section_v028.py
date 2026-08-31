@@ -1,0 +1,538 @@
+﻿from __future__ import annotations
+
+from pathlib import Path
+from urllib.request import Request, urlopen
+from datetime import datetime, timezone
+import hashlib
+import json
+
+import numpy as np
+import fsspec
+import astropy
+from astropy.io import fits
+
+
+ROOT = Path.cwd()
+
+API = (
+    "https://api.starglass.cfa.harvard.edu/"
+    "public/dasch/dr7/mosaic_package"
+)
+
+PLATE = "ai44092"
+BINNING = 1
+
+# One realistic future detector neighbourhood.
+SIZE = 1152
+
+WORK = (
+    ROOT / "work" /
+    "dasch_native_remote_section_v028"
+)
+
+REPORT = (
+    ROOT / "research" /
+    "DASCH_NATIVE_REMOTE_SECTION_CONTROL_2026-08-21.json"
+)
+
+
+def arr_sha(a):
+    c = np.ascontiguousarray(a)
+
+    h = hashlib.sha256()
+
+    h.update(
+        str(c.dtype).encode("ascii")
+    )
+
+    h.update(
+        repr(c.shape).encode("ascii")
+    )
+
+    h.update(
+        c.tobytes()
+    )
+
+    return h.hexdigest()
+
+
+WORK.mkdir(
+    parents=True,
+    exist_ok=True,
+)
+
+
+# ------------------------------------------------------------
+# Fresh presigned URL for the full-resolution mosaic.
+# ------------------------------------------------------------
+
+payload = json.dumps({
+    "plate_id": PLATE,
+    "binning": BINNING,
+}).encode("utf-8")
+
+
+req = Request(
+    API,
+    data=payload,
+    method="POST",
+    headers={
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "User-Agent":
+            "historical-transient-pipeline/"
+            "0.2.8-native-dasch-test",
+    },
+)
+
+
+with urlopen(
+    req,
+    timeout=120,
+) as response:
+
+    package = json.loads(
+        response.read().decode("utf-8")
+    )
+
+
+url = package.get(
+    "baseFitsUrl"
+)
+
+object_size = int(
+    package.get(
+        "baseFitsSize",
+        0,
+    )
+)
+
+
+if not url:
+    raise SystemExit(
+        "REFUSING: no baseFitsUrl returned."
+    )
+
+
+if object_size < 10_000_000:
+    raise SystemExit(
+        "REFUSING: implausibly small "
+        "full-resolution DASCH mosaic."
+    )
+
+
+# ------------------------------------------------------------
+# Open remotely.
+#
+# Important:
+# - use_fsspec=True
+# - lazy HDUs
+# - .section, NEVER .data
+#
+# This is what allows range/tile access rather than downloading
+# the whole ~GB plate.
+# ------------------------------------------------------------
+
+with fits.open(
+    url,
+    use_fsspec=True,
+    lazy_load_hdus=True,
+    fsspec_kwargs={
+        "block_size":
+            4 * 1024 * 1024,
+
+        "cache_type":
+            "readahead",
+    },
+) as hdul:
+
+    candidates = []
+
+    for index, hdu in enumerate(
+        hdul
+    ):
+        shape = getattr(
+            hdu,
+            "shape",
+            None,
+        )
+
+        if (
+            shape
+            and len(shape) == 2
+            and shape[0] > SIZE
+            and shape[1] > SIZE
+        ):
+            candidates.append(
+                (
+                    index,
+                    hdu,
+                )
+            )
+
+
+    if len(candidates) != 1:
+        raise SystemExit(
+            "REFUSING: expected exactly one "
+            "large 2-D image HDU; got "
+            f"{len(candidates)}"
+        )
+
+
+    hdu_index, hdu = (
+        candidates[0]
+    )
+
+    height, width = hdu.shape
+
+
+    y0 = (
+        height // 2
+        - SIZE // 2
+    )
+
+    x0 = (
+        width // 2
+        - SIZE // 2
+    )
+
+    y1 = y0 + SIZE
+    x1 = x0 + SIZE
+
+
+    # First remote native section read.
+    a = np.asarray(
+        hdu.section[
+            y0:y1,
+            x0:x1
+        ]
+    )
+
+
+    # Repeat the exact same read as a deterministic
+    # acquisition control.
+    b = np.asarray(
+        hdu.section[
+            y0:y1,
+            x0:x1
+        ]
+    )
+
+
+    sha_a = arr_sha(a)
+    sha_b = arr_sha(b)
+
+
+    if a.shape != (
+        SIZE,
+        SIZE,
+    ):
+        raise SystemExit(
+            "REFUSING: unexpected section shape "
+            f"{a.shape}"
+        )
+
+
+    if sha_a != sha_b:
+        raise SystemExit(
+            "REFUSING: repeated native section "
+            "reads are not byte-identical."
+        )
+
+
+    if not np.array_equal(
+        a,
+        b,
+        equal_nan=True,
+    ):
+        raise SystemExit(
+            "REFUSING: repeated section arrays differ."
+        )
+
+
+    finite = np.isfinite(
+        a
+    )
+
+    if not finite.any():
+        raise SystemExit(
+            "REFUSING: native section contains "
+            "no finite pixels."
+        )
+
+
+    header = hdu.header
+
+
+    report = {
+        "recorded_at_utc":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
+
+        "operation":
+            "full_resolution_remote_dasch_section_control",
+
+        "plate_id":
+            PLATE,
+
+        "binning":
+            BINNING,
+
+        "base_object_size_bytes":
+            object_size,
+
+        "entire_base_file_download_requested":
+            False,
+
+        "access_method":
+            (
+                "astropy fits.open(use_fsspec=True) "
+                "+ CompImageHDU/ImageHDU.section"
+            ),
+
+        "astropy_version":
+            astropy.__version__,
+
+        "fsspec_version":
+            fsspec.__version__,
+
+        "image_hdu_index":
+            hdu_index,
+
+        "image_hdu_class":
+            type(hdu).__name__,
+
+        "full_shape":
+            [
+                int(height),
+                int(width),
+            ],
+
+        "bitpix":
+            header.get(
+                "BITPIX"
+            ),
+
+        "compression_type":
+            getattr(
+                hdu,
+                "compression_type",
+                None,
+            ),
+
+        "compression_tile_shape":
+            list(
+                getattr(
+                    hdu,
+                    "tile_shape",
+                    (),
+                )
+                or ()
+            ),
+
+        "section_bounds": {
+            "x0":
+                x0,
+
+            "x1":
+                x1,
+
+            "y0":
+                y0,
+
+            "y1":
+                y1,
+        },
+
+        "section_shape":
+            list(
+                a.shape
+            ),
+
+        "section_dtype":
+            str(
+                a.dtype
+            ),
+
+        "section_sha256":
+            sha_a,
+
+        "repeat_sha256":
+            sha_b,
+
+        "repeat_exact":
+            True,
+
+        "finite_pixels":
+            int(
+                finite.sum()
+            ),
+
+        "minimum":
+            float(
+                np.nanmin(a)
+            ),
+
+        "maximum":
+            float(
+                np.nanmax(a)
+            ),
+
+        "median":
+            float(
+                np.nanmedian(a)
+            ),
+
+        "fraction_noninteger":
+            float(
+                np.mean(
+                    np.abs(
+                        a[finite]
+                        - np.rint(
+                            a[finite]
+                        )
+                    )
+                    > 1e-12
+                )
+            ),
+
+        "historical_pixels_read":
+            True,
+
+        "candidate_search":
+            False,
+
+        "detector_run":
+            False,
+    }
+
+
+REPORT.write_text(
+    json.dumps(
+        report,
+        indent=2,
+        sort_keys=True,
+    ) + "\n",
+    encoding="utf-8",
+)
+
+
+print("=" * 76)
+print("NATIVE DASCH REMOTE SECTION CONTROL COMPLETE")
+print("=" * 76)
+
+print(
+    "Plate:",
+    PLATE,
+)
+
+print(
+    "Remote full mosaic:",
+    f"{object_size / (1024**2):.1f}",
+    "MiB",
+)
+
+print(
+    "Image HDU:",
+    hdu_index,
+    type(hdu).__name__,
+)
+
+print(
+    "Full shape:",
+    width,
+    "x",
+    height,
+)
+
+print(
+    "Compression:",
+    getattr(
+        hdu,
+        "compression_type",
+        None,
+    ),
+)
+
+print(
+    "Compression tile:",
+    getattr(
+        hdu,
+        "tile_shape",
+        None,
+    ),
+)
+
+print()
+
+print(
+    "Native section:",
+    SIZE,
+    "x",
+    SIZE,
+)
+
+print(
+    "dtype:",
+    a.dtype,
+)
+
+print(
+    "finite:",
+    int(
+        finite.sum()
+    ),
+)
+
+print(
+    "min / median / max:",
+    float(
+        np.nanmin(a)
+    ),
+    "/",
+    float(
+        np.nanmedian(a)
+    ),
+    "/",
+    float(
+        np.nanmax(a)
+    ),
+)
+
+print(
+    "non-integer fraction:",
+    report[
+        "fraction_noninteger"
+    ],
+)
+
+print()
+
+print(
+    "SHA256:",
+    sha_a,
+)
+
+print(
+    "Repeat exact:",
+    True,
+)
+
+print()
+
+print(
+    "Report:",
+    REPORT,
+)
+
+print()
+
+print(
+    "Historical full-resolution DASCH pixels WERE read."
+)
+
+print(
+    "No transient detector was run."
+)
+

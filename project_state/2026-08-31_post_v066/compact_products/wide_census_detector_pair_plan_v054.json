@@ -1,0 +1,1275 @@
+{
+  "pairs": [
+    {
+      "canonical_pair": "APPLAUSE:132099 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640",
+      "common_polygon_icrs_deg": [
+        [
+          333.99468,
+          32.09545000000001
+        ],
+        [
+          327.20787995205797,
+          32.722266348410855
+        ],
+        [
+          329.0784244302608,
+          -10.707867349509703
+        ],
+        [
+          333.06174,
+          -10.391390000000007
+        ]
+      ],
+      "detector_execution_priority": 1,
+      "endpoint_a": "APPLAUSE:132099",
+      "endpoint_a_bbox": [
+        0,
+        1526,
+        0,
+        10760
+      ],
+      "endpoint_b": "DASCH:bi05640:exp0",
+      "endpoint_b_bbox": [
+        15370,
+        17341,
+        7544,
+        20565
+      ],
+      "physical_overlap_s": 3420.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13623 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05607",
+      "common_polygon_icrs_deg": [
+        [
+          287.80382999999995,
+          34.41936
+        ],
+        [
+          288.54032,
+          25.256819999999998
+        ],
+        [
+          301.10791,
+          25.37928
+        ],
+        [
+          301.59193999999997,
+          34.54831000000001
+        ]
+      ],
+      "detector_execution_priority": 2,
+      "endpoint_a": "APPLAUSE:13623",
+      "endpoint_a_bbox": [
+        0,
+        23008,
+        0,
+        28459
+      ],
+      "endpoint_b": "DASCH:bi05607:exp0",
+      "endpoint_b_bbox": [
+        12247,
+        16113,
+        17680,
+        21951
+      ],
+      "physical_overlap_s": 2393.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:131892 | DASCH:ivo://org.gavo.dc/~?dasch/q/ax04674",
+      "common_polygon_icrs_deg": [
+        [
+          88.24782,
+          3.902860000000001
+        ],
+        [
+          78.41809,
+          3.743359999999999
+        ],
+        [
+          78.56927,
+          -9.328220000000002
+        ],
+        [
+          88.50082,
+          -9.158630000000002
+        ]
+      ],
+      "detector_execution_priority": 3,
+      "endpoint_a": "APPLAUSE:131892",
+      "endpoint_a_bbox": [
+        0,
+        8111,
+        0,
+        10780
+      ],
+      "endpoint_b": "DASCH:ax04674:exp0",
+      "endpoint_b_bbox": [
+        8438,
+        13254,
+        13018,
+        19405
+      ],
+      "physical_overlap_s": 1200.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11788 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352",
+      "common_polygon_icrs_deg": [
+        [
+          88.83122,
+          5.5729
+        ],
+        [
+          88.88089,
+          12.497510000000005
+        ],
+        [
+          85.00334366024289,
+          12.50733022160623
+        ],
+        [
+          83.8114669705637,
+          6.936461371048523
+        ],
+        [
+          83.82023,
+          5.57022
+        ]
+      ],
+      "detector_execution_priority": 4,
+      "endpoint_a": "DASCH:bi05352:exp0",
+      "endpoint_a_bbox": [
+        15378,
+        17399,
+        17191,
+        20106
+      ],
+      "endpoint_b": "APPLAUSE:11788",
+      "endpoint_b_bbox": [
+        0,
+        17304,
+        0,
+        12462
+      ],
+      "physical_overlap_s": 479.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11787 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352",
+      "common_polygon_icrs_deg": [
+        [
+          88.83122,
+          5.5729
+        ],
+        [
+          88.88089,
+          12.497510000000005
+        ],
+        [
+          85.00334366024289,
+          12.50733022160623
+        ],
+        [
+          83.8114669705637,
+          6.936461371048523
+        ],
+        [
+          83.82023,
+          5.57022
+        ]
+      ],
+      "detector_execution_priority": 5,
+      "endpoint_a": "DASCH:bi05352:exp0",
+      "endpoint_a_bbox": [
+        15378,
+        17399,
+        17191,
+        20106
+      ],
+      "endpoint_b": "APPLAUSE:11787",
+      "endpoint_b_bbox": [
+        0,
+        17304,
+        0,
+        12462
+      ],
+      "physical_overlap_s": 120.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12565 | APPLAUSE:139011",
+      "common_polygon_icrs_deg": [
+        [
+          299.425876450858,
+          36.92795912235263
+        ],
+        [
+          302.93391,
+          36.912870000000005
+        ],
+        [
+          302.9743873512418,
+          38.15387494722626
+        ],
+        [
+          299.37973,
+          38.1123
+        ]
+      ],
+      "detector_execution_priority": 6,
+      "endpoint_a": "APPLAUSE:12565",
+      "endpoint_a_bbox": [
+        0,
+        7037,
+        8305,
+        11390
+      ],
+      "endpoint_b": "APPLAUSE:139011",
+      "endpoint_b_bbox": [
+        8492,
+        11268,
+        0,
+        6303
+      ],
+      "physical_overlap_s": 40.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12568 | APPLAUSE:139012",
+      "common_polygon_icrs_deg": [
+        [
+          299.4281352097099,
+          36.869019128788814
+        ],
+        [
+          302.94571,
+          36.89653
+        ],
+        [
+          302.9647935881968,
+          38.15390983474834
+        ],
+        [
+          299.37973,
+          38.11229999999999
+        ]
+      ],
+      "detector_execution_priority": 7,
+      "endpoint_a": "APPLAUSE:12568",
+      "endpoint_a_bbox": [
+        0,
+        7018,
+        8265,
+        11390
+      ],
+      "endpoint_b": "APPLAUSE:139012",
+      "endpoint_b_bbox": [
+        8460,
+        11268,
+        0,
+        6255
+      ],
+      "physical_overlap_s": 40.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12469 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459",
+      "common_polygon_icrs_deg": [
+        [
+          299.55899999999997,
+          33.59219
+        ],
+        [
+          303.72290999999996,
+          33.625820000000004
+        ],
+        [
+          303.7532582241214,
+          35.651748713421824
+        ],
+        [
+          299.52918740230746,
+          34.425826153307995
+        ]
+      ],
+      "detector_execution_priority": 8,
+      "endpoint_a": "DASCH:bi05459:exp0",
+      "endpoint_a_bbox": [
+        16061,
+        17396,
+        21110,
+        22041
+      ],
+      "endpoint_b": "APPLAUSE:12469",
+      "endpoint_b_bbox": [
+        0,
+        8616,
+        0,
+        5034
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12563 | APPLAUSE:139010",
+      "common_polygon_icrs_deg": [
+        [
+          299.42041087358706,
+          36.87750112638716
+        ],
+        [
+          302.94898,
+          36.872389999999996
+        ],
+        [
+          302.98667598074826,
+          38.26320898377475
+        ],
+        [
+          299.36572,
+          38.21810999999999
+        ]
+      ],
+      "detector_execution_priority": 9,
+      "endpoint_a": "APPLAUSE:12563",
+      "endpoint_a_bbox": [
+        0,
+        7078,
+        7963,
+        11407
+      ],
+      "endpoint_b": "APPLAUSE:139010",
+      "endpoint_b_bbox": [
+        8174,
+        11268,
+        0,
+        6332
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12566 | APPLAUSE:139011",
+      "common_polygon_icrs_deg": [
+        [
+          299.37973,
+          38.1123
+        ],
+        [
+          299.425876450858,
+          36.927959122352625
+        ],
+        [
+          302.93391,
+          36.912870000000005
+        ],
+        [
+          302.9743873512418,
+          38.15387494722626
+        ]
+      ],
+      "detector_execution_priority": 10,
+      "endpoint_a": "APPLAUSE:139011",
+      "endpoint_a_bbox": [
+        8492,
+        11268,
+        0,
+        6303
+      ],
+      "endpoint_b": "APPLAUSE:12566",
+      "endpoint_b_bbox": [
+        0,
+        7037,
+        8305,
+        11390
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12569 | APPLAUSE:139012",
+      "common_polygon_icrs_deg": [
+        [
+          299.37973,
+          38.1123
+        ],
+        [
+          299.4281352097099,
+          36.8690191287888
+        ],
+        [
+          302.94571,
+          36.89653
+        ],
+        [
+          302.9647935881968,
+          38.15390983474833
+        ]
+      ],
+      "detector_execution_priority": 11,
+      "endpoint_a": "APPLAUSE:139012",
+      "endpoint_a_bbox": [
+        8460,
+        11268,
+        0,
+        6255
+      ],
+      "endpoint_b": "APPLAUSE:12569",
+      "endpoint_b_bbox": [
+        0,
+        7018,
+        8265,
+        11390
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "LE5_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:132096 | DASCH:ivo://org.gavo.dc/~?dasch/q/mf40300",
+      "common_polygon_icrs_deg": [
+        [
+          290.0652099999999,
+          16.627809999999997
+        ],
+        [
+          281.29157714174033,
+          16.40252402513681
+        ],
+        [
+          281.5399354058201,
+          9.26417230312486
+        ],
+        [
+          290.16028671185785,
+          9.375973459473457
+        ]
+      ],
+      "detector_execution_priority": 12,
+      "endpoint_a": "DASCH:mf40300:exp0",
+      "endpoint_a_bbox": [
+        631,
+        17410,
+        0,
+        14276
+      ],
+      "endpoint_b": "APPLAUSE:132096",
+      "endpoint_b_bbox": [
+        0,
+        6980,
+        4800,
+        10780
+      ],
+      "physical_overlap_s": 2978.2,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13878 | APPLAUSE:139432",
+      "common_polygon_icrs_deg": [
+        [
+          296.89626,
+          28.07636
+        ],
+        [
+          296.95034507805093,
+          34.509640997611385
+        ],
+        [
+          290.942303897686,
+          34.4120227959246
+        ],
+        [
+          291.28106,
+          27.97036
+        ]
+      ],
+      "detector_execution_priority": 13,
+      "endpoint_a": "APPLAUSE:139432",
+      "endpoint_a_bbox": [
+        0,
+        14315,
+        0,
+        11013
+      ],
+      "endpoint_b": "APPLAUSE:13878",
+      "endpoint_b_bbox": [
+        6437,
+        18803,
+        6785,
+        22865
+      ],
+      "physical_overlap_s": 2121.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13879 | APPLAUSE:139433",
+      "common_polygon_icrs_deg": [
+        [
+          296.89389,
+          28.07679
+        ],
+        [
+          296.95270138399655,
+          34.686509498342346
+        ],
+        [
+          290.9343826248592,
+          34.55810259407583
+        ],
+        [
+          291.27786,
+          27.971380000000003
+        ]
+      ],
+      "detector_execution_priority": 14,
+      "endpoint_a": "APPLAUSE:139433",
+      "endpoint_a_bbox": [
+        0,
+        14674,
+        0,
+        11013
+      ],
+      "endpoint_b": "APPLAUSE:13879",
+      "endpoint_b_bbox": [
+        21,
+        16474,
+        6431,
+        18892
+      ],
+      "physical_overlap_s": 2009.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13683 | DASCH:ivo://org.gavo.dc/~?dasch/q/am28458",
+      "common_polygon_icrs_deg": [
+        [
+          97.09618,
+          4.5016500000000015
+        ],
+        [
+          97.09066,
+          -4.667790000000001
+        ],
+        [
+          103.95222,
+          -4.674280000000003
+        ],
+        [
+          103.95531,
+          4.493500000000002
+        ]
+      ],
+      "detector_execution_priority": 15,
+      "endpoint_a": "APPLAUSE:13683",
+      "endpoint_a_bbox": [
+        0,
+        22864,
+        0,
+        17084
+      ],
+      "endpoint_b": "DASCH:am28458:exp0",
+      "endpoint_b_bbox": [
+        1465,
+        5266,
+        9063,
+        14096
+      ],
+      "physical_overlap_s": 1795.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11788 | DASCH:ivo://org.gavo.dc/~?dasch/q/rb16848",
+      "common_polygon_icrs_deg": [
+        [
+          86.49160338124065,
+          5.576923248407908
+        ],
+        [
+          86.44535091771124,
+          12.510158842052332
+        ],
+        [
+          83.77515,
+          12.49887
+        ],
+        [
+          83.82023,
+          5.570220000000001
+        ]
+      ],
+      "detector_execution_priority": 16,
+      "endpoint_a": "DASCH:rb16848:exp0",
+      "endpoint_a_bbox": [
+        0,
+        2277,
+        15328,
+        21335
+      ],
+      "endpoint_b": "APPLAUSE:11788",
+      "endpoint_b_bbox": [
+        0,
+        17304,
+        0,
+        6639
+      ],
+      "physical_overlap_s": 479.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+      "common_polygon_icrs_deg": [
+        [
+          86.99104908008589,
+          12.492636440946331
+        ],
+        [
+          83.72994,
+          12.477469999999997
+        ],
+        [
+          83.79812,
+          5.57432
+        ],
+        [
+          87.04182357774748,
+          5.583002751143968
+        ]
+      ],
+      "detector_execution_priority": 17,
+      "endpoint_a": "APPLAUSE:14120",
+      "endpoint_a_bbox": [
+        0,
+        17168,
+        0,
+        8036
+      ],
+      "endpoint_b": "APPLAUSE:132654",
+      "endpoint_b_bbox": [
+        0,
+        2664,
+        1489,
+        7185
+      ],
+      "physical_overlap_s": 299.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11787 | DASCH:ivo://org.gavo.dc/~?dasch/q/rb16848",
+      "common_polygon_icrs_deg": [
+        [
+          86.49160338124065,
+          5.576923248407908
+        ],
+        [
+          86.44535091771124,
+          12.510158842052332
+        ],
+        [
+          83.77515,
+          12.49887
+        ],
+        [
+          83.82023,
+          5.570220000000001
+        ]
+      ],
+      "detector_execution_priority": 18,
+      "endpoint_a": "DASCH:rb16848:exp0",
+      "endpoint_a_bbox": [
+        0,
+        2277,
+        15328,
+        21335
+      ],
+      "endpoint_b": "APPLAUSE:11787",
+      "endpoint_b_bbox": [
+        0,
+        17304,
+        0,
+        6639
+      ],
+      "physical_overlap_s": 120.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12404 | APPLAUSE:131662",
+      "common_polygon_icrs_deg": [
+        [
+          303.76108,
+          38.10091
+        ],
+        [
+          299.37582,
+          38.05612999999999
+        ],
+        [
+          299.5288820896977,
+          34.35872120008706
+        ],
+        [
+          303.71317166389105,
+          34.23098349295571
+        ]
+      ],
+      "detector_execution_priority": 19,
+      "endpoint_a": "APPLAUSE:131662",
+      "endpoint_a_bbox": [
+        1355,
+        4372,
+        0,
+        3203
+      ],
+      "endpoint_b": "APPLAUSE:12404",
+      "endpoint_b_bbox": [
+        0,
+        8584,
+        1777,
+        11382
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12470 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459",
+      "common_polygon_icrs_deg": [
+        [
+          299.55899999999997,
+          33.59219
+        ],
+        [
+          303.72290999999996,
+          33.625820000000004
+        ],
+        [
+          303.7532582241214,
+          35.651748713421824
+        ],
+        [
+          299.52918740230746,
+          34.425826153307995
+        ]
+      ],
+      "detector_execution_priority": 20,
+      "endpoint_a": "DASCH:bi05459:exp0",
+      "endpoint_a_bbox": [
+        16061,
+        17396,
+        21110,
+        22041
+      ],
+      "endpoint_b": "APPLAUSE:12470",
+      "endpoint_b_bbox": [
+        0,
+        8616,
+        0,
+        5034
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12562 | APPLAUSE:139010",
+      "common_polygon_icrs_deg": [
+        [
+          299.42041087358706,
+          36.87750112638716
+        ],
+        [
+          302.94898,
+          36.872389999999996
+        ],
+        [
+          302.98667598074826,
+          38.26320898377475
+        ],
+        [
+          299.36572,
+          38.21810999999999
+        ]
+      ],
+      "detector_execution_priority": 21,
+      "endpoint_a": "APPLAUSE:12562",
+      "endpoint_a_bbox": [
+        0,
+        7078,
+        7963,
+        11407
+      ],
+      "endpoint_b": "APPLAUSE:139010",
+      "endpoint_b_bbox": [
+        8174,
+        11268,
+        0,
+        6332
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12570 | APPLAUSE:139012",
+      "common_polygon_icrs_deg": [
+        [
+          299.37053,
+          38.08326000000001
+        ],
+        [
+          299.4233770647776,
+          36.868911653928244
+        ],
+        [
+          302.94571,
+          36.89653
+        ],
+        [
+          302.9645007632279,
+          38.134935271820446
+        ]
+      ],
+      "detector_execution_priority": 22,
+      "endpoint_a": "APPLAUSE:139012",
+      "endpoint_a_bbox": [
+        8502,
+        11268,
+        0,
+        6270
+      ],
+      "endpoint_b": "APPLAUSE:12570",
+      "endpoint_b_bbox": [
+        0,
+        7035,
+        8310,
+        11382
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12564 | APPLAUSE:139011",
+      "common_polygon_icrs_deg": [
+        [
+          299.425876450858,
+          36.92795912235263
+        ],
+        [
+          302.93391,
+          36.912870000000005
+        ],
+        [
+          302.9743873512418,
+          38.15387494722626
+        ],
+        [
+          299.37973,
+          38.1123
+        ]
+      ],
+      "detector_execution_priority": 23,
+      "endpoint_a": "APPLAUSE:12564",
+      "endpoint_a_bbox": [
+        0,
+        7037,
+        8305,
+        11390
+      ],
+      "endpoint_b": "APPLAUSE:139011",
+      "endpoint_b_bbox": [
+        8492,
+        11268,
+        0,
+        6303
+      ],
+      "physical_overlap_s": 17.0,
+      "time_gate": "GT5_LE10_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:131918 | DASCH:ivo://org.gavo.dc/~?dasch/q/am28316",
+      "common_polygon_icrs_deg": [
+        [
+          162.16764000000003,
+          3.729179999999999
+        ],
+        [
+          162.14308,
+          16.7554
+        ],
+        [
+          151.94985,
+          16.56716
+        ],
+        [
+          152.37692,
+          3.5498499999999997
+        ]
+      ],
+      "detector_execution_priority": 24,
+      "endpoint_a": "DASCH:am28316:exp0",
+      "endpoint_a_bbox": [
+        2462,
+        8031,
+        13266,
+        20805
+      ],
+      "endpoint_b": "APPLAUSE:131918",
+      "endpoint_b_bbox": [
+        0,
+        8092,
+        0,
+        10760
+      ],
+      "physical_overlap_s": 5400.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:131772 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05468",
+      "common_polygon_icrs_deg": [
+        [
+          331.85272,
+          24.46707
+        ],
+        [
+          333.03593242728357,
+          24.471529384671335
+        ],
+        [
+          333.1857711320442,
+          35.81171957342537
+        ],
+        [
+          331.59680733027244,
+          36.25167811823042
+        ]
+      ],
+      "detector_execution_priority": 25,
+      "endpoint_a": "DASCH:bi05468:exp0",
+      "endpoint_a_bbox": [
+        0,
+        521,
+        17788,
+        22041
+      ],
+      "endpoint_b": "APPLAUSE:131772",
+      "endpoint_b_bbox": [
+        7029,
+        8092,
+        0,
+        9733
+      ],
+      "physical_overlap_s": 3300.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:132099 | DASCH:ivo://org.gavo.dc/~?dasch/q/mf40301",
+      "common_polygon_icrs_deg": [
+        [
+          322.3087324065263,
+          21.15604200602322
+        ],
+        [
+          312.8456149408867,
+          21.11929268818769
+        ],
+        [
+          313.14471880612314,
+          9.940416813384324
+        ],
+        [
+          322.1076587854945,
+          9.972747535714197
+        ]
+      ],
+      "detector_execution_priority": 26,
+      "endpoint_a": "DASCH:mf40301:exp0",
+      "endpoint_a_bbox": [
+        0,
+        17410,
+        0,
+        22041
+      ],
+      "endpoint_b": "APPLAUSE:132099",
+      "endpoint_b_bbox": [
+        2613,
+        4738,
+        5148,
+        7811
+      ],
+      "physical_overlap_s": 2848.1,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11819 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05361",
+      "common_polygon_icrs_deg": [
+        [
+          108.73859,
+          -4.747259999999998
+        ],
+        [
+          108.69467,
+          4.401410000000004
+        ],
+        [
+          97.25725,
+          4.358180000000005
+        ],
+        [
+          97.29878000000001,
+          -4.798319999999998
+        ]
+      ],
+      "detector_execution_priority": 27,
+      "endpoint_a": "DASCH:bi05361:exp0",
+      "endpoint_a_bbox": [
+        12507,
+        16315,
+        14680,
+        17516
+      ],
+      "endpoint_b": "APPLAUSE:11819",
+      "endpoint_b_bbox": [
+        0,
+        22928,
+        0,
+        28573
+      ],
+      "physical_overlap_s": 2394.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13877 | APPLAUSE:139431",
+      "common_polygon_icrs_deg": [
+        [
+          301.24291444014415,
+          26.713133178965325
+        ],
+        [
+          301.5717445275832,
+          33.33437696376159
+        ],
+        [
+          297.15824,
+          33.22952999999999
+        ],
+        [
+          297.48181,
+          26.620879999999996
+        ]
+      ],
+      "detector_execution_priority": 28,
+      "endpoint_a": "APPLAUSE:139431",
+      "endpoint_a_bbox": [
+        0,
+        14678,
+        0,
+        8207
+      ],
+      "endpoint_b": "APPLAUSE:13877",
+      "endpoint_b_bbox": [
+        3125,
+        20106,
+        19291,
+        28533
+      ],
+      "physical_overlap_s": 1874.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:13876 | APPLAUSE:139430",
+      "common_polygon_icrs_deg": [
+        [
+          301.206032823907,
+          26.707078102098304
+        ],
+        [
+          301.5763581575501,
+          33.33388179842295
+        ],
+        [
+          297.15564,
+          33.23463999999999
+        ],
+        [
+          297.4688,
+          26.620839999999994
+        ]
+      ],
+      "detector_execution_priority": 29,
+      "endpoint_a": "APPLAUSE:139430",
+      "endpoint_a_bbox": [
+        0,
+        14690,
+        0,
+        8221
+      ],
+      "endpoint_b": "APPLAUSE:13876",
+      "endpoint_b_bbox": [
+        2856,
+        19883,
+        19200,
+        28452
+      ],
+      "physical_overlap_s": 1806.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:139532 | DASCH:ivo://org.gavo.dc/~?dasch/q/j04686",
+      "common_polygon_icrs_deg": [
+        [
+          297.26235965075807,
+          30.792159765582653
+        ],
+        [
+          297.305108211924,
+          29.994621615506023
+        ],
+        [
+          301.02927637103824,
+          26.824048779329324
+        ],
+        [
+          302.99544117663453,
+          28.525571638431998
+        ],
+        [
+          303.01826,
+          33.24723000000001
+        ],
+        [
+          300.04271270308715,
+          33.2337799355754
+        ]
+      ],
+      "detector_execution_priority": 30,
+      "endpoint_a": "APPLAUSE:139532",
+      "endpoint_a_bbox": [
+        0,
+        10928,
+        0,
+        14263
+      ],
+      "endpoint_b": "DASCH:j04686:exp0",
+      "endpoint_b_bbox": [
+        2418,
+        21953,
+        0,
+        17489
+      ],
+      "physical_overlap_s": 838.6,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:11790 | DASCH:ivo://org.gavo.dc/~?dasch/q/b75711",
+      "common_polygon_icrs_deg": [
+        [
+          83.83114177657431,
+          6.878790489835795
+        ],
+        [
+          88.9153178729576,
+          6.9445082657994295
+        ],
+        [
+          88.90826,
+          12.494560000000002
+        ],
+        [
+          83.75369,
+          12.456960000000002
+        ]
+      ],
+      "detector_execution_priority": 31,
+      "endpoint_a": "APPLAUSE:11790",
+      "endpoint_a_bbox": [
+        0,
+        12512,
+        3365,
+        17243
+      ],
+      "endpoint_b": "DASCH:b75711:exp0",
+      "endpoint_b_bbox": [
+        7958,
+        17301,
+        0,
+        10252
+      ],
+      "physical_overlap_s": 150.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12405 | APPLAUSE:131662",
+      "common_polygon_icrs_deg": [
+        [
+          303.76108,
+          38.10091
+        ],
+        [
+          299.37582,
+          38.05612999999999
+        ],
+        [
+          299.5288820896977,
+          34.35872120008706
+        ],
+        [
+          303.71317166389105,
+          34.23098349295571
+        ]
+      ],
+      "detector_execution_priority": 32,
+      "endpoint_a": "APPLAUSE:131662",
+      "endpoint_a_bbox": [
+        1355,
+        4372,
+        0,
+        3203
+      ],
+      "endpoint_b": "APPLAUSE:12405",
+      "endpoint_b_bbox": [
+        0,
+        8584,
+        1777,
+        11382
+      ],
+      "physical_overlap_s": 30.0,
+      "time_gate": "GT10_LE15_MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:12471 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459",
+      "common_polygon_icrs_deg": [
+        [
+          299.55899999999997,
+          33.59219
+        ],
+        [
+          303.72290999999996,
+          33.625820000000004
+        ],
+        [
+          303.7532582241214,
+          35.651748713421824
+        ],
+        [
+          299.52918740230746,
+          34.425826153307995
+        ]
+      ],
+      "detector_execution_priority": 33,
+      "endpoint_a": "DASCH:bi05459:exp0",
+      "endpoint_a_bbox": [
+        16061,
+        17396,
+        21110,
+        22041
+      ],
+      "endpoint_b": "APPLAUSE:12471",
+      "endpoint_b_bbox": [
+        0,
+        8616,
+        0,
+        5034
+      ],
+      "physical_overlap_s": 29.0,
+      "time_gate": "GT10_LE15_MIN"
+    }
+  ],
+  "status": "COMPLETE"
+}

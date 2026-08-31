@@ -1,0 +1,63 @@
+{
+  "analysis_kind": "wide_census_gaia_registration_preflight_v063",
+  "completed_at_utc": "2026-08-29T18:21:45.741714+00:00",
+  "freeze": {
+    "path": "research/prospective_freezes/wide_census_gaia_reference_acquisition_contract_v001.json",
+    "sha256": "7a182349455a814423d68411d49aa7640dacdbe8dd6bafd5a5ec747c64b097fc"
+  },
+  "guards": {
+    "astrometric_registration_run": false,
+    "automation_registry_mutation": false,
+    "candidate_state_mutation": false,
+    "gaia_outcomes_read": false,
+    "network_access": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "input_sha256": {
+    "pair_plan": "10b0bb33d7ce43536267a0a16bc7f1b1fcb1f4b823078939454ab7f505af1a10",
+    "pair_summary": "52dafd68a7cd928b1f580adb7218507b16fcfb8ce26861f272802837bf425bad",
+    "raw_matches": "f99cde6fba869944c58dbdb5bb360f59daca8412d4cf6173a1c5de8397a4f506",
+    "v057": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+    "v061": "08330cb1c1693e1b40cfb7e41dd35abe721206df3a6437511cb0e642e6b5bfd3",
+    "v062": "d71e53a29388af5f4c6947a1d94f75a8e0fe629d17375e409ae81f121afca1f5"
+  },
+  "next_stage": "Execute cached Gaia DR3 ordinary/HPM acquisition under this frozen transport plan, propagate to each physical-overlap epoch, construct target-independent common-reference pools, then perform offline 5/10/20/30 arcmin primary registration for all raw matches.",
+  "raw_match_schema": [
+    "pair_index",
+    "canonical_pair",
+    "time_gate",
+    "physical_overlap_s",
+    "endpoint_a",
+    "endpoint_b",
+    "separation_arcsec",
+    "raw_le_3arcsec",
+    "a_tile_id",
+    "a_candidate_index",
+    "a_ra_deg",
+    "a_dec_deg",
+    "a_snr",
+    "a_polarity",
+    "b_tile_id",
+    "b_candidate_index",
+    "b_ra_deg",
+    "b_dec_deg",
+    "b_snr",
+    "b_polarity"
+  ],
+  "status": "COMPLETE",
+  "verified": {
+    "all_physical_registration_epochs_resolved": true,
+    "pairs": 33,
+    "raw_le10": 512788,
+    "raw_le3": 185532
+  },
+  "workload": {
+    "base_cell_deg": 0.25,
+    "hpm_pair_queries": 33,
+    "ordinary_gaia_query_cells": 9191,
+    "ordinary_query_cells_max_per_pair": 938,
+    "ordinary_query_cells_median_per_pair": 199,
+    "ordinary_query_cells_min_per_pair": 1
+  }
+}

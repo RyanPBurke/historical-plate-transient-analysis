@@ -1,0 +1,34 @@
+{
+  "global_raw_separation_histogram": {
+    "le0p5": 7459,
+    "le1": 29012,
+    "le10": 512788,
+    "le2": 101286,
+    "le3": 185532,
+    "le5": 322763
+  },
+  "guards": {
+    "automation_registry_mutation": false,
+    "candidate_state_mutation": false,
+    "network_access": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "population_control_jobs": 528,
+  "primary_astrometry_jobs": 132,
+  "stage": "wide_census_postdetector_inventory_v061",
+  "status": "COMPLETE",
+  "v057_contract_sha256": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+  "v061_plan_sha256": "08330cb1c1693e1b40cfb7e41dd35abe721206df3a6437511cb0e642e6b5bfd3",
+  "verified_counts": {
+    "accepted_candidates": 5083325,
+    "pairs": 33,
+    "pairs_raw_le10": 33,
+    "pairs_raw_le3": 32,
+    "pairs_with_uninformative_detector_coverage": 2,
+    "raw_le10": 512788,
+    "raw_le3": 185532,
+    "tiles": 6293,
+    "zero_sigma_tiles": 2
+  }
+}

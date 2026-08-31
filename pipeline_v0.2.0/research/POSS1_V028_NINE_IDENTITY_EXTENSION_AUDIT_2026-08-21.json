@@ -1,0 +1,51 @@
+{
+  "authoritative_queue": {
+    "path": "research\\production_sub5_queue_2026-08-20.csv",
+    "sha256": "b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c"
+  },
+  "created_at_utc": "2026-08-21T16:53:47.798508+00:00",
+  "cross_cohort_already_frozen_exposure": "POSS-I:297:O:rec635",
+  "detector_run": false,
+  "evidence_verification": {
+    "errors": 0,
+    "verified_artifacts": 478
+  },
+  "extension": {
+    "cache_dir": "cache\\poss1_identity_v028_extension",
+    "checkpoint": {
+      "succeeded": 9
+    },
+    "cohort": "identity_extension_v028",
+    "db_path": "state\\poss1_identity_extension_v028.sqlite",
+    "db_sha256": "5befeb746af03d074e7df31a3dad00cfc1099496eb8f94f4c693cb6ad153745b",
+    "identity_status_counts": {
+      "catalogue_identified_pixels_unavailable": 1,
+      "validated": 8
+    },
+    "jobs": [
+      "POSS-I:1009:O:rec785",
+      "POSS-I:1023:O:rec675",
+      "POSS-I:1023:O:rec799",
+      "POSS-I:305:E:rec637",
+      "POSS-I:306:E:rec703",
+      "POSS-I:318:E:rec524",
+      "POSS-I:606:E:rec348",
+      "POSS-I:779:E:rec404",
+      "POSS-I:988:O:rec207"
+    ],
+    "queue_path": "research\\poss1_identity_extension_v028_nine_queue.csv",
+    "queue_sha256": "5199026fcce3fa21a9bd960a56494f9e8fb53a4c88d9f59de94bcf5f3f409693",
+    "result_path": "results\\poss1_identity_extension_v028.csv",
+    "result_sha256": "3404d1dd482e0ba43d8718dc7c1fc1e2fd03f79119780b6283f4a96260383fa8",
+    "stage": "poss1-identity:identity_extension_v028"
+  },
+  "operation": "v0.2.8 nine-exposure identity extension",
+  "science_cohort_policy": "No authoritative science publication_cohort value was changed. The identity_extension_v028 label exists only in the derived identity-preflight queue so previously touched development rows can receive the same physical-plate identity policy without becoming prospective science.",
+  "v027_preserved": {
+    "checkpoint_sha256": "d1e3684540523909ef296185b81bd1f97e7909a91515759ea5ae9dc7d2edf5c4",
+    "result_sha256": "4d57fce8e2c683acc6b1a9ba3714852cb1ee66136880f1df34f8ce3ed3d19017",
+    "source_poss1_sha256": "6161a74d5ce76f70235c66a748077b3517f7d2d7946e9f48998927c331374ac7",
+    "source_poss1_skyview_sha256": "22470c1956e6b0ddb885d51092aa0a30dd322bfc1d48c6b49bcd0ed3620a732e"
+  },
+  "v027_snapshot_id": "59c2db6c2c43266bc2af693ff4c6efe1199db409ed912cfa324cadc10793ddb2"
+}

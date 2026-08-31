@@ -1,0 +1,44 @@
+{
+  "contract_id": "wide_census_gaia_reference_acquisition_contract_v002",
+  "corrected_transport_domain": {
+    "base_cell_deg": 0.25,
+    "existing_v064_complete_leaf_reuse": "retain all v064 source rows; query only thin outer annulus from old leaf radius to corrected leaf radius",
+    "gaia_dr3_reference_epoch_jyear": 2016.0,
+    "hpm_corrective_query": "one pair-level pm>=1700mas/yr cone enclosing all eligible detector reference candidates plus 915 arcsec; deduplicate source_id downstream",
+    "hpm_margin_arcsec": 915.0,
+    "new_candidate_cells": "query full corrected base-cell circle; recursively quarter on MAXREC exactly as transport-only recovery",
+    "ordinary_margin_arcsec": 125.4,
+    "ordinary_margin_formula": "ceil_up_0.1arcsec(max_epoch_delta_years * 1700masyr / 1000 + 15arcsec)",
+    "reference_candidate_domain": "all frozen detector candidates within 30 arcmin + 15 arcsec of at least one <=10 arcsec raw-match midpoint in that pair",
+    "worst_epoch_delta_years": 64.91886641620403
+  },
+  "created_at_utc": "2026-08-31T10:14:00.152369+00:00",
+  "interpretation_boundary": "This is a transport completeness repair before any astrometric registration outcome. It cannot promote, reject, or rank a raw candidate.",
+  "outcome_independence": {
+    "candidate_dispositions_before_freeze": 0,
+    "gaia_source_rows_read_by_v065": 0,
+    "plan_inputs": "frozen detector candidate coordinates, raw-match coordinates, pair epochs, v064 query/cache metadata only",
+    "registration_runs_before_freeze": 0
+  },
+  "reason_for_correction": [
+    "v001 occupied ordinary Gaia cells were generated from <=10 arcsec raw-match midpoints, but the frozen reference construction may use detector/Gaia references out to 30 arcmin from every target; sparse target regions therefore need candidate-domain coverage beyond the raw-midpoint cells.",
+    "The ordinary J2016 margin must cover the full sub-HPM-threshold displacement from the earliest registration epoch plus the independently frozen 15 arcsec candidate-to-Gaia acquisition radius."
+  ],
+  "science_parameters_unchanged": {
+    "hpm_split_masyr": 1700.0,
+    "minimum_common_same_gaia_references": 5,
+    "primary_fit": "translation-only median; no clipping; no higher-order fit",
+    "reference_acquisition_arcsec": 15.0,
+    "reference_windows_arcmin": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "science_exclusion_arcsec": 30.0,
+    "sparse_confidence": "diagnostic_only",
+    "sparse_minimum_references_per_archive": 3
+  },
+  "supersedes_transport_coverage_only": "wide_census_gaia_reference_acquisition_contract_v001",
+  "v001_sha256": "7a182349455a814423d68411d49aa7640dacdbe8dd6bafd5a5ec747c64b097fc"
+}

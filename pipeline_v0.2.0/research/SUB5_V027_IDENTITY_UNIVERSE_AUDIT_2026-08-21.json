@@ -1,0 +1,3122 @@
+{
+  "canonical_extra_sha256": "58529e1d4de46f3c49865a89454d1cd488ee23ec920b01250006f2180d2ed99a",
+  "canonical_only_columns": [],
+  "common_field_difference_count": 29,
+  "common_field_differences": [
+    {
+      "canonical_order": 1,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.9666666666666667",
+          "production": "0.9666666666666668"
+        }
+      }
+    },
+    {
+      "canonical_order": 3,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.18518518518518517",
+          "production": "0.1851851851851851"
+        }
+      }
+    },
+    {
+      "canonical_order": 5,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.9666666666666667",
+          "production": "0.9666666666666668"
+        }
+      }
+    },
+    {
+      "canonical_order": 14,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        }
+      }
+    },
+    {
+      "canonical_order": 15,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        }
+      }
+    },
+    {
+      "canonical_order": 16,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.03389830508474576",
+          "production": "0.0338983050847457"
+        }
+      }
+    },
+    {
+      "canonical_order": 17,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.17543859649122806",
+          "production": "0.175438596491228"
+        }
+      }
+    },
+    {
+      "canonical_order": 24,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.21052631578947367",
+          "production": "0.2105263157894736"
+        }
+      }
+    },
+    {
+      "canonical_order": 26,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        }
+      }
+    },
+    {
+      "canonical_order": 27,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.35294117647058826",
+          "production": "0.3529411764705882"
+        }
+      }
+    },
+    {
+      "canonical_order": 30,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        }
+      }
+    },
+    {
+      "canonical_order": 32,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.007407407407407408",
+          "production": "0.0074074074074074"
+        }
+      }
+    },
+    {
+      "canonical_order": 34,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.013888888888888888",
+          "production": "0.0138888888888888"
+        }
+      }
+    },
+    {
+      "canonical_order": 36,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.17543859649122806",
+          "production": "0.175438596491228"
+        }
+      }
+    },
+    {
+      "canonical_order": 37,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.013888888888888888",
+          "production": "0.0138888888888888"
+        }
+      }
+    },
+    {
+      "canonical_order": 40,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.007407407407407408",
+          "production": "0.0074074074074074"
+        }
+      }
+    },
+    {
+      "canonical_order": 41,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        }
+      }
+    },
+    {
+      "canonical_order": 42,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        }
+      }
+    },
+    {
+      "canonical_order": 55,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.9166666681794445",
+          "production": "0.9166666681794444"
+        }
+      }
+    },
+    {
+      "canonical_order": 56,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.21052631578947367",
+          "production": "0.2105263157894736"
+        }
+      }
+    },
+    {
+      "canonical_order": 57,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.19047619047619047",
+          "production": "0.1904761904761904"
+        }
+      }
+    },
+    {
+      "canonical_order": 58,
+      "changed_fields": {
+        "midpoint_delta_minutes": {
+          "canonical": "3.8666666666666663",
+          "production": "3.866666666666666"
+        },
+        "overlap_fraction_b": {
+          "canonical": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        }
+      }
+    },
+    {
+      "canonical_order": 59,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        }
+      }
+    },
+    {
+      "canonical_order": 61,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.42857142857142855",
+          "production": "0.4285714285714285"
+        }
+      }
+    },
+    {
+      "canonical_order": 62,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.9999999979190001",
+          "production": "0.999999997919"
+        }
+      }
+    },
+    {
+      "canonical_order": 63,
+      "changed_fields": {
+        "center_separation_deg": {
+          "canonical": "23.185848730687116",
+          "production": "23.18584873068712"
+        }
+      }
+    },
+    {
+      "canonical_order": 65,
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical": "0.9285714350730159",
+          "production": "0.928571435073016"
+        }
+      }
+    },
+    {
+      "canonical_order": 71,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.13953488372093023",
+          "production": "0.1395348837209302"
+        }
+      }
+    },
+    {
+      "canonical_order": 73,
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical": "0.13186813186813187",
+          "production": "0.1318681318681318"
+        }
+      }
+    }
+  ],
+  "covered_exposures": [
+    "POSS-I:1024:E:rec742",
+    "POSS-I:1102:E:rec140",
+    "POSS-I:1103:E:rec397",
+    "POSS-I:1405:O:rec616",
+    "POSS-I:236:E:rec425",
+    "POSS-I:236:O:rec425",
+    "POSS-I:293:E:rec754",
+    "POSS-I:297:O:rec635",
+    "POSS-I:305:O:rec637",
+    "POSS-I:313:O:rec523",
+    "POSS-I:314:E:rec646",
+    "POSS-I:320:E:rec463",
+    "POSS-I:340:E:rec231",
+    "POSS-I:368:E:rec192",
+    "POSS-I:372:O:rec455",
+    "POSS-I:407:E:rec246",
+    "POSS-I:413:E:rec297",
+    "POSS-I:415:O:rec479",
+    "POSS-I:445:E:rec481",
+    "POSS-I:449:O:rec198",
+    "POSS-I:500:E:rec679",
+    "POSS-I:533:O:rec187",
+    "POSS-I:558:O:rec517",
+    "POSS-I:782:E:rec514",
+    "POSS-I:832:E:rec760",
+    "POSS-I:872:O:rec148",
+    "POSS-I:875:E:rec521",
+    "POSS-I:876:E:rec239",
+    "POSS-I:976:E:rec492",
+    "POSS-I:985:E:rec726",
+    "POSS-I:989:O:rec258"
+  ],
+  "detector_run": false,
+  "frozen_identity_exposures": 31,
+  "identity_only_exposures": [],
+  "missing_exposures": {
+    "POSS-I:1009:O:rec785": [
+      {
+        "actual_exposure_overlap_minutes": "12.0",
+        "actual_exposure_overlap_s": "720.0",
+        "canonical_order": 27,
+        "legacy_rank": "40.0",
+        "midpoint_delta_minutes": "1.9999998833333328",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44291 | POSS-I:1009:O:rec785",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:1023:O:rec675": [
+      {
+        "actual_exposure_overlap_minutes": "12.0",
+        "actual_exposure_overlap_s": "720.0",
+        "canonical_order": 4,
+        "legacy_rank": "23.0",
+        "midpoint_delta_minutes": "1.666666666666667e-07",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304 | POSS-I:1023:O:rec675",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:1023:O:rec799": [
+      {
+        "actual_exposure_overlap_minutes": "12.0",
+        "actual_exposure_overlap_s": "720.0",
+        "canonical_order": 21,
+        "legacy_rank": "25.0",
+        "midpoint_delta_minutes": "1.4999999166666669",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44306 | POSS-I:1023:O:rec799",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:305:E:rec637": [
+      {
+        "actual_exposure_overlap_minutes": "29.0",
+        "actual_exposure_overlap_s": "1740.0",
+        "canonical_order": 9,
+        "legacy_rank": "41.0",
+        "midpoint_delta_minutes": "0.5000000166666667",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474 | POSS-I:305:E:rec637",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:306:E:rec703": [
+      {
+        "actual_exposure_overlap_minutes": "49.999999895950005",
+        "actual_exposure_overlap_s": "2999.999993757",
+        "canonical_order": 62,
+        "legacy_rank": "12.0",
+        "midpoint_delta_minutes": "4.0000001",
+        "pair_key": "POSS-I:306:E:rec703 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43241",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:318:E:rec524": [
+      {
+        "actual_exposure_overlap_minutes": "49.00000016373333",
+        "actual_exposure_overlap_s": "2940.000009824",
+        "canonical_order": 74,
+        "legacy_rank": "13.0",
+        "midpoint_delta_minutes": "4.999999833333334",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02504 | POSS-I:318:E:rec524",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:606:E:rec348": [
+      {
+        "actual_exposure_overlap_minutes": "55.00000009076667",
+        "actual_exposure_overlap_s": "3300.000005446",
+        "canonical_order": 55,
+        "legacy_rank": "3.0",
+        "midpoint_delta_minutes": "3.4999999",
+        "pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12998 | POSS-I:606:E:rec348",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:779:E:rec404": [
+      {
+        "actual_exposure_overlap_minutes": "45.0",
+        "actual_exposure_overlap_s": "2700.0",
+        "canonical_order": 11,
+        "legacy_rank": "15.0",
+        "midpoint_delta_minutes": "0.9999997166666666",
+        "pair_key": "POSS-I:779:E:rec404 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ],
+    "POSS-I:988:O:rec207": [
+      {
+        "actual_exposure_overlap_minutes": "12.0",
+        "actual_exposure_overlap_s": "720.0",
+        "canonical_order": 57,
+        "legacy_rank": "30.0",
+        "midpoint_delta_minutes": "3.5000000666666664",
+        "pair_key": "POSS-I:988:O:rec207 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44246",
+        "saved_status": "",
+        "true_wcs_intersection": "True"
+      }
+    ]
+  },
+  "preflight_constructor_source_matches": [
+    {
+      "context": [
+        {
+          "line": 1,
+          "text": "$ErrorActionPreference = \"Stop\""
+        },
+        {
+          "line": 2,
+          "text": "$exe = \".\\.venv\\Scripts\\transient-pipeline.exe\""
+        },
+        {
+          "line": 3,
+          "text": "$db = \".\\state\\poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 4,
+          "text": "$stage = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 5,
+          "text": "$queue = \".\\research\\production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "New-Item -ItemType Directory -Force .\\logs | Out-Null"
+        },
+        {
+          "line": 8,
+          "text": "$stamp = Get-Date -Format \"yyyyMMdd_HHmmss\""
+        },
+        {
+          "line": 9,
+          "text": "$log = \".\\logs\\poss1_identity_preflight_$stamp.log\""
+        }
+      ],
+      "context_end": 9,
+      "context_start": 1,
+      "line": 3,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 1,
+          "text": "$ErrorActionPreference = \"Stop\""
+        },
+        {
+          "line": 2,
+          "text": "$exe = \".\\.venv\\Scripts\\transient-pipeline.exe\""
+        },
+        {
+          "line": 3,
+          "text": "$db = \".\\state\\poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 4,
+          "text": "$stage = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 5,
+          "text": "$queue = \".\\research\\production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "New-Item -ItemType Directory -Force .\\logs | Out-Null"
+        },
+        {
+          "line": 8,
+          "text": "$stamp = Get-Date -Format \"yyyyMMdd_HHmmss\""
+        },
+        {
+          "line": 9,
+          "text": "$log = \".\\logs\\poss1_identity_preflight_$stamp.log\""
+        },
+        {
+          "line": 10,
+          "text": "$stdout = \".\\logs\\poss1_identity_preflight_${stamp}_stdout.txt\""
+        }
+      ],
+      "context_end": 10,
+      "context_start": 1,
+      "line": 4,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 1,
+          "text": "$ErrorActionPreference = \"Stop\""
+        },
+        {
+          "line": 2,
+          "text": "$exe = \".\\.venv\\Scripts\\transient-pipeline.exe\""
+        },
+        {
+          "line": 3,
+          "text": "$db = \".\\state\\poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 4,
+          "text": "$stage = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 5,
+          "text": "$queue = \".\\research\\production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "New-Item -ItemType Directory -Force .\\logs | Out-Null"
+        },
+        {
+          "line": 8,
+          "text": "$stamp = Get-Date -Format \"yyyyMMdd_HHmmss\""
+        },
+        {
+          "line": 9,
+          "text": "$log = \".\\logs\\poss1_identity_preflight_$stamp.log\""
+        },
+        {
+          "line": 10,
+          "text": "$stdout = \".\\logs\\poss1_identity_preflight_${stamp}_stdout.txt\""
+        },
+        {
+          "line": 11,
+          "text": "$stderr = \".\\logs\\poss1_identity_preflight_${stamp}_stderr.txt\""
+        }
+      ],
+      "context_end": 11,
+      "context_start": 1,
+      "line": 5,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 11,
+          "text": "$stderr = \".\\logs\\poss1_identity_preflight_${stamp}_stderr.txt\""
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "$possIds = @("
+        },
+        {
+          "line": 14,
+          "text": "    Import-Csv $queue |"
+        },
+        {
+          "line": 15,
+          "text": "      Where-Object { $_.publication_cohort -eq \"prospective_production\" } |"
+        },
+        {
+          "line": 16,
+          "text": "      ForEach-Object {"
+        },
+        {
+          "line": 17,
+          "text": "          if ($_.exposure_a -like \"POSS-I:*\") { $_.exposure_a }"
+        },
+        {
+          "line": 18,
+          "text": "          if ($_.exposure_b -like \"POSS-I:*\") { $_.exposure_b }"
+        },
+        {
+          "line": 19,
+          "text": "      } |"
+        },
+        {
+          "line": 20,
+          "text": "      Sort-Object -Unique"
+        },
+        {
+          "line": 21,
+          "text": ")"
+        }
+      ],
+      "context_end": 21,
+      "context_start": 11,
+      "line": 15,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 30,
+          "text": "    Write-Host \"\""
+        },
+        {
+          "line": 31,
+          "text": ""
+        },
+        {
+          "line": 32,
+          "text": "    $args = @("
+        },
+        {
+          "line": 33,
+          "text": "      \"--db\", $db,"
+        },
+        {
+          "line": 34,
+          "text": "      \"poss1-preflight\","
+        },
+        {
+          "line": 35,
+          "text": "      \"--queue\", $queue,"
+        },
+        {
+          "line": 36,
+          "text": "      \"--vi25\", \".\\research\\poss1_plate_metadata.csv\","
+        },
+        {
+          "line": 37,
+          "text": "      \"--cohort\", \"prospective_production\","
+        },
+        {
+          "line": 38,
+          "text": "      \"--cache-dir\", \".\\cache\\poss1_identity\","
+        },
+        {
+          "line": 39,
+          "text": "      \"--export\", \".\\results\\poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 40,
+          "text": "    )"
+        }
+      ],
+      "context_end": 40,
+      "context_start": 30,
+      "line": 34,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 33,
+          "text": "      \"--db\", $db,"
+        },
+        {
+          "line": 34,
+          "text": "      \"poss1-preflight\","
+        },
+        {
+          "line": 35,
+          "text": "      \"--queue\", $queue,"
+        },
+        {
+          "line": 36,
+          "text": "      \"--vi25\", \".\\research\\poss1_plate_metadata.csv\","
+        },
+        {
+          "line": 37,
+          "text": "      \"--cohort\", \"prospective_production\","
+        },
+        {
+          "line": 38,
+          "text": "      \"--cache-dir\", \".\\cache\\poss1_identity\","
+        },
+        {
+          "line": 39,
+          "text": "      \"--export\", \".\\results\\poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 40,
+          "text": "    )"
+        },
+        {
+          "line": 41,
+          "text": ""
+        },
+        {
+          "line": 42,
+          "text": "    Remove-Item $stdout,$stderr -Force -ErrorAction SilentlyContinue"
+        },
+        {
+          "line": 43,
+          "text": "    $p = Start-Process -FilePath $exe -ArgumentList $args -PassThru -NoNewWindow `"
+        }
+      ],
+      "context_end": 43,
+      "context_start": 33,
+      "line": 37,
+      "path": "run_poss1_identity_preflight.ps1"
+    },
+    {
+      "context": [
+        {
+          "line": 204,
+          "text": ""
+        },
+        {
+          "line": 205,
+          "text": "    p = sub.add_parser(\"index-starglass-cache\", help=\"index legacy cached StarGlass FITS without re-downloading\")"
+        },
+        {
+          "line": 206,
+          "text": "    p.add_argument(\"--root\", default=\"cache/verified_starglass\")"
+        },
+        {
+          "line": 207,
+          "text": ""
+        },
+        {
+          "line": 208,
+          "text": "    p = sub.add_parser(\"poss1-preflight\", help=\"resolve/force exact POSS-I physical plates for a frozen queue; no transient detection\")"
+        },
+        {
+          "line": 209,
+          "text": "    p.add_argument(\"--queue\", required=True)"
+        },
+        {
+          "line": 210,
+          "text": "    p.add_argument(\"--vi25\", default=\"research/poss1_plate_metadata.csv\")"
+        },
+        {
+          "line": 211,
+          "text": "    p.add_argument(\"--cohort\", default=\"prospective_production\")"
+        },
+        {
+          "line": 212,
+          "text": "    p.add_argument(\"--cache-dir\", default=\"cache/poss1_identity\")"
+        },
+        {
+          "line": 213,
+          "text": "    p.add_argument(\"--max-jobs\", type=int)"
+        },
+        {
+          "line": 214,
+          "text": "    p.add_argument(\"--export\", default=\"results/poss1_identity_preflight.csv\")"
+        }
+      ],
+      "context_end": 214,
+      "context_start": 204,
+      "line": 208,
+      "path": "src\\transient_pipeline\\cli.py"
+    },
+    {
+      "context": [
+        {
+          "line": 207,
+          "text": ""
+        },
+        {
+          "line": 208,
+          "text": "    p = sub.add_parser(\"poss1-preflight\", help=\"resolve/force exact POSS-I physical plates for a frozen queue; no transient detection\")"
+        },
+        {
+          "line": 209,
+          "text": "    p.add_argument(\"--queue\", required=True)"
+        },
+        {
+          "line": 210,
+          "text": "    p.add_argument(\"--vi25\", default=\"research/poss1_plate_metadata.csv\")"
+        },
+        {
+          "line": 211,
+          "text": "    p.add_argument(\"--cohort\", default=\"prospective_production\")"
+        },
+        {
+          "line": 212,
+          "text": "    p.add_argument(\"--cache-dir\", default=\"cache/poss1_identity\")"
+        },
+        {
+          "line": 213,
+          "text": "    p.add_argument(\"--max-jobs\", type=int)"
+        },
+        {
+          "line": 214,
+          "text": "    p.add_argument(\"--export\", default=\"results/poss1_identity_preflight.csv\")"
+        },
+        {
+          "line": 215,
+          "text": ""
+        },
+        {
+          "line": 216,
+          "text": "    args = ap.parse_args(argv)"
+        },
+        {
+          "line": 217,
+          "text": "    evidence = EvidenceStore(args.evidence_dir or None)"
+        }
+      ],
+      "context_end": 217,
+      "context_start": 207,
+      "line": 211,
+      "path": "src\\transient_pipeline\\cli.py"
+    },
+    {
+      "context": [
+        {
+          "line": 293,
+          "text": "            )"
+        },
+        {
+          "line": 294,
+          "text": "        print(json.dumps({\"indexed_fits\": len(files), \"root\": str(cache_root)}, indent=2))"
+        },
+        {
+          "line": 295,
+          "text": "        return"
+        },
+        {
+          "line": 296,
+          "text": ""
+        },
+        {
+          "line": 297,
+          "text": "    if args.cmd == \"poss1-preflight\":"
+        },
+        {
+          "line": 298,
+          "text": "        queue = Path(args.queue)"
+        },
+        {
+          "line": 299,
+          "text": "        vi25 = Path(args.vi25)"
+        },
+        {
+          "line": 300,
+          "text": "        config_path = Path(args.config)"
+        },
+        {
+          "line": 301,
+          "text": "        prov = {"
+        },
+        {
+          "line": 302,
+          "text": "            \"queue_path\": str(queue),"
+        },
+        {
+          "line": 303,
+          "text": "            \"queue_sha256\": sha256_file(queue),"
+        }
+      ],
+      "context_end": 303,
+      "context_start": 293,
+      "line": 297,
+      "path": "src\\transient_pipeline\\cli.py"
+    },
+    {
+      "context": [
+        {
+          "line": 253,
+          "text": "    if len(r.content) < 2880 or not r.content.startswith(b\"SIMPLE\"):"
+        },
+        {
+          "line": 254,
+          "text": "        raise InvalidRemotePayload(\"forced plate response is not FITS\")"
+        },
+        {
+          "line": 255,
+          "text": ""
+        },
+        {
+          "line": 256,
+          "text": ""
+        },
+        {
+          "line": 257,
+          "text": "def queue_poss_jobs(queue_path: str | Path, cohort: str = \"prospective_production\"):"
+        },
+        {
+          "line": 258,
+          "text": "    with Path(queue_path).open(newline=\"\", encoding=\"utf-8-sig\") as fh:"
+        },
+        {
+          "line": 259,
+          "text": "        rows = list(csv.DictReader(fh))"
+        },
+        {
+          "line": 260,
+          "text": "    seen: set[str] = set()"
+        },
+        {
+          "line": 261,
+          "text": "    for row in rows:"
+        },
+        {
+          "line": 262,
+          "text": "        if cohort and (row.get(\"publication_cohort\") or \"\") != cohort:"
+        },
+        {
+          "line": 263,
+          "text": "            continue"
+        }
+      ],
+      "context_end": 263,
+      "context_start": 253,
+      "line": 257,
+      "path": "src\\transient_pipeline\\poss1.py"
+    },
+    {
+      "context": [
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "ROOT = Path.cwd()"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "PRODUCTION = ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 14,
+          "text": "CANONICAL = ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\""
+        },
+        {
+          "line": 15,
+          "text": "IDENTITY = ROOT / \"results\" / \"poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 16,
+          "text": ""
+        },
+        {
+          "line": 17,
+          "text": "EXPECTED_PRODUCTION_SHA = ("
+        },
+        {
+          "line": 18,
+          "text": "    \"b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c\""
+        },
+        {
+          "line": 19,
+          "text": ")"
+        }
+      ],
+      "context_end": 19,
+      "context_start": 9,
+      "line": 13,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "ROOT = Path.cwd()"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "PRODUCTION = ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 14,
+          "text": "CANONICAL = ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\""
+        },
+        {
+          "line": 15,
+          "text": "IDENTITY = ROOT / \"results\" / \"poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 16,
+          "text": ""
+        },
+        {
+          "line": 17,
+          "text": "EXPECTED_PRODUCTION_SHA = ("
+        },
+        {
+          "line": 18,
+          "text": "    \"b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c\""
+        },
+        {
+          "line": 19,
+          "text": ")"
+        },
+        {
+          "line": 20,
+          "text": ""
+        }
+      ],
+      "context_end": 20,
+      "context_start": 10,
+      "line": 14,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 77,
+          "text": ""
+        },
+        {
+          "line": 78,
+          "text": "    for pid in poss_ids_from_row(row):"
+        },
+        {
+          "line": 79,
+          "text": "        usage[pid].append({"
+        },
+        {
+          "line": 80,
+          "text": "            \"canonical_order\": order,"
+        },
+        {
+          "line": 81,
+          "text": "            \"legacy_rank\": row.get(\"legacy_rank\", \"\"),"
+        },
+        {
+          "line": 82,
+          "text": "            \"pair_key\": row.get(\"pair_key\", \"\"),"
+        },
+        {
+          "line": 83,
+          "text": "            \"midpoint_delta_minutes\": row.get("
+        },
+        {
+          "line": 84,
+          "text": "                \"midpoint_delta_minutes\", \"\""
+        },
+        {
+          "line": 85,
+          "text": "            ),"
+        },
+        {
+          "line": 86,
+          "text": "            \"actual_exposure_overlap_s\": row.get("
+        },
+        {
+          "line": 87,
+          "text": "                \"actual_exposure_overlap_s\", \"\""
+        }
+      ],
+      "context_end": 87,
+      "context_start": 77,
+      "line": 81,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 154,
+          "text": "        key=lambda x: x[\"canonical_order\"],"
+        },
+        {
+          "line": 155,
+          "text": "    ):"
+        },
+        {
+          "line": 156,
+          "text": "        print("
+        },
+        {
+          "line": 157,
+          "text": "            \"  order={order:2d} \""
+        },
+        {
+          "line": 158,
+          "text": "            \"legacy_rank={rank!s:>4} \""
+        },
+        {
+          "line": 159,
+          "text": "            \"midpoint={mid!s:>10} min \""
+        },
+        {
+          "line": 160,
+          "text": "            \"overlap={ov!s:>12} s \""
+        },
+        {
+          "line": 161,
+          "text": "            \"true_wcs={wcs!s:>5} \""
+        },
+        {
+          "line": 162,
+          "text": "            \"saved={saved}\".format("
+        },
+        {
+          "line": 163,
+          "text": "                order=u[\"canonical_order\"],"
+        },
+        {
+          "line": 164,
+          "text": "                rank=u[\"legacy_rank\"],"
+        }
+      ],
+      "context_end": 164,
+      "context_start": 154,
+      "line": 158,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 160,
+          "text": "            \"overlap={ov!s:>12} s \""
+        },
+        {
+          "line": 161,
+          "text": "            \"true_wcs={wcs!s:>5} \""
+        },
+        {
+          "line": 162,
+          "text": "            \"saved={saved}\".format("
+        },
+        {
+          "line": 163,
+          "text": "                order=u[\"canonical_order\"],"
+        },
+        {
+          "line": 164,
+          "text": "                rank=u[\"legacy_rank\"],"
+        },
+        {
+          "line": 165,
+          "text": "                mid=u[\"midpoint_delta_minutes\"],"
+        },
+        {
+          "line": 166,
+          "text": "                ov=u[\"actual_exposure_overlap_s\"],"
+        },
+        {
+          "line": 167,
+          "text": "                wcs=u[\"true_wcs_intersection\"],"
+        },
+        {
+          "line": 168,
+          "text": "                saved=u[\"saved_status\"],"
+        },
+        {
+          "line": 169,
+          "text": "            )"
+        },
+        {
+          "line": 170,
+          "text": "        )"
+        }
+      ],
+      "context_end": 170,
+      "context_start": 160,
+      "line": 164,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 261,
+          "text": "# Read-only source scan only."
+        },
+        {
+          "line": 262,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "patterns = ["
+        },
+        {
+          "line": 265,
+          "text": "    re.compile(r\"poss1-preflight\", re.I),"
+        },
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        }
+      ],
+      "context_end": 271,
+      "context_start": 261,
+      "line": 265,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 262,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "patterns = ["
+        },
+        {
+          "line": 265,
+          "text": "    re.compile(r\"poss1-preflight\", re.I),"
+        },
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        }
+      ],
+      "context_end": 272,
+      "context_start": 262,
+      "line": 266,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 263,
+          "text": ""
+        },
+        {
+          "line": 264,
+          "text": "patterns = ["
+        },
+        {
+          "line": 265,
+          "text": "    re.compile(r\"poss1-preflight\", re.I),"
+        },
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        }
+      ],
+      "context_end": 273,
+      "context_start": 263,
+      "line": 267,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 264,
+          "text": "patterns = ["
+        },
+        {
+          "line": 265,
+          "text": "    re.compile(r\"poss1-preflight\", re.I),"
+        },
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        },
+        {
+          "line": 274,
+          "text": ""
+        }
+      ],
+      "context_end": 274,
+      "context_start": 264,
+      "line": 268,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 265,
+          "text": "    re.compile(r\"poss1-preflight\", re.I),"
+        },
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        },
+        {
+          "line": 274,
+          "text": ""
+        },
+        {
+          "line": 275,
+          "text": "source_roots = ["
+        }
+      ],
+      "context_end": 275,
+      "context_start": 265,
+      "line": 269,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 266,
+          "text": "    re.compile(r\"production_sub5\", re.I),"
+        },
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        },
+        {
+          "line": 274,
+          "text": ""
+        },
+        {
+          "line": 275,
+          "text": "source_roots = ["
+        },
+        {
+          "line": 276,
+          "text": "    ROOT / \"src\","
+        }
+      ],
+      "context_end": 276,
+      "context_start": 266,
+      "line": 270,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 267,
+          "text": "    re.compile(r\"canonical_sub5\", re.I),"
+        },
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        },
+        {
+          "line": 274,
+          "text": ""
+        },
+        {
+          "line": 275,
+          "text": "source_roots = ["
+        },
+        {
+          "line": 276,
+          "text": "    ROOT / \"src\","
+        },
+        {
+          "line": 277,
+          "text": "    ROOT / \"tools\","
+        }
+      ],
+      "context_end": 277,
+      "context_start": 267,
+      "line": 271,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 268,
+          "text": "    re.compile(r\"prospective_production\", re.I),"
+        },
+        {
+          "line": 269,
+          "text": "    re.compile(r\"PRE_FREEZE_ANALYSIS_INVENTORY\", re.I),"
+        },
+        {
+          "line": 270,
+          "text": "    re.compile(r\"POSS47\", re.I),"
+        },
+        {
+          "line": 271,
+          "text": "    re.compile(r\"legacy_rank\", re.I),"
+        },
+        {
+          "line": 272,
+          "text": "    re.compile(r\"identity.*prospective\", re.I),"
+        },
+        {
+          "line": 273,
+          "text": "]"
+        },
+        {
+          "line": 274,
+          "text": ""
+        },
+        {
+          "line": 275,
+          "text": "source_roots = ["
+        },
+        {
+          "line": 276,
+          "text": "    ROOT / \"src\","
+        },
+        {
+          "line": 277,
+          "text": "    ROOT / \"tools\","
+        },
+        {
+          "line": 278,
+          "text": "]"
+        }
+      ],
+      "context_end": 278,
+      "context_start": 268,
+      "line": 272,
+      "path": "tools\\audit_sub5_v027_identity_universe.py"
+    },
+    {
+      "context": [
+        {
+          "line": 90,
+          "text": "print()"
+        },
+        {
+          "line": 91,
+          "text": "print(\"CURRENT CHECKPOINT FAILURES\")"
+        },
+        {
+          "line": 92,
+          "text": "print(\"-\" * 88)"
+        },
+        {
+          "line": 93,
+          "text": ""
+        },
+        {
+          "line": 94,
+          "text": "db = sqlite3.connect(\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 95,
+          "text": "db.row_factory = sqlite3.Row"
+        },
+        {
+          "line": 96,
+          "text": ""
+        },
+        {
+          "line": 97,
+          "text": "rows = db.execute("
+        },
+        {
+          "line": 98,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 99,
+          "text": "    SELECT job_key,status,attempts,last_error,updated_at"
+        },
+        {
+          "line": 100,
+          "text": "    FROM jobs"
+        }
+      ],
+      "context_end": 100,
+      "context_start": 90,
+      "line": 94,
+      "path": "tools\\diagnose_v027_four_terminals.py"
+    },
+    {
+      "context": [
+        {
+          "line": 97,
+          "text": "rows = db.execute("
+        },
+        {
+          "line": 98,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 99,
+          "text": "    SELECT job_key,status,attempts,last_error,updated_at"
+        },
+        {
+          "line": 100,
+          "text": "    FROM jobs"
+        },
+        {
+          "line": 101,
+          "text": "    WHERE stage='poss1-identity:prospective_production'"
+        },
+        {
+          "line": 102,
+          "text": "      AND status != 'succeeded'"
+        },
+        {
+          "line": 103,
+          "text": "    ORDER BY job_key"
+        },
+        {
+          "line": 104,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 105,
+          "text": ").fetchall()"
+        },
+        {
+          "line": 106,
+          "text": ""
+        },
+        {
+          "line": 107,
+          "text": "print(\"non-succeeded rows:\", len(rows))"
+        }
+      ],
+      "context_end": 107,
+      "context_start": 97,
+      "line": 101,
+      "path": "tools\\diagnose_v027_four_terminals.py"
+    },
+    {
+      "context": [
+        {
+          "line": 139,
+          "text": ")"
+        },
+        {
+          "line": 140,
+          "text": ""
+        },
+        {
+          "line": 141,
+          "text": "for r in db.execute("
+        },
+        {
+          "line": 142,
+          "text": "    sql,"
+        },
+        {
+          "line": 143,
+          "text": "    (\"poss1-identity:prospective_production\",)"
+        },
+        {
+          "line": 144,
+          "text": ").fetchall():"
+        },
+        {
+          "line": 145,
+          "text": "    print()"
+        },
+        {
+          "line": 146,
+          "text": "    for c in wanted_cols:"
+        },
+        {
+          "line": 147,
+          "text": "        value = r[c]"
+        },
+        {
+          "line": 148,
+          "text": "        if value is not None and len(str(value)) > 3000:"
+        },
+        {
+          "line": 149,
+          "text": "            value = str(value)[:3000] + \"...<truncated>\""
+        }
+      ],
+      "context_end": 149,
+      "context_start": 139,
+      "line": 143,
+      "path": "tools\\diagnose_v027_four_terminals.py"
+    },
+    {
+      "context": [
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "VERSION = \"0.2.7\""
+        },
+        {
+          "line": 19,
+          "text": "DATE = \"2026-08-21\""
+        },
+        {
+          "line": 20,
+          "text": ""
+        },
+        {
+          "line": 21,
+          "text": "STAGE = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 22,
+          "text": ""
+        },
+        {
+          "line": 23,
+          "text": "SKY = ROOT / \"src\" / \"transient_pipeline\" / \"poss1_skyview.py\""
+        },
+        {
+          "line": 24,
+          "text": "POSS = ROOT / \"src\" / \"transient_pipeline\" / \"poss1.py\""
+        },
+        {
+          "line": 25,
+          "text": "WRAPPER = ROOT / \"run_poss1_identity_preflight.ps1\""
+        },
+        {
+          "line": 26,
+          "text": "RESULT = ROOT / \"results\" / \"poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 27,
+          "text": "DB = ROOT / \"state\" / \"poss1_identity_prospective.sqlite\""
+        }
+      ],
+      "context_end": 27,
+      "context_start": 17,
+      "line": 21,
+      "path": "tools\\freeze_poss1_identity_v027.py"
+    },
+    {
+      "context": [
+        {
+          "line": 23,
+          "text": "SKY = ROOT / \"src\" / \"transient_pipeline\" / \"poss1_skyview.py\""
+        },
+        {
+          "line": 24,
+          "text": "POSS = ROOT / \"src\" / \"transient_pipeline\" / \"poss1.py\""
+        },
+        {
+          "line": 25,
+          "text": "WRAPPER = ROOT / \"run_poss1_identity_preflight.ps1\""
+        },
+        {
+          "line": 26,
+          "text": "RESULT = ROOT / \"results\" / \"poss1_identity_preflight.csv\""
+        },
+        {
+          "line": 27,
+          "text": "DB = ROOT / \"state\" / \"poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 28,
+          "text": "EVIDENCE = ROOT / \"evidence\""
+        },
+        {
+          "line": 29,
+          "text": ""
+        },
+        {
+          "line": 30,
+          "text": "PYTHON = ROOT / \".venv\" / \"Scripts\" / \"python.exe\""
+        },
+        {
+          "line": 31,
+          "text": "CLI = ROOT / \".venv\" / \"Scripts\" / \"transient-pipeline.exe\""
+        },
+        {
+          "line": 32,
+          "text": ""
+        },
+        {
+          "line": 33,
+          "text": "FREEZE = ("
+        }
+      ],
+      "context_end": 33,
+      "context_start": 23,
+      "line": 27,
+      "path": "tools\\freeze_poss1_identity_v027.py"
+    },
+    {
+      "context": [
+        {
+          "line": 456,
+          "text": "    ROOT / \"src\" / \"transient_pipeline\" / \"__init__.py\","
+        },
+        {
+          "line": 457,
+          "text": "    WRAPPER,"
+        },
+        {
+          "line": 458,
+          "text": "    RESULT,"
+        },
+        {
+          "line": 459,
+          "text": "    ROOT / \"research\" / \"poss1_plate_metadata.csv\","
+        },
+        {
+          "line": 460,
+          "text": "    ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 461,
+          "text": "    ROOT / \"config\" / \"frozen_method.json\","
+        },
+        {
+          "line": 462,
+          "text": ""
+        },
+        {
+          "line": 463,
+          "text": "    ROOT / \"tests\" / \"test_poss1_v027_identity_policy.py\","
+        },
+        {
+          "line": 464,
+          "text": "    ROOT / \"tests\" / \"test_poss1_v027_hhh_date_policy.py\","
+        },
+        {
+          "line": 465,
+          "text": "    ROOT / \"tests\" / \"test_poss1_v026_nonresolution_fallback.py\","
+        },
+        {
+          "line": 466,
+          "text": "    ROOT / \"tests\" / \"test_poss1_skyview.py\","
+        }
+      ],
+      "context_end": 466,
+      "context_start": 456,
+      "line": 460,
+      "path": "tools\\freeze_poss1_identity_v027.py"
+    },
+    {
+      "context": [
+        {
+          "line": 40,
+          "text": ""
+        },
+        {
+          "line": 41,
+          "text": "# The canonical 74-row queue has existed under more than one retained path."
+        },
+        {
+          "line": 42,
+          "text": "# Select only by content invariants; never silently accept a different queue."
+        },
+        {
+          "line": 43,
+          "text": "QUEUE_CANDIDATES = ["
+        },
+        {
+          "line": 44,
+          "text": "    ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 45,
+          "text": "    ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 46,
+          "text": "    ROOT / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 47,
+          "text": "    ROOT / \"source_data\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 48,
+          "text": "    FREEZE"
+        },
+        {
+          "line": 49,
+          "text": "        / \"inputs\""
+        },
+        {
+          "line": 50,
+          "text": "        / \"research\""
+        }
+      ],
+      "context_end": 50,
+      "context_start": 40,
+      "line": 44,
+      "path": "tools\\prepare_sub5_v027_science_queue.py"
+    },
+    {
+      "context": [
+        {
+          "line": 41,
+          "text": "# The canonical 74-row queue has existed under more than one retained path."
+        },
+        {
+          "line": 42,
+          "text": "# Select only by content invariants; never silently accept a different queue."
+        },
+        {
+          "line": 43,
+          "text": "QUEUE_CANDIDATES = ["
+        },
+        {
+          "line": 44,
+          "text": "    ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 45,
+          "text": "    ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 46,
+          "text": "    ROOT / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 47,
+          "text": "    ROOT / \"source_data\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 48,
+          "text": "    FREEZE"
+        },
+        {
+          "line": 49,
+          "text": "        / \"inputs\""
+        },
+        {
+          "line": 50,
+          "text": "        / \"research\""
+        },
+        {
+          "line": 51,
+          "text": "        / \"production_sub5_queue_2026-08-20.csv\","
+        }
+      ],
+      "context_end": 51,
+      "context_start": 41,
+      "line": 45,
+      "path": "tools\\prepare_sub5_v027_science_queue.py"
+    },
+    {
+      "context": [
+        {
+          "line": 42,
+          "text": "# Select only by content invariants; never silently accept a different queue."
+        },
+        {
+          "line": 43,
+          "text": "QUEUE_CANDIDATES = ["
+        },
+        {
+          "line": 44,
+          "text": "    ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 45,
+          "text": "    ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 46,
+          "text": "    ROOT / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 47,
+          "text": "    ROOT / \"source_data\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 48,
+          "text": "    FREEZE"
+        },
+        {
+          "line": 49,
+          "text": "        / \"inputs\""
+        },
+        {
+          "line": 50,
+          "text": "        / \"research\""
+        },
+        {
+          "line": 51,
+          "text": "        / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 52,
+          "text": "]"
+        }
+      ],
+      "context_end": 52,
+      "context_start": 42,
+      "line": 46,
+      "path": "tools\\prepare_sub5_v027_science_queue.py"
+    },
+    {
+      "context": [
+        {
+          "line": 43,
+          "text": "QUEUE_CANDIDATES = ["
+        },
+        {
+          "line": 44,
+          "text": "    ROOT / \"research\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 45,
+          "text": "    ROOT / \"research\" / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 46,
+          "text": "    ROOT / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 47,
+          "text": "    ROOT / \"source_data\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 48,
+          "text": "    FREEZE"
+        },
+        {
+          "line": 49,
+          "text": "        / \"inputs\""
+        },
+        {
+          "line": 50,
+          "text": "        / \"research\""
+        },
+        {
+          "line": 51,
+          "text": "        / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 52,
+          "text": "]"
+        },
+        {
+          "line": 53,
+          "text": ""
+        }
+      ],
+      "context_end": 53,
+      "context_start": 43,
+      "line": 47,
+      "path": "tools\\prepare_sub5_v027_science_queue.py"
+    },
+    {
+      "context": [
+        {
+          "line": 47,
+          "text": "    ROOT / \"source_data\" / \"canonical_sub5_pairs_74.csv\","
+        },
+        {
+          "line": 48,
+          "text": "    FREEZE"
+        },
+        {
+          "line": 49,
+          "text": "        / \"inputs\""
+        },
+        {
+          "line": 50,
+          "text": "        / \"research\""
+        },
+        {
+          "line": 51,
+          "text": "        / \"production_sub5_queue_2026-08-20.csv\","
+        },
+        {
+          "line": 52,
+          "text": "]"
+        },
+        {
+          "line": 53,
+          "text": ""
+        },
+        {
+          "line": 54,
+          "text": ""
+        },
+        {
+          "line": 55,
+          "text": "def sha256_file(path: Path) -> str:"
+        },
+        {
+          "line": 56,
+          "text": "    h = hashlib.sha256()"
+        },
+        {
+          "line": 57,
+          "text": "    with path.open(\"rb\") as fh:"
+        }
+      ],
+      "context_end": 57,
+      "context_start": 47,
+      "line": 51,
+      "path": "tools\\prepare_sub5_v027_science_queue.py"
+    },
+    {
+      "context": [
+        {
+          "line": 26,
+          "text": ""
+        },
+        {
+          "line": 27,
+          "text": "PRODUCTION = ("
+        },
+        {
+          "line": 28,
+          "text": "    ROOT"
+        },
+        {
+          "line": 29,
+          "text": "    / \"research\""
+        },
+        {
+          "line": 30,
+          "text": "    / \"production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 31,
+          "text": ")"
+        },
+        {
+          "line": 32,
+          "text": ""
+        },
+        {
+          "line": 33,
+          "text": "PRODUCTION_OLD_FROZEN = ("
+        },
+        {
+          "line": 34,
+          "text": "    OLD_PRODUCTION_FREEZE"
+        },
+        {
+          "line": 35,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 36,
+          "text": "    / \"production_sub5_queue_2026-08-20.csv\""
+        }
+      ],
+      "context_end": 36,
+      "context_start": 26,
+      "line": 30,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 32,
+          "text": ""
+        },
+        {
+          "line": 33,
+          "text": "PRODUCTION_OLD_FROZEN = ("
+        },
+        {
+          "line": 34,
+          "text": "    OLD_PRODUCTION_FREEZE"
+        },
+        {
+          "line": 35,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 36,
+          "text": "    / \"production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 37,
+          "text": ")"
+        },
+        {
+          "line": 38,
+          "text": ""
+        },
+        {
+          "line": 39,
+          "text": "PRODUCTION_IDENTITY_FROZEN = ("
+        },
+        {
+          "line": 40,
+          "text": "    IDENTITY_FREEZE"
+        },
+        {
+          "line": 41,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 42,
+          "text": "    / \"research\""
+        }
+      ],
+      "context_end": 42,
+      "context_start": 32,
+      "line": 36,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 39,
+          "text": "PRODUCTION_IDENTITY_FROZEN = ("
+        },
+        {
+          "line": 40,
+          "text": "    IDENTITY_FREEZE"
+        },
+        {
+          "line": 41,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 42,
+          "text": "    / \"research\""
+        },
+        {
+          "line": 43,
+          "text": "    / \"production_sub5_queue_2026-08-20.csv\""
+        },
+        {
+          "line": 44,
+          "text": ")"
+        },
+        {
+          "line": 45,
+          "text": ""
+        },
+        {
+          "line": 46,
+          "text": "CANONICAL_EXTRA = ("
+        },
+        {
+          "line": 47,
+          "text": "    ROOT"
+        },
+        {
+          "line": 48,
+          "text": "    / \"research\""
+        },
+        {
+          "line": 49,
+          "text": "    / \"canonical_sub5_pairs_74.csv\""
+        }
+      ],
+      "context_end": 49,
+      "context_start": 39,
+      "line": 43,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 45,
+          "text": ""
+        },
+        {
+          "line": 46,
+          "text": "CANONICAL_EXTRA = ("
+        },
+        {
+          "line": 47,
+          "text": "    ROOT"
+        },
+        {
+          "line": 48,
+          "text": "    / \"research\""
+        },
+        {
+          "line": 49,
+          "text": "    / \"canonical_sub5_pairs_74.csv\""
+        },
+        {
+          "line": 50,
+          "text": ")"
+        },
+        {
+          "line": 51,
+          "text": ""
+        },
+        {
+          "line": 52,
+          "text": "CANONICAL_OLD_FROZEN = ("
+        },
+        {
+          "line": 53,
+          "text": "    OLD_PRODUCTION_FREEZE"
+        },
+        {
+          "line": 54,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 55,
+          "text": "    / \"canonical_sub5_pairs_74.csv\""
+        }
+      ],
+      "context_end": 55,
+      "context_start": 45,
+      "line": 49,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 51,
+          "text": ""
+        },
+        {
+          "line": 52,
+          "text": "CANONICAL_OLD_FROZEN = ("
+        },
+        {
+          "line": 53,
+          "text": "    OLD_PRODUCTION_FREEZE"
+        },
+        {
+          "line": 54,
+          "text": "    / \"inputs\""
+        },
+        {
+          "line": 55,
+          "text": "    / \"canonical_sub5_pairs_74.csv\""
+        },
+        {
+          "line": 56,
+          "text": ")"
+        },
+        {
+          "line": 57,
+          "text": ""
+        },
+        {
+          "line": 58,
+          "text": "IDENTITY = ("
+        },
+        {
+          "line": 59,
+          "text": "    ROOT"
+        },
+        {
+          "line": 60,
+          "text": "    / \"results\""
+        },
+        {
+          "line": 61,
+          "text": "    / \"poss1_identity_preflight.csv\""
+        }
+      ],
+      "context_end": 61,
+      "context_start": 51,
+      "line": 55,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 261,
+          "text": "        )"
+        },
+        {
+          "line": 262,
+          "text": ""
+        },
+        {
+          "line": 263,
+          "text": "print()"
+        },
+        {
+          "line": 264,
+          "text": "print(\"Authoritative execution role:\")"
+        },
+        {
+          "line": 265,
+          "text": "print(\"  production_sub5_queue_2026-08-20.csv = QUEUE\")"
+        },
+        {
+          "line": 266,
+          "text": "print(\"  canonical_sub5_pairs_74.csv           = EXTRA INPUT / AUDIT\")"
+        },
+        {
+          "line": 267,
+          "text": ""
+        },
+        {
+          "line": 268,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 269,
+          "text": "# 3. Read both 74-row files and preserve a complete row-level diff."
+        },
+        {
+          "line": 270,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 271,
+          "text": ""
+        }
+      ],
+      "context_end": 271,
+      "context_start": 261,
+      "line": 265,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 262,
+          "text": ""
+        },
+        {
+          "line": 263,
+          "text": "print()"
+        },
+        {
+          "line": 264,
+          "text": "print(\"Authoritative execution role:\")"
+        },
+        {
+          "line": 265,
+          "text": "print(\"  production_sub5_queue_2026-08-20.csv = QUEUE\")"
+        },
+        {
+          "line": 266,
+          "text": "print(\"  canonical_sub5_pairs_74.csv           = EXTRA INPUT / AUDIT\")"
+        },
+        {
+          "line": 267,
+          "text": ""
+        },
+        {
+          "line": 268,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 269,
+          "text": "# 3. Read both 74-row files and preserve a complete row-level diff."
+        },
+        {
+          "line": 270,
+          "text": "# ----------------------------------------------------------------------"
+        },
+        {
+          "line": 271,
+          "text": ""
+        },
+        {
+          "line": 272,
+          "text": "prod_rows = load_csv(PRODUCTION)"
+        }
+      ],
+      "context_end": 272,
+      "context_start": 262,
+      "line": 266,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 351,
+          "text": "diff_record = {"
+        },
+        {
+          "line": 352,
+          "text": "    \"created_at_utc\":"
+        },
+        {
+          "line": 353,
+          "text": "        datetime.now(timezone.utc).isoformat(),"
+        },
+        {
+          "line": 354,
+          "text": "    \"interpretation\": ("
+        },
+        {
+          "line": 355,
+          "text": "        \"production_sub5_queue_2026-08-20.csv is the \""
+        },
+        {
+          "line": 356,
+          "text": "        \"frozen logical-role queue. \""
+        },
+        {
+          "line": 357,
+          "text": "        \"canonical_sub5_pairs_74.csv is retained as \""
+        },
+        {
+          "line": 358,
+          "text": "        \"a frozen extra_input and is not an equal \""
+        },
+        {
+          "line": 359,
+          "text": "        \"execution claimant.\""
+        },
+        {
+          "line": 360,
+          "text": "    ),"
+        },
+        {
+          "line": 361,
+          "text": "    \"production\": {"
+        }
+      ],
+      "context_end": 361,
+      "context_start": 351,
+      "line": 355,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 353,
+          "text": "        datetime.now(timezone.utc).isoformat(),"
+        },
+        {
+          "line": 354,
+          "text": "    \"interpretation\": ("
+        },
+        {
+          "line": 355,
+          "text": "        \"production_sub5_queue_2026-08-20.csv is the \""
+        },
+        {
+          "line": 356,
+          "text": "        \"frozen logical-role queue. \""
+        },
+        {
+          "line": 357,
+          "text": "        \"canonical_sub5_pairs_74.csv is retained as \""
+        },
+        {
+          "line": 358,
+          "text": "        \"a frozen extra_input and is not an equal \""
+        },
+        {
+          "line": 359,
+          "text": "        \"execution claimant.\""
+        },
+        {
+          "line": 360,
+          "text": "    ),"
+        },
+        {
+          "line": 361,
+          "text": "    \"production\": {"
+        },
+        {
+          "line": 362,
+          "text": "        \"path\": str("
+        },
+        {
+          "line": 363,
+          "text": "            PRODUCTION.relative_to(ROOT)"
+        }
+      ],
+      "context_end": 363,
+      "context_start": 353,
+      "line": 357,
+      "path": "tools\\prepare_sub5_v027_science_queue_v2.py"
+    },
+    {
+      "context": [
+        {
+          "line": 24,
+          "text": ""
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "def main() -> int:"
+        },
+        {
+          "line": 27,
+          "text": "    ap = argparse.ArgumentParser()"
+        },
+        {
+          "line": 28,
+          "text": "    ap.add_argument(\"--db\", default=\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 29,
+          "text": "    ap.add_argument(\"--stage\", default=\"poss1-identity:prospective_production\")"
+        },
+        {
+          "line": 30,
+          "text": "    ap.add_argument(\"--audit-dir\", default=\"research\")"
+        },
+        {
+          "line": 31,
+          "text": "    ap.add_argument(\"--exception-validation\", default=\"research/POSS1_XO197_ARCHIVE_EXCEPTION_VALIDATION_v0.2.5.json\")"
+        },
+        {
+          "line": 32,
+          "text": "    args = ap.parse_args()"
+        },
+        {
+          "line": 33,
+          "text": ""
+        },
+        {
+          "line": 34,
+          "text": "    db = Path(args.db)"
+        }
+      ],
+      "context_end": 34,
+      "context_start": 24,
+      "line": 28,
+      "path": "tools\\requeue_v023_terminal_identity_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "def main() -> int:"
+        },
+        {
+          "line": 27,
+          "text": "    ap = argparse.ArgumentParser()"
+        },
+        {
+          "line": 28,
+          "text": "    ap.add_argument(\"--db\", default=\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 29,
+          "text": "    ap.add_argument(\"--stage\", default=\"poss1-identity:prospective_production\")"
+        },
+        {
+          "line": 30,
+          "text": "    ap.add_argument(\"--audit-dir\", default=\"research\")"
+        },
+        {
+          "line": 31,
+          "text": "    ap.add_argument(\"--exception-validation\", default=\"research/POSS1_XO197_ARCHIVE_EXCEPTION_VALIDATION_v0.2.5.json\")"
+        },
+        {
+          "line": 32,
+          "text": "    args = ap.parse_args()"
+        },
+        {
+          "line": 33,
+          "text": ""
+        },
+        {
+          "line": 34,
+          "text": "    db = Path(args.db)"
+        },
+        {
+          "line": 35,
+          "text": "    validation = Path(args.exception_validation)"
+        }
+      ],
+      "context_end": 35,
+      "context_start": 25,
+      "line": 29,
+      "path": "tools\\requeue_v023_terminal_identity_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 36,
+          "text": ""
+        },
+        {
+          "line": 37,
+          "text": ""
+        },
+        {
+          "line": 38,
+          "text": "def main() -> int:"
+        },
+        {
+          "line": 39,
+          "text": "    ap = argparse.ArgumentParser()"
+        },
+        {
+          "line": 40,
+          "text": "    ap.add_argument(\"--db\", default=\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 41,
+          "text": "    ap.add_argument(\"--stage\", default=\"poss1-identity:prospective_production\")"
+        },
+        {
+          "line": 42,
+          "text": "    ap.add_argument(\"--audit-dir\", default=\"research\")"
+        },
+        {
+          "line": 43,
+          "text": "    args = ap.parse_args()"
+        },
+        {
+          "line": 44,
+          "text": ""
+        },
+        {
+          "line": 45,
+          "text": "    db = Path(args.db)"
+        },
+        {
+          "line": 46,
+          "text": "    if not db.exists():"
+        }
+      ],
+      "context_end": 46,
+      "context_start": 36,
+      "line": 40,
+      "path": "tools\\requeue_v025_platefinder_nonresolution_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 37,
+          "text": ""
+        },
+        {
+          "line": 38,
+          "text": "def main() -> int:"
+        },
+        {
+          "line": 39,
+          "text": "    ap = argparse.ArgumentParser()"
+        },
+        {
+          "line": 40,
+          "text": "    ap.add_argument(\"--db\", default=\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 41,
+          "text": "    ap.add_argument(\"--stage\", default=\"poss1-identity:prospective_production\")"
+        },
+        {
+          "line": 42,
+          "text": "    ap.add_argument(\"--audit-dir\", default=\"research\")"
+        },
+        {
+          "line": 43,
+          "text": "    args = ap.parse_args()"
+        },
+        {
+          "line": 44,
+          "text": ""
+        },
+        {
+          "line": 45,
+          "text": "    db = Path(args.db)"
+        },
+        {
+          "line": 46,
+          "text": "    if not db.exists():"
+        },
+        {
+          "line": 47,
+          "text": "        raise SystemExit(f\"missing checkpoint DB: {db}\")"
+        }
+      ],
+      "context_end": 47,
+      "context_start": 37,
+      "line": 41,
+      "path": "tools\\requeue_v025_platefinder_nonresolution_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 6,
+          "text": "import json"
+        },
+        {
+          "line": 7,
+          "text": "import sqlite3"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "DB = Path(\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 11,
+          "text": "STAGE = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 12,
+          "text": "AUDIT_DIR = Path(\"research\")"
+        },
+        {
+          "line": 13,
+          "text": "SOURCE = Path(\"src/transient_pipeline/poss1_skyview.py\")"
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "# Exact v0.2.7 source produced by the reviewed patch."
+        },
+        {
+          "line": 16,
+          "text": "EXPECTED_SOURCE_SHA256 = ("
+        }
+      ],
+      "context_end": 16,
+      "context_start": 6,
+      "line": 10,
+      "path": "tools\\requeue_v027_five_identity_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 7,
+          "text": "import sqlite3"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "DB = Path(\"state/poss1_identity_prospective.sqlite\")"
+        },
+        {
+          "line": 11,
+          "text": "STAGE = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 12,
+          "text": "AUDIT_DIR = Path(\"research\")"
+        },
+        {
+          "line": 13,
+          "text": "SOURCE = Path(\"src/transient_pipeline/poss1_skyview.py\")"
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "# Exact v0.2.7 source produced by the reviewed patch."
+        },
+        {
+          "line": 16,
+          "text": "EXPECTED_SOURCE_SHA256 = ("
+        },
+        {
+          "line": 17,
+          "text": "    \"df125f17bfc4f21f6dd1a16ba3290790b5a47e37a8d8bffba6e239932da2000a\""
+        }
+      ],
+      "context_end": 17,
+      "context_start": 7,
+      "line": 11,
+      "path": "tools\\requeue_v027_five_identity_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "ROOT = Path.cwd()"
+        },
+        {
+          "line": 11,
+          "text": ""
+        },
+        {
+          "line": 12,
+          "text": "DB = ROOT / \"state\" / \"poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 13,
+          "text": "SKY = ROOT / \"src\" / \"transient_pipeline\" / \"poss1_skyview.py\""
+        },
+        {
+          "line": 14,
+          "text": "POSS = ROOT / \"src\" / \"transient_pipeline\" / \"poss1.py\""
+        },
+        {
+          "line": 15,
+          "text": ""
+        },
+        {
+          "line": 16,
+          "text": "STAGE = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "EXPECTED_SKY_SHA256 = ("
+        }
+      ],
+      "context_end": 18,
+      "context_start": 8,
+      "line": 12,
+      "path": "tools\\requeue_v027_hhh_date_four_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 12,
+          "text": "DB = ROOT / \"state\" / \"poss1_identity_prospective.sqlite\""
+        },
+        {
+          "line": 13,
+          "text": "SKY = ROOT / \"src\" / \"transient_pipeline\" / \"poss1_skyview.py\""
+        },
+        {
+          "line": 14,
+          "text": "POSS = ROOT / \"src\" / \"transient_pipeline\" / \"poss1.py\""
+        },
+        {
+          "line": 15,
+          "text": ""
+        },
+        {
+          "line": 16,
+          "text": "STAGE = \"poss1-identity:prospective_production\""
+        },
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "EXPECTED_SKY_SHA256 = ("
+        },
+        {
+          "line": 19,
+          "text": "    \"22470c1956e6b0ddb885d51092aa0a30dd322bfc1d48c6b49bcd0ed3620a732e\""
+        },
+        {
+          "line": 20,
+          "text": ")"
+        },
+        {
+          "line": 21,
+          "text": "EXPECTED_POSS_SHA256 = ("
+        },
+        {
+          "line": 22,
+          "text": "    \"6161a74d5ce76f70235c66a748077b3517f7d2d7946e9f48998927c331374ac7\""
+        }
+      ],
+      "context_end": 22,
+      "context_start": 12,
+      "line": 16,
+      "path": "tools\\requeue_v027_hhh_date_four_jobs.py"
+    },
+    {
+      "context": [
+        {
+          "line": 176,
+          "text": ""
+        },
+        {
+          "line": 177,
+          "text": "backup = ("
+        },
+        {
+          "line": 178,
+          "text": "    ROOT"
+        },
+        {
+          "line": 179,
+          "text": "    / \"state\""
+        },
+        {
+          "line": 180,
+          "text": "    / f\"poss1_identity_prospective.pre_v027_hhh_date_requeue_{stamp}.sqlite\""
+        },
+        {
+          "line": 181,
+          "text": ")"
+        },
+        {
+          "line": 182,
+          "text": ""
+        },
+        {
+          "line": 183,
+          "text": "audit = ("
+        },
+        {
+          "line": 184,
+          "text": "    ROOT"
+        },
+        {
+          "line": 185,
+          "text": "    / \"research\""
+        },
+        {
+          "line": 186,
+          "text": "    / f\"POSS1_V027_HHH_DATE_FOUR_JOB_REQUEUE_{stamp}.json\""
+        }
+      ],
+      "context_end": 186,
+      "context_start": 176,
+      "line": 180,
+      "path": "tools\\requeue_v027_hhh_date_four_jobs.py"
+    }
+  ],
+  "production_only_columns": [
+    "pre_freeze_reason",
+    "pre_freeze_touched",
+    "production_action",
+    "publication_cohort"
+  ],
+  "production_pair_rows": 74,
+  "production_poss_involving_rows": 47,
+  "production_queue_sha256": "b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c",
+  "production_unique_poss_exposures": 40
+}

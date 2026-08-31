@@ -1,0 +1,4 @@
+# Publication/provenance snapshots are byte-exact.
+# Do not perform platform-dependent line-ending conversion.
+pipeline_v0.2.0/** -text
+project_state/** -text

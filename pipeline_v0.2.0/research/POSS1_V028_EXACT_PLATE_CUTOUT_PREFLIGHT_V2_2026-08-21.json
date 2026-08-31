@@ -1,0 +1,14 @@
+{
+  "exact_plate_cutout_ready": 1,
+  "failed": 9,
+  "identity_method": "frozen reviewed SkyView descriptor plus raw-HHH fallback",
+  "identity_reproduced": 10,
+  "operation": "v028_corrected_exact_plate_cutout_preflight",
+  "result_sha256": "9747fe550f5d768599b18139c81af746a3adc89aad962d028af43d15b502bade",
+  "science_detector_runs": 0,
+  "states": {
+    "EXACT_PLATE_CUTOUT_READY": 1,
+    "EXACT_PLATE_EXTRACTION_FAILED": 9
+  },
+  "targets": 10
+}

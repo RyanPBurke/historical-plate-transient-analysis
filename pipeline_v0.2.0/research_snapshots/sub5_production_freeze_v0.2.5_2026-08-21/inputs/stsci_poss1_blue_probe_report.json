@@ -1,0 +1,39 @@
+{
+  "checkpoint_changed": false,
+  "created_at_utc": "2026-08-20T23:21:06.149014+00:00",
+  "probe_only": true,
+  "request": {
+    "bytes": 964,
+    "content_type": "text/html; charset=UTF-8",
+    "endpoint": "https://archive.stsci.edu/cgi-bin/dss_search",
+    "final_url": "https://archive.stsci.edu/cgi-bin/dss_search?V=poss1_blue&R=02+39+17.70&D=%2B42+37+43.0&E=J2000&H=5.0&W=5.0&F=fits&C=none",
+    "http_status": 200,
+    "params": {
+      "C": "none",
+      "D": "+42 37 43.0",
+      "E": "J2000",
+      "F": "fits",
+      "H": "5.0",
+      "R": "02 39 17.70",
+      "V": "poss1_blue",
+      "W": "5.0"
+    },
+    "sha256": "ce0833f9956fc2aaaeeb057c3229fa888f11f1ac6ebcd2ee856ba82137307bea"
+  },
+  "response_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss_preflight\\xo197_stsci_poss1_blue_probe\\stsci_poss1_blue_response.bin",
+  "response_preview": "<HTML>\n<HEAD> <TITLE>ERROR</TITLE> </HEAD>\n<BODY>\n<H1>ERROR</H1>\n<P><HR><P>\nSomething went wrong; the image file was not created.\n<PRE>\nCalibration and image data not available for field data...\n\n\n\t\t\t        GetImage\n\n\t\t\t       Version 3.0\n\n\t\t        Copyright (c) 1993-2005,\n      Association of Universities for Research in Astronomy, Inc.\n\t\t          All Rights Reserved.\n\nReading plate list: /dss/headers/poss1_blue.v30.lis...\nList version 3\n\n\nField                  RA(J2000)   Dec(J2000)  Region PlId   Epoch    X     Y   Width  Hght Dsc\n----                 ------------ ------------ ------ ---- -------- ----- ----- ----- ----- ---\n\nFATAL ERROR:\n\n\t\"Aborting GetImage...\"\n\nProgram aborted.\n\n\n\n  REQUEST_URI: /cgi-bin/dss_search?V=poss1_blue&R=02+39+17.70&D=%2B42+37+43.0&E=J2000&H=5.0&W=5.0&F=fits&C=none\n  UNIQUE_ID: aoeL4QH3@16AeX6bk61r-QAAACc\n</PRE>\n<P><HR><P>\n<ADDRESS><A HREF=\"mailto:archive@stsci.edu\">archive@stsci.edu</A></ADDRESS>\n\n</BODY>\n</HTML>\n",
+  "science_analysis_performed": false,
+  "target": {
+    "band": "O",
+    "expected_region": "XO197",
+    "exposure_id": "POSS-I:449:O:rec198",
+    "mlp": 198,
+    "poss": 449,
+    "queue_dec_deg": 42.62861111111111,
+    "queue_ra_deg": 39.82375,
+    "recno": 198,
+    "vi25_o_exposure_minutes": 10,
+    "vi25_obs_local_date": "1951-12-21",
+    "vi25_obs_o_local_time": "19:55"
+  }
+}

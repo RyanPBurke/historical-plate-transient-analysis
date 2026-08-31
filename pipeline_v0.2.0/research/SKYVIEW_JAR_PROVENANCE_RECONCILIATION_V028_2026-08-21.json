@@ -1,0 +1,20 @@
+﻿{
+    "recorded_at_utc":  "2026-08-21T22:11:54.0792461Z",
+    "status":  "resolved_for_order61_execution",
+    "issue":  "SkyView JAR provenance divergence",
+    "historical_registered_jar_sha256":  "2b949f68d73899cd63b2f600f60f6c5dfd1795532ed29b6ea986f71f83d36afe",
+    "successful_pair61_report_jar_sha256":  "8483a20d986bb61fa1d733ce16d446fb2a0ff363bc1b1367e28b01a1bbdcbb8d",
+    "current_pair61_runner_source_still_contains_historical_sha":  true,
+    "successful_pair61_report_path":  ".\\results\\pair61_native_detector_control_v028\\pair61_native_detector_control_report.json",
+    "successful_pair61_report_jar_path":  "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss_preflight\\skyview_source\\skyview.jar",
+    "current_actual_jar_path":  ".\\work\\poss_preflight\\skyview_source\\skyview.jar",
+    "current_actual_jar_sha256":  "8483a20d986bb61fa1d733ce16d446fb2a0ff363bc1b1367e28b01a1bbdcbb8d",
+    "preserved_execution_jar_path":  ".\\research_snapshots\\order61_native_execution_v028_2026-08-21\\inputs\\skyview_8483a20d986bb61fa1d733ce16d446fb2a0ff363bc1b1367e28b01a1bbdcbb8d.jar",
+    "preserved_execution_jar_sha256":  "8483a20d986bb61fa1d733ce16d446fb2a0ff363bc1b1367e28b01a1bbdcbb8d",
+    "decision":  [
+                     "Do not claim the present Pair61 runner source is byte-for-byte the historical source state that produced the successful Pair61 report.",
+                     "For whole-order61 execution, pin the SkyView reader to the exact JAR artifact recorded by the successful Pair61 science report.",
+                     "Do not alter frozen detector, frozen method, or frozen native-tile execution policy.",
+                     "The older 2b949f68 JAR remains historical provenance and is not erased or relabelled."
+                 ]
+}

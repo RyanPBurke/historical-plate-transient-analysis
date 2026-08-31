@@ -1,0 +1,23 @@
+{
+  "version": "0.2.5",
+  "created_date": "2026-08-21",
+  "science_analysis_performed": false,
+  "exceptions": [
+    {
+      "exposure_id": "POSS-I:449:O:rec198",
+      "poss": "449",
+      "band": "O",
+      "recno": 198,
+      "mlp": 198,
+      "expected_region": "XO197",
+      "classification": "catalogue_identified_pixels_unavailable",
+      "eligible_for_science": false,
+      "retain_in_prospective_denominator": true,
+      "reason": "VI/25 identifies the physical POSS-I O exposure. During pre-detector archive preflight, the current SkyView DSS1B descriptor contained no XO197 entry and the raw XO197 header path returned HTTP 404; an independent direct STScI poss1_blue request read the official poss1_blue plate list and reported that calibration and image data were not available for the field. This is an archive-availability state, not a scientific negative and not a license to substitute a neighboring plate.",
+      "required_local_probe_reports": [
+        "work/poss_preflight/xo197_exception_probe/xo197_exception_probe.json",
+        "work/poss_preflight/xo197_stsci_poss1_blue_probe/stsci_poss1_blue_probe_report.json"
+      ]
+    }
+  ]
+}

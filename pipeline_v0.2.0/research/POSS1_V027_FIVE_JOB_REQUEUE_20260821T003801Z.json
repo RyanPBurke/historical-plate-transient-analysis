@@ -1,0 +1,104 @@
+{
+  "attempt_history_policy": "Preserved. Attempts are not reset; only status, last_error and updated_at are changed.",
+  "backup_db": "state\\poss1_identity_prospective.pre_v027_five_job_requeue_20260821T003801Z.sqlite",
+  "backup_db_sha256": "26b28d337d203aaa59508ce343e455e5e57f91b7498f3fe067860eb7cdd0f16d",
+  "completed_at_utc": "2026-08-21T00:38:01.391438+00:00",
+  "created_at_utc": "2026-08-21T00:38:01.385582+00:00",
+  "detector_run": false,
+  "post_counts": {
+    "pending": 5,
+    "succeeded": 26
+  },
+  "pre_counts": {
+    "failed_retryable": 1,
+    "failed_terminal": 4,
+    "succeeded": 26
+  },
+  "reason": "Requeue exactly five POSS-I identity jobs after v0.2.7 review. Four v0.2.6 descriptor/HHH centre failures were demonstrated by pixel-equivalent controls to be invalid terminal gates. XE759's deterministic raw HHH HTTP 404 is requeued so v0.2.7 can classify it as catalogue-identified with digital pixels unavailable rather than repeatedly retrying.",
+  "rows_after": [
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:782:E:rec514",
+      "last_error": "requeued_v0.2.7_after_reviewed_v0.2.6_identity_failure; prior=terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE513: 260.500 arcsec",
+      "status": "pending",
+      "updated_at": "2026-08-21T00:38:01.385582+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:832:E:rec760",
+      "last_error": "requeued_v0.2.7_after_reviewed_v0.2.6_identity_failure; prior=retryable_remote_error: unexpected HTTP 404: <html>\n<head>\n<title>File Not Found</title>\n<link rel=\"stylesheet\" href=\"/current/includes/skyviewall.css\">\n</head>\n<body>\n<div id=\"page\">\n\n<MAP NAME=\"buttonbar\" id=\"buttonbar\">\n<AREA alt=\"SkyView Home Page\" SHAPE=\"RECT\" COORDS=\"1,75,85,117\" \n\tHREF=\"../cgi/titlepage.pl\">\n<AREA alt=\"SkyView Query For",
+      "status": "pending",
+      "updated_at": "2026-08-21T00:38:01.385582+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:872:O:rec148",
+      "last_error": "requeued_v0.2.7_after_reviewed_v0.2.6_identity_failure; prior=terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XO147: 246.737 arcsec",
+      "status": "pending",
+      "updated_at": "2026-08-21T00:38:01.385582+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:875:E:rec521",
+      "last_error": "requeued_v0.2.7_after_reviewed_v0.2.6_identity_failure; prior=terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE520: 103.479 arcsec",
+      "status": "pending",
+      "updated_at": "2026-08-21T00:38:01.385582+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:876:E:rec239",
+      "last_error": "requeued_v0.2.7_after_reviewed_v0.2.6_identity_failure; prior=terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE238: 234.656 arcsec",
+      "status": "pending",
+      "updated_at": "2026-08-21T00:38:01.385582+00:00"
+    }
+  ],
+  "rows_before": [
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:782:E:rec514",
+      "last_error": "terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE513: 260.500 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T23:44:36.268784+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:832:E:rec760",
+      "last_error": "retryable_remote_error: unexpected HTTP 404: <html>\n<head>\n<title>File Not Found</title>\n<link rel=\"stylesheet\" href=\"/current/includes/skyviewall.css\">\n</head>\n<body>\n<div id=\"page\">\n\n<MAP NAME=\"buttonbar\" id=\"buttonbar\">\n<AREA alt=\"SkyView Home Page\" SHAPE=\"RECT\" COORDS=\"1,75,85,117\" \n\tHREF=\"../cgi/titlepage.pl\">\n<AREA alt=\"SkyView Query For",
+      "status": "failed_retryable",
+      "updated_at": "2026-08-20T23:44:51.878686+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:872:O:rec148",
+      "last_error": "terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XO147: 246.737 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T23:44:54.650293+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:875:E:rec521",
+      "last_error": "terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE520: 103.479 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T23:44:56.207021+00:00"
+    },
+    {
+      "attempts": 5,
+      "job_key": "POSS-I:876:E:rec239",
+      "last_error": "terminal_error: ValueError: SkyView descriptor/HHH center disagreement for XE238: 234.656 arcsec",
+      "status": "failed_terminal",
+      "updated_at": "2026-08-20T23:44:57.517499+00:00"
+    }
+  ],
+  "science_analysis_performed": false,
+  "source_db": "state\\poss1_identity_prospective.sqlite",
+  "stage": "poss1-identity:prospective_production",
+  "target_job_keys": [
+    "POSS-I:782:E:rec514",
+    "POSS-I:832:E:rec760",
+    "POSS-I:872:O:rec148",
+    "POSS-I:875:E:rec521",
+    "POSS-I:876:E:rec239"
+  ],
+  "validated_source": "src\\transient_pipeline\\poss1_skyview.py",
+  "validated_source_sha256": "df125f17bfc4f21f6dd1a16ba3290790b5a47e37a8d8bffba6e239932da2000a"
+}

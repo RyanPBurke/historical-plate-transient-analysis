@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-08-29T17:27:45.162736+00:00",
+  "execution_order": [
+    "population_shift_controls_60_120_arcsec_8_directions_gates_3_10",
+    "primary_common_gaia_registration_windows_5_10_20_30arcmin_min5_translation_median",
+    "sparse_fallback_only_if_primary_lt5_at30arcmin_min3_per_archive_LOO_all_gt3arcsec",
+    "candidate_level_gaia_epoch_morphology_recurrence_context",
+    "manual_review_terminal_survivors_or_ambiguities_only"
+  ],
+  "global_raw_separation_histogram": {
+    "le0p5": 7459,
+    "le1": 29012,
+    "le10": 512788,
+    "le2": 101286,
+    "le3": 185532,
+    "le5": 322763
+  },
+  "governing_v057_contract": {
+    "path": "research/prospective_freezes/wide_census_postdetector_adjudication_contract_v001.json",
+    "sha256": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad"
+  },
+  "interpretation_boundary": "Raw coincidences are measurements only; no science-positive classification is made by v061.",
+  "plan_id": "wide_census_postdetector_execution_plan_v061",
+  "v056_evidence": {
+    "candidates_sha256": "d6e339b0ee1636b4a9dc2fdabf160ecd07f5a072ba22bbc3705bed4787890293",
+    "pair_summary_sha256": "52dafd68a7cd928b1f580adb7218507b16fcfb8ce26861f272802837bf425bad",
+    "raw_matches_sha256": "f99cde6fba869944c58dbdb5bb360f59daca8412d4cf6173a1c5de8397a4f506",
+    "report_sha256": "77b0ead820e0e23854ccabe82240193374cba4658233c0e9c98b28695e3039ce"
+  },
+  "verified_counts": {
+    "accepted_candidates": 5083325,
+    "pairs": 33,
+    "pairs_raw_le10": 33,
+    "pairs_raw_le3": 32,
+    "pairs_with_uninformative_detector_coverage": 2,
+    "raw_le10": 512788,
+    "raw_le3": 185532,
+    "tiles": 6293,
+    "zero_sigma_tiles": 2
+  }
+}

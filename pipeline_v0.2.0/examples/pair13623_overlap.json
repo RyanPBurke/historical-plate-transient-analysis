@@ -1,0 +1,9 @@
+{
+  "pair": "APPLAUSE:13623|DASCH:bi05607",
+  "hamburg_start_utc": "1952-08-14T20:51:12+00:00",
+  "hamburg_end_utc": "1952-08-14T21:31:12+00:00",
+  "harvard_start_utc": "1952-08-14T20:41:28.299988+00:00",
+  "harvard_end_utc": "1952-08-14T21:41:28.299988+00:00",
+  "actual_overlap_seconds": 2400,
+  "actual_overlap_minutes": 40
+}

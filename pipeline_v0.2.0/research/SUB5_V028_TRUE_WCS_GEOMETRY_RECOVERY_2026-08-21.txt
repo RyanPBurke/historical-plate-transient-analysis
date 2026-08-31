@@ -1,0 +1,740 @@
+SUB-5 TRUE-WCS GEOMETRY RECOVERY
+==============================================================================
+Handoff rows: 74
+POSS pair rows: 47
+XE520 native pixel control: PASS
+
+HANDOFF GEOMETRY COLUMNS
+  actual_exposure_overlap_s
+  actual_exposure_overlap_minutes
+  overlap_fraction_a
+  overlap_fraction_b
+  approx_overlap_fraction_smaller
+  true_wcs_overlap_fraction
+  true_wcs_intersection
+  overlap_start_utc
+  overlap_end_utc
+  recomputed_actual_exposure_overlap_s
+  overlap_recomputed_matches_stored
+
+FILES CONTAINING GEOMETRY/WCS LOGIC
+
+src\transient_pipeline\detector.py
+  sha256: 709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7
+  line 72: pixel_to_world
+        68:             raise ValueError("FITS cutout has no celestial WCS")
+        69:     d = detect_array(image, method)
+        70:     if len(d["x"]) == 0:
+        71:         raise ValueError("frozen detector found zero peaks in cutout")
+        72:     sky = wcs.pixel_to_world(d["x"], d["y"])
+        73:     target = SkyCoord(target_ra_deg * u.deg, target_dec_deg * u.deg)
+        74:     sep = target.separation(sky).arcsec
+        75:     idx = int(np.argmin(sep))
+        76:     return DetectionSummary(
+
+tools\audit_sub5_v027_identity_universe.py
+  sha256: 0d745b4c70a137ad3c6330cbbb4b62bb087bcc17f61dfd9b08b1fb4492a7e735
+  line 92: true_wcs_intersection, intersection
+        88:             ),
+        89:             "actual_exposure_overlap_minutes": row.get(
+        90:                 "actual_exposure_overlap_minutes", ""
+        91:             ),
+        92:             "true_wcs_intersection": row.get(
+        93:                 "true_wcs_intersection", ""
+        94:             ),
+        95:             "saved_status": row.get("saved_status", ""),
+        96:         })
+  line 93: true_wcs_intersection, intersection
+        89:             "actual_exposure_overlap_minutes": row.get(
+        90:                 "actual_exposure_overlap_minutes", ""
+        91:             ),
+        92:             "true_wcs_intersection": row.get(
+        93:                 "true_wcs_intersection", ""
+        94:             ),
+        95:             "saved_status": row.get("saved_status", ""),
+        96:         })
+        97: 
+  line 167: true_wcs_intersection, intersection
+       163:                 order=u["canonical_order"],
+       164:                 rank=u["legacy_rank"],
+       165:                 mid=u["midpoint_delta_minutes"],
+       166:                 ov=u["actual_exposure_overlap_s"],
+       167:                 wcs=u["true_wcs_intersection"],
+       168:                 saved=u["saved_status"],
+       169:             )
+       170:         )
+       171: 
+
+tools\build_frozen_poss_pixel_map.py
+  sha256: ff840598719a115460ff5125781d13fc179c75a44b899d52094e79d899020e84
+  line 494: true_wcs_intersection, intersection
+       490:             partner_plate_id(
+       491:                 partner
+       492:             ),
+       493: 
+       494:         "true_wcs_intersection":
+       495:             row.get(
+       496:                 "true_wcs_intersection",
+       497:                 "",
+       498:             ),
+  line 496: true_wcs_intersection, intersection
+       492:             ),
+       493: 
+       494:         "true_wcs_intersection":
+       495:             row.get(
+       496:                 "true_wcs_intersection",
+       497:                 "",
+       498:             ),
+       499: 
+       500:         "true_wcs_overlap_fraction":
+  line 500: true_wcs_overlap_fraction, overlap_fraction
+       496:                 "true_wcs_intersection",
+       497:                 "",
+       498:             ),
+       499: 
+       500:         "true_wcs_overlap_fraction":
+       501:             row.get(
+       502:                 "true_wcs_overlap_fraction",
+       503:                 "",
+       504:             ),
+  line 502: true_wcs_overlap_fraction, overlap_fraction
+       498:             ),
+       499: 
+       500:         "true_wcs_overlap_fraction":
+       501:             row.get(
+       502:                 "true_wcs_overlap_fraction",
+       503:                 "",
+       504:             ),
+       505: 
+       506:         "overlap_start_utc":
+
+tools\inspect_execution_wiring_compact.py
+  sha256: 3686b08aa044bbd5043db7aebe0272492646dbfaa7f3caa0f3fcb14568ae4768
+  line 381: true_wcs_intersection, intersection
+       377:         "pair_key",
+       378:         "exposure_a",
+       379:         "exposure_b",
+       380:         "poss_exposure_id",
+       381:         "true_wcs_intersection",
+       382:         "overlap_start_utc",
+       383:         "overlap_end_utc",
+       384:         "recomputed_actual_exposure_overlap_s",
+       385:     )
+
+tools\inspect_target_wiring_minimal.py
+  sha256: 14d5ed67d2bcc31530202f470c612ae48b7cfbde7aaefdb4107456392a90958e
+  line 48: true_wcs_intersection, intersection
+        44:     "dec_a_deg",
+        45:     "ra_b_deg",
+        46:     "dec_b_deg",
+        47:     "poss_exposure_id",
+        48:     "true_wcs_intersection",
+        49:     "overlap_start_utc",
+        50:     "overlap_end_utc",
+        51: ]
+        52: 
+
+tools\prepare_sub5_v027_science_queue.py
+  sha256: 77af89ea7885e877b6e3860ea2e192eae253559d0e149a62949d447f8bae413c
+  line 367: overlap_fraction
+       363:     row["overlap_start_utc"] = overlap_start.isoformat()
+       364:     row["overlap_end_utc"] = overlap_end.isoformat()
+       365:     row["overlap_duration_s_recomputed"] = f"{overlap_s:.9f}"
+       366:     row["overlap_duration_min_recomputed"] = f"{overlap_s / 60.0:.9f}"
+       367:     row["overlap_fraction_a_recomputed"] = f"{frac_a:.12f}"
+       368:     row["overlap_fraction_b_recomputed"] = f"{frac_b:.12f}"
+       369: 
+       370:     row["identity_gate_v027"] = identity_gate
+       371:     row["science_execution_status_v027"] = execution_status
+  line 368: overlap_fraction
+       364:     row["overlap_end_utc"] = overlap_end.isoformat()
+       365:     row["overlap_duration_s_recomputed"] = f"{overlap_s:.9f}"
+       366:     row["overlap_duration_min_recomputed"] = f"{overlap_s / 60.0:.9f}"
+       367:     row["overlap_fraction_a_recomputed"] = f"{frac_a:.12f}"
+       368:     row["overlap_fraction_b_recomputed"] = f"{frac_b:.12f}"
+       369: 
+       370:     row["identity_gate_v027"] = identity_gate
+       371:     row["science_execution_status_v027"] = execution_status
+       372: 
+
+tools\prepare_sub5_v027_science_queue_v2.py
+  sha256: 9b7e31978ae772c9f4d109a4a85d261b95da78a2ac3efc0ce115692e012c15f6
+  line 763: overlap_fraction
+       759:         "overlap_duration_min_recomputed"
+       760:     ] = f"{overlap_s / 60:.9f}"
+       761: 
+       762:     row[
+       763:         "overlap_fraction_a_recomputed"
+       764:     ] = f"{fraction_a:.12f}"
+       765: 
+       766:     row[
+       767:         "overlap_fraction_b_recomputed"
+  line 767: overlap_fraction
+       763:         "overlap_fraction_a_recomputed"
+       764:     ] = f"{fraction_a:.12f}"
+       765: 
+       766:     row[
+       767:         "overlap_fraction_b_recomputed"
+       768:     ] = f"{fraction_b:.12f}"
+       769: 
+       770:     row[
+       771:         "identity_gate_v027"
+
+tools\recover_sub5_true_wcs_geometry_v028.py
+  sha256: 6e540ae99193a7885356ee9b7fd7dee2abc6a3c2122148046a21351af5f33e9c
+  line 183: footprint
+       179:         token in c.lower()
+       180:         for token in (
+       181:             "wcs",
+       182:             "overlap",
+       183:             "footprint",
+       184:             "polygon",
+       185:             "corner",
+       186:             "bounds",
+       187:             "intersection",
+  line 184: polygon
+       180:         for token in (
+       181:             "wcs",
+       182:             "overlap",
+       183:             "footprint",
+       184:             "polygon",
+       185:             "corner",
+       186:             "bounds",
+       187:             "intersection",
+       188:         )
+  line 187: intersection
+       183:             "footprint",
+       184:             "polygon",
+       185:             "corner",
+       186:             "bounds",
+       187:             "intersection",
+       188:         )
+       189:     )
+       190: ]
+       191: 
+  line 216: intersection
+       212: 
+       213: 
+       214: # ------------------------------------------------------------------
+       215: # 3. Search the repository for the code/path that created the
+       216: #    true-WCS intersection fields.
+       217: # ------------------------------------------------------------------
+       218: 
+       219: SEARCH_ROOTS = (
+       220:     ROOT / "src",
+  line 237: true_wcs_intersection, intersection
+       233: 
+       234: 
+       235: patterns = [
+       236:     re.compile(
+       237:         r"true_wcs_intersection",
+       238:         re.I,
+       239:     ),
+       240: 
+       241:     re.compile(
+  line 242: true_wcs_overlap_fraction, overlap_fraction
+       238:         re.I,
+       239:     ),
+       240: 
+       241:     re.compile(
+       242:         r"true_wcs_overlap_fraction",
+       243:         re.I,
+       244:     ),
+       245: 
+       246:     re.compile(
+  line 247: calc_footprint, footprint
+       243:         re.I,
+       244:     ),
+       245: 
+       246:     re.compile(
+       247:         r"calc_footprint",
+       248:         re.I,
+       249:     ),
+       250: 
+       251:     re.compile(
+  line 252: footprint
+       248:         re.I,
+       249:     ),
+       250: 
+       251:     re.compile(
+       252:         r"footprint",
+       253:         re.I,
+       254:     ),
+       255: 
+       256:     re.compile(
+  line 257: polygon
+       253:         re.I,
+       254:     ),
+       255: 
+       256:     re.compile(
+       257:         r"polygon",
+       258:         re.I,
+       259:     ),
+       260: 
+       261:     re.compile(
+  line 262: intersection
+       258:         re.I,
+       259:     ),
+       260: 
+       261:     re.compile(
+       262:         r"intersection",
+       263:         re.I,
+       264:     ),
+       265: 
+       266:     re.compile(
+  line 267: overlap_fraction
+       263:         re.I,
+       264:     ),
+       265: 
+       266:     re.compile(
+       267:         r"overlap_fraction",
+       268:         re.I,
+       269:     ),
+       270: 
+       271:     re.compile(
+  line 272: pixel_to_world
+       268:         re.I,
+       269:     ),
+       270: 
+       271:     re.compile(
+       272:         r"pixel_to_world",
+       273:         re.I,
+       274:     ),
+       275: 
+       276:     re.compile(
+
+research\DETECTOR_ENVIRONMENT_V028_2026-08-21.json
+  sha256: 3b88acbb87a3d2923faafbf14588f02d53a2b95a0889972303b9241249c68499
+  line 9: footprint
+         5:   "detector_sha256": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+         6:   "detector_snapshot_id": "e3a9b42eaf58027171bb5449533e8bc413672acae7881d9641884363fb2aef7a",
+         7:   "frozen_method_sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+         8:   "gaussian_filter_signature": "(input, sigma, order=0, output=None, mode='reflect', cval=0.0, truncate=4.0, *, radius=None, axes=None)",
+         9:   "maximum_filter_signature": "(input, size=None, footprint=None, output=None, mode='reflect', cval=0.0, origin=0, *, axes=None)",
+        10:   "numpy_version": "2.5.2",
+        11:   "platform": "Windows-11-10.0.26200-SP0",
+        12:   "protocol_sha256": "9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700",
+        13:   "python_executable": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\.venv\\Scripts\\python.exe",
+
+research\EXECUTION_WIRING_COMPACT_2026-08-21.txt
+  sha256: cbe7322ff90128eeefa80a01b54f9f7d3c8b3a2aeafb8a342fe14e850a746be6
+  line 36: overlap_fraction
+        32:  22. fov_b_deg
+        33:  23. midpoint_delta_minutes
+        34:  24. actual_exposure_overlap_s
+        35:  25. actual_exposure_overlap_minutes
+        36:  26. overlap_fraction_a
+        37:  27. overlap_fraction_b
+        38:  28. center_separation_deg
+        39:  29. approx_overlap_fraction_smaller
+        40:  30. true_wcs_overlap_fraction
+  line 37: overlap_fraction
+        33:  23. midpoint_delta_minutes
+        34:  24. actual_exposure_overlap_s
+        35:  25. actual_exposure_overlap_minutes
+        36:  26. overlap_fraction_a
+        37:  27. overlap_fraction_b
+        38:  28. center_separation_deg
+        39:  29. approx_overlap_fraction_smaller
+        40:  30. true_wcs_overlap_fraction
+        41:  31. true_wcs_intersection
+  line 39: overlap_fraction
+        35:  25. actual_exposure_overlap_minutes
+        36:  26. overlap_fraction_a
+        37:  27. overlap_fraction_b
+        38:  28. center_separation_deg
+        39:  29. approx_overlap_fraction_smaller
+        40:  30. true_wcs_overlap_fraction
+        41:  31. true_wcs_intersection
+        42:  32. saved_status
+        43:  33. saved_notes
+  line 40: true_wcs_overlap_fraction, overlap_fraction
+        36:  26. overlap_fraction_a
+        37:  27. overlap_fraction_b
+        38:  28. center_separation_deg
+        39:  29. approx_overlap_fraction_smaller
+        40:  30. true_wcs_overlap_fraction
+        41:  31. true_wcs_intersection
+        42:  32. saved_status
+        43:  33. saved_notes
+        44:  34. id_integrity
+  line 41: true_wcs_intersection, intersection
+        37:  27. overlap_fraction_b
+        38:  28. center_separation_deg
+        39:  29. approx_overlap_fraction_smaller
+        40:  30. true_wcs_overlap_fraction
+        41:  31. true_wcs_intersection
+        42:  32. saved_status
+        43:  33. saved_notes
+        44:  34. id_integrity
+        45:  35. pre_freeze_touched
+  line 68: overlap_fraction
+        64: dec_a_deg: nonblank=47/47, numeric=47/47
+        65: duration_b_s: nonblank=47/47, numeric=47/47
+        66: ra_b_deg: nonblank=47/47, numeric=47/47
+        67: dec_b_deg: nonblank=47/47, numeric=47/47
+        68: overlap_fraction_a: nonblank=47/47, numeric=47/47
+        69: overlap_fraction_b: nonblank=47/47, numeric=47/47
+        70: center_separation_deg: nonblank=47/47, numeric=47/47
+        71: approx_overlap_fraction_smaller: nonblank=47/47, numeric=47/47
+        72: true_wcs_overlap_fraction: nonblank=47/47, numeric=47/47
+  line 69: overlap_fraction
+        65: duration_b_s: nonblank=47/47, numeric=47/47
+        66: ra_b_deg: nonblank=47/47, numeric=47/47
+        67: dec_b_deg: nonblank=47/47, numeric=47/47
+        68: overlap_fraction_a: nonblank=47/47, numeric=47/47
+        69: overlap_fraction_b: nonblank=47/47, numeric=47/47
+        70: center_separation_deg: nonblank=47/47, numeric=47/47
+        71: approx_overlap_fraction_smaller: nonblank=47/47, numeric=47/47
+        72: true_wcs_overlap_fraction: nonblank=47/47, numeric=47/47
+        73: 
+  line 71: overlap_fraction
+        67: dec_b_deg: nonblank=47/47, numeric=47/47
+        68: overlap_fraction_a: nonblank=47/47, numeric=47/47
+        69: overlap_fraction_b: nonblank=47/47, numeric=47/47
+        70: center_separation_deg: nonblank=47/47, numeric=47/47
+        71: approx_overlap_fraction_smaller: nonblank=47/47, numeric=47/47
+        72: true_wcs_overlap_fraction: nonblank=47/47, numeric=47/47
+        73: 
+        74: RA-LIKE FIELDS
+        75: ----------------------------------------------------------------------------------------------------
+  line 72: true_wcs_overlap_fraction, overlap_fraction
+        68: overlap_fraction_a: nonblank=47/47, numeric=47/47
+        69: overlap_fraction_b: nonblank=47/47, numeric=47/47
+        70: center_separation_deg: nonblank=47/47, numeric=47/47
+        71: approx_overlap_fraction_smaller: nonblank=47/47, numeric=47/47
+        72: true_wcs_overlap_fraction: nonblank=47/47, numeric=47/47
+        73: 
+        74: RA-LIKE FIELDS
+        75: ----------------------------------------------------------------------------------------------------
+        76: ra_a_deg
+  line 93: true_wcs_intersection, intersection
+        89: pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437 | POSS-I:413:E:rec297
+        90: exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437
+        91: exposure_b: POSS-I:413:E:rec297
+        92: poss_exposure_id: POSS-I:413:E:rec297
+        93: true_wcs_intersection: True
+        94: overlap_start_utc: 1951-11-05T07:00:59.999999+00:00
+        95: overlap_end_utc: 1951-11-05T07:58:59.999999+00:00
+        96: recomputed_actual_exposure_overlap_s: 3480.000000000
+        97: duration_a_s: 3480.0
+  line 103: overlap_fraction
+        99: dec_a_deg: 21.91621452439747
+       100: duration_b_s: 3600.0
+       101: ra_b_deg: 28.07125
+       102: dec_b_deg: 30.72
+       103: overlap_fraction_a: 1.0
+       104: overlap_fraction_b: 0.9666666666666668
+       105: center_separation_deg: 27.28484845368943
+       106: approx_overlap_fraction_smaller: 1.0
+       107: true_wcs_overlap_fraction: 1.0
+  line 104: overlap_fraction
+       100: duration_b_s: 3600.0
+       101: ra_b_deg: 28.07125
+       102: dec_b_deg: 30.72
+       103: overlap_fraction_a: 1.0
+       104: overlap_fraction_b: 0.9666666666666668
+       105: center_separation_deg: 27.28484845368943
+       106: approx_overlap_fraction_smaller: 1.0
+       107: true_wcs_overlap_fraction: 1.0
+       108: 
+
+research\EXPLORATORY_ANALYSIS_PLAN_2026-08-18.md
+  sha256: 32394ccc3a3420521e99c3d99c91d45a4632ca9639bbfeb7e34ffeeff2b076b1
+  line 58: footprint
+        54:    - `Harvard DASCH` is an archive/holding label and cannot automatically be treated as Cambridge, Massachusetts.
+        55:    - Record site latitude, longitude, elevation, source and confidence.
+        56:    - No Branch-C geometry is permitted with an unresolved observing site.
+        57: 
+        58: 5. **True WCS / footprint**
+        59:    - Use the solved plate footprint or live cutout coverage, not circular-FOV overlap alone.
+        60:    - Record plate/scan label, WCS solution identifier and retrieval provenance.
+        61: 
+        62: ---
+  line 59: footprint
+        55:    - Record site latitude, longitude, elevation, source and confidence.
+        56:    - No Branch-C geometry is permitted with an unresolved observing site.
+        57: 
+        58: 5. **True WCS / footprint**
+        59:    - Use the solved plate footprint or live cutout coverage, not circular-FOV overlap alone.
+        60:    - Record plate/scan label, WCS solution identifier and retrieval provenance.
+        61: 
+        62: ---
+        63: 
+  line 88: footprint
+        84: 
+        85: For every analysed plate/cutout:
+        86: 
+        87: 1. Verify plate identity and checksum.
+        88: 2. Verify WCS and target footprint.
+        89: 3. Measure local background and detector depth.
+        90: 4. Build an edge/bad-region/vignetting mask.
+        91: 5. Measure recovery of known Gaia/static stars as a function of magnitude and position.
+        92: 6. Estimate local PSF statistics from nearby unsaturated real stars.
+  line 259: footprint
+       255: - physical plate IDs and raw catalogue IDs;
+       256: - archive, telescope/series and resolved observing site;
+       257: - raw time metadata and corrected UTC start/end/midpoint;
+       258: - actual exposure-overlap seconds/minutes/fractions;
+       259: - WCS/footprint provenance;
+       260: - detector version and parameters;
+       261: - detections and crossmatch separations;
+       262: - local registration residuals;
+       263: - Gaia/Pan-STARRS/catalogue distances and proper-motion propagation;
+
+research\SUB5_PRODUCTION_VS_CANONICAL_DIFF_2026-08-21.json
+  sha256: a5fb527160aa83aae12e908b30b290ba100275d0a38b21d2add7b132bd450c00
+  line 29: overlap_fraction
+        25:       "fov_b_deg",
+        26:       "midpoint_delta_minutes",
+        27:       "actual_exposure_overlap_s",
+        28:       "actual_exposure_overlap_minutes",
+        29:       "overlap_fraction_a",
+        30:       "overlap_fraction_b",
+        31:       "center_separation_deg",
+        32:       "approx_overlap_fraction_smaller",
+        33:       "true_wcs_overlap_fraction",
+  line 30: overlap_fraction
+        26:       "midpoint_delta_minutes",
+        27:       "actual_exposure_overlap_s",
+        28:       "actual_exposure_overlap_minutes",
+        29:       "overlap_fraction_a",
+        30:       "overlap_fraction_b",
+        31:       "center_separation_deg",
+        32:       "approx_overlap_fraction_smaller",
+        33:       "true_wcs_overlap_fraction",
+        34:       "true_wcs_intersection",
+  line 32: overlap_fraction
+        28:       "actual_exposure_overlap_minutes",
+        29:       "overlap_fraction_a",
+        30:       "overlap_fraction_b",
+        31:       "center_separation_deg",
+        32:       "approx_overlap_fraction_smaller",
+        33:       "true_wcs_overlap_fraction",
+        34:       "true_wcs_intersection",
+        35:       "saved_status",
+        36:       "saved_notes",
+  line 33: true_wcs_overlap_fraction, overlap_fraction
+        29:       "overlap_fraction_a",
+        30:       "overlap_fraction_b",
+        31:       "center_separation_deg",
+        32:       "approx_overlap_fraction_smaller",
+        33:       "true_wcs_overlap_fraction",
+        34:       "true_wcs_intersection",
+        35:       "saved_status",
+        36:       "saved_notes",
+        37:       "id_integrity"
+  line 34: true_wcs_intersection, intersection
+        30:       "overlap_fraction_b",
+        31:       "center_separation_deg",
+        32:       "approx_overlap_fraction_smaller",
+        33:       "true_wcs_overlap_fraction",
+        34:       "true_wcs_intersection",
+        35:       "saved_status",
+        36:       "saved_notes",
+        37:       "id_integrity"
+        38:     ],
+  line 80: overlap_fraction
+        76:       "fov_b_deg",
+        77:       "midpoint_delta_minutes",
+        78:       "actual_exposure_overlap_s",
+        79:       "actual_exposure_overlap_minutes",
+        80:       "overlap_fraction_a",
+        81:       "overlap_fraction_b",
+        82:       "center_separation_deg",
+        83:       "approx_overlap_fraction_smaller",
+        84:       "true_wcs_overlap_fraction",
+  line 81: overlap_fraction
+        77:       "midpoint_delta_minutes",
+        78:       "actual_exposure_overlap_s",
+        79:       "actual_exposure_overlap_minutes",
+        80:       "overlap_fraction_a",
+        81:       "overlap_fraction_b",
+        82:       "center_separation_deg",
+        83:       "approx_overlap_fraction_smaller",
+        84:       "true_wcs_overlap_fraction",
+        85:       "true_wcs_intersection",
+  line 83: overlap_fraction
+        79:       "actual_exposure_overlap_minutes",
+        80:       "overlap_fraction_a",
+        81:       "overlap_fraction_b",
+        82:       "center_separation_deg",
+        83:       "approx_overlap_fraction_smaller",
+        84:       "true_wcs_overlap_fraction",
+        85:       "true_wcs_intersection",
+        86:       "saved_status",
+        87:       "saved_notes",
+  line 84: true_wcs_overlap_fraction, overlap_fraction
+        80:       "overlap_fraction_a",
+        81:       "overlap_fraction_b",
+        82:       "center_separation_deg",
+        83:       "approx_overlap_fraction_smaller",
+        84:       "true_wcs_overlap_fraction",
+        85:       "true_wcs_intersection",
+        86:       "saved_status",
+        87:       "saved_notes",
+        88:       "id_integrity",
+  line 85: true_wcs_intersection, intersection
+        81:       "overlap_fraction_b",
+        82:       "center_separation_deg",
+        83:       "approx_overlap_fraction_smaller",
+        84:       "true_wcs_overlap_fraction",
+        85:       "true_wcs_intersection",
+        86:       "saved_status",
+        87:       "saved_notes",
+        88:       "id_integrity",
+        89:       "pre_freeze_touched",
+  line 105: overlap_fraction
+       101:     {
+       102:       "canonical_order": 1,
+       103:       "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437 | POSS-I:413:E:rec297",
+       104:       "changed_fields": {
+       105:         "overlap_fraction_b": {
+       106:           "canonical_extra": "0.9666666666666667",
+       107:           "production": "0.9666666666666668"
+       108:         },
+       109:         "pre_freeze_touched": {
+  line 147: overlap_fraction
+       143:     {
+       144:       "canonical_order": 3,
+       145:       "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12840 | POSS-I:533:O:rec187",
+       146:       "changed_fields": {
+       147:         "overlap_fraction_a": {
+       148:           "canonical_extra": "0.18518518518518517",
+       149:           "production": "0.1851851851851851"
+       150:         },
+       151:         "pre_freeze_touched": {
+
+research\SUB5_V027_IDENTITY_UNIVERSE_AUDIT_2026-08-21.json
+  sha256: 2e0ca01090bc6c0386492f496f98e7392d577fabf24498c1e2eef61b4ade17db
+  line 9: overlap_fraction
+         5:   "common_field_differences": [
+         6:     {
+         7:       "canonical_order": 1,
+         8:       "changed_fields": {
+         9:         "overlap_fraction_b": {
+        10:           "canonical": "0.9666666666666667",
+        11:           "production": "0.9666666666666668"
+        12:         }
+        13:       }
+  line 18: overlap_fraction
+        14:     },
+        15:     {
+        16:       "canonical_order": 3,
+        17:       "changed_fields": {
+        18:         "overlap_fraction_a": {
+        19:           "canonical": "0.18518518518518517",
+        20:           "production": "0.1851851851851851"
+        21:         }
+        22:       }
+  line 27: overlap_fraction
+        23:     },
+        24:     {
+        25:       "canonical_order": 5,
+        26:       "changed_fields": {
+        27:         "overlap_fraction_b": {
+        28:           "canonical": "0.9666666666666667",
+        29:           "production": "0.9666666666666668"
+        30:         }
+        31:       }
+  line 36: overlap_fraction
+        32:     },
+        33:     {
+        34:       "canonical_order": 14,
+        35:       "changed_fields": {
+        36:         "overlap_fraction_b": {
+        37:           "canonical": "0.004166666666666667",
+        38:           "production": "0.0041666666666666"
+        39:         }
+        40:       }
+  line 45: overlap_fraction
+        41:     },
+        42:     {
+        43:       "canonical_order": 15,
+        44:       "changed_fields": {
+        45:         "overlap_fraction_a": {
+        46:           "canonical": "0.03333333333333333",
+        47:           "production": "0.0333333333333333"
+        48:         }
+        49:       }
+  line 54: overlap_fraction
+        50:     },
+        51:     {
+        52:       "canonical_order": 16,
+        53:       "changed_fields": {
+        54:         "overlap_fraction_a": {
+        55:           "canonical": "0.03389830508474576",
+        56:           "production": "0.0338983050847457"
+        57:         }
+        58:       }
+  line 63: overlap_fraction
+        59:     },
+        60:     {
+        61:       "canonical_order": 17,
+        62:       "changed_fields": {
+        63:         "overlap_fraction_b": {
+        64:           "canonical": "0.17543859649122806",
+        65:           "production": "0.175438596491228"
+        66:         }
+        67:       }
+  line 72: overlap_fraction
+        68:     },
+        69:     {
+        70:       "canonical_order": 24,
+        71:       "changed_fields": {
+        72:         "overlap_fraction_a": {
+        73:           "canonical": "0.21052631578947367",
+        74:           "production": "0.2105263157894736"
+        75:         }
+        76:       }
+  line 81: overlap_fraction
+        77:     },
+        78:     {
+        79:       "canonical_order": 26,
+        80:       "changed_fields": {
+        81:         "overlap_fraction_b": {
+        82:           "canonical": "0.03333333333333333",
+        83:           "production": "0.0333333333333333"
+        84:         }
+        85:       }
+  line 90: overlap_fraction
+        86:     },
+        87:     {
+        88:       "canonical_order": 27,
+        89:       "changed_fields": {
+        90:         "overlap_fraction_a": {
+        91:           "canonical": "0.35294117647058826",
+        92:           "production": "0.3529411764705882"
+        93:         }
+        94:       }
+  line 99: overlap_fraction
+        95:     },
+        96:     {
+        97:       "canonical_order": 30,
+        98:       "changed_fields": {
+        99:         "overlap_fraction_a": {
+       100:           "canonical": "0.03333333333333333",
+       101:           "production": "0.0333333333333333"
+       102:         }
+       103:       }
+  line 108: overlap_fraction
+       104:     },
+       105:     {
+       106:       "canonical_order": 32,
+       107:       "changed_fields": {
+       108:         "overlap_fraction_a": {
+       109:           "canonical": "0.007407407407407408",
+       110:           "production": "0.0074074074074074"
+       111:         }
+       112:       }
+
+CSV GEOMETRY INVENTORY
+  research\canonical_sub5_pairs_74.csv :: actual_exposure_overlap_s, actual_exposure_overlap_minutes, overlap_fraction_a, overlap_fraction_b, approx_overlap_fraction_smaller, true_wcs_overlap_fraction, true_wcs_intersection
+  research\poss1_identity_extension_v028_nine_queue.csv :: actual_exposure_overlap_s, actual_exposure_overlap_minutes, overlap_fraction_a, overlap_fraction_b, approx_overlap_fraction_smaller, true_wcs_overlap_fraction, true_wcs_intersection, identity_extension_v028_overlap_start_utc, identity_extension_v028_overlap_end_utc, identity_extension_v028_overlap_s
+  research\poss1_pixel_repair_v028_queue.csv :: actual_exposure_overlap_s, actual_exposure_overlap_minutes, overlap_fraction_a, overlap_fraction_b, approx_overlap_fraction_smaller, true_wcs_overlap_fraction, true_wcs_intersection
+  research\production_sub5_queue_2026-08-20.csv :: actual_exposure_overlap_s, actual_exposure_overlap_minutes, overlap_fraction_a, overlap_fraction_b, approx_overlap_fraction_smaller, true_wcs_overlap_fraction, true_wcs_intersection
+  research\SUB5_V028_PIXEL_PROVENANCE_QUEUE_2026-08-21.csv :: actual_exposure_overlap_s, actual_exposure_overlap_minutes, overlap_fraction_a, overlap_fraction_b, approx_overlap_fraction_smaller, true_wcs_overlap_fraction, true_wcs_intersection, overlap_start_utc, overlap_end_utc, recomputed_actual_exposure_overlap_s, overlap_recomputed_matches_stored
+  research\SUB5_V028_POSS_PAIR_EXECUTION_MAP_2026-08-21.csv :: true_wcs_intersection, true_wcs_overlap_fraction, overlap_start_utc, overlap_end_utc, actual_overlap_s
+
+No historical science pixel was read.
+No transient detector was run.

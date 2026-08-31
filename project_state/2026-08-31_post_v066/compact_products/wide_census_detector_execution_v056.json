@@ -1,0 +1,36 @@
+{
+  "accepted_native_detector_candidates_total": 5083325,
+  "analysis_kind": "wide_census_disk_bounded_frozen_detector_v056",
+  "contract_sha256": "23a4676eaa833a02c5482aa8cf8be5926ef8a87d3a9438271229f48ef57e0bb8",
+  "detector_coverage_status": "COMPLETE_WITH_UNINFORMATIVE_TILE_HOLDS",
+  "detector_sha256": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+  "endpoint_count": 53,
+  "guards": {
+    "candidate_state_mutation": false,
+    "network_access": true,
+    "non_science_pixels_read": false,
+    "science_pixels_read": true,
+    "transient_detector_rerun": true
+  },
+  "interpretation": "Complete frozen-detector execution on the robust v053 observing-opportunity subset. Raw <=10 and <=3 arcsec coincidences are not transient classifications. A zero-robust-sigma tile is retained as an explicit uninformative coverage hold and is never treated as a non-detection; affected pairs therefore cannot support a complete negative result until the coverage limitation is resolved or otherwise sensitivity-qualified. Raw coincidences still require the frozen generic v002 astrometric/static-source/morphology/population/sensitivity adjudication. The 41 v052 geometry holds remain outside this execution denominator and are still unresolved, not negative.",
+  "method_sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+  "native_policy_sha256": "44fc3453c3291a7cbe72894d781729a30943ad540aa169b2c0897b446c5c8ec7",
+  "next_stage": "Run generic automated v002 adjudication over all raw coincidence-bearing pairs; manual review only after automated mechanical explanations.",
+  "opportunity_count": 33,
+  "outputs": {
+    "all_candidates_csv": "results/wide_census_detector_candidates_v056.csv",
+    "pair_summary_csv": "results/wide_census_pair_raw_match_summary_v056.csv",
+    "raw_matches_csv": "results/wide_census_pair_raw_matches_v056.csv",
+    "tile_result_dir": "results/wide_census_detector_execution_v056/tiles"
+  },
+  "pairs_with_raw_le_10arcsec_match": 33,
+  "pairs_with_raw_le_3arcsec_match": 32,
+  "pairs_with_uninformative_detector_coverage": 2,
+  "persistent_science_pixel_tile_files": false,
+  "raw_le_10arcsec_match_count": 512788,
+  "raw_le_3arcsec_match_count": 185532,
+  "science_positive_count": 0,
+  "status": "COMPLETE",
+  "tile_count": 6293,
+  "uninformative_zero_robust_sigma_tile_count": 2
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "historical-transient-pipeline"
+version = "0.2.6"
+description = "Restart-safe frozen-method pipeline for cross-observatory historical plate transient analysis"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "astropy>=6.0",
+  "requests>=2.31",
+]
+
+[project.scripts]
+transient-pipeline = "transient_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

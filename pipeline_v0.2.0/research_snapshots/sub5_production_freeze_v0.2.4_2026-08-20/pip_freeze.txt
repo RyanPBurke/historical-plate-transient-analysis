@@ -1,0 +1,24 @@
+astropy==8.0.1
+astropy-iers-data==0.2026.8.18.14.22.31
+certifi==2026.7.22
+charset-normalizer==3.5.1
+colorama==0.4.6
+# Editable install with no version control (historical-transient-pipeline==0.2.4)
+-e c:\dev\transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0
+idna==3.19
+iniconfig==2.3.0
+numpy==2.5.2
+packaging==26.3
+pandas==3.0.5
+pip==26.2.1
+pluggy==1.6.0
+pyerfa==2.0.1.5
+Pygments==2.21.0
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+requests==2.34.2
+scipy==1.18.0
+six==1.17.0
+tzdata==2026.3
+urllib3==2.7.0

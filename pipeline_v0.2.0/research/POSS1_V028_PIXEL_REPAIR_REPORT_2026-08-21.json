@@ -1,0 +1,38 @@
+{
+  "archive_requests_permitted": true,
+  "detector_run": false,
+  "expected_regions": {
+    "POSS-I:1023:O:rec675": "XO674",
+    "POSS-I:1023:O:rec799": "XO799",
+    "POSS-I:305:E:rec637": "XE636",
+    "POSS-I:318:E:rec524": "XE523",
+    "POSS-I:606:E:rec348": "XE347",
+    "POSS-I:779:E:rec404": "XE403",
+    "POSS-I:782:E:rec514": "XE513",
+    "POSS-I:872:O:rec148": "XO147",
+    "POSS-I:875:E:rec521": "XE520",
+    "POSS-I:876:E:rec239": "XE238"
+  },
+  "identity_errors": [],
+  "operation": "v028_exact_ten_poss_pixel_repair",
+  "physical_identity_jobs": 10,
+  "pixel_resolution_sha256": "01be0bd1968ae29dbecb180634fb05f434c4ce372a0525c02d321122ea3a139c",
+  "queue_sha256": "2dd3fcf8b32e8ae5d51dacb832eb2ed73137c2196ac05ca39449e8d4ae6a2faf",
+  "repair_queue_pair_rows": 11,
+  "repair_states": {
+    "VALIDATED_BUT_NO_USABLE_FITS_AFTER_REPAIR": 10
+  },
+  "result_sha256": "16127d2b153c8495361e7504b748c93e2779cdd282328e13e269c0dc0a78bd41",
+  "target_exposures": [
+    "POSS-I:1023:O:rec675",
+    "POSS-I:1023:O:rec799",
+    "POSS-I:305:E:rec637",
+    "POSS-I:318:E:rec524",
+    "POSS-I:606:E:rec348",
+    "POSS-I:779:E:rec404",
+    "POSS-I:782:E:rec514",
+    "POSS-I:872:O:rec148",
+    "POSS-I:875:E:rec521",
+    "POSS-I:876:E:rec239"
+  ]
+}

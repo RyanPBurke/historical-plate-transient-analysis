@@ -1,0 +1,41 @@
+{
+  "allowed_new_data": [
+    "APPLAUSE DR4 plate metadata",
+    "APPLAUSE DR4 exact scan metadata",
+    "APPLAUSE DR4 pre-existing extracted source x/y catalogue for exact process_id",
+    "APPLAUSE DR4 pre-existing source_xmatch rows for diagnostic inventory only"
+  ],
+  "contract_id": "wide_census_independent_astrometric_rescue_preflight_v001",
+  "created_at_utc": "2026-08-29T15:15:50.535068+00:00",
+  "forbidden": [
+    "science scan pixel reads",
+    "transient detector outputs as astrometric inputs",
+    "candidate coordinates as solver hints",
+    "candidate state mutation",
+    "changing geometry hold classification",
+    "running any astrometric solver in v060"
+  ],
+  "fov_priors": {
+    "note": "Both are reported. v060 does not choose a solver FOV tolerance.",
+    "physical_plate_based": "plate_size_cm * 10 * ota_scale_arcsec_per_mm / 3600",
+    "scan_based": "naxis * pixel_size_um / 1000 * ota_scale_arcsec_per_mm / 3600"
+  },
+  "future_solver_boundary": "A later prospective freeze must select solver software/version, centroid subset schedule, epoch propagation, FOV tolerances, acceptance/verification criteria and failure semantics before any plate-solving result is inspected.",
+  "prospective_before_rescue_solver_outcomes": true,
+  "scope": {
+    "already_solved_control_plates": 1,
+    "completed_astrometrically_unsolved_plates": 10,
+    "no_process_exact_scan_plates": 1
+  },
+  "source_centroid_inventory_rule": {
+    "note": "No centroid subset is selected for a future solver by v060.",
+    "query": "TOP 1000 flag_clean=1 sources per exact unsolved process_id ordered by flux_max DESC",
+    "reported_nested_counts": [
+      "all returned flag_clean rows",
+      "sextractor_flags==0",
+      "model_prediction>=0.9",
+      "both sextractor_flags==0 and model_prediction>=0.9"
+    ]
+  },
+  "v059_input_sha256": "8381f61c23fd6467f4611fe032d9a7174e29641c3df695972c9a481591883bbe"
+}

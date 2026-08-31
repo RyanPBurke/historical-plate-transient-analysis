@@ -1,0 +1,21 @@
+{
+  "candidate_acceptance": "non-overlapping core only",
+  "core_px": 1024,
+  "crossmatch_diagnostic_arcsec": 10.0,
+  "crossmatch_strict_arcsec": 3.0,
+  "dasch_astrometry": "DR7 direct TPV b01HeaderGz in value-added rotated mosaic orientation",
+  "detector_unit": "native archive pixel tile",
+  "edge_tiles": "clip halo to physical scan; frozen detector edge mask remains active",
+  "fixed_before_complete_order61_footprint_outcome": true,
+  "grid_anchor_full_scan_zero_based_px": [
+    0,
+    0
+  ],
+  "halo_px": 64,
+  "no_resampling": true,
+  "no_retuning_from_candidate_yield": true,
+  "note_order61_central_control_already_seen": true,
+  "policy_id": "native_tile_execution_v028",
+  "poss_astrometry": "validated GSSS DSS polynomial; P1/P2 = zero_based_full_pixel + 1.5",
+  "robust_sigma_scope": "each native extracted tile including halo"
+}

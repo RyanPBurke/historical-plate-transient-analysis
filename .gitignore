@@ -3,3 +3,43 @@ __pycache__/
 .DS_Store
 *.tmp
 *.log
+
+# Local project audits
+_project_audit/
+
+# ------------------------------------------------------------------
+# Local / generated pipeline material
+# ------------------------------------------------------------------
+_project_audit/
+.venv/
+.venv*/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Bulk scientific products and resumable workspace
+results/
+work/
+cache/
+logs/
+
+# Development backups / patch archaeology
+automation/backups/
+patch_backups/
+
+# Common temporary files
+*.tmp
+*.temp
+*.part
+*.bak
+*.old
+*.orig
+*~
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sqlite-shm
+*.sqlite-wal

@@ -1,0 +1,1776 @@
+{
+  "canonical_extra": {
+    "columns": [
+      "canonical_order",
+      "pair_set",
+      "legacy_rank",
+      "pair_key",
+      "exposure_a",
+      "archive_a",
+      "site_a",
+      "start_a_utc",
+      "end_a_utc",
+      "duration_a_s",
+      "ra_a_deg",
+      "dec_a_deg",
+      "fov_a_deg",
+      "exposure_b",
+      "archive_b",
+      "site_b",
+      "start_b_utc",
+      "end_b_utc",
+      "duration_b_s",
+      "ra_b_deg",
+      "dec_b_deg",
+      "fov_b_deg",
+      "midpoint_delta_minutes",
+      "actual_exposure_overlap_s",
+      "actual_exposure_overlap_minutes",
+      "overlap_fraction_a",
+      "overlap_fraction_b",
+      "center_separation_deg",
+      "approx_overlap_fraction_smaller",
+      "true_wcs_overlap_fraction",
+      "true_wcs_intersection",
+      "saved_status",
+      "saved_notes",
+      "id_integrity"
+    ],
+    "logical_role": "extra_input",
+    "path": "research\\canonical_sub5_pairs_74.csv",
+    "rows": 74,
+    "sha256": "58529e1d4de46f3c49865a89454d1cd488ee23ec920b01250006f2180d2ed99a"
+  },
+  "columns_only_in_canonical_extra": [],
+  "columns_only_in_production": [
+    "pre_freeze_reason",
+    "pre_freeze_touched",
+    "production_action",
+    "publication_cohort"
+  ],
+  "created_at_utc": "2026-08-21T15:27:14.899809+00:00",
+  "interpretation": "production_sub5_queue_2026-08-20.csv is the frozen logical-role queue. canonical_sub5_pairs_74.csv is retained as a frozen extra_input and is not an equal execution claimant.",
+  "production": {
+    "columns": [
+      "canonical_order",
+      "pair_set",
+      "legacy_rank",
+      "pair_key",
+      "exposure_a",
+      "archive_a",
+      "site_a",
+      "start_a_utc",
+      "end_a_utc",
+      "duration_a_s",
+      "ra_a_deg",
+      "dec_a_deg",
+      "fov_a_deg",
+      "exposure_b",
+      "archive_b",
+      "site_b",
+      "start_b_utc",
+      "end_b_utc",
+      "duration_b_s",
+      "ra_b_deg",
+      "dec_b_deg",
+      "fov_b_deg",
+      "midpoint_delta_minutes",
+      "actual_exposure_overlap_s",
+      "actual_exposure_overlap_minutes",
+      "overlap_fraction_a",
+      "overlap_fraction_b",
+      "center_separation_deg",
+      "approx_overlap_fraction_smaller",
+      "true_wcs_overlap_fraction",
+      "true_wcs_intersection",
+      "saved_status",
+      "saved_notes",
+      "id_integrity",
+      "pre_freeze_touched",
+      "pre_freeze_reason",
+      "publication_cohort",
+      "production_action"
+    ],
+    "logical_role": "queue",
+    "path": "research\\production_sub5_queue_2026-08-20.csv",
+    "rows": 74,
+    "sha256": "b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c"
+  },
+  "row_difference_count": 74,
+  "row_differences": [
+    {
+      "canonical_order": 1,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437 | POSS-I:413:E:rec297",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.9666666666666667",
+          "production": "0.9666666666666668"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437 | POSS-I:413:E:rec297"
+    },
+    {
+      "canonical_order": 2,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44244 | POSS-I:985:E:rec726",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44244 | POSS-I:985:E:rec726"
+    },
+    {
+      "canonical_order": 3,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12840 | POSS-I:533:O:rec187",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.18518518518518517",
+          "production": "0.1851851851851851"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12840 | POSS-I:533:O:rec187"
+    },
+    {
+      "canonical_order": 4,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304 | POSS-I:1023:O:rec675",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory complete 9/9 previously"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304 | POSS-I:1023:O:rec675"
+    },
+    {
+      "canonical_order": 5,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43330 | POSS-I:368:E:rec192",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.9666666666666667",
+          "production": "0.9666666666666668"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43330 | POSS-I:368:E:rec192"
+    },
+    {
+      "canonical_order": 6,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13400 | APPLAUSE:115011",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_nine_tile_sample"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13400 | APPLAUSE:115011"
+    },
+    {
+      "canonical_order": 7,
+      "canonical_pair_key": "APPLAUSE:13623 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05607",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_pixel_followup | APPLAUSE 13623 \u2194 DASCH bi05607 fully provenance-revalidated 2026-08-20; 311 Harvard tests, zero <=3 arcsec"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "already_provenance_revalidated_pre_freeze; backfill_raw_catalogue_evidence_if_needed"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:13623 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05607"
+    },
+    {
+      "canonical_order": 8,
+      "canonical_pair_key": "POSS-I:320:E:rec463 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02524",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:320:E:rec463 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02524"
+    },
+    {
+      "canonical_order": 9,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474 | POSS-I:305:E:rec637",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory partial"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474 | POSS-I:305:E:rec637"
+    },
+    {
+      "canonical_order": 10,
+      "canonical_pair_key": "APPLAUSE:12414 | APPLAUSE:139005",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12414 | APPLAUSE:139005"
+    },
+    {
+      "canonical_order": 11,
+      "canonical_pair_key": "POSS-I:779:E:rec404 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory partial; identity/WCS correction work"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "POSS-I:779:E:rec404 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177"
+    },
+    {
+      "canonical_order": 12,
+      "canonical_pair_key": "POSS-I:372:O:rec455 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43336",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:372:O:rec455 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43336"
+    },
+    {
+      "canonical_order": 13,
+      "canonical_pair_key": "POSS-I:313:O:rec523 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43246",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:313:O:rec523 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43246"
+    },
+    {
+      "canonical_order": 14,
+      "canonical_pair_key": "APPLAUSE:13387 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:13387 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485"
+    },
+    {
+      "canonical_order": 15,
+      "canonical_pair_key": "APPLAUSE:139012 | APPLAUSE:12569",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_calibrated_catalogue"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:139012 | APPLAUSE:12569"
+    },
+    {
+      "canonical_order": 16,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405 | APPLAUSE:115048",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.03389830508474576",
+          "production": "0.0338983050847457"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_nine_tile_sample"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405 | APPLAUSE:115048"
+    },
+    {
+      "canonical_order": 17,
+      "canonical_pair_key": "POSS-I:449:O:rec198 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa15108",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.17543859649122806",
+          "production": "0.175438596491228"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:449:O:rec198 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa15108"
+    },
+    {
+      "canonical_order": 18,
+      "canonical_pair_key": "POSS-I:872:O:rec148 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13267",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:872:O:rec148 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13267"
+    },
+    {
+      "canonical_order": 19,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02650 | POSS-I:415:O:rec479",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02650 | POSS-I:415:O:rec479"
+    },
+    {
+      "canonical_order": 20,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43439 | POSS-I:415:O:rec479",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43439 | POSS-I:415:O:rec479"
+    },
+    {
+      "canonical_order": 21,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44306 | POSS-I:1023:O:rec799",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory result invalidated; clean rec799 rerun required"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44306 | POSS-I:1023:O:rec799"
+    },
+    {
+      "canonical_order": 22,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00163 | POSS-I:297:O:rec635",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00163 | POSS-I:297:O:rec635"
+    },
+    {
+      "canonical_order": 23,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43235 | POSS-I:297:O:rec635",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory partial"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43235 | POSS-I:297:O:rec635"
+    },
+    {
+      "canonical_order": 24,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44088 | POSS-I:872:O:rec148",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.21052631578947367",
+          "production": "0.2105263157894736"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44088 | POSS-I:872:O:rec148"
+    },
+    {
+      "canonical_order": 25,
+      "canonical_pair_key": "APPLAUSE:12422 | APPLAUSE:139006",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12422 | APPLAUSE:139006"
+    },
+    {
+      "canonical_order": 26,
+      "canonical_pair_key": "APPLAUSE:12563 | APPLAUSE:139010",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_calibrated_catalogue"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12563 | APPLAUSE:139010"
+    },
+    {
+      "canonical_order": 27,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44291 | POSS-I:1009:O:rec785",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.35294117647058826",
+          "production": "0.3529411764705882"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory partial"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44291 | POSS-I:1009:O:rec785"
+    },
+    {
+      "canonical_order": 28,
+      "canonical_pair_key": "POSS-I:782:E:rec514 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13182",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:782:E:rec514 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13182"
+    },
+    {
+      "canonical_order": 29,
+      "canonical_pair_key": "POSS-I:876:E:rec239 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13273",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:876:E:rec239 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13273"
+    },
+    {
+      "canonical_order": 30,
+      "canonical_pair_key": "APPLAUSE:139011 | APPLAUSE:12566",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_calibrated_catalogue"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:139011 | APPLAUSE:12566"
+    },
+    {
+      "canonical_order": 31,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13406 | APPLAUSE:115054",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_catalogue_pixel_pending"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13406 | APPLAUSE:115054"
+    },
+    {
+      "canonical_order": 32,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/b75958 | APPLAUSE:13390",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.007407407407407408",
+          "production": "0.0074074074074074"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/b75958 | APPLAUSE:13390"
+    },
+    {
+      "canonical_order": 33,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/b76371 | APPLAUSE:132097",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_pixel_followup"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/b76371 | APPLAUSE:132097"
+    },
+    {
+      "canonical_order": 34,
+      "canonical_pair_key": "APPLAUSE:12404 | APPLAUSE:139004",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.013888888888888888",
+          "production": "0.0138888888888888"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12404 | APPLAUSE:139004"
+    },
+    {
+      "canonical_order": 35,
+      "canonical_pair_key": "POSS-I:989:O:rec258 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44247",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:989:O:rec258 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44247"
+    },
+    {
+      "canonical_order": 36,
+      "canonical_pair_key": "POSS-I:558:O:rec517 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43708",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.17543859649122806",
+          "production": "0.175438596491228"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:558:O:rec517 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43708"
+    },
+    {
+      "canonical_order": 37,
+      "canonical_pair_key": "APPLAUSE:139004 | APPLAUSE:12405",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.013888888888888888",
+          "production": "0.0138888888888888"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:139004 | APPLAUSE:12405"
+    },
+    {
+      "canonical_order": 38,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44467 | POSS-I:1102:E:rec140",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44467 | POSS-I:1102:E:rec140"
+    },
+    {
+      "canonical_order": 39,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12528 | POSS-I:236:E:rec425",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12528 | POSS-I:236:E:rec425"
+    },
+    {
+      "canonical_order": 40,
+      "canonical_pair_key": "APPLAUSE:13389 | DASCH:ivo://org.gavo.dc/~?dasch/q/b75958",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.007407407407407408",
+          "production": "0.0074074074074074"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:13389 | DASCH:ivo://org.gavo.dc/~?dasch/q/b75958"
+    },
+    {
+      "canonical_order": 41,
+      "canonical_pair_key": "APPLAUSE:12565 | APPLAUSE:139011",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_calibrated_catalogue"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12565 | APPLAUSE:139011"
+    },
+    {
+      "canonical_order": 42,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459 | APPLAUSE:12469",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_partial_overlap_catalogue_pixel_pending"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459 | APPLAUSE:12469"
+    },
+    {
+      "canonical_order": 43,
+      "canonical_pair_key": "APPLAUSE:132099 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:132099 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640"
+    },
+    {
+      "canonical_order": 44,
+      "canonical_pair_key": "APPLAUSE:132098 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:132098 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640"
+    },
+    {
+      "canonical_order": 45,
+      "canonical_pair_key": "POSS-I:445:E:rec481 | DASCH:ivo://org.gavo.dc/~?dasch/q/j03761",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:445:E:rec481 | DASCH:ivo://org.gavo.dc/~?dasch/q/j03761"
+    },
+    {
+      "canonical_order": 46,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00192 | POSS-I:320:E:rec463",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00192 | POSS-I:320:E:rec463"
+    },
+    {
+      "canonical_order": 47,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43280 | POSS-I:320:E:rec463",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai43280 | POSS-I:320:E:rec463"
+    },
+    {
+      "canonical_order": 48,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02481 | POSS-I:314:E:rec646",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02481 | POSS-I:314:E:rec646"
+    },
+    {
+      "canonical_order": 49,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00158 | POSS-I:293:E:rec754",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/kh00158 | POSS-I:293:E:rec754"
+    },
+    {
+      "canonical_order": 50,
+      "canonical_pair_key": "POSS-I:340:E:rec231 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43301",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:340:E:rec231 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43301"
+    },
+    {
+      "canonical_order": 51,
+      "canonical_pair_key": "POSS-I:407:E:rec246 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02643",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:407:E:rec246 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02643"
+    },
+    {
+      "canonical_order": 52,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44227 | POSS-I:976:E:rec492",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44227 | POSS-I:976:E:rec492"
+    },
+    {
+      "canonical_order": 53,
+      "canonical_pair_key": "APPLAUSE:139006 | APPLAUSE:12423",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:139006 | APPLAUSE:12423"
+    },
+    {
+      "canonical_order": 54,
+      "canonical_pair_key": "POSS-I:305:O:rec637 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02473",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:305:O:rec637 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02473"
+    },
+    {
+      "canonical_order": 55,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12998 | POSS-I:606:E:rec348",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.9166666681794445",
+          "production": "0.9166666681794444"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory complete 9/9 previously"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa12998 | POSS-I:606:E:rec348"
+    },
+    {
+      "canonical_order": 56,
+      "canonical_pair_key": "POSS-I:1405:O:rec616 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44487",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.21052631578947367",
+          "production": "0.2105263157894736"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:1405:O:rec616 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44487"
+    },
+    {
+      "canonical_order": 57,
+      "canonical_pair_key": "POSS-I:988:O:rec207 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44246",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.19047619047619047",
+          "production": "0.1904761904761904"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory source recovery; pixel access unresolved"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "POSS-I:988:O:rec207 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44246"
+    },
+    {
+      "canonical_order": 58,
+      "canonical_pair_key": "APPLAUSE:12568 | APPLAUSE:139012",
+      "changed_fields": {
+        "midpoint_delta_minutes": {
+          "canonical_extra": "3.8666666666666663",
+          "production": "3.866666666666666"
+        },
+        "overlap_fraction_b": {
+          "canonical_extra": "0.03333333333333333",
+          "production": "0.0333333333333333"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_calibrated_catalogue"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:12568 | APPLAUSE:139012"
+    },
+    {
+      "canonical_order": 59,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485 | APPLAUSE:13388",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.004166666666666667",
+          "production": "0.0041666666666666"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=rejected_spatial_false_positive"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485 | APPLAUSE:13388"
+    },
+    {
+      "canonical_order": 60,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13203 | POSS-I:832:E:rec760",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/fa13203 | POSS-I:832:E:rec760"
+    },
+    {
+      "canonical_order": 61,
+      "canonical_pair_key": "POSS-I:875:E:rec521 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44092",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.42857142857142855",
+          "production": "0.4285714285714285"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:875:E:rec521 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44092"
+    },
+    {
+      "canonical_order": 62,
+      "canonical_pair_key": "POSS-I:306:E:rec703 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43241",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.9999999979190001",
+          "production": "0.999999997919"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory complete 9/9 previously"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "POSS-I:306:E:rec703 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43241"
+    },
+    {
+      "canonical_order": 63,
+      "canonical_pair_key": "APPLAUSE:131892 | DASCH:ivo://org.gavo.dc/~?dasch/q/ax04674",
+      "changed_fields": {
+        "center_separation_deg": {
+          "canonical_extra": "23.185848730687116",
+          "production": "23.18584873068712"
+        },
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_pixel_followup"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:131892 | DASCH:ivo://org.gavo.dc/~?dasch/q/ax04674"
+    },
+    {
+      "canonical_order": 64,
+      "canonical_pair_key": "APPLAUSE:139005 | APPLAUSE:12415",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=parked_manual_astrometric_solve"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:139005 | APPLAUSE:12415"
+    },
+    {
+      "canonical_order": 65,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44307 | POSS-I:1024:E:rec742",
+      "changed_fields": {
+        "overlap_fraction_a": {
+          "canonical_extra": "0.9285714350730159",
+          "production": "0.928571435073016"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44307 | POSS-I:1024:E:rec742"
+    },
+    {
+      "canonical_order": 66,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02737 | POSS-I:500:E:rec679",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02737 | POSS-I:500:E:rec679"
+    },
+    {
+      "canonical_order": 67,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44469 | POSS-I:1103:E:rec397",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ai44469 | POSS-I:1103:E:rec397"
+    },
+    {
+      "canonical_order": 68,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11788",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_catalogue_pixel_pending"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11788"
+    },
+    {
+      "canonical_order": 69,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11787",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_catalogue_pixel_pending"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11787"
+    },
+    {
+      "canonical_order": 70,
+      "canonical_pair_key": "APPLAUSE:115047 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "pre-existing queue status=negative_nine_tile_sample"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "APPLAUSE:115047 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405"
+    },
+    {
+      "canonical_order": 71,
+      "canonical_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00061",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.13953488372093023",
+          "production": "0.1395348837209302"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00061"
+    },
+    {
+      "canonical_order": 72,
+      "canonical_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00060",
+      "changed_fields": {
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00060"
+    },
+    {
+      "canonical_order": 73,
+      "canonical_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00059",
+      "changed_fields": {
+        "overlap_fraction_b": {
+          "canonical_extra": "0.13186813186813187",
+          "production": "0.1318681318681318"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "False"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "process_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "prospective_production"
+        }
+      },
+      "production_pair_key": "POSS-I:236:O:rec425 | DASCH:ivo://org.gavo.dc/~?dasch/q/kg00059"
+    },
+    {
+      "canonical_order": 74,
+      "canonical_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02504 | POSS-I:318:E:rec524",
+      "changed_fields": {
+        "pre_freeze_reason": {
+          "canonical_extra": "",
+          "production": "exploratory complete 9/9 previously"
+        },
+        "pre_freeze_touched": {
+          "canonical_extra": "",
+          "production": "True"
+        },
+        "production_action": {
+          "canonical_extra": "",
+          "production": "rerun_or_complete_under_protocol_v1"
+        },
+        "publication_cohort": {
+          "canonical_extra": "",
+          "production": "development_revalidation"
+        }
+      },
+      "production_pair_key": "DASCH:ivo://org.gavo.dc/~?dasch/q/ka02504 | POSS-I:318:E:rec524"
+    }
+  ]
+}

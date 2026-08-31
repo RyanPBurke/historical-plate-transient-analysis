@@ -1,0 +1,103 @@
+{
+  "policy_id": "candidate_adjudication_policy_v001",
+  "status": "FROZEN_PRE_OUTCOME",
+  "scope": "Historical photographic-plate transient candidate adjudication after physical-pair census",
+  "principles": [
+    "Freeze the complete physical pair census before population-level candidate adjudication.",
+    "Use physical exposure start/end times and actual common-overlap interval as authoritative timing; retain legacy catalogue timing only as provenance.",
+    "A raw positional coincidence is a candidate-generation event, not evidence of transience.",
+    "Interpret raw coincidence counts against shifted/randomised background controls.",
+    "Catalogue association must be epoch-aware and proper-motion-aware; catalogue absence is never proof of transience.",
+    "Local astrometric registration must be independent of the science target and any identified target catalogue source.",
+    "Compact or stellar-looking morphology alone is not proof of a flash or transient.",
+    "Other-epoch non-detections are scientifically usable only when local sensitivity/recovery demonstrates that an equivalent source should have been detectable.",
+    "Copies, duplicate scans, or derivatives of the same physical plate are provenance/artifact controls, not independent astronomical observations.",
+    "API, transport, cache, or execution failures are operational states and must never be converted into scientific non-detections.",
+    "Measurements and interpretation labels must remain separable and auditable.",
+    "No thresholds may be relaxed or retuned in response to an individual candidate outcome."
+  ],
+  "science_gates": {
+    "broad_cross_observatory_arcsec": 10.0,
+    "strict_registered_arcsec": 3.0,
+    "diagnostic_catalogue_arcsec": 5.0
+  },
+  "astrometry": {
+    "primary": {
+      "model": "translation_only_median",
+      "minimum_common_same_catalogue_references": 5,
+      "reference_windows_arcmin": [5.0, 10.0, 20.0, 30.0],
+      "window_choice": "smallest window meeting minimum reference count",
+      "reference_acquisition_arcsec": 15.0,
+      "science_exclusion_arcsec": 30.0,
+      "reference_clipping": false,
+      "higher_order_fit": false
+    },
+    "sparse_field_fallback": {
+      "enabled": true,
+      "trigger": "primary common-reference solution has fewer than 5 references at 30 arcmin",
+      "model": "independent_per_archive_translation_only_median_against_same_epoch_propagated_Gaia",
+      "minimum_references_per_archive": 3,
+      "maximum_window_arcmin": 30.0,
+      "reference_acquisition_arcsec": 15.0,
+      "science_exclusion_arcsec": 30.0,
+      "reference_clipping": false,
+      "higher_order_fit": false,
+      "confidence": "DIAGNOSTIC_ONLY",
+      "interpretation": "May support or weaken an ordinary-source/astrometric explanation but is not equivalent in confidence to the primary common-reference solution."
+    }
+  },
+  "morphology": {
+    "control_selection": "same_tile_same_polarity_nearest_SNR_ratio",
+    "preferred_snr_ratio": [0.75, 1.25],
+    "fallback_snr_ratio": [0.5, 1.5],
+    "fallback_trigger_minimum_controls": 12,
+    "maximum_controls": 32,
+    "science_target_exclusion_pixels": 32.0,
+    "patch_radius_pixels": 10,
+    "robust_outlier_abs_z": 3.5,
+    "metrics": [
+      "sigma_major_px",
+      "sigma_minor_px",
+      "ellipticity",
+      "centroid_offset_px",
+      "concentration_f3_f8",
+      "peak_to_flux5"
+    ],
+    "interpretation": "Morphology is compared empirically with local controls and cannot independently establish transience."
+  },
+  "recurrence_and_sensitivity": {
+    "required_for_unexplained_survivors": true,
+    "comparison_exposures": "prefer nearest adequate preceding and subsequent same-field exposures from the same observing system; independent archives may add corroboration",
+    "required_measurements": [
+      "local background/noise",
+      "local candidate-coordinate SNR or forced measurement",
+      "nearby comparison-star recovery",
+      "equivalent-source injection/recovery or an empirically equivalent completeness test",
+      "plate/scan provenance and usable-region status"
+    ],
+    "negative_evidence_rule": "A non-detection counts only if the comparison exposure demonstrably had adequate local sensitivity.",
+    "temporal_labels": [
+      "single_plate_only_unconfirmed",
+      "one_side_temporal_veto",
+      "two_side_transient_supported"
+    ]
+  },
+  "batch_order": [
+    "freeze_complete_physical_pair_census",
+    "frozen_detection_and_crossmatch",
+    "shifted_or_random_background_control",
+    "epoch_aware_static_catalogue_association",
+    "target_independent_primary_registration",
+    "predeclared_sparse_field_fallback_if_needed",
+    "deterministic_local_morphology_controls",
+    "sensitivity_qualified_other_epoch_recurrence_and_injection_recovery",
+    "manual_review_only_for_survivors",
+    "separate_parallax_aware_branch_only_after_ordinary_explanations"
+  ],
+  "dashboard_contract": {
+    "read_only": true,
+    "source_of_truth": "immutable result artifacts plus automation registry/state",
+    "must_not_mutate_science_state": true,
+    "must_distinguish_operational_failure_from_scientific_negative": true
+  }
+}

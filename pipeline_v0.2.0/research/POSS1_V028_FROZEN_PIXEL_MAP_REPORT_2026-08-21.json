@@ -1,0 +1,20 @@
+{
+  "archive_requests": 0,
+  "detector_snapshot_id": "e3a9b42eaf58027171bb5449533e8bc413672acae7881d9641884363fb2aef7a",
+  "identity_snapshot_id": "8dc070b9df3febaa5db3585408e1fe88e9b3b9d71d436ddba16a71081b066d0e",
+  "pair_execution_state_counts": {
+    "BLOCKED_POSS_ARCHIVE_UNAVAILABLE_NOT_A_NONDETECTION": 3,
+    "POSS_PIXEL_READY_PARTNER_PIXEL_WORK_PENDING": 33,
+    "POSS_PIXEL_REPAIR_REQUIRED:VALIDATED_BUT_NO_FROZEN_FITS_PATH": 11
+  },
+  "pair_map": "research/SUB5_V028_POSS_PAIR_EXECUTION_MAP_2026-08-21.csv",
+  "physical_poss_exposures": 40,
+  "pixel_map": "research/POSS1_V028_FROZEN_PIXEL_MAP_2026-08-21.csv",
+  "pixel_state_counts": {
+    "ARCHIVE_UNAVAILABLE_NO_DETECTOR": 3,
+    "FROZEN_PIXEL_READY": 27,
+    "VALIDATED_BUT_NO_FROZEN_FITS_PATH": 10
+  },
+  "poss_pair_rows": 47,
+  "science_detector_runs": 0
+}

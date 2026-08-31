@@ -1,0 +1,25 @@
+XE520 NATIVE DSS PIXEL CONTROL
+========================================================================
+Exposure: POSS-I:875:E:rec521
+REGION:   XE520
+PLATEID:  090N
+
+Full native plate: 14000 x 13999
+SkyView reports tiled: true
+Native control patch: 221 x 221
+STScI control FITS: 177 x 177
+
+WCS round-trip separation: 0.000000000 arcsec
+
+BEST PIXEL ALIGNMENT
+  orientation: rot0
+  offset: x=22, y=22
+  Pearson r: 1.000000000000
+  exact-value fraction: 1.000000000000
+  rounded-value fraction: 1.000000000000
+  slope: 1.000000000000
+  intercept: -0.000000000000
+  RMSE: 0.000000000001
+
+No frozen detector was run.
+No transient candidate search was performed.

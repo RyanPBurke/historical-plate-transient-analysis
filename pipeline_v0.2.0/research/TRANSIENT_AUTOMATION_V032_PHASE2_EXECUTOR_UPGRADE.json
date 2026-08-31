@@ -1,0 +1,28 @@
+{
+  "backup": "automation\\backups\\pre_v026_phase2_executor_20260824T205904Z",
+  "expected_new_exposures": 192,
+  "expected_requests": 576,
+  "guards": {
+    "candidate_state_mutation": false,
+    "network_access_during_upgrade": false,
+    "non_science_pixels_read": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "installed_at_utc": "2026-08-24T20:59:04.818416+00:00",
+  "preserved_function_sha256": {
+    "angular_sep_arcsec": "49e10dd7813a83c0748ada93c94f7b06f0d08be104b54ed1009f82f1b83d11cd",
+    "f": "f17261813ee698d3da461630d5f5400bb4cc78847476f145c89911b3f4a48f31",
+    "first": "61ae8512a94c94c4f55716b8888fbc7e6cc41cf7552647f7a2cd6815288a2b5a",
+    "parse_api_csv": "71b8812c58ac33d0f599c5f224aa224408b00f7dc318ed92e1ed92073e24d801",
+    "post_cached": "14c742d2eecbff9257be03cf1b1de5d96fde076d01babc72bcb712321f1c3691",
+    "read_queue": "8f2a9a1858ed803da4d2c3ea16078668e3d7766027e3b30ded03b24a758881f7",
+    "summarize_response": "c811ae6c75c0b22d8ed9a8d35b879581100157ebc67822480344dcedea43989a"
+  },
+  "queue": "results\\order01_native_full_v028\\order01_dasch_matched_recurrence_phase2_queue_v028bv.csv",
+  "source": "automation\\stages\\execute_matched_recurrence_phase1_v028bt.py",
+  "source_sha256": "04aeb96ff29843b6565d1c8c325c706c7f928efe6141385efff8d1d07aee5954",
+  "target": "automation\\stages\\execute_matched_recurrence_phase2_v028bw.py",
+  "target_sha256": "ba9e6cc95267aab7973a8888a17a01a5657087d3ff84ad0a6e499d6b3fbed400",
+  "upgrade": "v0.3.2_matched_recurrence_phase2_executor"
+}

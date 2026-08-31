@@ -1,0 +1,3 @@
+source_id,plate_id,ra_deg,dec_deg,expected_sep_arcsec,expected_peak_count,expected_sigma,expected_snr,expected_polarity,expected_cutout_sha256,notes
+40095480011876,bi05607,296.768192555752,26.462561580543355,52.810906810025216,22,30.590377168891756,4.248096443610508,1,e593c06650d0f36a5eb8f72c0d517c39889c1f1f7f685d2bb6320eb0db843fb3,Verified current StarGlass/GAVO byte-identical FITS
+40095480193794,bi05607,292.2729014744788,33.53215548711424,119.13768859293965,44,74.25002006163506,4.616132454477401,1,492ecc24075fd01ec61eddd86a80badc6675facf729edb17a00d0da14faa6474,Verified current StarGlass/GAVO byte-identical FITS

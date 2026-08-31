@@ -1,0 +1,5 @@
+geometry_status,endpoint_occurrences,repair_branch,repairability,generic_action
+RESOLVED,40,NONE,N/A,Side geometry is already resolved.
+UNRESOLVED_APPLAUSE_NO_EXACT_POLYGON,34,APPLAUSE_SOLUTION_SCAN_INVENTORY_REPAIR,LIKELY_METADATA_ONLY,"Inventory exact applause_dr4.solution rows for all scans/processes of the physical plate, with solution_id/header_wcs/stc_polygon provenance; retain all viable solutions."
+UNRESOLVED_DASCH_NO_ASTROMETRY_HEADER,7,DASCH_IMAGING_AVAILABILITY_HOLD,MAYBE,"Check official DR7 exposure-list/value-added metadata for an imaging solution. If no WCS solution exists for the logged exposure, retain as no-imaging geometry hold, not a negative."
+UNRESOLVED_APPLAUSE_SOLUTION_EXPOSURE_ASSOCIATION,1,APPLAUSE_SOLUTION_SCAN_ASSOCIATION_REPAIR,LIKELY_METADATA_ONLY,Use exact solution_id/scan/process metadata and documented exposure identity/center. Do not choose a solution based on detector output; preserve multiple viable solutions and adjudicate overlap across all.

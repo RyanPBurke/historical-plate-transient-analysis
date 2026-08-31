@@ -1,0 +1,78 @@
+HISTORICAL 4-SIGMA DETECTOR IMPLEMENTATION RECOVERY
+
+No detector executed.
+
+Exact pilot_pixel_qa.py:
+- none
+
+Ranked candidates:
+001 | score=51 | tools/locate_historical_detector.py | df21cecd5b1d5d0ae38c92d5eb30b6fd4ba2a0b4bbd9fd64e60a11b7ca695a2a | gaussian_filter,maximum_filter,median,mad,1.4826,4sigma,sigma8,edge30,absolute_residual,local_maximum,3arcsec
+002 | score=38 | README.md | 93cc1198325f48d47a8a1a0f1a3639cbcc8444a18a241d1527a451fbaae506ca | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+003 | score=38 | legacy_README.md | ca3cf82ccccd4f635f59f17d0dc36fd76c21f820f548e465f4896d8cd1183f9f | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+004 | score=38 | patch_backups/pre_v0.2.1_20260820_165915/README.md | e2c7c7ec7003dffe3c346607bdd7d4227b6591d5aa2d9cca16bdd37d4df39053 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+005 | score=38 | protocol/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+006 | score=38 | research_snapshots/sub5_production_freeze_2026-08-20/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+007 | score=38 | research_snapshots/sub5_production_freeze_v0.2.1_2026-08-20/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+008 | score=38 | research_snapshots/sub5_production_freeze_v0.2.2_2026-08-20/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+009 | score=38 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+010 | score=38 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+011 | score=38 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+012 | score=38 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md | 9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700 | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+013 | score=38 | tools/inspect_frozen_detector_implementation.py | b3a7bbb387c3526e42a359393a14228954554d8bcf728f024c138f5a701172c1 | gaussian_filter,maximum_filter,median,mad,1.4826,4sigma,local_maximum
+014 | score=37 | src/transient_pipeline/detector.py | 709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7 | gaussian_filter,maximum_filter,median,mad,1.4826,absolute_residual,local_maximum
+015 | score=36 | results/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 82ab0dc6c338fa33061ff8ba28c9151acc05d4c143b0e86b598899ff493ac05e | mad,1.4826,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,3arcsec
+016 | score=32 | research/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+017 | score=32 | research/EXPLORATORY_ANALYSIS_PLAN_2026-08-18.md | 32394ccc3a3420521e99c3d99c91d45a4632ca9639bbfeb7e34ffeeff2b076b1 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+018 | score=32 | research_snapshots/sub5_production_freeze_2026-08-20/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+019 | score=32 | research_snapshots/sub5_production_freeze_v0.2.1_2026-08-20/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+020 | score=32 | research_snapshots/sub5_production_freeze_v0.2.2_2026-08-20/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+021 | score=32 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+022 | score=32 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+023 | score=32 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+024 | score=32 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/CURRENT_STATE_PRE_FREEZE_2026-08-18.json | 2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9 | mad,4sigma,sigma8,window7,edge30,absolute_residual,local_maximum,10arcsec,3arcsec
+025 | score=19 | config/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+026 | score=19 | research_snapshots/poss1_identity_freeze_v0.2.7_2026-08-21/inputs/config/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+027 | score=19 | research_snapshots/poss1_identity_freeze_v0.2.8_2026-08-21/source/config/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+028 | score=19 | research_snapshots/sub5_production_freeze_2026-08-20/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+029 | score=19 | research_snapshots/sub5_production_freeze_v0.2.1_2026-08-20/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+030 | score=19 | research_snapshots/sub5_production_freeze_v0.2.2_2026-08-20/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+031 | score=19 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+032 | score=19 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+033 | score=19 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+034 | score=19 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/frozen_method.json | 2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1 | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+035 | score=19 | src/transient_pipeline/config.py | bd8f9e7ed25bfd4f83c4fe90f94a7ae459cca8bca6c0418fab2d65adb77459fe | 4sigma,sigma8,window7,edge30,10arcsec,3arcsec
+036 | score=09 | protocol/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+037 | score=09 | research_snapshots/sub5_production_freeze_2026-08-20/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+038 | score=09 | research_snapshots/sub5_production_freeze_v0.2.1_2026-08-20/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+039 | score=09 | research_snapshots/sub5_production_freeze_v0.2.2_2026-08-20/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+040 | score=09 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+041 | score=09 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+042 | score=09 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+043 | score=09 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/DATA_DICTIONARY.md | a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f | mad,local_maximum
+044 | score=08 | work/poss_preflight/skyview_source/current_jar_layout_probe.txt | f28f886d6f95ea2f086c45c664d5595a0576394ac7b84b63e4abc59060aca56a | 4sigma,window7
+045 | score=07 | research/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+046 | score=07 | research_snapshots/sub5_production_freeze_2026-08-20/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+047 | score=07 | research_snapshots/sub5_production_freeze_v0.2.1_2026-08-20/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+048 | score=07 | research_snapshots/sub5_production_freeze_v0.2.2_2026-08-20/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+049 | score=07 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+050 | score=07 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+051 | score=07 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+052 | score=07 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md | 110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467 | 4sigma,3arcsec
+053 | score=05 | tools/reconcile_v028_pixel_fits_provenance.py | e18518417d5eff81ffafce12e690fb7d97ad112969cf07f664cc888aaf09e93e | 4sigma
+054 | score=04 | work/run_strip2_verified.ps1 | 99500ff69eb3ca6aa1f1992df3db64f03822ef365eaab8fdf8322c5a9ee6aacf | 10arcsec,3arcsec
+055 | score=04 | work/run_strip4_verified.ps1 | e391d9dd4a090721b65fbee7f8d942e23dae1986cddfa0848082f4a8fef25e58 | 10arcsec,3arcsec
+056 | score=02 | PIPELINE_HANDOFF.md | 4fc587d6b809f123189f9f7ed9f2ab31b06e44471eedee2e20010fdfe62e1d35 | 3arcsec
+057 | score=02 | legacy_PIPELINE_HANDOFF.md | 4fc587d6b809f123189f9f7ed9f2ab31b06e44471eedee2e20010fdfe62e1d35 | 3arcsec
+058 | score=02 | research/POSS1_SKYVIEW_IDENTITY_GATE_CORRECTION_v0.2.4_2026-08-20.md | 095b31463f5d7acb29a1866199596faf836345c4d9b19edd451f96b8d28124ea | 3arcsec
+059 | score=02 | research/POSS1_V027_HHH_DATE_FOUR_JOB_REQUEUE_20260821T142807Z.json | bdf03ac3a5c9216653463509667834c5dc7083f6264eaa2188c29f1a50d8fdf1 | 10arcsec
+060 | score=02 | research/SKYVIEW_DSS_MIRROR_EQUIVALENCE_NOTE_2026-08-20.md | 45970482d01e8cd1ddf6e25a225b39ed8bc7981eef3f481836972eb1104ae414 | 3arcsec
+061 | score=02 | research/SUB5_PRODUCTION_VS_CANONICAL_DIFF_2026-08-21.json | a5fb527160aa83aae12e908b30b290ba100275d0a38b21d2add7b132bd450c00 | 3arcsec
+062 | score=02 | research_snapshots/poss1_identity_freeze_v0.2.7_2026-08-21/inputs/research/POSS1_V027_HHH_DATE_FOUR_JOB_REQUEUE_20260821T142807Z.json | bdf03ac3a5c9216653463509667834c5dc7083f6264eaa2188c29f1a50d8fdf1 | 10arcsec
+063 | score=02 | research_snapshots/sub5_production_freeze_v0.2.3_2026-08-20/inputs/SKYVIEW_DSS_MIRROR_EQUIVALENCE_NOTE_2026-08-20.md | 45970482d01e8cd1ddf6e25a225b39ed8bc7981eef3f481836972eb1104ae414 | 3arcsec
+064 | score=02 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/POSS1_SKYVIEW_IDENTITY_GATE_CORRECTION_v0.2.4_2026-08-20.md | 095b31463f5d7acb29a1866199596faf836345c4d9b19edd451f96b8d28124ea | 3arcsec
+065 | score=02 | research_snapshots/sub5_production_freeze_v0.2.4_2026-08-20/inputs/SKYVIEW_DSS_MIRROR_EQUIVALENCE_NOTE_2026-08-20.md | 45970482d01e8cd1ddf6e25a225b39ed8bc7981eef3f481836972eb1104ae414 | 3arcsec
+066 | score=02 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/POSS1_SKYVIEW_IDENTITY_GATE_CORRECTION_v0.2.4_2026-08-20.md | 095b31463f5d7acb29a1866199596faf836345c4d9b19edd451f96b8d28124ea | 3arcsec
+067 | score=02 | research_snapshots/sub5_production_freeze_v0.2.5_2026-08-21/inputs/SKYVIEW_DSS_MIRROR_EQUIVALENCE_NOTE_2026-08-20.md | 45970482d01e8cd1ddf6e25a225b39ed8bc7981eef3f481836972eb1104ae414 | 3arcsec
+068 | score=02 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/POSS1_SKYVIEW_IDENTITY_GATE_CORRECTION_v0.2.4_2026-08-20.md | 095b31463f5d7acb29a1866199596faf836345c4d9b19edd451f96b8d28124ea | 3arcsec
+069 | score=02 | research_snapshots/sub5_production_freeze_v0.2.6_2026-08-21/inputs/SKYVIEW_DSS_MIRROR_EQUIVALENCE_NOTE_2026-08-20.md | 45970482d01e8cd1ddf6e25a225b39ed8bc7981eef3f481836972eb1104ae414 | 3arcsec
+070 | score=02 | work/run_strip1_verified.ps1 | c6d627d5797ff86143b309ab1e1428edf57c4546e84386053de851b905152786 | 3arcsec

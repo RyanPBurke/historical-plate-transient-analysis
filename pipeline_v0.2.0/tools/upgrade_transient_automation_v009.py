@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import py_compile, shutil
+
+ROOT=Path.cwd()
+AUTO=ROOT/"automation"
+REGISTRY=AUTO/"registry_order01.py"
+RUNNER=AUTO/"runner.py"
+STAGE=AUTO/"stages"/"calibrate_platephot_live_v028bd.py"
+BACKUP=AUTO/"backups"/"pre_v009"
+STAGE_CONTENT='#!/usr/bin/env python3\n"""\nORDER 01 — DASCH platephot live calibration batch v028bd\n\nFirst live network stage for the automated prevalence workflow.\n\nPurpose\n-------\nValidate the certified v028r request contract against a SMALL deterministic\nsample of the v028bc queue before enabling the full 1,693-request executor.\n\nDesign\n------\n- reuses the exact request_json() implementation from the validated v028r source;\n- requires the certified v028bb executor gate;\n- selects 12 deterministic queue items spanning high/medium/low coverage density;\n- one cache file per request;\n- one checkpoint record per item;\n- resumes safely if interrupted;\n- validates that each response has the expected platephot JSON-list-of-CSV-lines\n  representation and required coordinate columns;\n- no science pixels or control pixels are read;\n- no candidate state changes.\n\nThis stage is intentionally a calibration batch, not the full queue.\n"""\n\nfrom __future__ import annotations\n\nimport csv\nimport importlib.util\nimport io\nimport json\nimport math\nimport sys\nimport time\nfrom pathlib import Path\n\nROOT = Path.cwd()\nBASE = ROOT / "results" / "order01_native_full_v028"\nAUTO = ROOT / "automation"\nWORK = ROOT / "work" / "order01_native_full_v028"\n\nQUEUE = AUTO / "queues" / "ai43437_prevalence_v028bc.json"\nCERT = BASE / "order01_dasch_v028r_executor_contract_certified_v028bb.json"\nV028R_SRC = ROOT / "tools" / "audit_order01_official_dasch_platephot_astrometry_v028r.py"\n\nCACHE_DIR = WORK / "automation_platephot_v028bd"\nCHECKPOINT = AUTO / "state" / "ai43437_platephot_calibration_v028bd.json"\nOUT_JSON = BASE / "order01_dasch_platephot_live_calibration_v028bd.json"\nOUT_CSV = BASE / "order01_dasch_platephot_live_calibration_v028bd.csv"\nOUT_MD = BASE / "ORDER01_DASCH_PLATEPHOT_LIVE_CALIBRATION_V028BD.md"\n\nCALIBRATION_COUNT = 12\nCOORD_COLUMN_ALIASES = (("ra_deg", "dec_deg"), ("raDeg", "decDeg"))\n\n\ndef write_json(path, obj):\n    path.parent.mkdir(parents=True, exist_ok=True)\n    tmp = path.with_suffix(path.suffix + ".tmp")\n    tmp.write_text(\n        json.dumps(obj, indent=2, sort_keys=True, default=str) + "\\n",\n        encoding="utf-8",\n    )\n    tmp.replace(path)\n\n\ndef write_csv(path, rows, fields):\n    path.parent.mkdir(parents=True, exist_ok=True)\n    tmp = path.with_suffix(path.suffix + ".tmp")\n    with tmp.open("w", encoding="utf-8", newline="") as fh:\n        w = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")\n        w.writeheader()\n        w.writerows(rows)\n    tmp.replace(path)\n\n\ndef load_exact_v028r_module():\n    spec = importlib.util.spec_from_file_location(\n        "validated_v028r_platephot_source", V028R_SRC\n    )\n    if spec is None or spec.loader is None:\n        raise RuntimeError("could not construct import spec for v028r source")\n    mod = importlib.util.module_from_spec(spec)\n    sys.modules[spec.name] = mod\n    spec.loader.exec_module(mod)\n    return mod\n\n\ndef deterministic_sample(items, n):\n    """\n    Deterministic density-stratified sample:\n      - 4 highest native-candidate coverage\n      - 4 around the median density/order distribution\n      - 4 lowest coverage, spread through queue order\n\n    De-duplicates queue_order while preserving deterministic order.\n    """\n    if len(items) <= n:\n        return list(items)\n\n    ranked = sorted(\n        items,\n        key=lambda r: (\n            -int(r.get("native_candidates_covered", 0)),\n            int(r["queue_order"]),\n        ),\n    )\n\n    chosen = []\n\n    def add(row):\n        if row is None:\n            return\n        q = int(row["queue_order"])\n        if all(int(x["queue_order"]) != q for x in chosen):\n            chosen.append(row)\n\n    # High-density cases.\n    for row in ranked[:4]:\n        add(row)\n\n    # Queue-spread cases.\n    ordered = sorted(items, key=lambda r: int(r["queue_order"]))\n    for frac in (0.2, 0.4, 0.6, 0.8):\n        idx = round(frac * (len(ordered) - 1))\n        add(ordered[idx])\n\n    # Low-density cases spread through the low-density subset.\n    low = sorted(\n        items,\n        key=lambda r: (\n            int(r.get("native_candidates_covered", 0)),\n            int(r["queue_order"]),\n        ),\n    )\n    for row in low:\n        add(row)\n        if len(chosen) >= n:\n            break\n\n    # Final deterministic fill if de-duplication reduced count.\n    for row in ordered:\n        add(row)\n        if len(chosen) >= n:\n            break\n\n    return chosen[:n]\n\n\ndef parse_platephot_response(obj):\n    """\n    Exact response representation already established in the v028an/v028ao\n    forensic branch: JSON list[str] containing CSV text lines.\n    """\n    if not isinstance(obj, list):\n        return {\n            "valid": False,\n            "reason": f"top-level type {type(obj).__name__}, expected list",\n            "row_count": None,\n            "columns": [],\n        }\n\n    if not obj:\n        return {\n            "valid": True,\n            "reason": "empty list response",\n            "row_count": 0,\n            "columns": [],\n        }\n\n    if not all(isinstance(x, str) for x in obj):\n        return {\n            "valid": False,\n            "reason": "list contains non-string element(s)",\n            "row_count": None,\n            "columns": [],\n        }\n\n    try:\n        reader = csv.DictReader(io.StringIO("\\n".join(obj)))\n        rows = list(reader)\n        cols = list(reader.fieldnames or [])\n    except Exception as exc:\n        return {\n            "valid": False,\n            "reason": f"CSV parse failed: {type(exc).__name__}: {exc}",\n            "row_count": None,\n            "columns": [],\n        }\n\n    coord_pair = next(\n        (pair for pair in COORD_COLUMN_ALIASES if set(pair).issubset(set(cols))),\n        None,\n    )\n    return {\n        "valid": coord_pair is not None,\n        "reason": (\n            "ok"\n            if coord_pair is not None\n            else "missing coordinate columns in either snake_case or camelCase form"\n        ),\n        "row_count": len(rows),\n        "columns": cols,\n        "coordinate_columns": None if coord_pair is None else list(coord_pair),\n    }\n\n\ndef main():\n    print("=" * 128)\n    print("ORDER 01 — DASCH PLATEPHOT LIVE CALIBRATION BATCH v028bd")\n    print("=" * 128)\n    print("NETWORK ACCESS: REQUIRED AND EXPLICITLY RUNNER-GATED.")\n    print("SCIENCE PIXELS ARE NOT READ.")\n    print("NON-SCIENCE PIXELS ARE NOT READ.")\n    print("Frozen transient detector is NOT rerun.\\n")\n\n    for p in (QUEUE, CERT, V028R_SRC):\n        if not p.is_file():\n            print(f"FAIL missing input: {p}")\n            return 2\n\n    cert = json.loads(CERT.read_text(encoding="utf-8"))\n    if not cert.get("executor_gate", {}).get("network_executor_may_be_built"):\n        raise RuntimeError("v028bb executor gate is not certified")\n\n    contract = cert.get("certified_contract", {})\n    if contract.get("method") != "POST":\n        raise RuntimeError("certified method is not POST")\n    if str(contract.get("path", "")).lstrip("/") != "dasch/dr7/platephot":\n        raise RuntimeError("certified path mismatch")\n    if set(contract.get("payload_keys") or []) != {\n        "plate_id", "solution_number", "refcat",\n        "center_ra_deg", "center_dec_deg",\n    }:\n        raise RuntimeError("certified payload-key set mismatch")\n\n    queue_obj = json.loads(QUEUE.read_text(encoding="utf-8"))\n    items = queue_obj.get("items", [])\n    if not items:\n        raise RuntimeError("v028bc queue is empty")\n\n    sample = deterministic_sample(items, CALIBRATION_COUNT)\n    selected_orders = [int(x["queue_order"]) for x in sample]\n\n    print(f"Full v028bc queue items: {len(items)}")\n    print(f"Calibration items selected: {len(sample)}")\n    print(f"Queue orders: {selected_orders}")\n\n    CACHE_DIR.mkdir(parents=True, exist_ok=True)\n    CHECKPOINT.parent.mkdir(parents=True, exist_ok=True)\n\n    if CHECKPOINT.is_file():\n        checkpoint = json.loads(CHECKPOINT.read_text(encoding="utf-8"))\n    else:\n        checkpoint = {\n            "stage": "ORDER01_DASCH_PLATEPHOT_LIVE_CALIBRATION_V028BD",\n            "selected_queue_orders": selected_orders,\n            "items": {},\n        }\n\n    if checkpoint.get("selected_queue_orders") != selected_orders:\n        raise RuntimeError(\n            "existing calibration checkpoint sample does not match deterministic sample"\n        )\n\n    v028r = load_exact_v028r_module()\n    if not hasattr(v028r, "request_json"):\n        raise RuntimeError("validated v028r module lacks request_json()")\n\n    results = []\n\n    for pos, item in enumerate(sample, start=1):\n        qorder = int(item["queue_order"])\n        key = str(qorder)\n        cache = CACHE_DIR / f"ai43437_sol0_q{qorder:04d}_apass_platephot.json"\n\n        prior = checkpoint["items"].get(key)\n        if (\n            prior\n            and prior.get("status") == "SUCCESS"\n            and cache.is_file()\n        ):\n            print(f"[{pos:02d}/{len(sample):02d}] q{qorder:04d}: CHECKPOINTED SUCCESS")\n            obj = json.loads(cache.read_text(encoding="utf-8"))\n            validation = parse_platephot_response(obj)\n            if not validation["valid"]:\n                raise RuntimeError(\n                    f"checkpoint cache q{qorder} no longer validates: "\n                    f"{validation[\'reason\']}"\n                )\n            results.append(prior)\n            continue\n\n        payload = {\n            "plate_id": str(item["plate_id"]),\n            "solution_number": int(item["solution"]),\n            "refcat": str(item["refcat"]),\n            "center_ra_deg": float(item["center_ra_deg"]),\n            "center_dec_deg": float(item["center_dec_deg"]),\n        }\n\n        print(\n            f"[{pos:02d}/{len(sample):02d}] q{qorder:04d}: "\n            f"POST center=({payload[\'center_ra_deg\']:.8f},"\n            f"{payload[\'center_dec_deg\']:.8f}) "\n            f"coversNative={item.get(\'native_candidates_covered\')}"\n        )\n\n        started = time.time()\n        try:\n            obj, used = v028r.request_json(\n                "POST",\n                "dasch/dr7/platephot",\n                payload=payload,\n                cache=cache,\n            )\n            elapsed = time.time() - started\n            validation = parse_platephot_response(obj)\n\n            if not validation["valid"]:\n                status = "FAILED_RESPONSE_SCHEMA"\n            else:\n                status = "SUCCESS"\n\n            rec = {\n                "queue_order": qorder,\n                "status": status,\n                "center_ra_deg": payload["center_ra_deg"],\n                "center_dec_deg": payload["center_dec_deg"],\n                "native_candidates_covered":\n                    int(item.get("native_candidates_covered", 0)),\n                "cache": str(cache.relative_to(ROOT)),\n                "request_source": used,\n                "elapsed_seconds": elapsed,\n                "response_valid": validation["valid"],\n                "response_reason": validation["reason"],\n                "response_row_count": validation["row_count"],\n                "response_columns": validation["columns"],\n            }\n\n        except Exception as exc:\n            elapsed = time.time() - started\n            rec = {\n                "queue_order": qorder,\n                "status": "FAILED_EXCEPTION",\n                "center_ra_deg": payload["center_ra_deg"],\n                "center_dec_deg": payload["center_dec_deg"],\n                "native_candidates_covered":\n                    int(item.get("native_candidates_covered", 0)),\n                "cache": str(cache.relative_to(ROOT)),\n                "request_source": "network_or_cache",\n                "elapsed_seconds": elapsed,\n                "response_valid": False,\n                "response_reason": f"{type(exc).__name__}: {exc}",\n                "response_row_count": None,\n                "response_columns": [],\n            }\n\n        checkpoint["items"][key] = rec\n        write_json(CHECKPOINT, checkpoint)\n        results.append(rec)\n\n        print(\n            f"    status={rec[\'status\']} "\n            f"rows={rec[\'response_row_count\']} "\n            f"elapsed={rec[\'elapsed_seconds\']:.3f}s"\n        )\n\n        # Stop on first invalid live result; checkpoint remains resumable.\n        if rec["status"] != "SUCCESS":\n            print("    TERMINAL CALIBRATION STOP: first non-success response.")\n            break\n\n        # Public DASCH API has lower rate limits than the registered endpoint.\n        # Keep this calibration intentionally gentle.\n        if pos < len(sample):\n            time.sleep(1.0)\n\n    success = [r for r in results if r["status"] == "SUCCESS"]\n    failed = [r for r in results if r["status"] != "SUCCESS"]\n\n    # We only complete the stage when all 12 selected items have succeeded.\n    complete = (\n        len(success) == len(sample)\n        and not failed\n        and set(r["queue_order"] for r in success) == set(selected_orders)\n    )\n\n    summary = {\n        "stage": "ORDER01_DASCH_PLATEPHOT_LIVE_CALIBRATION_V028BD",\n        "guards": {\n            "network_access": True,\n            "science_pixels_read": False,\n            "non_science_pixels_read": False,\n            "transient_detector_rerun": False,\n            "candidate_state_mutation": False,\n        },\n        "summary": {\n            "full_queue_count": len(items),\n            "calibration_selected_count": len(sample),\n            "calibration_success_count": len(success),\n            "calibration_failure_count": len(failed),\n            "calibration_complete": complete,\n            "selected_queue_orders": selected_orders,\n            "total_response_rows":\n                sum(int(r.get("response_row_count") or 0) for r in success),\n            "median_elapsed_seconds":\n                None if not success else sorted(\n                    float(r["elapsed_seconds"]) for r in success\n                )[len(success)//2],\n        },\n        "items": results,\n        "checkpoint_file": str(CHECKPOINT.relative_to(ROOT)),\n        "cache_directory": str(CACHE_DIR.relative_to(ROOT)),\n        "executor_gate": {\n            "full_queue_executor_may_be_enabled": complete,\n        },\n        "interpretive_boundary": (\n            "v028bd validates transport, caching, checkpoint/resume, and response "\n            "schema on a small deterministic queue sample only. It does not estimate "\n            "the scientific prevalence of uncatalogued stellar-like detections."\n        ),\n    }\n\n    # Write the declared output even on a failed calibration so the exact failure\n    # is preserved. The runner post-verifier will pass provenance guards; the\n    # stage process return code below carries success/failure semantics.\n    write_json(OUT_JSON, summary)\n\n    flat = []\n    for r in results:\n        flat.append({\n            "queue_order": r["queue_order"],\n            "status": r["status"],\n            "center_ra_deg": r["center_ra_deg"],\n            "center_dec_deg": r["center_dec_deg"],\n            "native_candidates_covered": r["native_candidates_covered"],\n            "request_source": r["request_source"],\n            "elapsed_seconds": r["elapsed_seconds"],\n            "response_valid": r["response_valid"],\n            "response_reason": r["response_reason"],\n            "response_row_count": r["response_row_count"],\n            "cache": r["cache"],\n        })\n    write_csv(\n        OUT_CSV,\n        flat,\n        [\n            "queue_order", "status", "center_ra_deg", "center_dec_deg",\n            "native_candidates_covered", "request_source", "elapsed_seconds",\n            "response_valid", "response_reason", "response_row_count", "cache",\n        ],\n    )\n\n    md = [\n        "# ORDER 01 — DASCH Platephot Live Calibration v028bd",\n        "",\n        f"- Full queue: **{len(items)}**.",\n        f"- Calibration sample: **{len(sample)}**.",\n        f"- Successes: **{len(success)}**.",\n        f"- Failures: **{len(failed)}**.",\n        f"- Calibration complete: **{complete}**.",\n        "",\n        "This is an operational/API validation stage, not a prevalence result.",\n    ]\n    OUT_MD.write_text("\\n".join(md), encoding="utf-8")\n\n    print("\\nOutputs:")\n    print(f"  {OUT_JSON}")\n    print(f"  {OUT_CSV}")\n    print(f"  {CHECKPOINT}")\n    print(f"  {OUT_MD}")\n    print()\n    print(f"CALIBRATION COMPLETE: {complete}")\n    print("SCIENCE PIXELS WERE NOT READ.")\n    print("NON-SCIENCE PIXELS WERE NOT READ.")\n    print("Transient detector was NOT rerun.")\n    print("No endpoint state was changed.")\n\n    return 0 if complete else 5\n\n\nif __name__ == "__main__":\n    raise SystemExit(main())\n'
+
+REGISTRY_ENTRY = """
+    StageContract(
+        stage_id="dasch_platephot_live_calibration_v028bd",
+        title="Live DASCH platephot calibration batch with checkpoint/resume",
+        script="automation/stages/calibrate_platephot_live_v028bd.py",
+        requires=(
+            "automation/queues/ai43437_prevalence_v028bc.json",
+            "results/order01_native_full_v028/order01_dasch_v028r_executor_contract_certified_v028bb.json",
+            "tools/audit_order01_official_dasch_platephot_astrometry_v028r.py",
+        ),
+        produces=(
+            "results/order01_native_full_v028/order01_dasch_platephot_live_calibration_v028bd.json",
+        ),
+        dependencies=("dasch_prevalence_replan_10arcmin_v028bc",),
+        network_access=True,
+        retryable=True,
+        notes="Twelve-item deterministic live calibration; exact v028r request_json, per-item cache and checkpoint.",
+    ),
+"""
+
+def main():
+    print("="*112)
+    print("TRANSIENT AUTOMATION UPGRADE v0.0.9 — LIVE CALIBRATION EXECUTOR")
+    print("="*112)
+    print("NO NETWORK ACCESS IS PERFORMED BY THIS UPGRADE.")
+    print("SCIENCE PIXELS ARE NOT READ.")
+    print("No science/result artifact is modified.")
+    print("No candidate state is changed.\n")
+
+    for p in (REGISTRY,RUNNER):
+        if not p.is_file():
+            print(f"FAIL missing automation file: {p}")
+            return 2
+
+    BACKUP.mkdir(parents=True,exist_ok=True)
+    for p in (REGISTRY,RUNNER,AUTO/"__init__.py"):
+        if p.is_file():
+            dst=BACKUP/p.name
+            if not dst.exists():
+                shutil.copy2(p,dst)
+
+    if STAGE.exists():
+        print(f"FAIL stage already exists: {STAGE}")
+        return 2
+
+    STAGE.parent.mkdir(parents=True,exist_ok=True)
+    STAGE.write_text(STAGE_CONTENT,encoding="utf-8")
+    print(f"Created: {STAGE.relative_to(ROOT)}")
+
+    reg=REGISTRY.read_text(encoding="utf-8")
+    marker="\n]\n\ndef by_id():"
+    if marker not in reg:
+        print("FAIL registry insertion marker not found.")
+        return 3
+    reg=reg.replace(marker,"\n"+REGISTRY_ENTRY.rstrip()+"\n]\n\ndef by_id():",1)
+    REGISTRY.write_text(reg,encoding="utf-8")
+    print("Registered: dasch_platephot_live_calibration_v028bd")
+
+    runner=RUNNER.read_text(encoding="utf-8")
+    runner=runner.replace(
+        'print("Transient automation v0.0.8 - Order01 registry status\\n")',
+        'print("Transient automation v0.0.9 - Order01 registry status\\n")',
+    )
+    RUNNER.write_text(runner,encoding="utf-8")
+    (AUTO/"__init__.py").write_text('__version__ = "0.0.9"\n',encoding="utf-8")
+
+    failures=[]
+    py_files=sorted(p for p in AUTO.rglob("*.py") if "backups" not in p.parts)
+    print(f"\nCompiling automation package ({len(py_files)} Python files):")
+    for p in py_files:
+        try:
+            py_compile.compile(str(p),doraise=True)
+            print(f"  PASS {p.relative_to(ROOT)}")
+        except Exception as exc:
+            failures.append((p,exc))
+            print(f"  FAIL {p.relative_to(ROOT)}: {exc}")
+    if failures:
+        print("\nAUTOMATION UPGRADE STATUS: FAIL")
+        return 4
+
+    print("\nAUTOMATION UPGRADE STATUS: PASS")
+    print("\nThe newly registered stage requires explicit network authorization.")
+    print("Recommended commands:")
+    print(r'  & ".\.venv\Scripts\python.exe" -m automation.runner status')
+    print(r'  & ".\.venv\Scripts\python.exe" -m automation.runner run-next')
+    print("    (expected: REFUSED because --allow-network was not supplied)")
+    print(r'  & ".\.venv\Scripts\python.exe" -m automation.runner run-next --allow-network')
+    print()
+    print("The live stage processes only 12 deterministic calibration requests.")
+    return 0
+
+if __name__=="__main__":
+    raise SystemExit(main())

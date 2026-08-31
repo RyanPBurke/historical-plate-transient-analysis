@@ -1,0 +1,195 @@
+{
+  "created_at_utc": "2026-08-20T22:10:57.396800+00:00",
+  "descriptor_exact_entries": [],
+  "descriptor_near_region_number": [
+    {
+      "dec_deg": 42.81217,
+      "epoch": 1954.757,
+      "ra_deg": 1.85292,
+      "region": "XO192",
+      "region_num": 192
+    },
+    {
+      "dec_deg": 42.76864,
+      "epoch": 1953.774,
+      "ra_deg": 9.48229,
+      "region": "XO193",
+      "region_num": 193
+    },
+    {
+      "dec_deg": 42.80014,
+      "epoch": 1952.807,
+      "ra_deg": 17.04662,
+      "region": "XO194",
+      "region_num": 194
+    },
+    {
+      "dec_deg": 42.73961,
+      "epoch": 1953.708,
+      "ra_deg": 24.52463,
+      "region": "XO195",
+      "region_num": 195
+    },
+    {
+      "dec_deg": 42.71906,
+      "epoch": 1953.998,
+      "ra_deg": 32.23042,
+      "region": "XO196",
+      "region_num": 196
+    },
+    {
+      "dec_deg": 42.48214,
+      "epoch": 1957.968,
+      "ra_deg": 47.35529,
+      "region": "XO198",
+      "region_num": 198
+    },
+    {
+      "dec_deg": 42.47458,
+      "epoch": 1953.025,
+      "ra_deg": 54.89992,
+      "region": "XO199",
+      "region_num": 199
+    },
+    {
+      "dec_deg": 42.36419,
+      "epoch": 1953.031,
+      "ra_deg": 62.48838,
+      "region": "XO200",
+      "region_num": 200
+    },
+    {
+      "dec_deg": 42.28967,
+      "epoch": 1953.025,
+      "ra_deg": 69.99896,
+      "region": "XO201",
+      "region_num": 201
+    },
+    {
+      "dec_deg": 42.22725,
+      "epoch": 1953.121,
+      "ra_deg": 77.55492,
+      "region": "XO202",
+      "region_num": 202
+    }
+  ],
+  "dss1b_descriptor": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss_preflight\\skyview_source\\dss1b_external_definition\\dss1b.xml",
+  "dss1b_sha256": "36e8b0380a60dba556091f0c4cb9ff5cb6fb33478918fc0f34a0500a35a40603",
+  "expected_region": "XO197",
+  "metadata_file": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research\\poss1_plate_metadata.csv",
+  "mlp": 198,
+  "poss": " 449",
+  "probe_only": true,
+  "raw_header_probes": [
+    {
+      "bytes": 54720,
+      "date_obs": "1952-10-21T06:33:00",
+      "header_region": "XO194",
+      "http_status": 200,
+      "plate_dec": "42.7754841693",
+      "plate_id": "A3EI",
+      "plate_ra": "17.0643637021",
+      "region_requested": "XO194",
+      "sha256": "edbd1e0dbca3352df1de8be8ec9e1434b399291bdf97490c9454f6ca7eaa12de",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo194/xo194.hhh"
+    },
+    {
+      "bytes": 54720,
+      "date_obs": "1953-09-16T10:63:00",
+      "header_region": "XO195",
+      "http_status": 200,
+      "plate_dec": "42.7396050000",
+      "plate_id": "A3EJ",
+      "plate_ra": "24.5246210000",
+      "region_requested": "XO195",
+      "sha256": "9ac9ace07661f6f501e1a98f012d23a01db1adeb4676624a2f723b4cdf97dba4",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo195/xo195.hhh"
+    },
+    {
+      "bytes": 54720,
+      "date_obs": "1953-12-31T04:42:00",
+      "header_region": "XO196",
+      "http_status": 200,
+      "plate_dec": "42.6889213583",
+      "plate_id": "A3EK",
+      "plate_ra": "32.2422641277",
+      "region_requested": "XO196",
+      "sha256": "9b5f64931df4951494634a6fa9b98a02f0362563050d3badd21c29224b83b716",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo196/xo196.hhh"
+    },
+    {
+      "bytes": 6856,
+      "http_status": 404,
+      "region_requested": "XO197",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo197/xo197.hhh"
+    },
+    {
+      "bytes": 54720,
+      "date_obs": "1957-12-19T05:35:00",
+      "header_region": "XO198",
+      "http_status": 200,
+      "plate_dec": "42.5563154915",
+      "plate_id": "A3EM",
+      "plate_ra": "47.3851671855",
+      "region_requested": "XO198",
+      "sha256": "bdd8806dbb9435591b75b356c39ce19eea18667741e92906c08b6caebfb2d962",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo198/xo198.hhh"
+    },
+    {
+      "bytes": 54720,
+      "date_obs": "1953-01-10T03:28:00",
+      "header_region": "XO199",
+      "http_status": 200,
+      "plate_dec": "42.4767975330",
+      "plate_id": "A3EN",
+      "plate_ra": "54.9517559211",
+      "region_requested": "XO199",
+      "sha256": "f4aca56a5bddb343eb61931a2b8b98f04adacb509983650c5c980ebe322b7703",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo199/xo199.hhh"
+    },
+    {
+      "bytes": 54720,
+      "date_obs": "1953-01-12T03:28:00",
+      "header_region": "XO200",
+      "http_status": 200,
+      "plate_dec": "42.3848319552",
+      "plate_id": "A3EO",
+      "plate_ra": "62.4978710175",
+      "region_requested": "XO200",
+      "sha256": "ffc0f9eb253d9da03814699563f2b1c2823ea694f106a182e7bb94e98e89251c",
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo200/xo200.hhh"
+    }
+  ],
+  "recno": 198,
+  "results_file": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\results\\poss1_identity_preflight.csv",
+  "science_analysis_performed": false,
+  "target": "POSS-I:449:O:rec198",
+  "vi25_row": {
+    "DE1950": "+42 24 49",
+    "EHA": "00:12",
+    "EHAew": "E",
+    "Eexp": "60",
+    "Erate": " 2 ",
+    "GLAT": "-15.95",
+    "GLON": "143.23",
+    "MLP": " 198",
+    "OHA": "00:29",
+    "OHAew": "E",
+    "Obs": "1951-12-21",
+    "ObsE": "20:12",
+    "ObsO": "19:55",
+    "Oexp": "10",
+    "Orate": " 2 ",
+    "POSS": " 449",
+    "RA1950": "02 36 05",
+    "RAradmax": " 0.76123369",
+    "RAradmin": " 0.60084987",
+    "SAO": "333",
+    "_DE.icrs": "+42 37 43",
+    "_RA.icrs": "02 39 17.7",
+    "fObs": "   0-12-22",
+    "recno": "     198",
+    "source_archive": "POSS-I VI/25",
+    "source_url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/VI/25"
+  }
+}

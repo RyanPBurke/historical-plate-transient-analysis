@@ -1,0 +1,85 @@
+{
+  "current_content_addressed_snapshots": [
+    {
+      "bytes": 8045,
+      "kind": "stage_results_csv",
+      "path": "evidence\\artifacts\\stage_results_csv\\47\\47cebd6b309b1fd342958690e909d22d23b473b7084c0269e87f15cc096a9dcc__publication_regression.csv",
+      "sha256": "47cebd6b309b1fd342958690e909d22d23b473b7084c0269e87f15cc096a9dcc",
+      "source_path": "results\\publication_regression.csv"
+    },
+    {
+      "bytes": 9177,
+      "kind": "stage_results_csv",
+      "path": "evidence\\artifacts\\stage_results_csv\\a7\\a7ba1669827050b1cb94f7d3704e1f66c3f5a39e82037ea25a6c442f950bb8db__publication_regression_v021.csv",
+      "sha256": "a7ba1669827050b1cb94f7d3704e1f66c3f5a39e82037ea25a6c442f950bb8db",
+      "source_path": "results\\publication_regression_v021.csv"
+    },
+    {
+      "bytes": 148406,
+      "kind": "poss1_identity_preflight_csv",
+      "path": "evidence\\artifacts\\poss1_identity_preflight_csv\\4a\\4a36a1562d344670a746776314732e0f67b967f8e75df12744005df74f965d1d__poss1_identity_preflight.csv",
+      "sha256": "4a36a1562d344670a746776314732e0f67b967f8e75df12744005df74f965d1d",
+      "source_path": "results\\poss1_identity_preflight.csv"
+    }
+  ],
+  "migration": "v0.2.2 mutable-derived-artifact evidence correction",
+  "performed_at_utc": "2026-08-20T18:08:11.322811+00:00",
+  "policy_after_migration": "Regenerated derived tables/manifests are indexed only as content-addressed immutable snapshots; stable scientific FITS/raw responses continue to be hash-verified directly.",
+  "pre_migration_index": {
+    "bytes": 432864,
+    "evidence_record": {
+      "bytes": 432864,
+      "job_key": null,
+      "kind": "evidence_index_pre_v0.2.2_backup",
+      "metadata": {
+        "original_index_sha256": "7ae0ef073cd6cc560846bb5ad414c373d0101303158616d2c2399aa4b373926a",
+        "removed_mutable_record_count": 4
+      },
+      "path": "evidence\\index\\history\\evidence_pre_v0.2.2_20260820T180811Z_7ae0ef073cd6.jsonl",
+      "record_type": "local_artifact",
+      "recorded_at_utc": "2026-08-20T18:08:11.305502+00:00",
+      "sha256": "7ae0ef073cd6cc560846bb5ad414c373d0101303158616d2c2399aa4b373926a",
+      "source_path": "evidence\\index\\history\\evidence_pre_v0.2.2_20260820T180811Z_7ae0ef073cd6.jsonl",
+      "source_url": null,
+      "stage": "evidence-migration:v0.2.2",
+      "storage_mode": "stable_reference"
+    },
+    "path": "evidence\\index\\history\\evidence_pre_v0.2.2_20260820T180811Z_7ae0ef073cd6.jsonl",
+    "sha256": "7ae0ef073cd6cc560846bb5ad414c373d0101303158616d2c2399aa4b373926a"
+  },
+  "reason": "v0.2.0/v0.2.1 indexed regenerated CSV/manifests at mutable working paths. A legitimate checkpoint rerun rewrote results/poss1_identity_preflight.csv, causing hash verification to flag the old path/hash pair.",
+  "removed_kinds": [
+    "applause_resolved_manifest",
+    "poss1_identity_preflight_csv",
+    "stage_results_csv"
+  ],
+  "removed_legacy_mutable_index_records": 4,
+  "removed_record_hashes": [
+    {
+      "kind": "stage_results_csv",
+      "line": 314,
+      "path": "results\\publication_regression.csv",
+      "sha256": "47cebd6b309b1fd342958690e909d22d23b473b7084c0269e87f15cc096a9dcc"
+    },
+    {
+      "kind": "stage_results_csv",
+      "line": 628,
+      "path": "results\\publication_regression_v021.csv",
+      "sha256": "a7ba1669827050b1cb94f7d3704e1f66c3f5a39e82037ea25a6c442f950bb8db"
+    },
+    {
+      "kind": "poss1_identity_preflight_csv",
+      "line": 645,
+      "path": "results\\poss1_identity_preflight.csv",
+      "sha256": "719506bd02af355902e0ad85b87e938a63df5690c1e4d944f91d6670fa14dddd"
+    },
+    {
+      "kind": "poss1_identity_preflight_csv",
+      "line": 646,
+      "path": "results\\poss1_identity_preflight.csv",
+      "sha256": "4a36a1562d344670a746776314732e0f67b967f8e75df12744005df74f965d1d"
+    }
+  ],
+  "scientific_algorithm_changed": false,
+  "scientific_results_changed": false
+}

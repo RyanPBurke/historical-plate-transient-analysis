@@ -1,0 +1,29 @@
+{
+  "classification": "catalogue_identified_pixels_unavailable",
+  "created_at_utc": "2026-08-20T23:30:58.225077+00:00",
+  "eligible_for_science": false,
+  "expected_region": "XO197",
+  "exposure_id": "POSS-I:449:O:rec198",
+  "interpretation": "The VI/25 physical exposure remains part of the frozen prospective denominator. No digital DSS pixels are currently available from the validated primary/fallback path, so this exposure is ineligible for detector execution and must not be counted as a scientific zero.",
+  "retain_in_prospective_denominator": true,
+  "science_analysis_performed": false,
+  "validated_evidence": {
+    "manifest": {
+      "path": "research\\POSS1_ARCHIVE_AVAILABILITY_EXCEPTION_v0.2.5_2026-08-21.json",
+      "sha256": "2bf81ec531e545f83bd0aa23f44f5c9bc63e0a8f524c94cde8aa46e64efb154f"
+    },
+    "skyview_probe": {
+      "descriptor_exact_region_matches": 0,
+      "path": "work\\poss_preflight\\xo197_exception_probe\\xo197_exception_probe.json",
+      "raw_hhh_http_status": 404,
+      "sha256": "d3e2a6239612e29c5c3ceb657a0c788a9dcc8a72225d924569f42f41da73296a"
+    },
+    "stsci_poss1_blue_probe": {
+      "http_status": 200,
+      "path": "work\\poss_preflight\\xo197_stsci_poss1_blue_probe\\stsci_poss1_blue_probe_report.json",
+      "service_message": "Calibration and image data not available for field data",
+      "sha256": "12050c565d9652466c26a8165d77dc612b1642669945fa7c72157443cc919857",
+      "survey": "poss1_blue"
+    }
+  }
+}

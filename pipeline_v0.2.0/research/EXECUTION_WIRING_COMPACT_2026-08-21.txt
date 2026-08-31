@@ -1,0 +1,538 @@
+v0.2.8 EXECUTION WIRING — COMPACT RECOVERY
+====================================================================================================
+
+Handoff: research\SUB5_V028_PIXEL_PROVENANCE_QUEUE_2026-08-21.csv
+Handoff SHA256: 02768021a252154b57393ffb5c39eff72c17be71a3bbaa84cb32010c5ee02573
+Rows: 74
+POSS-involving rows: 47
+
+HANDOFF COLUMNS
+----------------------------------------------------------------------------------------------------
+  1. canonical_order
+  2. pair_set
+  3. legacy_rank
+  4. pair_key
+  5. exposure_a
+  6. archive_a
+  7. site_a
+  8. start_a_utc
+  9. end_a_utc
+ 10. duration_a_s
+ 11. ra_a_deg
+ 12. dec_a_deg
+ 13. fov_a_deg
+ 14. exposure_b
+ 15. archive_b
+ 16. site_b
+ 17. start_b_utc
+ 18. end_b_utc
+ 19. duration_b_s
+ 20. ra_b_deg
+ 21. dec_b_deg
+ 22. fov_b_deg
+ 23. midpoint_delta_minutes
+ 24. actual_exposure_overlap_s
+ 25. actual_exposure_overlap_minutes
+ 26. overlap_fraction_a
+ 27. overlap_fraction_b
+ 28. center_separation_deg
+ 29. approx_overlap_fraction_smaller
+ 30. true_wcs_overlap_fraction
+ 31. true_wcs_intersection
+ 32. saved_status
+ 33. saved_notes
+ 34. id_integrity
+ 35. pre_freeze_touched
+ 36. pre_freeze_reason
+ 37. publication_cohort
+ 38. production_action
+ 39. overlap_start_utc
+ 40. overlap_end_utc
+ 41. recomputed_actual_exposure_overlap_s
+ 42. overlap_recomputed_matches_stored
+ 43. poss_exposure_id
+ 44. poss_identity_status
+ 45. poss_finder_region
+ 46. poss_pixel_provenance_disposition
+ 47. poss_pixel_next_action
+
+COORDINATE/TARGET FIELDS
+----------------------------------------------------------------------------------------------------
+legacy_rank: nonblank=47/47, numeric=47/47
+duration_a_s: nonblank=47/47, numeric=47/47
+ra_a_deg: nonblank=47/47, numeric=47/47
+dec_a_deg: nonblank=47/47, numeric=47/47
+duration_b_s: nonblank=47/47, numeric=47/47
+ra_b_deg: nonblank=47/47, numeric=47/47
+dec_b_deg: nonblank=47/47, numeric=47/47
+overlap_fraction_a: nonblank=47/47, numeric=47/47
+overlap_fraction_b: nonblank=47/47, numeric=47/47
+center_separation_deg: nonblank=47/47, numeric=47/47
+approx_overlap_fraction_smaller: nonblank=47/47, numeric=47/47
+true_wcs_overlap_fraction: nonblank=47/47, numeric=47/47
+
+RA-LIKE FIELDS
+----------------------------------------------------------------------------------------------------
+ra_a_deg
+ra_b_deg
+
+DEC-LIKE FIELDS
+----------------------------------------------------------------------------------------------------
+dec_a_deg
+dec_b_deg
+
+FIRST 8 POSS PAIR/TARGET ROWS
+----------------------------------------------------------------------------------------------------
+
+canonical_order: 1
+legacy_rank: 1.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437 | POSS-I:413:E:rec297
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43437
+exposure_b: POSS-I:413:E:rec297
+poss_exposure_id: POSS-I:413:E:rec297
+true_wcs_intersection: True
+overlap_start_utc: 1951-11-05T07:00:59.999999+00:00
+overlap_end_utc: 1951-11-05T07:58:59.999999+00:00
+recomputed_actual_exposure_overlap_s: 3480.000000000
+duration_a_s: 3480.0
+ra_a_deg: 56.99458284834484
+dec_a_deg: 21.91621452439747
+duration_b_s: 3600.0
+ra_b_deg: 28.07125
+dec_b_deg: 30.72
+overlap_fraction_a: 1.0
+overlap_fraction_b: 0.9666666666666668
+center_separation_deg: 27.28484845368943
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 2
+legacy_rank: 21.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ai44244 | POSS-I:985:E:rec726
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ai44244
+exposure_b: POSS-I:985:E:rec726
+poss_exposure_id: POSS-I:985:E:rec726
+true_wcs_intersection: True
+overlap_start_utc: 1954-02-25T06:14:00+00:00
+overlap_end_utc: 1954-02-25T06:54:00+00:00
+recomputed_actual_exposure_overlap_s: 2400.000000000
+duration_a_s: 3420.0
+ra_a_deg: 117.98923952178436
+dec_a_deg: 19.750863866158408
+duration_b_s: 2400.0
+ra_b_deg: 127.71291666666666
+dec_b_deg: -12.4875
+overlap_fraction_a: 0.7017543859649122
+overlap_fraction_b: 1.0
+center_separation_deg: 33.62962961545721
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 3
+legacy_rank: 47.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/fa12840 | POSS-I:533:O:rec187
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/fa12840
+exposure_b: POSS-I:533:O:rec187
+poss_exposure_id: POSS-I:533:O:rec187
+true_wcs_intersection: True
+overlap_start_utc: 1952-07-20T09:29:00+00:00
+overlap_end_utc: 1952-07-20T09:39:00+00:00
+recomputed_actual_exposure_overlap_s: 600.000000000
+duration_a_s: 3240.0
+ra_a_deg: 327.02633374851945
+dec_a_deg: 1.9243266945242503
+duration_b_s: 600.0
+ra_b_deg: 315.72041666666667
+dec_b_deg: 48.57305555555556
+overlap_fraction_a: 0.1851851851851851
+overlap_fraction_b: 1.0
+center_separation_deg: 47.65163781739508
+approx_overlap_fraction_smaller: 0.0839564094791725
+true_wcs_overlap_fraction: 0.2479
+
+canonical_order: 4
+legacy_rank: 23.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304 | POSS-I:1023:O:rec675
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304
+exposure_b: POSS-I:1023:O:rec675
+poss_exposure_id: POSS-I:1023:O:rec675
+true_wcs_intersection: True
+overlap_start_utc: 1954-04-02T07:27:00+00:00
+overlap_end_utc: 1954-04-02T07:39:00+00:00
+recomputed_actual_exposure_overlap_s: 720.000000000
+duration_a_s: 3600.0
+ra_a_deg: 159.57471173635415
+dec_a_deg: 20.49822649994841
+duration_b_s: 720.0
+ra_b_deg: 181.8583333333333
+dec_b_deg: -6.807222222222222
+overlap_fraction_a: 0.2
+overlap_fraction_b: 1.0
+center_separation_deg: 35.00384797186645
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 5
+legacy_rank: 2.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43330 | POSS-I:368:E:rec192
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ai43330
+exposure_b: POSS-I:368:E:rec192
+poss_exposure_id: POSS-I:368:E:rec192
+true_wcs_intersection: True
+overlap_start_utc: 1951-09-10T08:01:59.999982+00:00
+overlap_end_utc: 1951-09-10T08:59:59.999982+00:00
+recomputed_actual_exposure_overlap_s: 3480.000000000
+duration_a_s: 3480.0
+ra_a_deg: 16.25445115024166
+dec_a_deg: 19.60009884057209
+duration_b_s: 3600.0
+ra_b_deg: 358.81166666666667
+dec_b_deg: 48.80694444444444
+overlap_fraction_a: 1.0
+overlap_fraction_b: 0.9666666666666668
+center_separation_deg: 32.39934211951269
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 8
+legacy_rank: 4.0
+pair_key: POSS-I:320:E:rec463 | DASCH:ivo://org.gavo.dc/~?dasch/q/ka02524
+exposure_a: POSS-I:320:E:rec463
+exposure_b: DASCH:ivo://org.gavo.dc/~?dasch/q/ka02524
+poss_exposure_id: POSS-I:320:E:rec463
+true_wcs_intersection: True
+overlap_start_utc: 1951-08-13T09:08:00+00:00
+overlap_end_utc: 1951-08-13T09:58:00+00:00
+recomputed_actual_exposure_overlap_s: 3000.000000000
+duration_a_s: 3000.0
+ra_a_deg: 349.8070833333333
+dec_a_deg: 18.7925
+duration_b_s: 3660.0
+ra_b_deg: 349.99178290933213
+dec_b_deg: 35.73348701291052
+overlap_fraction_a: 1.0
+overlap_fraction_b: 0.819672131147541
+center_separation_deg: 16.9417721149699
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 9
+legacy_rank: 41.0
+pair_key: DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474 | POSS-I:305:E:rec637
+exposure_a: DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474
+exposure_b: POSS-I:305:E:rec637
+poss_exposure_id: POSS-I:305:E:rec637
+true_wcs_intersection: True
+overlap_start_utc: 1951-08-06T08:00:59.999998+00:00
+overlap_end_utc: 1951-08-06T08:29:59.999998+00:00
+recomputed_actual_exposure_overlap_s: 1740.000000000
+duration_a_s: 1740.0
+ra_a_deg: 327.8073380183154
+dec_a_deg: 35.959453681479324
+duration_b_s: 3000.0
+ra_b_deg: 313.8558333333333
+dec_b_deg: 0.5533333333333333
+overlap_fraction_a: 1.0
+overlap_fraction_b: 0.58
+center_separation_deg: 37.70324712623969
+approx_overlap_fraction_smaller: 0.9714837549923588
+true_wcs_overlap_fraction: 1.0
+
+canonical_order: 11
+legacy_rank: 15.0
+pair_key: POSS-I:779:E:rec404 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177
+exposure_a: POSS-I:779:E:rec404
+exposure_b: DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177
+poss_exposure_id: POSS-I:779:E:rec404
+true_wcs_intersection: True
+overlap_start_utc: 1953-08-11T10:11:00+00:00
+overlap_end_utc: 1953-08-11T10:56:00+00:00
+recomputed_actual_exposure_overlap_s: 2700.000000000
+duration_a_s: 2700.0
+ra_a_deg: 359.34666666666664
+dec_a_deg: 24.807222222222222
+duration_b_s: 3540.0
+ra_b_deg: 3.3834026138671334
+dec_b_deg: 0.9176081178112014
+overlap_fraction_a: 1.0
+overlap_fraction_b: 0.7627118644067796
+center_separation_deg: 24.206205660996822
+approx_overlap_fraction_smaller: 1.0
+true_wcs_overlap_fraction: 1.0
+
+RELEVANT runner.py FUNCTIONS
+----------------------------------------------------------------------------------------------------
+
+### _starglass_sidecar lines 51-83
+def _starglass_sidecar(
+    *,
+    cache_path: Path,
+    plate_id: str,
+    solution_number: int,
+    ra_deg: float,
+    dec_deg: float,
+    sha256: str,
+    cache_hit: bool,
+) -> Path:
+    sidecar = cache_path.with_suffix(".fits.provenance.json")
+    if not sidecar.exists():
+        record = {
+            "artifact_type": "starglass_dasch_cutout_fits",
+            "recorded_at_utc": utcnow(),
+            "source_url": STARGLASS_CUTOUT,
+            "request": {
+                "plate_id": plate_id,
+                "solution_number": solution_number,
+                "center_ra_deg": ra_deg,
+                "center_dec_deg": dec_deg,
+            },
+            "path": str(cache_path),
+            "sha256": sha256,
+            "bytes": cache_path.stat().st_size,
+            "cache_hit_when_sidecar_created": cache_hit,
+            "note": (
+                "If cache_hit_when_sidecar_created=true, the FITS predates this provenance sidecar; "
+                "the exact FITS content is still identified by SHA256 but original retrieval time is unknown."
+            ),
+        }
+        atomic_write_text(sidecar, json.dumps(record, indent=2, sort_keys=True) + "\n")
+    return sidecar
+
+### starglass_worker lines 86-154
+def starglass_worker(
+    method: FrozenMethod,
+    plate_id: str,
+    solution_number: int = 0,
+    session: ValidatedSession | None = None,
+    cache_dir: str | Path = "cache/starglass",
+    *,
+    evidence: EvidenceStore | None = None,
+    stage: str | None = None,
+):
+    session = session or ValidatedSession()
+    cache_dir = Path(cache_dir)
+    stage = stage or f"starglass:{plate_id}:solution{solution_number}"
+
+    def worker(job: Job):
+        ra = float(job.payload["ra_deg"])
+        dec = float(job.payload["dec_deg"])
+        safe_key = "".join(ch if ch.isalnum() or ch in "-_." else "_" for ch in job.job_key)
+        cache_path = cache_dir / plate_id / f"{safe_key}.fits"
+        cache_hit = False
+        if cache_path.exists():
+            raw = cache_path.read_bytes()
+            if raw.startswith(b"SIMPLE"):
+                cache_hit = True
+            else:
+                cache_path.unlink()
+                raw = starglass_cutout_fits_bytes(session, plate_id, ra, dec, solution_number)
+                _atomic_write(cache_path, raw)
+        else:
+            raw = starglass_cutout_fits_bytes(session, plate_id, ra, dec, solution_number)
+            _atomic_write(cache_path, raw)
+
+        cutout_hash = hashlib.sha256(raw).hexdigest()
+        sidecar = _starglass_sidecar(
+            cache_path=cache_path,
+            plate_id=plate_id,
+            solution_number=solution_number,
+            ra_deg=ra,
+            dec_deg=dec,
+            sha256=cutout_hash,
+            cache_hit=cache_hit,
+        )
+        if evidence:
+            evidence.record_artifact(
+                path=cache_path,
+                kind="starglass_dasch_cutout_fits",
+                stage=stage,
+                job_key=job.job_key,
+                source_url=STARGLASS_CUTOUT,
+                metadata={
+                    "plate_id": plate_id,
+                    "solution_number": solution_number,
+                    "center_ra_deg": ra,
+                    "center_dec_deg": dec,
+                    "provenance_sidecar": str(sidecar),
+                },
+            )
+
+        summary = analyze_fits_bytes(raw, ra, dec, method).to_dict()
+        summary["strict_match"] = summary["nearest_peak_sep_arcsec"] <= method.strict_registered_match_arcsec
+        summary["plate_id"] = plate_id
+        summary["cutout_sha256"] = cutout_hash
+        summary["cutout_cache_path"] = str(cache_path)
+        summary["cutout_cache_hit"] = cache_hit
+        summary["cutout_bytes"] = len(raw)
+        summary["cutout_provenance_sidecar"] = str(sidecar)
+        return summary
+
+    return worker
+
+RELEVANT cli.py STARGLASS CONTEXT
+----------------------------------------------------------------------------------------------------
+    6: from pathlib import Path
+    7: import sys
+    8: 
+    9: from .archives import applause_adql
+   10: from .checkpoint import CheckpointDB
+   11: from .config import FrozenMethod
+   12: from .runner import run_stage, starglass_worker
+   13: from .regression import compare_results
+   14: from .catalogue_workers import applause_resolve_ids, hamburg_recurrence_worker, gps1_worker
+   15: from .http import ValidatedSession
+   16: from .provenance import (
+   17:     EvidenceStore,
+   18:     ExchangeContext,
+   19:     atomic_write_text,
+   20:     code_fingerprint,
+   21:     file_record,
+   22:     publication_snapshot,
+   23:     sha256_file,
+   24:     utcnow,
+   25: )
+   26: from .tables import parse_votable_tabledata
+   27: from .poss1 import load_vi25_records, poss1_identity_worker, queue_poss_jobs
+   28: 
+   29: 
+   30: def project_root() -> Path:
+  136:         "--evidence-dir",
+  137:         default="evidence",
+  138:         help="publication evidence root; use empty string to disable raw-response/artifact indexing",
+  139:     )
+  140:     sub = ap.add_subparsers(dest="cmd", required=True)
+  141: 
+  142:     p = sub.add_parser("starglass", help="resume frozen-detector Harvard cutout jobs")
+  143:     p.add_argument("--manifest", required=True)
+  144:     p.add_argument("--plate", required=True)
+  145:     p.add_argument("--solution", type=int, default=0)
+  146:     p.add_argument("--max-jobs", type=int)
+  147:     p.add_argument("--export", default="results/starglass_results.csv")
+  148:     p.add_argument("--cache-dir", default="cache/starglass")
+  149: 
+  150:     p = sub.add_parser("status")
+  151:     p.add_argument("--stage")
+  152: 
+  153:     p = sub.add_parser("recover", help="mark interrupted running jobs pending")
+  154:     p.add_argument("--stage")
+  155: 
+  156:     p = sub.add_parser("verify-regressions", help="compare completed detector CSV with frozen known cases")
+  157:     p.add_argument("--expected", default="examples/regression_cases.csv")
+  158:     p.add_argument("--results", required=True)
+  159: 
+  160:     p = sub.add_parser("resolve-applause", help="resolve source IDs to process coordinates")
+  161:     p.add_argument("--ids", required=True, help="CSV with source_id column")
+  162:     p.add_argument("--out", required=True)
+  163:     p.add_argument("--process", type=int, default=9548)
+  164:     p.add_argument("--solution", type=int, default=0)
+  165: 
+  166:     p = sub.add_parser("hamburg", help="resume independent Hamburg recurrence checks")
+  199:     p.add_argument("--snapshot", action="store_true", help="copy exact current bytes into content-addressed immutable evidence storage")
+  200: 
+  201:     p = sub.add_parser("applause-scan-info", help="resolve APPLAUSE process to native scan metadata and stable plate links")
+  202:     p.add_argument("--process", required=True, type=int)
+  203:     p.add_argument("--out")
+  204: 
+  205:     p = sub.add_parser("index-starglass-cache", help="index legacy cached StarGlass FITS without re-downloading")
+  206:     p.add_argument("--root", default="cache/verified_starglass")
+  207: 
+  208:     p = sub.add_parser("poss1-preflight", help="resolve/force exact POSS-I physical plates for a frozen queue; no transient detection")
+  209:     p.add_argument("--queue", required=True)
+  210:     p.add_argument("--vi25", default="research/poss1_plate_metadata.csv")
+  211:     p.add_argument("--cohort", default="prospective_production")
+  212:     p.add_argument("--cache-dir", default="cache/poss1_identity")
+  213:     p.add_argument("--max-jobs", type=int)
+  214:     p.add_argument("--export", default="results/poss1_identity_preflight.csv")
+  215: 
+  216:     args = ap.parse_args(argv)
+  217:     evidence = EvidenceStore(args.evidence_dir or None)
+  218: 
+  219:     if args.cmd == "publication-snapshot":
+  220:         manifest = publication_snapshot(
+  221:             project_root=root,
+  222:             output_dir=args.out,
+  223:             protocol=args.protocol,
+  224:             queue=args.queue,
+  270:             metadata=metadata,
+  271:             snapshot=args.snapshot,
+  272:         )
+  273:         print(json.dumps(rec, indent=2, sort_keys=True))
+  274:         return
+  275: 
+  276:     if args.cmd == "index-starglass-cache":
+  277:         cache_root = Path(args.root)
+  278:         files = sorted(cache_root.rglob("*.fits")) if cache_root.exists() else []
+  279:         for fp in files:
+  280:             plate_id = fp.parent.name
+  281:             evidence.record_artifact(
+  282:                 path=fp,
+  283:                 kind="starglass_dasch_cutout_fits",
+  284:                 stage="legacy_cache_import",
+  285:                 job_key=fp.stem,
+  286:                 source_url="https://api.starglass.cfa.harvard.edu/public/dasch/dr7/cutout",
+  287:                 metadata={
+  288:                     "plate_id": plate_id,
+  289:                     "legacy_import": True,
+  290:                     "original_retrieval_time": None,
+  291:                     "note": "Exact preserved FITS indexed after retrieval; original retrieval timestamp was not recorded by v0.1.",
+  292:                 },
+  293:             )
+  294:         print(json.dumps({"indexed_fits": len(files), "root": str(cache_root)}, indent=2))
+  295:         return
+  296: 
+  297:     if args.cmd == "poss1-preflight":
+  298:         queue = Path(args.queue)
+  299:         vi25 = Path(args.vi25)
+  300:         config_path = Path(args.config)
+  301:         prov = {
+  302:             "queue_path": str(queue),
+  303:             "queue_sha256": sha256_file(queue),
+  304:             "vi25_path": str(vi25),
+  431:         if evidence.enabled:
+  432:             evidence.record_artifact(path=args.export, kind="stage_results_csv", stage=stage, metadata=prov, snapshot=True)
+  433:         db.finish_stage_run(run_id, summary)
+  434:         print(json.dumps(summary, indent=2, sort_keys=True))
+  435:         return
+  436: 
+  437:     stage = f"starglass:{args.plate}:solution{args.solution}"
+  438:     run_id = db.begin_stage_run(stage, invocation, prov)
+  439:     added = db.add_jobs(stage, load_manifest(manifest, prov))
+  440:     print(f"added {added} new jobs; existing completed jobs are preserved")
+  441:     summary = run_stage(
+  442:         db,
+  443:         stage,
+  444:         starglass_worker(
+  445:             method,
+  446:             args.plate,
+  447:             args.solution,
+  448:             cache_dir=args.cache_dir,
+  449:             evidence=evidence,
+  450:             stage=stage,
+  451:         ),
+  452:         args.max_jobs,
+  453:     )
+  454:     db.export_results(stage, args.export)
+  455:     if evidence.enabled:
+  456:         evidence.record_artifact(path=args.export, kind="stage_results_csv", stage=stage, metadata=prov, snapshot=True)
+  457:     db.finish_stage_run(run_id, summary)
+  458:     print(json.dumps(summary, indent=2, sort_keys=True))
+  459: 
+  460: 
+  461: if __name__ == "__main__":
+  462:     main()
+
+EXISTING MANIFEST-LIKE CSV HEADERS
+----------------------------------------------------------------------------------------------------
+
+examples/starglass_manifest.csv
+source_id,ra_deg,dec_deg,strip
+
+research/POSS1_V028_PIXEL_FITS_INVENTORY_2026-08-21.csv
+artifact_path,origin_class,bytes,sha256,linked_exposure_ids,link_reasons,category,recommended_action,header_REGION,header_PLTLABEL,header_PLATEID,header_DATE_OBS,header_OBJECT,header_CRVAL1,header_CRVAL2,header_error
+
+research/SUB5_V028_PIXEL_PROVENANCE_QUEUE_2026-08-21.csv
+canonical_order,pair_set,legacy_rank,pair_key,exposure_a,archive_a,site_a,start_a_utc,end_a_utc,duration_a_s,ra_a_deg,dec_a_deg,fov_a_deg,exposure_b,archive_b,site_b,start_b_utc,end_b_utc,duration_b_s,ra_b_deg,dec_b_deg,fov_b_deg,midpoint_delta_minutes,actual_exposure_overlap_s,actual_exposure_overlap_minutes,overlap_fraction_a,overlap_fraction_b,center_separation_deg,approx_overlap_fraction_smaller,true_wcs_overlap_fraction,true_wcs_intersection,saved_status,saved_notes,id_integrity,pre_freeze_touched,pre_freeze_reason,publication_cohort,production_action,overlap_start_utc,overlap_end_utc,recomputed_actual_exposure_overlap_s,overlap_recomputed_matches_stored,poss_exposure_id,poss_identity_status,poss_finder_region,poss_pixel_provenance_disposition,poss_pixel_next_action
+
+NO ARCHIVE REQUEST WAS MADE.
+NO HISTORICAL PIXEL WAS ANALYSED.
+NO DETECTOR JOB WAS EXECUTED.

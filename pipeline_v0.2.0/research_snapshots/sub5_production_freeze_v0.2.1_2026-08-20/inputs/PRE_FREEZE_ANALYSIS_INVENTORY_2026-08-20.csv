@@ -1,0 +1,38 @@
+canonical_order,pair_key,pair_set,legacy_rank,pre_freeze_touched,reason,saved_status_at_queue_freeze
+4,DASCH:ivo://org.gavo.dc/~?dasch/q/ai44304 | POSS-I:1023:O:rec675,POSS47,23,True,exploratory complete 9/9 previously,
+6,DASCH:ivo://org.gavo.dc/~?dasch/q/fa13400 | APPLAUSE:115011,nonPOSS27,,True,pre-existing queue status=negative_nine_tile_sample,negative_nine_tile_sample
+7,APPLAUSE:13623 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05607,nonPOSS27,,True,"pre-existing queue status=parked_pixel_followup | APPLAUSE 13623 ↔ DASCH bi05607 fully provenance-revalidated 2026-08-20; 311 Harvard tests, zero <=3 arcsec",parked_pixel_followup
+9,DASCH:ivo://org.gavo.dc/~?dasch/q/ka02474 | POSS-I:305:E:rec637,POSS47,41,True,exploratory partial,
+10,APPLAUSE:12414 | APPLAUSE:139005,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+11,POSS-I:779:E:rec404 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13177,POSS47,15,True,exploratory partial; identity/WCS correction work,
+14,APPLAUSE:13387 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+15,APPLAUSE:139012 | APPLAUSE:12569,nonPOSS27,,True,pre-existing queue status=negative_calibrated_catalogue,negative_calibrated_catalogue
+16,DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405 | APPLAUSE:115048,nonPOSS27,,True,pre-existing queue status=negative_nine_tile_sample,negative_nine_tile_sample
+21,DASCH:ivo://org.gavo.dc/~?dasch/q/ai44306 | POSS-I:1023:O:rec799,POSS47,25,True,exploratory result invalidated; clean rec799 rerun required,
+23,DASCH:ivo://org.gavo.dc/~?dasch/q/ai43235 | POSS-I:297:O:rec635,POSS47,46,True,exploratory partial,
+25,APPLAUSE:12422 | APPLAUSE:139006,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+26,APPLAUSE:12563 | APPLAUSE:139010,nonPOSS27,,True,pre-existing queue status=negative_calibrated_catalogue,negative_calibrated_catalogue
+27,DASCH:ivo://org.gavo.dc/~?dasch/q/ai44291 | POSS-I:1009:O:rec785,POSS47,40,True,exploratory partial,
+30,APPLAUSE:139011 | APPLAUSE:12566,nonPOSS27,,True,pre-existing queue status=negative_calibrated_catalogue,negative_calibrated_catalogue
+31,DASCH:ivo://org.gavo.dc/~?dasch/q/fa13406 | APPLAUSE:115054,nonPOSS27,,True,pre-existing queue status=negative_catalogue_pixel_pending,negative_catalogue_pixel_pending
+32,DASCH:ivo://org.gavo.dc/~?dasch/q/b75958 | APPLAUSE:13390,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+33,DASCH:ivo://org.gavo.dc/~?dasch/q/b76371 | APPLAUSE:132097,nonPOSS27,,True,pre-existing queue status=parked_pixel_followup,parked_pixel_followup
+34,APPLAUSE:12404 | APPLAUSE:139004,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+37,APPLAUSE:139004 | APPLAUSE:12405,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+40,APPLAUSE:13389 | DASCH:ivo://org.gavo.dc/~?dasch/q/b75958,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+41,APPLAUSE:12565 | APPLAUSE:139011,nonPOSS27,,True,pre-existing queue status=negative_calibrated_catalogue,negative_calibrated_catalogue
+42,DASCH:ivo://org.gavo.dc/~?dasch/q/bi05459 | APPLAUSE:12469,nonPOSS27,,True,pre-existing queue status=negative_partial_overlap_catalogue_pixel_pending,negative_partial_overlap_catalogue_pixel_pending
+43,APPLAUSE:132099 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+44,APPLAUSE:132098 | DASCH:ivo://org.gavo.dc/~?dasch/q/bi05640,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+53,APPLAUSE:139006 | APPLAUSE:12423,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+55,DASCH:ivo://org.gavo.dc/~?dasch/q/fa12998 | POSS-I:606:E:rec348,POSS47,3,True,exploratory complete 9/9 previously,
+57,POSS-I:988:O:rec207 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai44246,POSS47,30,True,exploratory source recovery; pixel access unresolved,
+58,APPLAUSE:12568 | APPLAUSE:139012,nonPOSS27,,True,pre-existing queue status=negative_calibrated_catalogue,negative_calibrated_catalogue
+59,DASCH:ivo://org.gavo.dc/~?dasch/q/bi05485 | APPLAUSE:13388,nonPOSS27,,True,pre-existing queue status=rejected_spatial_false_positive,rejected_spatial_false_positive
+62,POSS-I:306:E:rec703 | DASCH:ivo://org.gavo.dc/~?dasch/q/ai43241,POSS47,12,True,exploratory complete 9/9 previously,
+63,APPLAUSE:131892 | DASCH:ivo://org.gavo.dc/~?dasch/q/ax04674,nonPOSS27,,True,pre-existing queue status=parked_pixel_followup,parked_pixel_followup
+64,APPLAUSE:139005 | APPLAUSE:12415,nonPOSS27,,True,pre-existing queue status=parked_manual_astrometric_solve,parked_manual_astrometric_solve
+68,DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11788,nonPOSS27,,True,pre-existing queue status=negative_catalogue_pixel_pending,negative_catalogue_pixel_pending
+69,DASCH:ivo://org.gavo.dc/~?dasch/q/bi05352 | APPLAUSE:11787,nonPOSS27,,True,pre-existing queue status=negative_catalogue_pixel_pending,negative_catalogue_pixel_pending
+70,APPLAUSE:115047 | DASCH:ivo://org.gavo.dc/~?dasch/q/fa13405,nonPOSS27,,True,pre-existing queue status=negative_nine_tile_sample,negative_nine_tile_sample
+74,DASCH:ivo://org.gavo.dc/~?dasch/q/ka02504 | POSS-I:318:E:rec524,POSS47,13,True,exploratory complete 9/9 previously,

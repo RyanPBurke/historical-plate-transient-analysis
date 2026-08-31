@@ -1,0 +1,49 @@
+{
+  "all_remote_full_file_upper_bound_bytes": 21585839040,
+  "analysis_kind": "wide_census_heavy_preflight_v054",
+  "applause_endpoint_count": 39,
+  "applause_file_resolution": "Use applause_dr4.scan.filename_scan as the repository-relative DR4 scan path and resolve https://www.plate-archive.org/files/<filename_scan>. Validate with a bounded first-2880-byte FITS header Range probe; no science pixel bytes are read during preflight.",
+  "applause_full_file_upper_bound_bytes": 14763597120,
+  "applause_http_range_confirmed_endpoints": 39,
+  "applause_http_range_unknown_endpoints": 0,
+  "capacity_pass": false,
+  "core_px": 1024,
+  "dasch_endpoint_count": 14,
+  "dasch_full_file_upper_bound_bytes": 6822241920,
+  "endpoint_count": 53,
+  "endpoint_plan_csv": "results/wide_census_detector_endpoint_plan_v054.csv",
+  "estimated_local_tile_bytes_conservative": 31367068852,
+  "free_disk_bytes": 69649477632,
+  "guards": {
+    "candidate_state_mutation": false,
+    "network_access": true,
+    "non_science_pixels_read": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "halo_px": 64,
+  "input_sha256": {
+    "candidate_policy": "3fc40ebab3b9e3c6e846d39f0c71abefb84a2994dde0a7692707aa9e9154dca7",
+    "detector": "709da8d7a7972b15808d70a1e4dbffa0fd0fee864a81d954f74fe4a5f5af25e7",
+    "detector_plan_v053": "36a426e4c2ab6415a1920082764824354752ff4b4bc43fe2923c5bdf8d3b9af5",
+    "detector_queue_v053": "4914b3d9902d06de8a469ffa9be0422dc6cd04f76de43496aedfc68b1c57c6dc",
+    "footprint_v052": "1c4872cd13db125474451c0564921c18940fa1e497c660b70e804fb1315b1f04",
+    "method": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1",
+    "native_tile_policy": "44fc3453c3291a7cbe72894d781729a30943ad540aa169b2c0897b446c5c8ec7"
+  },
+  "interpretation_boundary": "This stage freezes acquisition identities, WCS choices and tile workload before heavy detector execution. It reads metadata only. The 41 v052 geometry holds remain a separate unresolved census branch and are not converted into negatives.",
+  "next_stage": "If capacity_pass is true, execute the resumable frozen detector over the v054 endpoint tile plan, then pairwise common-polygon crossmatch.",
+  "opportunity_count": 33,
+  "pair_plan_json": "results/wide_census_detector_pair_plan_v054.json",
+  "selection_policy": {
+    "applause_scan_solution": "Before detector pixels, choose the v052 candidate with minimum exposure-center separation, then scan_id, solution_num, solution_id.",
+    "applause_wcs": "Query applause_dr4.solution by the exact v052-frozen solution_id; cross-check scan/process/solution_num/plate/archive identity, then use that row's adopted header_wcs. If alternate WCS keys are present inside the FITS header, choose the key whose image center is nearest the already-frozen v052 polygon center.",
+    "dasch_wcs": "Use the canonical v052 WCS candidate for the selected logbook exposure.",
+    "pair_mask": "Detector peaks are later retained for a pair only inside that pair's exact common polygon.",
+    "tile_grid": "1024-pixel zero-anchored cores with 64-pixel halo, matching frozen native policy."
+  },
+  "status": "COMPLETE",
+  "streaming_working_free_space_floor_bytes": 81048540610,
+  "tile_plan_csv": "results/wide_census_detector_tile_plan_v054.csv",
+  "unique_tile_count": 6293
+}

@@ -1,0 +1,45 @@
+SKYVIEW NATIVE DSS API INSPECTION
+========================================================================
+java_returncode: 0
+java_version:
+  openjdk version "21.0.12" 2026-07-21 LTS
+  OpenJDK Runtime Environment Microsoft-14653896 (build 21.0.12+8-LTS)
+  OpenJDK 64-Bit Server VM Microsoft-14653896 (build 21.0.12+8-LTS, mixed mode, sharing)
+
+skyview_jar: C:\Dev\Transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0\tools\vendor\skyview.jar
+skyview_jar_sha256: 2b949f68d73899cd63b2f600f60f6c5dfd1795532ed29b6ea986f71f83d36afe
+jar_downloaded_this_run: True
+
+Extracted source:
+  skyview/geometry/distorter/DSS.java -> C:\Dev\Transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0\work\skyview_native_dss_source_v028\DSS.java
+  skyview/survey/DSSImage.java -> C:\Dev\Transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0\work\skyview_native_dss_source_v028\DSSImage.java
+  skyview/survey/DSSImageFactory.java -> C:\Dev\Transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0\work\skyview_native_dss_source_v028\DSSImageFactory.java
+  skyview/survey/HDecompressor.java -> C:\Dev\Transients\historical_transient_laptop_pipeline_v0.2.0_publication\transient_laptop_pipeline_v0.2.0\work\skyview_native_dss_source_v028\HDecompressor.java
+
+Relevant source lines:
+
+[DSSImage.java]
+   19: public class DSSImage extends Image {
+   72: public double  getData(long npix) {
+   97: dssData[tile] = HDecompressor.decompress(new java.net.URL(file).openStream());
+   99: dssData[tile] = HDecompressor.decompress(new java.io.FileInputStream(file));
+  108: Settings.put("_warning", warning+"HDecompress decompression error for tile:"+tileName);
+  139: public double[] getDataArray() {
+
+[DSSImageFactory.java]
+    7: public class DSSImageFactory implements ImageFactory {
+   25: return new DSSImage(file);
+
+[HDecompressor.java]
+    7: * HDecompressor. Uncompress astronomical images compressed
+   13: *          byte [] pixels=Hdecomp.decomp( (InputStream)dis );
+   19: *          Hdecomp         hd  = new Hdecomp(dis);
+   20: *          hd.decomp();
+   22: *          int   nx            =  hd.getNx();
+   23: *          int   ny            =  hd.getNy();
+   33: public class HDecompressor {
+   89: public HDecompressor() {
+   95: public HDecompressor(InputStream dis) {
+  123: HDecompressor hd = new HDecompressor(fdis);
+  148: public int getNx() {
+  155: public int getNy() {

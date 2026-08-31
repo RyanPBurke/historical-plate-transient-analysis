@@ -1,0 +1,102 @@
+{
+  "code_fingerprint_sha256": "e3baae0b7f1cc553dc3927d45c53336cb5eb752f8b4affa72aeffcb84537e705",
+  "code_manifest_sha256": "a95fe60da135bcb3401ce5bbd4cf4dfaf2fcaec1ae6f499bbcb788dedd37f8cc",
+  "created_at_utc": "2026-08-20T18:08:28.318790+00:00",
+  "environment_sha256": "d2c4e2e629caf43f789fcc820e0fc198e6e940f476aa5f330732b17e21ae5b8e",
+  "git": {
+    "available": false,
+    "commit": null,
+    "dirty": null,
+    "status_porcelain": []
+  },
+  "inputs": [
+    {
+      "bytes": 11222,
+      "logical_role": "protocol",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\PROTOCOL_v1.0_PRE_REMAINING_SUB5_2026-08-20.md",
+      "sha256": "9479666b93df3f7dc85b3f61861c93ea70fe50be47c1070e6ce7ec444c66a700"
+    },
+    {
+      "bytes": 49892,
+      "logical_role": "queue",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\production_sub5_queue_2026-08-20.csv",
+      "sha256": "b044684fef65437a352edd28eafd21d668640bbec50cd0bc95f92e3529d0d77c"
+    },
+    {
+      "bytes": 304,
+      "logical_role": "frozen_method",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\frozen_method.json",
+      "sha256": "2cb3cabd573d7af99399899f2ccecd3002be90297e55bb0e0dcdd9dea1d0c4c1"
+    },
+    {
+      "bytes": 43286,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\canonical_sub5_pairs_74.csv",
+      "sha256": "58529e1d4de46f3c49865a89454d1cd488ee23ec920b01250006f2180d2ed99a"
+    },
+    {
+      "bytes": 5588,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\PRE_FREEZE_ANALYSIS_INVENTORY_2026-08-20.csv",
+      "sha256": "c3a4816b66eca61c2bf657a1ffa947061b2bd0eb7cf67eb4b1a54b894d2fbee2"
+    },
+    {
+      "bytes": 1343,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\CURRENT_STATE_PRE_FREEZE_2026-08-18.json",
+      "sha256": "2bd5df0896076fdeb7cb2c35200f932fde5cc214362e85376735f912795d2ee9"
+    },
+    {
+      "bytes": 1885,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\LEGACY_EVIDENCE_GAPS_AT_FREEZE_2026-08-20.md",
+      "sha256": "b495da8972a063ebe1dc057302a09bbcddbf69b84076d5b2ed4d4b7ada36fe98"
+    },
+    {
+      "bytes": 1520,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\PAIR13623_BI05607_REVALIDATED_CLOSURE_2026-08-20.md",
+      "sha256": "110353e55690856790fd1ccd9e20bb443df927f32e99df5466a380e5aaa8d467"
+    },
+    {
+      "bytes": 702,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\superseded_results.csv",
+      "sha256": "4fdad3c21928ef78f2b6f317d4841be5885094ca2932577e50f42f821c1388d9"
+    },
+    {
+      "bytes": 1408,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\EVIDENCE_POLICY.md",
+      "sha256": "58499c6dc2a897407ba78eacd26ba93b4b5b303cc42754017a8fa246e1604fa2"
+    },
+    {
+      "bytes": 1979,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\DATA_DICTIONARY.md",
+      "sha256": "a9a6ce11b3c24908ec2c61b5deebab04db8c9383fb92f564b1feaf6e4145314f"
+    },
+    {
+      "bytes": 234911,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\poss1_plate_metadata.csv",
+      "sha256": "41b5732086f5a1d17e6f6d85c99f97a48a0985f19db1ad496cd3e3a2387830c1"
+    },
+    {
+      "bytes": 1685,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\POSS1_TIMESTAMP_AND_IDENTITY_NOTE_2026-08-20.md",
+      "sha256": "1a19a2982722ed46b8f52712538379a62a79128a8d1c9c991a6f184996350d8a"
+    },
+    {
+      "bytes": 3977,
+      "logical_role": "extra_input",
+      "path": "research_snapshots\\sub5_production_freeze_v0.2.2_2026-08-20\\inputs\\EVIDENCE_INDEX_MIGRATION_v0.2.2_2026-08-20.json",
+      "sha256": "74f532f8aa326ae1e212ed12c2cd3d0649730641f98adf7fa516aca1a0abf272"
+    }
+  ],
+  "pip_freeze_sha256": "937d22e379745e8e99eb7c15792fce5adeb696821e08a530d356abc90fe5b6f8",
+  "project_root_at_capture": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0",
+  "snapshot_format": 1,
+  "snapshot_id": "0ac38b8e18eac0f9d471b4f364cf19e41c24fa83e8f66db601401450dbde2a9f"
+}

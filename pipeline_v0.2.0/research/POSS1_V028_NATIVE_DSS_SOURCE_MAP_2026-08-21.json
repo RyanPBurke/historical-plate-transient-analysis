@@ -1,0 +1,40 @@
+{
+  "api_report": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research\\SKYVIEW_NATIVE_DSS_API_INSPECTION_2026-08-21.txt",
+  "detector_environment_report": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research\\DETECTOR_ENVIRONMENT_V028_2026-08-21.json",
+  "detector_run": false,
+  "extracted_java_sources": [
+    {
+      "bytes": 9423,
+      "jar_entry": "skyview/geometry/distorter/DSS.java",
+      "output": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\skyview_native_dss_source_v028\\DSS.java",
+      "sha256": "02eede2a3765e94bccdc6547309c6e6e56c785539df598d4a24826e3c0038d92"
+    },
+    {
+      "bytes": 6132,
+      "jar_entry": "skyview/survey/DSSImage.java",
+      "output": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\skyview_native_dss_source_v028\\DSSImage.java",
+      "sha256": "284d7ce7fb2672629d9d137ab4893d133ed6c35892d8fb97461379c73fdf9789"
+    },
+    {
+      "bytes": 818,
+      "jar_entry": "skyview/survey/DSSImageFactory.java",
+      "output": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\skyview_native_dss_source_v028\\DSSImageFactory.java",
+      "sha256": "69d380eda1bc660bd8948dc9e1ffd7b2efe25a767e40037afe3bd664404240f4"
+    },
+    {
+      "bytes": 28068,
+      "jar_entry": "skyview/survey/HDecompressor.java",
+      "output": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\skyview_native_dss_source_v028\\HDecompressor.java",
+      "sha256": "c55c9bd66480342e6ae7c2aed40c69e228c704264329473bb2bb58a9c5c45e17"
+    }
+  ],
+  "jar_downloaded_this_run": true,
+  "java_returncode": 0,
+  "java_version_output": "openjdk version \"21.0.12\" 2026-07-21 LTS\nOpenJDK Runtime Environment Microsoft-14653896 (build 21.0.12+8-LTS)\nOpenJDK 64-Bit Server VM Microsoft-14653896 (build 21.0.12+8-LTS, mixed mode, sharing)",
+  "native_dss_exposures": 10,
+  "recorded_at_utc": "2026-08-21T19:36:55.247958+00:00",
+  "science_pixels_processed": false,
+  "skyview_jar": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\tools\\vendor\\skyview.jar",
+  "skyview_jar_sha256": "2b949f68d73899cd63b2f600f60f6c5dfd1795532ed29b6ea986f71f83d36afe",
+  "source_map_sha256": "e4b07846ded7e7311ab5de884ba610968df2f8020d60edbc3ca2b48851da7a09"
+}
