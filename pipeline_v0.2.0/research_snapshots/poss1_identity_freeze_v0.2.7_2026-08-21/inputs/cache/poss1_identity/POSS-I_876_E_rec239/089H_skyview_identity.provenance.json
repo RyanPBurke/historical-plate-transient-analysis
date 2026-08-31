@@ -1,0 +1,166 @@
+{
+  "artifact_type": "poss1_skyview_raw_identity",
+  "control_basis": {
+    "control_jar_sha256": "2b949f68d73899cd63b2f600f60f6c5dfd1795532ed29b6ea986f71f83d36afe",
+    "descriptor_hhh_center_policy": "diagnostic_only_v0.2.7",
+    "descriptor_hhh_verified_control_max_sep_arcsec": 357.68,
+    "emulsions": [
+      "POSS-I E",
+      "POSS-I O"
+    ],
+    "strict_pixel_equivalence_controls": "5/5"
+  },
+  "descriptor_exchange": {
+    "attempt": 7,
+    "job_key": "POSS-I:876:E:rec239",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-21T14:36:12.191093+00:00",
+    "request": {
+      "method": "GET",
+      "payload": null,
+      "query": null,
+      "url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1r.xml.gz"
+    },
+    "response": {
+      "bytes": 63831,
+      "content_type": "application/xml",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "16660",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 21 Aug 2026 14:36:11 GMT",
+        "ETag": "\"223fe368-4114-65867214045c0\"",
+        "Keep-Alive": "timeout=15, max=100",
+        "Last-Modified": "Thu, 06 Aug 2026 20:57:03 GMT",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Frame-Options": "sameorigin"
+      },
+      "path": "evidence\\raw\\skyview_dss1_descriptor\\89\\891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798.xml",
+      "sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798"
+    },
+    "service": "skyview_dss1_descriptor",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "exposure_id": "POSS-I:876:E:rec239",
+  "hhh_exchange": {
+    "attempt": 7,
+    "job_key": "POSS-I:876:E:rec239",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-21T14:36:12.807951+00:00",
+    "request": {
+      "method": "GET",
+      "payload": null,
+      "query": null,
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238/xe238.hhh"
+    },
+    "response": {
+      "bytes": 54720,
+      "content_type": "text/plain; charset=ISO-8859-1",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Length": "54720",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Content-Type": "text/plain; charset=ISO-8859-1",
+        "Date": "Fri, 21 Aug 2026 14:36:11 GMT",
+        "ETag": "\"4ec93b1-d5c0-445e69a568a40\"",
+        "Keep-Alive": "timeout=15, max=99",
+        "Last-Modified": "Mon, 11 Feb 2008 19:04:01 GMT",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Frame-Options": "sameorigin"
+      },
+      "path": "evidence\\raw\\skyview_dss_raw_hhh\\b0\\b063fff81719c1f00d8d831383134fb7d996e59b8edd3dc26789509b2c505d9d.hhh",
+      "sha256": "b063fff81719c1f00d8d831383134fb7d996e59b8edd3dc26789509b2c505d9d"
+    },
+    "service": "skyview_dss_raw_hhh",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "identity_source": "skyview_raw_fallback",
+  "primary_archive_failure": "stsci_platefinder_retryable: HTTPSConnectionPool(host='archive.stsci.edu', port=443): Max retries exceeded with url: /cgi-bin/dss_plate_finder (Caused by ConnectTimeoutError(<HTTPSConnection(host='archive.stsci.edu', port=443) at 0x1a6e1c637d0>, 'Connection to archive.stsci.edu timed out. (connect timeout=20.0)'))",
+  "probe_exchange": {
+    "attempt": 7,
+    "job_key": "POSS-I:876:E:rec239",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-21T14:36:13.326163+00:00",
+    "request": {
+      "method": "GET",
+      "payload": null,
+      "query": null,
+      "url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238/xe238.00"
+    },
+    "response": {
+      "bytes": 64512,
+      "content_type": "text/plain; charset=ISO-8859-1",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Length": "64512",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Content-Type": "text/plain; charset=ISO-8859-1",
+        "Date": "Fri, 21 Aug 2026 14:36:12 GMT",
+        "ETag": "\"4ec8439-fc00-4373c738c90c0\"",
+        "Keep-Alive": "timeout=15, max=98",
+        "Last-Modified": "Thu, 09 Aug 2007 04:11:23 GMT",
+        "Server": "Apache",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Frame-Options": "sameorigin"
+      },
+      "path": "evidence\\raw\\skyview_dss_raw_hcompress_probe\\9a\\9a83fbf804635b4d77c769baf9a701d21776127e04d348011c6d21695b4f10e5.hcompress",
+      "sha256": "9a83fbf804635b4d77c769baf9a701d21776127e04d348011c6d21695b4f10e5"
+    },
+    "service": "skyview_dss_raw_hcompress_probe",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "recorded_at_utc": "2026-08-21T14:36:13.331576+00:00",
+  "science_analysis_performed": false,
+  "skyview": {
+    "date_obs": "1953-10-31T04:67:00",
+    "descriptor_center_dec_deg": 42.77203,
+    "descriptor_center_ra_deg": 346.58904,
+    "descriptor_epoch_delta_days": 1.3159006848924264,
+    "descriptor_hhh_center_sep_arcsec": 234.65591611140408,
+    "descriptor_image_path": "xe/xe238",
+    "descriptor_nominal_center_sep_arcsec": 245.55108439050022,
+    "descriptor_sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798",
+    "descriptor_url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1r.xml.gz",
+    "hhh_date_identity_policy": "vi25_initial_night_or_normalized_utc_date_v0.2.7",
+    "hhh_nominal_center_sep_arcsec": 11.729375113861622,
+    "hhh_observing_date": "1953-10-31",
+    "hhh_sha256": "b063fff81719c1f00d8d831383134fb7d996e59b8edd3dc26789509b2c505d9d",
+    "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238/xe238.hhh",
+    "plate_dec_deg": 42.782733167,
+    "plate_id": "089H",
+    "plate_ra_deg": 346.676638937,
+    "probe_tile_bytes": 64512,
+    "probe_tile_magic": "dd99",
+    "probe_tile_sha256": "9a83fbf804635b4d77c769baf9a701d21776127e04d348011c6d21695b4f10e5",
+    "probe_tile_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238/xe238.00",
+    "raw_plate_directory": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238",
+    "region": "XE238"
+  },
+  "vi25": {
+    "allowed_hhh_calendar_dates": [
+      "1953-10-30",
+      "1953-10-31"
+    ],
+    "band": "E",
+    "dec_icrs_deg": 42.78444444444444,
+    "dec_icrs_raw": "+42 47 04",
+    "mlp": "239",
+    "normalized_start_utc": "1953-10-31T04:40:00+00:00",
+    "normalized_start_utc_date": "1953-10-31",
+    "observing_night_final": "0-10-31",
+    "observing_night_initial": "1953-10-30",
+    "poss": "876",
+    "ra_icrs_deg": 346.6804166666667,
+    "ra_icrs_raw": "23 06 43.3",
+    "recno": 239
+  }
+}

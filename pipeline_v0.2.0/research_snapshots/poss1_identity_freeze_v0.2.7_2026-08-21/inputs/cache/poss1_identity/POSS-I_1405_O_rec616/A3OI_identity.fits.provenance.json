@@ -1,0 +1,136 @@
+{
+  "artifact_type": "poss1_forced_identity_cutout_fits",
+  "exposure_id": "POSS-I:1405:O:rec616",
+  "finder_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:1405:O:rec616",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:31:33.070495+00:00",
+    "request": {
+      "method": "POST",
+      "payload": {
+        "action": "Find plates",
+        "dec": "-0.8013888889",
+        "equinox": "J2000",
+        "format": "FITS",
+        "height": "15.0",
+        "ra": "187.8579166667",
+        "resolved_target": "",
+        "resolver": "SIMBAD",
+        "resolver_used": "",
+        "save": "Display",
+        "target": "",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 14414,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "text/html; charset=ISO-8859-1",
+        "Date": "Thu, 20 Aug 2026 23:31:32 GMT",
+        "Keep-Alive": "timeout=5, max=100",
+        "Server": "Apache",
+        "Transfer-Encoding": "chunked"
+      },
+      "path": "evidence\\raw\\stsci_dss_platefinder\\f8\\f819d2ad99c3a172fb95f3f747826950b0bedcec437653ce6bdde8024f89cf97.html",
+      "sha256": "f819d2ad99c3a172fb95f3f747826950b0bedcec437653ce6bdde8024f89cf97"
+    },
+    "service": "stsci_dss_platefinder",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "fits": {
+    "bytes": 1650240,
+    "header_region": "XO615",
+    "header_region_match": true,
+    "path": "cache\\poss1_identity\\POSS-I_1405_O_rec616\\A3OI_identity.fits",
+    "selected_header": {
+      "CNPIX1": 10763,
+      "CNPIX2": 11200,
+      "DATE": "2026-08-20",
+      "DATE-OBS": "1955-04-20T05:87:00",
+      "EQUINOX": 2000.0,
+      "PLTDECD": 0,
+      "PLTDECM": 48,
+      "PLTDECS": 4.6,
+      "PLTDECSN": "-",
+      "PLTRAH": 12,
+      "PLTRAM": 31,
+      "PLTRAS": 25.86,
+      "PPO3": 177500.0,
+      "PPO6": 177500.0,
+      "REGION": "XO615",
+      "XPIXELSZ": 15.0295,
+      "YPIXELSZ": 15.0
+    },
+    "sha256": "b2025288697732091b4b61dbce34c4f921462d5b86f1ad17f579b7a7536ad0a4",
+    "shape": [
+      893,
+      891
+    ]
+  },
+  "forced_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:1405:O:rec616",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:31:33.902775+00:00",
+    "request": {
+      "method": "GET",
+      "payload": {
+        "action": "Extract",
+        "dec": "-0.8013888889",
+        "format": "FITS",
+        "height": "15.0",
+        "plate_id": "A3OI",
+        "ra": "187.8579166667",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 1650240,
+      "content_type": "image/x-fits; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "image/x-fits; charset=ISO-8859-1",
+        "Content-length": "1650240",
+        "Date": "Thu, 20 Aug 2026 23:31:33 GMT",
+        "Keep-Alive": "timeout=5, max=99",
+        "Server": "Apache"
+      },
+      "path": "evidence\\raw\\stsci_dss_forced_plate\\b2\\b2025288697732091b4b61dbce34c4f921462d5b86f1ad17f579b7a7536ad0a4.fits",
+      "sha256": "b2025288697732091b4b61dbce34c4f921462d5b86f1ad17f579b7a7536ad0a4"
+    },
+    "service": "stsci_dss_forced_plate",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "platefinder": {
+    "epoch_clock_raw": "05:87:00",
+    "epoch_date": "1955-04-20",
+    "plate_id": "A3OI",
+    "region": "XO615",
+    "row_text": "POSS-I O xx103aO | (POSS-I O) 12.0 XO615 | (A3OI) 1955-04-20 05:87:00 1.01 5.7 188.7"
+  },
+  "recorded_at_utc": "2026-08-20T23:31:33.909220+00:00",
+  "vi25": {
+    "band": "O",
+    "duration_min": 12.0,
+    "fObs": "0-04-21",
+    "mlp": "616",
+    "normalized_start_utc": "1955-04-21T05:52:00+00:00",
+    "obs": "1955-04-20",
+    "poss": "1405",
+    "raw_start": "21:52",
+    "recno": 616
+  }
+}

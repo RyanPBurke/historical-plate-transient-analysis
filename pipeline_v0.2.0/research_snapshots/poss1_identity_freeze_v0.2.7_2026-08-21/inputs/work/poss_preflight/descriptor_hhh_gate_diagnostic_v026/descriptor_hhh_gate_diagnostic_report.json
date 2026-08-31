@@ -1,0 +1,401 @@
+{
+  "checkpoint_changed": false,
+  "created_at_utc": "2026-08-21T00:03:18.393776+00:00",
+  "descriptor_sources": {
+    "E": {
+      "http_sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798",
+      "live_download": true,
+      "sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798",
+      "source": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1r.xml.gz"
+    },
+    "O": {
+      "live_download": false,
+      "sha256": "36e8b0380a60dba556091f0c4cb9ff5cb6fb33478918fc0f34a0500a35a40603",
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\poss_preflight\\skyview_source\\dss1b_external_definition\\dss1b.xml"
+    }
+  },
+  "interpretive_note": "SkyView XML Image coordinates are being tested as survey-selection metadata rather than an authoritative solved plate center. No gate is changed by this probe.",
+  "probe_only": true,
+  "regions": [
+    {
+      "band": "E",
+      "cohort": "pixel_equivalence_control",
+      "descriptor": {
+        "dec_deg": 17.53358,
+        "epoch": 1951.094,
+        "ra_deg": 122.04904,
+        "raw": "xe/xe424 122.04904 17.53358 1951.09400",
+        "spell": "xe/xe424"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 207.4809041646297,
+      "hhh": {
+        "date_obs": "1951-02-03T05:90:00",
+        "dec_deg": 17.58375,
+        "keys": {
+          "DATE-OBS": "1951-02-03T05:90:00",
+          "PLATEID": "08M9    ",
+          "PLTDECD": 17,
+          "PLTDECM": 35,
+          "PLTDECS": 1.5,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 8,
+          "PLTRAM": 8,
+          "PLTRAS": 18.91,
+          "REGION": "XE424   "
+        },
+        "plate_id": "08M9",
+        "ra_deg": 122.07879166666667,
+        "region": "XE424"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "abb536d6c68edcd69b5750cd5f983812ffc1f66b208366f5f613a74037f879bd",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe424/xe424.hhh",
+      "label": "control POSS-I:236:E:rec425",
+      "region": "XE424"
+    },
+    {
+      "band": "O",
+      "cohort": "pixel_equivalence_control",
+      "descriptor": {
+        "dec_deg": 12.79306,
+        "epoch": 1951.601,
+        "ra_deg": 349.76483,
+        "raw": "xo/xo522 349.76483 12.79306 1951.60100",
+        "spell": "xo/xo522"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 227.47015895342827,
+      "hhh": {
+        "date_obs": "1951-08-07T08:43:00",
+        "dec_deg": 12.787083333333333,
+        "keys": {
+          "DATE-OBS": "1951-08-07T08:43:00",
+          "PLATEID": "A3M1    ",
+          "PLTDECD": 12,
+          "PLTDECM": 47,
+          "PLTDECS": 13.5,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 23,
+          "PLTRAM": 19,
+          "PLTRAS": 19.04,
+          "REGION": "XO522   "
+        },
+        "plate_id": "A3M1",
+        "ra_deg": 349.8293333333333,
+        "region": "XO522"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "121935b60fb9615b246558eac0a2e526d6b5d6fe19d9e3c7176c12c83a80537a",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo522/xo522.hhh",
+      "label": "control POSS-I:313:O:rec523",
+      "region": "XO522"
+    },
+    {
+      "band": "E",
+      "cohort": "pixel_equivalence_control",
+      "descriptor": {
+        "dec_deg": 48.76106,
+        "epoch": 1951.691,
+        "ra_deg": 358.68987,
+        "raw": "xe/xe191 358.68987 48.76106 1951.69100",
+        "spell": "xe/xe191"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 357.6800514739083,
+      "hhh": {
+        "date_obs": "1951-09-09T08:02:00",
+        "dec_deg": 48.80672222222222,
+        "keys": {
+          "DATE-OBS": "1951-09-09T08:02:00",
+          "PLATEID": "07WI    ",
+          "PLTDECD": 48,
+          "PLTDECM": 48,
+          "PLTDECS": 24.2,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 23,
+          "PLTRAM": 55,
+          "PLTRAS": 17.71,
+          "REGION": "XE191   "
+        },
+        "plate_id": "07WI",
+        "ra_deg": 358.8237916666667,
+        "region": "XE191"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "d8271788546fab939d5ad02570ddd432015dcdcd47f3a410e9cd60f2caadb03d",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe191/xe191.hhh",
+      "label": "control POSS-I:368:E:rec192",
+      "region": "XE191"
+    },
+    {
+      "band": "O",
+      "cohort": "pixel_equivalence_control",
+      "descriptor": {
+        "dec_deg": 18.41831,
+        "epoch": 1951.721,
+        "ra_deg": 301.58688,
+        "raw": "xo/xo454 301.58688 18.41831 1951.72100",
+        "spell": "xo/xo454"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 143.18090351002644,
+      "hhh": {
+        "date_obs": "1951-09-20T04:42:00",
+        "dec_deg": 18.414277777777777,
+        "keys": {
+          "DATE-OBS": "1951-09-20T04:42:00",
+          "PLATEID": "A3K9    ",
+          "PLTDECD": 18,
+          "PLTDECM": 24,
+          "PLTDECS": 51.4,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 20,
+          "PLTRAM": 6,
+          "PLTRAS": 30.86,
+          "REGION": "XO454   "
+        },
+        "plate_id": "A3K9",
+        "ra_deg": 301.6285833333334,
+        "region": "XO454"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "7387a43b965cfa76105cb2d77717811b130489ef6dbe9303ea3740b02c2671b0",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo454/xo454.hhh",
+      "label": "control POSS-I:372:O:rec455",
+      "region": "XO454"
+    },
+    {
+      "band": "E",
+      "cohort": "pixel_equivalence_control",
+      "descriptor": {
+        "dec_deg": 36.63406,
+        "epoch": 1951.839,
+        "ra_deg": 37.10708,
+        "raw": "xe/xe245 37.10708 36.63406 1951.83900",
+        "spell": "xe/xe245"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 294.9006574684666,
+      "hhh": {
+        "date_obs": "1951-11-02T07:02:00",
+        "dec_deg": 36.652249999999995,
+        "keys": {
+          "DATE-OBS": "1951-11-02T07:02:00",
+          "PLATEID": "08BI    ",
+          "PLTDECD": 36,
+          "PLTDECM": 39,
+          "PLTDECS": 8.1,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 2,
+          "PLTRAM": 28,
+          "PLTRAS": 49.59,
+          "REGION": "XE245   "
+        },
+        "plate_id": "08BI",
+        "ra_deg": 37.206625,
+        "region": "XE245"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "9708d86d12e204c0592fb8c92c4477ab44dcf512a21a118607389c30f94af1f9",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe245/xe245.hhh",
+      "label": "control POSS-I:407:E:rec246",
+      "region": "XE245"
+    },
+    {
+      "band": "E",
+      "cohort": "v026_center_gate_failure",
+      "descriptor": {
+        "dec_deg": 12.27658,
+        "epoch": 1953.614,
+        "ra_deg": 295.662,
+        "raw": "xe/xe513 295.66200 12.27658 1953.61400",
+        "spell": "xe/xe513"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 260.54163818776914,
+      "hhh": {
+        "date_obs": "1953-08-13T06:17:00",
+        "dec_deg": 12.33927777777778,
+        "keys": {
+          "DATE-OBS": "1953-08-13T06:17:00",
+          "PLATEID": "08ZS    ",
+          "PLTDECD": 12,
+          "PLTDECM": 20,
+          "PLTDECS": 21.4,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 19,
+          "PLTRAM": 42,
+          "PLTRAS": 47.76,
+          "REGION": "XE513   "
+        },
+        "plate_id": "08ZS",
+        "ra_deg": 295.699,
+        "region": "XE513"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "6125d03347bbfeabfc737e37fe8da01a307798b08658626aa1e44e877c27328a",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe513/xe513.hhh",
+      "label": "POSS-I:782:E:rec514",
+      "region": "XE513"
+    },
+    {
+      "band": "O",
+      "cohort": "v026_center_gate_failure",
+      "descriptor": {
+        "dec_deg": 54.74442,
+        "epoch": 1953.825,
+        "ra_deg": 343.4095,
+        "raw": "xo/xo147 343.40950 54.74442 1953.82500",
+        "spell": "xo/xo147"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 246.6897357666187,
+      "hhh": {
+        "date_obs": "1953-10-29T04:45:00",
+        "dec_deg": 54.77041666666666,
+        "keys": {
+          "DATE-OBS": "1953-10-29T04:45:00",
+          "PLATEID": "A3DH    ",
+          "PLTDECD": 54,
+          "PLTDECM": 46,
+          "PLTDECS": 13.5,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 22,
+          "PLTRAM": 54,
+          "PLTRAS": 4.65,
+          "REGION": "XO147   "
+        },
+        "plate_id": "A3DH",
+        "ra_deg": 343.51937499999997,
+        "region": "XO147"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "9fc04a8dffa65c7632d8e656f3dbb8e86127953d1a77eff00177e3156f49272b",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss2/xo/xo147/xo147.hhh",
+      "label": "POSS-I:872:O:rec148",
+      "region": "XO147"
+    },
+    {
+      "band": "E",
+      "cohort": "v026_center_gate_failure",
+      "descriptor": {
+        "dec_deg": 12.73719,
+        "epoch": 1953.831,
+        "ra_deg": 337.7585,
+        "raw": "xe/xe520 337.75850 12.73719 1953.83100",
+        "spell": "xe/xe520"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 103.50189572407783,
+      "hhh": {
+        "date_obs": "1953-10-31T03:52:00",
+        "dec_deg": 12.742555555555555,
+        "keys": {
+          "DATE-OBS": "1953-10-31T03:52:00",
+          "PLATEID": "090N    ",
+          "PLTDECD": 12,
+          "PLTDECM": 44,
+          "PLTDECS": 33.2,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 22,
+          "PLTRAM": 31,
+          "PLTRAS": 8.99,
+          "REGION": "XE520   "
+        },
+        "plate_id": "090N",
+        "ra_deg": 337.7874583333333,
+        "region": "XE520"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "2f0adb4ca1823cfde97af89daec51ceea9d795d39cf60ea47ed73a8dbc3fa326",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe520/xe520.hhh",
+      "label": "POSS-I:875:E:rec521",
+      "region": "XE520"
+    },
+    {
+      "band": "E",
+      "cohort": "v026_center_gate_failure",
+      "descriptor": {
+        "dec_deg": 42.77203,
+        "epoch": 1953.831,
+        "ra_deg": 346.58904,
+        "raw": "xe/xe238 346.58904 42.77203 1953.83100",
+        "spell": "xe/xe238"
+      },
+      "descriptor_entry_count": 1,
+      "descriptor_hhh_sep_arcsec": 234.6131416246571,
+      "hhh": {
+        "date_obs": "1953-10-31T04:67:00",
+        "dec_deg": 42.78272222222222,
+        "keys": {
+          "DATE-OBS": "1953-10-31T04:67:00",
+          "PLATEID": "089H    ",
+          "PLTDECD": 42,
+          "PLTDECM": 46,
+          "PLTDECS": 57.8,
+          "PLTDECSN": "+       ",
+          "PLTRAH": 23,
+          "PLTRAM": 6,
+          "PLTRAS": 42.39,
+          "REGION": "XE238   "
+        },
+        "plate_id": "089H",
+        "ra_deg": 346.676625,
+        "region": "XE238"
+      },
+      "hhh_http": 200,
+      "hhh_sha256": "b063fff81719c1f00d8d831383134fb7d996e59b8edd3dc26789509b2c505d9d",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe238/xe238.hhh",
+      "label": "POSS-I:876:E:rec239",
+      "region": "XE238"
+    },
+    {
+      "band": "E",
+      "cohort": "v026_404_failure",
+      "descriptor": {
+        "dec_deg": -11.35078,
+        "epoch": 1954.5,
+        "ra_deg": 325.93437,
+        "raw": "xe/xe759 325.93437 -11.35078 1954.50000",
+        "spell": "xe/xe759"
+      },
+      "descriptor_entry_count": 1,
+      "hhh_http": 404,
+      "hhh_sha256": "db55413358793cdb142a075bb153ebf1775720ad0f237ef82fdf4c3fded47e96",
+      "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe759/xe759.hhh",
+      "label": "POSS-I:832:E:rec760",
+      "region": "XE759"
+    }
+  ],
+  "science_analysis_performed": false,
+  "xe759_stsci_poss1_red": {
+    "attempted": true,
+    "bytes": 120960,
+    "content_type": "image/x-fits",
+    "final_url": "https://archive.stsci.edu/cgi-bin/dss_search?V=poss1_red&R=22+08+28.200&D=-11+17+24.00&E=J2000&H=5.0&W=5.0&F=fits&C=none",
+    "fits_identity": {
+      "date_obs": "1953-10-01T05:27:00",
+      "origin": "STScI/MAST",
+      "plate_id": "0FE2",
+      "region": "XE760",
+      "shape": [
+        177,
+        177
+      ]
+    },
+    "http_status": 200,
+    "params": {
+      "C": "none",
+      "D": "-11 17 24.00",
+      "E": "J2000",
+      "F": "fits",
+      "H": "5.0",
+      "R": "22 08 28.200",
+      "V": "poss1_red",
+      "W": "5.0"
+    },
+    "sha256": "38ad1e4e883c0895b5a4345d83f2e9e69f40590b3ae5d6db127f598de45db368",
+    "target_row_found": true
+  }
+}

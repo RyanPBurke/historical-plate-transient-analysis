@@ -1,0 +1,61 @@
+{
+  "artifact_type": "poss1_archive_pixels_unavailable",
+  "eligible_for_science": false,
+  "exposure_id": "POSS-I:449:O:rec198",
+  "identity_status": "catalogue_identified_pixels_unavailable",
+  "interpretation": "Physical exposure remains identified by VI/25 metadata, but no current SkyView DSS1 image entry exists for the deterministically expected region. Digital pixels are unavailable; the exposure remains in the prospective denominator and is ineligible for detector execution.",
+  "primary_archive_failure": "stsci_platefinder_no_unique_match: candidate_count=1; finder_response_sha256=2c05ae01b0442cd1a96f1072c1d6ac9f17cd83d3e901518c6a6dd8a7fc8976ba",
+  "recorded_at_utc": "2026-08-20T23:44:34.885619+00:00",
+  "science_analysis_performed": false,
+  "skyview": {
+    "descriptor_exact_region_matches": 0,
+    "descriptor_exchange": {
+      "attempt": 5,
+      "job_key": "POSS-I:449:O:rec198",
+      "record_type": "remote_exchange",
+      "recorded_at_utc": "2026-08-20T23:44:34.874947+00:00",
+      "request": {
+        "method": "GET",
+        "payload": null,
+        "query": null,
+        "url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1b.xml.gz"
+      },
+      "response": {
+        "bytes": 61098,
+        "content_type": "application/xml",
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Connection": "Keep-Alive",
+          "Content-Encoding": "gzip",
+          "Content-Length": "16126",
+          "Content-Security-Policy": "upgrade-insecure-requests",
+          "Content-Type": "application/xml",
+          "Date": "Thu, 20 Aug 2026 23:44:34 GMT",
+          "ETag": "\"223fe367-3efe-65867214045c0\"",
+          "Keep-Alive": "timeout=15, max=100",
+          "Last-Modified": "Thu, 06 Aug 2026 20:57:03 GMT",
+          "Server": "Apache",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "X-Frame-Options": "sameorigin"
+        },
+        "path": "evidence\\raw\\skyview_dss1_descriptor\\36\\36e8b0380a60dba556091f0c4cb9ff5cb6fb33478918fc0f34a0500a35a40603.xml",
+        "sha256": "36e8b0380a60dba556091f0c4cb9ff5cb6fb33478918fc0f34a0500a35a40603"
+      },
+      "service": "skyview_dss1_descriptor",
+      "stage": "poss1-identity:prospective_production"
+    },
+    "descriptor_sha256": "36e8b0380a60dba556091f0c4cb9ff5cb6fb33478918fc0f34a0500a35a40603",
+    "descriptor_url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1b.xml.gz"
+  },
+  "vi25": {
+    "band": "O",
+    "dec_icrs_raw": "+42 37 43",
+    "expected_region": "XO197",
+    "fObs": "0-12-22",
+    "mlp": "198",
+    "obs": "1951-12-21",
+    "poss": "449",
+    "ra_icrs_raw": "02 39 17.7",
+    "recno": 198
+  }
+}

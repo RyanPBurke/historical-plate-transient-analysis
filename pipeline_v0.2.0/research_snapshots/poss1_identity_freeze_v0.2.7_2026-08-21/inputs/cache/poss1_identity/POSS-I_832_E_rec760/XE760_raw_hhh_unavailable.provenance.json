@@ -1,0 +1,66 @@
+{
+  "archive_failure_kind": "skyview_raw_hhh_http_404",
+  "artifact_type": "poss1_archive_pixels_unavailable",
+  "eligible_for_science": false,
+  "exposure_id": "POSS-I:832:E:rec760",
+  "identity_status": "catalogue_identified_pixels_unavailable",
+  "interpretation": "The deterministically expected POSS-I region is present in the current SkyView DSS1 descriptor, but its exact raw HHH product returns HTTP 404. The physical exposure remains catalogue-identified; digital pixels are currently unavailable. The exposure remains in the prospective denominator, is ineligible for detector execution, and is not a scientific zero. No neighbouring DSS region is substituted.",
+  "primary_archive_failure": "stsci_platefinder_no_unique_match: candidate_count=2; finder_response_sha256=83f5cee864decf77783caccb705d8b58061e0a60d07e4977e1f4b717eb63d584",
+  "recorded_at_utc": "2026-08-21T00:41:39.578856+00:00",
+  "science_analysis_performed": false,
+  "skyview": {
+    "descriptor_exact_region_matches": 1,
+    "descriptor_exchange": {
+      "attempt": 6,
+      "job_key": "POSS-I:832:E:rec760",
+      "record_type": "remote_exchange",
+      "recorded_at_utc": "2026-08-21T00:41:25.008998+00:00",
+      "request": {
+        "method": "GET",
+        "payload": null,
+        "query": null,
+        "url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1r.xml.gz"
+      },
+      "response": {
+        "bytes": 63831,
+        "content_type": "application/xml",
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Connection": "Keep-Alive",
+          "Content-Encoding": "gzip",
+          "Content-Length": "16660",
+          "Content-Security-Policy": "upgrade-insecure-requests",
+          "Content-Type": "application/xml",
+          "Date": "Fri, 21 Aug 2026 00:41:24 GMT",
+          "ETag": "\"223fe368-4114-65867214045c0\"",
+          "Keep-Alive": "timeout=15, max=100",
+          "Last-Modified": "Thu, 06 Aug 2026 20:57:03 GMT",
+          "Server": "Apache",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "X-Frame-Options": "sameorigin"
+        },
+        "path": "evidence\\raw\\skyview_dss1_descriptor\\89\\891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798.xml",
+        "sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798"
+      },
+      "service": "skyview_dss1_descriptor",
+      "stage": "poss1-identity:prospective_production"
+    },
+    "descriptor_image_path": "xe/xe760",
+    "descriptor_sha256": "891068be223316b3e7c47e4466df62ba5b9c76ae4b20489ea1ede3912b0c6798",
+    "descriptor_url": "https://skyview.gsfc.nasa.gov/current/jar/surveys/xml/dss1r.xml.gz",
+    "hhh_failure": "RetryableRemoteError: unexpected HTTP 404: <html>\n<head>\n<title>File Not Found</title>\n<link rel=\"stylesheet\" href=\"/current/includes/skyviewall.css\">\n</head>\n<body>\n<div id=\"page\">\n\n<MAP NAME=\"buttonbar\" id=\"buttonbar\">\n<AREA alt=\"SkyView Home Page\" SHAPE=\"RECT\" COORDS=\"1,75,85,117\" \n\tHREF=\"../cgi/titlepage.pl\">\n<AREA alt=\"SkyView Query For",
+    "hhh_url": "https://skyview.gsfc.nasa.gov/surveys/dss/xe760/xe760.hhh",
+    "raw_plate_directory": "https://skyview.gsfc.nasa.gov/surveys/dss/xe760"
+  },
+  "vi25": {
+    "band": "E",
+    "dec_icrs_raw": "-11 17 24",
+    "expected_region": "XE760",
+    "fObs": "0-10-01",
+    "mlp": "761",
+    "obs": "1953-09-30",
+    "poss": "832",
+    "ra_icrs_raw": "22 08 28.2",
+    "recno": 760
+  }
+}

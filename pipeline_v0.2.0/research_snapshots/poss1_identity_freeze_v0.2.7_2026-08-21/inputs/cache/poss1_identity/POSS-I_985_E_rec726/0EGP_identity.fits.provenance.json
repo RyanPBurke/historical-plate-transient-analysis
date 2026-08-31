@@ -1,0 +1,136 @@
+{
+  "artifact_type": "poss1_forced_identity_cutout_fits",
+  "exposure_id": "POSS-I:985:E:rec726",
+  "finder_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:985:E:rec726",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:31:59.644858+00:00",
+    "request": {
+      "method": "POST",
+      "payload": {
+        "action": "Find plates",
+        "dec": "-12.4875000000",
+        "equinox": "J2000",
+        "format": "FITS",
+        "height": "15.0",
+        "ra": "127.7129166667",
+        "resolved_target": "",
+        "resolver": "SIMBAD",
+        "resolver_used": "",
+        "save": "Display",
+        "target": "",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 14507,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "text/html; charset=ISO-8859-1",
+        "Date": "Thu, 20 Aug 2026 23:31:59 GMT",
+        "Keep-Alive": "timeout=5, max=100",
+        "Server": "Apache",
+        "Transfer-Encoding": "chunked"
+      },
+      "path": "evidence\\raw\\stsci_dss_platefinder\\04\\04f56e57b7ffc2f43aca664331196ffe12154eec6f7d291ba4751dca95220d08.html",
+      "sha256": "04f56e57b7ffc2f43aca664331196ffe12154eec6f7d291ba4751dca95220d08"
+    },
+    "service": "stsci_dss_platefinder",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "fits": {
+    "bytes": 622080,
+    "header_region": "XE726",
+    "header_region_match": true,
+    "path": "cache\\poss1_identity\\POSS-I_985_E_rec726\\0EGP_identity.fits",
+    "selected_header": {
+      "CNPIX1": 6706,
+      "CNPIX2": 6861,
+      "DATE": "2026-08-20",
+      "DATE-OBS": "1954-02-24T06:23:00",
+      "EQUINOX": 2000.0,
+      "PLTDECD": 12,
+      "PLTDECM": 32,
+      "PLTDECS": 51.3,
+      "PLTDECSN": "-",
+      "PLTRAH": 8,
+      "PLTRAM": 30,
+      "PLTRAS": 47.53,
+      "PPO3": 177500.0,
+      "PPO6": 177500.0,
+      "REGION": "XE726",
+      "XPIXELSZ": 25.2845,
+      "YPIXELSZ": 25.2845
+    },
+    "sha256": "bcf76fa980418182235d60223de9ea1728f799a42e84677bdfb035fb043bd41f",
+    "shape": [
+      530,
+      530
+    ]
+  },
+  "forced_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:985:E:rec726",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:32:00.238867+00:00",
+    "request": {
+      "method": "GET",
+      "payload": {
+        "action": "Extract",
+        "dec": "-12.4875000000",
+        "format": "FITS",
+        "height": "15.0",
+        "plate_id": "0EGP",
+        "ra": "127.7129166667",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 622080,
+      "content_type": "image/x-fits; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "image/x-fits; charset=ISO-8859-1",
+        "Content-length": "622080",
+        "Date": "Thu, 20 Aug 2026 23:31:59 GMT",
+        "Keep-Alive": "timeout=5, max=99",
+        "Server": "Apache"
+      },
+      "path": "evidence\\raw\\stsci_dss_forced_plate\\bc\\bcf76fa980418182235d60223de9ea1728f799a42e84677bdfb035fb043bd41f.fits",
+      "sha256": "bcf76fa980418182235d60223de9ea1728f799a42e84677bdfb035fb043bd41f"
+    },
+    "service": "stsci_dss_forced_plate",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "platefinder": {
+    "epoch_clock_raw": "06:23:00",
+    "epoch_date": "1954-02-24",
+    "plate_id": "0EGP",
+    "region": "XE726",
+    "row_text": "POSS-E Red Plate xx103aE + plexi | (POSS-I E) 40.0 XE726 | (0EGP) 1954-02-24 06:23:00 1.70 3.7 194.7"
+  },
+  "recorded_at_utc": "2026-08-20T23:32:00.244038+00:00",
+  "vi25": {
+    "band": "E",
+    "duration_min": 40.0,
+    "fObs": "0-02-25",
+    "mlp": "727",
+    "normalized_start_utc": "1954-02-25T06:14:00+00:00",
+    "obs": "1954-02-24",
+    "poss": "985",
+    "raw_start": "22:14",
+    "recno": 726
+  }
+}

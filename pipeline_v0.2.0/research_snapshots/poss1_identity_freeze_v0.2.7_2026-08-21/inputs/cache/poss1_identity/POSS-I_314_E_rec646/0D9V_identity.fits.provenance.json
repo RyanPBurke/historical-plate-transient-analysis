@@ -1,0 +1,136 @@
+{
+  "artifact_type": "poss1_forced_identity_cutout_fits",
+  "exposure_id": "POSS-I:314:E:rec646",
+  "finder_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:314:E:rec646",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:31:43.037127+00:00",
+    "request": {
+      "method": "POST",
+      "payload": {
+        "action": "Find plates",
+        "dec": "-5.1991666667",
+        "equinox": "J2000",
+        "format": "FITS",
+        "height": "15.0",
+        "ra": "7.8454166667",
+        "resolved_target": "",
+        "resolver": "SIMBAD",
+        "resolver_used": "",
+        "save": "Display",
+        "target": "",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 11409,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "text/html; charset=ISO-8859-1",
+        "Date": "Thu, 20 Aug 2026 23:31:42 GMT",
+        "Keep-Alive": "timeout=5, max=100",
+        "Server": "Apache",
+        "Transfer-Encoding": "chunked"
+      },
+      "path": "evidence\\raw\\stsci_dss_platefinder\\99\\993199a6ec86462ce555d9cc423f1e8f2f9956e4562071fb004cbd446322bb53.html",
+      "sha256": "993199a6ec86462ce555d9cc423f1e8f2f9956e4562071fb004cbd446322bb53"
+    },
+    "service": "stsci_dss_platefinder",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "fits": {
+    "bytes": 622080,
+    "header_region": "XE645",
+    "header_region_match": true,
+    "path": "cache\\poss1_identity\\POSS-I_314_E_rec646\\0D9V_identity.fits",
+    "selected_header": {
+      "CNPIX1": 6672,
+      "CNPIX2": 6794,
+      "DATE": "2026-08-20",
+      "DATE-OBS": "1951-08-07T09:90:00",
+      "EQUINOX": 2000.0,
+      "PLTDECD": 5,
+      "PLTDECM": 11,
+      "PLTDECS": 54.8,
+      "PLTDECSN": "-",
+      "PLTRAH": 0,
+      "PLTRAM": 31,
+      "PLTRAS": 23.36,
+      "PPO3": 177500.0,
+      "PPO6": 177500.0,
+      "REGION": "XE645",
+      "XPIXELSZ": 25.2845,
+      "YPIXELSZ": 25.2845
+    },
+    "sha256": "2145cd017731a3a6e6554ea9b509fb7a2e5ae2244c1b382cbfc3bce943cb9430",
+    "shape": [
+      530,
+      530
+    ]
+  },
+  "forced_exchange": {
+    "attempt": 4,
+    "job_key": "POSS-I:314:E:rec646",
+    "record_type": "remote_exchange",
+    "recorded_at_utc": "2026-08-20T23:31:43.700499+00:00",
+    "request": {
+      "method": "GET",
+      "payload": {
+        "action": "Extract",
+        "dec": "-5.1991666667",
+        "format": "FITS",
+        "height": "15.0",
+        "plate_id": "0D9V",
+        "ra": "7.8454166667",
+        "width": "15.0"
+      },
+      "query": null,
+      "url": "https://archive.stsci.edu/cgi-bin/dss_plate_finder"
+    },
+    "response": {
+      "bytes": 622080,
+      "content_type": "image/x-fits; charset=ISO-8859-1",
+      "headers": {
+        "Access-Control-Allow-Headers": "x-requested-with",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "Keep-Alive",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "Content-Type": "image/x-fits; charset=ISO-8859-1",
+        "Content-length": "622080",
+        "Date": "Thu, 20 Aug 2026 23:31:43 GMT",
+        "Keep-Alive": "timeout=5, max=99",
+        "Server": "Apache"
+      },
+      "path": "evidence\\raw\\stsci_dss_forced_plate\\21\\2145cd017731a3a6e6554ea9b509fb7a2e5ae2244c1b382cbfc3bce943cb9430.fits",
+      "sha256": "2145cd017731a3a6e6554ea9b509fb7a2e5ae2244c1b382cbfc3bce943cb9430"
+    },
+    "service": "stsci_dss_forced_plate",
+    "stage": "poss1-identity:prospective_production"
+  },
+  "platefinder": {
+    "epoch_clock_raw": "09:90:00",
+    "epoch_date": "1951-08-07",
+    "plate_id": "0D9V",
+    "region": "XE645",
+    "row_text": "POSS-E Red Plate xx103aE + plexi | (POSS-I E) 50.0 XE645 | (0D9V) 1951-08-07 09:90:00 1.70 2.4 196.5"
+  },
+  "recorded_at_utc": "2026-08-20T23:31:43.706439+00:00",
+  "vi25": {
+    "band": "E",
+    "duration_min": 50.0,
+    "fObs": "0-08-08",
+    "mlp": "646",
+    "normalized_start_utc": "1951-08-08T09:54:00+00:00",
+    "obs": "1951-08-07",
+    "poss": "314",
+    "raw_start": "01:54",
+    "recno": 646
+  }
+}
