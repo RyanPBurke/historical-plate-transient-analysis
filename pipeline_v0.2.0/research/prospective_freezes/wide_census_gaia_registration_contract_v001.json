@@ -1,0 +1,52 @@
+{
+  "contract": "wide_census_gaia_registration_contract_v001",
+  "stage": "post_v066_offline_gaia_registration",
+  "prospective": true,
+
+  "upstream_frozen_sha256": {
+    "candidate_adjudication_policy_v002": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+    "postdetector_adjudication_contract_v001": "1215400b989b187e87ceee27237fd2faf7ccff80dd57632158e06cbed7add2ad",
+    "gaia_reference_acquisition_contract_v002": "458a043dfbdda8dbb853cbae77c269ff17a586c0ddb2fdcf7ac0388ee57ab3fc"
+  },
+
+  "guards": {
+    "network_access": false,
+    "detector_rerun": false,
+    "candidate_disposition_changes": false,
+    "threshold_retuning_after_outcomes": false,
+    "bulk_source_mutation": false
+  },
+
+  "registration": {
+    "processing_unit": "contemporaneous_exposure_pair",
+    "reference_catalogue": "Gaia DR3",
+    "propagate_gaia_to_actual_registration_epoch": true,
+    "detector_gaia_acquisition_radius_arcsec": 15.0,
+    "matching_rule": "reciprocal_nearest",
+    "require_same_gaia_source_on_both_archives": true,
+    "science_target_exclusion_radius_arcsec": 30.0,
+    "local_windows_arcmin": [5.0, 10.0, 20.0, 30.0],
+    "window_selection": "smallest_window_with_sufficient_common_references",
+    "primary_minimum_common_references": 5,
+    "primary_transform": "translation_only_componentwise_median",
+    "primary_clipping": false,
+    "primary_affine_terms": false,
+    "primary_higher_order_terms": false,
+    "target_independent": true,
+    "leave_one_out_robustness": true
+  },
+
+  "sparse_fallback": {
+    "enabled": true,
+    "minimum_references_per_archive": 3,
+    "diagnostic_only": true,
+    "may_change_candidate_disposition": false
+  },
+
+  "analysis_goal": {
+    "raw_v062_le3_observed": 185532,
+    "raw_v062_le3_shifted_control_mean": 17165.50,
+    "raw_v062_le3_observed_control_ratio": 10.8084,
+    "question": "How much of the raw <=3 arcsec excess survives target-independent local astrometric correction?"
+  }
+}
