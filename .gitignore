@@ -1,33 +1,24 @@
-__pycache__/
-*.pyc
-.DS_Store
-*.tmp
-*.log
+# Python caches
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local Python environments
+.venv/
+.venv*/
+**/.venv/
+**/.venv*/
 
 # Local project audits
 _project_audit/
-
-# ------------------------------------------------------------------
-# Local / generated pipeline material
-# ------------------------------------------------------------------
-_project_audit/
-.venv/
-.venv*/
-.pytest_cache/
-__pycache__/
-*.py[cod]
-
-# Bulk scientific products and resumable workspace
-results/
-work/
-cache/
-logs/
+**/_project_audit/
 
 # Development backups / patch archaeology
-automation/backups/
-patch_backups/
+**/automation/backups/
+**/patch_backups/
 
-# Common temporary files
+# Temporary/runtime files
+**/logs/
 *.tmp
 *.temp
 *.part
@@ -35,11 +26,11 @@ patch_backups/
 *.old
 *.orig
 *~
+*.sqlite-shm
+*.sqlite-wal
 
 # OS / IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-*.sqlite-shm
-*.sqlite-wal
