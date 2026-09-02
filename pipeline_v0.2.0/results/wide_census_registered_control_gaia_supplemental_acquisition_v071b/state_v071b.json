@@ -1,0 +1,45 @@
+{
+  "analysis_kind": "wide_census_registered_control_gaia_supplemental_acquisition_v071b",
+  "guards": {
+    "astrometric_registration_run": false,
+    "candidate_state_mutation": false,
+    "network_access": true,
+    "science_pixels_read": false,
+    "science_policy_changed": false,
+    "transient_detector_rerun": false
+  },
+  "individual_candidate_dispositions": "NONE",
+  "inputs": {
+    "prior_v066_acquisition_sha256": "b7d1c039b2cd317fc7077c0b6f715dd9fec31a5dd095b5c4d52d0a60b496f951",
+    "v070_hpm_plan_sha256": "0fa5f38fd2ac01b03a620d236c8593a29805b2b52aec9aa02c6a3edb22e8d473",
+    "v070_ordinary_plan_sha256": "0d5b41a329b92f36d4bfaa9c84d53454cea1f947448cb99ca69db18b4540b91d",
+    "v070_plan_report_sha256": "c614891c5bf8745ce6ff81d5a034a7e778fd002a3c3260ff75b74e3feafeeb2f",
+    "v070_supplement_contract_sha256": "91c7fb695ab2e664e93556bfba31acfbb81abf8665a5ac8ef8a7a64671073e6c"
+  },
+  "next_stage": "Run v072 registered-control coverage closure proof; only after zero ordinary/HPM gaps may registered controls execute.",
+  "progress": {
+    "hpm_cached_rows": 8,
+    "hpm_complete": 16,
+    "hpm_compressed_bytes": 3204,
+    "hpm_total": 16,
+    "network_calls_this_invocation": 3112,
+    "ordinary_cached_rows_including_overlap": 7773823,
+    "ordinary_compressed_bytes": 701313455,
+    "ordinary_resolved_leaf_queries": 3063,
+    "ordinary_root_complete": 3009,
+    "ordinary_root_total": 3009
+  },
+  "registered_control_science_outcomes_inspected": 0,
+  "status": "COMPLETE",
+  "transport": {
+    "cache_encoding": "gzip lossless; deterministic mtime=0",
+    "default_workers": 2,
+    "global_request_start_interval_s": 0.75,
+    "low_disk_abort_gib": 12.0,
+    "maximum_workers_allowed": 8,
+    "new_full_cell_maxrec_policy": "recursive quarter-cell subdivision to 0.03125 deg",
+    "ordinary_annulus_maxrec_policy": "not_applicable_no_annulus_tasks",
+    "workers": 8
+  },
+  "updated_at_utc": "2026-09-02T20:51:43.959036+00:00"
+}
