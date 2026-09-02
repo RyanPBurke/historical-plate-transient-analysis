@@ -1,0 +1,50 @@
+{
+  "analysis_kind": "wide_census_registered_control_coverage_preflight_v069",
+  "contract_sha256": "be2febd2696f1798a0a78c2724420f3aaac939a825ebe5b296b126ba9ce47eeb",
+  "control_domain": {
+    "existing_cache_fully_sufficient": false,
+    "missing_ordinary_cells": 3009,
+    "pairs_with_hpm_coverage_gap": [
+      1,
+      2,
+      4,
+      5,
+      9,
+      15,
+      16,
+      17,
+      18,
+      21,
+      24,
+      25,
+      26,
+      27,
+      29,
+      31
+    ]
+  },
+  "existing_gaia_domain": {
+    "hpm_transport_margin_arcsec": 915.0,
+    "ordinary_transport_margin_arcsec": 125.4,
+    "reference_candidate_domain_radius_arcmin": 30.25,
+    "v065_global_acquired_candidate_cells": 12398
+  },
+  "guards": {
+    "astrometric_registration_run": false,
+    "candidate_state_mutation": false,
+    "gaia_source_rows_read": 0,
+    "network_access": false,
+    "science_pixels_read": false,
+    "transient_detector_rerun": false
+  },
+  "interpretation_boundary": "Coverage/provenance result only. No registered-control scientific count has been calculated.",
+  "next_stage": "Prospectively acquire only the objectively missing ordinary/HPM control-reference domain before registered controls.",
+  "status": "COMPLETE",
+  "verified": {
+    "pairs": 33,
+    "v062_control_jobs": 528,
+    "v062_control_le10_associations_total": 3048415,
+    "v062_control_le3_associations_total": 274648,
+    "v062_exact_reproduction": true
+  }
+}
