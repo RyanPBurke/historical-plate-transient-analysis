@@ -1,0 +1,54 @@
+{
+  "contract_id": "wide_census_registered_control_gaia_supplement_contract_v001",
+  "stage": "post_v069_registered_control_reference_transport_repair",
+
+  "purpose": "Acquire only Gaia DR3 transport coverage objectively demonstrated missing by the frozen v069 registered-control coverage preflight.",
+
+  "scientific_parameters_changed": false,
+
+  "ordinary_acquisition": {
+    "source": "v069 missing ordinary base-cell inventory",
+    "base_cell_deg": 0.25,
+    "transport_margin_arcsec": 125.4,
+    "query_mode": "full corrected base-cell circle",
+    "maxrec": 50000,
+    "on_maxrec": "recursively quarter transport geometry",
+    "minimum_cell_deg": 0.03125,
+    "expected_root_cells_from_v069": 3009
+  },
+
+  "high_proper_motion_acquisition": {
+    "source": "v069 pair-level HPM requirement inventory",
+    "pm_min_masyr": 1700.0,
+    "transport_margin_arcsec": 915.0,
+    "query_mode": "full required control-domain cone",
+    "expected_pair_queries_from_v069": 16,
+    "downstream_source_id_deduplication": true
+  },
+
+  "reuse": {
+    "retain_v064_cache": true,
+    "retain_v066_cache": true,
+    "delete_or_replace_existing_gaia_rows": false,
+    "new_supplement_is_additive": true,
+    "downstream_deduplicate_source_id": true
+  },
+
+  "acquisition_integrity": {
+    "lossless_cache": true,
+    "record_uncompressed_sha256": true,
+    "record_compressed_sha256": true,
+    "checkpointed": true,
+    "resumable": true,
+    "network_or_transport_failure_is_scientific_negative": false
+  },
+
+  "guards": {
+    "detector_rerun": false,
+    "astrometric_registration": false,
+    "candidate_disposition_changes": false,
+    "threshold_retuning": false
+  },
+
+  "interpretation_boundary": "This is a transport-completeness repair only. Gaia source content returned by these queries cannot itself promote, reject or rank any candidate. Registered-control outcomes remain unseen until transport completeness is established."
+}
