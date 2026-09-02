@@ -1,0 +1,42 @@
+{
+  "analysis_kind": "wide_census_registered_control_gaia_closure_v072",
+  "coverage": {
+    "hpm_gaps_remaining": 0,
+    "ordinary_gaps_remaining": 0,
+    "resolved_ordinary_leaf_queries": 3063,
+    "v069_hpm_gap_pairs": 16,
+    "v069_missing_ordinary_cells": 3009,
+    "v070_planned_hpm_pairs": 16,
+    "v070_planned_ordinary_cells": 3009,
+    "v071b_complete_hpm_pairs": 16,
+    "v071b_complete_ordinary_roots": 3009
+  },
+  "guards": {
+    "astrometric_registrations": 0,
+    "candidate_disposition_changes": false,
+    "gaia_source_rows_interpreted": 0,
+    "network_access": false,
+    "registered_control_science_outcomes_inspected": 0
+  },
+  "input_sha256": {
+    "v069_hpm_requirements": "28861781edb6bf048d4770ca19c4700338629be23e550c3bb8416d8eddd72502",
+    "v069_missing_cells": "e101763dd514c718f42750c4397ab1eef189d668562e75d4d405a9f7e6317556",
+    "v069_report": "56e5d142d988004f63d3a101859d31fd1c1cc3a863a24093639e000ada42044b",
+    "v070_hpm_plan": "0fa5f38fd2ac01b03a620d236c8593a29805b2b52aec9aa02c6a3edb22e8d473",
+    "v070_ordinary_plan": "0d5b41a329b92f36d4bfaa9c84d53454cea1f947448cb99ca69db18b4540b91d",
+    "v070_report": "c614891c5bf8745ce6ff81d5a034a7e778fd002a3c3260ff75b74e3feafeeb2f",
+    "v071b_manifest": "e1cb446babb616cb42c8cca21b6af4ed87c8bddbcd80a3789712afa6c8f9b8ee",
+    "v071b_report": "6718fb8f62c6c9db47d83c1dd917475dd012514672606e43cb112a0d837a3fb5",
+    "v071b_runner": "d24d5a491d53dc529b4c80887d0c2e5e2b423470db2e80cb0efea15787b4693a"
+  },
+  "interpretation_boundary": "Transport/reference coverage closure only. This audit does not calculate registered control separations or compare controls with observed associations.",
+  "next_stage": "Registered-control astrometric registration may now be implemented under the frozen registered-control contract.",
+  "status": "COMPLETE",
+  "transport_cache": {
+    "compressed_sha_reconciliation": "PASS",
+    "hpm_cached_rows": 8,
+    "hpm_compressed_bytes": 3204,
+    "ordinary_cached_rows_including_overlap": 7773823,
+    "ordinary_compressed_bytes": 701313455
+  }
+}
