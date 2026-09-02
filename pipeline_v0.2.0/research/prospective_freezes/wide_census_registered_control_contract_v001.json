@@ -1,0 +1,65 @@
+{
+  "contract_id": "wide_census_registered_control_contract_v001",
+  "prospective_relative_to_registered_control_outcomes": true,
+
+  "upstream_implementations": {
+    "v062_shifted_control_sha256": "ec764f7f35b53f682d59d1acf0e6fa6da1b24f4282b4c6c4f99a9d853c2e1001",
+    "v065_reference_coverage_sha256": "213416fcb26406a1c14986ebf4d7de7482a5853e3dc7ecce0f5d46c8bf3bc6b2",
+    "v068a_registration_implementation_sha256": "9376ed5244b5defe074732dbb92e7870b618e25001cd2da4162b48dff549e0f2"
+  },
+
+  "frozen_science_contracts": {
+    "gaia_reference_acquisition_v002_sha256": "458a043dfbdda8dbb853cbae77c269ff17a586c0ddb2fdcf7ac0388ee57ab3fc",
+    "gaia_registration_v001_sha256": "bd3456356392d56b73b3f6c8e16f51a028c1a43bce6a011871b7b3d341be907b"
+  },
+
+  "control_population": {
+    "source": "frozen v062 shifted population controls",
+    "shifted_endpoint": "endpoint_b",
+    "shift_model": "exact great-circle directional offset",
+    "radii_arcsec": [60.0, 120.0],
+    "directions": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"],
+    "position_angles_deg_east_of_north": [0.0, 45.0, 90.0, 135.0, 180.0, 225.0, 270.0, 315.0],
+    "fixed_pre_shift_candidate_denominator": true,
+    "raw_control_association_gate_arcsec": 10.0,
+    "exact_v062_count_reproduction_required": true,
+    "control_jobs": 528
+  },
+
+  "registration_equivalence": {
+    "reference_catalogue": "Gaia DR3",
+    "reference_field": "unshifted historical detector/Gaia reference field",
+    "target_a": "unshifted endpoint_a control-match member",
+    "target_b": "synthetically shifted endpoint_b coordinate",
+    "target_center": "spherical midpoint of target_a and shifted target_b",
+    "detector_gaia_radius_arcsec": 15.0,
+    "local_windows_arcmin": [5.0, 10.0, 20.0, 30.0],
+    "primary_minimum_common_same_gaia_references": 5,
+    "primary_transform": "translation-only componentwise median",
+    "primary_clipping": false,
+    "primary_affine_terms": false,
+    "primary_higher_order_terms": false,
+    "science_exclusion_radius_arcsec": 30.0,
+    "exclude_control_target_a": true,
+    "exclude_shifted_control_target_b": true,
+    "exclude_original_endpoint_b_source": true,
+    "original_b_exclusion_reason": "prevent the real detector source from calibrating its own synthetically displaced control incarnation",
+    "sparse_minimum_references_per_archive": 3,
+    "sparse_diagnostic_only": true,
+    "leave_one_out_robustness": true
+  },
+
+  "coverage_preflight": {
+    "registration_reference_candidate_domain_arcmin": 30.25,
+    "ordinary_transport_margin_arcsec": 125.4,
+    "hpm_split_masyr": 1700.0,
+    "hpm_transport_margin_arcsec": 915.0,
+    "existing_gaia_cache_reuse_across_pairs_allowed": true,
+    "network_access": false,
+    "gaia_source_rows_read": false,
+    "astrometric_registration": false,
+    "candidate_disposition_changes": false
+  },
+
+  "interpretation_boundary": "v069 tests only whether the already-acquired Gaia transport domain is sufficient for the prospectively frozen v062 shifted controls. It produces no registered-control scientific result."
+}
