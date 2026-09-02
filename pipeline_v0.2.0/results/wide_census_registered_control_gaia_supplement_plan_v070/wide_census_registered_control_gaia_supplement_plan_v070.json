@@ -1,0 +1,30 @@
+{
+  "analysis_kind": "wide_census_registered_control_gaia_supplement_plan_v070",
+  "guards": {
+    "astrometric_registrations": 0,
+    "candidate_disposition_changes": false,
+    "detector_rerun": false,
+    "gaia_source_rows_read": 0,
+    "network_access": false
+  },
+  "input_sha256": {
+    "v065_coverage_implementation": "213416fcb26406a1c14986ebf4d7de7482a5853e3dc7ecce0f5d46c8bf3bc6b2",
+    "v069_control_contract": "be2febd2696f1798a0a78c2724420f3aaac939a825ebe5b296b126ba9ce47eeb",
+    "v069_hpm_requirements": "28861781edb6bf048d4770ca19c4700338629be23e550c3bb8416d8eddd72502",
+    "v069_missing_cells": "e101763dd514c718f42750c4397ab1eef189d668562e75d4d405a9f7e6317556",
+    "v069_report": "56e5d142d988004f63d3a101859d31fd1c1cc3a863a24093639e000ada42044b",
+    "v070_supplement_contract": "91c7fb695ab2e664e93556bfba31acfbb81abf8665a5ac8ef8a7a64671073e6c"
+  },
+  "interpretation_boundary": "Transport plan only. No Gaia source outcome or registered-control outcome was inspected.",
+  "next_stage": "Execute checkpointed v071 supplemental control-domain Gaia acquisition.",
+  "planned": {
+    "hpm_margin_arcsec": 915.0,
+    "hpm_min_masyr": 1700.0,
+    "hpm_pair_queries": 16,
+    "maxrec": 50000,
+    "minimum_subdivision_cell_deg": 0.03125,
+    "ordinary_margin_arcsec": 125.4,
+    "ordinary_root_queries": 3009
+  },
+  "status": "COMPLETE"
+}
