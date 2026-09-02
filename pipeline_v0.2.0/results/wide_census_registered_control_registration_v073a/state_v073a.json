@@ -1,0 +1,9 @@
+{
+  "analysis_kind": "wide_census_registered_control_registration_v073a",
+  "candidate_dispositions": "NONE",
+  "completed_jobs": 528,
+  "completed_pairs": 33,
+  "control_contract_sha256": "be2febd2696f1798a0a78c2724420f3aaac939a825ebe5b296b126ba9ce47eeb",
+  "script_sha256": "f0ca230b3565e1017b404ea52d4779febaba13db8d9253c2965cd90a0857c353",
+  "status": "COMPLETE"
+}

@@ -1,0 +1,93 @@
+{
+  "analysis_kind": "wide_census_registered_control_registration_v073a",
+  "control_contract_sha256": "be2febd2696f1798a0a78c2724420f3aaac939a825ebe5b296b126ba9ce47eeb",
+  "global_control_distribution": {
+    "primary_corrected_le3": {
+      "max": 17490.0,
+      "mean": 16906.9375,
+      "median": 16919.0,
+      "min": 16631.0,
+      "n": 16,
+      "stdev_population": 205.8483873965254
+    },
+    "primary_loo_robust_corrected_le3": {
+      "max": 14924.0,
+      "mean": 14522.1875,
+      "median": 14498.0,
+      "min": 14278.0,
+      "n": 16,
+      "stdev_population": 146.03989983477118
+    },
+    "primary_registered": {
+      "max": 190795.0,
+      "mean": 188472.4375,
+      "median": 188487.5,
+      "min": 186066.0,
+      "n": 16,
+      "stdev_population": 1272.6674236004276
+    },
+    "sparse_diagnostic_corrected_le3": {
+      "max": 223.0,
+      "mean": 182.25,
+      "median": 179.0,
+      "min": 155.0,
+      "n": 16,
+      "stdev_population": 19.504807099789527
+    }
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_rerun": false,
+    "network_access": false,
+    "threshold_retuning": false
+  },
+  "interpretation_boundary": "Registered shifted-control population only. No individual candidate is promoted, rejected, or closed by this stage. Observed-versus-control comparison is a separate downstream audit.",
+  "outputs": {
+    "global_summary": "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_global_summary_v073a.csv",
+    "job_summary": "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_job_summary_v073a.csv",
+    "pair_summary": "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_pair_summary_v073a.csv"
+  },
+  "registration_method": {
+    "affine_terms": false,
+    "excluded_targets": [
+      "A",
+      "shifted_B",
+      "original_unshifted_B"
+    ],
+    "exclusion_arcsec": 30.0,
+    "higher_order_terms": false,
+    "leave_one_out_robustness": true,
+    "primary_clipping": false,
+    "primary_min_common_same_gaia_refs": 5,
+    "primary_transform": "translation-only componentwise median",
+    "reference_field": "unshifted historical detector/Gaia field",
+    "sparse_diagnostic_only": true,
+    "sparse_min_refs_per_archive": 3,
+    "target_a": "unshifted endpoint_a member",
+    "target_b": "synthetically shifted endpoint_b member",
+    "target_center": "spherical midpoint of A and shifted B",
+    "windows_arcmin": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ]
+  },
+  "script_sha256": "f0ca230b3565e1017b404ea52d4779febaba13db8d9253c2965cd90a0857c353",
+  "status": "COMPLETE",
+  "upstream_implementation_sha256": {
+    "v062": "ec764f7f35b53f682d59d1acf0e6fa6da1b24f4282b4c6c4f99a9d853c2e1001",
+    "v068a": "9376ed5244b5defe074732dbb92e7870b618e25001cd2da4162b48dff549e0f2",
+    "v069": "0471c95ae5fd44b7d0c951de18aa2af493a276257747fe0e0850bc9c6288dbe9",
+    "v071b": "d24d5a491d53dc529b4c80887d0c2e5e2b423470db2e80cb0efea15787b4693a",
+    "v072_closure": "7b90b5f5ffc4c8a363fd694d34a13dbde1616c04a71807cfd0e093baadec35c6"
+  },
+  "verified": {
+    "control_jobs": 528,
+    "coverage_closure_v072": true,
+    "pairs": 33,
+    "v062_exact_reproduction": true,
+    "v062_raw_control_le10_all_jobs": 3048415,
+    "v062_raw_control_le3_all_jobs": 274648
+  }
+}
