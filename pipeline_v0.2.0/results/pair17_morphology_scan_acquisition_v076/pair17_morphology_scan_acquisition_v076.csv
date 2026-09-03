@@ -1,0 +1,3 @@
+endpoint,plate_id,filename,url,expected_bytes,actual_bytes,sha256,status
+APPLAUSE:14120,7685,LA08164_y.fits,https://www.plate-archive.org/files/DR4/scans/HAM-LA/LA08164_y.fits,426124800,426124800,e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f,COMPLETE
+APPLAUSE:132654,89580,012673_1953_h.fits,https://www.plate-archive.org/files/DR4/scans/Bamberg-North/012673_1953_h.fits,174888000,174888000,871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62,COMPLETE

@@ -1,0 +1,34 @@
+{
+  "analysis_kind": "pair17_v076_applause_scan_acquisition",
+  "contract_sha256": "02f3d9d0b5bbc7a89a44c270d59537c878ec9d52fb7a70d0d97930aeb5420c2f",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_rerun": false,
+    "morphology_measurements": 0,
+    "registration_rerun": false
+  },
+  "next_stage": "Freeze/execute v076 native-pixel morphology implementation against these exact recorded scan bytes.",
+  "scans": [
+    {
+      "actual_bytes": 426124800,
+      "endpoint": "APPLAUSE:14120",
+      "expected_bytes": 426124800,
+      "filename": "LA08164_y.fits",
+      "plate_id": "7685",
+      "sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f",
+      "status": "COMPLETE",
+      "url": "https://www.plate-archive.org/files/DR4/scans/HAM-LA/LA08164_y.fits"
+    },
+    {
+      "actual_bytes": 174888000,
+      "endpoint": "APPLAUSE:132654",
+      "expected_bytes": 174888000,
+      "filename": "012673_1953_h.fits",
+      "plate_id": "89580",
+      "sha256": "871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62",
+      "status": "COMPLETE",
+      "url": "https://www.plate-archive.org/files/DR4/scans/Bamberg-North/012673_1953_h.fits"
+    }
+  ],
+  "status": "COMPLETE"
+}
