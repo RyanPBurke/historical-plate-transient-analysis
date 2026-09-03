@@ -1,0 +1,3 @@
+BITPIX,BSCALE,BZERO,candidate_rows_checked,coordinate_definition,coordinate_preflight_status,dtype,endpoint_key,hdu_index,path,sha256,shape_yx,side,size_bytes,tiles_checked
+16,1.0,32768,36624,"zero-based native FITS x=global_x, y=global_y; local coordinates are relative to 64px-halo extraction",PASS,>i2,APPLAUSE:14120,0,work/pair17_morphology_v076/scans/LA08164_y.fits,e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f,"[12410, 17168]",A,426124800,136
+16,1.0,32768,7372,"zero-based native FITS x=global_x, y=global_y; local coordinates are relative to 64px-halo extraction",PASS,>i2,APPLAUSE:132654,0,work/pair17_morphology_v076/scans/012673_1953_h.fits,871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62,"[10780, 8111]",B,174888000,21
