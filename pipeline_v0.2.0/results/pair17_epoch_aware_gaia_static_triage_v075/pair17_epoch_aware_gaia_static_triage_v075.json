@@ -1,0 +1,90 @@
+{
+  "analysis_kind": "pair17_epoch_aware_gaia_static_triage_v075",
+  "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+  "contract_sha256": "76901ffba61cd07c5bd1d797a78112967cc85bd1dc032e137e5a878fd462cfed",
+  "detector": {
+    "endpoint_a_candidates": 36624,
+    "endpoint_a_duplicate_coordinate_match_ambiguities": 0,
+    "endpoint_a_reciprocal_gaia_matches": 19932,
+    "endpoint_b_candidates": 7372,
+    "endpoint_b_duplicate_coordinate_match_ambiguities": 0,
+    "endpoint_b_reciprocal_gaia_matches": 5852
+  },
+  "epoch_utc": "1953-12-02T20:48:58.500000+00:00",
+  "frozen_population": {
+    "diagnostic_corrected_not_loo": 179,
+    "primary_corrected_le3": 603,
+    "primary_loo_robust_le3": 424,
+    "primary_registered": 1618
+  },
+  "gaia": {
+    "catalogue": "Gaia DR3",
+    "cell_key_inference": {
+      "column_x": "cell_ira",
+      "column_y": "cell_idec",
+      "rows": 493
+    },
+    "deduplicated_raw_transport_rows": 809467,
+    "official_loader_input_mode": "integer_cell_tuples",
+    "official_loader_metadata": {
+      "duplicate_rows_removed": 914512,
+      "files_read": 873,
+      "missing_motion_excluded": 90287,
+      "transport_rows": 1723979,
+      "unique_rows_before_motion_filter": 809467,
+      "usable_rows": 719180
+    },
+    "official_v068a_finite_motion_rows": 719180,
+    "pm_incomplete_finite_position_rows": 90287,
+    "resolved_transport_files": 873
+  },
+  "guards": {
+    "astrometric_registration_rerun": false,
+    "candidate_disposition_changes": false,
+    "detector_rerun": false,
+    "manual_review": false,
+    "network_access": false,
+    "threshold_retuning": false
+  },
+  "interpretation_boundaries": {
+    "catalogue_absence_is_transience": false,
+    "catalogue_association_alone_closes_pair": false,
+    "strict_same_gaia_both_endpoints": "strong persistent-source support requiring downstream state handling under the frozen policy; v075 itself does not close",
+    "unexplained_primary_survivors": "proceed to separately frozen morphology context and sensitivity-qualified recurrence/injection-recovery",
+    "v075_changes_candidate_dispositions": false
+  },
+  "outputs": {
+    "input_manifest_csv": "results/pair17_epoch_aware_gaia_static_triage_v075/pair17_static_triage_input_manifest_v075.csv",
+    "pm_incomplete_context_csv": "results/pair17_epoch_aware_gaia_static_triage_v075/pair17_gaia_pm_incomplete_context_v075.csv",
+    "triage_csv": "results/pair17_epoch_aware_gaia_static_triage_v075/pair17_epoch_aware_gaia_static_triage_v075.csv"
+  },
+  "pair_index": 17,
+  "physical_exposure_overlap_s": 299.0,
+  "status": "COMPLETE",
+  "triage_counts": {
+    "all_603": {
+      "DIFFERENT_GAIA_SOURCES": 56,
+      "GAIA_ASSOCIATION_AMBIGUOUS_OR_PM_INCOMPLETE": 65,
+      "NO_GAIA_WITHIN_5_ARCSEC": 9,
+      "ONE_ENDPOINT_GAIA_ONLY": 216,
+      "SAME_GAIA_DIAGNOSTIC_ONLY": 161,
+      "SAME_GAIA_STRICT_BOTH_ENDPOINTS": 96
+    },
+    "diagnostic_179": {
+      "DIFFERENT_GAIA_SOURCES": 13,
+      "GAIA_ASSOCIATION_AMBIGUOUS_OR_PM_INCOMPLETE": 25,
+      "NO_GAIA_WITHIN_5_ARCSEC": 6,
+      "ONE_ENDPOINT_GAIA_ONLY": 72,
+      "SAME_GAIA_DIAGNOSTIC_ONLY": 38,
+      "SAME_GAIA_STRICT_BOTH_ENDPOINTS": 25
+    },
+    "primary_424": {
+      "DIFFERENT_GAIA_SOURCES": 43,
+      "GAIA_ASSOCIATION_AMBIGUOUS_OR_PM_INCOMPLETE": 40,
+      "NO_GAIA_WITHIN_5_ARCSEC": 3,
+      "ONE_ENDPOINT_GAIA_ONLY": 144,
+      "SAME_GAIA_DIAGNOSTIC_ONLY": 123,
+      "SAME_GAIA_STRICT_BOTH_ENDPOINTS": 71
+    }
+  }
+}
