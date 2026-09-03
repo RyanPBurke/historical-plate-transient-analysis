@@ -1,0 +1,2396 @@
+{
+  "analysis_kind": "pair17_v077a_bank_manifest",
+  "diagnostic_opportunities_per_candidate": {
+    "maximum": 930,
+    "median": 835.0,
+    "minimum": 588
+  },
+  "execution_runner_sha256": "737ff9e21795f064f102d95baabb14d3bead1da7488aa3c7c188adb746d7865d",
+  "files": [
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/archive_inventory_v077a.adql",
+      "sha256": "4210eb92a62d2aebdcbe4898ef60407ac725b5b1ee1951c3b552c7880cfb7714",
+      "size_bytes": 101
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/archive_inventory_v077a.meta.json",
+      "sha256": "036ee40d2c744654397bb3045f263352b3d461573a8623179302956dadebe5fe",
+      "size_bytes": 402
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/archive_inventory_v077a.vot",
+      "sha256": "7c36c27242923a2d7e5149f4d3c8059a6c7601914eff777423ecf381ac28c846",
+      "size_bytes": 7679
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/candidate_region_solution_scan_superset_v077a.adql",
+      "sha256": "995baeaaa8df11f162bece0c046573845e994142228ec677acdff846eb1ed64f",
+      "size_bytes": 610
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/candidate_region_solution_scan_superset_v077a.meta.json",
+      "sha256": "55849d14365be712e941b7dee86db4c188133fbcf7f91bd01a0f2de10ace294a",
+      "size_bytes": 427
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/candidate_region_solution_scan_superset_v077a.vot",
+      "sha256": "d839fa70433241422a42cc09e19826a0920f3edeab2b0e8765f6f81dcf66fc2c",
+      "size_bytes": 155150695
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/global_solution_max_fov_v077a.adql",
+      "sha256": "eb37cc6b212d7ec7f64a195e176040649cd622a6704d51ddca170911ff07963d",
+      "size_bytes": 87
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/global_solution_max_fov_v077a.meta.json",
+      "sha256": "9291da871cfaadd415625cde0ab6939b85bfb380e1ae1b680decf1d9017d764c",
+      "size_bytes": 407
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/global_solution_max_fov_v077a.vot",
+      "sha256": "97587c89ce2635420c089895ea4658c399e3976abb8014f38dae36561dca1c55",
+      "size_bytes": 1827
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0000_v077a.adql",
+      "sha256": "9042f869eb6fd6098c346155c7c416e0370f20320273da3fdea6218174c3b41d",
+      "size_bytes": 987
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0000_v077a.meta.json",
+      "sha256": "7166966856b8637a8c3e81208b08262c53c88153a7a2f692ba3a62077021e0d6",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0000_v077a.vot",
+      "sha256": "b210b5e133ec9231d6147f9f5e8fe56d365cbfdf6158024a3038094bb5b6a586",
+      "size_bytes": 26940
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0001_v077a.adql",
+      "sha256": "22c12ec523a7b45db08d3dfa516a723704bd3dfaa5faec89b4c2bfd5fcb4bf37",
+      "size_bytes": 989
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0001_v077a.meta.json",
+      "sha256": "48deb8cd9f80b3bebe182e5a87fa99662ef4b70519b1d0573b5f2f1a527bb963",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0001_v077a.vot",
+      "sha256": "e67efe5eeb09e3fb4f1304a9ce613426d8a778bf998af07ca23aa1842bad710d",
+      "size_bytes": 26561
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0002_v077a.adql",
+      "sha256": "d3570120931e5406629d35029aa5976906907217e8fc537ffd7d8b956750db4c",
+      "size_bytes": 1037
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0002_v077a.meta.json",
+      "sha256": "c5776e758ca8486c98fc490c4cab181249a1d4ce7979b0a78c81f254811c5014",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0002_v077a.vot",
+      "sha256": "8c3b64dac5e1d13a7a5cc568500815daaef9f4e31e344695dd31b1cf6fe57bc7",
+      "size_bytes": 34058
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0003_v077a.adql",
+      "sha256": "8f1b4bd0f4ba4edb455a292c5f13be95cf37eb6a5a6dae1ac8800e94539f67ad",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0003_v077a.meta.json",
+      "sha256": "854fb0a72d2032bd70aacc2c983e4e82a0a2843c1f33825e0ed60aacc7eebd58",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0003_v077a.vot",
+      "sha256": "be48cacb431090191a3306735a7be80ff5c4569fe98cfeb45a17fa93bf263b7d",
+      "size_bytes": 29755
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0004_v077a.adql",
+      "sha256": "d6fb4024a5ced457bb296142e022f2d70413b599a41d5b69580c9fff2feb9f5f",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0004_v077a.meta.json",
+      "sha256": "5b3a0b437d4b4356adc41f9f891dd912d798d52d6e61fe2427a6329467c657f4",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0004_v077a.vot",
+      "sha256": "63b832f1b8af4358403846c56f64d06ffdfde73530b58956ef5e5dd6003fcefc",
+      "size_bytes": 26260
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0005_v077a.adql",
+      "sha256": "017975be3e0093ad320f85ee275e8204eddfab974de0e01f25761c78b422ffe5",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0005_v077a.meta.json",
+      "sha256": "d709fbe678db7f350c885b46af7fce6fb3c4dc160556cf0b4f66306b23a75160",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0005_v077a.vot",
+      "sha256": "3e9934f13591ce860b3e084fdbb0d56c77fbab3b5b7f081c99a1b196cd456f35",
+      "size_bytes": 27097
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0006_v077a.adql",
+      "sha256": "7bc7601b6bf61d733f55e4897698e8e9dbce02be4e452d7f116b1d3464eccb41",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0006_v077a.meta.json",
+      "sha256": "55fb67fbb0cbfb8bacc9710b57d74d6369ff1a021ca7c0297f5454977b88bf88",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0006_v077a.vot",
+      "sha256": "2565f8d5cbd26d684b4003bf63d5ac49d66c2cd6f61cca2af0d038e97de3760d",
+      "size_bytes": 28897
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0007_v077a.adql",
+      "sha256": "7fcccab48710a4f6209311364ce45fcc3c49836337d07d901df5f7ce4d74d3dd",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0007_v077a.meta.json",
+      "sha256": "8086578d4e526d7b1c810cff29f612ec1e64a77ebcb3c95468c11843d91c1c58",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0007_v077a.vot",
+      "sha256": "d75095b766266f97628c0753df14ad4172b5792de90d3a405780647da9c43131",
+      "size_bytes": 34569
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0008_v077a.adql",
+      "sha256": "110fccc95892c8b36a7da6cd36bc410e153c3bb722f0c3ea326cb86af7d75c78",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0008_v077a.meta.json",
+      "sha256": "4a7e3d73efb50822cd235f490c30d4aa4ff36c083ca0be5f6f9bc1b30e716bee",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0008_v077a.vot",
+      "sha256": "776f1921725b7c3aeb938a506b53e1016ba160de5860fda034194dc1f998a117",
+      "size_bytes": 102600
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0009_v077a.adql",
+      "sha256": "2cd13cc668052f79b3583411c5f258f9a0dc59676c4fe441a67d9e0de8118cdd",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0009_v077a.meta.json",
+      "sha256": "59e4e71e148ec86a04c79a1bda93b4a18d20c10b334c5b310ed070df3c9548d1",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0009_v077a.vot",
+      "sha256": "96ad68a6fcb5ac7d5d4d5c228a87e67bd07a1596660943dab176b239a4237d22",
+      "size_bytes": 28002
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0010_v077a.adql",
+      "sha256": "fba9271494576499ce5e73fa02e80b6c0fa3e0db561c2e26addbea4ae7a6b2d0",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0010_v077a.meta.json",
+      "sha256": "6cddf6df2c970c37700d59fcbeb1b2becf38866830a85eb0b4fddbdafb1c2d3b",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0010_v077a.vot",
+      "sha256": "f97c78c10826d1be46c77805934bbc96e3a1c3d6cc6d88393ceec57d76dff57c",
+      "size_bytes": 41318
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0011_v077a.adql",
+      "sha256": "5315b2af71a0a7b1f8e469919b104a0d19e07c65bc16bcfa04807c23b161268d",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0011_v077a.meta.json",
+      "sha256": "7234fcce386733ef35aa1d55ad61ee44df5c3de094983fe52eafdb4856f91f32",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0011_v077a.vot",
+      "sha256": "0e3f103210052ed26a7ead4dee47d4c3d4831a0d3bf4ce1b9fe2c2e6efd47e92",
+      "size_bytes": 29683
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0012_v077a.adql",
+      "sha256": "43ec64312a6bb424bbae810e02cf3a4f657fa5d6fbfd8323bce3efe48bced1b9",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0012_v077a.meta.json",
+      "sha256": "caaf1141dabb4e76e43e40a1fcb32e73b9314a10b5f7a20e0a56feb95802bf7e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0012_v077a.vot",
+      "sha256": "7f46cafc5e96de1c96edad0e83a29b6324c195bb90bfb14dd63b0ab3fd4ee5cc",
+      "size_bytes": 35528
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0013_v077a.adql",
+      "sha256": "5b73fd9a9c779ce70fbc217c6d044e43b5ea8d5cad7d79472a36770dec1709b3",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0013_v077a.meta.json",
+      "sha256": "f8c0d5235fb642de4ca814906c5008335e6dfbeeecab8100fece6c228709960d",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0013_v077a.vot",
+      "sha256": "e010a7a852d9bdb3816b04d11ff28d372a0db212a720247ca07109754cdbbc36",
+      "size_bytes": 27573
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0014_v077a.adql",
+      "sha256": "3edae491cf13890be3eb13ca344b8e1969cbea94a779d0cdbbc24be37567dc38",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0014_v077a.meta.json",
+      "sha256": "9e58015a1475fc7d2f049c2b90bd4a0e0ddf7e7e542c5be05e44f4671b6bddb8",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0014_v077a.vot",
+      "sha256": "72c228c9178c6c482d538e66b395b6cc5229f1fa5303a2bdeaa350436f55715a",
+      "size_bytes": 26242
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0015_v077a.adql",
+      "sha256": "999602e148095e49ecfbb5d0b5d659c320a68e4d2b91e0c7fa8bc057655a8da7",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0015_v077a.meta.json",
+      "sha256": "d463db6ba80a3204e05fa8a4bbb575000538d0f66d995fdd18297219512e8fd0",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0015_v077a.vot",
+      "sha256": "04c12e7f4cb970a13caf08853a47de8568793298c0856e346760c8d853f6cabd",
+      "size_bytes": 29327
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0016_v077a.adql",
+      "sha256": "0cbd059f3ee2bc21305917c0ae991f4a2c78fe2503ee8f5b705274bfa4a282b3",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0016_v077a.meta.json",
+      "sha256": "d52ad53323bf4a0224237b9c6a9fd296b52ccf7eaaa89e452d8a831e2529b523",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0016_v077a.vot",
+      "sha256": "106b93e08ebb9b8b3f2a3929061ed8fbe69e780306e8fd1240f2316ced56e07e",
+      "size_bytes": 28642
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0017_v077a.adql",
+      "sha256": "46e8b44ff29b34cf04e3444785d46ff2c2d2bcfc49370619d08ae0e90e0184d8",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0017_v077a.meta.json",
+      "sha256": "cf732ded9a0f8f4890d2e5be0bc3eeae67ba4c13b910d78b846efbaaa8516828",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0017_v077a.vot",
+      "sha256": "0beb8107eb493a5304f1f7164a07bcc82f972a2b87c766e265ae433fa09d8ed9",
+      "size_bytes": 40189
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0018_v077a.adql",
+      "sha256": "da95650912a8672c11cfa44ce797192359c417729252ed2c010f823df9b6298c",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0018_v077a.meta.json",
+      "sha256": "0be2cee3f3786d84d1e8d9d05449efc70199de47108f5570eddb86d1f5447f2a",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0018_v077a.vot",
+      "sha256": "f259944c07106a742387da70277348297d32f56137beb0cea711b662c922b48e",
+      "size_bytes": 32514
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0019_v077a.adql",
+      "sha256": "ced5ca5c9466aa8b656cfa1746539b8b756789841a4a4d90576909d3eb7688b0",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0019_v077a.meta.json",
+      "sha256": "527b1bb6e6996367a681aaa937137d12c8ddbfd67e4aa60ed636dc9ceddfd89d",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0019_v077a.vot",
+      "sha256": "c55978ec79f6a2ac05219bf05165e02423d6b931ac465b0b74380ca0f0bd608f",
+      "size_bytes": 27173
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0020_v077a.adql",
+      "sha256": "a96abc59b4456e66217e6852524f57e91d2ee2dd7b8e2d85056155dbc8333cf2",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0020_v077a.meta.json",
+      "sha256": "e505a980692fbf564576d3e75d1a3014c4cb505721ac9349aded4c59982f205d",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0020_v077a.vot",
+      "sha256": "a4658e842dc631e3bd607d0970c09c6df869304e7af1538f8ccf2937245a2964",
+      "size_bytes": 27100
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0021_v077a.adql",
+      "sha256": "75a3e799b8cc79aa02230e55fa8081356359e40b2bb6eb30276b41397a140ec0",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0021_v077a.meta.json",
+      "sha256": "383c54de64dcce5f52d9499ada51a5a4b5dd8791c1704c29f0e1c40e7aadd4c9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0021_v077a.vot",
+      "sha256": "f3fd0797c4795c7056d542c30d5882b2d3584e679f23ffcb795949a8377aa1f3",
+      "size_bytes": 26249
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0022_v077a.adql",
+      "sha256": "bcd6932148fe56534a7b5ccfec80cd0e89999c7b3aedea0b9ec19528ef627af5",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0022_v077a.meta.json",
+      "sha256": "e0ad43b149efcc5f34f0e30173bdaafb3778dd2b350dc049a4eb55da0d7d6f5e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0022_v077a.vot",
+      "sha256": "77d7a01a69e5553156d90bc5e65b704e8b947bc1ca10eef3e284fb8eca40e78f",
+      "size_bytes": 32438
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0023_v077a.adql",
+      "sha256": "10610182a8c888bd332f36ad97d37ce0c6afd53d61927340a139360e62ae1275",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0023_v077a.meta.json",
+      "sha256": "57786ac61ae0af154005ab50d4e63bfe4d4cbdfc43f53d78de1f5b9afc753c11",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0023_v077a.vot",
+      "sha256": "41277b132ae64eca5ff6362d6605026d9666eb46b05cace4bc46ea5650173774",
+      "size_bytes": 43861
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0024_v077a.adql",
+      "sha256": "183156fdf17f2c7427d32684af59e96e204576fad2eb2e90daab8ff8dc9d6ca2",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0024_v077a.meta.json",
+      "sha256": "37c411dabb51fc4a37a4a56e402326d76b30f6aa3444f2210259d2d50a5bde78",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0024_v077a.vot",
+      "sha256": "ac27b2aa7695a9eb99ce4d7ad00b013a0018adbdc52e9af50aeec6177edf6add",
+      "size_bytes": 32962
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0025_v077a.adql",
+      "sha256": "6db17cbac4e6529e8afe0c36068fd401b3bc553d9bf83bdfc626f7466ed2c281",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0025_v077a.meta.json",
+      "sha256": "691e01ed3274f78d7fa72d1699678b8aeed6e66988cde3618f64f990df1c3982",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0025_v077a.vot",
+      "sha256": "d386e1835ad963915c1ff04d0a5772ff0bf03c4623cf45af758ea09dda5df506",
+      "size_bytes": 37359
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0026_v077a.adql",
+      "sha256": "5ae9cc94a865c3ebfb22a2886d54e8ec8d4291a262d323736e712453a343d33d",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0026_v077a.meta.json",
+      "sha256": "c28a02da49343f1af2be21b57c303cb22881ae178715ab184761359bdbac8309",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0026_v077a.vot",
+      "sha256": "d1c118bdeb212fd42979abdd07b1938ed5ce32eab6ec2db1254bb93694f6ea40",
+      "size_bytes": 32070
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0027_v077a.adql",
+      "sha256": "69cf9792788efb3dc95f60d5c263498cbcf4bc7e28e80b8ee5ff0558a8482332",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0027_v077a.meta.json",
+      "sha256": "674c0d628871bddb7cd8f854643272b2720592a223a2c42d303c25b6cb9c04f9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0027_v077a.vot",
+      "sha256": "a772b1c85f76a0fefbffd0606f7d4095e2cda760927b0b070f6d4bebe00c3190",
+      "size_bytes": 30327
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0028_v077a.adql",
+      "sha256": "93c419c358c6e4cf1380b07498bf0ab9960af990d141f87c4edd0d7b36bcc690",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0028_v077a.meta.json",
+      "sha256": "14c3fdf0902848475778fe1346b4d750343363d9f4f17d625e680e82a61a6196",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0028_v077a.vot",
+      "sha256": "f8a84296e64ebd5a5c679f05518d34aba98960468601e42de46a05d622485aee",
+      "size_bytes": 36468
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0029_v077a.adql",
+      "sha256": "2557a6e85ba1870b67a67d9efbdb11505fbd373bf0736953123bd51199e02646",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0029_v077a.meta.json",
+      "sha256": "7e951f6ff36b12c958df84504571679cffec5a82da73046c9377a07c1b878823",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0029_v077a.vot",
+      "sha256": "4ca7ef937430fcb3eaad2789c8336e29c0f3b7ddcf06e8f86e6f7afdcc7ef466",
+      "size_bytes": 40405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0030_v077a.adql",
+      "sha256": "48284ca09f978d9d383245f4b578e53530a9926d68dd9c5a2ed4d30a231585b5",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0030_v077a.meta.json",
+      "sha256": "6259e2169f1859b7806dfccf4eb9d94165f82a2bbeed914a6777715df82dab8b",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0030_v077a.vot",
+      "sha256": "4523417ad3d7319ce53a677e19295c8fe4c0cb786b90906a2b7b85a0881d5cee",
+      "size_bytes": 33383
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0031_v077a.adql",
+      "sha256": "3d6ca44a26da99affef4671f12fe36ff74ce461f72ee220e8247ef75d6b62b91",
+      "size_bytes": 1077
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0031_v077a.meta.json",
+      "sha256": "80283b90a6cbc51977163464adf7c68bf491f1322023a3d5066bdde4e69ba4fe",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0031_v077a.vot",
+      "sha256": "aaa80e6c16310c61a1a8f716d51f2d0af5e37e5b4fcef65cc580063deb5eea86",
+      "size_bytes": 27594
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0032_v077a.adql",
+      "sha256": "be10d01dcc62da21adc26c1a13d773f2f8b28655df1e866a6912efdf2442f55c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0032_v077a.meta.json",
+      "sha256": "5dcf66987204d7d9b0ad2fbaecf552664897c0a843adf8f81ac06d425c1d16a9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0032_v077a.vot",
+      "sha256": "705400e3dd4ed0224d5d186c51530e82fb91bc198a016fe2a0d5b97613850a3a",
+      "size_bytes": 27198
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0033_v077a.adql",
+      "sha256": "17098b77432607abfca3e507d53d7dbf58de2b969254028a4a6ab7b29506e04f",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0033_v077a.meta.json",
+      "sha256": "d23470f7b4318fc09486f49fe68961f846f19b44487dba2b2be54ed93ad07060",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0033_v077a.vot",
+      "sha256": "3085852b08baac5997ec9f37636b82d83267d4c58afe9fcd6c05eb2b7dc3b9e7",
+      "size_bytes": 26345
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0034_v077a.adql",
+      "sha256": "33da55049970a5059c063f175545f203be0e2a0e91ac0dfd3cfd9354bd7e08d8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0034_v077a.meta.json",
+      "sha256": "b9346128f0dc24872e59cd67b6b524d8ea20f7e1de13e4450cc6aec7392248b3",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0034_v077a.vot",
+      "sha256": "bd7fce3678b2c15505c6dbba5ec26287b8b0fe8ed253cd99ce9d452a88b545fe",
+      "size_bytes": 26333
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0035_v077a.adql",
+      "sha256": "27caba2a168388b8ae377b4c76f25edb2c9085e57b713dc49b570eeb57c9b4c5",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0035_v077a.meta.json",
+      "sha256": "d8bcad3168c323c4bffb0a095ad3900ee74193a02e8e04452ba2acc1ffd52bd7",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0035_v077a.vot",
+      "sha256": "21adcf1e58108890f29b20762bf0925f101c1c4d442dec9e7bc65194728de7c2",
+      "size_bytes": 35565
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0036_v077a.adql",
+      "sha256": "de2a79e486116288fdb5950509bb7bee56f58dd0600175c39e6da4c3281ede71",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0036_v077a.meta.json",
+      "sha256": "e88071a5fccddf36172df4206adb98f9c590cc5532e51e6c89aae0977f797baf",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0036_v077a.vot",
+      "sha256": "665cc85c0e4705418771285054605def6e9be0f4cf4255d98585e6a0ca6d44cc",
+      "size_bytes": 26359
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0037_v077a.adql",
+      "sha256": "1dbca753f62bac02fe81210dc4b161b8d3b4041f8417f4959ad3700e5d1e9dff",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0037_v077a.meta.json",
+      "sha256": "e26bf386ca27464790a51c5cc025c37bf0aaca639f2c255efa8d7406918005c6",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0037_v077a.vot",
+      "sha256": "258fe3e646bd79861a8304c7c5a8cb640785fb7ace1d2eebc86505d3d3e45ce3",
+      "size_bytes": 34377
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0038_v077a.adql",
+      "sha256": "c49d0ca8ee870bd233fbe43a61853a5ca601ab483325818028262a99b6f4824d",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0038_v077a.meta.json",
+      "sha256": "6bae344e908f1f6085137fb2b3aec59b335e8ad76eab89797f90b058638ab8a1",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0038_v077a.vot",
+      "sha256": "6c493df8ba0245b0013524a1cf0850da9ce48d119f8a74a575182edc7138392a",
+      "size_bytes": 32551
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0039_v077a.adql",
+      "sha256": "0827a70dc17f76a53fbe2414f622b8a37994372c94913f7633a47f1cbbba7ca8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0039_v077a.meta.json",
+      "sha256": "6f465d27b1866ab5cd8589034b57b236504698096c68551aa8ba14c2a7eeffe7",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0039_v077a.vot",
+      "sha256": "041acc507ee69b28163ebbf31f5227ae511334d2b0049a2c2e4a4e6fbdc069d8",
+      "size_bytes": 26585
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0040_v077a.adql",
+      "sha256": "a580a7a3a38248258c05b4c3ddf61f24cd28c4f5c4149ab8180b562475af10a8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0040_v077a.meta.json",
+      "sha256": "e716edfb831ae867798698f1e6dd124aeb0b6622c04238d765aa944bde036f68",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0040_v077a.vot",
+      "sha256": "92524dec32d33f07a855275e9a1e3e078d0834e947441ed1781dff6d8343f1a2",
+      "size_bytes": 25726
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0041_v077a.adql",
+      "sha256": "8a5ffc36d9325e9886b4b3969b2d1f6a481e4aa74215496175d966263d04d479",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0041_v077a.meta.json",
+      "sha256": "4595ba54964e02c19b6d0239b812cb27eb67322403d95cbac329ae87278b3ff4",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0041_v077a.vot",
+      "sha256": "a8bbe238cffb3229c9fc57225238794bd8e284d13d254e5847eaf324b0cf9181",
+      "size_bytes": 25772
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0042_v077a.adql",
+      "sha256": "a9dd8e4ca5cb869439b705ef5e95b3514883341a4a83d1cff377900096ec9ad9",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0042_v077a.meta.json",
+      "sha256": "6290bf9554287fc5882432ce582e348eac0d3b801ff6b8186d44da5770a79a42",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0042_v077a.vot",
+      "sha256": "3de7b15c84c803e22ae28fd8bc5fe42b18360de29e7f706f0025d5520887f5ee",
+      "size_bytes": 25802
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0043_v077a.adql",
+      "sha256": "b6cc4c47cdabede096d6a1271061b026086efc256973f349249d057507052d43",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0043_v077a.meta.json",
+      "sha256": "6c5e600d47308b7f3981f7df919d7c206eb90161c23e2e4fe955a97b5d2cc941",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0043_v077a.vot",
+      "sha256": "bab7f185e260f34ee2a6322e37184f5bf392d820d45da54aee2fee3f763731af",
+      "size_bytes": 25716
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0044_v077a.adql",
+      "sha256": "886ee5b81742dac8f8fc6b944aff75ea7ea6d9674758ea8848746f0177899798",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0044_v077a.meta.json",
+      "sha256": "269c50e78ead41014fed21a2d8c53d6d836edf4f8476ff82e09777c64bcd0522",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0044_v077a.vot",
+      "sha256": "76b24bf0207013343495b0085aef36b3dfa9cebd2edc700f5c9ad6ada4ce1a21",
+      "size_bytes": 25697
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0045_v077a.adql",
+      "sha256": "d57f6b389edc63a1f7273a0b227ebb5715cf1958af137d0955cd1cab7f51bc5d",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0045_v077a.meta.json",
+      "sha256": "375fd5b9326e13bc699173727b135dc8dcce8df05085d9b5f0e1f173917a60e6",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0045_v077a.vot",
+      "sha256": "ad26652a9f26e16690757b67ec5835b841390c28f05843053cb40916734c2529",
+      "size_bytes": 25691
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0046_v077a.adql",
+      "sha256": "ebae60cae552dcacce3bc128d06897bb78e2c14e503cfc0897e73854a37d81f3",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0046_v077a.meta.json",
+      "sha256": "24f0139317555da6f34b3293d83a7550ecdc00619c71dc008c6988e7952f3b0f",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0046_v077a.vot",
+      "sha256": "e07b47f500033e9a2b09f00c1ec37731432d092d8e19e6df1129f906ba245fbe",
+      "size_bytes": 25708
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0047_v077a.adql",
+      "sha256": "05254441358fd819a5053a15782085fbd13471f8cf63479cd9cc014440b06a3a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0047_v077a.meta.json",
+      "sha256": "8bd0e18ba367df3855a44a059823e5d6bc60d45f8b2bc43059931128a5ed86d4",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0047_v077a.vot",
+      "sha256": "d1d292ae3da605763da86e5cacd69e2583edf348899bf307a30faff5efa3a202",
+      "size_bytes": 27419
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0048_v077a.adql",
+      "sha256": "842d5cbf55f29ddd03cac328607bb5210ba0565213ed4dabc06c1ce290814d68",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0048_v077a.meta.json",
+      "sha256": "7666589a90f3e1cfd0915cf790b5f37d7015e98e07e9c1f23678b43df9708fed",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0048_v077a.vot",
+      "sha256": "3dd349568a07b1b51998d9b4331d96c684f8954231e842bad7cd3fb9ec7bb67c",
+      "size_bytes": 26534
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0049_v077a.adql",
+      "sha256": "5e813dc035e3ef7614f9f7845b6309ba932620e95450ed972a119b7b896d59ea",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0049_v077a.meta.json",
+      "sha256": "a393eeb5f7052d04962a37df841c6b8658644611f411dff67f98f2b01ec3624b",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0049_v077a.vot",
+      "sha256": "30c455d22c2b3db18f481428a94658dd1616cb030f06921eb7cf4933c1e3f8d6",
+      "size_bytes": 25667
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0050_v077a.adql",
+      "sha256": "ad9419528c5ea8e4ccd904b9f7e8cb2a07ba7163ffdabb481162e26a389c5398",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0050_v077a.meta.json",
+      "sha256": "89e658466876ef1fd133179b613b1aeb8cef83cfb9282d06c461c1b677b613d5",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0050_v077a.vot",
+      "sha256": "c291ad8aeb76988e949b9fb3d41f01abe3573b914762c623e2091371c5a08c79",
+      "size_bytes": 28695
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0051_v077a.adql",
+      "sha256": "9b7bdbd7a8f9884770537fe15183bbb2581e4d90ca2c26a881c3ab3a3ef732c5",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0051_v077a.meta.json",
+      "sha256": "90c667ea962c6b6a6d914ff49a5231fff1323d388c86460378433445b401853a",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0051_v077a.vot",
+      "sha256": "e5de4dc2704b06666f1e46db981a78c97b2d7156623a535e15d4996fff4464d7",
+      "size_bytes": 28736
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0052_v077a.adql",
+      "sha256": "7863c7121bfe9afa65fca2b205cc07b428cabf5fd1434952384a5c9ebfa51fcd",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0052_v077a.meta.json",
+      "sha256": "9e1344079c41672057b00c6cb9f9dd0de3a1284f94702f9947589d796fb676de",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0052_v077a.vot",
+      "sha256": "43e02199c1b507eed1cf03a59aafa1cc98db1f1a5ca9846ad4c16180d0cc321c",
+      "size_bytes": 26146
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0053_v077a.adql",
+      "sha256": "1e66d843ca8194ba7029e905880d850e789b6899bb0af28d06fabb66417454c0",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0053_v077a.meta.json",
+      "sha256": "0250c3913ece618ace983c026d08c3d3e8826456b7b65f41b49cd9a3d038be7a",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0053_v077a.vot",
+      "sha256": "c0f77a6e568c357df6601e8feebaf0d51e49fae4d7f8c76dd7c40578ee94064a",
+      "size_bytes": 25543
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0054_v077a.adql",
+      "sha256": "0255081928ca820602578dba6f4b79caf41794c878abef4f19ac0b56ebc4f454",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0054_v077a.meta.json",
+      "sha256": "ce68c76ec798814f5ed64b3eb4a5720fc06dd4cc22758c656f9e3b75f6a04637",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0054_v077a.vot",
+      "sha256": "9c612e54a7b2f3c25229c8d1f444c74d773535dc4b72c725841c530d84de630e",
+      "size_bytes": 25939
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0055_v077a.adql",
+      "sha256": "4dc562bc3899364ccb5f162a432160794b804c6e32f39fd505b0bedffc5bb2e1",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0055_v077a.meta.json",
+      "sha256": "da4f33e8c51372eab598dcb54cd78e6141a4b257ca3a57eb398f7c6ef4c1b79f",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0055_v077a.vot",
+      "sha256": "7730e0e9f05a31dd82635aa5011481f3ce5481e43fd843c5f76f59af74d2bd1b",
+      "size_bytes": 25722
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0056_v077a.adql",
+      "sha256": "e20b64a0cd5cfd4584abded180b9e091ae9f2ba1db29f1b2a11577a10c879032",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0056_v077a.meta.json",
+      "sha256": "2bc1b6d9752f85652b9afa1968339e60d41ab7c1e9d1a3033ea6b86a36bf6c5d",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0056_v077a.vot",
+      "sha256": "dd7768cab93eb1f411cdc5f84f23943d40f2ba4144e2de4799c516fde27b05c1",
+      "size_bytes": 26170
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0057_v077a.adql",
+      "sha256": "6b69f9a4bfa0473a68a208a2238d784a14ea2d209b8c0881463674dbf5efb629",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0057_v077a.meta.json",
+      "sha256": "50242e2eaeeecf15d2f4d9b684c64b9c5992ff769d1490f08c24bd3a8327e165",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0057_v077a.vot",
+      "sha256": "47b53d0c5e3d8013d47154de33f8489a9464880519171e8af6d6aeae97bdd83b",
+      "size_bytes": 30802
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0058_v077a.adql",
+      "sha256": "573bdd2857458aaabc89b4483b2f1e221fdd495e97a73ef0c71eac1eab5fa79e",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0058_v077a.meta.json",
+      "sha256": "52cb629b5f994abc28dc6d96cd57781308a31664b24588121139c0e4e9a9be88",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0058_v077a.vot",
+      "sha256": "ef1723853afab84dc2d6d33eda25b7098d53dca2e2ddaf9be7c504f64f187327",
+      "size_bytes": 28003
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0059_v077a.adql",
+      "sha256": "7ea673b6c9e1e9a83f3fe75555e5564238a69b7856fe97d3b62e781b03484276",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0059_v077a.meta.json",
+      "sha256": "47397371eaf12d0a2ea8e8d36db8590538a2c2b97f1751b78bdc8fb20fbde888",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0059_v077a.vot",
+      "sha256": "d51c1c97cc317f2be913374dd403b2f2704e6175ea3acfa94b0b186e1faf4617",
+      "size_bytes": 71368
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0060_v077a.adql",
+      "sha256": "bceb38e03785e6ed5db5ad223d0ecab6ef8211e872cc9cca83716790defdcce2",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0060_v077a.meta.json",
+      "sha256": "b70682721d5d485b34f33a1ade32495af9180760ce41778455de27b3230aeea2",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0060_v077a.vot",
+      "sha256": "deb1777a5a1e70404b5ac3e6b3e8a9c7652072a6578e87db18cb4518bfab646d",
+      "size_bytes": 64537
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0061_v077a.adql",
+      "sha256": "277676ca569fc1d5cb00c5d1793d5621bae3f74b1a6b50ebbe25e7d12e0ee47b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0061_v077a.meta.json",
+      "sha256": "e8f7af90efc9b9a112e766d3ffc9a91921d99fd3d7c499ddf1af01576244a90e",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0061_v077a.vot",
+      "sha256": "f83d720674f8991359efe72c1165a9c68c9cacbe3ed1c23c1347fa480fd34043",
+      "size_bytes": 44927
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0062_v077a.adql",
+      "sha256": "337df49ae3db046e2888415e0586b3367b64a1aad6c37b122883db6db5544ccd",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0062_v077a.meta.json",
+      "sha256": "ac4be09222870dd11722aa72e55f0a5818bf5909847f53a8258b2061a19ce5e9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0062_v077a.vot",
+      "sha256": "6bf57b2b25b8490a9fbf6599e89d62402e35bca056116eb0dff863ad5151164f",
+      "size_bytes": 38441
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0063_v077a.adql",
+      "sha256": "e7b43221d197590ba3b3f8e24a60bf92dc60efaa0b5ef514829eed02a5ce292b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0063_v077a.meta.json",
+      "sha256": "90c9c1575243b577ec4f50cbbacb6fa846dde5ad5e3e17d2e6bba5bcbc7dbda9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0063_v077a.vot",
+      "sha256": "06e1ac8bc3328c8c9d39894a63f4fbe944cdfcdf1bb2148ea5ad33d4ab7f7b9a",
+      "size_bytes": 32076
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0064_v077a.adql",
+      "sha256": "b3a18c7bcdf4c2fdbcf98feac4a6cf69a0b3f90efd1b3d2640169cc2d59580cb",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0064_v077a.meta.json",
+      "sha256": "65baa05fd35124d2905c41bc52e6178b2eb31403da90bbd02ae10b0db38aeb42",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0064_v077a.vot",
+      "sha256": "537065fae48d5e0a503201c5445d072f3b1948e25f7fc8e25aef6deb86b86152",
+      "size_bytes": 39264
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0065_v077a.adql",
+      "sha256": "7531c4f639cc1807f1ba95770e908970b93f478c7facf2a8a0cab0e0f0e02a48",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0065_v077a.meta.json",
+      "sha256": "2f2e101432a8bd389279f5069f99701fe3e4ef8ac47a6492c3aea0cdb62cee84",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0065_v077a.vot",
+      "sha256": "f97a3761ba37af28b4c5b4e8ac249582fbcc2003c5b46697851ff0cbf024a257",
+      "size_bytes": 36424
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0066_v077a.adql",
+      "sha256": "adcc1250a262d0d8099452eeb457cc18041954cc201f1a322d4d6ac179fb86c7",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0066_v077a.meta.json",
+      "sha256": "d7c0a533973b7928203e5c363af0dced8a1db9838e4fbff4307579930faf29af",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0066_v077a.vot",
+      "sha256": "8a290a4e9bf70d89b3cfc76ab6c8d253dd9647a5ec7a3c38d968e5e22ebb27b1",
+      "size_bytes": 34915
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0067_v077a.adql",
+      "sha256": "ab7a1632197312389b10a754f3ca082b3decdaa90e6ac3b3a44971590974518b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0067_v077a.meta.json",
+      "sha256": "db383ef0731a37ad00b0ee23973e26a3128e711f3a22793814ef1fae25233d11",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0067_v077a.vot",
+      "sha256": "0cd5c1bd82a9b66071abe0ecb2fa43a139881345a1ae0d629b5d9caf3e207a6c",
+      "size_bytes": 40445
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0068_v077a.adql",
+      "sha256": "a4a05cecd36454294be2684aa28be44849a03dadb7eeeb6f1f0d87a13fb179fb",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0068_v077a.meta.json",
+      "sha256": "fe2a7ea7762fac4c72f1223cb78f5bb68cb5c9d4d979e154f7f85d887c70e41e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0068_v077a.vot",
+      "sha256": "f2f02075315d03af6868e0e0691ba7a2c55f20a27728ddb7e7e56ef9ff88e740",
+      "size_bytes": 41127
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0069_v077a.adql",
+      "sha256": "d9e0f9bca501ddbb3d6126cd885f089ebdf41abf5c571454ca1edf9807e8293f",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0069_v077a.meta.json",
+      "sha256": "25b33696b7dd77b7cb0424ac1dfc6fb2ebda93325bf1cbb24b60d015855c279e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0069_v077a.vot",
+      "sha256": "3aff40069902c00da7cb38feabc2bacab0df7f1ec35e9625d97971104d7adc0c",
+      "size_bytes": 42647
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0070_v077a.adql",
+      "sha256": "e71f82016cde85b66b78a975a093151681efdec3cec183b62b4a7ada04ecf36c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0070_v077a.meta.json",
+      "sha256": "bfc4b66e3cfeecff5cec7d6fa0443ff95c09648636126c256b51bc197b8a594b",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0070_v077a.vot",
+      "sha256": "6914393f9e22404aefe4aee69451fe51827ea8b869b11210050e1c7effebe85c",
+      "size_bytes": 40295
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0071_v077a.adql",
+      "sha256": "52eb2f68cdd308b9449d2950d441abcef0c0e00592c070aac749a68f6b3cc6e8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0071_v077a.meta.json",
+      "sha256": "660770cd5714749b9f36864477f6a981938d203bdb7d45335d5aa2ef900d015c",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0071_v077a.vot",
+      "sha256": "d02a7fc5a7191aaa76e37e1f62925b8265ce07bca113aff091ea1911944ad1b8",
+      "size_bytes": 43501
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0072_v077a.adql",
+      "sha256": "bdf87b43a589aa71b8dc81194892f5374487c5e971a3cddf6210eef0ab980c67",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0072_v077a.meta.json",
+      "sha256": "e7f4378c70d07a76c11899460cb28d35cfcb7313b4bb8a9224b0969d581c931b",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0072_v077a.vot",
+      "sha256": "fd43eedca37e0d714b56fab5fff93f407bce581a4d882b673bdc7d5fc240737b",
+      "size_bytes": 61476
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0073_v077a.adql",
+      "sha256": "9ec0b07b3dfed24cbf019c953cb2ecab0c95f5637e1c096a585eebb152c4b598",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0073_v077a.meta.json",
+      "sha256": "0f35cf28a008d2f1059ab287373885dd08fbd3d400d3b6d49d2dd1be297c2a36",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0073_v077a.vot",
+      "sha256": "c24a958debd97fa1ababf6ef0b3130ec84a8384549e074c925a084ee3581a30f",
+      "size_bytes": 30355
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0074_v077a.adql",
+      "sha256": "54197513983f1102d0039c5d1d2404799574a08e3712c37457e8474c41c5b580",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0074_v077a.meta.json",
+      "sha256": "070cd2afce519b9fbeed3897405af47f1d4d4b4f802cd93c7cc661aa5cc80884",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0074_v077a.vot",
+      "sha256": "bc1168244e8f0fdb4980d8e4264c323d4e22b49d42bba05dd993c10b905d1e69",
+      "size_bytes": 31708
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0075_v077a.adql",
+      "sha256": "ea918dca9c560b6fed8aefa15f970fd39152c889351a1fee58e730972638fc0c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0075_v077a.meta.json",
+      "sha256": "9118d12e680246a09ecbbc4e1e895a5dc625aea4545cdadc356ad84eefe260a9",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0075_v077a.vot",
+      "sha256": "70e923c6b729c5a0dfa37bcb79fea968809bf7a18d4b95c9f90b32c067acfdf8",
+      "size_bytes": 36620
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0076_v077a.adql",
+      "sha256": "c439e426362b58d076a06de90b8e490f8de2ef26fd4aa5ea9cb74cb4b8ad04f5",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0076_v077a.meta.json",
+      "sha256": "bacc4a12a6af3e775c52f6891bf46f22540715da59440072ece492aa6207dd58",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0076_v077a.vot",
+      "sha256": "7a4ef64ce05599356be0bc768bf44c155892008e5e2856f7b540a424a87956a0",
+      "size_bytes": 30862
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0077_v077a.adql",
+      "sha256": "bfd4e63d6270f611371dbca8b45fb681b161e67850e9968def251df7880fd836",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0077_v077a.meta.json",
+      "sha256": "b6bf1da8823e3e4c9743c83e9d5512791877b5fcb390e98b5229bfe163a69390",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0077_v077a.vot",
+      "sha256": "350f2263ae73be6b6d363730b33143e49feb916576f215417c7ea1e2f1278aa9",
+      "size_bytes": 26445
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0078_v077a.adql",
+      "sha256": "c26abdbca7513a8dbda0bc17a2ba69281a8ce9657de4449dc14bf26b672cd398",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0078_v077a.meta.json",
+      "sha256": "efcb1d9ae1de4dc73e24d6ec4e5850dda102e58991a394e5d95b8e88d0fbc9af",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0078_v077a.vot",
+      "sha256": "2926251706de7eba3d80ee32bd5810c2d8b1bb722343d42ec8f0701644f326a2",
+      "size_bytes": 26463
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0079_v077a.adql",
+      "sha256": "6e6f8602de041ea85401e4646e848893f4a6527a936c8a3990c64160d6172e27",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0079_v077a.meta.json",
+      "sha256": "b03283aeb25b1a2bf823232cc4dca5874ad495475fbfbe9f3c4dd25f4834f960",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0079_v077a.vot",
+      "sha256": "db9e0f33c97d771cde2064b06e010c160eccc6004cfa840676c328506b1b2e93",
+      "size_bytes": 26457
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0080_v077a.adql",
+      "sha256": "06ac82b65536e2824dc0b39b952c78d9455957c0d0f29f5b41b7ed1206cbe983",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0080_v077a.meta.json",
+      "sha256": "9c695ce7151fcb6ada9df89259961aa9b1724c16739365d61caf9eff5dab7644",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0080_v077a.vot",
+      "sha256": "94e786c1990713d62af7fa54e14a98956f66069d35cefd0f5224c60c860fdf42",
+      "size_bytes": 26474
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0081_v077a.adql",
+      "sha256": "804aeb7b0a15eb15f428c132db1b41fee578cae4bfebf199745bbb78e34aeace",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0081_v077a.meta.json",
+      "sha256": "244b6ee61bc5cc5d91639cb7dd2b42f77df3015ec5fa7aa5f23eea77c464653f",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0081_v077a.vot",
+      "sha256": "b934b781fb0f80bfc36ca6a0f59548518f09d3e4f8271c3538b0a522cd011d79",
+      "size_bytes": 26475
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0082_v077a.adql",
+      "sha256": "431956a3aabdd70bee84fb71f5bca9c9a86ff77bfa318c234622ddbaeb6cc490",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0082_v077a.meta.json",
+      "sha256": "5c7ebc6cff9c252c8297833f0baa451575082056d66b00a8838e38ac8b022839",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0082_v077a.vot",
+      "sha256": "e92c978da4c895b43bbc94e7de6486b2394c4d20fdcaaba3c3afb2cd0e88095b",
+      "size_bytes": 26469
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0083_v077a.adql",
+      "sha256": "245a0c182f019c298c52875c7ff31b9576d1091b6991fac5f7c9a3fb45abdef6",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0083_v077a.meta.json",
+      "sha256": "bf335d3dcd37160089f0d57fe1543c77d593236eb689684ed4d10cd991ad8437",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0083_v077a.vot",
+      "sha256": "6e27a5d736222fafae92a3588dbb6fac911272189eb5d3d91f518c1c895eac6d",
+      "size_bytes": 26460
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0084_v077a.adql",
+      "sha256": "b7bd0e547895dc26cf5d5bddf4a6fc3bc6da9d925b30dfff99eedbe00b44120c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0084_v077a.meta.json",
+      "sha256": "400b67930cc14abee287e8b099a2ca0d6dc1840af60e0a3035681bebe1e45eba",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0084_v077a.vot",
+      "sha256": "1c12832d1e50cde25ed9dd1d693d428528d68f8e82b816be9f50afb7341072a6",
+      "size_bytes": 26468
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0085_v077a.adql",
+      "sha256": "ce8db14d1f45f01856ca380e9106bfab436147e0c42b4e2b0c1ea0d648d3f74f",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0085_v077a.meta.json",
+      "sha256": "b6dfd3ffa561ede79fa7bc02308a66ac7defb9b1e0bae8b7b15bcbe6ee6a2ec1",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0085_v077a.vot",
+      "sha256": "3d40bf9c2bc431b0ceece6eab15cab6911ab64e9222a32a87500a78768f74606",
+      "size_bytes": 26464
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0086_v077a.adql",
+      "sha256": "de2058878f5829f263c13013ef98709ceab2fb2c29dcf5396dbe71beb4048bc3",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0086_v077a.meta.json",
+      "sha256": "8793549247e879bab63b934a9e1cdab74100bc606dc3fe723eefa91427a20672",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0086_v077a.vot",
+      "sha256": "93024f719ebf29b896f16cfa62030b2eb3a8b2bbc27256a919c4f571f83a8094",
+      "size_bytes": 26463
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0087_v077a.adql",
+      "sha256": "4bcff22144cce222ddcfed47e569a16af0dab9f69de38496aa66772267d29766",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0087_v077a.meta.json",
+      "sha256": "d162507bd795c17ec171d4bfcd2afafdc493c1e2d4f6097a1fc119acf62032cc",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0087_v077a.vot",
+      "sha256": "9709fe0fe0539031cc6747c27aa8873456aec8b6901065d76767f7d2f37dbc3f",
+      "size_bytes": 24645
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0088_v077a.adql",
+      "sha256": "cecd9b1a547af525554cedff30e5e97506ecc05e67e4ae2cc822153eb0449f80",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0088_v077a.meta.json",
+      "sha256": "9cc3c4a1190cd055b33552f935bb133bdbab07194e92daf01b73d5cc6b94cc34",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0088_v077a.vot",
+      "sha256": "91b55194574a30166ca0857797ba27eb66044a4d3a3f10e28f0e5bac9baaca65",
+      "size_bytes": 35821
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0089_v077a.adql",
+      "sha256": "d25aec390cd100364f7be8b5ef4864c96c87db6537d7cffca061dc0db508f2e3",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0089_v077a.meta.json",
+      "sha256": "1e56c03635f7bc1fc750b05b4747483fee98b5229a73f557a05fdf39e25a3943",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0089_v077a.vot",
+      "sha256": "5827e804ca0e2e2fa3a58e97ca76cd0bd890eb4caf70c969b2655d7b6a2bfc67",
+      "size_bytes": 38696
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0090_v077a.adql",
+      "sha256": "91296518ced741b07a819e84f9218dce49a5b1f969b2bb96d6bd9b60437e6643",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0090_v077a.meta.json",
+      "sha256": "992ba279b1717d8c77781334ecf7be80f3a0a2b4f8447032bdd1166660f8f377",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0090_v077a.vot",
+      "sha256": "f9a86d609afc8c2eb315bec274ca784f6d4f61313046d01e48bc9ea79b1d2ad6",
+      "size_bytes": 27391
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0091_v077a.adql",
+      "sha256": "3b18bf19560de152231902b5fbe93ced1ab3b60e0e12c2564439157fdc44883c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0091_v077a.meta.json",
+      "sha256": "aa88633b5f05c1b19d8808455ebac6e5139110f9469f9a8f3e5a231cc3e6e4cd",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0091_v077a.vot",
+      "sha256": "62a8d964a3aa599f589520852a9cf815e866eab8f2f1ab3a320f99a7714caf09",
+      "size_bytes": 27001
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0092_v077a.adql",
+      "sha256": "9a2128f39d2f8884b94889eaa306cc33821c61bb843d95833d269db49f197794",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0092_v077a.meta.json",
+      "sha256": "5cc1ec6d25025ff2d0d19a3f2e4258fb3af733d76320e6fbfb3357bc9b37fefe",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0092_v077a.vot",
+      "sha256": "1e08d15e89d30923e76ac2028636d88c3b95d3570e7aa2c07f15a12ed651ab8b",
+      "size_bytes": 39943
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0093_v077a.adql",
+      "sha256": "89193fc2ab423896be94c939c178862599c7b675e8a338403dc0bec85e7d2515",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0093_v077a.meta.json",
+      "sha256": "cc011d54c179a041589f33281aacde4b2c4863a8057b93d6cd8ca78c1ce714d2",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0093_v077a.vot",
+      "sha256": "97ed64ae42920a35fd73b2640852bf0403ac29b1e72251bbe6c66ef72bbd7ee8",
+      "size_bytes": 34786
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0094_v077a.adql",
+      "sha256": "043b3af7408497f2f4cb3694f9108856f8ebf9de21936c7bd75b1179dbfb0936",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0094_v077a.meta.json",
+      "sha256": "3ccd4d8e9ec517ff0faf47a12511c3d557cb0be65baf79a38d609743916c7483",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0094_v077a.vot",
+      "sha256": "8160801a2baff8df30d22106b0660a068eea90267ffc6295be3a955862b83fac",
+      "size_bytes": 25952
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0095_v077a.adql",
+      "sha256": "3cf23dd4e9169217eb148cf9bb0133e4317bc8cf853b3338b7595194fe45e556",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0095_v077a.meta.json",
+      "sha256": "af4eb22f9294cf286299b46ab9839118043e78451088b2e9a026ec41f1148212",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0095_v077a.vot",
+      "sha256": "13b09c5b4c5557ca3008c321f8810acbc17200d27c87f1e2aa5fb4ad953117ff",
+      "size_bytes": 26440
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0096_v077a.adql",
+      "sha256": "d40c5c56ef03149c2f33e041da7f40c2723c2217ec39894ffbdc4907085d0e5f",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0096_v077a.meta.json",
+      "sha256": "abbe38a034fdd60635353d2a971ddfd8fe5490afc42ced3bda01437dd0260f2a",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0096_v077a.vot",
+      "sha256": "0899aacbb7f22d970866e2643efa78db4199fb8d4dd2cb791e79eba8aa5cdb58",
+      "size_bytes": 26410
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0097_v077a.adql",
+      "sha256": "76462872561038151f3d7dd8e0f463e97161206549956bbf025f7ec263138fe9",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0097_v077a.meta.json",
+      "sha256": "0cfcbf3e6b8774a660dff6a48c0d26150aa721dd0cbbcdacbdea59e81dc7742c",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0097_v077a.vot",
+      "sha256": "fd911631851ef89061f375b51341717479f0a9f5d4ae8a50c7a638c98b2c63c4",
+      "size_bytes": 26436
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0098_v077a.adql",
+      "sha256": "e0ce62784c1aa18d4c7671634d5ef1f7511ab055ac094bf0f6dd90912e7ee47e",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0098_v077a.meta.json",
+      "sha256": "1692c8bab1c9413cd1722ee3e874f011379a9d1c2eab902f54b05b3f9745dc09",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0098_v077a.vot",
+      "sha256": "5c97988d2a6aea66f334e029ec3676d78655527dd8b4147bb47b599043c9979c",
+      "size_bytes": 27648
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0099_v077a.adql",
+      "sha256": "71bcb8d5b6ea77fb429be2002af40998b13b5711bbfb2b3221cb0b10470354d7",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0099_v077a.meta.json",
+      "sha256": "98e50513b8f8e457d349275e43d572bfda2e6ad1e142ca8b2ba575912e2541d3",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0099_v077a.vot",
+      "sha256": "43b1801f519c9b0c51bc3d8e289dcd7433c5c6efda2b3f28663f205db3b128b1",
+      "size_bytes": 48689
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0100_v077a.adql",
+      "sha256": "56e64cc291f3c6ff9e7a441c156628fd505b8746a102bf49df7628dab89d3ea4",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0100_v077a.meta.json",
+      "sha256": "fdcede3c13bc6f3dea5c8774355982e65840ffc8e951444e4897637de77c35a2",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0100_v077a.vot",
+      "sha256": "d21aed77a4e3e98b5a5c6ced4b35dcbfe96ba6adb63765cdae4ba8fda036af83",
+      "size_bytes": 48654
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0101_v077a.adql",
+      "sha256": "8b5333a78f8ecbe1e666610b16a41becb5278c3e98f335a307afb26317870fa7",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0101_v077a.meta.json",
+      "sha256": "d5f06341540f8bb770cd081994529ed61134b04586aac290574d7be9ffbeafc6",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0101_v077a.vot",
+      "sha256": "5ffecbabf603ec63083cfaf92576f2a14d647672b4a36930648489f9017c53be",
+      "size_bytes": 47608
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0102_v077a.adql",
+      "sha256": "1b4758a6f65bcec3472cd035dccace6d293c05eb6e99f008ee48163f7a5f1ae3",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0102_v077a.meta.json",
+      "sha256": "6dbfce58b194ceaa92bf77e193ce65f4a4b036a0ed05fd2e774f97ab8e1c3a4d",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0102_v077a.vot",
+      "sha256": "ff505645771d5e8311502b9dc83dafa1b53dc7b850569b2b664bbb3f171ff8d5",
+      "size_bytes": 58841
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0103_v077a.adql",
+      "sha256": "2320b45a72e15308e822ec6047da9fc6168a81329891d443982492dd79a56469",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0103_v077a.meta.json",
+      "sha256": "13f5872a205a5d58d4ecaf759c39d4bbbede9fed3ad8c7e3ac19e1cd270d128d",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0103_v077a.vot",
+      "sha256": "bf0c3707fe8a49b9688fd9ab44e35de33dd7e08479d5f325a77e53fcaaf4f3ca",
+      "size_bytes": 48661
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0104_v077a.adql",
+      "sha256": "4deed402c054c71fcff02cace4a36df1af2e78f9da9c7cac6fb5df7d3ae92f26",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0104_v077a.meta.json",
+      "sha256": "6444549c3f9157f9a0c69fbb6330f2064637a7e5c28ce6079c23c06979d392d9",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0104_v077a.vot",
+      "sha256": "5632177b0d63ee55cdac1e32249234e9f897032674290271f1f6c94c988a09fb",
+      "size_bytes": 56244
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0105_v077a.adql",
+      "sha256": "03affa268af2d6cc878f108bce9f6430ce33949ef71385c9f0051d4636d9d076",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0105_v077a.meta.json",
+      "sha256": "ef91fd46bf019e8459537f9e8bfec415a8f599e8643dfbd0ec9a550291b2955e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0105_v077a.vot",
+      "sha256": "da56b680506d07084ef99522442ed75917f612579dd6dfdba9d70aa3942add7f",
+      "size_bytes": 29261
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0106_v077a.adql",
+      "sha256": "a46946552262230ccffacc2269bdaee239a1df2f9f706d351e8ff13b68f98d42",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0106_v077a.meta.json",
+      "sha256": "2a496bb33a6e0b051e3faed713da4d865d70026c703eb316183d4c6bebfa15ef",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0106_v077a.vot",
+      "sha256": "bb11083fff7edbc39f973196e99e9e7a7846d1e07d62a920e8142566711aba41",
+      "size_bytes": 26358
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0107_v077a.adql",
+      "sha256": "14dfcf8d4b1cb3aaa804a7934ff67dc8363dbd3c9cad9b46f2077e25e411a924",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0107_v077a.meta.json",
+      "sha256": "d3c38db22f599379f28d2df70ccc69adcff96002e80a04c998ceaba0cb60cec3",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0107_v077a.vot",
+      "sha256": "7efc9ce28b6d626e66ff09d23e47bdcdc7f5113b29322a6dda52f85f0d8361cf",
+      "size_bytes": 26381
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0108_v077a.adql",
+      "sha256": "80dbe73a5284e346f4297ba34930f301f90cc3ae1971d760bc991f7b3ff13f90",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0108_v077a.meta.json",
+      "sha256": "c2e1c526640d5e4c2fa3daa809596569db22d7f9070d13a667a88a89bb3e886b",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0108_v077a.vot",
+      "sha256": "96c3591c007e946ab5352cdf636723fc3dd0372a2256ad4161d8e0acbda53d68",
+      "size_bytes": 26386
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0109_v077a.adql",
+      "sha256": "76ea956d9723ccf900f191d948e76a2368cd8ca2622c23c3876d20e30316fabe",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0109_v077a.meta.json",
+      "sha256": "d3d2e95b026fc666d075ee75a0de384be54371c6156e2c39270f847407db2d31",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0109_v077a.vot",
+      "sha256": "ac2febb2a635dc450a23a476e4068fbebcfa9ffe54e7e6905cc9469c5c36b588",
+      "size_bytes": 26399
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0110_v077a.adql",
+      "sha256": "7faa0ef0344a42432bc134fbd399ab56b036eea7571a9f60474be1b06301116a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0110_v077a.meta.json",
+      "sha256": "54fd6d135c5b86e4f0c233fe9850a8ac18d9b18e33ef92f33ecb793008ecbb6e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0110_v077a.vot",
+      "sha256": "bc4ac069c7824522842be154a2b878e63fa24e23553009dab023419cfa907557",
+      "size_bytes": 25979
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0111_v077a.adql",
+      "sha256": "6b4dc22df326b9f836f7c36fc8ab37fb55c45d6a443a4eaa2c87fd673fb9a8e6",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0111_v077a.meta.json",
+      "sha256": "445561613a715a654c87e43cd73f7caba0341e85ac643a77ee0801933cd5d6a2",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0111_v077a.vot",
+      "sha256": "2f0defa4fb6556ef4e0e53a0dd5ccd1a387cd4f3433f71f23c9a797be7a7cf5c",
+      "size_bytes": 24043
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0112_v077a.adql",
+      "sha256": "69fa1561ee9c479ff7812bf1c9e97e00004a07c32e325a5a40388b57880e1f7a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0112_v077a.meta.json",
+      "sha256": "fb5b59266564611fe4918d853fe5edebebd694b019eed353ed5ffe85fe223102",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0112_v077a.vot",
+      "sha256": "cc1b132d883d17dc4576436475e04bf8e80a2132fc2b6314af71a886edead3ae",
+      "size_bytes": 36958
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0113_v077a.adql",
+      "sha256": "082507cf78f98519747f6ab3d74c132e1830bb21e3acb66751233d50ea0cda8a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0113_v077a.meta.json",
+      "sha256": "d77a04624456d7f13b41acc29f6fcaa75c2a5cb2665e88c7ee5d884fe30a0568",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0113_v077a.vot",
+      "sha256": "fecf95f073acdeea1731e6344dcd92485f1211d4b964f27b5b43485a1943ca5e",
+      "size_bytes": 30838
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0114_v077a.adql",
+      "sha256": "50465e3bc8f88c5a5cf8499cedaac75bfbba976bfb4e97595343d5f530187fb7",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0114_v077a.meta.json",
+      "sha256": "481f82dc2a7c51d95963b3ba217687914a554a9496d003449fd8adf8d510159d",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0114_v077a.vot",
+      "sha256": "afa5e272fe7e2bd485ac22231f7c7202e42bff345bcdc57057525e3f208e9280",
+      "size_bytes": 58920
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0115_v077a.adql",
+      "sha256": "20c8e2751cee9474ee2f2d33a64bb7f0a30338608427a08c8f91fcbd54d1eba5",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0115_v077a.meta.json",
+      "sha256": "34e78ada5e5606a76d40f21bf801eabe7d907b04d52dc36ad04550a113d2494e",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0115_v077a.vot",
+      "sha256": "903a89850f2164cb1227e439c6d8d84de27938c95770e831eed8bfc60a91af82",
+      "size_bytes": 52236
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0116_v077a.adql",
+      "sha256": "ef8524f6078423bcd6d0b142b655620b53840106984a8da3d547951277ea3ce3",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0116_v077a.meta.json",
+      "sha256": "ffa75eba7d9c34b450b07cd09bfb4c670c2deb5055683b868f5d82e3de49ccc5",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0116_v077a.vot",
+      "sha256": "c0e7811adbeda0e55599df5ff1d049cbff53e6bfd35142f0abb9c0f4ccfb17ab",
+      "size_bytes": 63570
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0117_v077a.adql",
+      "sha256": "770579dd53436313b67d115a674b6124d6d3f72401918793042836268277c6e8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0117_v077a.meta.json",
+      "sha256": "7589f9d7dadd942671941b9bcd91c769ff6a0d020e6527da794c12aa299bade8",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0117_v077a.vot",
+      "sha256": "afc6ce92d151d6200dba2e5abb1f4a64f7480bc7adb87148b67602d97d943ec0",
+      "size_bytes": 25645
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0118_v077a.adql",
+      "sha256": "9c5ea6bfaf39a76aafb2028b65ab73bdd551feb3a620847461093011f10d407a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0118_v077a.meta.json",
+      "sha256": "45374db5b7c7cb846b46b4d5f76eb06d6aa368734ce9ad12961fb42e7e83f27d",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0118_v077a.vot",
+      "sha256": "702f2d8684602c89806736b02779fbe7a57dcdd1c241746913c2181f21c03ee9",
+      "size_bytes": 34032
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0119_v077a.adql",
+      "sha256": "2f9e7e873c411dd81a55cfbb5d635710202ace2c62994af426e187f054d39d80",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0119_v077a.meta.json",
+      "sha256": "3863e398575dfd9b746e97342159398d3851b303e53d6e6d4f909e60e5963325",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0119_v077a.vot",
+      "sha256": "92079d8ff64ef887346b36beb60f0ddfc7a2d7d30b6f688c4dbc12658cac3bcb",
+      "size_bytes": 25404
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0120_v077a.adql",
+      "sha256": "723954a4c30e946c8ed64a9e7988e5d1a4de87621958bbc698e6dabb661c698c",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0120_v077a.meta.json",
+      "sha256": "ee78f7b447369c36eb59de8364733b7b599df9ef1e7fcc71048619a6db346cce",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0120_v077a.vot",
+      "sha256": "22714a96ac8a151ba927cdca4375ebff4e74782dd0c1a848f7dd9a85274193ba",
+      "size_bytes": 45193
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0121_v077a.adql",
+      "sha256": "fb8d94ce0326c1b97fd4b85b18023114a4f9fae74d295b2b51385df8cf9685ca",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0121_v077a.meta.json",
+      "sha256": "5cff068d5d43477db1214e2c1d9153d0fa01cd475cb4cc0a78d1f0bfff9e8ba9",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0121_v077a.vot",
+      "sha256": "5b785ac4ae486f9ec44bdbeb8375b71cd5bca3eb43ea73e64da6ed18da4a865e",
+      "size_bytes": 52634
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0122_v077a.adql",
+      "sha256": "eb72fbe49a03eb03460c2bd4e51845767341d603eba6e42f2eaff2ef60b61843",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0122_v077a.meta.json",
+      "sha256": "d04ac989303679f1721c1ee2e1da6faec1f42e5ff93586e5b55b207b63c01f24",
+      "size_bytes": 406
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0122_v077a.vot",
+      "sha256": "4ac034f3f6da2d50d97da71b4ccd2c51ff13589ba32222c04bfbf883520304dd",
+      "size_bytes": 54137
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0123_v077a.adql",
+      "sha256": "31c747529caf69776c1ce30c553f1e683459edeb856bcaf2081f29d67c79d519",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0123_v077a.meta.json",
+      "sha256": "ee804eb0b923ac16ad3a984ef10894b10c2f9ffd70264e8088786641a0c44920",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0123_v077a.vot",
+      "sha256": "45da7f5c9b180303d12eba7dcaa82336725bb9feb5f683b5fce6c3faf1b7ddc2",
+      "size_bytes": 31832
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0124_v077a.adql",
+      "sha256": "47cdc7d2d867529c97a2d24539d9d0a3ff685005a4a402cfa5a86738bead686f",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0124_v077a.meta.json",
+      "sha256": "3498ab10b3a89c2ec491016bdf2cf71f43cc02b9d58e45a58a316e9c315a6b0f",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0124_v077a.vot",
+      "sha256": "05535129549f7e535da9048a91f3e3ae0a91ccf24d3c204c13fff9049d9ca457",
+      "size_bytes": 25439
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0125_v077a.adql",
+      "sha256": "7462860f9b7d7723cc7cf8353208d6831ae8b5d0a43f14db5d6f2b60437850f8",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0125_v077a.meta.json",
+      "sha256": "51c94a6bef4d02e1196225a18a7912ba3bb67c77f4f4f6939750f1cf55cc3deb",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0125_v077a.vot",
+      "sha256": "7570125b7a9dcaa8bd5967062dcc1b83001cfccd723da60641a365efb82da6d1",
+      "size_bytes": 25503
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0126_v077a.adql",
+      "sha256": "921cc94be978f6ab509eae72a7012230444b1e54a54abe16e4aa660a9a2591cd",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0126_v077a.meta.json",
+      "sha256": "e840c1eb5d6dc3d656009924d6d830924c7431bf46343f285ba5e51624e0c808",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0126_v077a.vot",
+      "sha256": "ac769e850b0547a6c46075961b801b92e1078bea30c7d34bcecf802638cbdadd",
+      "size_bytes": 25460
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0127_v077a.adql",
+      "sha256": "f6b79977f185b10b65a03620cf809beabd932716da2ce3f19433eb40c9e133e2",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0127_v077a.meta.json",
+      "sha256": "a9983ac8d56b46e1cfbbdfbf24bac6522d67fb8f0d44753d08287253e3548a23",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0127_v077a.vot",
+      "sha256": "7c0a0e7bb5ec662c9746ce0b8b75a2b3271de8ac3e44e9a932c7065d727f9cf6",
+      "size_bytes": 25470
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0128_v077a.adql",
+      "sha256": "1f9d8c1b5bb3eeded95de6792f96b5ee54b91292f8bc347c22f12efc4ff46f61",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0128_v077a.meta.json",
+      "sha256": "932212076bf1c674d3db44505b1ebe5bdcdda507bc6e554736e3f092afba3e28",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0128_v077a.vot",
+      "sha256": "1494873081605a43ace162e98ce0cfdef04cd8ac33a4ff68e5b0262c64674297",
+      "size_bytes": 25475
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0129_v077a.adql",
+      "sha256": "57920414b21fe10d8f318f55869f82c6f58de5219dc007feda0ef1fdfefde610",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0129_v077a.meta.json",
+      "sha256": "f3a0a9ee77545b46eee3a6c77a355467a122c5bbde418c718ffa81f247c8f5f0",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0129_v077a.vot",
+      "sha256": "82650fae94c1a6b80d973fe5d53b8a5d5d7ce6d087d4df749349e4b7679c92bd",
+      "size_bytes": 25520
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0130_v077a.adql",
+      "sha256": "6e224656a9c5bba0cb413a065077b662e1a3a1f23ecaf9dc09517a55d1dcea26",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0130_v077a.meta.json",
+      "sha256": "496eba16c14812ce4e9be7c8e87ad75cdbd470fe2df4d59e6f5b6d0aa764ac00",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0130_v077a.vot",
+      "sha256": "84fb7cadb527a91d6f7b6447706aa4c14a38580521aa9347c593485655d8839f",
+      "size_bytes": 29734
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0131_v077a.adql",
+      "sha256": "3e4f675886f1a7b199e514cf6cc5dd1a73f3243006838ebdb82d8f9f4b5442b1",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0131_v077a.meta.json",
+      "sha256": "2b5f97604f0184edf8e9729be828cc3186745500c73804594f06890396b708d0",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0131_v077a.vot",
+      "sha256": "e0626c9af02bc7dea6f84b255a5d550f501a5751aa5dfdcf045ef48f8671e018",
+      "size_bytes": 31913
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0132_v077a.adql",
+      "sha256": "f97768f1520bde6b99097728a08252838e1a23b4a86732792c7de3f55dfa5e13",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0132_v077a.meta.json",
+      "sha256": "8124bc24845c7fe84d008a838af7354ae48433447dcd25721419d06bbe4b0444",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0132_v077a.vot",
+      "sha256": "2ee918ae3755605f7ab10f50fae214a395716818b7b23970a2020181a10c2ffa",
+      "size_bytes": 40973
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0133_v077a.adql",
+      "sha256": "f7d9436ca566ee63237d6da537ee266a3f922a71cbf843d3b425cbf73e73edd4",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0133_v077a.meta.json",
+      "sha256": "9dc41bb9cf94a3c1c28c2e12c5c76f911c72dc77caec1d0cf3de48f36baf21c4",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0133_v077a.vot",
+      "sha256": "8e8e6073160dce0870046fc3f68e8df3fb5b0984127036cb79f056a12f3d2f9b",
+      "size_bytes": 26459
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0134_v077a.adql",
+      "sha256": "ae427733a8009223ec3fcede10f1e38f820e9a2d86adc5518d48912558fcf50b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0134_v077a.meta.json",
+      "sha256": "0d174a44e1be546fa9f5efb21d1e93564aaac95bfdda4610a8b664655245c1b0",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0134_v077a.vot",
+      "sha256": "7058c1b30ac4bc7a92a5b73cdec0dbdd8c0cb11308053134754fe607e9589efa",
+      "size_bytes": 26438
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0135_v077a.adql",
+      "sha256": "eba293204229b68aecbbf317cb6c09d66afe4eedc57d1cdb1e42230f13bf88ee",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0135_v077a.meta.json",
+      "sha256": "f9b625e334873f7464de1e59e4d4531849fcb1d8c67f59238b17d9744bb8fffc",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0135_v077a.vot",
+      "sha256": "b253da52f1a05e463dd93429a055b8aaa8eb4ff62ede9e3234768b6cd8af54d3",
+      "size_bytes": 26458
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0136_v077a.adql",
+      "sha256": "1926c6c42115c3a134b3ec71c92733cc82ef11813b33c4418cf2a567cd50873b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0136_v077a.meta.json",
+      "sha256": "e75d6cab7f6e3270a757423565ef58659f2c1c0fc17a49d7f4d2e26d4915664e",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0136_v077a.vot",
+      "sha256": "7313296d0fb170174cac4a9dd2e1dab537cbc6562b6d0b125a33cd4ce9096260",
+      "size_bytes": 26446
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0137_v077a.adql",
+      "sha256": "cb2d253716a417cc99717ec438b69c153643bf320d55bce7d0785cdc82b1ff60",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0137_v077a.meta.json",
+      "sha256": "c885cfbd3602b962cac699b41079711fc79d3d83f3b046166551d36b7a59928c",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0137_v077a.vot",
+      "sha256": "451525707ce028829d8cc28bbadf6cbd216a5f253228ebaa7bf22294cda0afb6",
+      "size_bytes": 26456
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0138_v077a.adql",
+      "sha256": "2d4a6e9f6999a3bc84b73f78ea7a16f2853589a6595fc64627a3909464dada29",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0138_v077a.meta.json",
+      "sha256": "19ecddcfb43f85e023d0fef014a08aae3121f64a56601591ee7d2662f68d7232",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0138_v077a.vot",
+      "sha256": "a24415b935da744be2096af4afb472a5098d416c0406445b4ae73ef40e0e6f20",
+      "size_bytes": 26441
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0139_v077a.adql",
+      "sha256": "cbfba7ff80d219985fc251a396abd59bd353b1b3a0c8f7fb2c8737a10e636acf",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0139_v077a.meta.json",
+      "sha256": "01f8951e8b631c765e3f0853b80ca253bc308e1d6158de035b70618d40fb26ed",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0139_v077a.vot",
+      "sha256": "04020c7522986c032ef6c2a19aa3a1e67913c447ff9347a7cc1f787bcf4758af",
+      "size_bytes": 26443
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0140_v077a.adql",
+      "sha256": "ed8347251c7113c1d2a7775c3204a3339b6207aa66b2a4e6fd89af45ee8b2a81",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0140_v077a.meta.json",
+      "sha256": "d516d675fa20ef01cba703638b1bb62f817c6664ad44b2fdd98a090cf3611144",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0140_v077a.vot",
+      "sha256": "d18b5dd8a7184c2998d6a5264f71a016e1c0a7a7854db18f608b2fd384009ef4",
+      "size_bytes": 26466
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0141_v077a.adql",
+      "sha256": "eb3894d78150b4af99a1bee520902eeaed1274e19170ba1b8b806174912e4f29",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0141_v077a.meta.json",
+      "sha256": "bae7521821d57203be0d885ab42ffe006172967a66efad817bbe314ed8351acd",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0141_v077a.vot",
+      "sha256": "c12f39b65886b01b3e14c398809ea85d20051806e7cff6eb82224dfe6d618597",
+      "size_bytes": 26463
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0142_v077a.adql",
+      "sha256": "25cd23e1dde013e62f8a72cadd798c0e3f8303cdc6fa14f1ecfec4ffc2c936e7",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0142_v077a.meta.json",
+      "sha256": "12a79245f9ff7b003853e3330f3b5e42d30849c8bac650913fef21983c9f7b7f",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0142_v077a.vot",
+      "sha256": "f151f390966f94c8ebbb9eac2a53b60c346a2f3611698d0a3e973f56631485ae",
+      "size_bytes": 26368
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0143_v077a.adql",
+      "sha256": "d3d18a62d362436a4f65bc9cc0f103428ae3bd4209437ba35c47f6f260cb2129",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0143_v077a.meta.json",
+      "sha256": "083770ddcec9245847fde38211a57eeb6de49c897af422d5cf64dbcb4da53474",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0143_v077a.vot",
+      "sha256": "d0c8f95e9d1cdaa2b49c1d806ce7b07a0c4239ed4d31021b1d6bd9d3a9aef457",
+      "size_bytes": 26460
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0144_v077a.adql",
+      "sha256": "c5a878c9f4fc0da6f515590703ab1d2d180c65ba62b78938ef08b83202d9e1aa",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0144_v077a.meta.json",
+      "sha256": "2c0358d4510fd5983e22710decfb21960cdb04953d30f079db52a01120b907af",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0144_v077a.vot",
+      "sha256": "2c62dbf06a5722fc0fbb2c4c6aafa0087008a53bb52ae432356637e6e9bf0a43",
+      "size_bytes": 26904
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0145_v077a.adql",
+      "sha256": "13f5b60eda9cf93b291e0deca6b2e56d616897a22df0c0dd04f724a7fa655658",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0145_v077a.meta.json",
+      "sha256": "0fbdafce6071fde2d5cc38c8fa8a945f0b7347e8ef63409cde9fd28124b8b8a0",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0145_v077a.vot",
+      "sha256": "1f0fd78e4261affc1fa01c8623771a0a041b946033796fdef1d558469a1ac31e",
+      "size_bytes": 26446
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0146_v077a.adql",
+      "sha256": "772489a79c88d1c4a5f3527a066e3b807a16260f41311142db3815a23fa426c2",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0146_v077a.meta.json",
+      "sha256": "00a02dc39cb934a1f44962378ba5e573da6ba7ea0ac3080717601acdea75be99",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0146_v077a.vot",
+      "sha256": "cab192301d0248d4e177ff97d299960897b52b389e528de777dedad46adf6bc3",
+      "size_bytes": 26468
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0147_v077a.adql",
+      "sha256": "75d79f862dabfb54103f21049b929b72aa90bf5e42340d1a46bc3c01c1e33e8b",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0147_v077a.meta.json",
+      "sha256": "4eba439daa87bc0dfa2d16d7008c0239921ee73796fa2bbbdc3a3cddea3c43b4",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0147_v077a.vot",
+      "sha256": "2dea10ec271128e19d13a835dd737ed051b9a8e8e2c65bd6aa27552ef9a15dfb",
+      "size_bytes": 26445
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0148_v077a.adql",
+      "sha256": "171d4fb3735adb98be70f41fb052dc3eb10c1a9139191bbc2f8a09ed61e5cf16",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0148_v077a.meta.json",
+      "sha256": "34f5c888fdbdd69b80c68a97025a5bdb7b7b4d51d04bb409c8747779fce6c1cb",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0148_v077a.vot",
+      "sha256": "51080b73152ad3cca54caf692dfe45332498c636ec2328252b781a137783e05c",
+      "size_bytes": 26454
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0149_v077a.adql",
+      "sha256": "ffb70c43010953a64eca7a9a8edcf78077331d4eca7fe0b19201ad1bbec1040a",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0149_v077a.meta.json",
+      "sha256": "d3a512b2ced3b9a35db34e54bb64ca0a3febcabddee1088f2d1655c5bca8d2bc",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0149_v077a.vot",
+      "sha256": "2285601c31921c401a4dd1df562c0e502c6cc6fd968646dd695b8ad80782f1e5",
+      "size_bytes": 26468
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0150_v077a.adql",
+      "sha256": "be1308efb3fe60387068973fa0ec3be9fc0196c47f5bff3032924202f2755b92",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0150_v077a.meta.json",
+      "sha256": "24761a45b94834522faa6b87f645e153aaa030e80faf4f001a95bdceae937894",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0150_v077a.vot",
+      "sha256": "40f8d2461c3ef23bdfeb45bd2fdb2594472a9de04fea8f3606aaf00a8da7f93a",
+      "size_bytes": 26468
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0151_v077a.adql",
+      "sha256": "4a77242537049af73b0e8506203ab640b9edffca753fb5000fa54da6d726bbe5",
+      "size_bytes": 1089
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0151_v077a.meta.json",
+      "sha256": "030dfc421dc2536120e14b7c8e6aa5689b925f0a02fc37c855e2b0fc2677b6c5",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0151_v077a.vot",
+      "sha256": "ce5b070f715f311ab08aa6d82d607c84865210dc7694b189df3952b96edfe729",
+      "size_bytes": 26463
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0152_v077a.adql",
+      "sha256": "81cd06c4bffbd675c6f25c55eff34c03d5be476c3d40c289153cd9b105cd478e",
+      "size_bytes": 711
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0152_v077a.meta.json",
+      "sha256": "498fc1ff3fd0c6ed9ab989a653880d9f4ca39e303529df6733e455c4c267a9e6",
+      "size_bytes": 405
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/cache/plate_exposures_0152_v077a.vot",
+      "sha256": "6cb18b76d9ceb64b1f6e10679769c4d1daa19b4569641ecec3eedc8befe42f9b",
+      "size_bytes": 16675
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_applause_independent_plate_opportunity_census_v077a.json",
+      "sha256": "2e9872fc777d22e9f14bac51e4460abdba7d38352400fab095d36de0df2cd4b2",
+      "size_bytes": 7385
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_candidate_plate_opportunities_v077a.csv",
+      "sha256": "f8bd8a1bc322d0a9dc0239e29f676975f8ff692e17e040e2786cc196caf24b1d",
+      "size_bytes": 190789884
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_candidate_solution_coverage_v077a.csv",
+      "sha256": "420367fd9699d9e3347437a4ec387f3a190fc1d4c4b7564b56828b76888de10d",
+      "size_bytes": 2552222900
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_independent_plate_inventory_v077a.csv",
+      "sha256": "db37816fca8ad3214347d816d52618e9bb97537cf41660386fe6c1c7b7eaa1b1",
+      "size_bytes": 912948
+    },
+    {
+      "path": "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_tap_query_manifest_v077a.csv",
+      "sha256": "53aa4ec0d969c523a52fcf2324399a6848f6473b2d8f90859b082ea498c05c08",
+      "size_bytes": 59753
+    }
+  ],
+  "large_detailed_products_policy": "Detailed opportunity and solution-audit products remain local and are provenance-bound by SHA256 rather than committed directly to git.",
+  "primary_opportunities_per_candidate": {
+    "maximum": 936,
+    "median": 861.5,
+    "minimum": 547
+  },
+  "scientific_contract_changed_by_v077a": false,
+  "scientific_contract_sha256": "11c5866a24d8e05a8436c443d16af24dcc244982d664e037e5dac75f93f8143f",
+  "status": "COMPLETE",
+  "validated_counts": {
+    "diagnostic_candidates": 179,
+    "diagnostic_opportunities": 145292,
+    "diagnostic_unique_plates": 1070,
+    "diagnostic_zero": 0,
+    "primary_candidates": 424,
+    "primary_opportunities": 350717,
+    "primary_unique_plates": 1046,
+    "primary_zero": 0,
+    "solution_candidate_audit_rows": 8915355
+  }
+}
