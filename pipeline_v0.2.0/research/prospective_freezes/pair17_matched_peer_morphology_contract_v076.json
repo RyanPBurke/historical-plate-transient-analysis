@@ -1,0 +1,173 @@
+{
+  "contract_id": "pair17_matched_peer_morphology_v076",
+  "control_selection": {
+    "exclude_science_target_candidate": true,
+    "fallback_snr_ratio": [
+      0.5,
+      1.5
+    ],
+    "fewer_than_5_usable_controls": "INSUFFICIENT_USABLE_MATCHED_CONTROLS",
+    "maximum_controls": 32,
+    "minimum_usable_controls_for_robust_metric_result": 5,
+    "policy": "If at least 12 preferred-ratio peers exist, use only that pool. Otherwise use the fallback-ratio pool. Never widen beyond 0.50-1.50.",
+    "preferred_minimum_controls": 12,
+    "preferred_snr_ratio": [
+      0.75,
+      1.25
+    ],
+    "same_polarity": true,
+    "same_tile": true,
+    "science_target_exclusion_pixels": 32.0,
+    "selection_order": [
+      "minimum spatial distance from science target",
+      "minimum absolute log(SNR_control/SNR_target)",
+      "candidate_index ascending"
+    ]
+  },
+  "frozen_inputs": {
+    "candidate_adjudication_policy_v002_sha256": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+    "pair17_pm_context_v075_sha256": "e76e50bf68605802136c15ce5adcaaf2b4b7d84b4ba190827bcc1ea6b32fa8c9",
+    "pair17_static_triage_manifest_v075_sha256": "66f7da8dfee178ee98f42255d7c58c2f292e3a2b62a5d7e64c25697eb95a673d",
+    "previous_morphology_implementation_order01_sha256": "e4b967f4c52b0580f8ade9de3d0467efa1902900a587afcda501d52b33eab8ad",
+    "previous_morphology_implementation_order11_v045a_sha256": "02d4cb60e2150973ae437c04e248fb40457182e1c726567e557f11eb7db6af86",
+    "v057_contract_builder_sha256": "d7a82a05225aa873e8d0b0e861c550c2a1102a9420b6092081fea814395993cb",
+    "v075_contract_sha256": "76901ffba61cd07c5bd1d797a78112967cc85bd1dc032e137e5a878fd462cfed",
+    "v075_execution_script_sha256": "6e73cceba862976abdbe48e376ab071de35ff0f74329df6816fff53bbfa237ac",
+    "v075_result_csv_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v075_result_json_sha256": "abbf447a6cbb4b754f68b28e28cd821178e356b49cf7fac4d89ef9b701e9b2de"
+  },
+  "guards": {
+    "astrometric_registration_rerun": false,
+    "candidate_disposition_changes": false,
+    "catalogue_requery": false,
+    "detector_rerun": false,
+    "manual_target_selection": false,
+    "threshold_retuning_after_pixels": false
+  },
+  "interpretation_boundaries": {
+    "compact_morphology_proves_transience": false,
+    "gaia_class_does_not_modify_morphology_thresholds": true,
+    "manual_review": false,
+    "morphology_nonoutlier_proves_astronomical_source": false,
+    "morphology_outlier_proves_artifact": false,
+    "next_stage_for_unexplained_primary_population": "separately frozen sensitivity-qualified recurrence and injection/recovery using independent physical exposures",
+    "ordinary_morphology_alone_closes_pair": false,
+    "role": "contextual_only",
+    "v076_changes_candidate_dispositions": false
+  },
+  "morphology_measurement": {
+    "background_estimator": "median",
+    "background_pixels": "all finite patch pixels with radial distance >=7 pixels from the rounded target center",
+    "centroid_offset_px": "Euclidean distance of positive-flux centroid from rounded target center",
+    "concentration_f3_f8": "flux3/flux8 when flux8>0",
+    "ellipticity": "1 - sigma_minor/sigma_major when sigma_major > 0",
+    "flux3": "sum positive pixels with r<=3",
+    "flux5": "sum positive pixels with r<=5",
+    "flux8": "sum positive pixels with r<=8",
+    "invalid_metric_values": "retained as NA; no imputation",
+    "metrics": [
+      "sigma_major_px",
+      "sigma_minor_px",
+      "ellipticity",
+      "centroid_offset_px",
+      "concentration_f3_f8",
+      "peak_to_flux5"
+    ],
+    "moment_support": "positive pixels within radius <=6 pixels",
+    "patch_radius_pixels": 10,
+    "patch_shape_pixels": [
+      21,
+      21
+    ],
+    "peak_to_flux5": "oriented central pixel / flux5 when flux5>0",
+    "polarity_orientation": "oriented = polarity * (native_patch - background); non-finite oriented pixels become 0; positive = clip(oriented,0,+inf)",
+    "second_moments": "flux-weighted 2x2 covariance about the positive-flux centroid within radius <=6",
+    "sigma_major_minor_px": "square roots of ordered covariance eigenvalues"
+  },
+  "pixel_provenance": {
+    "acquisition_is_transport_only": true,
+    "acquisition_may_begin_only_after_this_contract_is_committed": true,
+    "background_subtracted_archive_derivative": false,
+    "candidate_center": "round frozen v056 global_x/global_y to nearest integer and index the native FITS image in zero-based NumPy y,x coordinates; execution must preflight this convention against the frozen v056 tile geometry before measuring science targets",
+    "edge_rule": "endpoint is MORPHOLOGY_TARGET_UNMEASURABLE if a full 21x21 patch is unavailable",
+    "interpolation": false,
+    "local_preflight_status": "NOT_PRESENT_BEFORE_FREEZE",
+    "native_pixels_only": true,
+    "record_sha256_of_acquired_scan": true,
+    "require_expected_content_length": true,
+    "required_source": "exact native APPLAUSE DR4 FITS scan bytes named above",
+    "resampling": false,
+    "smoothing": false
+  },
+  "population": {
+    "diagnostic_population": {
+      "definition": "pair-17 v068a PRIMARY registration, corrected separation <=3 arcsec, leave-one-reference-out maximum corrected separation >3 arcsec",
+      "expected_n": 179,
+      "label": "DIAGNOSTIC_179"
+    },
+    "execute_on_all_v075_rows": true,
+    "expected_total": 603,
+    "no_post_pixel_pruning": true,
+    "primary_population": {
+      "definition": "pair-17 v068a PRIMARY registration, corrected separation <=3 arcsec, leave-one-reference-out maximum corrected separation <=3 arcsec",
+      "expected_n": 424,
+      "label": "PRIMARY_424"
+    },
+    "v075_gaia_class_may_not_change_control_selection": true,
+    "v075_gaia_class_may_not_select_or_exclude_morphology_targets": true
+  },
+  "purpose": "Freeze a deterministic, contextual native-pixel morphology audit for every pair-17 PRIMARY and diagnostic registered association before either physical APPLAUSE scan is acquired or any pair-17 morphology measurement is inspected.",
+  "required_outputs": {
+    "diagnostic_179_aggregate_summary": true,
+    "no_candidate_disposition_mutation": true,
+    "one_control_metric_row_per_usable_control": true,
+    "one_endpoint_metric_row_per_attempted_endpoint": true,
+    "one_pair_summary_row_per_603_associations": true,
+    "pixel_provenance_for_each_endpoint_metric": true,
+    "primary_424_aggregate_summary": true,
+    "scan_sha256_manifest": true
+  },
+  "robust_peer_comparison": {
+    "endpoint_classes": [
+      "MORPHOLOGY_NOT_OUTLIER_VS_SNR_MATCHED_CONTROLS",
+      "MORPHOLOGY_OUTLIER_VS_SNR_MATCHED_CONTROLS",
+      "INSUFFICIENT_USABLE_MATCHED_CONTROLS",
+      "MORPHOLOGY_TARGET_UNMEASURABLE",
+      "MORPHOLOGY_UNRESOLVED_ERROR"
+    ],
+    "outlier_abs_z_threshold": 3.5,
+    "pair_context_classes": [
+      "NO_MORPHOLOGY_OUTLIER_EITHER_ENDPOINT",
+      "MORPHOLOGY_OUTLIER_ONE_ENDPOINT",
+      "MORPHOLOGY_OUTLIER_BOTH_ENDPOINTS",
+      "MORPHOLOGY_UNRESOLVED_ONE_OR_MORE_ENDPOINTS"
+    ],
+    "per_metric_control_center": "median",
+    "per_metric_control_scale": "1.4826 * MAD",
+    "robust_z": "(target_metric - control_median) / control_scale",
+    "threshold_relation": "absolute robust_z >= 3.5",
+    "zero_or_nonfinite_scale": "robust_z is NA"
+  },
+  "scope": {
+    "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+    "endpoint_a": {
+      "endpoint_key": "APPLAUSE:14120",
+      "expected_content_length_bytes": 426124800,
+      "observatory": "Hamburger Sternwarte",
+      "physical_plate_id": "7685",
+      "scan_repository_path": "DR4/scans/HAM-LA/LA08164_y.fits",
+      "scan_url": "https://www.plate-archive.org/files/DR4/scans/HAM-LA/LA08164_y.fits"
+    },
+    "endpoint_b": {
+      "endpoint_key": "APPLAUSE:132654",
+      "expected_content_length_bytes": 174888000,
+      "observatory": "Dr. Karl Remeis-Sternwarte, Bamberg",
+      "physical_plate_id": "89580",
+      "scan_repository_path": "DR4/scans/Bamberg-North/012673_1953_h.fits",
+      "scan_url": "https://www.plate-archive.org/files/DR4/scans/Bamberg-North/012673_1953_h.fits"
+    },
+    "pair_index": 17,
+    "physical_exposure_overlap_s": 299.0
+  },
+  "status": "PROSPECTIVE_FREEZE"
+}
