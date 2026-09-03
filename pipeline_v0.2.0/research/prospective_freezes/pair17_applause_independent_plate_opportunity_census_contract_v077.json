@@ -1,0 +1,128 @@
+{
+  "candidate_locus_for_coverage_only": {
+    "definition": "unit-vector spherical midpoint of the frozen v075 endpoint detector coordinates a_ra_deg/a_dec_deg and b_ra_deg/b_dec_deg",
+    "does_not_replace_future_registered_recurrence_coordinate": true,
+    "reason": "The opportunity census only asks whether a comparison plate covers the already-registered common-sky locus. No recurrence separation is measured in v077."
+  },
+  "contract_id": "pair17_applause_independent_plate_opportunity_census_v077",
+  "eligibility": {
+    "eligible_independent_comparison_opportunity_requires": [
+      "plate_id is not 7685 or 89580",
+      "a parseable exact footprint from stc_polygon or header_wcs",
+      "candidate locus is interior or within the frozen 30 arcsec conservative edge margin",
+      "scan metadata are present for the selected covering solution"
+    ],
+    "no_candidate_brightness_filter": true,
+    "no_catalogue_filter": true,
+    "no_date_filter": true,
+    "no_morphology_filter": true,
+    "no_recurrence_result_filter": true
+  },
+  "exact_coverage": {
+    "covered_classes": [
+      "COVERED_INTERIOR",
+      "COVERED_EDGE_MARGIN_30ARCSEC"
+    ],
+    "edge_margin_arcsec": 30.0,
+    "edge_margin_role": "conservative opportunity preservation only; it is not a recurrence association radius",
+    "footprint_preference": [
+      "official solution stc_polygon when parseable",
+      "official header_wcs + exact scan naxis1/naxis2 footprint"
+    ],
+    "outside_class": "NOT_COVERED",
+    "unusable_footprint": "GEOMETRY_UNRESOLVED; preserved, not silently counted as non-coverage"
+  },
+  "frozen_inputs": {
+    "applause_tap_transport_precedent_sha256": "7e92fb8404be857aacdb02dcc583c5581163ac8f99bad51862861e4956326e8c",
+    "candidate_adjudication_policy_v002_sha256": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+    "injection_recovery_precedent_sha256": "7149ab75f320fdf2aea167a2126565fea3c2be4433393b353ada79c138e2d483",
+    "v057_contract_builder_sha256": "d7a82a05225aa873e8d0b0e861c550c2a1102a9420b6092081fea814395993cb",
+    "v068a_pair17_registration_sha256": "ebbe6ff5513681a3b98a2f4deda1d4b5c7f563ca284dd399e631237cdae4b7a1",
+    "v075_result_csv_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v076_control_metrics_sha256": "e3d36e92ff3a262071618b1b55a7b3ba5ff896a57ba3732ae1cc4ed8d4759607",
+    "v076_endpoint_metrics_sha256": "bfccb273c69421be4e5633964c79d17a34298798fc69b39e11c0a83a3bd9da9f",
+    "v076_pair_summary_sha256": "5b088b41dbed89f5945152c93145a55e66005ea9fc52449ff5835e31c71d2eca",
+    "v076_pixel_manifest_sha256": "31ba2e6189fd8bb3f43a76ba363bf68bf10077d48eac33a4b1712f9c7bf80b2d",
+    "v076_report_sha256": "12fd044535cb9f20020ae998571aa521e5695da29b9e19651178e8f0523f749c"
+  },
+  "interpretation_boundaries": {
+    "absence_of_eligible_plate_is_not_negative_recurrence_evidence": true,
+    "candidate_disposition_changes": 0,
+    "candidate_with_zero_opportunities": "RECURRENCE_NOT_TESTABLE_FROM_V077_APPLAUSE_SOLVED_PLATE_UNIVERSE",
+    "comparison_pixels": 0,
+    "injection_measurements": 0,
+    "next_stage": "freeze acquisition and sensitivity-qualified recurrence/injection-recovery against the v077 eligible opportunity universe",
+    "recurrence_measurements": 0,
+    "v077_is_opportunity_census_only": true
+  },
+  "official_metadata_transport": {
+    "cache_exact_query_text_and_raw_votable": true,
+    "format": "VOTable",
+    "maxrec": 200000,
+    "network_is_metadata_only": true,
+    "overflow_policy": "STOP_OPERATIONALLY; never interpret partial TAP rows as a complete opportunity census",
+    "science_pixels": false,
+    "tables": [
+      "applause_dr4.solution",
+      "applause_dr4.scan",
+      "applause_dr4.exposure",
+      "applause_dr4.archive"
+    ],
+    "tap_sync_url": "https://www.plate-archive.org/tap/sync"
+  },
+  "physical_independence": {
+    "all_underlying_solution/exposure/scan_rows_preserved": true,
+    "exclude_science_plate_ids": [
+      7685,
+      89580
+    ],
+    "multiple_exposures_same_plate_count_once": true,
+    "multiple_scans_same_plate_count_once_per_candidate": true,
+    "multiple_solutions_same_plate_count_once_per_candidate": true,
+    "unit": "APPLAUSE physical plate_id"
+  },
+  "purpose": "Prospectively freeze a complete metadata-only census of solved APPLAUSE DR4 physical plates that could provide independent comparison coverage for the full pair-17 registered population, before any comparison pixels, recurrence detections, or injection/recovery outcomes are inspected.",
+  "scope": {
+    "archive_scope": "all solved APPLAUSE DR4 plates; no date restriction",
+    "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+    "pair_index": 17,
+    "physical_exposure_overlap_s": 299.0,
+    "population": {
+      "all_v075_rows": 603,
+      "candidate_outcome_subsetting": false,
+      "diagnostic": {
+        "expected_n": 179,
+        "label": "DIAGNOSTIC_179"
+      },
+      "gaia_class_subsetting": false,
+      "morphology_subsetting": false,
+      "primary": {
+        "expected_n": 424,
+        "label": "PRIMARY_424"
+      }
+    },
+    "science_endpoints": [
+      "APPLAUSE:14120",
+      "APPLAUSE:132654"
+    ],
+    "science_physical_plate_ids_excluded": [
+      7685,
+      89580
+    ]
+  },
+  "solution_superset_query": {
+    "conservative_solution_center_radius_deg": "target_cap_radius_deg + 0.5*hypot(global_max_fov1_deg, global_max_fov2_deg) + 1.0 degree",
+    "first_query": "global MAX(fov1), MAX(fov2) from applause_dr4.solution",
+    "missing_or_nonfinite_global_fov": "STOP_OPERATIONALLY",
+    "retrieval_geometry": "RA/Dec rectangular superset enclosing the conservative spherical cap; exact coverage is decided locally from official solution footprints",
+    "target_cap": "spherical mean of all 603 frozen coverage loci plus maximum angular distance from that mean to any locus"
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "v077_outputs": {
+    "candidate_plate_opportunities": "one row per candidate x independent physical plate",
+    "candidate_solution_coverage": "all queried solution x candidate coverage evaluations",
+    "plate_inventory": "deduplicated physical plate metadata plus exposure/scan provenance",
+    "summary": "PRIMARY_424 / DIAGNOSTIC_179 opportunity counts and unresolved geometry counts",
+    "tap_query_manifest": "query text, SHA256, raw VOTable SHA256, row counts, overflow state"
+  }
+}
