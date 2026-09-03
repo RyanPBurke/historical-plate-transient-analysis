@@ -1,0 +1,99 @@
+{
+  "contract_id": "pair17_epoch_aware_gaia_static_triage_v075",
+  "frozen_inputs": {
+    "candidate_adjudication_policy_v002_sha256": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+    "pair_17_registrations_v068a_sha256": "ebbe6ff5513681a3b98a2f4deda1d4b5c7f563ca284dd399e631237cdae4b7a1",
+    "pair_17_summary_v068a_sha256": "754c13ad9f4ce82ee0ec0c70b61a85189a06f7be57360abc0e4eae05f5aa039d",
+    "v057_contract_builder_sha256": "d7a82a05225aa873e8d0b0e861c550c2a1102a9420b6092081fea814395993cb",
+    "v068a_registration_script_sha256": "9376ed5244b5defe074732dbb92e7870b618e25001cd2da4162b48dff549e0f2"
+  },
+  "gaia_static_triage": {
+    "candidate_gaia_association": {
+      "acquisition_radius_arcsec": 15.0,
+      "association_is_computed_independently_for_each_physical_endpoint": true,
+      "association_method": "reciprocal-nearest detector-candidate to epoch-propagated Gaia, using the already-frozen v068a reciprocal matching implementation",
+      "candidate_coordinates": "frozen v056 detector RA/Dec recovered exactly by endpoint_key + tile_id + candidate_index",
+      "diagnostic_endpoint_gate_arcsec": 5.0,
+      "same_source_identity_key": "Gaia DR3 source_id",
+      "strict_endpoint_gate_arcsec": 3.0
+    },
+    "catalogue": "Gaia DR3",
+    "data_source": "already-acquired offline v064/v066 Gaia transport caches only",
+    "network_access": false,
+    "proper_motion": {
+      "finite_pmra_pmdec_and_ref_epoch": "propagate with the frozen v068a apply_space_motion implementation",
+      "missing_pm": "retain as explicit PM_INCOMPLETE catalogue context only; do not interpret non-association as catalogue absence",
+      "parallax": "record if available but do not fold into the ordinary-source positional gate; parallax-aware search remains separate"
+    },
+    "target_epoch": "physical exposure-overlap midpoint",
+    "target_epoch_utc": "1953-12-02T20:48:58.500000+00:00"
+  },
+  "guards": {
+    "astrometric_registration_reruns": 0,
+    "candidate_disposition_changes": 0,
+    "detector_reruns": 0,
+    "manual_review": false,
+    "network_calls": 0,
+    "threshold_retuning_after_outcomes": false
+  },
+  "interpretation": {
+    "catalogue_absence_is_transience": false,
+    "catalogue_association_alone_closes_pair": false,
+    "population_level_control_result_rejects_individual_candidate": false,
+    "raw_catalogue_proximity_is_source_identity": false,
+    "strict_same_gaia_both_endpoints_is_strong_persistent_source_support": true,
+    "unexplained_primary_survivors_proceed_to": "deterministic morphology context then sensitivity-qualified recurrence/injection-recovery under separately frozen downstream stages",
+    "v075_changes_candidate_dispositions": false
+  },
+  "population": {
+    "all_primary_corrected_le3_expected_n": 603,
+    "all_primary_registered_expected_n": 1618,
+    "diagnostic_population_definition": "registration_mode == PRIMARY AND corrected_le3 == True AND loo_corrected_sep_max_arcsec > 3.0",
+    "diagnostic_population_expected_n": 179,
+    "no_post_outcome_pruning": true,
+    "population_membership_must_be_reconstructed_from_frozen_v068a_rows": true,
+    "primary_population_definition": "registration_mode == PRIMARY AND corrected_le3 == True AND loo_corrected_sep_max_arcsec <= 3.0",
+    "primary_population_expected_n": 424
+  },
+  "purpose": "Prospectively freeze the first candidate-level mechanical triage for wide-census pair 17 before any pair-17 Gaia candidate-association outcomes are inspected.",
+  "required_outputs_for_execution_stage": {
+    "aggregate_diagnostic_179_summary": true,
+    "aggregate_primary_424_summary": true,
+    "endpoint_a_gaia_source_id_and_separation": true,
+    "endpoint_a_v056_identity_and_measurements": true,
+    "endpoint_b_gaia_source_id_and_separation": true,
+    "endpoint_b_v056_identity_and_measurements": true,
+    "no_disposition_column_other_than_unchanged_guard": true,
+    "one_row_per_603_registered_candidate": true,
+    "primary_vs_diagnostic_population_flag": true,
+    "same_gaia_source_boolean": true,
+    "triage_class": true
+  },
+  "scope": {
+    "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+    "endpoint_a": {
+      "exposure": "APPLAUSE:14120",
+      "instrument": "Lippert-Astrograph (Hamburg)",
+      "observatory": "Hamburger Sternwarte",
+      "physical_plate_id": "7685"
+    },
+    "endpoint_b": {
+      "exposure": "APPLAUSE:132654",
+      "instrument": "Astrograph, Bamberg Northern Sky Patrol",
+      "observatory": "Dr. Karl Remeis-Sternwarte, Bamberg",
+      "physical_plate_id": "89580"
+    },
+    "pair_index": 17,
+    "physical_exposure_overlap_s": 299.0,
+    "registration_epoch_utc": "1953-12-02T20:48:58.500000+00:00"
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "triage_classes": {
+    "DIFFERENT_GAIA_SOURCES": "Both endpoints have <=5 arcsec Gaia associations but to different source_id values.",
+    "GAIA_ASSOCIATION_AMBIGUOUS_OR_PM_INCOMPLETE": "Catalogue coverage or proper-motion information is insufficient for a clean endpoint classification.",
+    "NO_GAIA_WITHIN_5_ARCSEC": "Neither endpoint has a usable <=5 arcsec epoch-aware Gaia association.",
+    "ONE_ENDPOINT_GAIA_ONLY": "Only one endpoint has a <=5 arcsec Gaia association, or the other endpoint association is PM-incomplete/ambiguous.",
+    "SAME_GAIA_DIAGNOSTIC_ONLY": "Both endpoints associate to the same Gaia source_id but one or both endpoint separations are >3 and <=5 arcsec.",
+    "SAME_GAIA_STRICT_BOTH_ENDPOINTS": "Both endpoint detections reciprocally associate within <=3 arcsec to the same epoch-propagated Gaia source_id."
+  }
+}
