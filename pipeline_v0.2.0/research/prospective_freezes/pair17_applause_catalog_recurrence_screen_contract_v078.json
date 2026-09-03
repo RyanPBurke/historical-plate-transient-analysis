@@ -1,0 +1,117 @@
+{
+  "candidate_catalog_classes": [
+    "STRICT_RECURRENCE_ON_2PLUS_PHYSICAL_PLATES",
+    "STRICT_RECURRENCE_ON_1_PHYSICAL_PLATE",
+    "DIAGNOSTIC_RECURRENCE_ONLY",
+    "WIDE_5_TO_15_ARCSEC_CONTEXT_ONLY",
+    "NO_APPLAUSE_SOURCE_CALIB_WITHIN_15_ARCSEC_ON_ELIGIBLE_PLATES",
+    "CATALOG_QUERY_UNRESOLVED"
+  ],
+  "catalogue": {
+    "comparison_pixels": false,
+    "network": "metadata/catalogue rows only",
+    "reason": "APPLAUSE DR4 source_calib contains calibrated sky coordinates and physical plate/scan identifiers for extracted sources, allowing a low-cost recurrence screen across hundreds of already-frozen independent plate opportunities.",
+    "service": "APPLAUSE DR4 TAP",
+    "table": "applause_dr4.source_calib"
+  },
+  "contract_id": "pair17_applause_catalog_recurrence_screen_v078",
+  "downstream_branching": {
+    "automatic_pixel_followup_population": "all candidates with fewer than 2 strict independent physical-plate recurrences; this branch is frozen prospectively before v078 outcomes",
+    "candidates_with_2plus_strict_recurrences": "retain in final integrated table but do not require expensive pixel non-detection sensitivity work unless a later inconsistency requires it",
+    "v078_changes_candidate_dispositions": false
+  },
+  "frozen_inputs": {
+    "v075_result_csv_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v077_scientific_contract_sha256": "11c5866a24d8e05a8436c443d16af24dcc244982d664e037e5dac75f93f8143f",
+    "v077a_bank_manifest_sha256": "86545f2e4fa228c9472665bfe59ba7625314c548c0117bc00442265d8a1e97ef",
+    "v077a_execution_sha256": "737ff9e21795f064f102d95baabb14d3bead1da7488aa3c7c188adb746d7865d",
+    "v077a_opportunity_csv_sha256": "f8bd8a1bc322d0a9dc0239e29f676975f8ff692e17e040e2786cc196caf24b1d",
+    "v077a_plate_inventory_sha256": "db37816fca8ad3214347d816d52618e9bb97537cf41660386fe6c1c7b7eaa1b1",
+    "v077a_summary_sha256": "2e9872fc777d22e9f14bac51e4460abdba7d38352400fab095d36de0df2cd4b2",
+    "v077a_tap_manifest_sha256": "53aa4ec0d969c523a52fcf2324399a6848f6473b2d8f90859b082ea498c05c08"
+  },
+  "gaia_context": {
+    "catalogue_absence_is_transience": false,
+    "do_not_require_gaia_match_for_positional_recurrence": true,
+    "gaiaedr3_id_is_contextual": true,
+    "same_nonnull_gaiaedr3_id_across_multiple_strict_plates": "strong persistent-source contextual support"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "comparison_pixels_read": 0,
+    "detector_rerun": false,
+    "injection_measurements": 0,
+    "manual_review": false,
+    "registration_rerun": false,
+    "threshold_retuning": false
+  },
+  "opportunity_filter": {
+    "multiple_source_rows_same_plate": "retain all raw rows; for plate-level recurrence choose the nearest source to the frozen target coordinate deterministically",
+    "only_physical_plate_ids_in_v077a_candidate_opportunity_universe": true,
+    "physical_plate_is_counting_unit": true,
+    "science_pair_plates_already_excluded_by_v077a": [
+      7685,
+      89580
+    ]
+  },
+  "population": {
+    "all": 603,
+    "candidate_outcome_subsetting": false,
+    "diagnostic": 179,
+    "gaia_class_subsetting": false,
+    "morphology_subsetting": false,
+    "primary": 424
+  },
+  "purpose": "Run a resumable, population-wide APPLAUSE DR4 source-catalog recurrence screen for every frozen pair-17 association across the already-frozen independent physical-plate opportunity universe, before any comparison FITS pixels or injection/recovery outcomes are inspected.",
+  "query": {
+    "acquisition_radius_arcsec": 15.0,
+    "cache_exact_adql_and_raw_votable": true,
+    "maxrec": 200000,
+    "one_query_per_frozen_candidate": true,
+    "overflow_policy": "STOP_OPERATIONALLY",
+    "resume_from_cached_completed_candidate_queries": true,
+    "selected_columns": [
+      "source_id",
+      "process_id",
+      "scan_id",
+      "plate_id",
+      "archive_id",
+      "solution_num",
+      "sextractor_flags",
+      "model_prediction",
+      "ra_icrs",
+      "dec_icrs",
+      "ra_error",
+      "dec_error",
+      "natmag",
+      "natmag_error",
+      "phot_range_flags",
+      "phot_calib_flags",
+      "gaiaedr3_id",
+      "gaiaedr3_dist",
+      "gaiaedr3_neighbors",
+      "match_radius"
+    ]
+  },
+  "recurrence_radii": {
+    "acquisition_context_arcsec": 15.0,
+    "diagnostic_arcsec": 5.0,
+    "diagnostic_definition": "nearest eligible source >3 and <=5 arcsec",
+    "strict_arcsec": 3.0,
+    "strict_definition": "nearest eligible source on a physical plate <=3 arcsec",
+    "wide_context_definition": "nearest eligible source >5 and <=15 arcsec"
+  },
+  "required_outputs": {
+    "candidate_summary": true,
+    "downstream_pixel_followup_queue": true,
+    "plate_level_nearest_matches": true,
+    "primary_and_diagnostic_aggregates": true,
+    "query_manifest": true,
+    "raw_catalog_rows": true
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "target_coordinate": {
+    "definition": "unit-vector spherical midpoint of the frozen v075 endpoint detector coordinates a_ra_deg/a_dec_deg and b_ra_deg/b_dec_deg",
+    "same_as_v077_coverage_locus": true
+  }
+}
