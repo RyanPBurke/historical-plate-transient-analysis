@@ -1,0 +1,174 @@
+{
+  "analysis_kind": "wide_census_observed_registered_control_audit_v074a",
+  "control_distribution": {
+    "primary_corrected_le3": {
+      "max": 17490.0,
+      "mean": 16906.9375,
+      "median": 16919.0,
+      "min": 16631.0,
+      "n": 16,
+      "stdev_population": 205.8483873965254
+    },
+    "primary_loo_robust_le3": {
+      "max": 14924.0,
+      "mean": 14522.1875,
+      "median": 14498.0,
+      "min": 14278.0,
+      "n": 16,
+      "stdev_population": 146.03989983477118
+    },
+    "primary_registered": {
+      "max": 190795.0,
+      "mean": 188472.4375,
+      "median": 188487.5,
+      "min": 186066.0,
+      "n": 16,
+      "stdev_population": 1272.6674236004276
+    }
+  },
+  "global_comparison": {
+    "control_primary_corrected_le3_mean": 16906.9375,
+    "control_primary_corrected_rate": 0.08970509282026981,
+    "control_primary_loo_robust_le3_mean": 14522.1875,
+    "control_primary_loo_robust_rate": 0.07705204905624463,
+    "control_primary_registered_mean": 188472.4375,
+    "observed_primary_corrected_le3": 352935,
+    "observed_primary_corrected_rate": 0.6912947416666994,
+    "observed_primary_loo_robust_le3": 345997,
+    "observed_primary_loo_robust_rate": 0.6777052622507062,
+    "observed_primary_registered": 510542,
+    "primary_corrected_count_ratio_observed_over_control_mean": 20.87515849632732,
+    "primary_corrected_registered_rate_ratio": 7.706304290345643,
+    "primary_loo_count_ratio_observed_over_control_mean": 23.825405091347292,
+    "primary_loo_registered_rate_ratio": 8.795421673419884
+  },
+  "guards": {
+    "astrometric_registration_rerun": false,
+    "candidate_disposition_changes": false,
+    "detector_rerun": false,
+    "network_access": false,
+    "threshold_retuning": false
+  },
+  "input_sha256": {
+    "research/prospective_freezes/wide_census_registered_control_contract_v001.json": "be2febd2696f1798a0a78c2724420f3aaac939a825ebe5b296b126ba9ce47eeb",
+    "results/wide_census_gaia_registration_v068a/state_v068a.json": "a5d89634a073c5a7b024c1260ad65486f70ff8ef356db0426cf137fd6fd2736e",
+    "results/wide_census_gaia_registration_v068a/wide_census_gaia_registration_pair_summary_v068a.csv": "b516a13c0f0d322aaba20149b8d7f1f11b04d1af3bc30b973e5f69fd92fe1d2c",
+    "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_global_summary_v073a.csv": "ab3b027e50cdb73a8dd959fab9e3d361f2d8418b5edebfe7c0fdbc55e12fdb7b",
+    "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_job_summary_v073a.csv": "277fff807b306780f26434635d1589c3a14d33ee0bf96130a3b11090fbadb3cc",
+    "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_pair_summary_v073a.csv": "9ad6a068fb3627acdc318f3d1b60465e313dfa0f1d8868872a8962143c577ce6",
+    "results/wide_census_registered_control_registration_v073a/wide_census_registered_control_registration_v073a.json": "6286207758bce9d470b5dbbbd6823253ec0ad5689eab717454e07c931d5a22a0",
+    "tools/run_wide_census_gaia_registration_v068a.py": "9376ed5244b5defe074732dbb92e7870b618e25001cd2da4162b48dff549e0f2",
+    "tools/run_wide_census_registered_control_registration_v073a.py": "f0ca230b3565e1017b404ea52d4779febaba13db8d9253c2965cd90a0857c353"
+  },
+  "interpretation_boundary": "Descriptive population-level observed-versus-shifted-control audit. The 16 shifted control cells are deterministic structured controls, not independent random replicates; v074a therefore reports no p-value or formal significance. Sparse-diagnostic registrations remain separate from PRIMARY and cannot change any individual candidate disposition.",
+  "outputs": {
+    "global_cells": "results/wide_census_observed_registered_control_audit_v074a/wide_census_observed_registered_control_global_cells_v074a.csv",
+    "group_summary": "results/wide_census_observed_registered_control_audit_v074a/wide_census_observed_registered_control_group_summary_v074a.csv",
+    "pair_comparison": "results/wide_census_observed_registered_control_audit_v074a/wide_census_observed_registered_control_pair_comparison_v074a.csv"
+  },
+  "preexisting_pair_stratification": {
+    "dominant_pair_indices": [
+      13,
+      14,
+      28,
+      29,
+      30
+    ],
+    "groups": [
+      {
+        "control_fraction_of_global_primary_corrected": 1.0,
+        "control_primary_corrected_le3_mean": 16906.9375,
+        "control_primary_corrected_rate": 0.08970509282026981,
+        "control_primary_loo_robust_le3_mean": 14522.1875,
+        "control_primary_loo_robust_rate": 0.07705204905624463,
+        "control_primary_registered_mean": 188472.4375,
+        "group": "ALL_33",
+        "observed_fraction_of_global_primary_corrected": 1.0,
+        "observed_primary_corrected_le3": 352935,
+        "observed_primary_corrected_rate": 0.6912947416666994,
+        "observed_primary_loo_robust_le3": 345997,
+        "observed_primary_loo_robust_rate": 0.6777052622507062,
+        "observed_primary_registered": 510542,
+        "pair_count": 33,
+        "pair_indices": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+        "primary_corrected_count_ratio": 20.87515849632732,
+        "primary_corrected_registered_rate_ratio": 7.706304290345643,
+        "primary_loo_count_ratio": 23.825405091347292,
+        "primary_loo_registered_rate_ratio": 8.795421673419884
+      },
+      {
+        "control_fraction_of_global_primary_corrected": 0.9017563056585499,
+        "control_primary_corrected_le3_mean": 15245.9375,
+        "control_primary_corrected_rate": 0.08993396571791774,
+        "control_primary_loo_robust_le3_mean": 13932.8125,
+        "control_primary_loo_robust_rate": 0.08218799806369242,
+        "control_primary_registered_mean": 169523.6875,
+        "group": "PREEXISTING_DOMINANT_5",
+        "observed_fraction_of_global_primary_corrected": 0.9910068426197458,
+        "observed_primary_corrected_le3": 349761,
+        "observed_primary_corrected_rate": 0.7209084706915351,
+        "observed_primary_loo_robust_le3": 344378,
+        "observed_primary_loo_robust_rate": 0.7098133220107715,
+        "observed_primary_registered": 485167,
+        "pair_count": 5,
+        "pair_indices": "13,14,28,29,30",
+        "primary_corrected_count_ratio": 22.941258941931252,
+        "primary_corrected_registered_rate_ratio": 8.015975554249431,
+        "primary_loo_count_ratio": 24.717048334641696,
+        "primary_loo_registered_rate_ratio": 8.636459565065625
+      },
+      {
+        "control_fraction_of_global_primary_corrected": 0.09824369434145007,
+        "control_primary_corrected_le3_mean": 1661.0,
+        "control_primary_corrected_rate": 0.08765749719638499,
+        "control_primary_loo_robust_le3_mean": 589.375,
+        "control_primary_loo_robust_rate": 0.031103634804406623,
+        "control_primary_registered_mean": 18948.75,
+        "group": "NON_DOMINANT_28",
+        "observed_fraction_of_global_primary_corrected": 0.008993157380254154,
+        "observed_primary_corrected_le3": 3174,
+        "observed_primary_corrected_rate": 0.12508374384236454,
+        "observed_primary_loo_robust_le3": 1619,
+        "observed_primary_loo_robust_rate": 0.06380295566502463,
+        "observed_primary_registered": 25375,
+        "pair_count": 28,
+        "pair_indices": "1,2,3,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20,21,22,23,24,25,26,27,31,32,33",
+        "primary_corrected_count_ratio": 1.9108970499698976,
+        "primary_corrected_registered_rate_ratio": 1.426960018743531,
+        "primary_loo_count_ratio": 2.7469777306468717,
+        "primary_loo_registered_rate_ratio": 2.0513022373830507
+      }
+    ],
+    "source": "Pair set identified before v074a from the v062/v068a population structure; not selected using the v074a corrected-control outcome."
+  },
+  "status": "COMPLETE",
+  "verified": {
+    "control_global_cells": 16,
+    "control_jobs": 528,
+    "control_raw_all_jobs": {
+      "le10": 3048415,
+      "le3": 274648
+    },
+    "observed": {
+      "primary_corrected_le3": 352935,
+      "primary_loo_crosses_gt3": 6938,
+      "primary_loo_robust_le3": 345997,
+      "primary_raw_gt3_to_corrected_le3": 177022,
+      "primary_raw_le3_to_corrected_gt3": 9415,
+      "primary_raw_le3_to_corrected_le3": 175913,
+      "primary_registered": 510542,
+      "raw_le10": 512788,
+      "raw_le3": 185532,
+      "sparse_corrected_le3": 218,
+      "sparse_registered": 2243,
+      "unregistered": 3,
+      "window_10": 18902,
+      "window_20": 10442,
+      "window_30": 2886,
+      "window_5": 478312
+    },
+    "pairs": 33,
+    "v068a_observed_population_reconstructed_from_pair_csvs": true,
+    "v073a_exact_control_summary_reproduction": true
+  }
+}
