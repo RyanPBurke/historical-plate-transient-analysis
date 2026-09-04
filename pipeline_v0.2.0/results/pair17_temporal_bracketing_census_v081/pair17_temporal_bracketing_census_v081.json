@@ -1,0 +1,55 @@
+{
+  "analysis_kind": "pair17_temporal_bracketing_census_v081",
+  "chronology": {
+    "band_counts": {
+      "1": {
+        "candidates_with_same_series": 0,
+        "same_series_intervals": 0
+      },
+      "2": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      },
+      "24": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      },
+      "6": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      }
+    },
+    "bilateral_same_series_bracketing_both_observatories_within_24h": 0,
+    "timing_ambiguous": 29,
+    "usable_exposure_intervals": 5550
+  },
+  "contract_sha256": "f0c45348477dc6a7094a739e34766bf5867cf94c3fec3c71066fbf594b060b63",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_calls": 0,
+    "fits_pixel_reads": 0,
+    "injection_measurements": 0,
+    "manual_image_review": false,
+    "network_calls": 0
+  },
+  "operational_repair": "v081a recover exposure ends/durations from cryptographically banked v077a raw exposure VOTables",
+  "original_v081_runner_sha256": "0b8607fb04d3c1a80d2bbb62569d520629ea902df61bdb7f2567a3ee079d7707",
+  "population": {
+    "split": {
+      "PRIMARY_424": 6
+    },
+    "total": 6
+  },
+  "scientific_contract_changed_by_v081a": false,
+  "status": "COMPLETE",
+  "v077a_banked_exposure_cache": {
+    "exposure_rows": 10182,
+    "files_verified": 153
+  },
+  "v082_queue": {
+    "already_acquired_v079": 1,
+    "known_new_bytes": 0,
+    "new_scans_required": 0,
+    "unique_scans": 1
+  }
+}

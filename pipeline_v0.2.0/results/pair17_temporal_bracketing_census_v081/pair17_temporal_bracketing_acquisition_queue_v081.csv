@@ -1,0 +1,2 @@
+scan_id,filename_scan,physical_plate_id,archive_id,observatory,series,same_science_series,file_size,fits_checksum,already_acquired_v079,candidate_ids,relations,minimum_gap_seconds,candidate_count
+10000,DR4/scans/HAM-LA/LA08167_x.fits,7687,101,HAMBURG,HAM-LA,True,1312346880,PeNSSZKPPdKPPZKP,True,293118;293470;293841;294052,FOLLOWING,3710.0,4

@@ -1,0 +1,77 @@
+{
+  "analysis_kind": "pair17_v081a_temporal_bracketing_bank_manifest",
+  "chronology": {
+    "band_counts": {
+      "1": {
+        "candidates_with_same_series": 0,
+        "same_series_intervals": 0
+      },
+      "2": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      },
+      "24": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      },
+      "6": {
+        "candidates_with_same_series": 4,
+        "same_series_intervals": 4
+      }
+    },
+    "bilateral_same_series_bracketing_both_observatories_within_24h": 0,
+    "timing_ambiguous": 29,
+    "usable_exposure_intervals": 5550
+  },
+  "execution_runner_sha256": "818e9b14fac1ee3d7d1ccf3f422157e832cb83e874a42f3dedd5eab7f608736e",
+  "files": [
+    {
+      "name": "pair17_temporal_bracketing_opportunities_v081.csv",
+      "sha256": "bd50fd30bcffa27ce390400faf372ae4f8134c1e2884da87f5af65eec679b91f",
+      "size_bytes": 1666251
+    },
+    {
+      "name": "pair17_temporal_bracketing_candidate_summary_v081.csv",
+      "sha256": "4da2bbcdce0a0a802cf6a411e322e467e15566be576203683caf7d7d208670a6",
+      "size_bytes": 3737
+    },
+    {
+      "name": "pair17_temporal_bracketing_acquisition_queue_v081.csv",
+      "sha256": "807e03e50165af38747e5b1e45742d2cba5a05e56926e2c6fed83aca2ec87511",
+      "size_bytes": 345
+    },
+    {
+      "name": "pair17_temporal_bracketing_timing_ambiguous_v081.csv",
+      "sha256": "5e90491111ca5e58b95887be330c71a2acf1d0f45c01eabd60626b96a21c078f",
+      "size_bytes": 3371
+    },
+    {
+      "name": "pair17_temporal_bracketing_census_v081.json",
+      "sha256": "fa2205072d6dc1ae5562efaf34cb6f1865eebde1a9d8f9200a9c7d460f98f111",
+      "size_bytes": 1605
+    }
+  ],
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_calls": 0,
+    "fits_pixel_reads": 0,
+    "injection_measurements": 0,
+    "manual_image_review": false,
+    "network_calls": 0
+  },
+  "population": {
+    "split": {
+      "PRIMARY_424": 6
+    },
+    "total": 6
+  },
+  "scientific_contract_changed_by_v081a": false,
+  "scientific_contract_sha256": "f0c45348477dc6a7094a739e34766bf5867cf94c3fec3c71066fbf594b060b63",
+  "status": "COMPLETE",
+  "v082_queue": {
+    "already_acquired_v079": 1,
+    "known_new_bytes": 0,
+    "new_scans_required": 0,
+    "unique_scans": 1
+  }
+}
