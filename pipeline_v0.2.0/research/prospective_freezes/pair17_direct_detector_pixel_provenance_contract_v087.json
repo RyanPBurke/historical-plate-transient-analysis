@@ -1,0 +1,71 @@
+{
+  "checks": [
+    "detector candidate row unique within selected tile CSV",
+    "detector endpoint_key/tile_id/candidate_index agree with v075 linkage",
+    "detector RA/Dec agree with v075 endpoint RA/Dec",
+    "tile origin + local_x/local_y agree with detector global_x/global_y",
+    "original detector global_x/global_y versus banked science crosshair x/y",
+    "also report +/-1 pixel convention alternatives without selecting them scientifically"
+  ],
+  "contract_id": "pair17_direct_detector_pixel_provenance_audit_v087",
+  "descriptive_alignment_bands_px": {
+    "EXACT": 1e-06,
+    "OFFSET_GT2PX": "greater than 2.0",
+    "SUBPIXEL": 0.5,
+    "WITHIN_1PX": 1.0,
+    "WITHIN_2PX": 2.0
+  },
+  "frozen_inputs": {
+    "v075_triage_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v086a_bank_manifest_sha256": "3308d357147d9eb5a09609b8b969802581e399f37d8aeffe53ddf058890c10b7"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_feature_measurements": 0,
+    "threshold_retuning": false
+  },
+  "outputs": [
+    "pair17_direct_detector_pixel_provenance_v087.csv",
+    "pair17_direct_detector_pixel_provenance_v087.json"
+  ],
+  "population": {
+    "endpoint_a": "APPLAUSE:14120",
+    "endpoint_b": "APPLAUSE:132654",
+    "expected_rows": 12,
+    "raw_match_rows": [
+      293118,
+      293470,
+      293841,
+      294052,
+      294130,
+      294179
+    ],
+    "science_endpoints_per_candidate": 2
+  },
+  "purpose": "For the exact six Pair-17 survivors, recover the original frozen v056 detector candidate row for both science endpoints using the v075 tile_id + candidate_index linkage, then compare original detector global_x/global_y directly with the banked v083/v086 science-panel crosshair pixel. Diagnostic provenance audit only.",
+  "source_resolution": {
+    "candidate_csv_pattern": "results/wide_census_detector_execution_v056/tiles/<endpoint>/<tile_id>_candidates.csv",
+    "candidate_row_match": "candidate_index exact integer match",
+    "linkage": "v075 a/b_tile_id + a/b_candidate_index",
+    "required_detector_fields": [
+      "endpoint_key",
+      "tile_id",
+      "candidate_index",
+      "local_x",
+      "local_y",
+      "global_x",
+      "global_y",
+      "ra_deg",
+      "dec_deg",
+      "snr",
+      "signal",
+      "polarity",
+      "sigma"
+    ]
+  },
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
