@@ -1,0 +1,19 @@
+{
+  "failure_observed": "v088 heuristically searched Python files for detector provenance terms and correctly found several wrappers/audits plus the actual frozen v056 payload, but refused to choose among tied candidates before any detector-semantics results were exposed.",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_feature_measurements": 0,
+    "npy_pixel_reads": 0,
+    "threshold_retuning": false
+  },
+  "parent_v088_runner_sha256": "f6d1df3655d65d9c84c1ae3cfc881201d2361516e40504553d4e004337e1d940",
+  "repair": "Bind source inspection directly to tools/_execute_wide_frozen_detector_v056.payload.py, the exact frozen wide-census detector execution payload. Require the expected provenance terms to remain present. No detector execution, pixel reads, score changes, threshold changes, or disposition changes are introduced.",
+  "repair_id": "pair17_detector_semantics_provenance_operational_repair_v088a",
+  "repair_type": "OPERATIONAL_SOURCE_RESOLUTION_ONLY",
+  "scientific_contract_changed": false,
+  "selected_frozen_source_path": "tools/_execute_wide_frozen_detector_v056.payload.py"
+}
