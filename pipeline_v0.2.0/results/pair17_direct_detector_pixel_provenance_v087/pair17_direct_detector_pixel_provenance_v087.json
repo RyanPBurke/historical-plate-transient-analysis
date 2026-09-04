@@ -1,0 +1,28 @@
+{
+  "alignment_band_counts": {
+    "EXACT": 6,
+    "SUBPIXEL": 3,
+    "WITHIN_2PX": 3
+  },
+  "analysis_kind": "pair17_direct_detector_pixel_provenance_audit_v087",
+  "contract_sha256": "4466ba7f8ea4fa268771cab2ad2b576bc2f40e4f6988bab869ae86169753f0ca",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_feature_measurements": 0,
+    "threshold_retuning": false
+  },
+  "max_detector_vs_v075_radec_arcsec": 0.003073585126505738,
+  "max_direct_crosshair_detector_delta_px": 1.3168592400393169,
+  "max_global_tile_local_residual_px": 90.50966799187809,
+  "offset_gt2px_rows": [],
+  "output_csv_sha256": "1aa96caaa96053401cc07f8fa008476571ffd1447759a0724ec68372ce2f2366",
+  "population": {
+    "candidates": 6,
+    "science_endpoint_rows": 12
+  },
+  "status": "COMPLETE"
+}

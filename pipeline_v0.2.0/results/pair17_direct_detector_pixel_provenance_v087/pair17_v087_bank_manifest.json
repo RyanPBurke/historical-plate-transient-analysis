@@ -1,0 +1,19 @@
+{
+  "analysis_kind": "pair17_v087_direct_detector_pixel_provenance_bank_manifest",
+  "candidate_dispositions_changed": false,
+  "candidates": 6,
+  "files": [
+    {
+      "path": "results/pair17_direct_detector_pixel_provenance_v087/pair17_direct_detector_pixel_provenance_v087.csv",
+      "sha256": "1aa96caaa96053401cc07f8fa008476571ffd1447759a0724ec68372ce2f2366",
+      "size_bytes": 8660
+    },
+    {
+      "path": "results/pair17_direct_detector_pixel_provenance_v087/pair17_direct_detector_pixel_provenance_v087.json",
+      "sha256": "6947bfb9bc582054fb10ccc6ca1ca59df43b26e63b4bb77d5f7d3531d77699d4",
+      "size_bytes": 927
+    }
+  ],
+  "science_endpoint_rows": 12,
+  "status": "COMPLETE"
+}
