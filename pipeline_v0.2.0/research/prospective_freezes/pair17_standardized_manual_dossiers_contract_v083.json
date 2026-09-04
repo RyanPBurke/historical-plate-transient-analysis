@@ -1,0 +1,85 @@
+{
+  "comparison_center": {
+    "coordinate": "banked v080 registered target coordinate",
+    "if_registration_sparse_or_none": "retain selected panel but mark registration insufficient and use unshifted registered target WCS position only",
+    "observed_scan_position": "registered target shifted by positive banked v080 detector-minus-Gaia east/north translation, projected through scan WCS"
+  },
+  "comparison_selection": {
+    "always_include_v082_close_time_rows": true,
+    "deduplicate_same_candidate_plate_scan": true,
+    "eligible_negative": "v080 sensitivity_qualified_negative == true and exact chronology row exists for same candidate/plate/scan",
+    "fallback_if_same_series_side_missing": "nearest sensitivity-qualified plate in same observatory on that temporal side from any series; label fallback",
+    "no_visual_selection": true,
+    "per_observatory": [
+      "nearest sensitivity-qualified PRECEDING same-science-series plate",
+      "nearest sensitivity-qualified FOLLOWING same-science-series plate"
+    ],
+    "source_measurements": "banked v080 plate measurements joined to banked v081 exact chronology"
+  },
+  "contract_id": "pair17_standardized_manual_dossiers_v083",
+  "frozen_inputs": {
+    "v075_triage_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v079b_bank_manifest_sha256": "d3bd17cb6c9da62feb17d10bd8f7b86789ee11b63acc8d131407ba0b785e1e42",
+    "v080a_bank_manifest_sha256": "f2ba81ab1222162e3d94a57d61d4f92da14ec37fef3dab4e54abd060ca699327",
+    "v081a_bank_manifest_sha256": "b361e0165061550bacd31f44ec0926dc450b2242b52e5b73de571deb7d56172d",
+    "v082_bank_manifest_sha256": "fb0ab1a0d8d3afdd681bf24fd995086948f4b28fafa2473dd5752e067748338f"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_threshold_retuning": false,
+    "manual_interpretation_during_generation": false,
+    "network_calls": 0,
+    "new_scan_downloads": 0,
+    "pixel_reads": "allowed only after contract and implementation are frozen"
+  },
+  "population": {
+    "candidate_ids": [
+      293118,
+      293470,
+      293841,
+      294052,
+      294130,
+      294179
+    ],
+    "expected_count": 6,
+    "no_candidate_subsetting": true,
+    "population_label": "PRIMARY_424"
+  },
+  "purpose": "Generate standardized manual-validation dossiers for all six banked v082 PRIMARY survivors using prospectively frozen panel-selection and rendering rules before any visual candidate-specific interpretation. Pixel reads are visualization-only; no candidate disposition changes.",
+  "rendering": {
+    "angular_context_width_arcsec": 240.0,
+    "angular_zoom_width_arcsec": 60.0,
+    "crosshair": "fixed center crosshair on every rendered panel",
+    "grayscale_only": true,
+    "highpass_background_sigma_px": 8.0,
+    "highpass_display_clip_sigma": 5.0,
+    "no_local_visual_tuning": true,
+    "no_retouching": true,
+    "raw_stretch_percentiles": [
+      1.0,
+      99.5
+    ],
+    "same_rendering_rule_all_candidates": true,
+    "source_raw_cutout_saved_npy": true
+  },
+  "science_panels": {
+    "always_include": [
+      {
+        "center": "frozen v075 Hamburg detector position",
+        "exposure": "APPLAUSE:14120",
+        "observatory": "HAMBURG",
+        "physical_plate_id": 7685,
+        "scan_basename": "LA08164_y.fits"
+      },
+      {
+        "center": "frozen v075 Bamberg detector position",
+        "exposure": "APPLAUSE:132654",
+        "observatory": "BAMBERG",
+        "physical_plate_id": 89580,
+        "scan_basename": "012673_1953_h.fits"
+      }
+    ],
+    "common_overlap_seconds": 299
+  },
+  "status": "PROSPECTIVE_FREEZE"
+}
