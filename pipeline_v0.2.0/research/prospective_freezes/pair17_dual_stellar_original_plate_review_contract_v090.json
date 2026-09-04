@@ -1,0 +1,40 @@
+{
+  "contract_id": "pair17_dual_stellar_original_plate_review_v090",
+  "display": {
+    "full_plate_overview": "strided raw FITS display only",
+    "marked_and_unmarked_zoom": true,
+    "native_region_half_size_px": 1024,
+    "native_zoom_half_size_px": 256,
+    "no_filtering": true,
+    "stretch": "independent linear 0.5 to 99.5 percentile"
+  },
+  "frozen_inputs": {
+    "v083b_bank_manifest_sha256": "6f0f749852db04fc5d1a9b8bde773a2f0dc273ee59d8e0832b72e3743e9b658b",
+    "v085_bank_manifest_sha256": "c54982481ee6746b8e5b8b18bb9cbb2b7057b14259837f620507c4ac8c13bc71",
+    "v087_bank_manifest_sha256": "f71c234c35c6c8c679ec259d6401cd37eb556e2a5309fd2c290debb6a2caf6ae",
+    "v088a_bank_manifest_sha256": "6f27acdf19c16a866af8c593f93be2fab5505fb04de99ad108529ae28895412f"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_feature_measurements": 0
+  },
+  "outputs": [
+    "work/pair17_dual_stellar_original_plate_review_v090/index.html",
+    "work/pair17_dual_stellar_original_plate_review_v090/assets/*.bmp",
+    "work/pair17_dual_stellar_original_plate_review_v090/pair17_dual_stellar_original_plate_review_manifest_v090.json"
+  ],
+  "population": {
+    "candidates": [
+      293470,
+      294052,
+      294130,
+      294179
+    ],
+    "panel_source": "all v083b dossier panels for these candidates"
+  },
+  "purpose": "Display the original FITS scan context for the four Pair-17 candidates that retained dual-observatory DEFINITE/STELLAR_COMPACT blind science-plate classifications after v085: 293470, 294052, 294130, 294179. Include both science plates and every already-selected v083b comparison panel for those candidates. Display-only; no new detection or measurement.",
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
