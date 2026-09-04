@@ -1,0 +1,37 @@
+{
+  "contract_id": "pair17_final_two_registered_comparison_blinks_v091",
+  "frozen_inputs": {
+    "v083b_bank_manifest_sha256": "6f0f749852db04fc5d1a9b8bde773a2f0dc273ee59d8e0832b72e3743e9b658b",
+    "v085_bank_manifest_sha256": "c54982481ee6746b8e5b8b18bb9cbb2b7057b14259837f620507c4ac8c13bc71"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_source_measurements": 0,
+    "threshold_retuning": false
+  },
+  "outputs": [
+    "work/pair17_final_two_registered_comparison_blinks_v091/index.html",
+    "work/pair17_final_two_registered_comparison_blinks_v091/assets/*.bmp",
+    "work/pair17_final_two_registered_comparison_blinks_v091/pair17_final_two_registered_comparison_blinks_manifest_v091.json"
+  ],
+  "population": {
+    "candidates": [
+      294130,
+      294179
+    ],
+    "comparison_source": "all v083b QUALIFIED_NEGATIVE panels for these candidates",
+    "science_pairing": "comparison panel paired to science plate from the same observatory"
+  },
+  "purpose": "For Pair-17 candidates 294130 and 294179, create display-only registered blinks between each science plate and every already-selected same-observatory qualified-negative comparison panel in the frozen v083b dossier. This tests whether apparently absent/weak comparison epochs contain the same source at the banked target position.",
+  "registration": {
+    "center": "each panel's banked v083b target_pixel converted through that panel's own WCS",
+    "common_grid": "local ICRS sky-offset grid around each banked panel target",
+    "display_scale": "coarser of the science/comparison native WCS scales",
+    "grid_size_px": 640,
+    "sampling": "nearest-neighbour display resampling only"
+  },
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
