@@ -1,0 +1,29 @@
+{
+  "analysis_kind": "pair17_v086a_astrometric_locator_audit_bank_manifest",
+  "candidate_dispositions_changed": false,
+  "files": [
+    {
+      "path": "results/pair17_astrometric_locator_audit_v086/pair17_astrometric_locator_audit_v086.json",
+      "sha256": "8cedf86543e5b94c8625f7c5d127ec992be358e1de0d38780722db1645391aff",
+      "size_bytes": 1776
+    },
+    {
+      "path": "results/pair17_astrometric_locator_audit_v086/pair17_locator_audit_all_panels_v086.csv",
+      "sha256": "e15d66777134ed19e15eff8253fef33e528986a806661f311dddb0bcd94ce0bc",
+      "size_bytes": 9658
+    },
+    {
+      "path": "results/pair17_astrometric_locator_audit_v086/pair17_science_direct_pixel_provenance_inventory_v086.csv",
+      "sha256": "ac67c15ccb764494ebe9bca5b5da43a12331a885ab2713a3f05066387cb92466",
+      "size_bytes": 3946
+    },
+    {
+      "path": "results/pair17_astrometric_locator_audit_v086/pair17_science_locator_audit_v086.csv",
+      "sha256": "c4d1ec27054837e8d7141158280c8afdb81d21727050ca6ab761fe749d93ff4b",
+      "size_bytes": 4308
+    }
+  ],
+  "parent_v086_runner_sha256": "afc4defe3eebcbd6d6626852b7a54136cf80f4ca6455a7f95560f7d77aacecd8",
+  "status": "COMPLETE",
+  "v086a_runner_sha256": "b3b27dc3a24a808225cb71ff3733b9bbe3d6cdd0c5cc18bf3a2d40e09fcb698e"
+}

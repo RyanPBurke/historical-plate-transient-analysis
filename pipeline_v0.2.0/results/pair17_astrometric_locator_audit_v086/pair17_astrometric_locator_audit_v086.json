@@ -1,0 +1,39 @@
+{
+  "analysis_kind": "pair17_astrometric_locator_audit_v086",
+  "contract_sha256": "b802fc02354f2911f2551c6e49e6cf4dabc088686d1ee99172127101bf73eb89",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_data_reads": 0,
+    "fits_header_reads": "yes",
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_feature_measurements": 0,
+    "threshold_retuning": false
+  },
+  "operational_repair": "v086a merges banked v082 close-time native-pixel measurements only where the v080 key is absent; v082 used the exact frozen v080 method",
+  "outputs": {
+    "all_panels": "results/pair17_astrometric_locator_audit_v086/pair17_locator_audit_all_panels_v086.csv",
+    "provenance_inventory": "results/pair17_astrometric_locator_audit_v086/pair17_science_direct_pixel_provenance_inventory_v086.csv",
+    "science_panels": "results/pair17_astrometric_locator_audit_v086/pair17_science_locator_audit_v086.csv"
+  },
+  "parent_v086_runner_sha256": "afc4defe3eebcbd6d6626852b7a54136cf80f4ca6455a7f95560f7d77aacecd8",
+  "population": {
+    "candidates": 6,
+    "panels": 32,
+    "science_panels": 12
+  },
+  "render_reconstruction": {
+    "failures": 0,
+    "max_residual_px": 0.0,
+    "pass_tolerance_px": 1e-06,
+    "passes": 32
+  },
+  "science_direct_pixel_provenance": {
+    "available_in_v075_science_rows": 0,
+    "exact_global_provenance_rows_found_across_frozen_v067_v068_v075_csvs": 0,
+    "note": "Render reconstruction tests whether the crosshair matches the frozen astrometric calculation. Direct pixel provenance, when available, is the stronger check against the original detector pixel location."
+  },
+  "scientific_contract_changed_by_v086a": false,
+  "status": "COMPLETE"
+}
