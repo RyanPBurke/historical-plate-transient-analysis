@@ -1,0 +1,50 @@
+{
+  "contract_id": "pair17_registered_raw_blink_diagnostic_v089",
+  "display": {
+    "crosshair_overlay": "HTML/CSS only; not burned into raw registered images",
+    "high_pass": false,
+    "interactive_blink": true,
+    "opacity_slider": true,
+    "science_pixels_modified": false,
+    "smoothing": false,
+    "source_detection": false,
+    "stretch": "independent linear 0.5 to 99.5 percentile per image",
+    "subtraction": false
+  },
+  "frozen_inputs": {
+    "v075_triage_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v087_bank_manifest_sha256": "f71c234c35c6c8c679ec259d6401cd37eb556e2a5309fd2c290debb6a2caf6ae",
+    "v088a_bank_manifest_sha256": "6f27acdf19c16a866af8c593f93be2fab5505fb04de99ad108529ae28895412f"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_feature_measurements": 0,
+    "threshold_retuning": false
+  },
+  "outputs": [
+    "work/pair17_registered_raw_blink_v089/index.html",
+    "work/pair17_registered_raw_blink_v089/assets/*.bmp",
+    "work/pair17_registered_raw_blink_v089/pair17_registered_raw_blink_manifest_v089.json"
+  ],
+  "population": {
+    "candidates": [
+      293118,
+      293841
+    ],
+    "close_time_plate": 7687,
+    "science_plate": 7685
+  },
+  "purpose": "Create a display-only registered raw-image blink for Pair-17 candidates 293118 and 293841, comparing the Hamburg science plate with the Hamburg close-time plate about 1.03 h later. The goal is to inspect the same sky coordinate across the two physical plates without changing candidate state or performing new source detection.",
+  "registration": {
+    "center_coordinate": "frozen v075 Hamburg endpoint RA/Dec for each candidate",
+    "common_grid_projection": "ICRS sky-offset grid centered on frozen v075 Hamburg endpoint coordinate",
+    "display_pixel_scale": "coarser of the two local WCS pixel scales, derived per candidate",
+    "raw_crop_half_size_px": 512,
+    "registered_size_px": 640,
+    "sampling": "nearest-neighbour display resampling only"
+  },
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
