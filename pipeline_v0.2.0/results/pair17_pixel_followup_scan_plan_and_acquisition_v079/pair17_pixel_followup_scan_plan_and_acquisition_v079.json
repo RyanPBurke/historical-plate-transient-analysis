@@ -1,0 +1,227 @@
+{
+  "acquisition": {
+    "actual_acquired_bytes": 27919503360,
+    "download_workers": 3,
+    "known_expected_bytes": 27919503360,
+    "scan_sha256_recorded": true,
+    "unique_scans_complete": 53
+  },
+  "analysis_kind": "pair17_pixel_followup_scan_plan_and_acquisition_v079",
+  "contract_sha256": "e1b13d4ac3a3eb96b1355ecec046eb6a69cd1f1963bc5bd1534a03f448d4fa62",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "comparison_pixels_inspected": 0,
+    "detector_rerun": false,
+    "injection_measurements": 0,
+    "recurrence_measurements_beyond_frozen_v078_catalogue": 0,
+    "registration_rerun": false
+  },
+  "next_stage": "target-independent local registration plus frozen sensitivity/injection analysis",
+  "operational_repair": "v079b normalize repository-relative filename_scan and verify direct FITS transport by range probe",
+  "original_v079_runner_sha256": "7ec762e6aafa17f46c465852003b9be23e877bc325a9da9c4b7597b98a6a44aa",
+  "outputs": {
+    "candidate_comparison_plan": "results/pair17_pixel_followup_scan_plan_and_acquisition_v079/pair17_candidate_comparison_plan_v079.csv",
+    "scan_acquisition_manifest": "results/pair17_pixel_followup_scan_plan_and_acquisition_v079/pair17_scan_acquisition_manifest_v079.csv",
+    "scan_url_resolution_manifest": "results/pair17_pixel_followup_scan_plan_and_acquisition_v079/pair17_scan_url_resolution_manifest_v079.csv",
+    "unique_scan_acquisition_queue": "results/pair17_pixel_followup_scan_plan_and_acquisition_v079/pair17_unique_scan_acquisition_queue_v079.csv"
+  },
+  "plan": {
+    "candidate_selected_plate_rows": 129,
+    "candidate_summary": {
+      "292800": {
+        "available_no_source_physical_plates": 609,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293118": {
+        "available_no_source_physical_plates": 756,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293327": {
+        "available_no_source_physical_plates": 689,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293328": {
+        "available_no_source_physical_plates": 732,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293343": {
+        "available_no_source_physical_plates": 623,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293349": {
+        "available_no_source_physical_plates": 582,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293470": {
+        "available_no_source_physical_plates": 357,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293565": {
+        "available_no_source_physical_plates": 738,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293614": {
+        "available_no_source_physical_plates": 626,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293628": {
+        "available_no_source_physical_plates": 726,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293672": {
+        "available_no_source_physical_plates": 616,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293710": {
+        "available_no_source_physical_plates": 736,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293841": {
+        "available_no_source_physical_plates": 817,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293892": {
+        "available_no_source_physical_plates": 569,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293903": {
+        "available_no_source_physical_plates": 513,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293964": {
+        "available_no_source_physical_plates": 638,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "293985": {
+        "available_no_source_physical_plates": 631,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "293995": {
+        "available_no_source_physical_plates": 512,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "294052": {
+        "available_no_source_physical_plates": 500,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      },
+      "294096": {
+        "available_no_source_physical_plates": 547,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "294130": {
+        "available_no_source_physical_plates": 497,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "294166": {
+        "available_no_source_physical_plates": 615,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "DIAGNOSTIC_179",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 1
+      },
+      "294179": {
+        "available_no_source_physical_plates": 588,
+        "contextual_control_selected": 1,
+        "negative_control_shortfall": false,
+        "population": "PRIMARY_424",
+        "selected_sensitivity_negative_controls": 4,
+        "strict_positive_controls": 0
+      }
+    },
+    "negative_control_shortfalls": [],
+    "unique_scan_files": 53
+  },
+  "population": {
+    "all": 23,
+    "diagnostic": 10,
+    "primary": 13
+  },
+  "scientific_contract_changed_by_v079b": false,
+  "status": "COMPLETE",
+  "v079a_runner_sha256": "1ebaa0acaad3b28bdca944137b114dd0a26219b977196f44b8a2f00b7bb55968"
+}

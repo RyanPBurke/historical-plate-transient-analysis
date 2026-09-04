@@ -1,0 +1,60 @@
+{
+  "acquisition": {
+    "all_range_probes_passed": true,
+    "all_scan_sha256_recorded": true,
+    "bytes": 27919503360,
+    "complete_scans": 53,
+    "workers": 3
+  },
+  "analysis_kind": "pair17_v079b_scan_acquisition_bank_manifest",
+  "comparison_plan": {
+    "candidate_x_plate_rows": 129,
+    "negative_control_shortfalls": 0,
+    "unique_scans": 53
+  },
+  "execution_runner_sha256": "7d00fe34cbdb25815569e4e1d80827337e7b2ed283974a551a66d49ef0a8b6a0",
+  "files": [
+    {
+      "name": "pair17_candidate_comparison_plan_v079.csv",
+      "sha256": "9794ee6dc3eebd91281a46af25f0025da86492dde2aeb0e44f04ae3292a3d356",
+      "size_bytes": 43996
+    },
+    {
+      "name": "pair17_unique_scan_acquisition_queue_v079.csv",
+      "sha256": "4c47a647befc4cc801aebfb505588f13373dcc12b731cf2ed2d6c5204f2875cc",
+      "size_bytes": 7184
+    },
+    {
+      "name": "pair17_scan_url_resolution_manifest_v079.csv",
+      "sha256": "c09b43a17f2524cd1267f12b0be0de3f420ebf903e7a695bc852d5680d94ec32",
+      "size_bytes": 28323
+    },
+    {
+      "name": "pair17_scan_acquisition_manifest_v079.csv",
+      "sha256": "392e73303d01f20a386627e8a743c4a6769e31deb5a4a9a22f7a81055c809f7a",
+      "size_bytes": 36132
+    },
+    {
+      "name": "pair17_pixel_followup_scan_plan_and_acquisition_v079.json",
+      "sha256": "a6695398285882ef13e8f67cf04955fb4b6c6b2f8fd7cf58f0580ad18aec635d",
+      "size_bytes": 8962
+    }
+  ],
+  "guards": {
+    "candidate_disposition_changes": false,
+    "comparison_pixels_inspected": 0,
+    "detector_rerun": false,
+    "injection_measurements": 0,
+    "recurrence_measurements_beyond_frozen_v078_catalogue": 0,
+    "registration_rerun": false
+  },
+  "population": {
+    "all": 23,
+    "diagnostic": 10,
+    "primary": 13
+  },
+  "scan_storage_policy": "The 53 acquired FITS scans remain under work/ and are not committed to git. Their individual byte counts and SHA256 values are cryptographically bound through the acquisition manifest committed with this bank.",
+  "scientific_contract_changed_by_v079b": false,
+  "scientific_contract_sha256": "e1b13d4ac3a3eb96b1355ecec046eb6a69cd1f1963bc5bd1534a03f448d4fa62",
+  "status": "COMPLETE"
+}
