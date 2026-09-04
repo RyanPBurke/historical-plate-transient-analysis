@@ -1,0 +1,55 @@
+{
+  "audit_layers": [
+    {
+      "description": "Recompute every panel's full-image target pixel from the same frozen astrometric provenance and FITS WCS header, then compare to the banked v083b target_pixel_x/target_pixel_y used to draw the crosshair.",
+      "name": "RENDER_RECONSTRUCTION",
+      "pass_tolerance_px": 1e-06
+    },
+    {
+      "description": "Search frozen Pair-17 v067/v068/v075 CSV products for pre-existing a_x_global/a_y_global or b_x_global/b_y_global values. Where found, compare them to the v083b crosshair position without altering either.",
+      "name": "SCIENCE_DIRECT_PIXEL_PROVENANCE",
+      "no_detector_rerun": true
+    },
+    {
+      "description": "Join the already-banked v085 blind manual score and note to each panel so crosshair concerns can be interpreted against the numerical audit.",
+      "name": "MANUAL_SCORE_LINKAGE"
+    }
+  ],
+  "contract_id": "pair17_astrometric_locator_audit_v086",
+  "frozen_inputs": {
+    "v075_triage_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v083b_bank_manifest_sha256": "6f0f749852db04fc5d1a9b8bde773a2f0dc273ee59d8e0832b72e3743e9b658b",
+    "v084a_bank_manifest_sha256": "53e4c77094d8087ac6ca7f9e80d108a2b23829874b258d0321d3970311ff0293",
+    "v085_bank_manifest_sha256": "c54982481ee6746b8e5b8b18bb9cbb2b7057b14259837f620507c4ac8c13bc71"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_data_reads": 0,
+    "fits_header_reads": "allowed",
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_feature_measurements": 0,
+    "threshold_retuning": false
+  },
+  "outputs": [
+    "pair17_locator_audit_all_panels_v086.csv",
+    "pair17_science_locator_audit_v086.csv",
+    "pair17_science_direct_pixel_provenance_inventory_v086.csv",
+    "pair17_astrometric_locator_audit_v086.json"
+  ],
+  "population": {
+    "all_v083b_panels": 32,
+    "candidates": [
+      293118,
+      293470,
+      293841,
+      294052,
+      294130,
+      294179
+    ],
+    "science_panels": 12
+  },
+  "purpose": "Audit whether the v083b/v084a crosshair positions were placed at the frozen astrometric target coordinates, and recover any pre-existing detector-pixel provenance for the 12 science panels. This is a diagnostic audit after blind manual scoring and unblinding; it does not alter scores or candidate dispositions.",
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
