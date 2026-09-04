@@ -1,0 +1,14 @@
+{
+  "failure_observed": "Google Sheets serialized confidence cells as numeric strings such as '5.0'; original extractor required literal '5'.",
+  "guards": {
+    "blind_mapping_read": false,
+    "candidate_disposition_changes": false,
+    "unblinding_performed": false
+  },
+  "manual_review_scores_changed": false,
+  "repair": "Accept only finite integer-equivalent numeric values 1.0..5.0 and canonicalize them to strings '1'..'5'. No other score field normalization is added.",
+  "repair_id": "pair17_blind_score_extraction_operational_repair_v084a_r1",
+  "repair_type": "OPERATIONAL_SERIALIZATION_ONLY",
+  "scientific_contract_changed": false,
+  "submitted_workbook_sha256": "c46b4c6589e68ae051b09cd9a8234d11a6565ff76a7c5a9f8b15993970980f1a"
+}
