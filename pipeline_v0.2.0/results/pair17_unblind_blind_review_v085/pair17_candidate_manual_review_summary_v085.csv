@@ -1,0 +1,7 @@
+raw_match_row,hamburg_science_blind_code,hamburg_science_feature,hamburg_science_morphology,hamburg_science_confidence,bamberg_science_blind_code,bamberg_science_feature,bamberg_science_morphology,bamberg_science_confidence,both_science_definite,both_science_stellar_compact,close_time_blind_codes,close_time_features,comparison_definite_count,comparison_weak_count,comparison_absent_count,crosshair_concern_notes
+293118,B029,ABSENT,AMBIGUOUS,3,B024,WEAK_OR_AMBIGUOUS,STELLAR_COMPACT,4,False,False,B030,DEFINITE,2,0,1,"B024: crosshair not-centred; possible red herring. | B029: Object is just above crosshair (possible edge overlap), could be a crosshair misalignment, could be a false positive. | B030: crosshair not-centred; possible red herring | B031: crosshair not-centred; possible red herring"
+293470,B006,DEFINITE,STELLAR_COMPACT,5,B032,DEFINITE,STELLAR_COMPACT,4,True,True,B014,DEFINITE,2,2,0,B019: possible misaligned crosshair; partial coverage
+293841,B002,ABSENT,AMBIGUOUS,5,B008,DEFINITE,STELLAR_COMPACT,4,False,False,B004,WEAK_OR_AMBIGUOUS,0,3,1,
+294052,B001,DEFINITE,STELLAR_COMPACT,5,B010,DEFINITE,STELLAR_COMPACT,5,True,True,B017,DEFINITE,2,1,0,
+294130,B025,DEFINITE,STELLAR_COMPACT,5,B023,DEFINITE,STELLAR_COMPACT,3,True,True,,,0,2,2,"B027: Object is just below crosshair (possible edge overlap), could be a crosshair misalignment, could be a false positive."
+294179,B028,DEFINITE,STELLAR_COMPACT,5,B013,DEFINITE,STELLAR_COMPACT,5,True,True,,,0,0,2,

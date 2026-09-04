@@ -1,0 +1,25 @@
+{
+  "analysis_kind": "pair17_v085_unblinded_manual_review_bank_manifest",
+  "candidates": 6,
+  "files": [
+    {
+      "path": "results/pair17_unblind_blind_review_v085/pair17_candidate_manual_review_summary_v085.csv",
+      "sha256": "210591250f64b356f22f00eff0bbe6ff945d191dd9fae97950b5d8ab86b4b9c9",
+      "size_bytes": 1475
+    },
+    {
+      "path": "results/pair17_unblind_blind_review_v085/pair17_unblind_blind_review_v085.json",
+      "sha256": "15bf653bd90fa66e9ecc0e8df0ece3602e191db9ba8db2ca709b2eeb06ace9e6",
+      "size_bytes": 872
+    },
+    {
+      "path": "results/pair17_unblind_blind_review_v085/pair17_unblinded_panel_scores_v085.csv",
+      "sha256": "c18a855e6bcfecd5b82718569e2859ce912fc159f5dc8aaa87c63853b3378904",
+      "size_bytes": 5244
+    }
+  ],
+  "formal_candidate_dispositions_changed": false,
+  "manual_scores_modified": false,
+  "panels": 32,
+  "status": "COMPLETE"
+}

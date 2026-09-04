@@ -1,0 +1,23 @@
+{
+  "blind_feature_counts": {
+    "ABSENT": 8,
+    "DEFINITE": 15,
+    "WEAK_OR_AMBIGUOUS": 9
+  },
+  "candidate_summary_sha256": "210591250f64b356f22f00eff0bbe6ff945d191dd9fae97950b5d8ab86b4b9c9",
+  "candidates": 6,
+  "canonical_score_csv_sha256": "7cbcf023e430561a90810076d0850f5637076f6314233cd1f65f2c8cb2e58b16",
+  "contract_sha256": "9963422c474ea3f090a4e340063cc6d86052afd8450d5cb6535a290f6ccd90c8",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_measurements": 0,
+    "threshold_retuning": false
+  },
+  "panels": 32,
+  "score_bank_sha256": "d7472bf182e12947397e1c5a19e0aac873eee864959a048371fe4003886ca4dc",
+  "status": "COMPLETE",
+  "unblinded_panel_table_sha256": "c18a855e6bcfecd5b82718569e2859ce912fc159f5dc8aaa87c63853b3378904"
+}
