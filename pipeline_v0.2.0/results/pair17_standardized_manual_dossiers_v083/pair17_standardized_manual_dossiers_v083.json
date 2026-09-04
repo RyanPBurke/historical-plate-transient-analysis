@@ -1,0 +1,50 @@
+{
+  "analysis_kind": "pair17_standardized_manual_dossiers_v083",
+  "contract_sha256": "ac6ed350c0f55e1a4d3010ecadcf20c963baa185718d860fa6a0f38318ed669f",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "manual_interpretation_during_generation": false,
+    "network_calls": 0,
+    "new_scan_downloads": 0,
+    "threshold_retuning": false
+  },
+  "operational_repair": "v083b: retain v083a stdlib PNG repair; replace blank science *_x_global/*_y_global fields with frozen v075 endpoint RA/Dec projected through exact science-scan WCS",
+  "original_v083_runner_sha256": "874657babdf16cd40e4ec8e381bc78b1f8814a86212b6b7abda8ba0afe520296",
+  "outputs": {
+    "index_html": "results/pair17_standardized_manual_dossiers_v083/index.html",
+    "panel_manifest_csv": "results/pair17_standardized_manual_dossiers_v083/pair17_manual_dossier_panel_manifest_v083.csv",
+    "selection_csv": "results/pair17_standardized_manual_dossiers_v083/pair17_manual_dossier_selection_v083.csv"
+  },
+  "parent_v083a_runner_sha256": "7b33d6845829f9de4a279ef04510ecc96bce3fcaa2bc3076ba7d8215bb1d28f9",
+  "population": {
+    "candidate_ids": [
+      "293118",
+      "293470",
+      "293841",
+      "294052",
+      "294130",
+      "294179"
+    ],
+    "candidates": 6,
+    "population_label": "PRIMARY_424"
+  },
+  "rendering": {
+    "context_width_arcsec": 240.0,
+    "grayscale_only": true,
+    "highpass_background_sigma_px": 8.0,
+    "highpass_clip_sigma": 5.0,
+    "raw_percentiles": [
+      1.0,
+      99.5
+    ],
+    "zoom_width_arcsec": 60.0
+  },
+  "scientific_contract_changed_by_v083b": false,
+  "selection": {
+    "close_time_panels": 4,
+    "comparison_negative_panels": 18,
+    "panels_total": 32,
+    "science_panels": 12
+  },
+  "status": "COMPLETE"
+}
