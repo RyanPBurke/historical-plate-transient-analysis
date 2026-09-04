@@ -1,0 +1,31 @@
+{
+  "analysis_kind": "pair17_blinded_manual_review_packet_v084",
+  "blinding": {
+    "blind_panels": 32,
+    "blinding_salt_sha256": "aea8c5cd6643e3b188c8e2cd5b6797aa2b205c2ec819aa3fd1300309257ad4fc",
+    "unblinding_key_written": false
+  },
+  "contract_sha256": "5b4fd85a1132972ca52bc552be7e7b281edf6263285a48cdc5d5b10f6ee9bbae",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "network_calls": 0,
+    "new_fits_pixel_reads": 0,
+    "new_science_measurements": 0,
+    "threshold_retuning": false
+  },
+  "integrity": {
+    "edge_clipped_render_panels": 0,
+    "full_frozen_render_panels": 32,
+    "panels_audited": 32
+  },
+  "outputs": {
+    "blind_review_html": "results/pair17_blinded_manual_review_packet_v084/blind_review.html",
+    "blind_review_sheet": "results/pair17_blinded_manual_review_packet_v084/blind_review_sheet.csv",
+    "integrity_audit": "results/pair17_blinded_manual_review_packet_v084/panel_integrity_audit_v084.csv"
+  },
+  "population": {
+    "candidates": 6,
+    "panels": 32
+  },
+  "status": "COMPLETE"
+}

@@ -1,0 +1,530 @@
+{
+  "analysis_kind": "pair17_v084_blinded_manual_review_packet_bank_manifest",
+  "blinding": {
+    "blind_panels": 32,
+    "blinding_salt_sha256": "aea8c5cd6643e3b188c8e2cd5b6797aa2b205c2ec819aa3fd1300309257ad4fc",
+    "unblinding_key_written": false
+  },
+  "execution_runner_sha256": "eeb3165019173a42f001936c0a162ca5e9a3e60a28eb71569dd9bb37d02e3c67",
+  "files": [
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B001_context.png",
+      "sha256": "f5ecb522222339e3b87bc6d58c41e36c2b9537bba3f965435a7e1c6cd3af5fab",
+      "size_bytes": 26977
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B001_highpass.png",
+      "sha256": "112529d5207df52e9a662ac6735522be1d018d59f5b93f5e6428892914182b6f",
+      "size_bytes": 1712
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B001_zoom.png",
+      "sha256": "db7b977458f75fc18ac880f70fbca4881ecd306dcc1bec395912647852f0db5f",
+      "size_bytes": 1885
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B002_context.png",
+      "sha256": "79fbf77df3fb39ad5f7ecb7e01be4d83452cafe9b00935c2f9d4eafe438f5209",
+      "size_bytes": 18535
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B002_highpass.png",
+      "sha256": "35e25ffe4a83ac99461a4a485016e024db250d43a37e82576e7b0ce8af3479cf",
+      "size_bytes": 1682
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B002_zoom.png",
+      "sha256": "7cfa1ce554401e8ffe7a48afa1318ff7dc77555bb969e443f27e1ed3b6952de5",
+      "size_bytes": 1612
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B003_context.png",
+      "sha256": "9c3901ee8e1c37f59ffd974e4e098ef861e848a62e6764216fb5737d0a605ffd",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B003_highpass.png",
+      "sha256": "f29c0daf1efc2fb5835322966d479d321f60e596cfc2725188e6644fcd8a1838",
+      "size_bytes": 353
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B003_zoom.png",
+      "sha256": "9c3901ee8e1c37f59ffd974e4e098ef861e848a62e6764216fb5737d0a605ffd",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B004_context.png",
+      "sha256": "539a680f18d28ae1c8e4c30b08f08eb559712f953127da1b7c31257ddb7786c3",
+      "size_bytes": 21098
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B004_highpass.png",
+      "sha256": "ea80dbfdb836bb6f9b4170df96f9fa6181405f5b3dc46f1f7133c028a5a26ce3",
+      "size_bytes": 1552
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B004_zoom.png",
+      "sha256": "f28880f130207e68e10105f182ec41d3a1d3a5bd1bd2a57090cc90000b6922ef",
+      "size_bytes": 1814
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B005_context.png",
+      "sha256": "79bd87de84ba4432a5c1c827b48cf27153629abe01dd5f401a3ce00353f49c6c",
+      "size_bytes": 27587
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B005_highpass.png",
+      "sha256": "29ba0eeaa4970f9b5a753874724d30c9aa8c6457590216cc97ebc7d0bd74ed50",
+      "size_bytes": 1705
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B005_zoom.png",
+      "sha256": "1661682b74c8bcff1dbcc60566b578b03c03e35453380a9f1fc1c1d9b5c6a9a8",
+      "size_bytes": 1917
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B006_context.png",
+      "sha256": "764964590793e03397b204633edcf396621da14119d0f94921a6eab7f027796d",
+      "size_bytes": 24424
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B006_highpass.png",
+      "sha256": "12429a345603c2968ad0244aeb07998827521c8f3f02b16b105c6b9b7e501e35",
+      "size_bytes": 1695
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B006_zoom.png",
+      "sha256": "dec9487cf21d3f9f0b16b1195e3c2d4922213e8a155559b9b22ca83a99a0b7e5",
+      "size_bytes": 1460
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B007_context.png",
+      "sha256": "00d5b45672cf93a74ebe954b8f0e229df4e9f2eb09b21494940137fec4b25cee",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B007_highpass.png",
+      "sha256": "125df7dbb6ba3389d3cea35e01f3f67cabd54151cacebd8c987cd8c00912aab5",
+      "size_bytes": 347
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B007_zoom.png",
+      "sha256": "00d5b45672cf93a74ebe954b8f0e229df4e9f2eb09b21494940137fec4b25cee",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B008_context.png",
+      "sha256": "8753976b4d7c0a8cc56585c971f46ab34075798ecd4c06b55581563cc474e376",
+      "size_bytes": 3011
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B008_highpass.png",
+      "sha256": "8803a0e2c75f916b8653d549c89fca8e39f04dde9e1c90c2d5cb167be8bb2ee4",
+      "size_bytes": 318
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B008_zoom.png",
+      "sha256": "978283b9d3ebf3f2bb716a02d0ed44d4845785ce0a9f03d90b4166359a648f08",
+      "size_bytes": 360
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B009_context.png",
+      "sha256": "c991644c8f64a41a0ec00632495a5f02c407a728a3327fb0ba4a5ea822f43bb3",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B009_highpass.png",
+      "sha256": "779ee9aff3d1fc4916836d586cb00da30df775c7af96ca6eedecccb8fc3b1b5f",
+      "size_bytes": 354
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B009_zoom.png",
+      "sha256": "c991644c8f64a41a0ec00632495a5f02c407a728a3327fb0ba4a5ea822f43bb3",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B010_context.png",
+      "sha256": "721719961d68bae4febdc965f8ace4cd2bd957936be3d2c4808c74af864c3968",
+      "size_bytes": 2940
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B010_highpass.png",
+      "sha256": "496277852a2d5ac156db9ce3f533aa85709eac59ee8c45553ab8fafd321f93b7",
+      "size_bytes": 332
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B010_zoom.png",
+      "sha256": "45f0deb73ea62da72b9eadc57e7d00a87c51170d1ed5f015e70521379ead2e26",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B011_context.png",
+      "sha256": "8699dc696b471170dd477c67610aaa05ea94829576e334ab714c3afa50f29e5c",
+      "size_bytes": 18642
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B011_highpass.png",
+      "sha256": "88e74a1575b9022d9e48044a79df0d769c11b169e30c260fdfbf40c0f7be6b0b",
+      "size_bytes": 1678
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B011_zoom.png",
+      "sha256": "007c9bf464a4f324776564c207ec3ff9fce99eb69b64c5ff926b0743ac072c1c",
+      "size_bytes": 1659
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B012_context.png",
+      "sha256": "45c3fe74ab31bc93a463ed277feab5ca1bd9d9f405a52cc52d914800c711343b",
+      "size_bytes": 27543
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B012_highpass.png",
+      "sha256": "fcd929125ba35fd843a6026c0209126102b68300b1a973e47b1dcf9371df7c7f",
+      "size_bytes": 1699
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B012_zoom.png",
+      "sha256": "78306f8bcc67c186a3ec5133953ed0b6016f9ab647acc10e9b73b09bb9206de0",
+      "size_bytes": 1934
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B013_context.png",
+      "sha256": "ddd50ca2a54146e9a59e3a0ca78b9bfa652fc50a3b55f6278a8d44410846552d",
+      "size_bytes": 2947
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B013_highpass.png",
+      "sha256": "e2179ed02aa94bf3224e4b5e53f45709c048ab100b46289395102a75aaaedd5e",
+      "size_bytes": 349
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B013_zoom.png",
+      "sha256": "a89820b6a23a25acf09f7c9c0f63a123c3bccb27574fc2165ecc18e1d9712e81",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B014_context.png",
+      "sha256": "e6d385c2889d6de3b7b2cc05b5c866c5d5ecbb6755765f2e5094056cfe58c31e",
+      "size_bytes": 20281
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B014_highpass.png",
+      "sha256": "26af9ae2ac5cba973bf1c48159894c2a11d86c37a087c2206256da5944269122",
+      "size_bytes": 1689
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B014_zoom.png",
+      "sha256": "4028271737eca8b63436620ae4da014d3eb273d1bc18bd324761e7c55b3b1630",
+      "size_bytes": 1921
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B015_context.png",
+      "sha256": "3f07ce6f6f443201ed7ee3c623b1e01b9211db22f49fd98a6738f8752361d7d0",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B015_highpass.png",
+      "sha256": "cc7e3dfe3fc3f5e84f3c19abbd083b0bcb007dcd2d7d7e3467327dab1f8c5ba7",
+      "size_bytes": 349
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B015_zoom.png",
+      "sha256": "3f07ce6f6f443201ed7ee3c623b1e01b9211db22f49fd98a6738f8752361d7d0",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B016_context.png",
+      "sha256": "96d119fbb5f2534dde88610f72675c2dac6c07add95300f34d9449f21cb847d2",
+      "size_bytes": 3277
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B016_highpass.png",
+      "sha256": "f928e2cf56b28687553ca26fd0da6fa522bb93b04ba70f3f2570a6ee2bb1ad07",
+      "size_bytes": 355
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B016_zoom.png",
+      "sha256": "a718ffbc644b01592ee219569bbd74a0bb5c7fecff90e16ed8551eddf1498780",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B017_context.png",
+      "sha256": "1af8e113314b8e68eb2f4c6f10addb5731411ed410978f106e90a74193c2d4c7",
+      "size_bytes": 21367
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B017_highpass.png",
+      "sha256": "8c8bd7587ba92e66805b5c6da1f98c5f9ac382f4d573fdbe5058d0ec487d2c6d",
+      "size_bytes": 1707
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B017_zoom.png",
+      "sha256": "afc2005bbc9fc15142e4ef2be9265f5254ae36fa424615151cf64250357749aa",
+      "size_bytes": 1838
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B018_context.png",
+      "sha256": "eee26e805c31a3e1d49a588931e9e6f0e76c5e137e5a0ae482e9305f1585b82a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B018_highpass.png",
+      "sha256": "fad096f0fa3101e27c9741d28fac41f973ee34189d0c88153868cc7717225261",
+      "size_bytes": 355
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B018_zoom.png",
+      "sha256": "eee26e805c31a3e1d49a588931e9e6f0e76c5e137e5a0ae482e9305f1585b82a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B019_context.png",
+      "sha256": "1012f4a1c50f96db5a24d18bc7c2fe0e8b96c5e96ec695c91833911e621b023a",
+      "size_bytes": 27580
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B019_highpass.png",
+      "sha256": "71574fb162b12983eff6e783514d88d898b251d56fa3c5c5179ff28d165ee897",
+      "size_bytes": 1736
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B019_zoom.png",
+      "sha256": "930d2d991f806107c9bcaf567e71f8d94e112ab8e7a8c7035d3d8d859d721cec",
+      "size_bytes": 1919
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B020_context.png",
+      "sha256": "18a499126dc9eebdd6f8724202fb7faf8efc8bc892103879c0d92e395f4442b6",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B020_highpass.png",
+      "sha256": "4117f03293601b0a35568b5ccf71c17000ac79c4f36ad94893de8d2232b3b6c1",
+      "size_bytes": 355
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B020_zoom.png",
+      "sha256": "18a499126dc9eebdd6f8724202fb7faf8efc8bc892103879c0d92e395f4442b6",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B021_context.png",
+      "sha256": "a35bcd9304a777c1ba5419871c2649230c2e8656d9503ef188c1eb6d5945143a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B021_highpass.png",
+      "sha256": "46ca9cb0f7839f32f5529e9076da24fd8c49b47b85c67ee733d67c675bfd818e",
+      "size_bytes": 346
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B021_zoom.png",
+      "sha256": "a35bcd9304a777c1ba5419871c2649230c2e8656d9503ef188c1eb6d5945143a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B022_context.png",
+      "sha256": "ba0ca74fc0512632f9f02b42a626157d75e09e0f461d9c4aca1e4a3b529873ca",
+      "size_bytes": 371
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B022_highpass.png",
+      "sha256": "7e1b2527b0254fb0070b268a75ee6922e859e396c310b6d128f164ea2a904464",
+      "size_bytes": 359
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B022_zoom.png",
+      "sha256": "ba0ca74fc0512632f9f02b42a626157d75e09e0f461d9c4aca1e4a3b529873ca",
+      "size_bytes": 371
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B023_context.png",
+      "sha256": "09feea4daff2704217ac6a4310312d8a64bf33054ef04725160d7e6ea80026b1",
+      "size_bytes": 2702
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B023_highpass.png",
+      "sha256": "d379aa21571e14a6af6a79d363d7a4126d511281ef810a9d4f51c1fb273e0370",
+      "size_bytes": 350
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B023_zoom.png",
+      "sha256": "58fec7eef57ac1d0a02c711ef15e0372d667e0fe5d59fd6eded8b5980ab00078",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B024_context.png",
+      "sha256": "2a58db61d8c3bf46f79aa27a81c44f81538a58171d776cf140ae5fe212bc59ec",
+      "size_bytes": 2773
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B024_highpass.png",
+      "sha256": "850a62d5c350d58b35b110f7c13188f4e6bc8f393bbe23022068c46cb48176f6",
+      "size_bytes": 309
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B024_zoom.png",
+      "sha256": "3d328ce4e5f392fee3031fab77e2f62fd6ebc87d92479b3013c0aa26ca1e2a52",
+      "size_bytes": 365
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B025_context.png",
+      "sha256": "5fafefd13611c58a6e479e9f70e2f53e8d5cbdc5258bbe6a70138dc147fcdb3e",
+      "size_bytes": 26794
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B025_highpass.png",
+      "sha256": "03d817ef4dd1be6872b02c7ca82b9ae59d744b761eff4801a82ee6745e067da3",
+      "size_bytes": 1713
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B025_zoom.png",
+      "sha256": "9d116a647744363f23c913f141e11318df19d7fb58b7104b1a66dd7859dc6c88",
+      "size_bytes": 1868
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B026_context.png",
+      "sha256": "cb9616d9c559c5d04dac5554e17a05e736a5a66689ca364b0a5ff6fc5555a08b",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B026_highpass.png",
+      "sha256": "7c61433e3a6a11a019420485347d66ba095aaad09d90579b9ed9417efabb5f11",
+      "size_bytes": 361
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B026_zoom.png",
+      "sha256": "cb9616d9c559c5d04dac5554e17a05e736a5a66689ca364b0a5ff6fc5555a08b",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B027_context.png",
+      "sha256": "91321a5fb1a26831694723b222ac44b8cab4b86867de5f4f2333303baf6791c7",
+      "size_bytes": 26822
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B027_highpass.png",
+      "sha256": "4573562a3f79d9ea7f44d5c2d8d90d4ee47df4734590cb78cacadf9d0186a6ce",
+      "size_bytes": 1693
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B027_zoom.png",
+      "sha256": "bee09fc2a2f81c265c8c4826f19783dc2d6b7f68f06000c28c144bb6bd363c51",
+      "size_bytes": 1731
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B028_context.png",
+      "sha256": "41adc37f68e04a78b4bbeff4305c221e0d6aa04055b4596cfdb7c363d2a8ea37",
+      "size_bytes": 24051
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B028_highpass.png",
+      "sha256": "24a01dfaf24015d5a3fb8856a692ecbd528013be701f29f62c2fbe18b72aa38b",
+      "size_bytes": 1711
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B028_zoom.png",
+      "sha256": "b44f85b196d9a6fcd05b2d7a209acd479fb36b374a5190891cc713367e3a7536",
+      "size_bytes": 1717
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B029_context.png",
+      "sha256": "25034935cba004945dc8c09480fcf76e207a06ad32f68ab84db4be5c0661d254",
+      "size_bytes": 20682
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B029_highpass.png",
+      "sha256": "6fc5f0ba90915e43d078ee52057b06562f34922b4adb25467ee4e87be30a0359",
+      "size_bytes": 1669
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B029_zoom.png",
+      "sha256": "df9e3e85f30d41ca78419025d59245494e01b6a959e70e3bd7705f631f0bf419",
+      "size_bytes": 1543
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B030_context.png",
+      "sha256": "eda5be3821accd28fd3fc3f2686387c24a093a96d3e65ec03559f78360339e94",
+      "size_bytes": 19591
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B030_highpass.png",
+      "sha256": "66a0814e2bb172ae46d968ef5df85312bf42b269800f65f070702fe9d39f7529",
+      "size_bytes": 1443
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B030_zoom.png",
+      "sha256": "6b33fb49775b4f8ca7f3e0a20aaa4978f51d6a5273135fbddc788e460490d8f6",
+      "size_bytes": 1836
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B031_context.png",
+      "sha256": "2905705eb1e8fc37bdea5c50cfe874fa8380946e542c731946b180f182bb9718",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B031_highpass.png",
+      "sha256": "327f8dfb695830ee2ead74b419a8a69e626e4aa548683fb31e9aae9c6f74615f",
+      "size_bytes": 349
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B031_zoom.png",
+      "sha256": "2905705eb1e8fc37bdea5c50cfe874fa8380946e542c731946b180f182bb9718",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B032_context.png",
+      "sha256": "f1b0685934e7544b24f5e45ae9bfe1beb2deedbe9ffe27dbfe610c699fa42abb",
+      "size_bytes": 2853
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B032_highpass.png",
+      "sha256": "a62f9f9c6539d45ef8fb053c2cb2c267298e64b939d3be70f9df92410f312dec",
+      "size_bytes": 326
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_assets/B032_zoom.png",
+      "sha256": "e7fa3b2fc71cabd72dfe434b564930a695568aad6ad564b1c22412eadfaf696f",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_review.html",
+      "sha256": "a7aee8a3d97a1581e84d8f76a6bb046c0012b5eb65763c499fdcb575dc62fc43",
+      "size_bytes": 21669
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/blind_review_sheet.csv",
+      "sha256": "321e68bd977e48487db093ba1c5578d07e07cf73edd012d2df58851804579759",
+      "size_bytes": 434
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/pair17_blinded_manual_review_packet_v084.json",
+      "sha256": "252d9d2c00dabdf1c58c58e208be2cc213689e7dcea7061d0b8495c5857f35fd",
+      "size_bytes": 1075
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084/panel_integrity_audit_v084.csv",
+      "sha256": "8a532eea7a63e90c1905117200fb97a6bde4620bdb8afff4a8e1fd384c90ba39",
+      "size_bytes": 3962
+    }
+  ],
+  "guards": {
+    "candidate_disposition_changes": false,
+    "network_calls": 0,
+    "new_fits_pixel_reads": 0,
+    "new_science_measurements": 0,
+    "threshold_retuning": false
+  },
+  "human_scores_present": false,
+  "integrity": {
+    "edge_clipped_render_panels": 0,
+    "full_frozen_render_panels": 32,
+    "panels_audited": 32
+  },
+  "population": {
+    "candidates": 6,
+    "panels": 32
+  },
+  "scientific_contract_sha256": "5b4fd85a1132972ca52bc552be7e7b281edf6263285a48cdc5d5b10f6ee9bbae",
+  "status": "COMPLETE"
+}
