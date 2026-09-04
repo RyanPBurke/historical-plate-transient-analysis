@@ -1,0 +1,37 @@
+{
+  "analysis_kind": "pair17_survivor_chronology_native_pixel_synthesis_v082",
+  "contract_sha256": "50116b1c96763c28e7327b544a04d55e9f55d5fc2df95a0ca3a53d603aba3f97",
+  "execution": {
+    "close_time_class_counts": {
+      "CLOSE_TIME_DIAGNOSTIC_NATIVE_CONTEXT": 2,
+      "CLOSE_TIME_SENSITIVITY_QUALIFIED_NEGATIVE": 2
+    },
+    "close_time_injection_rows": 96,
+    "new_v082_frozen_v080_method_executions": 2,
+    "reused_banked_v080_measurements": 2
+  },
+  "frozen_close_time_queue": {
+    "candidate_x_scan_pairs": 4,
+    "new_scan_downloads": 0,
+    "unique_scans": 1
+  },
+  "guards": {
+    "formal_candidate_disposition_changes": false,
+    "manual_image_review": false,
+    "network_calls": 0,
+    "new_scan_downloads": 0,
+    "threshold_retuning": false,
+    "v080_method_changes": false
+  },
+  "outputs": {
+    "close_time_chronology": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_chronology_rows_v082.csv",
+    "close_time_injection_summary": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_injection_summary_v082.csv",
+    "close_time_native_pixel_measurements": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_native_pixel_measurements_v082.csv",
+    "survivor_evidence_table": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_survivor_evidence_table_v082.csv"
+  },
+  "population": {
+    "candidates": 6,
+    "population_label": "PRIMARY_424"
+  },
+  "status": "COMPLETE"
+}

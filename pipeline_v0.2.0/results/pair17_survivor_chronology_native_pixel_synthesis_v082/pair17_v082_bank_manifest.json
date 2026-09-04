@@ -1,0 +1,65 @@
+{
+  "analysis_kind": "pair17_v082_survivor_chronology_native_pixel_bank_manifest",
+  "close_time": {
+    "candidate_x_scan_pairs": 4,
+    "class_counts": {
+      "CLOSE_TIME_DIAGNOSTIC_NATIVE_CONTEXT": 2,
+      "CLOSE_TIME_SENSITIVITY_QUALIFIED_NEGATIVE": 2
+    },
+    "unique_scans": 1
+  },
+  "execution_runner_sha256": "c1375689603a9f047f4d42ff911bc0996010784cf336d19a9d78f6acfd146740",
+  "files": [
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/checkpoints/candidate_293470_plate_7687_scan_10000.json",
+      "sha256": "259753e1e9a122908f9298f3300680c04578959ddc6be2924d03a3efdb2738f8",
+      "size_bytes": 27453
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/checkpoints/candidate_294052_plate_7687_scan_10000.json",
+      "sha256": "570bcb802512d833d6071acd3e6b2e7ea734f087cb3216ac1c0f756a10e6af70",
+      "size_bytes": 27144
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_chronology_rows_v082.csv",
+      "sha256": "7fadb2d6cd1470e3d4cf70032b946ed98cdd22c9f7cfc4b05119f8d81eacfa5d",
+      "size_bytes": 1557
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_injection_summary_v082.csv",
+      "sha256": "a07291bf23ca09281cebc7ebe8e65aaa9da34337437ccd17a64d2de0b1f83a42",
+      "size_bytes": 12052
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_close_time_native_pixel_measurements_v082.csv",
+      "sha256": "73013288e35afa910308563e7018858e18f5780982df031c9e737cd543b556b2",
+      "size_bytes": 2906
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_survivor_chronology_native_pixel_synthesis_v082.json",
+      "sha256": "deb278ec579b6ccf7c4e93dc8d1e4233e26d01d33995247727967e860920193b",
+      "size_bytes": 1550
+    },
+    {
+      "path": "results/pair17_survivor_chronology_native_pixel_synthesis_v082/pair17_survivor_evidence_table_v082.csv",
+      "sha256": "6d73b9bd22b0eb2a06fc9dcfb8a0525f86c2520161338a8f1e29eb4a5c9c4442",
+      "size_bytes": 2790
+    }
+  ],
+  "formal_candidate_dispositions_changed": false,
+  "population": {
+    "all": 6,
+    "candidate_ids": [
+      "293118",
+      "293470",
+      "293841",
+      "294052",
+      "294130",
+      "294179"
+    ],
+    "population_label": "PRIMARY_424"
+  },
+  "scientific_contract_sha256": "50116b1c96763c28e7327b544a04d55e9f55d5fc2df95a0ca3a53d603aba3f97",
+  "status": "COMPLETE",
+  "thresholds_retuned": false
+}
