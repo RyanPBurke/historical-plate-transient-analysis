@@ -1,0 +1,82 @@
+{
+  "aggregate": {
+    "ALL_603": {
+      "class_counts": {
+        "DIAGNOSTIC_RECURRENCE_ONLY": 7,
+        "STRICT_RECURRENCE_ON_1_PHYSICAL_PLATE": 14,
+        "STRICT_RECURRENCE_ON_2PLUS_PHYSICAL_PLATES": 580,
+        "WIDE_5_TO_15_ARCSEC_CONTEXT_ONLY": 2
+      },
+      "n": 603,
+      "pixel_followup_required": 23
+    },
+    "DIAGNOSTIC_179": {
+      "candidates_with_2plus_strict_physical_plate_recurrences": 169,
+      "candidates_with_any_strict_physical_plate_recurrence": 177,
+      "class_counts": {
+        "DIAGNOSTIC_RECURRENCE_ONLY": 1,
+        "STRICT_RECURRENCE_ON_1_PHYSICAL_PLATE": 8,
+        "STRICT_RECURRENCE_ON_2PLUS_PHYSICAL_PLATES": 169,
+        "WIDE_5_TO_15_ARCSEC_CONTEXT_ONLY": 1
+      },
+      "n": 179,
+      "pixel_followup_required": 10
+    },
+    "PRIMARY_424": {
+      "candidates_with_2plus_strict_physical_plate_recurrences": 411,
+      "candidates_with_any_strict_physical_plate_recurrence": 417,
+      "class_counts": {
+        "DIAGNOSTIC_RECURRENCE_ONLY": 6,
+        "STRICT_RECURRENCE_ON_1_PHYSICAL_PLATE": 6,
+        "STRICT_RECURRENCE_ON_2PLUS_PHYSICAL_PLATES": 411,
+        "WIDE_5_TO_15_ARCSEC_CONTEXT_ONLY": 1
+      },
+      "n": 424,
+      "pixel_followup_required": 13
+    }
+  },
+  "analysis_kind": "pair17_applause_catalog_recurrence_screen_v078",
+  "contract_sha256": "1828bb4369bc1ea40d75561919b7d57bba672e44374ebdbc7689cbdecc1d5397",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "comparison_pixels_read": 0,
+    "detector_rerun": false,
+    "injection_measurements": 0,
+    "manual_review": false,
+    "registration_rerun": false
+  },
+  "interpretation": {
+    "catalogue_absence_is_transience": false,
+    "pixel_followup_branch": "all candidates with fewer than two strict physical-plate recurrences",
+    "two_plus_strict_physical_plate_recurrences": "strong persistent-source contextual support"
+  },
+  "method": {
+    "acquisition_radius_arcsec": 15.0,
+    "catalogue": "applause_dr4.source_calib",
+    "diagnostic_radius_arcsec": 5.0,
+    "filter_to_v077a_opportunity_universe": true,
+    "logical_recurrence_query_changed_by_v078a": false,
+    "original_v078_runner_sha256": "c11e008a15b2f760455fdb3f03dab1d78803eb36225a4516a265f49ac07fe2c3",
+    "physical_plate_counting_unit": true,
+    "scientific_contract_changed_by_v078a": false,
+    "streamed_plate_nearest_rows": 216589,
+    "streamed_raw_catalog_rows": 419159,
+    "strict_radius_arcsec": 3.0,
+    "transport_repair": "v078a adaptive eligible-plate batching on TAP timeout"
+  },
+  "outputs": {
+    "candidate_summary": "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_candidate_summary_v078.csv",
+    "pixel_followup_queue": "results/pair17_applause_catalog_recurrence_screen_v078/pair17_pixel_followup_queue_v078.csv",
+    "plate_level_nearest": "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_plate_nearest_v078.csv",
+    "query_manifest": "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_query_manifest_v078.csv",
+    "raw_catalog_rows": "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_raw_rows_v078.csv"
+  },
+  "population": {
+    "all": 603,
+    "diagnostic": 179,
+    "gaia_subsetting": false,
+    "morphology_subsetting": false,
+    "primary": 424
+  },
+  "status": "COMPLETE"
+}
