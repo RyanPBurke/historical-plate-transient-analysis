@@ -1,0 +1,19 @@
+{
+  "additional_frozen_input": {
+    "v082_bank_manifest_sha256": "fb0ab1a0d8d3afdd681bf24fd995086948f4b28fafa2473dd5752e067748338f"
+  },
+  "failure_observed": "v086 required a v080 measurement for every comparison panel, but v083b includes close-time plate 7687/scan 10000 measurements for candidates 293470 and 294052 that were first executed and banked in v082 using the exact frozen v080 method.",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_data_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_feature_measurements": 0
+  },
+  "parent_v086_runner_sha256": "afc4defe3eebcbd6d6626852b7a54136cf80f4ca6455a7f95560f7d77aacecd8",
+  "repair": "Build the comparison-measurement lookup from banked v080 first, then fill only missing keys from banked v082 close-time measurements. Existing v080 keys are never overridden.",
+  "repair_id": "pair17_astrometric_locator_audit_operational_repair_v086a",
+  "repair_type": "OPERATIONAL_PROVENANCE_RESOLUTION_ONLY",
+  "scientific_contract_changed": false
+}
