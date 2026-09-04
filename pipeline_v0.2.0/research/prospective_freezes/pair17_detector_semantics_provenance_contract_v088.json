@@ -1,0 +1,42 @@
+{
+  "contract_id": "pair17_detector_semantics_provenance_audit_v088",
+  "frozen_inputs": {
+    "v075_triage_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v087_bank_manifest_sha256": "f71c234c35c6c8c679ec259d6401cd37eb556e2a5309fd2c290debb6a2caf6ae"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_feature_measurements": 0,
+    "npy_pixel_reads": 0,
+    "threshold_retuning": false
+  },
+  "outputs": [
+    "pair17_detector_semantics_rows_v088.csv",
+    "pair17_detector_semantics_source_excerpt_v088.txt",
+    "pair17_detector_tile_metadata_inventory_v088.json",
+    "pair17_detector_semantics_provenance_audit_v088.json"
+  ],
+  "population": {
+    "candidates": [
+      293118,
+      293470,
+      293841,
+      294052,
+      294130,
+      294179
+    ],
+    "science_endpoint_rows": 12
+  },
+  "purpose": "Resolve two provenance questions exposed by v087 without reading science pixels: (1) the exact detector meaning of candidate polarity, and (2) the coordinate relationship between tile-local x/y and frozen global_x/global_y. Then relate those pre-existing detector attributes to the already-banked blind manual scores for all 12 Pair-17 science endpoints.",
+  "questions": [
+    "How is polarity assigned in the frozen detector implementation?",
+    "Why can global_x/global_y differ from tile_origin + local_x/local_y?",
+    "Is the blind ABSENT Hamburg subset associated with a distinct frozen detector polarity?",
+    "Do any coordinate-semantic findings invalidate v087's direct global-pixel/crosshair comparison?"
+  ],
+  "status": "PROSPECTIVE_FREEZE_POST_UNBLIND"
+}
