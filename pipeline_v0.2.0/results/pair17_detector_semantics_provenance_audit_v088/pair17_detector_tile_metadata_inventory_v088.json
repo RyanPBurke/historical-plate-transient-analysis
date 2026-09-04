@@ -1,0 +1,194 @@
+[
+  {
+    "candidate_index": "97",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x09216-10240_y01024-02048"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x09216-10240_y01024-02048.json",
+    "metadata_json_sha256": "8dfd741d3222f042af8297de238c20dd5d34681054f251528bdb7815ffcd7b8c",
+    "observatory": "HAMBURG",
+    "raw_match_row": "293118",
+    "tile_id": "x09216-10240_y01024-02048"
+  },
+  {
+    "candidate_index": "321",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x01024-02048_y03072-04096"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x01024-02048_y03072-04096.json",
+    "metadata_json_sha256": "89926db480cea97db8b6fdacff45f66c3140835f3d59a39e2ed9f11e14e1d858",
+    "observatory": "BAMBERG",
+    "raw_match_row": "293118",
+    "tile_id": "x01024-02048_y03072-04096"
+  },
+  {
+    "candidate_index": "49",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x12288-13312_y04096-05120"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x12288-13312_y04096-05120.json",
+    "metadata_json_sha256": "09f692a3a4d87e5c35d1a319c585690e5de907abc59e524b51c0e08786a89315",
+    "observatory": "HAMBURG",
+    "raw_match_row": "293470",
+    "tile_id": "x12288-13312_y04096-05120"
+  },
+  {
+    "candidate_index": "239",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x01024-02048_y02048-03072"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x01024-02048_y02048-03072.json",
+    "metadata_json_sha256": "b7516d82a35ef46a7fb5a32d6ee0297ddf3b6e7c222944ff43663008bfa03028",
+    "observatory": "BAMBERG",
+    "raw_match_row": "293470",
+    "tile_id": "x01024-02048_y02048-03072"
+  },
+  {
+    "candidate_index": "13",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x13312-14336_y05120-06144"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x13312-14336_y05120-06144.json",
+    "metadata_json_sha256": "d9c8520218b5efe51fa7b47de8a6ae24ffb6909f924b881a64312b6f044cb829",
+    "observatory": "HAMBURG",
+    "raw_match_row": "293841",
+    "tile_id": "x13312-14336_y05120-06144"
+  },
+  {
+    "candidate_index": "166",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x00000-01024_y02048-03072"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x00000-01024_y02048-03072.json",
+    "metadata_json_sha256": "01a76d6a82654255718f7d79e6f91b607ef5a04d85386d5a2fae8e891da589ba",
+    "observatory": "BAMBERG",
+    "raw_match_row": "293841",
+    "tile_id": "x00000-01024_y02048-03072"
+  },
+  {
+    "candidate_index": "370",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x03072-04096_y00000-01024"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x03072-04096_y00000-01024.json",
+    "metadata_json_sha256": "3597dec2bdb55f4e318aab3956db1d1784f22e618bf12fec11b4ac5cb63506b7",
+    "observatory": "HAMBURG",
+    "raw_match_row": "294052",
+    "tile_id": "x03072-04096_y00000-01024"
+  },
+  {
+    "candidate_index": "365",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x02048-03072_y05120-06144"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x02048-03072_y05120-06144.json",
+    "metadata_json_sha256": "78b64eb8d7e1426dfc60a0272b306317528ae56cecd7acb5798e2d641f2a2b16",
+    "observatory": "BAMBERG",
+    "raw_match_row": "294052",
+    "tile_id": "x02048-03072_y05120-06144"
+  },
+  {
+    "candidate_index": "473",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x01024-02048_y00000-01024"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x01024-02048_y00000-01024.json",
+    "metadata_json_sha256": "3137cce881053eb56b8429c8e93f2b92cc1d5bf1caa1ede5f29352d8ce45ada2",
+    "observatory": "HAMBURG",
+    "raw_match_row": "294130",
+    "tile_id": "x01024-02048_y00000-01024"
+  },
+  {
+    "candidate_index": "180",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x02048-03072_y06144-07168"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x02048-03072_y06144-07168.json",
+    "metadata_json_sha256": "6b6a3da5c1111cc195a32af79bb0b4a1624624992292203ed8e6833e9f6e1769",
+    "observatory": "BAMBERG",
+    "raw_match_row": "294130",
+    "tile_id": "x02048-03072_y06144-07168"
+  },
+  {
+    "candidate_index": "394",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x01024-02048_y00000-01024"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_14120/x01024-02048_y00000-01024.json",
+    "metadata_json_sha256": "3137cce881053eb56b8429c8e93f2b92cc1d5bf1caa1ede5f29352d8ce45ada2",
+    "observatory": "HAMBURG",
+    "raw_match_row": "294179",
+    "tile_id": "x01024-02048_y00000-01024"
+  },
+  {
+    "candidate_index": "258",
+    "coordinate_related_metadata": [
+      {
+        "path": "$",
+        "values": {
+          "tile_id": "x02048-03072_y06144-07168"
+        }
+      }
+    ],
+    "metadata_json": "results/wide_census_detector_execution_v056/tiles/APPLAUSE_132654/x02048-03072_y06144-07168.json",
+    "metadata_json_sha256": "6b6a3da5c1111cc195a32af79bb0b4a1624624992292203ed8e6833e9f6e1769",
+    "observatory": "BAMBERG",
+    "raw_match_row": "294179",
+    "tile_id": "x02048-03072_y06144-07168"
+  }
+]

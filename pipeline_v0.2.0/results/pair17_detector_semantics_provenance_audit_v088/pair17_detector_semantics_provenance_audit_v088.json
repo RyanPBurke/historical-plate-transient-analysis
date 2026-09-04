@@ -1,0 +1,165 @@
+{
+  "analysis_kind": "pair17_detector_semantics_provenance_audit_v088",
+  "bamberg_rows": [
+    {
+      "blind_code": "B024",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "14.174717528884273",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "293118"
+    },
+    {
+      "blind_code": "B032",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "15.724045987777178",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "293470"
+    },
+    {
+      "blind_code": "B008",
+      "coordinate_semantic_offset_px": 64.0,
+      "detector_polarity": "-1",
+      "detector_snr": "12.367117947019121",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "293841"
+    },
+    {
+      "blind_code": "B010",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "9.538586269469741",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294052"
+    },
+    {
+      "blind_code": "B023",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "9.197383368758427",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294130"
+    },
+    {
+      "blind_code": "B013",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "11.731560802522955",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294179"
+    }
+  ],
+  "contract_sha256": "ab185d416e82e71e573124ddbcf5d3ac3a3aa88a6d9a13a020e932bec5cb416d",
+  "detector_source": "tools/_execute_wide_frozen_detector_v056.payload.py",
+  "detector_source_sha256": "424655edf3eb54981e74468a57325d94a53aec7d962d5bb23e1ccc8f1efed231",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_feature_measurements": 0,
+    "npy_pixel_reads": 0,
+    "threshold_retuning": false
+  },
+  "hamburg_rows": [
+    {
+      "blind_code": "B029",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "1",
+      "detector_snr": "6.63770837135238",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "raw_match_row": "293118"
+    },
+    {
+      "blind_code": "B006",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "-1",
+      "detector_snr": "30.312581774659808",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "293470"
+    },
+    {
+      "blind_code": "B002",
+      "coordinate_semantic_offset_px": 90.50966799187809,
+      "detector_polarity": "1",
+      "detector_snr": "7.026656847288644",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "raw_match_row": "293841"
+    },
+    {
+      "blind_code": "B001",
+      "coordinate_semantic_offset_px": 64.0,
+      "detector_polarity": "-1",
+      "detector_snr": "7.1855515956535685",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294052"
+    },
+    {
+      "blind_code": "B025",
+      "coordinate_semantic_offset_px": 64.0,
+      "detector_polarity": "-1",
+      "detector_snr": "7.962903336042102",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294130"
+    },
+    {
+      "blind_code": "B028",
+      "coordinate_semantic_offset_px": 64.0,
+      "detector_polarity": "-1",
+      "detector_snr": "10.85601340378266",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "raw_match_row": "294179"
+    }
+  ],
+  "max_coordinate_semantic_offset_px": 90.50966799187809,
+  "max_crosshair_vs_detector_delta_px": 1.3168592400393169,
+  "max_detector_vs_v075_radec_arcsec": 0.003073585126505738,
+  "observatory_polarity_feature_crosstab": {
+    "BAMBERG|polarity=-1": {
+      "DEFINITE": 5,
+      "WEAK_OR_AMBIGUOUS": 1
+    },
+    "HAMBURG|polarity=-1": {
+      "DEFINITE": 4
+    },
+    "HAMBURG|polarity=1": {
+      "ABSENT": 2
+    }
+  },
+  "operational_repair": "v088a binds tools/_execute_wide_frozen_detector_v056.payload.py explicitly instead of heuristic source discovery",
+  "output_hashes": {
+    "metadata_inventory": "47d9adb2c9797c0b5beef61bccb8b5cc22b6275d6c51330b0e04a7ce0c346924",
+    "rows_csv": "f335bb21f995721b91232332fe3760664370d72f5610a9dd2889960b2f4e4d6c",
+    "source_excerpt": "07663365d944e114ce1487a5ab472c386d66e3d102578ad781099e0dd8c76f74"
+  },
+  "parent_v088_runner_sha256": "f6d1df3655d65d9c84c1ae3cfc881201d2361516e40504553d4e004337e1d940",
+  "polarity_feature_crosstab": {
+    "-1": {
+      "DEFINITE": 9,
+      "WEAK_OR_AMBIGUOUS": 1
+    },
+    "1": {
+      "ABSENT": 2
+    }
+  },
+  "population": {
+    "candidates": 6,
+    "science_endpoint_rows": 12
+  },
+  "scientific_contract_changed_by_v088a": false,
+  "status": "COMPLETE"
+}
