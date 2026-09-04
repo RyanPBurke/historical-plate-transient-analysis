@@ -1,0 +1,73 @@
+{
+  "close_time_interpretation": {
+    "formal_disposition_changes": false,
+    "per_candidate_classes": {
+      "CLOSE_TIME_DIAGNOSTIC_NATIVE_CONTEXT": "PRIMARY registration, no strict recurrence, diagnostic_native_peak_count > 0",
+      "CLOSE_TIME_NONDETECTION_NOT_SENSITIVITY_QUALIFIED": "PRIMARY registration, no <=5 arcsec recurrence/context, but frozen injection criterion does not qualify the nondetection",
+      "CLOSE_TIME_REGISTRATION_INSUFFICIENT": "registration_mode is SPARSE or NONE",
+      "CLOSE_TIME_SENSITIVITY_QUALIFIED_NEGATIVE": "sensitivity_qualified_negative true",
+      "CLOSE_TIME_STRICT_NATIVE_RECURRENCE": "PRIMARY registration and strict_native_recurrence true"
+    },
+    "temporal_bands_remain_descriptive": [
+      1,
+      2,
+      6,
+      24
+    ]
+  },
+  "close_time_queue": {
+    "candidate_x_physical_plate_is_measurement_unit": true,
+    "expected_known_new_bytes": 0,
+    "expected_new_scans_required": 0,
+    "expected_unique_scans": 1,
+    "if_not_already_measured": "execute exactly the frozen v080a native-pixel registration / recurrence / forced measurement / injection-recovery method using existing v079 scan bytes and existing v080 cached Gaia reference rows; no network",
+    "if_same_candidate_scan_already_exists_in_v080": "reuse exact banked v080 row; do not reread pixels",
+    "source": "banked v081a acquisition queue",
+    "use_every_candidate_id_bound_to_every_frozen_queue_scan": true
+  },
+  "contract_id": "pair17_survivor_chronology_native_pixel_synthesis_v082",
+  "frozen_inputs": {
+    "v080_scientific_contract_sha256": "732c0822003abf3217d713437f1b9c47a86f7b8fa42d171498f3453e78787ac7",
+    "v080a_bank_manifest_sha256": "f2ba81ab1222162e3d94a57d61d4f92da14ec37fef3dab4e54abd060ca699327",
+    "v080a_runner_sha256": "48e927bfe9c790a7cb4e89511e5d8a28c938ec9746f7048be827764dbcb31f41",
+    "v081_scientific_contract_sha256": "f0c45348477dc6a7094a739e34766bf5867cf94c3fec3c71066fbf594b060b63",
+    "v081a_bank_manifest_sha256": "b361e0165061550bacd31f44ec0926dc450b2242b52e5b73de571deb7d56172d",
+    "v081a_runner_sha256": "818e9b14fac1ee3d7d1ccf3f422157e832cb83e874a42f3dedd5eab7f608736e"
+  },
+  "guards": {
+    "formal_candidate_disposition_changes": false,
+    "manual_image_review": false,
+    "network_calls": 0,
+    "new_scan_downloads": 0,
+    "threshold_retuning": false,
+    "v080_method_changes": false
+  },
+  "population": {
+    "candidate_selection_rule": "mechanical_evidence_state == TRANSIENT_LIKE_NATIVE_NONRECURRENCE_SUPPORTED",
+    "expected_candidates": 6,
+    "expected_population_label": "PRIMARY_424",
+    "no_candidate_subsetting_after_v081": true,
+    "source": "banked v080a candidate summary"
+  },
+  "purpose": "For the six banked v080a PRIMARY candidates classified as TRANSIENT_LIKE_NATIVE_NONRECURRENCE_SUPPORTED, synthesize candidate-specific science/chronology evidence and execute the already-frozen v080 native-pixel measurement only for candidate x scan combinations selected prospectively by the banked v081a close-time acquisition queue and not already measured in v080.",
+  "required_outputs": [
+    "pair17_survivor_evidence_table_v082.csv",
+    "pair17_close_time_native_pixel_measurements_v082.csv",
+    "pair17_close_time_injection_summary_v082.csv",
+    "pair17_close_time_chronology_rows_v082.csv",
+    "pair17_survivor_chronology_native_pixel_synthesis_v082.json"
+  ],
+  "science_event": {
+    "bamberg_exposure": "APPLAUSE:132654",
+    "bamberg_physical_plate_id": 89580,
+    "bamberg_scan": "012673_1953_h.fits",
+    "canonical_pair": "APPLAUSE:132654 | APPLAUSE:14120",
+    "common_overlap_end_utc": "1953-12-02T20:51:28+00:00",
+    "common_overlap_seconds": 299,
+    "common_overlap_start_utc": "1953-12-02T20:46:29+00:00",
+    "hamburg_exposure": "APPLAUSE:14120",
+    "hamburg_physical_plate_id": 7685,
+    "hamburg_scan": "LA08164_y.fits"
+  },
+  "status": "PROSPECTIVE_FREEZE"
+}
