@@ -1,0 +1,22 @@
+{
+  "changes": [
+    "retain exact B001..B032 blind order",
+    "retain marked context/zoom only as locator views",
+    "add unmarked zoom views from banked v083 raw NPY cutouts",
+    "add unmarked high-pass views using unchanged frozen v083 display transform",
+    "display with browser nearest-neighbour scaling",
+    "emit no unblinding key"
+  ],
+  "guards": {
+    "candidate_disposition_changes": false,
+    "fits_reads": 0,
+    "network_calls": 0,
+    "new_science_measurements": 0,
+    "threshold_retuning": false
+  },
+  "parent_v084_bank_manifest_sha256": "484b097bb0914945af502187240ffb1620324b62c9ee6b97e520bf46fdd01898",
+  "parent_v084_runner_sha256": "eeb3165019173a42f001936c0a162ca5e9a3e60a28eb71569dd9bb37d02e3c67",
+  "repair_id": "pair17_blinded_manual_review_display_repair_v084a",
+  "repair_type": "OPERATIONAL_DISPLAY_ONLY",
+  "scientific_contract_changed": false
+}
