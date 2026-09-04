@@ -1,0 +1,48 @@
+{
+  "analysis_kind": "pair17_registered_native_pixel_recurrence_sensitivity_v080",
+  "contract_sha256": "732c0822003abf3217d713437f1b9c47a86f7b8fa42d171498f3453e78787ac7",
+  "gaia_reference_acquisition": {
+    "candidate_queries_complete_before_pixels": 23,
+    "network_after_pixel_phase_started": false
+  },
+  "guards": {
+    "formal_candidate_disposition_changes": false,
+    "full_image_copies_written": 0,
+    "manual_review": false,
+    "threshold_retuning": false
+  },
+  "mechanical_candidate_state_counts": {
+    "MECHANICALLY_EXPLAINED_RECURRENT_SKY_SOURCE": 1,
+    "ONE_INDEPENDENT_NATIVE_RECURRENCE_RETAIN": 8,
+    "TRANSIENT_LIKE_NATIVE_NONRECURRENCE_SUPPORTED": 6,
+    "UNRESOLVED_NATIVE_SENSITIVITY_INSUFFICIENT": 8
+  },
+  "native_pixel": {
+    "diagnostic_context_plate_rows": 9,
+    "injection_summary_rows": 5520,
+    "sensitivity_qualified_negative_plate_rows": 45,
+    "strict_recurrence_plate_rows": 10
+  },
+  "outputs": {
+    "candidate_summary": "results/pair17_registered_native_pixel_recurrence_sensitivity_v080/pair17_native_pixel_candidate_summary_v080.csv",
+    "failure_csv": "",
+    "gaia_manifest": "results/pair17_registered_native_pixel_recurrence_sensitivity_v080/pair17_gaia_reference_query_manifest_v080.csv",
+    "injection_summary": "results/pair17_registered_native_pixel_recurrence_sensitivity_v080/pair17_native_pixel_injection_summary_v080.csv",
+    "plate_measurements": "results/pair17_registered_native_pixel_recurrence_sensitivity_v080/pair17_native_pixel_plate_measurements_v080.csv",
+    "registered_targets": "results/pair17_registered_native_pixel_recurrence_sensitivity_v080/pair17_registered_target_coordinates_v080.csv"
+  },
+  "population": {
+    "completed_candidate_x_plate_rows": 129,
+    "diagnostic": 10,
+    "frozen_candidates": 23,
+    "operational_failures": 0,
+    "planned_candidate_x_plate_rows": 129,
+    "primary": 13
+  },
+  "registration_mode_counts": {
+    "NONE": 1,
+    "PRIMARY": 125,
+    "SPARSE": 3
+  },
+  "status": "COMPLETE"
+}
