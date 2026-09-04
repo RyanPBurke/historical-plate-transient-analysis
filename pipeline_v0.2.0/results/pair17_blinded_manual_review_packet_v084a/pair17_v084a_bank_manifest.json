@@ -1,0 +1,665 @@
+{
+  "analysis_kind": "pair17_v084a_blinded_display_repair_bank_manifest",
+  "blind_order_changed": false,
+  "files": [
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B001_context_locator.png",
+      "sha256": "f5ecb522222339e3b87bc6d58c41e36c2b9537bba3f965435a7e1c6cd3af5fab",
+      "size_bytes": 26977
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B001_highpass_unmarked.png",
+      "sha256": "b4ca87779409f3c0575af02440bb0be7209f478cd7af7f833e65bebd207dccdd",
+      "size_bytes": 1731
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B001_zoom_locator.png",
+      "sha256": "db7b977458f75fc18ac880f70fbca4881ecd306dcc1bec395912647852f0db5f",
+      "size_bytes": 1885
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B001_zoom_unmarked.png",
+      "sha256": "1ab175a0f1847fef7a5a510ab72e845a651f07384fcb50bebfd052b14027662c",
+      "size_bytes": 1894
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B002_context_locator.png",
+      "sha256": "79fbf77df3fb39ad5f7ecb7e01be4d83452cafe9b00935c2f9d4eafe438f5209",
+      "size_bytes": 18535
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B002_highpass_unmarked.png",
+      "sha256": "cf524a3fd8c2b926a862382d27acb1a8ff1e3971cdad23eb06eed4bd2105d304",
+      "size_bytes": 1691
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B002_zoom_locator.png",
+      "sha256": "7cfa1ce554401e8ffe7a48afa1318ff7dc77555bb969e443f27e1ed3b6952de5",
+      "size_bytes": 1612
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B002_zoom_unmarked.png",
+      "sha256": "8b0cb7095186806bbe5505bab01d08109ce60e6aef8382ad4c25a19a7e44c85c",
+      "size_bytes": 1620
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B003_context_locator.png",
+      "sha256": "9c3901ee8e1c37f59ffd974e4e098ef861e848a62e6764216fb5737d0a605ffd",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B003_highpass_unmarked.png",
+      "sha256": "381458828f2c966774374d7ca16e6245eb3ebe29ac39c761f205dca47819c242",
+      "size_bytes": 358
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B003_zoom_locator.png",
+      "sha256": "9c3901ee8e1c37f59ffd974e4e098ef861e848a62e6764216fb5737d0a605ffd",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B003_zoom_unmarked.png",
+      "sha256": "10515bdbf00a58ee8d35dea979670d40dedf922a91c2819addaaaaaf6dc1cbf7",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B004_context_locator.png",
+      "sha256": "539a680f18d28ae1c8e4c30b08f08eb559712f953127da1b7c31257ddb7786c3",
+      "size_bytes": 21098
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B004_highpass_unmarked.png",
+      "sha256": "df4fe26a6db0a7be8dac0fa9a8424a932d8ec9de7fa2a950764e6226c8029158",
+      "size_bytes": 1550
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B004_zoom_locator.png",
+      "sha256": "f28880f130207e68e10105f182ec41d3a1d3a5bd1bd2a57090cc90000b6922ef",
+      "size_bytes": 1814
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B004_zoom_unmarked.png",
+      "sha256": "fc37f2f211320c001704ae68dc7205ac970a39230fd9532e39e82c2cd4941f8e",
+      "size_bytes": 1821
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B005_context_locator.png",
+      "sha256": "79bd87de84ba4432a5c1c827b48cf27153629abe01dd5f401a3ce00353f49c6c",
+      "size_bytes": 27587
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B005_highpass_unmarked.png",
+      "sha256": "9910dc4efa0f10076da273909d02686074aab53a3aafbf3941441ee937cbfa91",
+      "size_bytes": 1710
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B005_zoom_locator.png",
+      "sha256": "1661682b74c8bcff1dbcc60566b578b03c03e35453380a9f1fc1c1d9b5c6a9a8",
+      "size_bytes": 1917
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B005_zoom_unmarked.png",
+      "sha256": "cbf6089c079e6cf517fb0ae7880bb8ce9745e590c106fa6ca236a9acc6e534c7",
+      "size_bytes": 1926
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B006_context_locator.png",
+      "sha256": "764964590793e03397b204633edcf396621da14119d0f94921a6eab7f027796d",
+      "size_bytes": 24424
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B006_highpass_unmarked.png",
+      "sha256": "0da0c8aea5f1dbf08076733c5828ddfab83141a67d0a008334b95b7e78fe7f89",
+      "size_bytes": 1692
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B006_zoom_locator.png",
+      "sha256": "dec9487cf21d3f9f0b16b1195e3c2d4922213e8a155559b9b22ca83a99a0b7e5",
+      "size_bytes": 1460
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B006_zoom_unmarked.png",
+      "sha256": "aaffcb44b3fe9cf8a9871f81062c5fea865c7ebb3ba427a0305f322b31f30134",
+      "size_bytes": 1498
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B007_context_locator.png",
+      "sha256": "00d5b45672cf93a74ebe954b8f0e229df4e9f2eb09b21494940137fec4b25cee",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B007_highpass_unmarked.png",
+      "sha256": "3573abceccb57179c4c95194f888f4bdd8bb361aa0ba3c5fe512d16ace1c5284",
+      "size_bytes": 354
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B007_zoom_locator.png",
+      "sha256": "00d5b45672cf93a74ebe954b8f0e229df4e9f2eb09b21494940137fec4b25cee",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B007_zoom_unmarked.png",
+      "sha256": "a613425bb56a3eafc48d01f5cc6ebcb1a120b04d0aa46ad4070314a7f9ba0a6c",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B008_context_locator.png",
+      "sha256": "8753976b4d7c0a8cc56585c971f46ab34075798ecd4c06b55581563cc474e376",
+      "size_bytes": 3011
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B008_highpass_unmarked.png",
+      "sha256": "51a662a407aba0bfc50f664df6b0a2e89e108af395fdc7e006d4f8517d72ce60",
+      "size_bytes": 318
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B008_zoom_locator.png",
+      "sha256": "978283b9d3ebf3f2bb716a02d0ed44d4845785ce0a9f03d90b4166359a648f08",
+      "size_bytes": 360
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B008_zoom_unmarked.png",
+      "sha256": "4891036e813699829803ca731a86114d87fbd9f1f3b15beebb762f0c2f2db373",
+      "size_bytes": 372
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B009_context_locator.png",
+      "sha256": "c991644c8f64a41a0ec00632495a5f02c407a728a3327fb0ba4a5ea822f43bb3",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B009_highpass_unmarked.png",
+      "sha256": "7e26912b7d25ebf3301b3846b0b17e3c97c28bcc632cb6e5e943714cec120e8d",
+      "size_bytes": 361
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B009_zoom_locator.png",
+      "sha256": "c991644c8f64a41a0ec00632495a5f02c407a728a3327fb0ba4a5ea822f43bb3",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B009_zoom_unmarked.png",
+      "sha256": "34375ab5f06489006bdab1380fea9fd41106d98f3dae6e9435d96fb6cffda4f3",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B010_context_locator.png",
+      "sha256": "721719961d68bae4febdc965f8ace4cd2bd957936be3d2c4808c74af864c3968",
+      "size_bytes": 2940
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B010_highpass_unmarked.png",
+      "sha256": "f9d510bc278bebc6a101bb2f72369337a600e434075f608ead6848cfb7b829f9",
+      "size_bytes": 343
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B010_zoom_locator.png",
+      "sha256": "45f0deb73ea62da72b9eadc57e7d00a87c51170d1ed5f015e70521379ead2e26",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B010_zoom_unmarked.png",
+      "sha256": "d0eff6ef4bd086e15c458330995f72ee218e8c0750dfb6b38fdcc1a6b4828b59",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B011_context_locator.png",
+      "sha256": "8699dc696b471170dd477c67610aaa05ea94829576e334ab714c3afa50f29e5c",
+      "size_bytes": 18642
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B011_highpass_unmarked.png",
+      "sha256": "e3586fcb046b35186bbb572d97139d7e7c8e685090e605e52ed08205c39f3c1d",
+      "size_bytes": 1687
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B011_zoom_locator.png",
+      "sha256": "007c9bf464a4f324776564c207ec3ff9fce99eb69b64c5ff926b0743ac072c1c",
+      "size_bytes": 1659
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B011_zoom_unmarked.png",
+      "sha256": "f7b8104c42b08c1a12ef1675e1a96aff5cc5dbdc2f46b1dcb47e24034ac48ee2",
+      "size_bytes": 1673
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B012_context_locator.png",
+      "sha256": "45c3fe74ab31bc93a463ed277feab5ca1bd9d9f405a52cc52d914800c711343b",
+      "size_bytes": 27543
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B012_highpass_unmarked.png",
+      "sha256": "03014735eedff8296dae1097eb8dda259d7ec14b71a59c18a3ea3fc3e89c8207",
+      "size_bytes": 1702
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B012_zoom_locator.png",
+      "sha256": "78306f8bcc67c186a3ec5133953ed0b6016f9ab647acc10e9b73b09bb9206de0",
+      "size_bytes": 1934
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B012_zoom_unmarked.png",
+      "sha256": "18a68b2354a1d5d313ebfc76ad77d613295b929637cf02274b86b157cf37136c",
+      "size_bytes": 1942
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B013_context_locator.png",
+      "sha256": "ddd50ca2a54146e9a59e3a0ca78b9bfa652fc50a3b55f6278a8d44410846552d",
+      "size_bytes": 2947
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B013_highpass_unmarked.png",
+      "sha256": "9c829f95a454ce87cf036eb034589005d80f61ad9b7809dd532f96218f9d6ddf",
+      "size_bytes": 366
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B013_zoom_locator.png",
+      "sha256": "a89820b6a23a25acf09f7c9c0f63a123c3bccb27574fc2165ecc18e1d9712e81",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B013_zoom_unmarked.png",
+      "sha256": "74f4982ca0d478f7141f70030202fd046e04b006b787c8d57f816f7cf91ddaa2",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B014_context_locator.png",
+      "sha256": "e6d385c2889d6de3b7b2cc05b5c866c5d5ecbb6755765f2e5094056cfe58c31e",
+      "size_bytes": 20281
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B014_highpass_unmarked.png",
+      "sha256": "394c53ab9aec7b8763db4fbe99b0bd9b3c2ddb9bc54b637378a66f370c6fabf3",
+      "size_bytes": 1697
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B014_zoom_locator.png",
+      "sha256": "4028271737eca8b63436620ae4da014d3eb273d1bc18bd324761e7c55b3b1630",
+      "size_bytes": 1921
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B014_zoom_unmarked.png",
+      "sha256": "1615efd75a70e044ac77d25bc907402d298ad1cce10d4f449ad97134eb38bc74",
+      "size_bytes": 1928
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B015_context_locator.png",
+      "sha256": "3f07ce6f6f443201ed7ee3c623b1e01b9211db22f49fd98a6738f8752361d7d0",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B015_highpass_unmarked.png",
+      "sha256": "1f229354bff3d427ea18299c307c862f4cf441f25abd3942edb32faedeace6eb",
+      "size_bytes": 359
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B015_zoom_locator.png",
+      "sha256": "3f07ce6f6f443201ed7ee3c623b1e01b9211db22f49fd98a6738f8752361d7d0",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B015_zoom_unmarked.png",
+      "sha256": "329f3ef76f3755343f477cafbdcf817fd247bd8b3ff3d97fe338bf12241b32b5",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B016_context_locator.png",
+      "sha256": "96d119fbb5f2534dde88610f72675c2dac6c07add95300f34d9449f21cb847d2",
+      "size_bytes": 3277
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B016_highpass_unmarked.png",
+      "sha256": "4629edf248f6deba20fc6bb8579c80cf8e0dd1789b017af3eceec497258aab97",
+      "size_bytes": 362
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B016_zoom_locator.png",
+      "sha256": "a718ffbc644b01592ee219569bbd74a0bb5c7fecff90e16ed8551eddf1498780",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B016_zoom_unmarked.png",
+      "sha256": "573ce3c2b340407f0ca1ec318fce1bbc865cda80abcc52cc89695016fb7b369d",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B017_context_locator.png",
+      "sha256": "1af8e113314b8e68eb2f4c6f10addb5731411ed410978f106e90a74193c2d4c7",
+      "size_bytes": 21367
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B017_highpass_unmarked.png",
+      "sha256": "6c966f7419f0bab2f8d0210f0c02441b91b91329f97307f32239f5628ea17ca5",
+      "size_bytes": 1701
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B017_zoom_locator.png",
+      "sha256": "afc2005bbc9fc15142e4ef2be9265f5254ae36fa424615151cf64250357749aa",
+      "size_bytes": 1838
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B017_zoom_unmarked.png",
+      "sha256": "c405d6b8f5e0dd803a71fb21c84b742ad928673aaa219c1edab292bb1f08c3d5",
+      "size_bytes": 1850
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B018_context_locator.png",
+      "sha256": "eee26e805c31a3e1d49a588931e9e6f0e76c5e137e5a0ae482e9305f1585b82a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B018_highpass_unmarked.png",
+      "sha256": "df79d02c1e492bb32d938ce01686b5917c36bbb29526685babe1697d6f3858bc",
+      "size_bytes": 360
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B018_zoom_locator.png",
+      "sha256": "eee26e805c31a3e1d49a588931e9e6f0e76c5e137e5a0ae482e9305f1585b82a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B018_zoom_unmarked.png",
+      "sha256": "2c649712547d4612016dd5411f21667a6edb9c2b31464adaad461f479adc6372",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B019_context_locator.png",
+      "sha256": "1012f4a1c50f96db5a24d18bc7c2fe0e8b96c5e96ec695c91833911e621b023a",
+      "size_bytes": 27580
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B019_highpass_unmarked.png",
+      "sha256": "9b99ff4bc49c7ed092eef0df29b8285903a50e337885974b75ac03e68b059a3f",
+      "size_bytes": 1749
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B019_zoom_locator.png",
+      "sha256": "930d2d991f806107c9bcaf567e71f8d94e112ab8e7a8c7035d3d8d859d721cec",
+      "size_bytes": 1919
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B019_zoom_unmarked.png",
+      "sha256": "2c5febee5b974843ece6bce0eecb8af39e692ebf5fafc032c76273c8afb45ec7",
+      "size_bytes": 1924
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B020_context_locator.png",
+      "sha256": "18a499126dc9eebdd6f8724202fb7faf8efc8bc892103879c0d92e395f4442b6",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B020_highpass_unmarked.png",
+      "sha256": "fa08a73b7e8b2e566af4686ad9eb954e49eb621dc8956016d8a72b927d23dabf",
+      "size_bytes": 362
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B020_zoom_locator.png",
+      "sha256": "18a499126dc9eebdd6f8724202fb7faf8efc8bc892103879c0d92e395f4442b6",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B020_zoom_unmarked.png",
+      "sha256": "bf0cc674643d4dd130224ea675fbbb33f05facc57e06b4ec7124dc17c6aa6726",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B021_context_locator.png",
+      "sha256": "a35bcd9304a777c1ba5419871c2649230c2e8656d9503ef188c1eb6d5945143a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B021_highpass_unmarked.png",
+      "sha256": "68bd77156fcc237c80bb9c78730e7b87a0145d669882530c3f5fedbfb7c345ec",
+      "size_bytes": 354
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B021_zoom_locator.png",
+      "sha256": "a35bcd9304a777c1ba5419871c2649230c2e8656d9503ef188c1eb6d5945143a",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B021_zoom_unmarked.png",
+      "sha256": "a77560305a0be5e73d248c437b50ca43758645ed8fa65be6cad0a9095669fccb",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B022_context_locator.png",
+      "sha256": "ba0ca74fc0512632f9f02b42a626157d75e09e0f461d9c4aca1e4a3b529873ca",
+      "size_bytes": 371
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B022_highpass_unmarked.png",
+      "sha256": "07335bfc602e8b9999f4380f133b00545389976b4905d05ca3bfafd6ffafbcd6",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B022_zoom_locator.png",
+      "sha256": "ba0ca74fc0512632f9f02b42a626157d75e09e0f461d9c4aca1e4a3b529873ca",
+      "size_bytes": 371
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B022_zoom_unmarked.png",
+      "sha256": "1a04bde7b1a7aae378a8391c1a01e543038cebe7e1cff581eb4d79d4d37f4f85",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B023_context_locator.png",
+      "sha256": "09feea4daff2704217ac6a4310312d8a64bf33054ef04725160d7e6ea80026b1",
+      "size_bytes": 2702
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B023_highpass_unmarked.png",
+      "sha256": "e1f80471415ddd3790f55dbe7962ba0f9faf11dec9978e69825234d9c07b4086",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B023_zoom_locator.png",
+      "sha256": "58fec7eef57ac1d0a02c711ef15e0372d667e0fe5d59fd6eded8b5980ab00078",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B023_zoom_unmarked.png",
+      "sha256": "02fe61dcbac85795920d227e01312050b7725f5267a61082df6d47dcc55dd0b9",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B024_context_locator.png",
+      "sha256": "2a58db61d8c3bf46f79aa27a81c44f81538a58171d776cf140ae5fe212bc59ec",
+      "size_bytes": 2773
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B024_highpass_unmarked.png",
+      "sha256": "0610505e9cb16a99c46db9d45aa5fc842b6077710a844eb85c8849b963c621cc",
+      "size_bytes": 314
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B024_zoom_locator.png",
+      "sha256": "3d328ce4e5f392fee3031fab77e2f62fd6ebc87d92479b3013c0aa26ca1e2a52",
+      "size_bytes": 365
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B024_zoom_unmarked.png",
+      "sha256": "dfb1263651bd656962618e916f3c3afde309a1beeaf2abcc9d2acb9c8165517f",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B025_context_locator.png",
+      "sha256": "5fafefd13611c58a6e479e9f70e2f53e8d5cbdc5258bbe6a70138dc147fcdb3e",
+      "size_bytes": 26794
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B025_highpass_unmarked.png",
+      "sha256": "74274888766a51320ffdb92048882e166ea2b218413e783bd7d155ac0bad825b",
+      "size_bytes": 1736
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B025_zoom_locator.png",
+      "sha256": "9d116a647744363f23c913f141e11318df19d7fb58b7104b1a66dd7859dc6c88",
+      "size_bytes": 1868
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B025_zoom_unmarked.png",
+      "sha256": "24f8bf85e30436b1c0ce2c19c24b133aabbc9a363595801e3e00cabdc2903aef",
+      "size_bytes": 1889
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B026_context_locator.png",
+      "sha256": "cb9616d9c559c5d04dac5554e17a05e736a5a66689ca364b0a5ff6fc5555a08b",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B026_highpass_unmarked.png",
+      "sha256": "58aa23ef0714252977882c56854807ae155cde14d07dac32f00243aa25a18364",
+      "size_bytes": 368
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B026_zoom_locator.png",
+      "sha256": "cb9616d9c559c5d04dac5554e17a05e736a5a66689ca364b0a5ff6fc5555a08b",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B026_zoom_unmarked.png",
+      "sha256": "0922549720967a9ebe5aaa873b04cf5bf1b4f7da98f4edb73831a7ecd0e54cba",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B027_context_locator.png",
+      "sha256": "91321a5fb1a26831694723b222ac44b8cab4b86867de5f4f2333303baf6791c7",
+      "size_bytes": 26822
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B027_highpass_unmarked.png",
+      "sha256": "24ea514461f8a294b757a1ee8d0fbfc5c10841f156362b320d00f6f0b369b10f",
+      "size_bytes": 1699
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B027_zoom_locator.png",
+      "sha256": "bee09fc2a2f81c265c8c4826f19783dc2d6b7f68f06000c28c144bb6bd363c51",
+      "size_bytes": 1731
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B027_zoom_unmarked.png",
+      "sha256": "eeb8b11e87ac2f0d2d044935cabc93b8dd6b41b1917cac2080331b485190272d",
+      "size_bytes": 1738
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B028_context_locator.png",
+      "sha256": "41adc37f68e04a78b4bbeff4305c221e0d6aa04055b4596cfdb7c363d2a8ea37",
+      "size_bytes": 24051
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B028_highpass_unmarked.png",
+      "sha256": "4f9f4f048bfe59d7abd935d2cf0059f5964b421b965ae62b2a0cc27bb0c73380",
+      "size_bytes": 1725
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B028_zoom_locator.png",
+      "sha256": "b44f85b196d9a6fcd05b2d7a209acd479fb36b374a5190891cc713367e3a7536",
+      "size_bytes": 1717
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B028_zoom_unmarked.png",
+      "sha256": "918497fe48ab9dd13a0a2d2d471b7b90ae2b6532407da164d9915cd0e746ce1a",
+      "size_bytes": 1744
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B029_context_locator.png",
+      "sha256": "25034935cba004945dc8c09480fcf76e207a06ad32f68ab84db4be5c0661d254",
+      "size_bytes": 20682
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B029_highpass_unmarked.png",
+      "sha256": "4aa6d11183bc9b73e1397ebfda98bb726cb382caa6280fe3cee4c9bafd0cf475",
+      "size_bytes": 1675
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B029_zoom_locator.png",
+      "sha256": "df9e3e85f30d41ca78419025d59245494e01b6a959e70e3bd7705f631f0bf419",
+      "size_bytes": 1543
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B029_zoom_unmarked.png",
+      "sha256": "01a0a136f2b1cc897064cfa4166ee346815bdf0a0d398f636d8f557d347a0f50",
+      "size_bytes": 1552
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B030_context_locator.png",
+      "sha256": "eda5be3821accd28fd3fc3f2686387c24a093a96d3e65ec03559f78360339e94",
+      "size_bytes": 19591
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B030_highpass_unmarked.png",
+      "sha256": "79a35d77ffbe7da93283bd5eedbfd17aca0bad0d6e9ddd27b78b27aad5423561",
+      "size_bytes": 1437
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B030_zoom_locator.png",
+      "sha256": "6b33fb49775b4f8ca7f3e0a20aaa4978f51d6a5273135fbddc788e460490d8f6",
+      "size_bytes": 1836
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B030_zoom_unmarked.png",
+      "sha256": "0212306be6ec4a822178c340341e66088ed378bc7e12df28463b51f8626f9b62",
+      "size_bytes": 1841
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B031_context_locator.png",
+      "sha256": "2905705eb1e8fc37bdea5c50cfe874fa8380946e542c731946b180f182bb9718",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B031_highpass_unmarked.png",
+      "sha256": "186ea92bbf9602c4e5e4b96a39ca9140c110ccc8a9fc7f3b7c872e9ebfef376f",
+      "size_bytes": 363
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B031_zoom_locator.png",
+      "sha256": "2905705eb1e8fc37bdea5c50cfe874fa8380946e542c731946b180f182bb9718",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B031_zoom_unmarked.png",
+      "sha256": "2235028d6e92d8ee975336cc8bc7fcfb591a373ec19be0196936776401e74885",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B032_context_locator.png",
+      "sha256": "f1b0685934e7544b24f5e45ae9bfe1beb2deedbe9ffe27dbfe610c699fa42abb",
+      "size_bytes": 2853
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B032_highpass_unmarked.png",
+      "sha256": "ebc850c851f3bf9d6bf5baed5664f66b2a9523337d804707190a2f5a9a9728c5",
+      "size_bytes": 336
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B032_zoom_locator.png",
+      "sha256": "e7fa3b2fc71cabd72dfe434b564930a695568aad6ad564b1c22412eadfaf696f",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_assets/B032_zoom_unmarked.png",
+      "sha256": "05df189fb199331e1f73277d3d58f1ea57f3d0ca0bfca23912a8758ccaa9f3bd",
+      "size_bytes": 374
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_review.html",
+      "sha256": "e62fc4efc13fb8e767b28078656121cba9d6f6b2375d9617fb764466b532e154",
+      "size_bytes": 36106
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/blind_review_sheet.csv",
+      "sha256": "321e68bd977e48487db093ba1c5578d07e07cf73edd012d2df58851804579759",
+      "size_bytes": 434
+    },
+    {
+      "path": "results/pair17_blinded_manual_review_packet_v084a/pair17_blinded_manual_review_packet_v084a.json",
+      "sha256": "0034d89515cf0c15b3b81ba5d6d1e339637758b668d5c530bab81f20473ba5da",
+      "size_bytes": 17283
+    }
+  ],
+  "human_scores_present": false,
+  "parent_v084_bank_manifest_sha256": "484b097bb0914945af502187240ffb1620324b62c9ee6b97e520bf46fdd01898",
+  "status": "COMPLETE",
+  "unblinding_key_written": false
+}
