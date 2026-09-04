@@ -1,0 +1,194 @@
+{
+  "candidate_mechanical_states": {
+    "formal_candidate_disposition_changes": false,
+    "note": "These are prospectively frozen mechanical evidence states. They do not mutate the formal candidate disposition in v080.",
+    "rules": {
+      "MECHANICALLY_EXPLAINED_RECURRENT_SKY_SOURCE": "at least two distinct physical comparison plates have PRIMARY-registered strict native recurrence",
+      "ONE_INDEPENDENT_NATIVE_RECURRENCE_RETAIN": "exactly one distinct physical comparison plate has PRIMARY-registered strict recurrence",
+      "TRANSIENT_LIKE_NATIVE_NONRECURRENCE_SUPPORTED": "zero strict native recurrences and at least two distinct physical comparison plates are sensitivity-qualified negatives",
+      "UNRESOLVED_NATIVE_SENSITIVITY_INSUFFICIENT": "zero strict native recurrences and fewer than two distinct sensitivity-qualified negatives"
+    }
+  },
+  "comparison_scan_epoch_and_wcs": {
+    "epoch_priority": [
+      "DATE-AVG",
+      "midpoint of DATE-OBS and DATE-END when both parseable",
+      "DATE-OBS",
+      "v079 representative_exposure_start_utc"
+    ],
+    "hdu": "primary HDU; v080 preflight demonstrated one HDU for all 53 scans",
+    "no_wcs": "operational row hold; never interpreted as recurrence or nondetection",
+    "preflight_fact": "53/53 acquired scans have a FITS-header celestial WCS",
+    "wcs_choice": "use primary unsuffixed celestial WCS when available, otherwise the lexicographically first usable alternate celestial WCS"
+  },
+  "contract_id": "pair17_registered_native_pixel_recurrence_sensitivity_v080",
+  "execution": {
+    "checkpoint_unit": "candidate x physical comparison plate",
+    "completed_checkpoint_reuse": true,
+    "gaia_acquisition_phase_before_pixels": true,
+    "manual_review": false,
+    "network_after_gaia_acquisition": false,
+    "operational_failure_policy": "continue independent rows, preserve exact failures, and finish PARTIAL_OPERATIONAL_HOLD rather than interpreting missing rows scientifically",
+    "pixel_workers": 2,
+    "scan_access": "memory-mapped FITS; save no full-image copies",
+    "threshold_retuning": false
+  },
+  "forced_measurement": {
+    "expected_raw_image_coordinate": "registered target shifted by the fitted positive local detector-minus-Gaia translation, then transformed through the frozen comparison-scan WCS",
+    "measurement": "nearest-pixel high-pass residual divided by the frozen detector baseline sigma; high-pass residual uses the frozen detector background_sigma_px",
+    "use": "reported contextual evidence only; never by itself promotes, rejects, or closes a candidate"
+  },
+  "frozen_inputs": {
+    "candidate_adjudication_policy_v002_sha256": "eb8512724b2ef23b3ee88e5ffcfab8088144c984f0b75adb7b68e87198cb4cbd",
+    "order01_injection_runner_sha256": "7149ab75f320fdf2aea167a2126565fea3c2be4433393b353ada79c138e2d483",
+    "v068a_pair17_registration_csv_sha256": "ebbe6ff5513681a3b98a2f4deda1d4b5c7f563ca284dd399e631237cdae4b7a1",
+    "v075_static_triage_csv_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v078_candidate_summary_sha256": "4294aa5cb8e7c4138e0a5683945c4d8eaad56aed5ca133c4f7d2ddb71d155ee5",
+    "v078_pixel_followup_queue_sha256": "3be9c4049f40e9d9af43decfa9036ce186c0d6b22250ea274908e5299e461879",
+    "v079_acquisition_manifest_sha256": "392e73303d01f20a386627e8a743c4a6769e31deb5a4a9a22f7a81055c809f7a",
+    "v079_candidate_comparison_plan_sha256": "9794ee6dc3eebd91281a46af25f0025da86492dde2aeb0e44f04ae3292a3d356",
+    "v079_report_sha256": "a6695398285882ef13e8f67cf04955fb4b6c6b2f8fd7cf58f0580ad18aec635d",
+    "v079b_bank_manifest_sha256": "d3bd17cb6c9da62feb17d10bd8f7b86789ee11b63acc8d131407ba0b785e1e42",
+    "v080_preflight_report_sha256": "ba4de5aaa87b5eba016e3eca638ea4923da0c7b44cb14241ada59eae30544b9b",
+    "v080_preflight_script_sha256": "2868a91e18ce65cbc20070a3a5d48b7526ea3cc377fd12d70f4b38bff2efa298"
+  },
+  "gaia_reference_acquisition": {
+    "all_23_queries_complete_before_pixel_phase": true,
+    "cache_raw_votable_and_query": true,
+    "catalogue": "Gaia DR3 gaiadr3.gaia_source",
+    "cone_center": "registered target coordinate defined above",
+    "cone_radius_arcmin": 30.5,
+    "fields": [
+      "source_id",
+      "ra",
+      "dec",
+      "ref_epoch",
+      "pmra",
+      "pmdec",
+      "parallax",
+      "phot_g_mean_mag"
+    ],
+    "maxrec": 50000,
+    "maxrec_hit": "operational stop before any comparison pixels are read",
+    "one_query_per_frozen_candidate": true,
+    "phot_g_mean_mag_max": 19.5,
+    "proper_motion": "rows with finite ref_epoch, pmra and pmdec are propagated to the comparison plate epoch; rows lacking required motion are retained in provenance counts but excluded from the registration fit",
+    "tap_sync": "https://gea.esac.esa.int/tap-server/tap/sync",
+    "transport_attempts": 5
+  },
+  "injection_recovery": {
+    "baseline_exclusion_radius_px": 8.0,
+    "detector_edge_px": 30,
+    "fallback_step_px": 128,
+    "injection_tile_size_px": 1024,
+    "local_offsets_px": [
+      -384,
+      -256,
+      -128,
+      128,
+      256,
+      384
+    ],
+    "match_radius_px": 3.0,
+    "nondetection_without_sensitivity": "never interpreted as negative recurrence evidence",
+    "polarities": [
+      -1,
+      1
+    ],
+    "position_shortfall": "record sensitivity unqualified for that plate; do not broaden placement rules or change the comparison plan",
+    "positions": 24,
+    "psf_sigmas_px": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "recovery_levels": [
+      0.5,
+      0.9
+    ],
+    "run_condition": "run only on PRIMARY-registered candidate x plate rows with no strict <=3 arcsec native recurrence; this branch rule is frozen prospectively",
+    "science_pair_reference_snr": "minimum of absolute v075 a_snr and b_snr for that frozen candidate",
+    "sensitivity_qualified_negative_requires": [
+      "PRIMARY local registration",
+      "no corrected frozen-detector peak within 5 arcsec",
+      "24 valid deterministic injection positions",
+      "a finite 90-percent recovery threshold for each of the six combinations of three frozen PSF sigmas and two polarities",
+      "the maximum of those six 90-percent recovery thresholds is <= the candidate science-pair reference SNR"
+    ],
+    "source_implementation": "reuse the guarded Order-01 v028 injection functions and frozen detector/method",
+    "stamp_radius_px": 16,
+    "target_detector_snrs": [
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0
+    ]
+  },
+  "local_registration": {
+    "clipping": false,
+    "field_radius_arcmin": 30.5,
+    "fit": "componentwise median translation in detector-minus-propagated-Gaia east/north residuals",
+    "gaia_detector_reciprocal_match_arcsec": 15.0,
+    "primary_min_refs": 5,
+    "reference_detector": "unchanged frozen detector loaded through the guarded Order-01 v028 implementation",
+    "rotation_scale_affine_or_higher_order": false,
+    "sparse_min_refs": 3,
+    "sparse_registration": "diagnostic only and cannot support a native-pixel recurrence or sensitivity-qualified nondetection",
+    "target_exclusion_arcsec": 30.0,
+    "target_independent": true,
+    "window_rule": "smallest listed window containing at least five reciprocal Gaia references",
+    "windows_arcmin": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ]
+  },
+  "native_pixel_recurrence": {
+    "correct_detector_peak_to_gaia_frame": "apply the negative fitted local detector-minus-Gaia translation to every baseline detector peak before target separation is evaluated",
+    "detector_parameters_retuned": false,
+    "diagnostic_native_context": "PRIMARY local registration, no <=3 arcsec peak, and at least one corrected peak >3 and <=5 arcsec",
+    "diagnostic_radius_arcsec": 5.0,
+    "multiple_peaks": "report all counts and use closest corrected peak for summary",
+    "polarity": "either detector polarity may constitute positional recurrence",
+    "selection_role": "v079 selection role is provenance only; the same recurrence rule is applied to positive, contextual, and sensitivity-negative planned plates",
+    "strict_native_recurrence_requires": [
+      "PRIMARY local registration",
+      "at least one corrected frozen-detector peak within 3 arcsec of the registered target"
+    ],
+    "strict_radius_arcsec": 3.0
+  },
+  "population": {
+    "all_candidates": 23,
+    "candidate_x_selected_physical_plate_rows": 129,
+    "diagnostic_candidates": 10,
+    "no_post_v079_candidate_or_plate_subsetting": true,
+    "physical_plate_is_independence_unit": true,
+    "primary_candidates": 13,
+    "source": "v078 frozen pixel-followup branch and v079 frozen comparison plan",
+    "unique_acquired_scans": 53
+  },
+  "purpose": "Execute the first outcome-bearing native-pixel comparison stage for the 23 prospectively frozen pair-17 survivors. For every frozen candidate x comparison-plate row, perform target-independent local Gaia registration, frozen-detector recurrence measurement, forced target measurement, and prospectively frozen native-pixel injection/recovery sensitivity. Aggregate mechanical candidate states without mutating formal candidate dispositions.",
+  "registered_target_coordinate": {
+    "pre_pixel_guard": "reconstructed corrected endpoint separation must agree with the frozen v068a corrected_separation_arcsec within 0.25 arcsec for every candidate",
+    "source_endpoint_coordinates": "v075 a_ra_deg/a_dec_deg and b_ra_deg/b_dec_deg",
+    "source_registration_translations": "v068a shift_a_east_arcsec/shift_a_north_arcsec and shift_b_east_arcsec/shift_b_north_arcsec",
+    "target_coordinate": "unit-vector spherical midpoint of the two individually Gaia-frame-corrected science endpoint coordinates",
+    "translation_sign": "v068a shifts are detector-minus-Gaia residuals; each endpoint is transformed to the Gaia frame by applying the negative east/north shift",
+    "v078_target_coordinate_use": "v078 target_ra_deg/target_dec_deg is retained for provenance comparison only; it is not the native-pixel recurrence coordinate and v078 outcomes are not rewritten"
+  },
+  "required_outputs": [
+    "registered_target_coordinates_csv",
+    "gaia_reference_query_manifest_csv",
+    "native_pixel_plate_measurements_csv",
+    "native_pixel_injection_summary_csv",
+    "native_pixel_candidate_summary_csv",
+    "operational_failures_csv_if_any",
+    "stage_report_json"
+  ],
+  "status": "PROSPECTIVE_FREEZE"
+}
