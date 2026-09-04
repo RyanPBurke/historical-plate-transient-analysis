@@ -1,0 +1,66 @@
+{
+  "chronology_rule": {
+    "bands_hours": [
+      1,
+      2,
+      6,
+      24
+    ],
+    "days_or_longer_not_called_tight_bracketing": true,
+    "primary_metric": "exact exposure-interval gap to common overlap; overlapping exposure gap=0",
+    "report_nearest_preceding_following": true,
+    "report_same_series_and_any_series_separately": true,
+    "retain_all_qualifying_opportunities": true
+  },
+  "contract_id": "pair17_temporal_bracketing_census_v081",
+  "frozen_v082_queue_rule": {
+    "exclude_science_plate_ids": [
+      7685,
+      89580
+    ],
+    "no_automatic_extension_beyond_24h": true,
+    "no_pixel_or_visual_selection": true,
+    "other_series_same_observatory": "all covering physical plates with any exposure interval within 6h",
+    "same_series": "all covering physical plates with any exposure interval within 24h of common overlap"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_calls": 0,
+    "fits_pixel_reads": 0,
+    "injection_measurements": 0,
+    "manual_image_review": false,
+    "network_calls": 0,
+    "threshold_retuning": false
+  },
+  "inputs": {
+    "v077a_bank_sha256": "86545f2e4fa228c9472665bfe59ba7625314c548c0117bc00442265d8a1e97ef",
+    "v077a_opportunity_sha256": "f8bd8a1bc322d0a9dc0239e29f676975f8ff692e17e040e2786cc196caf24b1d",
+    "v079b_bank_sha256": "d3bd17cb6c9da62feb17d10bd8f7b86789ee11b63acc8d131407ba0b785e1e42",
+    "v080a_bank_sha256": "f2ba81ab1222162e3d94a57d61d4f92da14ec37fef3dab4e54abd060ca699327"
+  },
+  "population": {
+    "expected_total": 6,
+    "retain_primary_and_diagnostic_separately": true,
+    "rule": "mechanical_evidence_state == TRANSIENT_LIKE_NATIVE_NONRECURRENCE_SUPPORTED",
+    "source": "v080a candidate summary"
+  },
+  "science_event": {
+    "overlap_duration_seconds": 299,
+    "overlap_end_utc": "1953-12-02T20:51:28+00:00",
+    "overlap_start_utc": "1953-12-02T20:46:29+00:00",
+    "pair": "APPLAUSE:132654 | APPLAUSE:14120",
+    "science_plate_ids": [
+      7685,
+      89580
+    ],
+    "series": {
+      "BAMBERG": "Bamberg-North",
+      "HAMBURG": "HAM-LA"
+    }
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "timing": {
+    "fallback": "aligned exposure_start_values + one unambiguous duration-list field; otherwise TIMING_AMBIGUOUS, never guess",
+    "preferred": "exposure_start_values + exposure_end_values"
+  }
+}
