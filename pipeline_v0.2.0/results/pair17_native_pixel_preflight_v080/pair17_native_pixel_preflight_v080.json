@@ -1,0 +1,2100 @@
+{
+  "analysis_kind": "pair17_native_pixel_preflight_v080",
+  "coordinate_sources_discovered": {
+    "v077a_opportunities": [
+      [
+        "locus_ra_deg",
+        "locus_dec_deg"
+      ]
+    ],
+    "v078_candidate_summary": [
+      [
+        "target_ra_deg",
+        "target_dec_deg"
+      ]
+    ]
+  },
+  "decision_for_v080_freeze": "Use this inventory to bind the exact candidate-coordinate source and WCS transport before any comparison-pixel outcome is read.",
+  "fits_header_inventory": {
+    "hdu_count_histogram": {
+      "1": 53
+    },
+    "scans": [
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 28384,
+            "naxis2": 28387
+          }
+        ],
+        "file_size": 1611489600,
+        "filename_scan": "DR4/scans/HAM-LA/LA00577_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 28384,
+            "naxis2": 28387,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/398/LA00577_x.fits",
+        "scan_basename": "LA00577_x.fits",
+        "scan_id": "398"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 22624,
+            "naxis2": 22710
+          }
+        ],
+        "file_size": 1027598400,
+        "filename_scan": "DR4/scans/HAM-LA/LA00578_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 22624,
+            "naxis2": 22710,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/400/LA00578_x.fits",
+        "scan_basename": "LA00578_x.fits",
+        "scan_id": "400"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 28304,
+            "naxis2": 28306
+          }
+        ],
+        "file_size": 1602362880,
+        "filename_scan": "DR4/scans/HAM-LA/LA00579_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 28304,
+            "naxis2": 28306,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/403/LA00579_y.fits",
+        "scan_basename": "LA00579_y.fits",
+        "scan_id": "403"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 28616,
+            "naxis2": 22930
+          }
+        ],
+        "file_size": 1312349760,
+        "filename_scan": "DR4/scans/HAM-LA/LA02355_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 28616,
+            "naxis2": 22930,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/2369/LA02355_x.fits",
+        "scan_basename": "LA02355_x.fits",
+        "scan_id": "2369"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 28664,
+            "naxis2": 22798
+          }
+        ],
+        "file_size": 1306978560,
+        "filename_scan": "DR4/scans/HAM-LA/LA05466_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 28664,
+            "naxis2": 22798,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6332/LA05466_x.fits",
+        "scan_basename": "LA05466_x.fits",
+        "scan_id": "6332"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 23048,
+            "naxis2": 28527
+          }
+        ],
+        "file_size": 1314996480,
+        "filename_scan": "DR4/scans/HAM-LA/LA05491_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 23048,
+            "naxis2": 28527,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6367/LA05491_y.fits",
+        "scan_basename": "LA05491_y.fits",
+        "scan_id": "6367"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12496,
+            "naxis2": 17243
+          }
+        ],
+        "file_size": 430951680,
+        "filename_scan": "DR4/scans/HAM-LA/LA05690_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12496,
+            "naxis2": 17243,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6637/LA05690_x.fits",
+        "scan_basename": "LA05690_x.fits",
+        "scan_id": "6637"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12528,
+            "naxis2": 17250
+          }
+        ],
+        "file_size": 432230400,
+        "filename_scan": "DR4/scans/HAM-LA/LA05839_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12528,
+            "naxis2": 17250,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6852/LA05839_x.fits",
+        "scan_basename": "LA05839_x.fits",
+        "scan_id": "6852"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 17168,
+            "naxis2": 12410
+          }
+        ],
+        "file_size": 426124800,
+        "filename_scan": "DR4/scans/HAM-LA/LA05888_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 17168,
+            "naxis2": 12410,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6921/LA05888_y.fits",
+        "scan_basename": "LA05888_y.fits",
+        "scan_id": "6921"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427155840,
+        "filename_scan": "DR4/scans/HAM-LA/LA05892_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/6926/LA05892_x.fits",
+        "scan_basename": "LA05892_x.fits",
+        "scan_id": "6926"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8648,
+            "naxis2": 11420
+          }
+        ],
+        "file_size": 197536320,
+        "filename_scan": "DR4/scans/HAM-LA/LA06511_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8648,
+            "naxis2": 11420,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/7824/LA06511_x.fits",
+        "scan_basename": "LA06511_x.fits",
+        "scan_id": "7824"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 23168,
+            "naxis2": 23042
+          }
+        ],
+        "file_size": 1067690880,
+        "filename_scan": "DR4/scans/HAM-LA/LA06708_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 23168,
+            "naxis2": 23042,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/8084/LA06708_x.fits",
+        "scan_basename": "LA06708_x.fits",
+        "scan_id": "8084"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 17168,
+            "naxis2": 12410
+          }
+        ],
+        "file_size": 426130560,
+        "filename_scan": "DR4/scans/HAM-LA/LA08001_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 17168,
+            "naxis2": 12410,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9698/LA08001_y.fits",
+        "scan_basename": "LA08001_y.fits",
+        "scan_id": "9698"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427155840,
+        "filename_scan": "DR4/scans/HAM-LA/LA08095_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9870/LA08095_x.fits",
+        "scan_basename": "LA08095_x.fits",
+        "scan_id": "9870"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427155840,
+        "filename_scan": "DR4/scans/HAM-LA/LA08113_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9905/LA08113_x.fits",
+        "scan_basename": "LA08113_x.fits",
+        "scan_id": "9905"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17183
+          }
+        ],
+        "file_size": 428077440,
+        "filename_scan": "DR4/scans/HAM-LA/LA08142_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17183,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9959/LA08142_x.fits",
+        "scan_basename": "LA08142_x.fits",
+        "scan_id": "9959"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427155840,
+        "filename_scan": "DR4/scans/HAM-LA/LA08149_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9972/LA08149_x.fits",
+        "scan_basename": "LA08149_x.fits",
+        "scan_id": "9972"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427155840,
+        "filename_scan": "DR4/scans/HAM-LA/LA08157_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/9986/LA08157_x.fits",
+        "scan_basename": "LA08157_x.fits",
+        "scan_id": "9986"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 28616,
+            "naxis2": 22930
+          }
+        ],
+        "file_size": 1312346880,
+        "filename_scan": "DR4/scans/HAM-LA/LA08167_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 28616,
+            "naxis2": 22930,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10000/LA08167_x.fits",
+        "scan_basename": "LA08167_x.fits",
+        "scan_id": "10000"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427161600,
+        "filename_scan": "DR4/scans/HAM-LA/LA08168_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10002/LA08168_x.fits",
+        "scan_basename": "LA08168_x.fits",
+        "scan_id": "10002"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 23048,
+            "naxis2": 28648
+          }
+        ],
+        "file_size": 1320575040,
+        "filename_scan": "DR4/scans/HAM-LA/LA08169_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 23048,
+            "naxis2": 28648,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10005/LA08169_y.fits",
+        "scan_basename": "LA08169_y.fits",
+        "scan_id": "10005"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427161600,
+        "filename_scan": "DR4/scans/HAM-LA/LA08171_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10008/LA08171_x.fits",
+        "scan_basename": "LA08171_x.fits",
+        "scan_id": "10008"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427161600,
+        "filename_scan": "DR4/scans/HAM-LA/LA08184_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10030/LA08184_x.fits",
+        "scan_basename": "LA08184_x.fits",
+        "scan_id": "10030"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427161600,
+        "filename_scan": "DR4/scans/HAM-LA/LA08217_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10085/LA08217_x.fits",
+        "scan_basename": "LA08217_x.fits",
+        "scan_id": "10085"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12528,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 429632640,
+        "filename_scan": "DR4/scans/HAM-LA/LA08287_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12528,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10186/LA08287_x.fits",
+        "scan_basename": "LA08287_x.fits",
+        "scan_id": "10186"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12472,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427711680,
+        "filename_scan": "DR4/scans/HAM-LA/LA08293_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12472,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10190/LA08293_x.fits",
+        "scan_basename": "LA08293_x.fits",
+        "scan_id": "10190"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17146
+          }
+        ],
+        "file_size": 427161600,
+        "filename_scan": "DR4/scans/HAM-LA/LA08347_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17146,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10240/LA08347_x.fits",
+        "scan_basename": "LA08347_x.fits",
+        "scan_id": "10240"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 12512,
+            "naxis2": 17183
+          }
+        ],
+        "file_size": 430007040,
+        "filename_scan": "DR4/scans/HAM-LA/LA08773_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12512,
+            "naxis2": 17183,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10815/LA08773_x.fits",
+        "scan_basename": "LA08773_x.fits",
+        "scan_id": "10815"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 12456,
+            "naxis2": 17070
+          }
+        ],
+        "file_size": 425269440,
+        "filename_scan": "DR4/scans/HAM-LA/LA08860_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 12456,
+            "naxis2": 17070,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/10960/LA08860_x.fits",
+        "scan_basename": "LA08860_x.fits",
+        "scan_id": "10960"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 16920,
+            "naxis2": 12296
+          }
+        ],
+        "file_size": 416111040,
+        "filename_scan": "DR4/scans/HAM-ST/S04887_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 16920,
+            "naxis2": 12296,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/21463/S04887_y.fits",
+        "scan_basename": "S04887_y.fits",
+        "scan_id": "21463"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 16968,
+            "naxis2": 12246
+          }
+        ],
+        "file_size": 415598400,
+        "filename_scan": "DR4/scans/HAM-ST/S05639_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 16968,
+            "naxis2": 12246,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/22189/S05639_y.fits",
+        "scan_basename": "S05639_y.fits",
+        "scan_id": "22189"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 16944,
+            "naxis2": 12271
+          }
+        ],
+        "file_size": 415854720,
+        "filename_scan": "DR4/scans/HAM-ST/S05652_y.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 16944,
+            "naxis2": 12271,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/22202/S05652_y.fits",
+        "scan_basename": "S05652_y.fits",
+        "scan_id": "22202"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 22592,
+            "naxis2": 22595
+          }
+        ],
+        "file_size": 1020948480,
+        "filename_scan": "DR4/scans/HAM-HS/HS00360_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 22592,
+            "naxis2": 22595,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/27429/HS00360_x.fits",
+        "scan_basename": "HS00360_x.fits",
+        "scan_id": "27429"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 22592,
+            "naxis2": 22595
+          }
+        ],
+        "file_size": 1020948480,
+        "filename_scan": "DR4/scans/HAM-HS/HS00422_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 22592,
+            "naxis2": 22595,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/27458/HS00422_x.fits",
+        "scan_basename": "HS00422_x.fits",
+        "scan_id": "27458"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 22592,
+            "naxis2": 22595
+          }
+        ],
+        "file_size": 1020948480,
+        "filename_scan": "DR4/scans/HAM-HS/HS01218_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 22592,
+            "naxis2": 22595,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/28118/HS01218_x.fits",
+        "scan_basename": "HS01218_x.fits",
+        "scan_id": "28118"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " ",
+              "A"
+            ],
+            "naxis1": 7296,
+            "naxis2": 5429
+          }
+        ],
+        "file_size": 79240320,
+        "filename_scan": "DR4/scans/Tartu/plaat0947.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 7296,
+            "naxis2": 5429,
+            "usable_celestial_wcs_keys": [
+              " ",
+              "A"
+            ],
+            "wcs_keys": [
+              " ",
+              "A"
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/43261/plaat0947.fits",
+        "scan_basename": "plaat0947.fits",
+        "scan_id": "43261"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 7296,
+            "naxis2": 5429
+          }
+        ],
+        "file_size": 79237440,
+        "filename_scan": "DR4/scans/Tartu/plaat0948.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 7296,
+            "naxis2": 5429,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/43262/plaat0948.fits",
+        "scan_basename": "plaat0948.fits",
+        "scan_id": "43262"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8151,
+            "naxis2": 10801
+          }
+        ],
+        "file_size": 176094720,
+        "filename_scan": "DR4/scans/Bamberg-South/011406_1964_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8151,
+            "naxis2": 10801,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60226/011406_1964_h.fits",
+        "scan_basename": "011406_1964_h.fits",
+        "scan_id": "60226"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8155,
+            "naxis2": 10785
+          }
+        ],
+        "file_size": 175919040,
+        "filename_scan": "DR4/scans/Bamberg-South/011465_1964_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8155,
+            "naxis2": 10785,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60247/011465_1964_h.fits",
+        "scan_basename": "011465_1964_h.fits",
+        "scan_id": "60247"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8155,
+            "naxis2": 10785
+          }
+        ],
+        "file_size": 175919040,
+        "filename_scan": "DR4/scans/Bamberg-South/011583_1965_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8155,
+            "naxis2": 10785,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60320/011583_1965_h.fits",
+        "scan_basename": "011583_1965_h.fits",
+        "scan_id": "60320"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8151,
+            "naxis2": 10801
+          }
+        ],
+        "file_size": 176094720,
+        "filename_scan": "DR4/scans/Bamberg-South/011591_1965_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8151,
+            "naxis2": 10801,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60328/011591_1965_h.fits",
+        "scan_basename": "011591_1965_h.fits",
+        "scan_id": "60328"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8151,
+            "naxis2": 10801
+          }
+        ],
+        "file_size": 176094720,
+        "filename_scan": "DR4/scans/Bamberg-South/011634_1965_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8151,
+            "naxis2": 10801,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60366/011634_1965_h.fits",
+        "scan_basename": "011634_1965_h.fits",
+        "scan_id": "60366"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8151,
+            "naxis2": 10801
+          }
+        ],
+        "file_size": 176094720,
+        "filename_scan": "DR4/scans/Bamberg-South/011666_1965_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8151,
+            "naxis2": 10801,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/60386/011666_1965_h.fits",
+        "scan_basename": "011666_1965_h.fits",
+        "scan_id": "60386"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8328,
+            "naxis2": 8333
+          }
+        ],
+        "file_size": 138810240,
+        "filename_scan": "DR4/scans/HAM-SS/SS00265_x.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8328,
+            "naxis2": 8333,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/73141/SS00265_x.fits",
+        "scan_basename": "SS00265_x.fits",
+        "scan_id": "73141"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 14600,
+            "naxis2": 14500
+          }
+        ],
+        "file_size": 423414720,
+        "filename_scan": "DR4/scans/Bamberg-North/003481_1931_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 14600,
+            "naxis2": 14500,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/105353/003481_1931_h.fits",
+        "scan_basename": "003481_1931_h.fits",
+        "scan_id": "105353"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8092,
+            "naxis2": 10760
+          }
+        ],
+        "file_size": 174156480,
+        "filename_scan": "DR4/scans/Bamberg-North/003789_1931_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8092,
+            "naxis2": 10760,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/105655/003789_1931_h.fits",
+        "scan_basename": "003789_1931_h.fits",
+        "scan_id": "105655"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8113,
+            "naxis2": 10750
+          }
+        ],
+        "file_size": 174444480,
+        "filename_scan": "DR4/scans/Bamberg-North/006804_1933_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8113,
+            "naxis2": 10750,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/108559/006804_1933_h.fits",
+        "scan_basename": "006804_1933_h.fits",
+        "scan_id": "108559"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 14600,
+            "naxis2": 14000
+          }
+        ],
+        "file_size": 408816000,
+        "filename_scan": "DR4/scans/Bamberg-North/009979_1938_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 14600,
+            "naxis2": 14000,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/111636/009979_1938_h.fits",
+        "scan_basename": "009979_1938_h.fits",
+        "scan_id": "111636"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8113,
+            "naxis2": 10750
+          }
+        ],
+        "file_size": 174444480,
+        "filename_scan": "DR4/scans/Bamberg-North/012160_1953_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8113,
+            "naxis2": 10750,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/113642/012160_1953_h.fits",
+        "scan_basename": "012160_1953_h.fits",
+        "scan_id": "113642"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8113,
+            "naxis2": 10750
+          }
+        ],
+        "file_size": 174444480,
+        "filename_scan": "DR4/scans/Bamberg-North/012637_1953_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8113,
+            "naxis2": 10750,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/114080/012637_1953_h.fits",
+        "scan_basename": "012637_1953_h.fits",
+        "scan_id": "114080"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8111,
+            "naxis2": 10780
+          }
+        ],
+        "file_size": 174888000,
+        "filename_scan": "DR4/scans/Bamberg-North/012688_1953_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8111,
+            "naxis2": 10780,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/114131/012688_1953_h.fits",
+        "scan_basename": "012688_1953_h.fits",
+        "scan_id": "114131"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8113,
+            "naxis2": 10750
+          }
+        ],
+        "file_size": 174444480,
+        "filename_scan": "DR4/scans/Bamberg-North/013251_1958_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8113,
+            "naxis2": 10750,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/114694/013251_1958_h.fits",
+        "scan_basename": "013251_1958_h.fits",
+        "scan_id": "114694"
+      },
+      {
+        "celestial_wcs_hdus": [
+          {
+            "hdu_index": 0,
+            "keys": [
+              " "
+            ],
+            "naxis1": 8111,
+            "naxis2": 10780
+          }
+        ],
+        "file_size": 174888000,
+        "filename_scan": "DR4/scans/Bamberg-North/015063_1959_h.fits",
+        "hdu_count": 1,
+        "hdus": [
+          {
+            "hdu_index": 0,
+            "naxis": 2,
+            "naxis1": 8111,
+            "naxis2": 10780,
+            "usable_celestial_wcs_keys": [
+              " "
+            ],
+            "wcs_keys": [
+              " "
+            ],
+            "xtension": "PRIMARY"
+          }
+        ],
+        "path": "work/pair17_pixel_followup_v079/scans/116503/015063_1959_h.fits",
+        "scan_basename": "015063_1959_h.fits",
+        "scan_id": "116503"
+      }
+    ],
+    "scans_verified": 53,
+    "scans_with_header_celestial_wcs": 53,
+    "scans_without_header_celestial_wcs": 0
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_calls": 0,
+    "fits_pixel_arrays_accessed": 0,
+    "injection_measurements": 0,
+    "network_calls": 0,
+    "recurrence_measurements": 0
+  },
+  "population": {
+    "all": 23,
+    "plan_rows": 129,
+    "unique_scans": 53
+  },
+  "schemas": {
+    "v075_static_triage": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "v075_ordinal",
+        "pair_index",
+        "population",
+        "raw_match_row",
+        "raw_separation_arcsec",
+        "corrected_separation_arcsec",
+        "loo_corrected_sep_min_arcsec",
+        "loo_corrected_sep_max_arcsec",
+        "window_arcmin",
+        "common_same_gaia_refs",
+        "triage_class",
+        "a_endpoint",
+        "a_tile_id",
+        "a_candidate_index",
+        "a_gaia_source_id",
+        "a_gaia_epoch_ra_deg",
+        "a_gaia_epoch_dec_deg",
+        "a_gaia_separation_arcsec",
+        "a_gaia_strict_le3",
+        "a_gaia_diagnostic_le5",
+        "a_pm_incomplete_static_neighbor_within15",
+        "a_pm_incomplete_source_id",
+        "a_pm_incomplete_static_catalog_sep_arcsec",
+        "a_pm_incomplete_ref_epoch",
+        "b_endpoint",
+        "b_tile_id",
+        "b_candidate_index",
+        "b_gaia_source_id",
+        "b_gaia_epoch_ra_deg",
+        "b_gaia_epoch_dec_deg",
+        "b_gaia_separation_arcsec",
+        "b_gaia_strict_le3",
+        "b_gaia_diagnostic_le5",
+        "b_pm_incomplete_static_neighbor_within15",
+        "b_pm_incomplete_source_id",
+        "b_pm_incomplete_static_catalog_sep_arcsec",
+        "b_pm_incomplete_ref_epoch",
+        "same_gaia_source_id",
+        "candidate_disposition_changed",
+        "a_x",
+        "b_x",
+        "a_y",
+        "b_y",
+        "a_x_global",
+        "b_x_global",
+        "a_y_global",
+        "b_y_global",
+        "a_ra_deg",
+        "b_ra_deg",
+        "a_dec_deg",
+        "b_dec_deg",
+        "a_snr",
+        "b_snr",
+        "a_signal",
+        "b_signal",
+        "a_polarity",
+        "b_polarity",
+        "a_noise",
+        "b_noise",
+        "a_local_sigma",
+        "b_local_sigma",
+        "a_threshold",
+        "b_threshold",
+        "a_gaia_catalog_ra",
+        "a_gaia_catalog_dec",
+        "a_gaia_catalog_ref_epoch",
+        "a_gaia_catalog_pmra",
+        "a_gaia_catalog_pmdec",
+        "a_gaia_catalog_parallax",
+        "b_gaia_catalog_ra",
+        "b_gaia_catalog_dec",
+        "b_gaia_catalog_ref_epoch",
+        "b_gaia_catalog_pmra",
+        "b_gaia_catalog_pmdec",
+        "b_gaia_catalog_parallax"
+      ]
+    },
+    "v077a_opportunities": {
+      "coordinate_pairs_present": [
+        [
+          "locus_ra_deg",
+          "locus_dec_deg"
+        ]
+      ],
+      "fields": [
+        "raw_match_row",
+        "population",
+        "locus_ra_deg",
+        "locus_dec_deg",
+        "plate_id",
+        "solution_id",
+        "scan_id",
+        "archive_id",
+        "solution_num",
+        "solution_ra_icrs",
+        "solution_dec_icrs",
+        "fov1",
+        "fov2",
+        "filename_scan",
+        "naxis1",
+        "naxis2",
+        "file_size",
+        "fits_checksum",
+        "footprint_provenance",
+        "coverage_class",
+        "edge_distance_arcsec",
+        "independent_physical_plate",
+        "scan_metadata_present",
+        "eligible_independent_comparison",
+        "physical_opportunity_plate_id",
+        "physical_plate_exposure_row_count",
+        "physical_plate_exposure_ids",
+        "archive_names",
+        "institutes",
+        "exposure_start_values",
+        "physical_plate_counting_unit"
+      ]
+    },
+    "v078_candidate_summary": {
+      "coordinate_pairs_present": [
+        [
+          "target_ra_deg",
+          "target_dec_deg"
+        ]
+      ],
+      "fields": [
+        "raw_match_row",
+        "population",
+        "target_ra_deg",
+        "target_dec_deg",
+        "eligible_physical_plate_count",
+        "raw_source_calib_rows_in_15arcsec",
+        "eligible_source_calib_rows_in_15arcsec",
+        "physical_plates_with_any_source_within_15arcsec",
+        "strict_physical_plate_recurrence_count",
+        "diagnostic_physical_plate_recurrence_count",
+        "wide_5_to_15_physical_plate_context_count",
+        "best_eligible_separation_arcsec",
+        "distinct_nonnull_gaiaedr3_ids_on_strict_plates",
+        "gaiaedr3_ids_repeated_on_2plus_strict_plates",
+        "catalog_recurrence_class",
+        "candidate_disposition_changed"
+      ]
+    },
+    "v078_followup_queue": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "raw_match_row",
+        "population",
+        "catalog_recurrence_class",
+        "strict_physical_plate_recurrence_count",
+        "diagnostic_physical_plate_recurrence_count",
+        "eligible_physical_plate_count",
+        "pixel_followup_required_by_frozen_v078_branch"
+      ]
+    },
+    "v079_acquisition_manifest": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "scan_id",
+        "filename_scan",
+        "physical_plate_id",
+        "archive_id",
+        "expected_file_size",
+        "fits_checksum",
+        "candidate_ids",
+        "selection_roles",
+        "candidate_count_using_scan",
+        "filename_scan_raw",
+        "scan_basename",
+        "normalized_repository_relative_scan",
+        "scan_reference_source",
+        "plate_page_url",
+        "plate_page_cached",
+        "plate_page_refetched_v079b",
+        "plate_page_exact_basename_present",
+        "resolved_scan_url",
+        "url_resolution_method",
+        "range_probe_ok",
+        "range_probe_http_status",
+        "range_probe_content_range",
+        "range_probe_content_length",
+        "range_probe_reported_total_bytes",
+        "range_probe_expected_size_match",
+        "range_probe_error",
+        "url_resolution_status",
+        "local_path",
+        "actual_file_size",
+        "sha256",
+        "download_status",
+        "download_attempts"
+      ]
+    },
+    "v079_plan": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "raw_match_row",
+        "population",
+        "v078_catalog_recurrence_class",
+        "selection_role",
+        "physical_plate_id",
+        "archive_family",
+        "archive_id",
+        "archive_names",
+        "institutes",
+        "representative_exposure_start_utc",
+        "seconds_from_science_epoch",
+        "coverage_class",
+        "edge_distance_arcsec",
+        "scan_id",
+        "filename_scan",
+        "expected_file_size",
+        "fits_checksum",
+        "solution_id",
+        "solution_num",
+        "v078_plate_recurrence_class",
+        "v078_nearest_separation_arcsec"
+      ]
+    },
+    "v079_scan_queue": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "scan_id",
+        "filename_scan",
+        "physical_plate_id",
+        "archive_id",
+        "expected_file_size",
+        "fits_checksum",
+        "candidate_ids",
+        "selection_roles",
+        "candidate_count_using_scan"
+      ]
+    },
+    "v079_url_manifest": {
+      "coordinate_pairs_present": [],
+      "fields": [
+        "scan_id",
+        "filename_scan",
+        "physical_plate_id",
+        "archive_id",
+        "expected_file_size",
+        "fits_checksum",
+        "candidate_ids",
+        "selection_roles",
+        "candidate_count_using_scan",
+        "filename_scan_raw",
+        "scan_basename",
+        "normalized_repository_relative_scan",
+        "scan_reference_source",
+        "plate_page_url",
+        "plate_page_cached",
+        "plate_page_refetched_v079b",
+        "plate_page_exact_basename_present",
+        "resolved_scan_url",
+        "url_resolution_method",
+        "range_probe_ok",
+        "range_probe_http_status",
+        "range_probe_content_range",
+        "range_probe_content_length",
+        "range_probe_reported_total_bytes",
+        "range_probe_expected_size_match",
+        "range_probe_error",
+        "url_resolution_status"
+      ]
+    }
+  },
+  "science_execution": false,
+  "selection_role_counts": {
+    "CONTEXTUAL_3_TO_15_ARCSEC_CONTROL": 23,
+    "POSITIVE_STRICT_RECURRENCE_CONTROL": 14,
+    "SENSITIVITY_NEGATIVE_BAMBERG_AFTER": 23,
+    "SENSITIVITY_NEGATIVE_BAMBERG_BEFORE": 23,
+    "SENSITIVITY_NEGATIVE_HAMBURG_AFTER": 23,
+    "SENSITIVITY_NEGATIVE_HAMBURG_BEFORE": 23
+  },
+  "status": "COMPLETE"
+}
