@@ -1,0 +1,54 @@
+{
+  "analysis_kind": "pair17_registered_raw_blink_diagnostic_v089",
+  "candidate_dispositions_changed": false,
+  "candidates": [
+    {
+      "assets": {
+        "close_raw": "293118_close_raw.bmp",
+        "close_registered": "293118_close_registered.bmp",
+        "science_raw": "293118_science_raw.bmp",
+        "science_registered": "293118_science_registered.bmp"
+      },
+      "center_dec_deg": 8.489569235768318,
+      "center_ra_deg": 84.58554969416201,
+      "close_center_pixel_x": 17771.580022601815,
+      "close_center_pixel_y": 15315.627354383465,
+      "close_native_scale_arcsec_per_px": 1.4506963759209066,
+      "close_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10000\\LA08167_x.fits",
+      "close_path_sha256": "4e97f6c1571510900fa9aacf46eeaea778230c605fd16f4d3239aada59df6259",
+      "display_scale_arcsec_per_px": 1.4529500184034103,
+      "raw_match_row": "293118",
+      "science_center_pixel_x": 9935.000000000004,
+      "science_center_pixel_y": 2009.9999999999895,
+      "science_native_scale_arcsec_per_px": 1.4529500184034103,
+      "science_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "science_path_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f"
+    },
+    {
+      "assets": {
+        "close_raw": "293841_close_raw.bmp",
+        "close_registered": "293841_close_registered.bmp",
+        "science_raw": "293841_science_raw.bmp",
+        "science_registered": "293841_science_registered.bmp"
+      },
+      "center_dec_deg": 6.892670254756963,
+      "center_ra_deg": 85.89751906234683,
+      "close_center_pixel_x": 21006.77267645903,
+      "close_center_pixel_y": 11356.563772504041,
+      "close_native_scale_arcsec_per_px": 1.4506963759209066,
+      "close_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10000\\LA08167_x.fits",
+      "close_path_sha256": "4e97f6c1571510900fa9aacf46eeaea778230c605fd16f4d3239aada59df6259",
+      "display_scale_arcsec_per_px": 1.4529500184034103,
+      "raw_match_row": "293841",
+      "science_center_pixel_x": 13904.999999999987,
+      "science_center_pixel_y": 5214.000000000015,
+      "science_native_scale_arcsec_per_px": 1.4529500184034103,
+      "science_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "science_path_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f"
+    }
+  ],
+  "contract_sha256": "71ec560a0799440e9672e498e86c4a0e18c2fd97773d55a46bb9c368880a6492",
+  "display_only": true,
+  "nearest_neighbour_registration": true,
+  "status": "COMPLETE"
+}
