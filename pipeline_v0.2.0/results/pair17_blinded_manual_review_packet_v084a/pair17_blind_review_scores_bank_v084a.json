@@ -1,0 +1,26 @@
+{
+  "analysis_kind": "pair17_blind_manual_scores_bank_v084a",
+  "blind_scores_banked_before_unblinding": true,
+  "canonical_csv_sha256": "7cbcf023e430561a90810076d0850f5637076f6314233cd1f65f2c8cb2e58b16",
+  "extraction_report_sha256": "4fab7bd3a9b39dd1f4035866654665c735666a2d641ff290e351904d3f4b857c",
+  "feature_counts": {
+    "ABSENT": 8,
+    "DEFINITE": 15,
+    "WEAK_OR_AMBIGUOUS": 9
+  },
+  "local_context_counts": {
+    "AMBIGUOUS": 9,
+    "CLEAN": 14,
+    "CROWDED": 4,
+    "EDGE_OR_CLIPPED": 5
+  },
+  "morphology_counts": {
+    "AMBIGUOUS": 12,
+    "EXTENDED_OR_BLENDED": 2,
+    "STELLAR_COMPACT": 18
+  },
+  "rows": 32,
+  "status": "COMPLETE",
+  "submitted_workbook_sha256": "c46b4c6589e68ae051b09cd9a8234d11a6565ff76a7c5a9f8b15993970980f1a",
+  "unblinding_performed_at_bank_time": false
+}

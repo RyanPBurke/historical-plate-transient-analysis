@@ -1,0 +1,35 @@
+{
+  "all_scores_complete": true,
+  "analysis_kind": "pair17_blind_score_extraction_v084a_r1",
+  "blind_mapping_read": false,
+  "canonical_csv_sha256": "7cbcf023e430561a90810076d0850f5637076f6314233cd1f65f2c8cb2e58b16",
+  "confidence_counts": {
+    "2": 2,
+    "3": 12,
+    "4": 9,
+    "5": 9
+  },
+  "feature_counts": {
+    "ABSENT": 8,
+    "DEFINITE": 15,
+    "WEAK_OR_AMBIGUOUS": 9
+  },
+  "local_context_counts": {
+    "AMBIGUOUS": 9,
+    "CLEAN": 14,
+    "CROWDED": 4,
+    "EDGE_OR_CLIPPED": 5
+  },
+  "manual_scores_modified": false,
+  "morphology_counts": {
+    "AMBIGUOUS": 12,
+    "EXTENDED_OR_BLENDED": 2,
+    "STELLAR_COMPACT": 18
+  },
+  "normalized_confidence_cells": 32,
+  "operational_repair": "canonicalize integer-equivalent spreadsheet confidence values (e.g. 5.0 -> 5)",
+  "rows": 32,
+  "source_workbook_sha256": "c46b4c6589e68ae051b09cd9a8234d11a6565ff76a7c5a9f8b15993970980f1a",
+  "status": "COMPLETE",
+  "unblinding_performed": false
+}
