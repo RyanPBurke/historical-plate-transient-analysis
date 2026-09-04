@@ -1,0 +1,604 @@
+{
+  "analysis_kind": "pair17_dual_stellar_original_plate_review_v090",
+  "candidate_dispositions_changed": false,
+  "candidates": [
+    "293470",
+    "294052",
+    "294130",
+    "294179"
+  ],
+  "contract_sha256": "099b06b0c03010d255c45a12337f6275859b49ddda562ca94e99d29b435e2fc0",
+  "display_only": true,
+  "panels": 21,
+  "records": [
+    {
+      "assets": {
+        "overview": "293470_01_SCIENCE_HAMBURG_overview.bmp",
+        "region": "293470_01_SCIENCE_HAMBURG_region_marked.bmp",
+        "zoom_marked": "293470_01_SCIENCE_HAMBURG_zoom_marked.bmp",
+        "zoom_unmarked": "293470_01_SCIENCE_HAMBURG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B006",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "fits_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f",
+      "fits_shape": [
+        17168,
+        12410
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "SCIENCE_HAMBURG",
+      "physical_plate_id": "7685",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 12501.999999999973,
+      "target_pixel_y": 4617.000000000002
+    },
+    {
+      "assets": {
+        "overview": "293470_02_SCIENCE_BAMBERG_overview.bmp",
+        "region": "293470_02_SCIENCE_BAMBERG_region_marked.bmp",
+        "zoom_marked": "293470_02_SCIENCE_BAMBERG_zoom_marked.bmp",
+        "zoom_unmarked": "293470_02_SCIENCE_BAMBERG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B032",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\012673_1953_h.fits",
+      "fits_sha256": "871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "4",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "SCIENCE_BAMBERG",
+      "physical_plate_id": "89580",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 1124.9960944468914,
+      "target_pixel_y": 3051.810910977434
+    },
+    {
+      "assets": {
+        "overview": "293470_03_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "293470_03_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "293470_03_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "293470_03_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B015",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\113642\\012160_1953_h.fits",
+      "fits_sha256": "d900aec1efd1d4fa8efbcb24ceb9ede15fe369067466bbfc1a73fbf9481ae2e4",
+      "fits_shape": [
+        8113,
+        10750
+      ],
+      "gap_hours": "6527.974722222222",
+      "manual_confidence": "3",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89097",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "113642",
+      "target_pixel_x": 5995.76171369703,
+      "target_pixel_y": 7018.138948779659
+    },
+    {
+      "assets": {
+        "overview": "293470_04_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "293470_04_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "293470_04_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "293470_04_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B019",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10815\\LA08773_x.fits",
+      "fits_sha256": "aab2cf028f4c1f0accb6925ae8e63ff960c838eec6ac209bad5fa8c2cb9c3d06",
+      "fits_shape": [
+        12512,
+        17183
+      ],
+      "gap_hours": "19726.839722222223",
+      "manual_confidence": "3",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "possible misaligned crosshair; partial coverage",
+      "observatory": "HAMBURG",
+      "panel_role": "HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "8285",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "10815",
+      "target_pixel_x": 4885.032788683591,
+      "target_pixel_y": 4573.4448931332045
+    },
+    {
+      "assets": {
+        "overview": "293470_05_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "293470_05_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "293470_05_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "293470_05_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B005",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\9698\\LA08001_y.fits",
+      "fits_sha256": "544746a22112090a45bb9495326b39c9679f2463771b741c5154777aa956cbc5",
+      "fits_shape": [
+        17168,
+        12410
+      ],
+      "gap_hours": "5664.6825",
+      "manual_confidence": "4",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "HAMBURG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "7526",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "9698",
+      "target_pixel_x": 12455.461536112332,
+      "target_pixel_y": 4352.264113810854
+    },
+    {
+      "assets": {
+        "overview": "293470_06_V082_CLOSE_TIME_overview.bmp",
+        "region": "293470_06_V082_CLOSE_TIME_region_marked.bmp",
+        "zoom_marked": "293470_06_V082_CLOSE_TIME_zoom_marked.bmp",
+        "zoom_unmarked": "293470_06_V082_CLOSE_TIME_zoom_unmarked.bmp"
+      },
+      "blind_code": "B014",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10000\\LA08167_x.fits",
+      "fits_sha256": "4e97f6c1571510900fa9aacf46eeaea778230c605fd16f4d3239aada59df6259",
+      "fits_shape": [
+        28616,
+        22930
+      ],
+      "gap_hours": "1.0305555555555554",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "V082_CLOSE_TIME",
+      "physical_plate_id": "7687",
+      "raw_match_row": "293470",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "10000",
+      "target_pixel_x": 20400.91032004191,
+      "target_pixel_y": 12761.493231089114
+    },
+    {
+      "assets": {
+        "overview": "294052_07_SCIENCE_HAMBURG_overview.bmp",
+        "region": "294052_07_SCIENCE_HAMBURG_region_marked.bmp",
+        "zoom_marked": "294052_07_SCIENCE_HAMBURG_zoom_marked.bmp",
+        "zoom_unmarked": "294052_07_SCIENCE_HAMBURG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B001",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "fits_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f",
+      "fits_shape": [
+        17168,
+        12410
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "SCIENCE_HAMBURG",
+      "physical_plate_id": "7685",
+      "raw_match_row": "294052",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 3509.000000000012,
+      "target_pixel_y": 679.0000000000008
+    },
+    {
+      "assets": {
+        "overview": "294052_08_SCIENCE_BAMBERG_overview.bmp",
+        "region": "294052_08_SCIENCE_BAMBERG_region_marked.bmp",
+        "zoom_marked": "294052_08_SCIENCE_BAMBERG_zoom_marked.bmp",
+        "zoom_unmarked": "294052_08_SCIENCE_BAMBERG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B010",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\012673_1953_h.fits",
+      "fits_sha256": "871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "SCIENCE_BAMBERG",
+      "physical_plate_id": "89580",
+      "raw_match_row": "294052",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 2404.981083137416,
+      "target_pixel_y": 6029.104672059397
+    },
+    {
+      "assets": {
+        "overview": "294052_09_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294052_09_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294052_09_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294052_09_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B003",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\114131\\012688_1953_h.fits",
+      "fits_sha256": "47bf193e23f232242f21236d81e90c398ee40cdf4477e50495914fa0f0311063",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "45.97555555555556",
+      "manual_confidence": "5",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89595",
+      "raw_match_row": "294052",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "114131",
+      "target_pixel_x": 2065.431896381064,
+      "target_pixel_y": 639.321680173457
+    },
+    {
+      "assets": {
+        "overview": "294052_10_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294052_10_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294052_10_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294052_10_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B022",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\113642\\012160_1953_h.fits",
+      "fits_sha256": "d900aec1efd1d4fa8efbcb24ceb9ede15fe369067466bbfc1a73fbf9481ae2e4",
+      "fits_shape": [
+        8113,
+        10750
+      ],
+      "gap_hours": "6527.974722222222",
+      "manual_confidence": "2",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "EXTENDED_OR_BLENDED",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89097",
+      "raw_match_row": "294052",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "113642",
+      "target_pixel_x": 6377.250236076501,
+      "target_pixel_y": 7893.579531810726
+    },
+    {
+      "assets": {
+        "overview": "294052_11_V082_CLOSE_TIME_overview.bmp",
+        "region": "294052_11_V082_CLOSE_TIME_region_marked.bmp",
+        "zoom_marked": "294052_11_V082_CLOSE_TIME_zoom_marked.bmp",
+        "zoom_unmarked": "294052_11_V082_CLOSE_TIME_zoom_unmarked.bmp"
+      },
+      "blind_code": "B017",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10000\\LA08167_x.fits",
+      "fits_sha256": "4e97f6c1571510900fa9aacf46eeaea778230c605fd16f4d3239aada59df6259",
+      "fits_shape": [
+        28616,
+        22930
+      ],
+      "gap_hours": "1.0305555555555554",
+      "manual_confidence": "4",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "V082_CLOSE_TIME",
+      "physical_plate_id": "7687",
+      "raw_match_row": "294052",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "10000",
+      "target_pixel_x": 16394.155572210246,
+      "target_pixel_y": 21766.155188522727
+    },
+    {
+      "assets": {
+        "overview": "294130_12_SCIENCE_HAMBURG_overview.bmp",
+        "region": "294130_12_SCIENCE_HAMBURG_region_marked.bmp",
+        "zoom_marked": "294130_12_SCIENCE_HAMBURG_zoom_marked.bmp",
+        "zoom_unmarked": "294130_12_SCIENCE_HAMBURG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B025",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "fits_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f",
+      "fits_shape": [
+        17168,
+        12410
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "SCIENCE_HAMBURG",
+      "physical_plate_id": "7685",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 1761.99999999993,
+      "target_pixel_y": 962.0000000000169
+    },
+    {
+      "assets": {
+        "overview": "294130_13_SCIENCE_BAMBERG_overview.bmp",
+        "region": "294130_13_SCIENCE_BAMBERG_region_marked.bmp",
+        "zoom_marked": "294130_13_SCIENCE_BAMBERG_zoom_marked.bmp",
+        "zoom_unmarked": "294130_13_SCIENCE_BAMBERG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B023",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\012673_1953_h.fits",
+      "fits_sha256": "871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "3",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "SCIENCE_BAMBERG",
+      "physical_plate_id": "89580",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 2307.9783156732024,
+      "target_pixel_y": 6602.283924769762
+    },
+    {
+      "assets": {
+        "overview": "294130_14_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294130_14_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294130_14_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294130_14_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B020",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\114131\\012688_1953_h.fits",
+      "fits_sha256": "47bf193e23f232242f21236d81e90c398ee40cdf4477e50495914fa0f0311063",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "45.97555555555556",
+      "manual_confidence": "3",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "EXTENDED_OR_BLENDED",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89595",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "114131",
+      "target_pixel_x": 2043.411420695409,
+      "target_pixel_y": 822.6663291152781
+    },
+    {
+      "assets": {
+        "overview": "294130_15_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294130_15_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294130_15_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294130_15_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B007",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\113642\\012160_1953_h.fits",
+      "fits_sha256": "d900aec1efd1d4fa8efbcb24ceb9ede15fe369067466bbfc1a73fbf9481ae2e4",
+      "fits_shape": [
+        8113,
+        10750
+      ],
+      "gap_hours": "6527.974722222222",
+      "manual_confidence": "4",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89097",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "113642",
+      "target_pixel_x": 6350.28673338778,
+      "target_pixel_y": 8062.905322248253
+    },
+    {
+      "assets": {
+        "overview": "294130_16_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294130_16_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294130_16_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294130_16_HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B027",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\10030\\LA08184_x.fits",
+      "fits_sha256": "80e652cdbafdd95b374e2a6fff28b0b189d9a8628667690f974a1fdcea9880a9",
+      "fits_shape": [
+        12456,
+        17146
+      ],
+      "gap_hours": "1268.7094444444444",
+      "manual_confidence": "3",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "Object is just below crosshair (possible edge overlap), could be a crosshair misalignment, could be a false positive.",
+      "observatory": "HAMBURG",
+      "panel_role": "HAMBURG_FOLLOWING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "7703",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "10030",
+      "target_pixel_x": 886.6206156582018,
+      "target_pixel_y": 15360.90604190688
+    },
+    {
+      "assets": {
+        "overview": "294130_17_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294130_17_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294130_17_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294130_17_HAMBURG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B012",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\9959\\LA08142_x.fits",
+      "fits_sha256": "8a43ad5b877e581545c9779d9ef955b6a052abaaab6ac3d53130f23f9d003ca6",
+      "fits_shape": [
+        12456,
+        17183
+      ],
+      "gap_hours": "526.4752777777778",
+      "manual_confidence": "2",
+      "manual_feature": "WEAK_OR_AMBIGUOUS",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "HAMBURG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "7665",
+      "raw_match_row": "294130",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "9959",
+      "target_pixel_x": 603.7795314551229,
+      "target_pixel_y": 15344.795516298305
+    },
+    {
+      "assets": {
+        "overview": "294179_18_SCIENCE_HAMBURG_overview.bmp",
+        "region": "294179_18_SCIENCE_HAMBURG_region_marked.bmp",
+        "zoom_marked": "294179_18_SCIENCE_HAMBURG_zoom_marked.bmp",
+        "zoom_unmarked": "294179_18_SCIENCE_HAMBURG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B028",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\LA08164_y.fits",
+      "fits_sha256": "e3340ba35643cf9342c2d1f5588a7e888dc5a1b157637f7d6f4e69e71ab6390f",
+      "fits_shape": [
+        17168,
+        12410
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "HAMBURG",
+      "panel_role": "SCIENCE_HAMBURG",
+      "physical_plate_id": "7685",
+      "raw_match_row": "294179",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 1235.9999999998945,
+      "target_pixel_y": 553.9999999999644
+    },
+    {
+      "assets": {
+        "overview": "294179_19_SCIENCE_BAMBERG_overview.bmp",
+        "region": "294179_19_SCIENCE_BAMBERG_region_marked.bmp",
+        "zoom_marked": "294179_19_SCIENCE_BAMBERG_zoom_marked.bmp",
+        "zoom_unmarked": "294179_19_SCIENCE_BAMBERG_zoom_unmarked.bmp"
+      },
+      "blind_code": "B013",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_morphology_v076\\scans\\012673_1953_h.fits",
+      "fits_sha256": "871622bc7113e5d0fa8936c9a4a10ce0b85861176b3c98bacb8fcfa70c641b62",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "0",
+      "manual_confidence": "5",
+      "manual_feature": "DEFINITE",
+      "manual_morphology": "STELLAR_COMPACT",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "SCIENCE_BAMBERG",
+      "physical_plate_id": "89580",
+      "raw_match_row": "294179",
+      "relation_to_common_overlap": "SCIENCE",
+      "scan_id": "",
+      "target_pixel_x": 2440.9800273085775,
+      "target_pixel_y": 6775.316707769277
+    },
+    {
+      "assets": {
+        "overview": "294179_20_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294179_20_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294179_20_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294179_20_BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B026",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\114131\\012688_1953_h.fits",
+      "fits_sha256": "47bf193e23f232242f21236d81e90c398ee40cdf4477e50495914fa0f0311063",
+      "fits_shape": [
+        8111,
+        10780
+      ],
+      "gap_hours": "45.97555555555556",
+      "manual_confidence": "4",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_FOLLOWING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89595",
+      "raw_match_row": "294179",
+      "relation_to_common_overlap": "FOLLOWING",
+      "scan_id": "114131",
+      "target_pixel_x": 2086.1803584264912,
+      "target_pixel_y": 877.9585994884264
+    },
+    {
+      "assets": {
+        "overview": "294179_21_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_overview.bmp",
+        "region": "294179_21_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_region_marked.bmp",
+        "zoom_marked": "294179_21_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_marked.bmp",
+        "zoom_unmarked": "294179_21_BAMBERG_PRECEDING_QUALIFIED_NEGATIVE_zoom_unmarked.bmp"
+      },
+      "blind_code": "B018",
+      "fits_path": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\pair17_pixel_followup_v079\\scans\\113642\\012160_1953_h.fits",
+      "fits_sha256": "d900aec1efd1d4fa8efbcb24ceb9ede15fe369067466bbfc1a73fbf9481ae2e4",
+      "fits_shape": [
+        8113,
+        10750
+      ],
+      "gap_hours": "6527.974722222222",
+      "manual_confidence": "4",
+      "manual_feature": "ABSENT",
+      "manual_morphology": "AMBIGUOUS",
+      "manual_notes": "",
+      "observatory": "BAMBERG",
+      "panel_role": "BAMBERG_PRECEDING_QUALIFIED_NEGATIVE",
+      "physical_plate_id": "89097",
+      "raw_match_row": "294179",
+      "relation_to_common_overlap": "PRECEDING",
+      "scan_id": "113642",
+      "target_pixel_x": 6390.1018175382405,
+      "target_pixel_y": 8115.0885043420785
+    }
+  ],
+  "status": "COMPLETE"
+}
