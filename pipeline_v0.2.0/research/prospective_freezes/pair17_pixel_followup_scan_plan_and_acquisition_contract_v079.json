@@ -1,0 +1,89 @@
+{
+  "contract_id": "pair17_pixel_followup_scan_plan_and_acquisition_v079",
+  "status": "PROSPECTIVE_FREEZE",
+  "purpose": "For the prospectively frozen v078 pixel-followup population, select a compact, balanced set of independent APPLAUSE comparison plates before any comparison pixels are inspected, resolve official APPLAUSE DR4 scan URLs, and acquire selected scans with resumable transport and SHA256 provenance.",
+  "population": {
+    "source": "v078 frozen pixel-followup queue",
+    "all": 23,
+    "primary": 13,
+    "diagnostic": 10,
+    "no_post_v078_candidate_subsetting": true,
+    "gaia_subsetting": false,
+    "morphology_subsetting": false
+  },
+  "science_pair": {
+    "canonical": "APPLAUSE:132654 | APPLAUSE:14120",
+    "physical_plate_ids": [7685, 89580],
+    "overlap_midpoint_utc": "1953-12-02T20:48:58.500000+00:00",
+    "comparison_plate_timing_note": "Comparison exposure-start time is used only to rank otherwise eligible comparison opportunities by temporal proximity; it is not a new physical-overlap or disposition criterion."
+  },
+  "frozen_inputs": {
+    "v075_static_triage_csv_sha256": "cc571a4da103dc3900907fe9568567dd540f8f85217b7e7e73ca4442239f2097",
+    "v077_contract_sha256": "11c5866a24d8e05a8436c443d16af24dcc244982d664e037e5dac75f93f8143f",
+    "v077a_opportunity_csv_sha256": "f8bd8a1bc322d0a9dc0239e29f676975f8ff692e17e040e2786cc196caf24b1d",
+    "v077a_summary_sha256": "2e9872fc777d22e9f14bac51e4460abdba7d38352400fab095d36de0df2cd4b2",
+    "v077a_bank_manifest_sha256": "86545f2e4fa228c9472665bfe59ba7625314c548c0117bc00442265d8a1e97ef",
+    "v078_contract_sha256": "1828bb4369bc1ea40d75561919b7d57bba672e44374ebdbc7689cbdecc1d5397",
+    "v078a_runner_sha256": "0e3166724388d145f0c81ce8ba9f2100e4c287cabde127cd42205bbd1216115d",
+    "v078_summary_json_sha256": "2e8d8cac0bbf91bf950941992e073059740a542cd537999bbbc46d9793769601",
+    "v078_candidate_summary_sha256": "4294aa5cb8e7c4138e0a5683945c4d8eaad56aed5ca133c4f7d2ddb71d155ee5",
+    "v078_plate_nearest_sha256": "15a87820c5e48132be81eae579ddc8b72ef80e2c65cf91e3803cc275f526c7e1",
+    "v078_query_manifest_sha256": "6f121dc567c9cdfdfd344a6134495afa08f7ca20279858ff985b1ab0dc65fe04",
+    "v078_raw_rows_sha256": "68bdfe735e1cc0c1a137c412339c5861783623123ec57b49eb62fce8645d7c2f",
+    "v078_pixel_followup_queue_sha256": "3be9c4049f40e9d9af43decfa9036ce186c0d6b22250ea274908e5299e461879",
+    "v078a_bank_manifest_sha256": "aa23e0295bba6d7a6fa05fd24a7afd402df420e9b078770b289a0e0200c1d47f"
+  },
+  "comparison_selection": {
+    "physical_plate_is_independence_unit": true,
+    "scan_is_transport_unit": true,
+    "science_pair_plate_ids_excluded": [7685, 89580],
+    "catalogue_positive_control": "If a survivor has exactly one v078 STRICT_LE3 recurrence physical plate, include it as a positive pixel control.",
+    "catalogue_context_control": "If one or more v078 DIAGNOSTIC_GT3_LE5 or WIDE_GT5_LE15 physical plates exist, include the single nearest-to-target contextual plate, preferring DIAGNOSTIC over WIDE and then smaller separation.",
+    "sensitivity_negative_controls": {
+      "target_count_per_candidate": 4,
+      "eligible_definition": "A v077a independent physical-plate opportunity with no v078 source_calib row within 15 arcsec on that physical plate.",
+      "archive_families": {
+        "HAMBURG": "archive_names/institutes contains 'hamburg'",
+        "BAMBERG": "archive_names/institutes contains 'bamberg'",
+        "OTHER": "all remaining archives"
+      },
+      "selection_rule": "Select nearest preceding and nearest following no-source physical plate within HAMBURG and BAMBERG families where available; prefer COVERED_INTERIOR, then smaller absolute time separation, then lower physical plate id. If a family lacks one side, fill to two from the nearest remaining no-source plates in that family. Then fill the overall target of four from the nearest remaining no-source opportunities regardless of archive family. Never substitute a 3-15 arcsec contextual source plate as a sensitivity-negative control.",
+      "timestamp_source": "Parseable v077a exposure_start_values; for multiple starts use the start with minimum absolute separation from the science epoch.",
+      "unparseable_time": "Retained as eligible but ranked after parseable timestamps; coverage class then physical plate id provides deterministic fallback.",
+      "shortfall_policy": "Retain all available no-source controls and flag shortfall; do not broaden recurrence radii or change disposition."
+    }
+  },
+  "scan_url_resolution": {
+    "source": "official APPLAUSE DR4 plate object page",
+    "plate_page_template": "https://www.plate-archive.org/objects/dr.4/plates/{archive_id}_{plate_id}/",
+    "required_match": "exact filename_scan link under /files/DR4/scans/ on the official plate page",
+    "unresolved_url_policy": "operational hold; no candidate disposition"
+  },
+  "acquisition": {
+    "download_workers": 3,
+    "range_resume": true,
+    "expected_size_from_v077a_scan_metadata": true,
+    "sha256_every_completed_scan": true,
+    "deduplicate_by_scan_id_and_filename": true,
+    "disk_free_guard": "require free bytes >= outstanding expected bytes * 1.25 + 2 GiB before transfer",
+    "downloaded_bytes_are_not_science_measurements": true
+  },
+  "guards": {
+    "comparison_pixels_inspected": 0,
+    "detector_rerun": false,
+    "registration_rerun": false,
+    "injection_measurements": 0,
+    "recurrence_measurements_beyond_frozen_v078_catalogue": 0,
+    "manual_review": false,
+    "candidate_disposition_changes": false,
+    "threshold_retuning": false
+  },
+  "required_outputs": [
+    "candidate_comparison_plan",
+    "unique_scan_acquisition_queue",
+    "scan_url_resolution_manifest",
+    "scan_acquisition_manifest",
+    "stage_summary_json"
+  ],
+  "next_stage": "Run target-independent local registration and frozen sensitivity/injection analysis on acquired comparison scans for all 23 survivors."
+}
