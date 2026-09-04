@@ -1,0 +1,91 @@
+{
+  "blinding": {
+    "blind_assets_are_copies_with_only_blind_code_filenames": true,
+    "blind_codes": "B001..B032 assigned after deterministic sort",
+    "blinding_salt": "pair17-v084-standardized-blind-manual-review-v001",
+    "do_not_emit_unblinding_key_in_v084_outputs": true,
+    "hide_from_blind_html": [
+      "candidate identity",
+      "registered coordinates",
+      "panel role",
+      "observatory",
+      "physical plate id",
+      "scan id",
+      "chronology",
+      "recurrence class",
+      "sensitivity state"
+    ],
+    "order_key": "SHA256(blinding_salt | raw_match_row | panel_role | physical_plate_id | scan_id | filename_scan)",
+    "unblinding": "regenerate deterministically in v085 after the completed blind score sheet is banked",
+    "unit": "individual frozen v083b panel"
+  },
+  "contract_id": "pair17_blinded_manual_review_packet_v084",
+  "frozen_inputs": {
+    "v083_scientific_contract_sha256": "ac6ed350c0f55e1a4d3010ecadcf20c963baa185718d860fa6a0f38318ed669f",
+    "v083b_bank_manifest_sha256": "6f0f749852db04fc5d1a9b8bde773a2f0dc273ee59d8e0832b72e3743e9b658b",
+    "v083b_runner_sha256": "ad0a02aac10c44c6188245969db6b1917fb56e311a5464140d8695203fb4bc7a"
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "network_calls": 0,
+    "new_fits_pixel_reads": 0,
+    "new_science_measurements": 0,
+    "threshold_retuning": false,
+    "unblinding_key_written": false
+  },
+  "integrity_audit": {
+    "expected_context_width_arcsec": 240.0,
+    "expected_side_formula": "2*ceil((angular_width/pixel_scale)/2)+1",
+    "expected_zoom_width_arcsec": 60.0,
+    "flag_if_actual_side_smaller_than_expected": "EDGE_CLIPPED_RENDER",
+    "integrity_flags_are_not_science_dispositions": true,
+    "load_banked_raw_npy_cutouts": true,
+    "read_banked_png_dimensions_only": true
+  },
+  "outputs": [
+    "blind_review.html",
+    "blind_review_sheet.csv",
+    "panel_integrity_audit_v084.csv",
+    "blind_assets/B001..B032 context/zoom/highpass PNG copies",
+    "stage report JSON"
+  ],
+  "population": {
+    "candidate_ids": [
+      293118,
+      293470,
+      293841,
+      294052,
+      294130,
+      294179
+    ],
+    "expected_candidates": 6,
+    "expected_panels": 32,
+    "no_panel_subsetting": true,
+    "source": "banked v083b panel manifest"
+  },
+  "purpose": "Before candidate-specific manual interpretation, audit the already-banked v083b dossier geometry and create a blinded, standardized panel-review packet for all 32 frozen panels. The blinded packet hides candidate identity, science/comparison role, observatory, chronology and recurrence state during first-pass morphology review.",
+  "review_rubric": {
+    "confidence": "integer 1..5",
+    "feature_at_crosshair": [
+      "ABSENT",
+      "WEAK_OR_AMBIGUOUS",
+      "DEFINITE"
+    ],
+    "local_context": [
+      "CLEAN",
+      "CROWDED",
+      "DEFECT_AFFECTED",
+      "EDGE_OR_CLIPPED",
+      "AMBIGUOUS"
+    ],
+    "morphology": [
+      "STELLAR_COMPACT",
+      "NONSTELLAR_ARTIFACT",
+      "EXTENDED_OR_BLENDED",
+      "AMBIGUOUS"
+    ],
+    "notes": "free text",
+    "review_all_panels_before_unblinding": true
+  },
+  "status": "PROSPECTIVE_FREEZE"
+}
