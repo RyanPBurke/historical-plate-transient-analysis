@@ -1,0 +1,710 @@
+{
+  "analysis_kind": "applause_dr4_plate_site_provenance_refinement_v093d",
+  "comparison_plate_reuse_top20": [
+    [
+      "4049",
+      21
+    ],
+    [
+      "4427",
+      10
+    ],
+    [
+      "4610",
+      10
+    ],
+    [
+      "85814",
+      9
+    ],
+    [
+      "85824",
+      8
+    ],
+    [
+      "4626",
+      7
+    ],
+    [
+      "6604",
+      7
+    ],
+    [
+      "85825",
+      6
+    ],
+    [
+      "85813",
+      6
+    ],
+    [
+      "90253",
+      6
+    ],
+    [
+      "90498",
+      6
+    ],
+    [
+      "90887",
+      6
+    ],
+    [
+      "4627",
+      5
+    ],
+    [
+      "6603",
+      5
+    ],
+    [
+      "7017",
+      5
+    ],
+    [
+      "90514",
+      5
+    ],
+    [
+      "90891",
+      5
+    ],
+    [
+      "80838",
+      4
+    ],
+    [
+      "82722",
+      4
+    ],
+    [
+      "84320",
+      4
+    ]
+  ],
+  "contract_sha256": "fb2159d6b8d4415c3c8ffde068cd3b75763da79427b07646c300aac356f07766",
+  "ge100km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "ge50km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "pixel_downloads": 0,
+    "source_catalog_queries": 0,
+    "v093_outputs_modified": false
+  },
+  "invalid_v093c_zero_result_banked": false,
+  "metadata_or_guard_holds": {},
+  "one_minute_structure_top20": [
+    [
+      "science_plates=(4032, 84301);comparison_plate=84320;endpoint=A",
+      2
+    ],
+    [
+      "science_plates=(4032, 84321);comparison_plate=84320;endpoint=A",
+      2
+    ],
+    [
+      "science_plates=(3076, 79749);comparison_plate=79750;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3076, 79750);comparison_plate=79749;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3196, 80260);comparison_plate=80259;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3304, 80689);comparison_plate=80688;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3305, 80696);comparison_plate=80692;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3305, 80697);comparison_plate=80696;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3306, 80697);comparison_plate=80696;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3307, 80693);comparison_plate=80694;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3307, 80694);comparison_plate=80693;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3356, 80807);comparison_plate=80808;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3356, 80808);comparison_plate=80807;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3360, 80815);comparison_plate=80816;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3360, 80816);comparison_plate=80815;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3363, 80837);comparison_plate=80838;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3363, 80858);comparison_plate=80838;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3363, 80838);comparison_plate=80837;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3363, 80859);comparison_plate=80837;endpoint=A",
+      1
+    ],
+    [
+      "science_plates=(3364, 80863);comparison_plate=80842;endpoint=A",
+      1
+    ]
+  ],
+  "operational_repair": "Exact cached APPLAUSE TAP response parsed as VOTable rather than CSV.",
+  "parent_report_sha256": "3956ccc1b7224177f9266c1be3475afed0a867e0b80bac79e232e1e48266c39a",
+  "parent_science_exposure_pair_rows": 1093,
+  "parent_unique_physical_science_plate_pairs": 947,
+  "plate_cache_sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402",
+  "plate_metadata_rows": 94090,
+  "repair_record_sha256": "aa31f3e6bf64ffdf109a434479dd27976ec5c753060a6130851fa193fba0173d",
+  "scientific_contract_changed_by_v093d": false,
+  "site_separation_band_counts": {
+    "GE100KM": 1093
+  },
+  "status": "COMPLETE",
+  "strong_ge10km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "strong_independent_exposure_pair_rows_with_same_site_primary_control": 643,
+  "strong_independent_unique_physical_science_plate_pairs_with_same_site_primary_control": 535,
+  "top_25_strong_opportunities": [
+    {
+      "canonical_pair": "APPLAUSE:122456 | APPLAUSE:4008",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "79749",
+      "physical_overlap_seconds": "3484.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "79750",
+        "3076"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:127883 | APPLAUSE:6420",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "85156",
+      "physical_overlap_seconds": "1920.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "85157",
+        "4275"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125864 | APPLAUSE:4969",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83157",
+      "physical_overlap_seconds": "1860.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83158",
+        "3850"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:136214 | APPLAUSE:15373",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "8629",
+      "physical_overlap_seconds": "1820.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "93084",
+        "8628"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:136215 | APPLAUSE:15373",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "8629",
+      "physical_overlap_seconds": "1820.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "93085",
+        "8628"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:136216 | APPLAUSE:15373",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "8629",
+      "physical_overlap_seconds": "1820.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "93086",
+        "8628"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123514 | APPLAUSE:4308",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80807",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80808",
+        "3356"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123522 | APPLAUSE:4312",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80815",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80816",
+        "3360"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123543 | APPLAUSE:4315",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80838",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80837",
+        "3363"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123544 | APPLAUSE:4315",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80837",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80838",
+        "3363"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123564 | APPLAUSE:4315",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80838",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80858",
+        "3363"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:123565 | APPLAUSE:4315",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "80837",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "80859",
+        "3363"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125349 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82718",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82643",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125424 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82643",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82718",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125425 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82718",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82719",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125426 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82643",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82720",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125427 | APPLAUSE:110781",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82720",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82721",
+        "64839"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125427 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82720",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82721",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125428 | APPLAUSE:4848",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82647",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82722",
+        "3753"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125430 | APPLAUSE:110782",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "82647",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "82724",
+        "64840"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125848 | APPLAUSE:4969",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83141",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83142",
+        "3850"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125856 | APPLAUSE:4969",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83141",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83150",
+        "3850"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125863 | APPLAUSE:4969",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83158",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83157",
+        "3850"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:125871 | APPLAUSE:4969",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83164",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83165",
+        "3850"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "canonical_pair": "APPLAUSE:126106 | APPLAUSE:5060",
+      "comparison_gap_minutes": "1.000000",
+      "comparison_plate": "83401",
+      "physical_overlap_seconds": "1800.000",
+      "science_numexp": [
+        1,
+        1
+      ],
+      "science_plates": [
+        "83400",
+        "3899"
+      ],
+      "site_separation_km": "5893.545115",
+      "sites": [
+        "Dr. Remeis-Observatory, Bamberg, Germany",
+        "Hamburg-Bergedorf, Germany"
+      ],
+      "tier": "A_LE30MIN"
+    }
+  ]
+}

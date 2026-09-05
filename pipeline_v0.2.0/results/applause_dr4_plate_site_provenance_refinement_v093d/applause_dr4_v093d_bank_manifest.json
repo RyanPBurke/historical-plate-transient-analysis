@@ -1,0 +1,30 @@
+{
+  "analysis_kind": "applause_dr4_v093d_plate_site_provenance_bank_manifest",
+  "files": [
+    {
+      "name": "applause_dr4_plate_site_provenance_refinement_v093d.json",
+      "sha256": "bc7c845198a640a8e9517366d7345dffdab1ae2504d304900f8bb18fce9d083e",
+      "size_bytes": 17660
+    },
+    {
+      "name": "applause_dr4_plate_site_refined_comparisons_v093d.csv",
+      "sha256": "d8c1b4335fe5be5c1f82624cee306d6a2ae7d28c86e3cbcc1b22f27333eb4003",
+      "size_bytes": 1813578
+    },
+    {
+      "name": "applause_dr4_plate_site_refined_opportunities_v093d.csv",
+      "sha256": "5986545fa812df6db39c26067f4e94cb8909d13e79c9063ee8c34e7c4002f0c4",
+      "size_bytes": 628245
+    }
+  ],
+  "invalid_v093c_zero_result_banked": false,
+  "plate_metadata_rows": 94090,
+  "report_sha256": "bc7c845198a640a8e9517366d7345dffdab1ae2504d304900f8bb18fce9d083e",
+  "scientific_contract_changed": false,
+  "status": "COMPLETE",
+  "strong_ge10km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  }
+}
