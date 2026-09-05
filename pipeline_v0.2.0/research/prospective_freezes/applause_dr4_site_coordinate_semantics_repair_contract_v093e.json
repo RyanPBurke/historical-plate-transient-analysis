@@ -1,0 +1,45 @@
+{
+  "audit_basis": {
+    "bamberg_observed_raw_fields": {
+      "corrected_latitude": 49.8845,
+      "corrected_longitude": 10.8881,
+      "site_latitude": 10.8881,
+      "site_longitude": 49.8845
+    },
+    "semantic_rules": {
+      "Bonn, Germany": "AS_DOCUMENTED_LONGITUDE_LATITUDE",
+      "Boyden Observatory, Bloemfontein, South Africa": "AS_DOCUMENTED_LONGITUDE_LATITUDE",
+      "Castel Gandolfo, Italy": "AS_DOCUMENTED_LONGITUDE_LATITUDE",
+      "Dr. Remeis-Observatory, Bamberg, Germany": "SWAP_RAW_SITE_LONGITUDE_AND_SITE_LATITUDE",
+      "Hamburg-Bergedorf, Germany": "AS_DOCUMENTED_LONGITUDE_LATITUDE",
+      "Mount John Observatory, Lake Tekapo, New Zealand": "AS_DOCUMENTED_LONGITUDE_LATITUDE",
+      "Potsdam-Telegrafenberg": "AS_DOCUMENTED_LONGITUDE_LATITUDE"
+    },
+    "unique_science_site_names": 7
+  },
+  "cadence_tiers_unchanged": {
+    "A_LE30MIN": "<=30 min",
+    "B_GT30_LE60MIN": ">30 to <=60 min",
+    "C_GT60_LE120MIN": ">60 to <=120 min"
+  },
+  "contract_id": "applause_dr4_site_coordinate_semantics_repair_v093e",
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "network_calls": 0,
+    "pixel_downloads": 0,
+    "source_catalog_queries": 0,
+    "v093d_outputs_modified": false
+  },
+  "independence_thresholds_unchanged": {
+    "report_ge100km": 100,
+    "report_ge50km": 50,
+    "strong_ge10km": 10
+  },
+  "parent_bank_manifest_sha256": "246a765bf5bd7782f754791610389758d7a62b32cfea367924d52ec8907554e5",
+  "parent_stage": "applause_dr4_plate_site_provenance_refinement_v093d",
+  "purpose": "Correct a site-coordinate semantic inconsistency discovered after v093d. The science/cadence opportunity population is unchanged. Only geographic coordinate interpretation and derived site-separation distances/bands are recomputed.",
+  "status": "PROSPECTIVE_PROVENANCE_REPAIR"
+}
