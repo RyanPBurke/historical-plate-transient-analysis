@@ -1,0 +1,103 @@
+{
+  "all_science_site_pairs_ge100km": true,
+  "analysis_kind": "applause_dr4_site_coordinate_semantics_repair_v093e",
+  "comparison_rows": 5439,
+  "contract_sha256": "6f6bfb433ddd4674f85ea6de02e278b5eb47e0706bc9cbccc899824e64455742",
+  "corrected_ge100km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "corrected_ge100km_unique_physical_science_plate_pairs_with_control": 535,
+  "corrected_ge10km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "corrected_ge10km_unique_physical_science_plate_pairs_with_control": 535,
+  "corrected_ge50km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "corrected_ge50km_unique_physical_science_plate_pairs_with_control": 535,
+  "corrected_site_pair_distance_ranges_km": {
+    "Bonn, Germany | Dr. Remeis-Observatory, Bamberg, Germany": {
+      "max_km": 274.626555,
+      "min_km": 274.626555,
+      "occurrences": 21
+    },
+    "Bonn, Germany | Hamburg-Bergedorf, Germany": {
+      "max_km": 428.609118,
+      "min_km": 428.609118,
+      "occurrences": 25
+    },
+    "Boyden Observatory, Bloemfontein, South Africa | Dr. Remeis-Observatory, Bamberg, Germany": {
+      "max_km": 8908.911756,
+      "min_km": 8908.911756,
+      "occurrences": 27
+    },
+    "Boyden Observatory, Bloemfontein, South Africa | Hamburg-Bergedorf, Germany": {
+      "max_km": 9307.871922,
+      "min_km": 9307.871922,
+      "occurrences": 7
+    },
+    "Castel Gandolfo, Italy | Dr. Remeis-Observatory, Bamberg, Germany": {
+      "max_km": 915.006406,
+      "min_km": 915.006406,
+      "occurrences": 11
+    },
+    "Castel Gandolfo, Italy | Hamburg-Bergedorf, Germany": {
+      "max_km": 1317.081595,
+      "min_km": 1317.081595,
+      "occurrences": 27
+    },
+    "Dr. Remeis-Observatory, Bamberg, Germany | Hamburg-Bergedorf, Germany": {
+      "max_km": 402.491931,
+      "min_km": 402.491931,
+      "occurrences": 966
+    },
+    "Dr. Remeis-Observatory, Bamberg, Germany | Potsdam-Telegrafenberg": {
+      "max_km": 316.33377,
+      "min_km": 316.33377,
+      "occurrences": 7
+    },
+    "Hamburg-Bergedorf, Germany | Mount John Observatory, Lake Tekapo, New Zealand": {
+      "max_km": 18230.991237,
+      "min_km": 18230.991237,
+      "occurrences": 2
+    }
+  },
+  "corrected_site_separation_band_counts": {
+    "GE100KM": 1093
+  },
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "network_calls": 0,
+    "pixel_downloads": 0,
+    "source_catalog_queries": 0,
+    "v093d_outputs_modified": false
+  },
+  "opportunity_rows": 1093,
+  "output_hashes": {
+    "applause_dr4_site_coordinate_repaired_comparisons_v093e.csv": "a15333d27076b1a202f4ef3f00fb3a09e91c0fe1a0ce4d3c88cb6d26525b7869",
+    "applause_dr4_site_coordinate_repaired_opportunities_v093e.csv": "b8e05e30eadab90c949f22f50bfe156fae985fddbab799164be08ac90068e0db"
+  },
+  "parent_v093d_bank_manifest_sha256": "246a765bf5bd7782f754791610389758d7a62b32cfea367924d52ec8907554e5",
+  "science_or_cadence_population_changed": false,
+  "site_pair_occurrences": {
+    "Bonn, Germany | Dr. Remeis-Observatory, Bamberg, Germany": 21,
+    "Bonn, Germany | Hamburg-Bergedorf, Germany": 25,
+    "Boyden Observatory, Bloemfontein, South Africa | Dr. Remeis-Observatory, Bamberg, Germany": 27,
+    "Boyden Observatory, Bloemfontein, South Africa | Hamburg-Bergedorf, Germany": 7,
+    "Castel Gandolfo, Italy | Dr. Remeis-Observatory, Bamberg, Germany": 11,
+    "Castel Gandolfo, Italy | Hamburg-Bergedorf, Germany": 27,
+    "Dr. Remeis-Observatory, Bamberg, Germany | Hamburg-Bergedorf, Germany": 966,
+    "Dr. Remeis-Observatory, Bamberg, Germany | Potsdam-Telegrafenberg": 7,
+    "Hamburg-Bergedorf, Germany | Mount John Observatory, Lake Tekapo, New Zealand": 2
+  },
+  "status": "COMPLETE"
+}

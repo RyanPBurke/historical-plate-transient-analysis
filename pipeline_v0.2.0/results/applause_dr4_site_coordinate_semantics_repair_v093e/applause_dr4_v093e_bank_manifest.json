@@ -1,0 +1,30 @@
+{
+  "all_science_site_pairs_ge100km": true,
+  "analysis_kind": "applause_dr4_v093e_site_coordinate_semantics_bank_manifest",
+  "corrected_ge100km_best_control_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "corrected_ge100km_unique_physical_science_plate_pairs_with_control": 535,
+  "files": [
+    {
+      "name": "applause_dr4_site_coordinate_repaired_comparisons_v093e.csv",
+      "sha256": "a15333d27076b1a202f4ef3f00fb3a09e91c0fe1a0ce4d3c88cb6d26525b7869",
+      "size_bytes": 2123812
+    },
+    {
+      "name": "applause_dr4_site_coordinate_repaired_opportunities_v093e.csv",
+      "sha256": "b8e05e30eadab90c949f22f50bfe156fae985fddbab799164be08ac90068e0db",
+      "size_bytes": 764396
+    },
+    {
+      "name": "applause_dr4_site_coordinate_semantics_repair_v093e.json",
+      "sha256": "f9590352fafdd2e0cf1e834c730176ee802a07282b470aed22c807a80acc4d83",
+      "size_bytes": 4030
+    }
+  ],
+  "report_sha256": "f9590352fafdd2e0cf1e834c730176ee802a07282b470aed22c807a80acc4d83",
+  "science_or_cadence_population_changed": false,
+  "status": "COMPLETE"
+}
