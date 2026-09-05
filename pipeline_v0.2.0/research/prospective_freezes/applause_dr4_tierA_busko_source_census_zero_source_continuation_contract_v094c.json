@@ -1,0 +1,59 @@
+{
+  "contract_id": "applause_dr4_tierA_busko_source_census_zero_source_continuation_v094c",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "fits_reads": 0,
+    "minimum_free_disk_gb_during_matching": 10,
+    "pixel_downloads": 0,
+    "threshold_retuning_after_results": false
+  },
+  "matching_rules_unchanged": {
+    "busko_mismatch_radius_arcsec": 5.0,
+    "catalogue_absence_is_not_a_qualified_negative": true,
+    "independent_confirmation_diagnostic_arcsec": 5.0,
+    "independent_confirmation_primary_arcsec": 3.0,
+    "multi_scan_consistency_required_when_multiple_scans_exist": true,
+    "single_exposure_physical_plate_triplets_only": true,
+    "site_separation_min_km": 100,
+    "source_quality_thresholds": "NONE",
+    "tier": "A_LE30MIN"
+  },
+  "operational_efficiency": {
+    "candidate_csv_is_streamed": true,
+    "global_3arcsec_candidate_deduplication": "deferred to a separate post-census stage to bound RAM; no candidate rows are deleted",
+    "matching_is_vectorized_and_chunked": true,
+    "network_queries": 0,
+    "plate_representation_cache_max_plates": 8,
+    "reuse_v094b_minimal_source_cache": true
+  },
+  "parent_contract_sha256": "d277b2ca4ca85f5c225989c9bb0694a1b0a9fc70749f41e5b08b13ac9989009b",
+  "parent_runner_sha256": "67d2b6a27d168e9b4653375288b0f0e8b47644721365e46b2aa21c56119860b7",
+  "parent_stage": "applause_dr4_tierA_busko_source_census_v094b",
+  "repair_rule": {
+    "any_triplet_using_any_confirmed_zero_row_scan_is_held_from_source_matching": true,
+    "confirmed_zero_row_scan_gets_explicit_empty_npz": true,
+    "multiscan_support_is_not_downgraded_if_a_required_scan_has_zero_rows": true,
+    "reverify_zero_row_provenance_from_v094b_manifests": true,
+    "zero_row_scan_is_not_source_absence_evidence": true
+  },
+  "status": "PROSPECTIVE_OPERATIONAL_PROVENANCE_REPAIR",
+  "trigger": {
+    "candidate_outcomes_seen": 0,
+    "failure_kind": "operational/provenance hold, not scientific null",
+    "manual_provenance_audit_result": "all nine confirmed requested in COMPLETE responses but absent from per-scan products",
+    "observed_missing_cache_scan_ids": [
+      109445,
+      114677,
+      114682,
+      114813,
+      115031,
+      115911,
+      116377,
+      116528,
+      117980
+    ],
+    "phase": "after all 123 minimal source-acquisition batches completed; before any mechanical source matching"
+  }
+}
