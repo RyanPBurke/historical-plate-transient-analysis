@@ -1,0 +1,51 @@
+{
+  "amended_scan_rule": {
+    "all_three_plates_require_at_least_one_astrometric_scan": true,
+    "comparison_plate_absence": "candidate position must lie in >=1 astrometric scan footprint and no calibrated source may lie within 5 arcsec on any available comparison scan",
+    "if_independent_plate_has_1_scan": "single-scan counterpart allowed",
+    "if_independent_plate_has_2plus_scans": "counterpart must match across >=2 scans within 5 arcsec",
+    "if_positive_plate_has_1_scan": "single-scan detection retained; independent observatory confirmation is mandatory",
+    "if_positive_plate_has_2plus_scans": "candidate must match across >=2 scans within 5 arcsec",
+    "scan_support_class_reported": true
+  },
+  "contract_id": "applause_dr4_tierA_busko_source_census_scan_availability_amendment_v094a",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "candidate_outcomes_seen_before_amendment": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "gaia_or_external_catalogue_queries": 0,
+    "pixel_downloads": 0,
+    "threshold_retuning_after_results": false
+  },
+  "interpretation": {
+    "catalogue_absence_is_not_a_qualified_negative": true,
+    "catalogue_candidate_is_not_a_transient_disposition": true,
+    "next_required_stage": "quality/morphology plus native-pixel sensitivity validation",
+    "single_scan_positive_is_not_rejected": true
+  },
+  "parent_contract_sha256": "3c2794b6bbbc345481e752cdc07b4ebb44c8be6584febe16460cffe6c8c23f5d",
+  "parent_observed_availability_only": {
+    "candidate_rows_seen": 0,
+    "scan_eligible_triplets_under_old_rule": 0,
+    "source_scans_requested": 0,
+    "tierA_single_exposure_comparison_rows": 784,
+    "unique_directed_physical_triplets": 784
+  },
+  "parent_runner_sha256": "0b03d2410ddf62975bbb54ec1de9a40059835763e18629ebbf61e370682eb794",
+  "parent_stage": "applause_dr4_tierA_busko_source_census_v094",
+  "reason": "v094 completed before any source query because it required >=2 scans on all three plates of every triplet. That requirement overgeneralized Busko's X/Y scanner-artifact control. Busko used dual scans where available on his selected Hamburg Schmidt material; APPLAUSE multiple scans are not universal. No source or candidate outcomes were inspected before this amendment.",
+  "scientific_rules_unchanged": {
+    "busko_mismatch_radius_arcsec": 5.0,
+    "comparison_common_science_footprint_min_fraction": 0.5,
+    "external_catalogue_selection": false,
+    "independent_confirmation_diagnostic_arcsec": 5.0,
+    "independent_confirmation_primary_arcsec": 3.0,
+    "process_all_qualifying_tierA_controls": true,
+    "single_exposure_physical_plate_triplets_only": true,
+    "site_separation_min_km": 100,
+    "tier": "A_LE30MIN"
+  },
+  "source_quality_policy": "No source-quality threshold is used for discovery in v094a. Raw calibrated catalogue coincidences are preserved first; Busko/SExtractor quality and morphology filtering is a later frozen stage. This avoids tuning quality thresholds after candidate outcomes.",
+  "status": "PROSPECTIVE_AVAILABILITY_AMENDMENT"
+}
