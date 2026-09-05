@@ -1,0 +1,83 @@
+{
+  "busko_replication": {
+    "comparison_absence": "candidate position must be covered by at least two distinct scans of the comparison plate and have no calibrated APPLAUSE source within 5 arcsec on any comparison scan",
+    "initial_external_catalogues": "PROHIBITED",
+    "plate_to_plate_mismatch_radius_arcsec": 5.0,
+    "positive_plate_scan_consistency": "candidate must be detected on at least two distinct scans of the positive physical plate"
+  },
+  "contract_id": "applause_dr4_tierA_busko_source_census_v094",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "gaia_or_other_external_catalogue_queries": 0,
+    "pixel_downloads": 0,
+    "source_quality_thresholds": "NONE at v094",
+    "threshold_retuning_after_results": false
+  },
+  "independent_observatory_confirmation": {
+    "diagnostic_outer_radius_arcsec": 5.0,
+    "independent_plate_coverage": "candidate position must be covered by at least two distinct scans of the independent plate",
+    "primary_positive_scan_consistency": "independent-observatory counterpart must be supported by at least two distinct scans",
+    "primary_radius_arcsec": 3.0
+  },
+  "interpretation": {
+    "catalogue_absence_is_not_a_qualified_negative": true,
+    "catalogue_candidate_is_not_a_transient_disposition": true,
+    "next_required_stage": "candidate-specific quality, sensitivity/injection and native-pixel validation before any transient claim"
+  },
+  "parent": {
+    "bank_manifest_sha256": "1889b93e4f104bd025ce221cb7435cfe53041e6f702835ac603e5da6a8ac2139",
+    "stage": "applause_dr4_site_coordinate_semantics_repair_v093e"
+  },
+  "purpose": "First source-level stage of the redesigned Busko-first experiment. Process every qualifying Tier-A (<=30 min) same-site comparison attached to the geographically independent APPLAUSE space-time opportunities, before inspecting any candidate outcomes.",
+  "resumability": {
+    "batch manifest written incrementally": true,
+    "per-scan normalized NPZ caches reused": true,
+    "safe_to_resume_after_interruption": true,
+    "source TAP batches cached as raw VOTables with SHA256": true
+  },
+  "selection": {
+    "cadence_tier": "A_LE30MIN",
+    "comparison_common_science_footprint_min_fraction": 0.5,
+    "comparison_same_recorded_site_as_positive_endpoint": true,
+    "primary_physical_plate_exposure_rule": "science plate A, science plate B, and comparison plate must each have numexp == 1; multi-exposure plates are held out because APPLAUSE source detections are scan/plate-level and cannot be uniquely assigned to one exposure.",
+    "process_all_qualifying_tierA_controls_not_only_best": true,
+    "science_site_separation_min_km": 100
+  },
+  "source_data": {
+    "fields": [
+      "source_id",
+      "process_id",
+      "scan_id",
+      "plate_id",
+      "archive_id",
+      "solution_num",
+      "ra_icrs",
+      "dec_icrs",
+      "ra_error",
+      "dec_error",
+      "nn_dist",
+      "natmag",
+      "natmag_error",
+      "phot_range_flags",
+      "sextractor_flags",
+      "model_prediction"
+    ],
+    "forbidden_fields": [
+      "gaiaedr3_id",
+      "gaiaedr3_dist",
+      "gaiaedr3_gmag",
+      "gaiaedr3_bp_rp",
+      "cat_natmag"
+    ],
+    "query_only_needed_scans": true,
+    "raw_source_table_join": false,
+    "table": "applause_dr4.source_calib"
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "stratification": {
+    "pre_and_post_sputnik_are_reported_separately_not_used_for_selection": true,
+    "sputnik_launch_reference_utc": "1957-10-04T19:28:34Z"
+  }
+}
