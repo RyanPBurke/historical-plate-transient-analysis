@@ -1,0 +1,65 @@
+{
+  "catalogue_recurrence_use": {
+    "catalogue_absence_is_not_a_disposition": true,
+    "non_strict_or_no_catalogue_source": "candidate short-lag comparison only; requires native-pixel sensitivity/recurrence validation",
+    "strict_recurrence": "not a short-lag negative; exclude from pixel-negative queue"
+  },
+  "comparison_plate_rule": "Use only v077a rows already marked eligible_independent_comparison=True and independent_physical_plate=True. For physical plates with multiple exposure rows, retain every resolved exposure interval and use the minimum actual gap only for tier assignment; record all intervals and flag multi-exposure plates.",
+  "contract_id": "pair17_whole_population_short_lag_census_v092",
+  "gap_definition": "Actual interval-to-interval gap. If comparison exposure overlaps the science-overlap interval, gap=0. If it ends before the science overlap, gap=science_start-comparison_end. If it starts after the science overlap, gap=comparison_start-science_end. No midpoint substitution.",
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "manual_scores_modified": false,
+    "network_calls": 0,
+    "new_pixel_measurements": 0,
+    "threshold_retuning": false
+  },
+  "inputs": [
+    "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_candidate_plate_opportunities_v077a.csv",
+    "results/pair17_applause_independent_plate_opportunity_census_v077a/pair17_tap_query_manifest_v077a.csv",
+    "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_plate_nearest_v078.csv",
+    "results/pair17_applause_catalog_recurrence_screen_v078/pair17_catalog_recurrence_candidate_summary_v078.csv"
+  ],
+  "outputs": [
+    "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_opportunities_v092.csv",
+    "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_candidate_summary_v092.csv",
+    "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_pixel_validation_queue_v092.csv",
+    "results/pair17_whole_population_short_lag_census_v092/pair17_timing_recovery_manifest_v092.json",
+    "results/pair17_whole_population_short_lag_census_v092/pair17_whole_population_short_lag_census_v092.json"
+  ],
+  "population": {
+    "no_candidate_level_pruning_before_tiering": true,
+    "preserve_population_strata": [
+      "PRIMARY",
+      "DIAGNOSTIC"
+    ],
+    "source": "all v077a candidate_plate_opportunities rows"
+  },
+  "purpose": "Return to the frozen whole Pair-17 opportunity population (v077a/v078a) and identify independent physical comparison plates whose actual exposure intervals fall within prospectively frozen short-lag tiers around the authoritative 299 s Pair-17 science overlap. Catalogue recurrence is used only to triage which short-lag plates require native-pixel validation; catalogue absence is not promoted to a qualified negative.",
+  "science_overlap_utc": {
+    "duration_seconds": 299,
+    "end": "1953-12-02T20:51:28+00:00",
+    "start": "1953-12-02T20:46:29+00:00"
+  },
+  "status": "PROSPECTIVE_FREEZE",
+  "tiers": {
+    "A_LE30MIN": {
+      "max_gap_seconds_inclusive": 1800,
+      "min_gap_seconds_inclusive": 0
+    },
+    "B_GT30_LE60MIN": {
+      "max_gap_seconds_inclusive": 3600,
+      "min_gap_seconds_exclusive": 1800
+    },
+    "C_GT60_LE120MIN": {
+      "max_gap_seconds_inclusive": 7200,
+      "min_gap_seconds_exclusive": 3600
+    }
+  },
+  "timing_recovery": {
+    "network_calls": 0,
+    "source_policy": "Recover exact exposure rows from already-local/banked APPLAUSE/TAP products referenced by v077a query manifests or nearby cache files. Require an exposure id plus exact start and exact end, or a duration with explicit/declared seconds. If an exposure interval cannot be resolved unambiguously, preserve it as TIMING_UNRESOLVED and do not tier it."
+  }
+}
