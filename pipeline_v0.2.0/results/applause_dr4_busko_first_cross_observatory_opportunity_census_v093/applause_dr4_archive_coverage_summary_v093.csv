@@ -1,0 +1,28 @@
+archive_id,archive_name,institute,site_group,declared_num_plates,declared_num_scans,usable_exposures,busko_primary_short_cadence_pairs,cross_observatory_space_time_pairs_touching_archive,ranked_short_lag_cross_observatory_pairs_touching_archive,independence_eligible
+1,Zeiss Triplet (Potsdam),Leibniz-Institut für Astrophysik Potsdam (AIP),Potsdam,4921,4915,4,0,7,0,True
+2,Carte du Ciel (Potsdam),Leibniz-Institut für Astrophysik Potsdam (AIP),Potsdam,979,953,0,0,0,0,True
+3,Great Schmidt Camera (Potsdam),Leibniz-Institut für Astrophysik Potsdam (AIP),Potsdam,508,508,0,0,0,0,True
+4,Small Schmidt Camera (Potsdam),Leibniz-Institut für Astrophysik Potsdam (AIP),Potsdam,113,101,0,0,0,0,True
+5,Ross Camera (Potsdam),Leibniz-Institut für Astrophysik Potsdam (AIP),Potsdam,64,62,0,0,0,0,True
+6,Einstein Turm Solar Plates,Leibniz-Institut für Astrophysik Potsdam (AIP),UNKNOWN,3613,3613,0,0,0,0,False
+101,Lippert-Astrograph (Hamburg),Hamburger Sternwarte,Hamburg,8750,13764,10624,69734,623,396,True
+102,Grosser Schmidt-Spiegel (Hamburg),Hamburger Sternwarte,Hamburg,5323,7463,2803,1940,152,93,True
+103,1m-Spiegelteleskop (Hamburg),Hamburger Sternwarte,Hamburg,7643,7538,292,380,11,4,True
+104,Hamburger Schmidt-Spiegel (Calar Alto),Hamburger Sternwarte,Calar Alto,3255,4388,1430,245,0,0,True
+105,AG-Teleskop (Bonn),Hamburger Sternwarte,Bonn,754,1454,1309,0,46,2,True
+106,AG-Teleskop (Hamburg),Hamburger Sternwarte,Hamburg,3529,7019,4444,184,224,114,True
+107,Doppel-Reflektor (Hamburg),Hamburger Sternwarte,Hamburg,1642,2055,64,32,0,0,True
+108,ESO telescopes (La Silla),Hamburger Sternwarte,La Silla,2099,2713,432,65,0,0,True
+109,Grosser Refraktor (Hamburg),Hamburger Sternwarte,Hamburg,2602,2757,2,0,0,0,True
+110,Kleiner Schmidt-Spiegel II (Hamburg),Hamburger Sternwarte,Hamburg,1566,1152,366,1251,0,0,True
+111,Schmidtsches Spiegelteleskop (Hamburg),Hamburger Sternwarte,Hamburg,1746,1985,128,28,17,9,True
+202,Metcalf Telescope (South Africa),"Dr. Karl Remeis-Sternwarte, Bamberg",South Africa,2718,2705,2685,2133,10,10,True
+203,Bamberg Southern Sky Patrol (South Africa),"Dr. Karl Remeis-Sternwarte, Bamberg",South Africa,12565,12513,12486,3817,21,7,True
+204,Bamberg Southern Sky Patrol (New Zealand),"Dr. Karl Remeis-Sternwarte, Bamberg",New Zealand,5266,5243,5239,1271,2,0,True
+205,Bamberg Southern Sky Patrol (Argentina),"Dr. Karl Remeis-Sternwarte, Bamberg",Argentina,870,824,696,108,0,0,True
+206,Zeiss Objective (South Africa),"Dr. Karl Remeis-Sternwarte, Bamberg",South Africa,694,690,675,80,3,3,True
+207,Ross B Camera (South Africa),"Dr. Karl Remeis-Sternwarte, Bamberg",South Africa,698,696,694,650,0,0,True
+208,"Astrograph, Bamberg Northern Sky Patrol","Dr. Karl Remeis-Sternwarte, Bamberg",Bamberg,18865,17036,11807,6078,1032,610,True
+301,Tartu Old Observatory,"Tartu Observatory, University of Tartu, Estonia",Tartu,2275,2275,0,0,0,0,True
+401,Tautenburg Schmidt Telescope,Thüringer Landessternwarte Tautenburg,Tautenburg,4101,20505,0,0,0,0,True
+501,Zeiss Double Astrograph,Vatican Observatory,Castel Gandolfo,544,544,528,661,38,38,True

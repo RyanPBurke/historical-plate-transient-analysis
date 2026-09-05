@@ -1,0 +1,532 @@
+{
+  "analysis_kind": "applause_dr4_busko_first_cross_observatory_opportunity_census_v093",
+  "archive_count_expected": 27,
+  "archive_count_observed": 27,
+  "archive_pair_counts": {
+    "102|204": 2,
+    "102|206": 3,
+    "105|101": 25,
+    "106|203": 4,
+    "208|1": 7,
+    "208|101": 571,
+    "208|102": 147,
+    "208|103": 11,
+    "208|105": 21,
+    "208|106": 220,
+    "208|111": 17,
+    "208|202": 10,
+    "208|203": 17,
+    "208|501": 11,
+    "501|101": 27
+  },
+  "best_primary_comparison_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "candidate_outcomes_inspected": false,
+  "completed_utc": "2026-09-05T10:59:02.197443+00:00",
+  "contract_sha256": "dd2e81e8df1eb4504fd902ef122fd512f64afd884923e936e20929cd6b772766",
+  "cross_observatory_pairs_with_primary_short_lag_comparison": 643,
+  "cross_observatory_space_time_pair_count": 1093,
+  "cross_observatory_sweep_counts": {
+    "distinct_site_space_time_overlap": 1093,
+    "distinct_site_temporal_overlap": 8983,
+    "same_site_temporal_overlap": 85548
+  },
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_pixel_reads": 0,
+    "pixel_downloads": 0,
+    "source_catalog_queries": 0
+  },
+  "output_hashes": {
+    "applause_dr4_archive_coverage_summary_v093.csv": "06eb355a337f82d00a91f74b3c3fccc6bc96d1d37fb89fb0f6e49a1cc0a21a74",
+    "applause_dr4_cross_observatory_short_lag_comparisons_v093.csv": "a65a8d172f32e10235c643219d9d66195570f5c677d8341f7909833404675dfe",
+    "applause_dr4_cross_observatory_space_time_opportunities_v093.csv": "f18cb049921f2f98953b927fc01c8e44b0fdbe2e7bc9a952dd80a710f522dfcb",
+    "applause_dr4_digitally_usable_exposure_registry_v093.csv": "9e332bf49a2aa3b23f02e2db146dfe4977450eba1918ab6dc2d3782b7969e4f1",
+    "applause_dr4_ranked_cross_observatory_fast_transient_opportunities_v093.csv": "0dd63cfab94f380dba70c726aef13f741c7262a09b72246ee4a23926af3d8075",
+    "applause_dr4_within_archive_busko_opportunities_v093.csv": "d4a9c9b293f77f54452fed166820f9f873b7e1f24a5f4d944df2a8465ab8871e"
+  },
+  "pixels_inspected": false,
+  "registry_stats": {
+    "exposure_rows": 72621,
+    "no_scan": 784,
+    "no_solution_polygon": 14728,
+    "solution_association_implausible": 371,
+    "timing_or_center_invalid": 30,
+    "usable": 56708
+  },
+  "scope": "APPLAUSE DR4 all archive collections returned by archive table",
+  "site_pair_counts": {
+    "Bamberg | Bonn": 21,
+    "Bamberg | Castel Gandolfo": 11,
+    "Bamberg | Hamburg": 966,
+    "Bamberg | Potsdam": 7,
+    "Bamberg | South Africa": 27,
+    "Bonn | Hamburg": 25,
+    "Castel Gandolfo | Hamburg": 27,
+    "Hamburg | New Zealand": 2,
+    "Hamburg | South Africa": 7
+  },
+  "source_detection_inspected": false,
+  "started_utc": "2026-09-05T10:57:45.434381+00:00",
+  "status": "COMPLETE",
+  "tap_cache": {
+    "archive": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/archive.csv",
+      "sha256": "9dcdc45b905c5dc8bddebf71614520e67e37ff0efd0f8561efdde71e9f539d79",
+      "size_bytes": 2153
+    },
+    "exposure": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/exposure.csv",
+      "sha256": "68681ed5a5d9116e1cf8b304a306a9fbbea6ebf2e8e709848e58d31d2800c162",
+      "size_bytes": 8286770
+    },
+    "scan": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/scan.csv",
+      "sha256": "e6879ca2c1e63a75f50920221a90a3896d9ff2c39a5cd0a7eda4df65b456e22d",
+      "size_bytes": 12343158
+    },
+    "solution": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/solution.csv",
+      "sha256": "a3ceb6d63d27dc594875e9ad4b29e3716dd921a629113e92ca35e2e5b28a10bc",
+      "size_bytes": 19668618
+    }
+  },
+  "top_25_ranked_opportunities": [
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:122456 | APPLAUSE:4008",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 122455,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "3484.000",
+      "rank": 1,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:127883 | APPLAUSE:6420",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 127882,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1920.000",
+      "rank": 2,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125864 | APPLAUSE:4969",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125863,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1860.000",
+      "rank": 3,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:136214 | APPLAUSE:15373",
+      "comparison_endpoint": "B",
+      "comparison_exposure": 15374,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1820.000",
+      "rank": 4,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:136215 | APPLAUSE:15373",
+      "comparison_endpoint": "B",
+      "comparison_exposure": 15374,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1820.000",
+      "rank": 5,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:136216 | APPLAUSE:15373",
+      "comparison_endpoint": "B",
+      "comparison_exposure": 15374,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1820.000",
+      "rank": 6,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123514 | APPLAUSE:4308",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123513,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 7,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123522 | APPLAUSE:4312",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123521,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 8,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123543 | APPLAUSE:4315",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123544,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 9,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123544 | APPLAUSE:4315",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123543,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 10,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123564 | APPLAUSE:4315",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123544,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 11,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:123565 | APPLAUSE:4315",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 123543,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 12,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125349 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125424,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 13,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125424 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125349,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 14,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125425 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125424,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 15,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125426 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125349,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 16,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        111
+      ],
+      "canonical_pair": "APPLAUSE:125427 | APPLAUSE:110781",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125426,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 17,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125427 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125426,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 18,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125428 | APPLAUSE:4848",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125353,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 19,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        111
+      ],
+      "canonical_pair": "APPLAUSE:125430 | APPLAUSE:110782",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125353,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 20,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125848 | APPLAUSE:4969",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125847,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 21,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125856 | APPLAUSE:4969",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125847,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 22,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125863 | APPLAUSE:4969",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125864,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 23,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:125871 | APPLAUSE:4969",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 125870,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 24,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    },
+    {
+      "archives": [
+        208,
+        101
+      ],
+      "canonical_pair": "APPLAUSE:126106 | APPLAUSE:5060",
+      "comparison_endpoint": "A",
+      "comparison_exposure": 126107,
+      "comparison_gap_minutes": "1.000000",
+      "physical_overlap_seconds": "1800.000",
+      "rank": 25,
+      "sites": [
+        "Bamberg",
+        "Hamburg"
+      ],
+      "tier": "A_LE30MIN"
+    }
+  ],
+  "usable_exposure_count": 56708,
+  "within_archive_busko_counts": {
+    "any_field_overlap": 149751,
+    "primary_ge50": 88657
+  },
+  "within_archive_busko_pair_count_any_overlap": 149751
+}

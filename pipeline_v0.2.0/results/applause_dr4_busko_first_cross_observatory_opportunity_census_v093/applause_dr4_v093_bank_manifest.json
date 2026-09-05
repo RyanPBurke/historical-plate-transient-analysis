@@ -1,0 +1,79 @@
+{
+  "analysis_kind": "applause_dr4_v093_busko_first_opportunity_census_bank_manifest",
+  "best_primary_comparison_tier_counts": {
+    "A_LE30MIN": 567,
+    "B_GT30_LE60MIN": 55,
+    "C_GT60_LE120MIN": 21
+  },
+  "candidate_outcomes_inspected": false,
+  "contract_sha256": "dd2e81e8df1eb4504fd902ef122fd512f64afd884923e936e20929cd6b772766",
+  "cross_observatory_pairs_with_primary_short_lag_comparison": 643,
+  "cross_observatory_space_time_pair_count": 1093,
+  "files": [
+    {
+      "name": "applause_dr4_archive_coverage_summary_v093.csv",
+      "sha256": "06eb355a337f82d00a91f74b3c3fccc6bc96d1d37fb89fb0f6e49a1cc0a21a74",
+      "size_bytes": 3078
+    },
+    {
+      "name": "applause_dr4_busko_first_cross_observatory_opportunity_census_v093.json",
+      "sha256": "3956ccc1b7224177f9266c1be3475afed0a867e0b80bac79e232e1e48266c39a",
+      "size_bytes": 14463
+    },
+    {
+      "name": "applause_dr4_cross_observatory_short_lag_comparisons_v093.csv",
+      "sha256": "a65a8d172f32e10235c643219d9d66195570f5c677d8341f7909833404675dfe",
+      "size_bytes": 1002635
+    },
+    {
+      "name": "applause_dr4_cross_observatory_space_time_opportunities_v093.csv",
+      "sha256": "f18cb049921f2f98953b927fc01c8e44b0fdbe2e7bc9a952dd80a710f522dfcb",
+      "size_bytes": 358235
+    },
+    {
+      "name": "applause_dr4_digitally_usable_exposure_registry_v093.csv",
+      "sha256": "9e332bf49a2aa3b23f02e2db146dfe4977450eba1918ab6dc2d3782b7969e4f1",
+      "size_bytes": 9541938
+    },
+    {
+      "name": "applause_dr4_ranked_cross_observatory_fast_transient_opportunities_v093.csv",
+      "sha256": "0dd63cfab94f380dba70c726aef13f741c7262a09b72246ee4a23926af3d8075",
+      "size_bytes": 89144
+    },
+    {
+      "name": "applause_dr4_within_archive_busko_opportunities_v093.csv",
+      "sha256": "d4a9c9b293f77f54452fed166820f9f873b7e1f24a5f4d944df2a8465ab8871e",
+      "size_bytes": 33474421
+    }
+  ],
+  "pixels_inspected": false,
+  "source_detection_inspected": false,
+  "status": "COMPLETE",
+  "tap_cache": {
+    "archive": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/archive.csv",
+      "sha256": "9dcdc45b905c5dc8bddebf71614520e67e37ff0efd0f8561efdde71e9f539d79",
+      "size_bytes": 2153
+    },
+    "exposure": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/exposure.csv",
+      "sha256": "68681ed5a5d9116e1cf8b304a306a9fbbea6ebf2e8e709848e58d31d2800c162",
+      "size_bytes": 8286770
+    },
+    "scan": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/scan.csv",
+      "sha256": "e6879ca2c1e63a75f50920221a90a3896d9ff2c39a5cd0a7eda4df65b456e22d",
+      "size_bytes": 12343158
+    },
+    "solution": {
+      "path": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/solution.csv",
+      "sha256": "a3ceb6d63d27dc594875e9ad4b29e3716dd921a629113e92ca35e2e5b28a10bc",
+      "size_bytes": 19668618
+    }
+  },
+  "usable_exposure_count": 56708,
+  "within_archive_busko_counts": {
+    "any_field_overlap": 149751,
+    "primary_ge50": 88657
+  }
+}
