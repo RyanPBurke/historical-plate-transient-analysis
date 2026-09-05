@@ -1,0 +1,51 @@
+{
+  "candidate_outcomes_seen_before_amendment": 0,
+  "contract_id": "applause_dr4_tierA_busko_source_census_storage_amendment_v094b",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_reads": 0,
+    "gaia_or_external_catalogue_queries": 0,
+    "pixel_downloads": 0,
+    "source_quality_thresholds_applied": 0,
+    "threshold_retuning_after_results": false
+  },
+  "parent_contract_sha256": "853dc03e1c83110291e1713f8703ee1ccacf60315374e11228bb563fb8b5fccb",
+  "parent_runner_sha256": "06e4d8965783caaac09ac1c66eaa615e4e39e0cca4ca01e41524868cfeb543bd",
+  "parent_stage": "applause_dr4_tierA_busko_source_census_v094a",
+  "reason": "v094a full-field source_calib VOTables are operationally too large for the available system drive. The amendment occurs during source acquisition, before any mechanical source matching or candidate outcome inspection. Discovery requires only source_id, scan_id, ra_icrs and dec_icrs; all quality and morphology fields are deferred to candidate-specific follow-up.",
+  "scientific_rules_unchanged": {
+    "busko_mismatch_radius_arcsec": 5.0,
+    "catalogue_absence_is_not_a_qualified_negative": true,
+    "comparison_common_science_footprint_min_fraction": 0.5,
+    "independent_confirmation_diagnostic_arcsec": 5.0,
+    "independent_confirmation_primary_arcsec": 3.0,
+    "multi_scan_consistency_required_when_multiple_scans_exist": true,
+    "single_exposure_triplets_only": true,
+    "site_separation_min_km": 100,
+    "tier": "A_LE30MIN"
+  },
+  "scientific_selection_changed": false,
+  "source_acquisition_change": {
+    "completed_scan_npz_reused": true,
+    "discovery_fields": [
+      "source_id",
+      "scan_id",
+      "ra_icrs",
+      "dec_icrs"
+    ],
+    "existing_v094a_downloads_salvaged": true,
+    "full_scan_quality_fields_deferred": true,
+    "per_scan_cache": "compressed NPZ containing source_id, ra_icrs, dec_icrs only",
+    "raw_votable_retention": "deleted after cryptographic hash, row-count audit, and verified NPZ conversion",
+    "source_batches_resumable": true
+  },
+  "status": "PROSPECTIVE_STORAGE_AMENDMENT",
+  "storage_policy": {
+    "minimum_free_space_guard_gb": 5,
+    "persistent_cache_expected_to_be_orders_of_magnitude_smaller_than_v094a": true,
+    "raw_batch_deleted_after_verified_conversion": true,
+    "v094a_full_field_npz_deleted_after_minimal_cache_verification": true,
+    "v094a_raw_votables_deleted_after_minimal_cache_verification": true
+  }
+}
