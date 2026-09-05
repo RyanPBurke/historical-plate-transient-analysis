@@ -1,0 +1,20 @@
+{
+  "candidate_dispositions_changed": false,
+  "catalogue_recurrence_policy_changed": false,
+  "detector_reruns_permitted": 0,
+  "fits_reads_permitted": 0,
+  "frozen_timing_recovery_runner": "tools/run_pair17_temporal_bracketing_census_v081a.py",
+  "frozen_timing_recovery_runner_sha256": "818e9b14fac1ee3d7d1ccf3f422157e832cb83e874a42f3dedd5eab7f608736e",
+  "gap_definition_changed": false,
+  "network_calls_permitted": 0,
+  "parent_runner": "tools/run_pair17_whole_population_short_lag_census_v092.py",
+  "parent_runner_sha256": "ccd8462ee2f6801356a26a1cdb86da0a2a084b70e33ea8d608d819be3d2c159c",
+  "reason": "v092 generic local timing-source discovery recovered zero exact intervals. v081a already contains a frozen, cryptographically-bound v077a raw-VOTable timing recovery path and previously recovered 10,182 exposure rows from 153 verified VOTables. v092a reuses that exact implementation.",
+  "repair_id": "pair17_whole_population_short_lag_census_operational_repair_v092a",
+  "repair_type": "OPERATIONAL_TIMING_PROVENANCE_BINDING_ONLY",
+  "science_overlap_changed": false,
+  "scientific_contract": "research/prospective_freezes/pair17_whole_population_short_lag_census_contract_v092.json",
+  "scientific_contract_changed": false,
+  "scientific_contract_sha256": "97e7fd6270203099a072fe2cf0f089400cbc2045cbd983723cd24ec8f5d8fc17",
+  "tier_thresholds_changed": false
+}
