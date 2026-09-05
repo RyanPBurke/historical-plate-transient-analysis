@@ -1,0 +1,50 @@
+{
+  "analysis_kind": "pair17_v092a_whole_population_short_lag_census_bank_manifest",
+  "candidate_dispositions_changed": false,
+  "catalogue_absence_promoted_to_qualified_negative": false,
+  "files": [
+    {
+      "path": "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_candidate_summary_v092.csv",
+      "sha256": "590ee375d356527fea64cc0062804dabb2f3b8946876f2ad2d4cbc0dc37fa8d5",
+      "size_bytes": 93199
+    },
+    {
+      "path": "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_opportunities_v092.csv",
+      "sha256": "e1e726f14ae3a29df08be4c327d06f6b5c7e7b50c028e812dffc3b0c30df9d24",
+      "size_bytes": 263514
+    },
+    {
+      "path": "results/pair17_whole_population_short_lag_census_v092/pair17_short_lag_pixel_validation_queue_v092.csv",
+      "sha256": "3573d333c6f807b651756d85e170a319d45c4a6e23f1a47677546928f9c2162a",
+      "size_bytes": 123641
+    },
+    {
+      "path": "results/pair17_whole_population_short_lag_census_v092/pair17_timing_recovery_manifest_v092.json",
+      "sha256": "fd9e55d84e2134618c6facb46f08a4b83fa0ae0bcae66db27d7d5d430c0385f4",
+      "size_bytes": 49282
+    },
+    {
+      "path": "results/pair17_whole_population_short_lag_census_v092/pair17_whole_population_short_lag_census_v092.json",
+      "sha256": "c5c1d6896ea7ad40aca2b23137e4cf15f2c01c1f1d30c5294f310b5f86dd4363",
+      "size_bytes": 4948
+    }
+  ],
+  "parent_v092_runner_sha256": "ccd8462ee2f6801356a26a1cdb86da0a2a084b70e33ea8d608d819be3d2c159c",
+  "pixel_validation_queue_rows": 270,
+  "pixel_validation_queue_tier_counts": {
+    "C_GT60_LE120MIN": 270
+  },
+  "pixel_validation_queue_unique_candidates": 270,
+  "scientific_contract_changed": false,
+  "scientific_contract_sha256": "97e7fd6270203099a072fe2cf0f089400cbc2045cbd983723cd24ec8f5d8fc17",
+  "short_lag_candidate_plate_rows": 579,
+  "short_lag_unique_candidates": 579,
+  "status": "COMPLETE",
+  "tier_counts_all": {
+    "C_GT60_LE120MIN": 579
+  },
+  "tier_counts_diagnostic": {},
+  "tier_counts_primary": {},
+  "v081a_timing_recovery_runner_sha256": "818e9b14fac1ee3d7d1ccf3f422157e832cb83e874a42f3dedd5eab7f608736e",
+  "v092a_runner_sha256": "1332dbbbcce4e63d640237b0852807a1f3d2a0f53df6a1f5ce3e3ff6f637e608"
+}
