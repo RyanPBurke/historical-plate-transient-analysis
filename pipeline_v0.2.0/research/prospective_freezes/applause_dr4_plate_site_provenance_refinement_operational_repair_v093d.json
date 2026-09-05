@@ -1,0 +1,19 @@
+﻿{
+    "repair_id":  "applause_dr4_plate_site_provenance_refinement_operational_repair_v093d",
+    "repair_type":  "TAP_RESPONSE_FORMAT_PARSER_REPAIR_ONLY",
+    "parent_stage":  "applause_dr4_plate_site_provenance_refinement_v093c",
+    "parent_contract_sha256":  "fb2159d6b8d4415c3c8ffde068cd3b75763da79427b07646c300aac356f07766",
+    "parent_runner_sha256":  "10c2ec79974d33239c594176159080f3f079052d1f8d56fef5f733e23ef41d35",
+    "failure":  "APPLAUSE TAP returned VOTable/XML despite FORMAT=csv; v093c parsed XML as CSV and mechanically loaded zero plate rows.",
+    "raw_votable_sha256":  "0c858309a1db5880704a08750b3bdcc97e53c9e4400dd5ded554b9e96567c375",
+    "normalized_csv_sha256":  "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402",
+    "scientific_contract_changed":  false,
+    "cadence_thresholds_changed":  false,
+    "site_independence_definition_changed":  false,
+    "comparison_control_rule_changed":  false,
+    "network_queries_for_repair":  0,
+    "source_catalog_queries":  0,
+    "pixel_downloads":  0,
+    "detector_runs":  0,
+    "invalid_zero_result_banked":  false
+}
