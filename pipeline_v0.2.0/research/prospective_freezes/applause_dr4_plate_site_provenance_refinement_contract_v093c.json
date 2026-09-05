@@ -1,0 +1,42 @@
+{
+  "contract_id": "applause_dr4_plate_site_provenance_refinement_v093c",
+  "status": "PROSPECTIVE_PROVENANCE_REFINEMENT",
+  "parent_stage": "applause_dr4_busko_first_cross_observatory_opportunity_census_v093",
+  "reason": "v093 used an archive-level site map. APPLAUSE DR4 exposes plate-level observatory, site_name, longitude and latitude. Because geographic independence is central, v093c reclassifies the already-found opportunities using plate-level observing-site metadata before any source-catalogue or pixel inspection.",
+  "scientific_order_preserved": true,
+  "candidate_or_source_outcomes_seen": false,
+  "site_independence_reporting": {
+    "same_recorded_site_name": "not geographically independent",
+    "coordinate_distance_bands_km": ["<1", "1-10", "10-50", "50-100", ">=100"],
+    "strong_independence_definition": "distinct normalized recorded site_name AND both site coordinates present AND great-circle site separation >=10 km",
+    "also_report_ge50km_and_ge100km": true,
+    "incomplete_coordinates": "preserve separately; do not count as strong independence"
+  },
+  "comparison_control_rule": {
+    "must_remain_same_archive_as_positive_endpoint": true,
+    "same_site_requirement": "comparison and positive endpoint must have the same normalized recorded site_name; if either site_name missing, both coordinates must be present and separation <1 km",
+    "different_physical_plate_required": true
+  },
+  "cadence_tiers_unchanged": {
+    "A_LE30MIN": "<=30 min",
+    "B_GT30_LE60MIN": ">30 to <=60 min",
+    "C_GT60_LE120MIN": ">60 to <=120 min"
+  },
+  "multiplicity_audit": [
+    "exposure-level opportunity counts",
+    "unique physical science plate-pair counts",
+    "unique positive/comparison physical-plate-pair counts",
+    "reuse count of comparison plates",
+    "repeat 1-minute-gap structure",
+    "numexp distribution of involved plates"
+  ],
+  "guards": {
+    "source_catalog_queries": 0,
+    "pixel_downloads": 0,
+    "fits_reads": 0,
+    "detector_runs": 0,
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "v093_outputs_modified": false
+  }
+}
