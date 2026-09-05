@@ -1,0 +1,96 @@
+{
+  "analysis_kind": "pair17_short_lag_population_label_reconciliation_v092b",
+  "archives": {
+    "Lippert-Astrograph (Hamburg)": 579
+  },
+  "candidate_disposition_changes": false,
+  "cause_of_v092a_reporting_error": {
+    "banked_population_values": [
+      "DIAGNOSTIC_179",
+      "PRIMARY_424"
+    ],
+    "effect": "tier_counts_primary and tier_counts_diagnostic in the v092a JSON were empty because labels are PRIMARY_424 and DIAGNOSTIC_179; row-level census/tier assignment was unaffected.",
+    "v092a_summary_filter_expected_exact_values": [
+      "PRIMARY",
+      "DIAGNOSTIC"
+    ]
+  },
+  "contract_sha256": "6a683fc9e72876e3adbd920b62762da7814a1c80610a0ccc1d2315e31946c992",
+  "distinct_actual_gap_minutes": {
+    "61.833333": 579
+  },
+  "distinct_comparison_plates": {
+    "7687": 579
+  },
+  "distinct_scans": {
+    "10000": 579
+  },
+  "guards": {
+    "candidate_disposition_changes": false,
+    "detector_reruns": 0,
+    "fits_reads": 0,
+    "network_calls": 0,
+    "new_pixel_measurements": 0,
+    "v092a_products_modified": false
+  },
+  "has_any_le60min_opportunity": false,
+  "pixel_validation_queue": {
+    "population_counts_exact": {
+      "DIAGNOSTIC_179": 92,
+      "PRIMARY_424": 178
+    },
+    "population_counts_normalized": {
+      "DIAGNOSTIC": 92,
+      "PRIMARY": 178
+    },
+    "rows": 270,
+    "tier_counts_by_normalized_population": {
+      "DIAGNOSTIC": {
+        "C_GT60_LE120MIN": 92
+      },
+      "PRIMARY": {
+        "C_GT60_LE120MIN": 178
+      }
+    },
+    "unique_candidates": 270
+  },
+  "population_counts_exact": {
+    "DIAGNOSTIC_179": 168,
+    "PRIMARY_424": 411
+  },
+  "population_counts_normalized": {
+    "DIAGNOSTIC": 168,
+    "PRIMARY": 411
+  },
+  "row_count": 579,
+  "status": "COMPLETE",
+  "temporal_relations": {
+    "FOLLOWING": 579
+  },
+  "tier_A_rows": 0,
+  "tier_B_rows": 0,
+  "tier_counts_all": {
+    "C_GT60_LE120MIN": 579
+  },
+  "tier_counts_by_exact_population": {
+    "DIAGNOSTIC_179": {
+      "C_GT60_LE120MIN": 168
+    },
+    "PRIMARY_424": {
+      "C_GT60_LE120MIN": 411
+    }
+  },
+  "tier_counts_by_normalized_population": {
+    "DIAGNOSTIC": {
+      "C_GT60_LE120MIN": 168
+    },
+    "PRIMARY": {
+      "C_GT60_LE120MIN": 411
+    }
+  },
+  "unique_candidates": 579,
+  "v092a_bank_manifest_sha256": "9ac0dcc474ab4eda7e9d1fee9bfd8dc67dcf8c47ffebda786ee69be7de4c1a59",
+  "v092a_products_modified": false,
+  "v092a_reported_tier_counts_diagnostic": {},
+  "v092a_reported_tier_counts_primary": {}
+}
