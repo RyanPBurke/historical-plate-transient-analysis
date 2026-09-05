@@ -1,0 +1,106 @@
+{
+  "cadence_definition": {
+    "comparison_exposure_must_not_overlap_positive_endpoint_exposure": true,
+    "comparison_must_be_different_physical_plate": true,
+    "primary_gap_metric": "actual interval-to-interval gap between an endpoint positive exposure and the independent comparison exposure from the same archive; midpoint differences are prohibited",
+    "tiers": {
+      "A_LE30MIN": {
+        "max_gap_seconds_inclusive": 1800
+      },
+      "B_GT30_LE60MIN": {
+        "max_gap_seconds_inclusive": 3600,
+        "min_gap_seconds_exclusive": 1800
+      },
+      "C_GT60_LE120MIN": {
+        "max_gap_seconds_inclusive": 7200,
+        "min_gap_seconds_exclusive": 3600
+      }
+    }
+  },
+  "contract_id": "applause_dr4_busko_first_cross_observatory_opportunity_census_v093",
+  "data_source": {
+    "expected_release_archive_count": 27,
+    "service": "APPLAUSE DR4 TAP",
+    "tables": [
+      "applause_dr4.archive",
+      "applause_dr4.exposure",
+      "applause_dr4.scan",
+      "applause_dr4.solution"
+    ],
+    "tap_async": "https://www.plate-archive.org/tap/async",
+    "tap_sync": "https://www.plate-archive.org/tap/sync"
+  },
+  "geometry": {
+    "exposure_to_solution_association": "within the same physical plate, choose the astrometric solution whose solution center is nearest to the exposure pointing; ties prefer larger num_xmatch. Preserve association separation.",
+    "intersection_method": "project polygon corners to a shared local tangent plane and compute convex polygon clipping. This is catalogue-footprint opportunity geometry, not final pixel-level WCS validation.",
+    "source": "applause_dr4.solution.stc_polygon"
+  },
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "fits_pixel_reads": 0,
+    "pixel_downloads": 0,
+    "source_catalog_queries": 0,
+    "threshold_retuning_after_results": false
+  },
+  "independence": {
+    "cross_observatory_pair_requires_distinct_site_group": true,
+    "same_archive_comparison_role": "allowed because it is a temporal negative/control, not an independent positive observatory",
+    "unknown_site_archives_excluded_from_independence_claims": true
+  },
+  "primary_scientific_order": [
+    "download/freeze APPLAUSE DR4 archive, exposure, scan, and astrometric-solution metadata",
+    "construct digitally usable exposure registry (scan + timing + sky footprint)",
+    "find within-archive same-field short-cadence comparison opportunities",
+    "find cross-observatory positive exposure-time overlaps",
+    "filter those overlaps by sky-footprint intersection",
+    "for each cross-observatory space-time opportunity, identify independent same-archive comparison plates",
+    "rank opportunities by prospectively frozen cadence tiers",
+    "do not inspect source detections, pixels, Gaia matches, candidate outcomes, or prior transient rankings"
+  ],
+  "resumability": {
+    "completed_metadata_downloads_reused_on_rerun": true,
+    "progress_and_query_manifests_written_incrementally": true,
+    "raw_tap_csv_responses_cached_with_sha256": true,
+    "safe_to_rerun_after_interruption": true
+  },
+  "same_field_definition": {
+    "also_preserve_any_positive_overlap_as_context": true,
+    "busko_primary_minimum_overlap_fraction_of_smaller_footprint": 0.5,
+    "comparison_primary_requires_covering_at_least_fraction_of_science_common_footprint": 0.5,
+    "cross_observatory_science_pair_requires_positive_stc_polygon_intersection": true
+  },
+  "scope": "Stage 1 of the redesigned global experiment: exhaustively census all 27 APPLAUSE DR4 instrument archives using metadata only. Apply Busko-style short-cadence same-field opportunity selection before any transient/source inspection; then identify physically overlapping exposures at distinct observatory sites; then require catalogue STC footprint intersection; then identify short-lag independent same-archive comparison exposures.",
+  "site_group_map": {
+    "1": "Potsdam",
+    "101": "Hamburg",
+    "102": "Hamburg",
+    "103": "Hamburg",
+    "104": "Calar Alto",
+    "105": "Bonn",
+    "106": "Hamburg",
+    "107": "Hamburg",
+    "108": "La Silla",
+    "109": "Hamburg",
+    "110": "Hamburg",
+    "111": "Hamburg",
+    "2": "Potsdam",
+    "202": "South Africa",
+    "203": "South Africa",
+    "204": "New Zealand",
+    "205": "Argentina",
+    "206": "South Africa",
+    "207": "South Africa",
+    "208": "Bamberg",
+    "3": "Potsdam",
+    "301": "Tartu",
+    "4": "Potsdam",
+    "401": "Tautenburg",
+    "5": "Potsdam",
+    "501": "Castel Gandolfo",
+    "6": "UNKNOWN"
+  },
+  "site_map_note": "Conservative operational grouping from APPLAUSE archive documentation. Archive 006 is left UNKNOWN and is not permitted to contribute to an observatory-independence claim in v093.",
+  "status": "PROSPECTIVE_FREEZE"
+}
