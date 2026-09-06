@@ -1,0 +1,76 @@
+{
+  "contract_id": "applause_dr4_gaia_identity_control_recovery_operational_amendment_v094g1",
+  "status": "PROSPECTIVE_OPERATIONAL_ACQUISITION_AMENDMENT_V094G1",
+  "parent_scientific_freeze_commit": "edb7663eac6d6e57cefecbc7e18ee5a553238484",
+  "purpose": "Repair only TAP transport for frozen v094g after repeated HTTP 504 responses occurred before any science source_calib result was successfully cached. Preserve the v094g deterministic sample, queried fields, source-identity rules, control-recovery rules, thresholds, guards, and interpretive boundary unchanged.",
+  "failure_observed_before_amendment": {
+    "stage": "first science source_calib acquisition batch",
+    "original_source_ids_per_science_query": 2000,
+    "attempts": 5,
+    "observed_error_class": "HTTP 504 Gateway Timeout",
+    "successful_science_source_calib_batches_known": 0,
+    "gaia_identity_outcomes_seen": 0,
+    "control_recovery_outcomes_seen": 0,
+    "plate_metadata_outcomes_seen": 0
+  },
+  "scientific_semantics_unchanged": {
+    "frozen_candidate_population_counts": {
+      "W251_275": 243829,
+      "W276_300": 60601,
+      "OUTSIDE_251_300": 23453,
+      "TOTAL": 327883
+    },
+    "sample_targets": {
+      "W251_275": 10000,
+      "W276_300": 5000,
+      "OUTSIDE_251_300": 10000
+    },
+    "expected_deterministic_sample_sha256": "d2b39fdbad4af36934be356b894affe227c4e211ac5e113a90609dc5c19b9c33",
+    "science_fields": "identical to frozen v094g",
+    "control_fields": "identical to frozen v094g",
+    "plate_fields": "identical to frozen v094g",
+    "gaia_identity_rules": "identical to frozen v094g",
+    "control_recovery_rules": "identical to frozen v094g",
+    "quality_thresholds": "identical to frozen v094g",
+    "no_candidate_csv_read": true,
+    "no_threshold_retuning": true
+  },
+  "transport_amendment": {
+    "science_source_calib": {
+      "initial_source_ids_per_query": 250,
+      "adaptive_split_on_transport_or_gateway_failure": true,
+      "minimum_source_ids_per_query_before_hold": 25,
+      "cache_key": "SHA256 of exact ordered source_id set",
+      "completed_leaf_queries_are_reused_on_restart": true,
+      "all_original_requested_source_ids_must_be_returned_before_analysis": true
+    },
+    "control_source_calib": {
+      "maximum_scan_gaia_pairs_per_query": 150,
+      "maximum_scan_clauses_per_query": 8,
+      "maximum_gaia_ids_per_scan_clause": 100,
+      "scientific_recovery_target_set_unchanged": true
+    },
+    "plate_metadata": {
+      "plate_ids_per_query": 150,
+      "fields_unchanged": true
+    }
+  },
+  "guards": {
+    "individual_candidate_human_inspection": 0,
+    "candidate_csv_reads": 0,
+    "candidate_disposition_changes": 0,
+    "candidate_rows_deleted_or_promoted": 0,
+    "corrected_science_population_construction": 0,
+    "registration": 0,
+    "pixel_or_fits_reads": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "gaia_network_queries": 0,
+    "threshold_retuning": 0,
+    "candidate_or_source_or_gaia_identifiers_in_result_outputs": 0,
+    "candidate_coordinates_in_result_outputs": 0
+  },
+  "working_data_boundary": "Machine-only work caches may contain sampled source IDs, Gaia IDs, and calibrated positions because they are necessary for reproducible aggregate source-identity testing. They are not candidate adjudication products, are not printed to the console, and must not be copied into result outputs. Raw TAP responses are retained under work/ for provenance.",
+  "interpretive_boundary": "v094g1 is an operational continuation of frozen v094g. It may identify aggregate evidence that v094c rows are dominated by persistent Gaia-associated sources, control astrometric displacement, source-specific control non-recovery, crowding, artifacts, or plate-response differences. It does not establish any individual source as transient or non-transient, does not adjudicate a candidate, and does not define or execute a corrected Branch A/B/C population.",
+  "next_stop": "Interpret v094g1 Gaia/control-recovery mechanism evidence before corrected-population design, candidate inspection, or registration."
+}
