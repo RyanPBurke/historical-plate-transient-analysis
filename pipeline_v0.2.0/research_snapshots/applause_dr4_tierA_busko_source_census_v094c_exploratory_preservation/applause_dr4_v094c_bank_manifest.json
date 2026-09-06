@@ -1,0 +1,11 @@
+{
+  "analysis_kind": "applause_dr4_tierA_busko_source_census_v094c_bank_manifest",
+  "candidate_csv_sha256": "68f1e5f0a42a2c292371c930aad51ff8a5d7d2bd4d71e5026449b35928939d1d",
+  "candidate_dispositions_changed": false,
+  "minimal_per_scan_cache_reused_from_v094b": true,
+  "report_sha256": "73dd190c2185b17b188d8eb3f58fcca9b0b02f68e00f389c82f015a266c9ab18",
+  "status": "COMPLETE",
+  "v094b_acquisition_manifest_sha256": "7c5bd67de895061b82a8f4df96d5f08492a6cf9c82f58f6399b7dc8e14b3f01c",
+  "zero_source_audit_sha256": "20396331bda88bcf99750e557de1493dbf4147223714bd1f0c5b5c5f8917a1ca",
+  "zero_source_hold_csv_sha256": "c97a3093992905b0b7119a83d147d202384b6f407fc2ca5611efd858153a9643"
+}

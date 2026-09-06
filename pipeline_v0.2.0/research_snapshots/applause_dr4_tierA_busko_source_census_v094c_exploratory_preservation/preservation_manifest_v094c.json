@@ -1,0 +1,66 @@
+{
+  "analysis_kind": "applause_dr4_v094c_exploratory_preservation",
+  "candidate_archive": {
+    "gzip_mtime": 0,
+    "gzip_name": "applause_dr4_tierA_busko_independent_catalogue_candidates_v094c.csv.gz",
+    "gzip_original_filename_field": "",
+    "gzip_sha256": "dc6fc6c27db7651afcb9add2c2e392984b4d60c450e2ab394b4d24f17968add3",
+    "gzip_size_bytes": 12466164,
+    "source_sha256": "68f1e5f0a42a2c292371c930aad51ff8a5d7d2bd4d71e5026449b35928939d1d",
+    "source_size_bytes": 122595835,
+    "storage": "single_deterministic_gzip",
+    "verified_uncompressed_roundtrip_sha256": "68f1e5f0a42a2c292371c930aad51ff8a5d7d2bd4d71e5026449b35928939d1d"
+  },
+  "candidate_csv_integrity_basis": "verified_against_frozen_v094c_report_and_bank",
+  "candidate_csv_parsed": false,
+  "copied_files": [
+    {
+      "name": "applause_dr4_tierA_busko_source_census_v094c.json",
+      "sha256": "73dd190c2185b17b188d8eb3f58fcca9b0b02f68e00f389c82f015a266c9ab18",
+      "size_bytes": 2258,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\results\\applause_dr4_tierA_busko_source_census_v094c\\applause_dr4_tierA_busko_source_census_v094c.json"
+    },
+    {
+      "name": "applause_dr4_v094c_bank_manifest.json",
+      "sha256": "aad4a277797be0e5f33e5d48c19cbd4873c14482c18fa6efb08af3fe504f23d4",
+      "size_bytes": 701,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\results\\applause_dr4_tierA_busko_source_census_v094c\\applause_dr4_v094c_bank_manifest.json"
+    },
+    {
+      "name": "applause_dr4_tierA_zero_source_triplet_holds_v094c.csv",
+      "sha256": "c97a3093992905b0b7119a83d147d202384b6f407fc2ca5611efd858153a9643",
+      "size_bytes": 2381,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\results\\applause_dr4_tierA_busko_source_census_v094c\\applause_dr4_tierA_zero_source_triplet_holds_v094c.csv"
+    },
+    {
+      "name": "zero_source_audit_v094c.json",
+      "sha256": "20396331bda88bcf99750e557de1493dbf4147223714bd1f0c5b5c5f8917a1ca",
+      "size_bytes": 3941,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\work\\applause_dr4_tierA_busko_source_census_v094c\\state\\zero_source_audit_v094c.json"
+    },
+    {
+      "name": "applause_dr4_tierA_busko_source_census_zero_source_continuation_contract_v094c.json",
+      "sha256": "a1565dcae73c886441c901d99386dcf07d5c29dbd6307c9c7ea98964f5e7bec7",
+      "size_bytes": 2428,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\research\\prospective_freezes\\applause_dr4_tierA_busko_source_census_zero_source_continuation_contract_v094c.json"
+    },
+    {
+      "name": "run_applause_dr4_tierA_busko_source_census_v094c.py",
+      "sha256": "89bc8b0c4d93a9057a6aaec62495f974ef32762b2556a31a0d65fe79e2520492",
+      "size_bytes": 33644,
+      "source": "C:\\Dev\\Transients\\historical_transient_laptop_pipeline_v0.2.0_publication\\transient_laptop_pipeline_v0.2.0\\tools\\run_applause_dr4_tierA_busko_source_census_v094c.py"
+    }
+  ],
+  "frozen_expected_hashes": {
+    "bank": "aad4a277797be0e5f33e5d48c19cbd4873c14482c18fa6efb08af3fe504f23d4",
+    "contract": "a1565dcae73c886441c901d99386dcf07d5c29dbd6307c9c7ea98964f5e7bec7",
+    "report": "73dd190c2185b17b188d8eb3f58fcca9b0b02f68e00f389c82f015a266c9ab18",
+    "runner": "89bc8b0c4d93a9057a6aaec62495f974ef32762b2556a31a0d65fe79e2520492"
+  },
+  "known_limitations_recorded": true,
+  "label": "Exploratory raw-coordinate screening baseline; preserved for reproducibility and superseded for confirmatory inference.",
+  "outcome_knowledge_file": "outcome_knowledge_at_preservation.json",
+  "preservation_is_scientific_validation": false,
+  "status": "COMPLETE",
+  "zero_source_hold_integrity_basis": "verified_against_frozen_v094c_report_and_bank"
+}

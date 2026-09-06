@@ -1,0 +1,60 @@
+{
+  "analysis_kind": "applause_dr4_tierA_busko_source_census_v094c",
+  "candidate_csv_sha256": "68f1e5f0a42a2c292371c930aad51ff8a5d7d2bd4d71e5026449b35928939d1d",
+  "candidate_dispositions_changed": false,
+  "catalogue_absence_is_qualified_negative": false,
+  "catalogue_candidate_rows": 327883,
+  "catalogue_candidate_unique_positions_3arcsec_reporting_only": null,
+  "confirmation_class_counts": {
+    "DIAGNOSTIC_GT3_LE5": 74182,
+    "PRIMARY_LE3": 253701
+  },
+  "confirmed_zero_source_scan_ids": [
+    109445,
+    114677,
+    114682,
+    114813,
+    115031,
+    115911,
+    116377,
+    116528,
+    117980
+  ],
+  "contract_sha256": "a1565dcae73c886441c901d99386dcf07d5c29dbd6307c9c7ea98964f5e7bec7",
+  "epoch_stratum_counts": {
+    "POST_SPUTNIK_OR_SAME_LAUNCH_DATE": 18486,
+    "PRE_SPUTNIK": 309397
+  },
+  "frozen_tierA_triplets": 784,
+  "global_3arcsec_deduplication_status": "DEFERRED_MEMORY_BOUNDED_POST_CENSUS_STAGE",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "fits_reads": 0,
+    "network_queries": 0,
+    "pixel_downloads": 0,
+    "source_quality_thresholds_applied": 0
+  },
+  "mechanical_counter": {
+    "DIAGNOSTIC_GT3_LE5": 74182,
+    "PRIMARY_LE3": 253701,
+    "busko_catalog_mismatch": 4450103,
+    "candidate_not_covered_all3": 21131727,
+    "control_catalog_match_le5": 13002737,
+    "no_independent_match_le5": 4122220
+  },
+  "mechanically_matchable_triplets": 763,
+  "parent_v094b_contract_sha256": "d277b2ca4ca85f5c225989c9bb0694a1b0a9fc70749f41e5b08b13ac9989009b",
+  "parent_v094b_runner_sha256": "67d2b6a27d168e9b4653375288b0f0e8b47644721365e46b2aa21c56119860b7",
+  "scan_support_class_counts": {
+    "MULTISCAN_CONFIRMED|SINGLE_SCAN": 234014,
+    "SINGLE_SCAN|MULTISCAN_CONFIRMED": 34296,
+    "SINGLE_SCAN|SINGLE_SCAN": 59573
+  },
+  "status": "COMPLETE",
+  "v094b_acquisition_manifest_sha256": "7c5bd67de895061b82a8f4df96d5f08492a6cf9c82f58f6399b7dc8e14b3f01c",
+  "zero_source_audit_sha256": "20396331bda88bcf99750e557de1493dbf4147223714bd1f0c5b5c5f8917a1ca",
+  "zero_source_held_triplets": 21,
+  "zero_source_hold_csv_sha256": "c97a3093992905b0b7119a83d147d202384b6f407fc2ca5611efd858153a9643"
+}

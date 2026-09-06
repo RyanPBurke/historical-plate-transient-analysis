@@ -1,0 +1,12 @@
+{
+  "blinding_status": "PARTIAL_OUTCOME_KNOWLEDGE",
+  "known_at_preservation": {
+    "aggregate_yield_concentration_was_inspected": true,
+    "diagnostic_gt3_le5_rows": 74182,
+    "individual_global_v094c_candidate_coordinates_inspected": false,
+    "individual_global_v094c_candidate_identities_inspected": false,
+    "primary_le3_rows": 253701,
+    "v094c_candidate_catalogue_rows": 327883
+  },
+  "preserved_utc": "2026-09-06T01:01:21.095453+00:00"
+}

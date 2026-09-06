@@ -1,0 +1,144 @@
+{
+  "confirmed_zero_source_scan_ids": [
+    109445,
+    114677,
+    114682,
+    114813,
+    115031,
+    115911,
+    116377,
+    116528,
+    117980
+  ],
+  "evidence": {
+    "109445": {
+      "batch_rows": 155582,
+      "batch_scan_ids": [
+        109439,
+        109440,
+        109441,
+        109444,
+        109445,
+        109447
+      ],
+      "raw_sha256": "30eacc27853341896646ebbfd0a862138652c14c6bbf058fbe7780c255303266",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "114677": {
+      "batch_rows": 75723,
+      "batch_scan_ids": [
+        114631,
+        114677,
+        114678,
+        114681,
+        114682,
+        114685
+      ],
+      "raw_sha256": "e7bd8d43d703a41034da6c19f3e5ce3f158172520acdd8401f5856831d21df24",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "114682": {
+      "batch_rows": 75723,
+      "batch_scan_ids": [
+        114631,
+        114677,
+        114678,
+        114681,
+        114682,
+        114685
+      ],
+      "raw_sha256": "e7bd8d43d703a41034da6c19f3e5ce3f158172520acdd8401f5856831d21df24",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "114813": {
+      "batch_rows": 87263,
+      "batch_scan_ids": [
+        114806,
+        114813,
+        114817,
+        115026,
+        115027,
+        115030
+      ],
+      "raw_sha256": "6ff497ad0ccb197612978c8e2b1f4233342acddf17f42ae4ecd63497fa96a74f",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "115031": {
+      "batch_rows": 101102,
+      "batch_scan_ids": [
+        115031,
+        115034,
+        115035,
+        115036,
+        115038,
+        115039
+      ],
+      "raw_sha256": "8e087fc0b55d8858d587887afac1497f212c3a285ce55e240966a36c48204ede",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "115911": {
+      "batch_rows": 109171,
+      "batch_scan_ids": [
+        115842,
+        115858,
+        115910,
+        115911,
+        115923,
+        115927
+      ],
+      "raw_sha256": "7ef34613de0eb3763802a78c47e7d69707fd09942d5d2faebac61a8ae7e26baa",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "116377": {
+      "batch_rows": 115653,
+      "batch_scan_ids": [
+        116372,
+        116376,
+        116377,
+        116381,
+        116385,
+        116455
+      ],
+      "raw_sha256": "852031a1d3072830d8900d3bc7962b830fc1e316813b15fdb5d797ab79ee0030",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "116528": {
+      "batch_rows": 102176,
+      "batch_scan_ids": [
+        116492,
+        116496,
+        116524,
+        116528,
+        116547,
+        116551
+      ],
+      "raw_sha256": "bc66f001652970731169d84ace150d83a4fdbe8f3a71b6e2435bdf7ef38a709d",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    },
+    "117980": {
+      "batch_rows": 170569,
+      "batch_scan_ids": [
+        117977,
+        117980,
+        117982,
+        117985,
+        117990,
+        118022
+      ],
+      "raw_sha256": "89074b45eb5eb7c856bbcb1f7561114b240203e3950800a4e10feccd987c4039",
+      "source": "v094b_completed_minimal_batch",
+      "status": "CONFIRMED_ZERO_ROWS_IN_COMPLETE_RESPONSE"
+    }
+  },
+  "status": "COMPLETE",
+  "v094b_acquisition_manifest_sha256": "7c5bd67de895061b82a8f4df96d5f08492a6cf9c82f58f6399b7dc8e14b3f01c",
+  "v094b_salvage_manifest_sha256": "c910950a106ba9226b4757a91836e87c7d39f3d9469ded6585775ca6b0494ecb"
+}
