@@ -1,0 +1,74 @@
+{
+  "contract_id": "applause_dr4_catalogue_independence_completeness_audit_v094f",
+  "status": "PROSPECTIVE_CATALOGUE_INDEPENDENCE_COMPLETENESS_AUDIT",
+  "parent_freeze_commit": "7dc5f1dde1e9b9d84b3b760a4792f23e324609a6",
+  "purpose": "Determine whether the v094c/v094e yield pathology is primarily caused by repeated persistent astronomical sources plus control-catalogue incompleteness/depth differences, by abnormally duplicated/non-independent science catalogues, or by local random-coincidence density. Do this before candidate inspection, registration, threshold changes, or corrected population construction.",
+  "known_at_freeze": {
+    "v094e_candidate_rows": 327883,
+    "v094e_matchable_triplets": 763,
+    "v094e_order_251_275_candidate_share": 0.7436463616594944,
+    "v094e_order_251_300_candidate_share": 0.9284714364575168,
+    "v094e_order_251_300_independent_confirm_rate_ratio_vs_outside": 71.15851505759197,
+    "v094e_exact_coordinate_reuse_fraction": 0.8889420921487238,
+    "v094e_positive_source_reuse_fraction": 0.8889420921487238,
+    "v094e_positive_independent_pair_reuse_fraction": 0.35150343262688216,
+    "v094e_global_nn_le3_fraction": 0.9344735774651324,
+    "v094e_timing_invalid_candidate_rows": 19,
+    "v094e_control_threshold_edge_explanation_supported": false,
+    "individual_candidate_coordinates_or_identities_seen": false
+  },
+  "guards": {
+    "individual_candidate_inspection": 0,
+    "candidate_csv_reads": 0,
+    "candidate_coordinates_read": 0,
+    "candidate_source_ids_read": 0,
+    "candidate_coordinates_written": 0,
+    "candidate_source_ids_written": 0,
+    "candidate_disposition_changes": 0,
+    "candidate_rows_deleted_or_promoted": 0,
+    "corrected_science_population_construction": 0,
+    "registration": 0,
+    "pixel_or_fits_reads": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "source_calib_queries": 0,
+    "threshold_retuning": 0
+  },
+  "allowed_inputs": {
+    "v094e_per_triplet_aggregate": "read-only; contains no candidate coordinates/source IDs",
+    "v094e_aggregate_report": "read-only",
+    "v094c_frozen_minimal_source_caches": "read-only source_id/ra/dec arrays; source identifiers may be used only to derive process_id provenance and are never emitted",
+    "v093_scan_and_solution_metadata": "read-only geometry/provenance",
+    "v094d_master_exposure_registry": "read-only exposure/archive stratification",
+    "applause_dr4.process": "network acquisition allowed only for fixed process-level fields and process IDs derived from frozen source caches; no source/candidate query"
+  },
+  "fixed_null_test": {
+    "population": "positive representatives that pass frozen all-three coverage and frozen control mismatch >5 arcsec",
+    "observed_test": "nearest independent representative <=5 arcsec",
+    "shift_offsets_arcsec": [
+      [30, 0], [-30, 0], [0, 30], [0, -30],
+      [60, 0], [-60, 0], [0, 60], [0, -60]
+    ],
+    "shift_validity": "shifted coordinate must remain inside at least one independent scan solution polygon",
+    "interpretation": "shifted matches estimate local chance-coincidence density while breaking the original positive-independent positional association"
+  },
+  "fixed_pair_overlap_thresholds_arcsec": [0.01, 0.1, 0.5, 1.0, 3.0, 5.0],
+  "prospective_questions": [
+    "Does the observed positive-independent confirmation excess remain far above local shifted-position chance coincidence, especially in matchable ordinals 251-275 and 251-300?",
+    "Are nominally independent science catalogues exact or near-exact duplicates at a level inconsistent with independent plate processing?",
+    "Do different scan IDs or different plate IDs share exact calibrated-coordinate catalogue fingerprints or a source-derived process_id?",
+    "Are high-yield triplets associated with controls having substantially fewer calibrated sources than the positive/independent science scans?",
+    "Are high-yield triplets associated with process-level source-count, true-source fraction, artifact fraction, faint-limit, calibration, or processing differences between science and control roles?",
+    "Which archive-role combinations carry the aggregate pathology?",
+    "Does the repeated-row inflation arise mainly from reusing the same positive plate/source opportunity across multiple controls rather than independent physical events?"
+  ],
+  "required_outputs": [
+    "per_triplet_catalogue_independence_completeness_v094f.csv",
+    "science_pair_catalogue_overlap_v094f.csv",
+    "scan_process_fingerprint_audit_v094f.csv",
+    "applause_dr4_catalogue_independence_completeness_audit_v094f.json",
+    "v094f_output_manifest.sha256"
+  ],
+  "interpretive_boundary": "v094f diagnoses catalogue independence, local chance coincidence, and completeness/depth proxies. It does not establish that any source is transient or persistent at candidate level, does not qualify a catalogue absence, and does not define or execute the corrected Branch A/B/C population.",
+  "next_stop": "Interpret v094f mechanism evidence before corrected-population design, candidate inspection, or registration."
+}

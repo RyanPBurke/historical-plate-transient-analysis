@@ -1,0 +1,43 @@
+{
+  "frozen_local_inputs": {
+    "source_cache_inventory_repo_path": "pipeline_v0.2.0/research/prospective_freezes/applause_dr4_v094c_source_cache_inventory_v094e.csv",
+    "source_cache_inventory_rows": 1073,
+    "source_cache_inventory_sha256": "552a93fbcb13f61a5a3335d735815d8155b17d08d83de3aa58e41cfccb365394",
+    "v093_scan_cache": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/scan.csv",
+    "v093_scan_cache_sha256": "e6879ca2c1e63a75f50920221a90a3896d9ff2c39a5cd0a7eda4df65b456e22d",
+    "v093_solution_cache": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/solution.csv",
+    "v093_solution_cache_sha256": "a3ceb6d63d27dc594875e9ad4b29e3716dd921a629113e92ca35e2e5b28a10bc",
+    "v094c_runner": "tools/run_applause_dr4_tierA_busko_source_census_v094c.py",
+    "v094c_runner_sha256": "89bc8b0c4d93a9057a6aaec62495f974ef32762b2556a31a0d65fe79e2520492",
+    "v094d_master_registry": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/master_fragment_timing_recoverability_registry_v094d.csv",
+    "v094d_master_registry_sha256": "76a84077ac6163ba4061c269167871290990cd11ffe3767506e973b84c150c8d"
+  },
+  "guards_at_provenance_preparation": {
+    "candidate_coordinates_read": false,
+    "candidate_csv_read": false,
+    "candidate_source_ids_read": false,
+    "network_queries": 0,
+    "v094f_results_seen": false
+  },
+  "parent_v094e_freeze_commit": "7dc5f1dde1e9b9d84b3b760a4792f23e324609a6",
+  "status": "FROZEN_PARENT_PROVENANCE_PREPARED_BEFORE_V094F_EXECUTION",
+  "v094e": {
+    "known_aggregate": {
+      "candidate_rows": 327883,
+      "exact_coordinate_reuse_fraction": 0.8889420921487238,
+      "matchable_triplets": 763,
+      "order_251_275_share": 0.7436463616594944,
+      "order_251_300_share": 0.9284714364575168,
+      "triplets": 784,
+      "zero_source_holds": 21
+    },
+    "order_bins": "results/applause_dr4_aggregate_pathology_audit_v094e/matchable_order_25bin_pathology_v094e.csv",
+    "order_bins_sha256": "14fc96f1ccad5288988f7a1b356dd1b20c9204ec1c2f06e18d76ccfe932ac1d5",
+    "output_manifest": "results/applause_dr4_aggregate_pathology_audit_v094e/v094e_output_manifest.sha256",
+    "output_manifest_sha256": "cde2a2224c951ec5c76aea3a666fac083919939a8d748304612249d4b043794c",
+    "per_triplet": "results/applause_dr4_aggregate_pathology_audit_v094e/per_triplet_mechanical_funnel_v094e.csv",
+    "per_triplet_sha256": "20e43e655d3bdb502ce56bc792e2268506e49efb4ff481f1d7daa0b9f0d25b9d",
+    "report": "results/applause_dr4_aggregate_pathology_audit_v094e/applause_dr4_aggregate_pathology_audit_v094e.json",
+    "report_sha256": "ea1697a17537c0e5fc2ccfec54f18a0807b47184d427c44add5aaf484b6733a0"
+  }
+}
