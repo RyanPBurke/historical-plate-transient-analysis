@@ -1,0 +1,55 @@
+{
+  "guards": {
+    "candidate_csv_reads": 0,
+    "candidate_outcomes_seen": 0,
+    "pixels": 0,
+    "source_catalog_reads": 0,
+    "temporal_pairing": 0
+  },
+  "plate_site_name_counts_before_pairing": {
+    "": 21,
+    "Bonn, Germany": 754,
+    "Boyden Observatory, Bloemfontein, South Africa": 16675,
+    "Calar Alto Observatory, Spain": 3255,
+    "Castel Gandolfo, Italy": 544,
+    "Dr. Remeis-Observatory, Bamberg, Germany": 18681,
+    "Hamburg-Bergedorf, Germany": 32801,
+    "Hotel Esplanade, Davos, Switzerland": 26,
+    "Hotel Schatzalp, Davos, Switzerland": 38,
+    "Karl Schwarzschild Observatorium, Germany": 4101,
+    "La Silla, Chile": 2099,
+    "Mount John Observatory, Lake Tekapo, New Zealand": 5266,
+    "Muottas Muragl, Switzerland": 93,
+    "Observatorio de Fisica Cosmica, San Miguel, Argentina": 870,
+    "Potsdam-Telegrafenberg": 6585,
+    "Tartu, Estonia (MPC code 075)": 2275,
+    "between Punt Muragl and Lake Staaz, Swit": 6
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094H_EXECUTION",
+  "v093d_plate_cache": {
+    "path": "work/applause_dr4_plate_site_provenance_refinement_v093c/tap_cache/plate.csv",
+    "rows": 94090,
+    "sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402"
+  },
+  "v094d_master": {
+    "path": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/master_fragment_timing_recoverability_registry_v094d.csv",
+    "rows_expected": 139539,
+    "sha256": "76a84077ac6163ba4061c269167871290990cd11ffe3767506e973b84c150c8d"
+  },
+  "v094d_normalized": {
+    "scan_full": {
+      "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/scan_full.csv",
+      "rows": 121855,
+      "sha256": "afcdc7993fe79355f616ec50b6dad5e37c6a12b5225bcc6dfc540fb72cf736ca"
+    },
+    "solution_full": {
+      "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+      "rows": 117854,
+      "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+    }
+  },
+  "v094d_report": {
+    "path": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/applause_dr4_fragment_timing_recoverability_audit_v094d.json",
+    "sha256": "79dc2cc3dfffce54c7109c802cb8f5c9454530238890d4e7ed7d74558918c7c9"
+  }
+}

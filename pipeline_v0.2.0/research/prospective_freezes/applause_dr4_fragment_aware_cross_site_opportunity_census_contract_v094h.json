@@ -1,0 +1,77 @@
+{
+  "baseline_reporting_bins_km": [
+    "LT10",
+    "GE10_LT50",
+    "GE50_LT100",
+    "GE100_LT500",
+    "GE500_LT1000",
+    "GE1000",
+    "UNKNOWN"
+  ],
+  "contract_id": "applause_dr4_fragment_aware_cross_site_opportunity_census_v094h",
+  "epoch_labels": [
+    "IN_1951_1955",
+    "PRE_SPUTNIK",
+    "POST_SPUTNIK_OR_SAME_LAUNCH_DATE"
+  ],
+  "geometry": {
+    "coverage_threshold": "No 50-percent coverage cutoff for population inclusion. Record overlap fractions and >=50% smaller-footprint status diagnostically.",
+    "sky_intersection": "Project both four-corner STC polygons to a shared gnomonic tangent plane and convex-clip them. Require strictly positive intersection area.",
+    "solution_association": "Within the same physical plate, among solutions belonging to scans with filenames and valid STC polygons, choose smallest angular separation between parent exposure ra_icrs/dec_icrs and solution center; ties prefer larger num_xmatch then smaller solution_id. If fov1/fov2 exist, require separation <= max(1 deg, 0.75*hypot(fov1,fov2))."
+  },
+  "guards": {
+    "candidate_adjudication": 0,
+    "candidate_csv_reads": 0,
+    "candidate_disposition_changes": 0,
+    "detector_runs": 0,
+    "external_gaia_queries": 0,
+    "fits_reads": 0,
+    "minimum_site_distance_km": null,
+    "pixel_downloads": 0,
+    "registration": 0,
+    "same_site_control_requirement": false,
+    "source_catalog_queries": 0,
+    "threshold_retuning_after_results": false
+  },
+  "known_aggregate_outcome_context_at_freeze": {
+    "individual_candidate_inspection_before_v094h": false,
+    "v094c_candidate_population": "retired_from_confirmatory_use",
+    "v094d": "fragment-aware timing repair completed with zero v093 reconstruction mismatches",
+    "v094e_to_v094g1": "aggregate diagnostics localized the v094c excess to persistent-source/marginal-extraction/unqualified-control-nondetection pathology"
+  },
+  "population_definition": {
+    "ambiguous_site": "Hold exposures with missing site_name from the primary cross-site denominator rather than inferring a site from archive or coordinates.",
+    "digital_footprint": "Require a plausible astrometric solution associated by the frozen v093 rule and a positive STC-polygon intersection.",
+    "fragment_timing": "Use v094d fragment_intervals_json exactly. For multi-sub exposures, only structurally supported exposure_sub intervals may contribute. Do not collapse discontinuous fragments to a parent envelope.",
+    "known_coordinate_semantics": "Apply the frozen v093e Bamberg longitude/latitude swap; otherwise use APPLAUSE site_longitude/site_latitude as named and label whether the site semantics were previously validated in v093e. Baseline is diagnostic only.",
+    "parent_coordinates": "ra_icrs/dec_icrs required for exposure-to-solution association. Scan/solution coordinates may not substitute for missing parent coordinates.",
+    "same_site": "Retain only as aggregate co-site replication context; do not call it independent cross-observatory evidence.",
+    "site_distance": "Record great-circle baseline diagnostically where coordinates are available. Distance never determines inclusion.",
+    "site_identity": "Primary cross-site inclusion requires two non-empty normalized plate.site_name values that differ. No minimum distance threshold.",
+    "source_universe": "all 139,539 APPLAUSE DR4 exposures in frozen v094d master registry",
+    "timing_eligible_statuses": [
+      "PROVISIONAL_PARENT_INTERVAL_NO_EXPLICIT_WARNING",
+      "OPPORTUNITY_TIMING_SUPPORTED_FEATURE_FRAGMENT_UNIDENTIFIED"
+    ]
+  },
+  "required_parent_git_commit": "1d429cc204d9ff03c87fc58c1463668735416148",
+  "scientific_role": "Fresh metadata-only observing-opportunity denominator. v094c is preserved as an exploratory failure mode and is not an input population.",
+  "status": "PROSPECTIVE_POPULATION_REBUILD",
+  "stop_rule": "Stop after the opportunity census and interpret population/site/timing/geometry holds before any source-level search.",
+  "time_gates": {
+    "cumulative_gates_seconds": [
+      300,
+      600,
+      900
+    ],
+    "exclusive_bins": [
+      "OVERLAP",
+      "GT0_LE5MIN",
+      "GT5_LE10MIN",
+      "GT10_LE15MIN"
+    ],
+    "midpoint": "may be retained as secondary metadata only; never used for gate membership",
+    "overlap": "record every positive-duration continuous-fragment intersection interval for the exposure pair",
+    "primary_metric": "minimum actual continuous-fragment interval gap; zero if fragments overlap"
+  }
+}
