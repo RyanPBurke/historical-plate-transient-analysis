@@ -1,0 +1,127 @@
+{
+  "contract_id": "applause_dr4_gaia_identity_control_recovery_audit_v094g",
+  "status": "PROSPECTIVE_GAIA_IDENTITY_CONTROL_RECOVERY_AUDIT",
+  "parent_freeze_commit": "9fba0d822795c2eea894989b4feca7a3e42e70f1",
+  "purpose": "Determine, using a deterministic aggregate sample of the frozen v094c mechanical candidates reconstructed without reading the candidate CSV, whether positive/independent confirmations are usually detections of the same Gaia EDR3 object and whether that same object is present on the control scan but displaced beyond the frozen 5 arcsec control gate, absent despite predicted detectability, or unresolved. This is a mechanism audit only, before corrected population construction, candidate inspection, or registration.",
+  "known_at_freeze": {
+    "v094f_matchable_triplets": 763,
+    "v094f_window_251_300_observed_confirm_rate": 0.44343033265650356,
+    "v094f_window_251_300_shifted_null30_rate_approx": 0.024727,
+    "v094f_window_251_300_shifted_null60_rate_approx": 0.024616,
+    "v094f_window_251_300_observed_to_null30_ratio_approx": 17.9331,
+    "v094f_outside_251_300_observed_confirm_rate_approx": 0.006232,
+    "v094f_outside_251_300_shifted_null60_rate_approx": 0.000757,
+    "v094f_window_251_300_median_control_to_positive_cache_count_ratio_approx": 0.972679,
+    "v094f_window_251_300_median_control_to_independent_cache_count_ratio_approx": 1.389299,
+    "v094f_window_251_300_median_control_minus_positive_faint_limit_approx_mag": -0.019362,
+    "v094f_cross_plate_exact_catalogue_fingerprint_groups": 1,
+    "v094f_process_ids_shared_across_scans": 0,
+    "interpretation_at_freeze": [
+      "Local random-coincidence density is insufficient to explain the 251-300 confirmation excess.",
+      "Simple global control-catalogue sparsity or faint-limit deficit is not supported as the main explanation.",
+      "Wholesale scan/process duplication is not supported as the main explanation.",
+      "The next discriminant is source-level identity and control recovery, assessed only in aggregate."
+    ]
+  },
+  "frozen_candidate_population_counts": {
+    "W251_275": 243829,
+    "W276_300": 60601,
+    "OUTSIDE_251_300": 23453,
+    "TOTAL": 327883
+  },
+  "deterministic_sampling": {
+    "sampling_unit": "mechanically confirmed v094c candidate row reconstructed from frozen source caches; candidate CSV is not read",
+    "hash_key": "SHA256(triplet_index|positive representative source IDs|independent representative source IDs)",
+    "selection": "lowest unsigned 64-bit hash values within each predeclared stratum",
+    "sample_targets": {
+      "W251_275": 10000,
+      "W276_300": 5000,
+      "OUTSIDE_251_300": 10000
+    },
+    "sampling_is_outcome_blind_to_source_calib_fields": true
+  },
+  "allowed_network_queries_after_freeze_only": {
+    "applause_dr4.source_calib_science_sample": {
+      "selection": "source_id values derived solely from the deterministic frozen sample",
+      "fixed_fields": [
+        "source_id", "process_id", "scan_id", "plate_id", "archive_id", "annular_bin", "dist_edge",
+        "sextractor_flags", "model_prediction", "ra_icrs", "dec_icrs", "ra_error", "dec_error", "nn_dist",
+        "natmag", "natmag_error", "phot_range_flags", "phot_calib_flags", "color_term", "cat_natmag",
+        "gaiaedr3_gmag", "gaiaedr3_id", "gaiaedr3_bp_rp", "gaiaedr3_dist", "gaiaedr3_neighbors", "match_radius"
+      ]
+    },
+    "applause_dr4.source_calib_control_recovery": {
+      "selection": "only control scan IDs from sampled triplets and Gaia IDs resolved prospectively from same-Gaia positive/independent science pairs",
+      "purpose": "test whether the same Gaia object exists anywhere in the valid control source catalogue and measure its extracted-position displacement",
+      "fixed_fields": [
+        "source_id", "process_id", "scan_id", "plate_id", "archive_id", "sextractor_flags", "model_prediction",
+        "ra_icrs", "dec_icrs", "ra_error", "dec_error", "nn_dist", "natmag", "natmag_error", "phot_range_flags",
+        "color_term", "cat_natmag", "gaiaedr3_gmag", "gaiaedr3_id", "gaiaedr3_bp_rp", "gaiaedr3_dist", "gaiaedr3_neighbors"
+      ]
+    },
+    "applause_dr4.plate": {
+      "selection": "plate IDs appearing in sampled triplets",
+      "fixed_fields": [
+        "plate_id", "archive_id", "series", "emulsion", "filter", "plate_quality", "observatory", "site_name",
+        "telescope", "instrument", "method_code", "ota_scale"
+      ]
+    }
+  },
+  "source_identity_rules": {
+    "representative_gaia_consensus": "non-null Gaia IDs among the one or two underlying scan detections for a plate representative must contain exactly one unique value; record complete versus partial coverage separately",
+    "science_same_gaia": "positive and independent representative Gaia consensus IDs are both resolved and equal",
+    "science_different_gaia": "positive and independent representative Gaia consensus IDs are both resolved and unequal",
+    "gaia_unresolved": "one or both roles have no Gaia ID or conflicting Gaia IDs among multiscan detections",
+    "no_individual_gaia_id_may_be_emitted": true
+  },
+  "control_recovery_rules": {
+    "population": "sampled rows classified SCIENCE_SAME_GAIA",
+    "recovered": "the same Gaia EDR3 ID appears in at least one valid control scan in applause_dr4.source_calib",
+    "recovery_separation": "minimum angular separation between the positive representative position and any recovered same-Gaia control source position",
+    "fixed_separation_bins_arcsec": [5, 10, 30, 60],
+    "consistency_rule": "a recovered same-Gaia control source at <=5 arcsec contradicts the frozen v094c control-mismatch replay and is an explicit provenance/mechanical HOLD, not silently accepted",
+    "no_recovery_detectability_proxy": "estimate Gaia-derived natural magnitude in the control color term from science cat_natmag, science color_term, Gaia BP-RP, and the frozen v094f control median color_term; compare to the frozen v094f control median faint_limit",
+    "fixed_detectability_margin_bins_mag": [-0.5, 0.0, 0.5, 1.0]
+  },
+  "source_quality_diagnostics": {
+    "model_prediction_true_like": ">=0.9",
+    "model_prediction_artifact_like": "<0.1",
+    "sextractor_flags_zero": "exactly 0",
+    "phot_range_flags": "retain aggregate counts for 0,1,2,missing,other",
+    "gaia_match_distance_thresholds_arcsec": [0.5, 1.0, 2.0, 5.0],
+    "nearest_neighbor_thresholds_arcsec": [3.0, 5.0, 10.0]
+  },
+  "plate_role_diagnostics": {
+    "compare": [
+      "positive versus independent emulsion equality",
+      "positive versus independent filter equality",
+      "whether control emulsion differs when science emulsions agree",
+      "whether control filter differs when science filters agree"
+    ],
+    "missing_plate_metadata_is_reported_not_imputed": true
+  },
+  "guards": {
+    "individual_candidate_human_inspection": 0,
+    "candidate_csv_reads": 0,
+    "candidate_disposition_changes": 0,
+    "candidate_rows_deleted_or_promoted": 0,
+    "corrected_science_population_construction": 0,
+    "registration": 0,
+    "pixel_or_fits_reads": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "gaia_network_queries": 0,
+    "threshold_retuning": 0,
+    "candidate_or_source_or_gaia_identifiers_in_result_outputs": 0,
+    "candidate_coordinates_in_result_outputs": 0
+  },
+  "working_data_boundary": "Machine-only work caches may contain sampled source IDs, Gaia IDs, and calibrated positions because they are necessary for reproducible aggregate source-identity testing. They are not candidate adjudication products, are not printed to the console, and must not be copied into result outputs. Raw TAP responses are retained under work/ for provenance.",
+  "required_outputs": [
+    "stratum_gaia_mechanism_summary_v094g.csv",
+    "triplet_gaia_mechanism_aggregate_v094g.csv",
+    "applause_dr4_gaia_identity_control_recovery_audit_v094g.json",
+    "v094g_output_manifest.sha256"
+  ],
+  "interpretive_boundary": "v094g may identify aggregate evidence that v094c rows are dominated by persistent Gaia-associated sources, control astrometric displacement, source-specific control non-recovery, crowding, artifacts, or plate-response differences. It does not establish any individual source as transient or non-transient, does not adjudicate a candidate, and does not define or execute a corrected Branch A/B/C population.",
+  "next_stop": "Interpret v094g Gaia/control-recovery mechanism evidence before corrected-population design, candidate inspection, or registration."
+}
