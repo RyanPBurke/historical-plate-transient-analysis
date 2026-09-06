@@ -1,0 +1,107 @@
+{
+  "contract_id": "applause_dr4_aggregate_pathology_audit_v094e",
+  "status": "PROSPECTIVE_AGGREGATE_PATHOLOGY_AUDIT",
+  "purpose": "Diagnose the mechanical origin of the highly concentrated v094c catalogue-candidate yield before any candidate-level adjudication or registration. Replay the frozen v094c mechanical funnel using frozen local source caches, but retain only aggregate/per-triplet counters and population-level recurrence diagnostics.",
+  "known_at_freeze": {
+    "blinding_status": "PARTIAL_OUTCOME_KNOWLEDGE",
+    "v094c_total_catalogue_rows_known": 327883,
+    "v094c_primary_le3_known": 253701,
+    "v094c_diagnostic_gt3_le5_known": 74182,
+    "v094c_yield_concentration_known": {
+      "matchable_ordinal_251_275_share_approx_pct": 74.36,
+      "matchable_ordinal_251_300_share_approx_pct": 92.85,
+      "cause_established": false
+    },
+    "v094d_master_exposure_rows_known": 139539,
+    "v094d_exposure_sub_rows_known": 2507,
+    "v094d_v093_membership_mismatches_known": 0,
+    "v094d_legacy_triplets_known": 784,
+    "v094d_timing_supported_triplets_known": 781,
+    "v094d_no_fragment_overlap_holds_known": 3,
+    "v094d_any_num_sub_gt1_triplets_known": 51,
+    "v094d_science_num_sub_gt1_triplets_known": 49,
+    "v094d_unique_science_pairs_affected_known": 32,
+    "astra_51_and_49_claims_reproduced": true,
+    "astra_34_unique_pair_claim_reproduced": false
+  },
+  "guards": {
+    "individual_candidate_inspection": 0,
+    "candidate_coordinates_written_to_outputs": 0,
+    "candidate_source_ids_written_to_outputs": 0,
+    "candidate_disposition_changes": 0,
+    "candidate_rows_deleted_or_promoted": 0,
+    "corrected_science_population_construction": 0,
+    "registration": 0,
+    "source_calib_queries": 0,
+    "network_queries": 0,
+    "pixel_or_fits_reads": 0,
+    "detector_runs": 0,
+    "external_catalogue_queries": 0,
+    "threshold_retuning": 0
+  },
+  "allowed_reads": {
+    "v094c_candidate_csv": "aggregate streaming only; candidate coordinates/source IDs may be held transiently in memory for population-level statistics but must never be emitted",
+    "v094c_frozen_runner_and_parent_inputs": "allowed to reconstruct exact mechanical selection and funnel semantics",
+    "v094b_minimal_source_npz_cache": "read-only; exact frozen inventory required",
+    "v094d_legacy_timing_impact_csv": "allowed only to stratify legacy triplets by timing class and num_sub status",
+    "v094d_master_registry": "provenance hash only; no candidate linkage or candidate inspection"
+  },
+  "prospective_questions": [
+    "Is the v094c yield concentration still extreme after normalising by positive-plate representative source count?",
+    "At which frozen mechanical gate does the 251-300 concentration emerge: common coverage, control mismatch, or independent confirmation?",
+    "Is the output dominated by a small number of triplets, canonical pairs, positive plates, independent plates, or control plates?",
+    "How much of the output is recurrent/duplicated at the catalogue-position or source-signature level?",
+    "Is there evidence of pile-up near the 3 arcsec confirmation boundary, the 5 arcsec independent boundary, or immediately beyond the 5 arcsec control-mismatch boundary?",
+    "Are single-scan versus multi-scan support classes associated with strongly different aggregate yields?",
+    "Do the three v094d timing-invalid legacy triplets or the multi-subexposure strata contribute disproportionately to v094c yield?",
+    "Is the concentration primarily order-local, sky/field-local, or plate/pair-local?"
+  ],
+  "frozen_mechanical_semantics": {
+    "busko_control_mismatch_arcsec": 5.0,
+    "independent_primary_arcsec": 3.0,
+    "independent_diagnostic_arcsec": 5.0,
+    "common_coverage_required": "candidate position covered by at least one valid scan of positive, independent, and control plates",
+    "multiscan_representatives": "exact v094c mutual-nearest-neighbour <=5 arcsec representative construction",
+    "zero_source_triplets": "retain as provenance holds and exclude from mechanical replay exactly as v094c",
+    "candidate_absence_is_qualified_negative": false
+  },
+  "required_diagnostics": {
+    "mechanical_reproduction": [
+      "exact 784 triplet reconstruction",
+      "exact 21 zero-source holds and 763 mechanically matchable triplets",
+      "per-triplet candidate-row reproduction against frozen v094c CSV",
+      "global reproduction of key v094c mechanical counters"
+    ],
+    "concentration": [
+      "25-matchable-triplet order bins",
+      "Gini and HHI",
+      "top 1/5/10 group shares",
+      "triplet, canonical-pair, positive-plate, independent-plate, and control-plate concentration"
+    ],
+    "funnel": [
+      "positive representatives",
+      "covered by all three roles",
+      "control mismatch >5 arcsec",
+      "independent match <=5 arcsec",
+      "independent primary <=3 arcsec",
+      "diagnostic 3-5 arcsec"
+    ],
+    "recurrence": [
+      "exact coordinate-string reuse distribution",
+      "global nearest-neighbour separation fractions without emitting coordinates",
+      "positive/independent/source-pair signature reuse distributions without emitting source IDs"
+    ],
+    "threshold_sensitivity": [
+      "independent separation cumulative counts at prospectively fixed thresholds",
+      "control-nearest separation bins and survival counts at prospectively fixed thresholds"
+    ],
+    "timing_stratification": [
+      "v094d timing-impact class",
+      "any num_sub>1",
+      "science num_sub>1"
+    ],
+    "spatial_aggregate": "coarse equal-area sky-bin counts only; no candidate coordinates emitted"
+  },
+  "interpretive_boundary": "This audit diagnoses mechanical/pathological concentration in the exploratory v094c screen. It does not validate a transient, construct corrected Branch A/B/C science populations, establish catalogue absence, or justify registration.",
+  "next_stop": "Interpret aggregate pathology findings before any candidate-level inspection or registration."
+}

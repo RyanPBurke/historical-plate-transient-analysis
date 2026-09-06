@@ -1,0 +1,60 @@
+{
+  "analysis": "applause_dr4_aggregate_pathology_audit_v094e",
+  "guards_at_provenance_preparation": {
+    "candidate_csv_content_inspected": false,
+    "candidate_outcomes_recomputed": false,
+    "v094e_pathology_results_seen": false
+  },
+  "selection_and_geometry": {
+    "v093_scan_cache": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/scan.csv",
+    "v093_scan_cache_sha256": "e6879ca2c1e63a75f50920221a90a3896d9ff2c39a5cd0a7eda4df65b456e22d",
+    "v093_solution_cache": "work/applause_dr4_busko_first_cross_observatory_opportunity_census_v093/tap_cache/solution.csv",
+    "v093_solution_cache_sha256": "a3ceb6d63d27dc594875e9ad4b29e3716dd921a629113e92ca35e2e5b28a10bc",
+    "v093e_comparisons": "results/applause_dr4_site_coordinate_semantics_repair_v093e/applause_dr4_site_coordinate_repaired_comparisons_v093e.csv",
+    "v093e_comparisons_sha256": "a15333d27076b1a202f4ef3f00fb3a09e91c0fe1a0ce4d3c88cb6d26525b7869",
+    "v093e_opportunities": "results/applause_dr4_site_coordinate_semantics_repair_v093e/applause_dr4_site_coordinate_repaired_opportunities_v093e.csv",
+    "v093e_opportunities_sha256": "b8e05e30eadab90c949f22f50bfe156fae985fddbab799164be08ac90068e0db",
+    "v094b_selection_snapshot": "work/applause_dr4_tierA_busko_source_census_v094b/state/selection_snapshot_v094b.json",
+    "v094b_selection_snapshot_sha256": "9d3ddbad1bd3329eee57d6e5cf27d7b4d415d50dffd097f70d5d2b1f2746f858"
+  },
+  "source_cache_inventory": {
+    "inventory_filename": "applause_dr4_v094c_source_cache_inventory_v094e.csv",
+    "inventory_sha256": "552a93fbcb13f61a5a3335d735815d8155b17d08d83de3aa58e41cfccb365394",
+    "note": "Inventory includes the v094c explicit empty zero-row caches and binds every required local NPZ before v094e execution.",
+    "scan_count": 1073,
+    "total_bytes": 1029313202
+  },
+  "status": "FROZEN_PARENT_PROVENANCE_PREPARED_BEFORE_V094E_EXECUTION",
+  "v094c": {
+    "bank": "results/applause_dr4_tierA_busko_source_census_v094c/applause_dr4_v094c_bank_manifest.json",
+    "bank_sha256": "aad4a277797be0e5f33e5d48c19cbd4873c14482c18fa6efb08af3fe504f23d4",
+    "candidate_csv": "results/applause_dr4_tierA_busko_source_census_v094c/applause_dr4_tierA_busko_independent_catalogue_candidates_v094c.csv",
+    "candidate_csv_sha256": "68f1e5f0a42a2c292371c930aad51ff8a5d7d2bd4d71e5026449b35928939d1d",
+    "candidate_rows_expected": 327883,
+    "report": "results/applause_dr4_tierA_busko_source_census_v094c/applause_dr4_tierA_busko_source_census_v094c.json",
+    "report_sha256": "73dd190c2185b17b188d8eb3f58fcca9b0b02f68e00f389c82f015a266c9ab18",
+    "runner": "tools/run_applause_dr4_tierA_busko_source_census_v094c.py",
+    "runner_sha256": "89bc8b0c4d93a9057a6aaec62495f974ef32762b2556a31a0d65fe79e2520492"
+  },
+  "v094d": {
+    "interpreted_aggregate_state": {
+      "exposure_sub_rows": 2507,
+      "legacy_triplets": 784,
+      "master_exposure_rows": 139539,
+      "no_fragment_science_overlap_holds": 3,
+      "timing_supported": 781,
+      "triplets_any_num_sub_gt1": 51,
+      "triplets_science_num_sub_gt1": 49,
+      "unique_science_pairs_affected": 32,
+      "v093_membership_mismatches": 0
+    },
+    "legacy_impact": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/legacy_784_fragment_timing_impact_v094d.csv",
+    "legacy_impact_sha256": "448c6e6ff3e378922bd1a877444b9e5abb612279745203df4be56b9781e43bd7",
+    "master_registry": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/master_fragment_timing_recoverability_registry_v094d.csv",
+    "master_registry_sha256": "76a84077ac6163ba4061c269167871290990cd11ffe3767506e973b84c150c8d",
+    "output_manifest": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/v094d_output_manifest.sha256",
+    "output_manifest_sha256": "29089d88f72e4a3329f1c9eec7c9569cecd89a42ca5a3b6f79967b767bc7b655",
+    "report": "results/applause_dr4_fragment_timing_recoverability_audit_v094d/applause_dr4_fragment_timing_recoverability_audit_v094d.json",
+    "report_sha256": "79dc2cc3dfffce54c7109c802cb8f5c9454530238890d4e7ed7d74558918c7c9"
+  }
+}
