@@ -1,0 +1,109 @@
+{
+  "contract_id": "applause_dr4_fragment_timing_recoverability_audit_v094d",
+  "status": "PROSPECTIVE_METHOD_REPAIR_AUDIT",
+  "parent_frozen_commit": "28faddc1b3f8d29cb598c3d7a62df2de93ca753c",
+  "purpose": "Repair exposure timing semantics by preserving continuous sub-exposure fragments, audit recoverability of records excluded by v093, and measure timing impact on the legacy 784 v094c directed triplets without constructing corrected science populations.",
+  "guards": {
+    "candidate_csv_reads": 0,
+    "candidate_disposition_changes": 0,
+    "source_calib_queries": 0,
+    "pixel_or_fits_reads": 0,
+    "detector_runs": 0,
+    "corrected_branch_population_construction": 0,
+    "individual_candidate_inspection": 0
+  },
+  "known_at_freeze": {
+    "blinding_status": "PARTIAL_OUTCOME_KNOWLEDGE",
+    "individual_global_v094c_candidate_coordinates_seen": false,
+    "individual_global_v094c_candidate_identities_seen": false,
+    "v094c_total_catalogue_rows_known": 327883,
+    "v094c_primary_le3_known": 253701,
+    "v094c_diagnostic_gt3_le5_known": 74182,
+    "v094c_aggregate_yield_concentration_known": true,
+    "v094c_legacy_triplet_count_known": 784,
+    "astra_multisub_claims_known_but_not_accepted_as_truth": {
+      "triplets_any_num_sub_gt1": 51,
+      "triplets_science_num_sub_gt1": 49,
+      "unique_science_pairs_affected": 34,
+      "exposure_4969_flagged_for_detail_check": true
+    }
+  },
+  "master_registry": {
+    "source": "applause_dr4.exposure",
+    "query_where_clause": "NONE",
+    "expected_rows": 139539,
+    "exposure_sub_source": "applause_dr4.exposure_sub",
+    "exposure_sub_expected_rows_is_diagnostic_not_asserted_truth": 2507,
+    "retain_raw_tap_votables": true,
+    "retain_normalized_csvs": true,
+    "retain_all_exposures_including_unresolved_and_excluded": true,
+    "do_not_silently_promote_recovered_records": true
+  },
+  "timing_semantics": {
+    "num_sub_null_or_invalid": "TIMING_STRUCTURALLY_UNRESOLVED",
+    "num_sub_le1": "parent interval may provisionally represent one continuous exposure if valid; no explicit warning does not prove timing accuracy",
+    "num_sub_gt1": "use exposure_sub continuous fragments",
+    "fragment_completeness": [
+      "observed fragment count equals num_sub",
+      "unique non-null subexposure_id",
+      "unique non-null subexposure_num",
+      "each fragment has valid start < end",
+      "duplicate or overlapping fragments are explicit timing anomalies"
+    ],
+    "fragment_intervals_are_not_collapsed_to_parent_envelope": true,
+    "multi_fragment_recovery_claim": "OBSERVING_OPPORTUNITY_INTERVALS_RECOVERED_FEATURE_FRAGMENT_UNIDENTIFIED",
+    "candidate_level_fragment_identity_claim_forbidden": true,
+    "explicit_time_warning_codes_hold_confirmatory_timing": true,
+    "flag_time_mapping": {
+      "": "NO_EXPLICIT_WARNING_EMPTY",
+      "NULL": "NO_EXPLICIT_WARNING_LITERAL_NULL",
+      "M": "WARNING_MISSING",
+      "E": "WARNING_ERROR",
+      "U": "WARNING_UNCERTAIN",
+      "OTHER_NONBLANK": "WARNING_UNKNOWN_CODE"
+    }
+  },
+  "v093_reconstruction": {
+    "old_exposure_query_predicate": "ut_start IS NOT NULL AND ut_end IS NOT NULL AND ra_icrs IS NOT NULL AND dec_icrs IS NOT NULL",
+    "rejection_order": [
+      "timing_or_center_invalid",
+      "no_scan",
+      "no_solution_polygon",
+      "solution_association_implausible"
+    ],
+    "solution_ranking": "angular separation ascending, num_xmatch descending, solution_id ascending",
+    "association_plausibility": "if fov1 and fov2 both present: separation_deg <= max(1.0, 0.75*hypot(fov1,fov2)); otherwise plausible",
+    "actual_old_registry_membership_is_authoritative_for_consistency_audit": true,
+    "reconstruction_mismatch_must_be_reported_not_forced": true
+  },
+  "legacy_784": {
+    "purpose": "impact audit only; not corrected population denominator",
+    "selection_replay": {
+      "comparison_tier": "A_LE30MIN",
+      "primary_common_coverage_ge50pct": true,
+      "same_site_control": true,
+      "corrected_site_separation_min_km": 100,
+      "plate_numexp_positive_independent_control": 1,
+      "dedup_key": ["positive_plate", "independent_plate", "control_plate"],
+      "dedup_preference": "smallest endpoint_interval_gap_minutes"
+    },
+    "expected_legacy_directed_triplets": 784,
+    "recompute": [
+      "all positive-duration fragment-level science intersections",
+      "total intersection duration",
+      "fragment-level control minimum gap",
+      "aggregate control relation including MIXED when discontinuous fragments straddle relations"
+    ]
+  },
+  "scan_solution_recovery": {
+    "scan_solution_coordinates_are_diagnostic_only": true,
+    "silent_replacement_of_missing_parent_coordinates": false,
+    "strongest_solution_for_recovery_diagnostics": "num_xmatch descending, then solution_id ascending among structurally valid solutions on available scans"
+  },
+  "required_outputs": [
+    "master_fragment_timing_recoverability_registry_v094d.csv",
+    "legacy_784_fragment_timing_impact_v094d.csv",
+    "applause_dr4_fragment_timing_recoverability_audit_v094d.json",
+    "v094d_output_manifest.sha256"
+  ]
+}
