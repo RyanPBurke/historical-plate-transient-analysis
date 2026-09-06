@@ -1,0 +1,52 @@
+{
+  "known_v094i_outcomes": {
+    "gaia_unresolved_hq_incidences_a_plus_b": 0,
+    "opportunities": 1240,
+    "repeated_source_incidence_fraction": 0.1856244082073263,
+    "same_gaia_unique_identity_incidences": 472992,
+    "strict_hq_common_source_incidences_a_plus_b": 15042219,
+    "unique_hq_source_ids": 12250016,
+    "zero_hq_side_opportunities": 155
+  },
+  "preparation_guards": {
+    "candidate_inspection": 0,
+    "network_queries": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_value_reads": 0
+  },
+  "required_parent_git_commit": "10b1719aa188b2e589aab4730e3d1a0059f680da",
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d",
+    "total_rows_across_exact_keys": 21609122
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094J_AGGREGATE_GEOMETRY",
+  "v094d_solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "v094i_frozen": {
+    "contract": "research/prospective_freezes/applause_dr4_corrected_le5min_blind_source_state_census_contract_v094i.json",
+    "contract_sha256": "19abb177af6c046958e79e35b775a1bd971a71b89c77e24037d5f48992210bc2",
+    "parent_provenance": "research/prospective_freezes/applause_dr4_corrected_le5min_blind_source_state_parent_provenance_v094i.json",
+    "parent_provenance_sha256": "c898f57e2d653d02dd373e6078c2126a365c295db2ea32120764d8890ecf1194",
+    "plan": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "plan_sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874",
+    "runner": "tools/run_applause_dr4_corrected_le5min_blind_source_state_census_v094i.py",
+    "runner_sha256": "efc2aaaf777e5a8c789cebf81d80a9079183055647f97b5908c672017ae6a8ca"
+  },
+  "v094i_results": {
+    "manifest": "results/applause_dr4_corrected_le5min_blind_source_state_census_v094i/v094i_output_manifest.sha256",
+    "manifest_sha256": "db2edfa07c5079a58c26f5210d4b6684a0561b1740fbf63e7244e327573ed094",
+    "per_opportunity": "results/applause_dr4_corrected_le5min_blind_source_state_census_v094i/per_opportunity_source_state_v094i.csv",
+    "per_opportunity_sha256": "1b0abbb64658441accd20ff3d7b3fb8a0472c64b68c48698d84084b57b1f44d6",
+    "report": "results/applause_dr4_corrected_le5min_blind_source_state_census_v094i/applause_dr4_corrected_le5min_blind_source_state_census_v094i.json",
+    "report_sha256": "c9373af26a471685a83235eaa584e40853edc6c2f5d14bf0bffcab93f15893b6",
+    "site_summary": "results/applause_dr4_corrected_le5min_blind_source_state_census_v094i/site_pair_source_state_summary_v094i.csv",
+    "site_summary_sha256": "67f7571ab26a81fd664f19b3f78ebd47c8f28d98b0fb20ef7eab3e7e2bc6e06e",
+    "timing_epoch_summary": "results/applause_dr4_corrected_le5min_blind_source_state_census_v094i/timing_epoch_source_state_summary_v094i.csv",
+    "timing_epoch_summary_sha256": "d15e44fc8076162f8374e1909e5f8f654915a643ab01cb66a2133e99ca750bda"
+  }
+}

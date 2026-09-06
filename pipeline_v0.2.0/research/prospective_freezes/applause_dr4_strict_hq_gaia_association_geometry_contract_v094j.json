@@ -1,0 +1,88 @@
+{
+  "contract_id": "applause_dr4_strict_hq_gaia_association_geometry_audit_v094j",
+  "fixed_cross_site_geometry": {
+    "different_gaia_quality": "for DIFFERENT_GAIA mutual pairs, report both-Gaia-distance<=1arcsec and whether cross-site pair separation is smaller than each detection's own Gaia-match distance; no pair is promoted",
+    "identity_classes": [
+      "SAME_GAIA",
+      "DIFFERENT_GAIA",
+      "GAIA_UNRESOLVED"
+    ],
+    "pairing": "mutual nearest neighbour between all strict-HQ common-footprint detections on the two science exposures",
+    "same_gaia_identity_geometry": "for every Gaia identity present on both sides, measure the minimum cross-site detection separation for that identity and bin using the same fixed angular thresholds",
+    "separation_bins_arcsec": [
+      1.0,
+      3.0,
+      5.0,
+      10.0,
+      30.0,
+      60.0
+    ]
+  },
+  "fixed_gaia_association_diagnostics": {
+    "gaia_distance_bins_arcsec": [
+      0.5,
+      1.0,
+      2.0,
+      5.0
+    ],
+    "gaia_distance_to_match_radius_ratio_bins": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "gaia_neighbor_bins": [
+      "0",
+      "1",
+      "2-3",
+      "4+",
+      "missing"
+    ],
+    "report_missing_or_invalid_match_radius_separately": true
+  },
+  "guards": {
+    "candidate_csv_reads": 0,
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "control_catalog_queries": 0,
+    "detector_runs": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "network_queries": 0,
+    "physical_parallax_pairing": 0,
+    "pixels": 0,
+    "quality_threshold_relaxation": 0,
+    "registration": 0,
+    "source_coordinates_in_result_outputs": 0,
+    "source_or_gaia_ids_in_result_outputs": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "common_footprint": "recompute exactly using the two frozen selected solution polygons and the v094i gnomonic point-in-polygon method",
+    "opportunity_plan": "exact frozen 1,240-row v094i <=5 minute plan",
+    "source_cache": "exact 1,386 v094i strict-HQ (scan_id, solution_num) NPZ products, hash-inventoried before v094j freeze",
+    "strict_hq_definition_inherited": "model_prediction >= 0.9 AND sextractor_flags = 0; no threshold change in v094j"
+  },
+  "interpretive_stop": "Interpret whether strict-HQ cross-site structure is overwhelmingly same-Gaia, contains a material different-Gaia mutual-pair population, or is dominated by weak/ambiguous Gaia associations. Only after this stop may a prospectively frozen physical-parallax or source-quality-sensitivity stage be designed.",
+  "known_at_freeze": {
+    "interpretation_boundary": "The zero Gaia-unresolved result is a null only for the frozen strict-HQ branch. APPLAUSE source_calib itself does not require a Gaia match, so v094j must assess the quality and geometry of the Gaia associations already present rather than treating all Gaia IDs as dispositive.",
+    "v094i_exact_scan_solution_keys": 1386,
+    "v094i_gaia_unresolved_hq_incidences_a_plus_b": 0,
+    "v094i_gaia_unresolved_mutual_pairs_le5_arcsec": 0,
+    "v094i_gaia_unresolved_mutual_pairs_le60_arcsec": 0,
+    "v094i_opportunities": 1240,
+    "v094i_repeated_source_incidence_fraction": 0.1856244082073263,
+    "v094i_same_gaia_unique_identity_incidences": 472992,
+    "v094i_strict_hq_common_source_incidences_a_plus_b": 15042219,
+    "v094i_unique_hq_source_ids": 12250016,
+    "v094i_zero_hq_side_opportunities": 155
+  },
+  "purpose": "Interpret the completed v094i strict-HQ <=5 minute source-state census without inspecting individual sources. Quantify Gaia association quality and cross-site mutual-nearest-neighbour geometry among all strict-HQ sources already acquired by v094i, separating same-Gaia from different-Gaia pairings before any candidate inspection, physical parallax modelling, control search, pixels, registration, or threshold relaxation.",
+  "required_parent_git_commit": "10b1719aa188b2e589aab4730e3d1a0059f680da",
+  "status": "PROSPECTIVE_AGGREGATE_MECHANISM_AUDIT",
+  "stratification": [
+    "global",
+    "site_pair",
+    "timing_bin|epoch_label"
+  ]
+}
