@@ -1,0 +1,55 @@
+{
+  "frozen_le5_plan": {
+    "epoch_labels": {
+      "IN_1951_1955": 93,
+      "POST_SPUTNIK_OR_SAME_LAUNCH_DATE": 545,
+      "PRE_SPUTNIK": 602
+    },
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874",
+    "site_pairs": {
+      "Bonn, Germany | Dr. Remeis-Observatory, Bamberg, Germany": 26,
+      "Bonn, Germany | Hamburg-Bergedorf, Germany": 27,
+      "Boyden Observatory, Bloemfontein, South Africa | Dr. Remeis-Observatory, Bamberg, Germany": 31,
+      "Boyden Observatory, Bloemfontein, South Africa | Hamburg-Bergedorf, Germany": 8,
+      "Castel Gandolfo, Italy | Dr. Remeis-Observatory, Bamberg, Germany": 12,
+      "Castel Gandolfo, Italy | Hamburg-Bergedorf, Germany": 31,
+      "Dr. Remeis-Observatory, Bamberg, Germany | Hamburg-Bergedorf, Germany": 1096,
+      "Dr. Remeis-Observatory, Bamberg, Germany | Potsdam-Telegrafenberg": 7,
+      "Hamburg-Bergedorf, Germany | Mount John Observatory, Lake Tekapo, New Zealand": 2
+    },
+    "timing_bins": {
+      "GT0_LE5MIN": 159,
+      "OVERLAP": 1081
+    },
+    "unique_scan_solution_keys": 1386
+  },
+  "guards_at_preparation": {
+    "candidate_csv_reads": 0,
+    "candidate_inspection": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_catalog_queries": 0
+  },
+  "required_parent_git_commit": "b2e7989b2e3237dceee69e28f34023d651894a2f",
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094I_SOURCE_ACQUISITION",
+  "v094d_solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "v094h": {
+    "all_opportunities": 1541,
+    "contract": "research/prospective_freezes/applause_dr4_fragment_aware_cross_site_opportunity_census_contract_v094h.json",
+    "contract_sha256": "4f6504aa088c90e756c6feadccf57a89998ef571f7ed792686ba5d4dad8ed0b9",
+    "le5_opportunities": 1240,
+    "opportunity_csv": "results/applause_dr4_fragment_aware_cross_site_opportunity_census_v094h/applause_dr4_fragment_aware_cross_site_opportunities_v094h.csv",
+    "opportunity_csv_sha256": "d58c9a1b2805c3f773599e2d6f34355bd46e2125f61c48f715981f42ca9ef836",
+    "output_manifest": "results/applause_dr4_fragment_aware_cross_site_opportunity_census_v094h/v094h_output_manifest.sha256",
+    "output_manifest_sha256": "09258379d95ad4fb56373a580f8fb6098d84f7b14f4c1b350604e307161b4d5a",
+    "report": "results/applause_dr4_fragment_aware_cross_site_opportunity_census_v094h/applause_dr4_fragment_aware_cross_site_opportunity_census_v094h.json",
+    "report_sha256": "51fee82cc692e59cc4a767b0ad41686421b53f6f75cc508b8dbe6d8e048f9ce0",
+    "runner": "tools/run_applause_dr4_fragment_aware_cross_site_opportunity_census_v094h.py",
+    "runner_sha256": "6e240b0dc3089cd89a3696d29f721d2d73ea42fe6114dac4e6b56b96c7747b78"
+  }
+}

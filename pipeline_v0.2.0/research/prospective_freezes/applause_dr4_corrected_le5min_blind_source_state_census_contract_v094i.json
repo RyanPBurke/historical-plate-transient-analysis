@@ -1,0 +1,142 @@
+{
+  "astrometric_solution_binding": {
+    "missing_solution_num": "PROVENANCE_HOLD",
+    "reason": "source_calib contains solution_num. Pooling all solutions belonging to a scan can mix different astrometric solution footprints and is forbidden in the corrected search.",
+    "rule": "Each v094h exposure is already bound to one selected solution_id and scan_id. Resolve the corresponding solution_num from the frozen v094d solution_full table. Source acquisition and source-state analysis are keyed by the exact (scan_id, solution_num), never scan_id alone."
+  },
+  "common_footprint": {
+    "definition": "For each v094h opportunity, source rows must lie inside both of the exact STC polygons associated with the two selected solution_id values. This is the same sky-overlap population semantics used by v094h, applied at source level.",
+    "no_50_percent_cutoff": true
+  },
+  "contract_id": "applause_dr4_corrected_le5min_blind_source_state_census_v094i",
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "control_catalog_queries": 0,
+    "detector_runs": 0,
+    "external_gaia_queries": 0,
+    "fits_reads": 0,
+    "parallax_candidate_promotion": 0,
+    "pixel_downloads": 0,
+    "registration": 0,
+    "same_site_control_requirement": false,
+    "threshold_retuning_after_results": false,
+    "v094c_candidate_csv_reads": 0
+  },
+  "known_population_context_at_freeze": {
+    "distance_cutoff_applied": false,
+    "dominant_site_pair": "Dr. Remeis-Observatory, Bamberg, Germany | Hamburg-Bergedorf, Germany",
+    "dominant_site_pair_all_le15_count": 1355,
+    "source_outcomes_in_v094h_seen": false,
+    "v094h_gate_le5min_including_overlap": 1240,
+    "v094h_gt0_le5min_bin": 159,
+    "v094h_master_exposures": 139539,
+    "v094h_overlap_bin": 1081,
+    "v094h_positive_sky_opportunities_le15min": 1541
+  },
+  "population": {
+    "all_gate_rows_processed": true,
+    "epoch_stratification_required": true,
+    "gate": "gate_le5min == true; includes positive fragment overlap and >0 to <=300 s fragment gap",
+    "input": "frozen v094h opportunity CSV",
+    "site_pair_stratification_required": true,
+    "source_roles_are_symmetric": true,
+    "timing_fields_inherited_unchanged": [
+      "timing_bin",
+      "min_fragment_gap_seconds",
+      "fragment_overlap_intervals_json",
+      "fragment_overlap_count",
+      "total_fragment_overlap_seconds",
+      "max_fragment_overlap_seconds"
+    ]
+  },
+  "required_aggregate_outputs": [
+    "per_opportunity_source_state_v094i.csv",
+    "site_pair_source_state_summary_v094i.csv",
+    "timing_epoch_source_state_summary_v094i.csv",
+    "applause_dr4_corrected_le5min_blind_source_state_census_v094i.json",
+    "v094i_output_manifest.sha256"
+  ],
+  "required_parent_git_commit": "b2e7989b2e3237dceee69e28f34023d651894a2f",
+  "result_output_privacy": {
+    "allowed": "counts, rates, fixed separation bins, opportunity-level aggregates, site-pair aggregates, timing/epoch aggregates",
+    "candidate_coordinates": 0,
+    "gaia_ids": 0,
+    "individual_candidate_rows": 0,
+    "source_ids": 0
+  },
+  "scientific_role": "First corrected source-level pass over the fresh v094h denominator. Process every <=5 minute distinct-site opportunity, while preventing the v094c scan/solution mixing and unqualified-control pathologies from re-entering the pipeline.",
+  "source_acquisition": {
+    "allowed_after_git_freeze_only": true,
+    "batching": {
+      "adaptive_split_on_gateway_timeout_or_query_failure": true,
+      "initial_scan_solution_keys": 4,
+      "maxrec_hit": "split; if one key still reaches MAXREC, explicit HOLD rather than truncate",
+      "maxrec_per_leaf": 1000000,
+      "minimum_leaf_keys": 1
+    },
+    "fixed_fields": [
+      "source_id",
+      "process_id",
+      "scan_id",
+      "plate_id",
+      "archive_id",
+      "solution_num",
+      "model_prediction",
+      "sextractor_flags",
+      "ra_icrs",
+      "dec_icrs",
+      "ra_error",
+      "dec_error",
+      "nn_dist",
+      "dist_edge",
+      "annular_bin",
+      "natmag",
+      "natmag_error",
+      "phot_range_flags",
+      "gaiaedr3_id",
+      "gaiaedr3_dist",
+      "gaiaedr3_neighbors",
+      "match_radius"
+    ],
+    "quality_gate_interpretation": "This is the strict confirmatory high-quality source branch. It does not prove that lower-quality extractions are uninteresting; those remain a separately bankable sensitivity branch and are not silently counted as searched confirmatory sources.",
+    "server_side_confirmatory_quality_gate": {
+      "dec_icrs": "IS NOT NULL",
+      "model_prediction": ">=0.9",
+      "ra_icrs": "IS NOT NULL",
+      "sextractor_flags": "==0"
+    },
+    "source_id_uniqueness": "source_id is treated as unique within an exact (scan_id,solution_num) product. Any duplicate source_id in a returned exact-key product is an explicit provenance/data HOLD; do not silently deduplicate.",
+    "table": "applause_dr4.source_calib",
+    "working_cache": "Raw VOTables and per-(scan_id,solution_num) NPZ products may contain source identifiers and coordinates under work/. They are machine-only provenance and are not copied to scientific result outputs."
+  },
+  "source_state_rules": {
+    "gaia_resolved_source": "gaiaedr3_id is non-null and positive",
+    "gaia_unresolved_cross_side_geometry": {
+      "mutual_nearest_neighbor_bins_arcsec": [
+        1,
+        3,
+        5,
+        10,
+        30,
+        60
+      ],
+      "nearest_neighbor_bins_arcsec": [
+        1,
+        3,
+        5,
+        10,
+        30,
+        60
+      ],
+      "no_bin_is_a_candidate_promotion_threshold": true
+    },
+    "gaia_unresolved_machine_bank": "The frozen per-(scan_id,solution_num) NPZ caches already bank every strict-HQ Gaia-unresolved source. Additionally retain only mutual nearest-neighbour Gaia-unresolved cross-side pair incidences <=60 arcsec under work/ as a gzip CSV for reproducibility. No source ID or coordinate may appear in result outputs or console summaries.",
+    "gaia_unresolved_source": "gaiaedr3_id absent/null/non-positive",
+    "interpretation_same_gaia": "Persistent reference-object evidence for the isolated-transient branch. Do not delete it from a future variability/flare branch.",
+    "same_gaia_identity": "A Gaia EDR3 ID represented by >=1 strict-HQ source in the common footprint on both science sides. Count unique Gaia identities, not Cartesian row pairs.",
+    "source_reuse": "Measure unique-source and repeated-source incidence counts across opportunities so repeated use of the same plate/source cannot inflate the scientific denominator unnoticed."
+  },
+  "status": "PROSPECTIVE_CORRECTED_SOURCE_STATE_CENSUS",
+  "stop_rule": "STOP after aggregate strict-HQ source-state census. Interpret Gaia-resolved persistence, Gaia-unresolved close-pair geometry, source reuse, zero-HQ opportunities and site-pair concentration before any candidate inspection, pixel work, registration, or physical parallax pairing."
+}
