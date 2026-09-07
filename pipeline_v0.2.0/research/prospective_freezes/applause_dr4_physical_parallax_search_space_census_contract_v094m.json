@@ -1,0 +1,109 @@
+{
+  "contract_id": "applause_dr4_physical_parallax_search_space_census_v094m",
+  "fixed_preflight_diagnostics": {
+    "baseline_projected_km_bins": [
+      100,
+      250,
+      500,
+      1000
+    ],
+    "corridor_burden_diagnostic": {
+      "expected_random_count": "2 * halfwidth * track_length * opposite-side unshared incidence density",
+      "halfwidth_arcsec": [
+        1,
+        2,
+        3
+      ],
+      "note": "computational planning diagnostic only; never used to accept/reject a scientific source",
+      "track_length_proxy": "minimum of Earth-radius parallax length and equivalent-circle diameter of the frozen common-footprint area"
+    },
+    "earth_radius_parallax_bins_deg": [
+      0.1,
+      0.5,
+      1,
+      2,
+      5,
+      10
+    ],
+    "max_resolvable_distance_AU_bins": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "reference_model_eligibility": "count opportunities with >=30 v094l-definition SAME_GAIA tight reference pairs",
+    "stratification": [
+      "global",
+      "site_pair",
+      "epoch_label",
+      "timing_bin"
+    ],
+    "surface_density": "unshared incidence density per square degree on each side",
+    "unshared_pool_counts": [
+      "incidences_A",
+      "incidences_B",
+      "unique_Gaia_A",
+      "unique_Gaia_B"
+    ]
+  },
+  "guards": {
+    "candidate_human_inspection": 0,
+    "candidate_registration": 0,
+    "control_queries": 0,
+    "coordinates_in_results": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "gaia_ids_in_results": 0,
+    "individual_opportunity_ids_in_results": 0,
+    "network_queries": 0,
+    "physical_source_pairing": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_ids_in_results": 0,
+    "source_quality_threshold_relaxation": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "common_footprint": "exact selected-solution common footprint inherited from v094i-v094l",
+    "opportunities": "exact frozen 1,240-row v094i <=5-minute opportunity plan",
+    "persistent_identity_exclusion": "Within each opportunity, a Gaia identity present on both science sides in the common footprint is classified as persistent-reference structure and excluded from the isolated-parallax source pools. Sources carrying different Gaia identities remain eligible; no angular source-pair radius is applied.",
+    "source_caches": "exact 1,386 strict-HQ scan/solution caches frozen by v094j",
+    "source_quality": "model_prediction >=0.9 AND sextractor_flags=0, unchanged"
+  },
+  "known_at_freeze": {
+    "interpretation_boundary": "A material >2-arcsec residual survived good local astrometric calibration, justifying a physical parallax branch. However that branch must be rebuilt from all eligible strict-HQ sources and must not inherit the v094j/v094k/v094l <=5-arcsec mutual-nearest target definition.",
+    "v094l_local_evaluable": 7573,
+    "v094l_local_gt2_derived": 2604,
+    "v094l_local_le2": 4969,
+    "v094l_local_le2_fraction": 0.6561468374488314,
+    "v094l_raw_different_gaia_le5": 7874,
+    "v094l_same_gaia_cv_median_arcsec": 0.709408841099213,
+    "v094l_same_gaia_cv_p90_arcsec": 1.2408565285121347,
+    "v094l_same_gaia_cv_p95_arcsec": 1.3937548444277144
+  },
+  "physical_search_bounds": {
+    "maximum_angular_displacement": "derive from projected simultaneous baseline and the Earth-radius distance floor, then ultimately truncate only by actual common-footprint geometry; no 5/60-arcsec maximum source-pair radius",
+    "maximum_distance_per_opportunity": "derive from projected simultaneous baseline divided by tan(2 arcsec); no fixed AU upper cutoff",
+    "minimum_geocentric_distance_km": 6378.137,
+    "minimum_resolvable_parallax_arcsec": 2.0,
+    "reason": "do not exclude low-Earth/near-Earth objects by an arbitrary angular radius",
+    "reason_resolvable": "The >2-arcsec boundary was prospectively embedded in the frozen v094l decision rule before v094l outcomes were known; it also lies above the frozen same-Gaia p95 residual of ~1.39 arcsec."
+  },
+  "purpose": "Define and quantify a physically grounded parallax search space across the corrected <=5-minute opportunity population without inheriting the old 5-arcsec source-match censor. Measure actual simultaneous-baseline geometry, isolated/unshared strict-HQ source pools, resolvable parallax distance range, and expected corridor search burden before any physical source pairing.",
+  "required_parent_git_commit": "13d16a85080a73d2eacff347c2b7f8e1a7e3b5ce",
+  "site_geometry": {
+    "baseline_role": "site B inertial position minus site A inertial position at simultaneous overlap time",
+    "coordinates": "reuse the frozen v093d plate/site metadata and exactly the v094h site-coordinate repair semantics",
+    "earth_model": "WGS84 ellipsoid, site altitude fixed to 0 km because altitude is unavailable in the frozen site cache",
+    "earth_rotation": "UTC-based GMST rotation; no external EOP/network data"
+  },
+  "status": "PROSPECTIVE_PHYSICAL_SEARCH_SPACE_CENSUS",
+  "stop_rule": "Interpret overlap opportunity coverage, unshared-source density and physically required parallax-track extent before freezing the no-angular-radius physical matcher.",
+  "timing": {
+    "actual_overlap_required": true,
+    "nonoverlap_le5min": "retain and count, but HOLD_MOTION_PARALLAX_DEGENERATE; do not physically pair in v094m",
+    "overlap_time_model": "Use every frozen positive fragment-overlap interval. Evaluate the simultaneous site baseline at each interval midpoint and form a duration-weighted mean inertial baseline vector.",
+    "pure_parallax_primary": "timing_bin == OVERLAP only"
+  }
+}

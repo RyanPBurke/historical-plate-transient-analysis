@@ -1,0 +1,36 @@
+{
+  "frozen_plan": {
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874"
+  },
+  "plate_site_cache": {
+    "path": "work/applause_dr4_plate_site_provenance_refinement_v093c/tap_cache/plate.csv",
+    "sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402"
+  },
+  "preparation_guards": {
+    "candidate_inspection": 0,
+    "network_queries": 0,
+    "physical_source_pairing": 0,
+    "pixels": 0,
+    "source_value_reads": 0
+  },
+  "required_parent_git_commit": "13d16a85080a73d2eacff347c2b7f8e1a7e3b5ce",
+  "solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "rows": 21609122,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d"
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094M_PHYSICAL_SEARCH_SPACE_CENSUS",
+  "v094l_results": {
+    "manifest": "results/applause_dr4_local_astrometric_field_audit_v094l/v094l_output_manifest.sha256",
+    "manifest_sha256": "5286d2ddb9224494fa9035c81259a9c12adce3f6e745d36fe078946a9a1b4d09",
+    "report": "results/applause_dr4_local_astrometric_field_audit_v094l/applause_dr4_local_astrometric_field_audit_v094l.json",
+    "report_sha256": "afd850cfd601d890f989adea0421bf6a0c33b8b2446fdfe51b3c1d0e86e0d332"
+  }
+}
