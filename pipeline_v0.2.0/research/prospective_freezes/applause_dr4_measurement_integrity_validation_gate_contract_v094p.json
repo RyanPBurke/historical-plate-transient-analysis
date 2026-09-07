@@ -1,0 +1,70 @@
+{
+  "audit_components": {
+    "celestial_frame_audit": {
+      "current_model": "frozen GMST-only ECEF rotation",
+      "reference_model": "Astropy WGS84 EarthLocation -> GCRS with IERS auto-download disabled"
+    },
+    "footprint_scope_audit": {
+      "gaia_identity_not_used": true,
+      "tests": [
+        "common-area fractions",
+        "own-footprint vs common-intersection strict-HQ source incidences"
+      ]
+    },
+    "gaia_id_integrity": {
+      "exact_integer_rule": "never parse catalogue identifiers through float",
+      "network_fallback": false,
+      "no_ids_emitted": true,
+      "source": "retained v094i raw TAP VOTables vs frozen NPZ caches"
+    },
+    "timing_fragment_audit": {
+      "population": "1,081 actual-overlap opportunities",
+      "tests": [
+        "overlap duration distribution",
+        "num_sub>1 census",
+        "synthetic time-within-overlap cross-track loss"
+      ]
+    }
+  },
+  "contract_id": "applause_dr4_measurement_integrity_validation_gate_v094p",
+  "decision_rules": [
+    "Do not use v094n/v094o for parallax inference until this gate is interpreted.",
+    "If any cached Gaia value maps to more than one distinct exact raw Gaia ID, rebuild exact-ID caches before equality-based Gaia use.",
+    "If timing/frame diagnostics materially exceed 2 arcsec, replace fixed-time/GMST geometry before another matcher.",
+    "A future physical parallax search must use side-specific footprints, not common-intersection source pools.",
+    "A future null must be calibrated on no-signal catalogues conditioned on actual footprint/selection geometry."
+  ],
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "coordinates_in_outputs": 0,
+    "network_queries": 0,
+    "new_physical_source_pairing": 0,
+    "pixel_or_fits_reads": 0,
+    "private_candidate_map_reads": 0,
+    "registration": 0,
+    "source_or_gaia_ids_in_outputs": 0,
+    "threshold_retuning": 0
+  },
+  "known_at_freeze": {
+    "footprint_issue": "v094n/v094o clip both source pools to the common intersection; a displaced parallax pair only requires each endpoint to lie on its own selected solution footprint.",
+    "frame_issue": "v094n eci() applies a GMST-only z rotation to WGS84 Earth-fixed positions while source coordinates are labelled ICRS.",
+    "gaia_integer_issue": "v094i masked_val(kind=int) routes gaiaedr3_id through float before int64 storage; exact identity preservation is not established.",
+    "timing_issue": "v094n/v094o use one effective baseline rather than search event time across the allowed overlap interval; multi-fragment geometry mixes a duration-averaged baseline with an absolute site origin from the first overlap midpoint.",
+    "v094o_interpretation": "Rotated directions are not exchangeable against fixed footprints/source distributions. v094o is a directional diagnostic, not a calibrated significance test.",
+    "v094o_opportunity_delta_median": 0.0,
+    "v094o_opportunity_equal": 414,
+    "v094o_opportunity_real_gt_nullmedian": 346,
+    "v094o_opportunity_real_lt_nullmedian": 321,
+    "v094o_plate_pair_equal": 347,
+    "v094o_plate_pair_real_gt_nullmedian": 303,
+    "v094o_plate_pair_real_lt_nullmedian": 285,
+    "v094o_rot0_matches": 997370,
+    "v094o_rot180_matches": 846920,
+    "v094o_rot270_matches": 989451,
+    "v094o_rot90_matches": 770696
+  },
+  "required_parent_git_commit": "48a64ae951bbae0f052be32fce63b11592d70509",
+  "scientific_role": "Validate identity, timing, celestial-frame, and footprint semantics before any further parallax inference or candidate unblinding. v094n/v094o remain preserved exploratory products.",
+  "status": "PROSPECTIVE_METHOD_VALIDATION_GATE",
+  "stop_rule": "STOP after aggregate measurement-integrity report. No candidate unblinding or new parallax search."
+}
