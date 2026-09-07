@@ -1,0 +1,123 @@
+{
+  "contract_id": "applause_dr4_different_gaia_concentration_astrometry_audit_v094k",
+  "fixed_diagnostics": {
+    "concentration_groups": [
+      "opportunity",
+      "physical_plate_pair",
+      "exact_scan_solution_pair",
+      "site_pair",
+      "timing_bin|epoch_label"
+    ],
+    "concentration_summary": [
+      "top1_share",
+      "top5_share",
+      "top10_share",
+      "gini",
+      "nonzero_group_count"
+    ],
+    "gaia_match_distance_bins_arcsec": [
+      0.5,
+      1,
+      2,
+      5
+    ],
+    "gaia_match_radius_ratio_bins": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "gaia_neighbor_bins": [
+      "0",
+      "1",
+      "2-3",
+      "4+",
+      "missing"
+    ],
+    "nn_distance_bins_arcsec": [
+      3,
+      5,
+      10,
+      30
+    ],
+    "same_gaia_astrometric_reference": {
+      "different_gaia_compensated_residual_bins_arcsec": [
+        0.5,
+        1,
+        2,
+        3,
+        5
+      ],
+      "interpretation": "If DIFFERENT_GAIA <=5 displacement vectors collapse toward zero after subtracting the same-Gaia median plate-pair offset, this supports an astrometric/crossmatch systematic rather than physical parallax.",
+      "minimum_reference_pairs": 20,
+      "offset_model": "diagnostic rigid tangent-plane translation only: median dRA*cos(dec), dDec in arcsec; this does not alter source coordinates or population membership",
+      "reference_pairs": "mutual-nearest SAME_GAIA pairs with observed separation <=60 arcsec within each opportunity",
+      "robust_scatter": "median radial deviation from the median same-Gaia offset vector"
+    },
+    "separation_bins_arcsec": [
+      1,
+      3,
+      5,
+      10,
+      30,
+      60
+    ],
+    "source_reuse": "Machine-only source IDs may be used to count repeated DIFFERENT_GAIA <=5 incidences and repeated source-pair incidences. Only aggregate counts/fractions/maxima may be emitted."
+  },
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "candidate_registration": 0,
+    "control_catalog_queries": 0,
+    "coordinate_corrections_written": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "network_queries": 0,
+    "physical_parallax_pairing": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_quality_threshold_relaxation": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "geometry": "exact selected v094h/v094i solution polygons and common-footprint rule",
+    "opportunity_plan": "exact frozen 1,240-row v094i <=5 minute plan",
+    "primary_residual_population": "mutual nearest-neighbour DIFFERENT_GAIA pairs with cross-site separation <=5 arcsec",
+    "secondary_residual_population": "mutual nearest-neighbour DIFFERENT_GAIA pairs with separation <=60 arcsec",
+    "source_cache": "exact 1,386 strict-HQ (scan_id, solution_num) caches frozen/inventoried by v094j",
+    "source_quality": "model_prediction >= 0.9 AND sextractor_flags = 0, unchanged"
+  },
+  "known_at_freeze": {
+    "interpretation_boundary": "The residual is strongly concentrated by site pair and epoch. This is mechanism evidence only; it is not yet evidence for parallax or transience.",
+    "v094j_bamberg_hamburg_different_gaia_le5": 518,
+    "v094j_bamberg_hamburg_opportunities": 1096,
+    "v094j_both_own_gaia_le1_with_pair_le5": 511,
+    "v094j_castel_gandolfo_hamburg_different_gaia_le5": 7336,
+    "v094j_castel_gandolfo_hamburg_opportunities": 31,
+    "v094j_mutual_all_hq_le5": 410361,
+    "v094j_mutual_different_gaia_le5": 7874,
+    "v094j_mutual_different_gaia_le60": 77378,
+    "v094j_mutual_same_gaia_le5": 402487,
+    "v094j_opportunities": 1240,
+    "v094j_overlap_1951_1955_different_gaia_le5": 7421,
+    "v094j_overlap_1951_1955_opportunities": 82,
+    "v094j_overlap_1951_1955_pair_closer_than_both_own_gaia_le5": 1473,
+    "v094j_pair_closer_than_both_own_gaia_le5": 1523
+  },
+  "output_privacy": {
+    "coordinates": "forbidden in result outputs",
+    "gaia_ids": "forbidden in result outputs",
+    "individual_opportunity_ids": "forbidden in result outputs",
+    "plate_scan_solution_identifiers": "not emitted; concentration ranks/counts only",
+    "source_ids": "forbidden in result outputs"
+  },
+  "purpose": "Diagnose the highly concentrated residual DIFFERENT_GAIA mutual-nearest-neighbour population in the corrected <=5 minute strict-HQ branch before any physical-parallax interpretation, source-quality threshold relaxation, candidate inspection, controls, pixels, or registration.",
+  "required_parent_git_commit": "24e466b8b23a49dad0fbcdb4ecd460d0c12c8a83",
+  "required_stratification": [
+    "global",
+    "site_pair",
+    "timing_bin|epoch_label"
+  ],
+  "status": "PROSPECTIVE_AGGREGATE_MECHANISM_AUDIT",
+  "stop_rule": "Stop after aggregate concentration/crowding/Gaia-association/astrometric-residual mechanism results. Interpret before any physical parallax stage, lower-quality sensitivity branch, or individual inspection."
+}

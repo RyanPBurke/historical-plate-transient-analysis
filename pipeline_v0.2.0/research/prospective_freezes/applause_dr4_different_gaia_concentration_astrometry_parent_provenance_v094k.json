@@ -1,0 +1,48 @@
+{
+  "frozen_plan": {
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874"
+  },
+  "known_v094j_outcomes": {
+    "both_own_gaia_le1_with_pair_le5": 511,
+    "mutual_different_gaia_le5": 7874,
+    "mutual_different_gaia_le60": 77378,
+    "mutual_le5": 410361,
+    "mutual_same_gaia_le5": 402487,
+    "opportunities": 1240,
+    "pair_closer_than_both_own_gaia_le5": 1523
+  },
+  "preparation_guards": {
+    "candidate_inspection": 0,
+    "network_queries": 0,
+    "physical_parallax_pairing": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_value_reads": 0
+  },
+  "required_parent_git_commit": "24e466b8b23a49dad0fbcdb4ecd460d0c12c8a83",
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "row_total": 21609122,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d"
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094K_SOURCE_MECHANISM_AUDIT",
+  "v094d_solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "v094j_results": {
+    "manifest": "results/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j/v094j_output_manifest.sha256",
+    "manifest_sha256": "0bd7f50ae435f996f6ca59958327851c8db05aa1dcbd40a6e2c9dc8574bcfeb0",
+    "per_opportunity": "results/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j/per_opportunity_hq_gaia_geometry_v094j.csv",
+    "per_opportunity_sha256": "0976c443abee566c99b7ca368d902fa82398d9ea00335c17478c4b03a4c3e782",
+    "report": "results/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j.json",
+    "report_sha256": "5699a3e0dee13afbba742c76889e2a57f4c4e8218bc91ebbd13cf0efd6967422",
+    "site_summary": "results/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j/site_pair_hq_gaia_geometry_summary_v094j.csv",
+    "site_summary_sha256": "c76ea8965cab67d382779ca53598fb85913cafa672221f40dea9dd6c7c54fbbe",
+    "timing_epoch_summary": "results/applause_dr4_strict_hq_gaia_association_geometry_audit_v094j/timing_epoch_hq_gaia_geometry_summary_v094j.csv",
+    "timing_epoch_summary_sha256": "e57efb78de6e586c8b763b03ecf39584de2e98a63b7ebead25bd592b828c9715"
+  }
+}
