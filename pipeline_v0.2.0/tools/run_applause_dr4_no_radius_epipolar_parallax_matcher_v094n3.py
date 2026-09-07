@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 from __future__ import annotations
 from pathlib import Path
 import argparse,csv,io,sys
@@ -18,7 +18,15 @@ def patched_text():
         raise SystemExit(f"Expected exactly one v094n private-field schema occurrence, found {s.count(OLD)}")
     if f'EXPECTED="{EXPECTED_CONTRACT_SHA}"' not in s:
         raise SystemExit("Frozen v094n contract constant not found in original runner")
-    return s.replace(OLD,NEW,1)
+    s=s.replace(OLD,NEW,1)
+
+    mask_old='ma=np.array([int(x)>0 and int(x) not in shared for x in ga]);mb=np.array([int(x)>0 and int(x) not in shared for x in gb])'
+    mask_new='ma=np.array([int(x)>0 and int(x) not in shared for x in ga],dtype=bool);mb=np.array([int(x)>0 and int(x) not in shared for x in gb],dtype=bool)'
+
+    if s.count(mask_old)!=1:
+        raise SystemExit(f"Expected exactly one v094n unshared-mask constructor, found {s.count(mask_old)}")
+
+    return s.replace(mask_old,mask_new,1)
 
 def serialization_self_test():
     rec={"candidate_hash":"x","class":"PHYSICAL_PARALLAX_GEOMETRY","calibration_tier":"CALIBRATED_LOCAL25",

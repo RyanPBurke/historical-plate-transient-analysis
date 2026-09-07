@@ -1,0 +1,19 @@
+﻿{
+    "repair_id":  "v094n4_empty_unshared_pool_boolean_mask",
+    "repair_class":  "OPERATIONAL_EDGE_CASE_ONLY",
+    "scientific_parent_commit":  "e38ad7af8f03e450f45dd1889c03fb1548f8660e",
+    "operational_parent_commit":  "2dc5bda20beb321f6eafa5f1544882840195ade0",
+    "bug":  "np.array([]) inferred float64 when an unshared-source pool was empty, causing boolean indexing to fail",
+    "repair":  "Specify dtype=bool for both unshared-source masks",
+    "scientific_contract_changed":  false,
+    "source_population_changed":  false,
+    "source_quality_changed":  false,
+    "timing_changed":  false,
+    "epipolar_geometry_changed":  false,
+    "thresholds_changed":  false,
+    "physical_sign_logic_changed":  false,
+    "anti_parallax_null_changed":  false,
+    "calibration_changed":  false,
+    "blinding_changed":  false,
+    "partial_output_handling":  "Delete failed-run result/work products without inspection and regenerate from zero"
+}
