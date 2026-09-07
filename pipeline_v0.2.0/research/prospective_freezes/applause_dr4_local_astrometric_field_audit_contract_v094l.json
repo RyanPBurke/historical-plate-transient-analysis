@@ -1,0 +1,111 @@
+{
+  "contract_id": "applause_dr4_local_astrometric_field_audit_v094l",
+  "decision_rule": {
+    "parallax_stage_justified": "If a material population remains >2 arcsec after both affine and local-field correction while the same-Gaia cross-validation is good, a prospectively frozen physical-parallax stage is justified for that residual population.",
+    "systematic_supported": "If a large majority of evaluable DIFFERENT_GAIA <=5 targets collapse to <=1-2 arcsec under a model whose held-out SAME_GAIA validation residuals are comparably small, treat the concentrated residual as primarily astrometric/crossmatch systematic."
+  },
+  "fixed_models": {
+    "coordinate_system": "gnomonic tangent-plane coordinates centred deterministically on the two selected solution polygons",
+    "cross_validation": {
+      "method": "deterministic five-fold reference-star validation using SHA256(source_id_a|source_id_b) mod 5",
+      "purpose": "measure whether the empirical astrometric model predicts held-out ordinary SAME_GAIA stars",
+      "reported_metrics_arcsec": [
+        "median",
+        "p90",
+        "p95"
+      ]
+    },
+    "global_affine": {
+      "application": "diagnostic residual only; no coordinate products are rewritten",
+      "fit": "iterative least squares with fixed 4-sigma clipping for at most 5 iterations",
+      "form": "six-parameter affine mapping from A tangent coordinates to B tangent coordinates",
+      "minimum_retained_references": 20
+    },
+    "local_translation": {
+      "application": "diagnostic residual only",
+      "estimate": "component-wise median of B-A reference offsets",
+      "minimum_neighbours": 10,
+      "neighbours": 25,
+      "selection": "25 nearest retained SAME_GAIA reference positions on the A side in tangent-plane distance"
+    },
+    "reference_minimum": 30
+  },
+  "fixed_residual_bins_arcsec": [
+    0.5,
+    1,
+    2,
+    3,
+    5
+  ],
+  "fixed_target_diagnostics": {
+    "compare_models": [
+      "raw separation",
+      "rigid translation inherited/replayed",
+      "global affine",
+      "local-25 translation"
+    ],
+    "concentration": "report target residual survival by anonymized opportunity-rank bands; no individual opportunity identifiers",
+    "for_each_model": [
+      "evaluable_target_count",
+      "residual bins",
+      "fraction <=1 arcsec",
+      "fraction <=2 arcsec",
+      "fraction <=3 arcsec"
+    ],
+    "stratification": [
+      "global",
+      "site_pair",
+      "timing_bin|epoch_label"
+    ]
+  },
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "candidate_registration": 0,
+    "control_catalog_queries": 0,
+    "coordinate_products_written": 0,
+    "coordinates_in_results": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "gaia_ids_in_results": 0,
+    "individual_opportunity_ids_in_results": 0,
+    "network_queries": 0,
+    "physical_parallax_pairing": 0,
+    "pixels": 0,
+    "source_ids_in_results": 0,
+    "source_quality_threshold_relaxation": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "opportunity_plan": "exact frozen 1,240-row v094i <=5 minute plan",
+    "reference_pairs": "mutual-nearest SAME_GAIA pairs in the same opportunity with observed separation <=5 arcsec and both APPLAUSE-to-Gaia match distances <=1 arcsec",
+    "source_cache": "exact 1,386 strict-HQ v094i scan/solution caches frozen by v094j and reused by v094k",
+    "source_quality": "unchanged: model_prediction >=0.9 AND sextractor_flags=0",
+    "target_pairs": "mutual-nearest DIFFERENT_GAIA pairs with observed cross-site separation <=5 arcsec"
+  },
+  "known_at_freeze": {
+    "derived_from_frozen_aggregate_only": {
+      "repeated_source_pair_incidence_count": 8,
+      "top1_different_gaia_le5_count": 1580,
+      "top5_different_gaia_le5_count": 5303
+    },
+    "interpretive_boundary": "Strong opportunity/plate-pair concentration with negligible exact source-pair reuse is consistent with a field-level plate/solution/crossmatch mechanism. The rigid-translation diagnostic alone is insufficient to test spatially varying residuals.",
+    "v094k_both_own_gaia_le1_le5": 511,
+    "v094k_different_gaia_le5": 7874,
+    "v094k_different_gaia_le60": 77378,
+    "v094k_opportunities": 1240,
+    "v094k_opportunity_top1_share": 0.20066040132080265,
+    "v094k_opportunity_top5_share": 0.6734823469646939,
+    "v094k_pair_closer_than_both_own_gaia_le5": 1523,
+    "v094k_plate_pair_top1_share": 0.20066040132080265,
+    "v094k_reference_eligible_opportunities": 513,
+    "v094k_repeated_source_endpoint_incidence_fraction": 0.19558039116078232,
+    "v094k_repeated_source_pair_incidence_fraction": 0.001016002032004064,
+    "v094k_rigid_translation_compensated_residual_le1_count": 697,
+    "v094k_scan_solution_pair_top1_share": 0.20066040132080265
+  },
+  "purpose": "Determine whether the concentrated DIFFERENT_GAIA <=5 arcsec residual from v094k is explained by plate/solution-specific spatial astrometric distortion beyond a rigid translation, before any physical-parallax interpretation, source-quality threshold relaxation, candidate inspection, controls, pixels, or registration.",
+  "required_parent_git_commit": "d5109eea6189e45df1d07045ce7ae57e4397a2cb",
+  "status": "PROSPECTIVE_AGGREGATE_MECHANISM_AUDIT",
+  "stop_rule": "Interpret v094l before any physical parallax pairing, threshold relaxation, or individual candidate inspection."
+}
