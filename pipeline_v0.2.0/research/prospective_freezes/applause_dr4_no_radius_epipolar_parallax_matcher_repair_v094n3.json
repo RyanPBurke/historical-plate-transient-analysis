@@ -1,0 +1,22 @@
+{
+  "blinding_changed": false,
+  "calibration_changed": false,
+  "frozen_original_runner_git_blob_sha": "5d5bfa97ee22cedb2f7db37ef1a4849ca0dd550b",
+  "frozen_scientific_contract_sha256": "f4c3e6260bf8139ab7ac370e2f9f5a28d46353685dd17f1d07ead516dfb1b643",
+  "frozen_scientific_parent_commit": "e38ad7af8f03e450f45dd1889c03fb1548f8660e",
+  "geometry_changed": false,
+  "null_model_changed": false,
+  "operational_parent_commit": "7f3688709f55a5bf4d333337c6b0899d57d7efba",
+  "partial_output_handling": "clear failed v094n result/work products without inspection and regenerate from zero",
+  "population_changed": false,
+  "repair_class": "OPERATIONAL_ONLY",
+  "repair_id": "v094n3_runtime_root_preservation_repair",
+  "scientific_contract_changed": false,
+  "serialization_patch": "append only distance_bin and disparity_bin to private candidate CSV fieldnames",
+  "thresholds_changed": false,
+  "timing_changed": false,
+  "v094n1_failure": "incorrectly compared Git blob SHA to raw-file SHA-256",
+  "v094n2_failure": "patched runtime was relocated under ProjectRoot/work, changing Path(__file__).parents[1] from ProjectRoot to ProjectRoot/work and therefore changing CONTRACT/PROV/RESULT/WORK roots",
+  "v094n3_repair": "execute the serialization-patched frozen source in-memory with __file__ explicitly preserved as the original ProjectRoot/tools/v094n runner path",
+  "v094n_failure": "private CSV DictWriter fieldnames omitted distance_bin and disparity_bin"
+}
