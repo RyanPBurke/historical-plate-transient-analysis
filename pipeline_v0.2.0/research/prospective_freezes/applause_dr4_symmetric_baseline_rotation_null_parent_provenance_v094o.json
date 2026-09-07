@@ -1,0 +1,41 @@
+{
+  "frozen_plan": {
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874"
+  },
+  "original_v094n_runner": {
+    "path": "tools/run_applause_dr4_no_radius_epipolar_parallax_matcher_v094n.py",
+    "sha256": "d17a6da96f788eb0eaa57da2634426a693d982552932560530aa8218c15e28e4"
+  },
+  "plate_site_cache": {
+    "path": "work/applause_dr4_plate_site_provenance_refinement_v093c/tap_cache/plate.csv",
+    "sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402"
+  },
+  "preparation_guards": {
+    "candidate_identity_reads": 0,
+    "network_queries": 0,
+    "source_value_reads": 0
+  },
+  "private_candidate_map_read": false,
+  "required_parent_git_commit": "96dcafbc93ebb015ecc6baf5475c27e92958a5f2",
+  "solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "rows": 21609122,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d"
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094O_SYMMETRIC_NULL",
+  "v094n_result": {
+    "calibrated_physical_matches": 732422,
+    "manifest_path": "results/applause_dr4_no_radius_epipolar_parallax_matcher_v094n/v094n_output_manifest.sha256",
+    "manifest_sha256": "cb9e1a3c4d088e47b17bb909644e83f1ff6bfd7fe11d003231517da87af5dd5d",
+    "path": "results/applause_dr4_no_radius_epipolar_parallax_matcher_v094n/applause_dr4_no_radius_epipolar_parallax_matcher_v094n.json",
+    "physical_matches": 997370,
+    "sha256": "02207855709e7b81ca1f74e636158b16ca16eee39c983780e3cadb89408921f3"
+  }
+}

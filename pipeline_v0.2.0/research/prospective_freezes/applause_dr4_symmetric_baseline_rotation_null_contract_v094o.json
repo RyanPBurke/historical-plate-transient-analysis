@@ -1,0 +1,135 @@
+{
+  "blinding": {
+    "candidate_hashes_in_outputs": 0,
+    "coordinates_in_outputs": 0,
+    "gaia_ids_in_outputs": 0,
+    "individual_opportunity_ids_in_outputs": 0,
+    "private_candidate_map_read": false,
+    "source_ids_in_outputs": 0
+  },
+  "contract_id": "applause_dr4_symmetric_baseline_rotation_null_v094o",
+  "fixed_outputs": {
+    "aggregate_rotations": [
+      "ROT0_REAL",
+      "ROT90_NULL",
+      "ROT180_NULL",
+      "ROT270_NULL"
+    ],
+    "opportunity_level_summary": [
+      "number with real > median(nulls)",
+      "real < median(nulls)",
+      "equal",
+      "median and p10/p90 of real-minus-median-null",
+      "sum real / sum median-null"
+    ],
+    "plate_pair_cluster_summary": [
+      "number of physical plate-pair clusters with real > median(nulls)",
+      "real < median(nulls)",
+      "equal"
+    ],
+    "stratification": [
+      "site_pair",
+      "epoch_label",
+      "calibration_tier",
+      "distance_bin",
+      "disparity_bin"
+    ],
+    "wide_angle_subsets": [
+      ">=1deg",
+      "10-60arcmin",
+      "<10arcmin"
+    ]
+  },
+  "guards": {
+    "angular_pair_radius_maximum_applied": false,
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "controls": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "network_queries": 0,
+    "nonoverlap_motion_pairing": 0,
+    "pixels": 0,
+    "quality_threshold_relaxation": 0,
+    "registration": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "calibration": "same v094l/v094n local-25 relative astrometric calibration where >=30 tight same-Gaia references exist",
+    "empty_pool_semantics": "explicit dtype=bool masks as recorded in v094n4",
+    "opportunities": "same frozen 1,081 actual-overlap opportunities used by v094n; 159 non-overlap <=5min remain held",
+    "sources": "same strict-HQ common-footprint source pools; shared Gaia identities excluded exactly as v094n"
+  },
+  "known_at_freeze": {
+    "interpretation_boundary": "The old physical/anti ratio must not be treated as astrophysical evidence. Nearly all old excess lies at >=10 arcmin, especially >=1 degree, and the two branches did not use symmetric acceptance mechanics.",
+    "v094n_anti_matches_old_diagnostic_only": 709152,
+    "v094n_calibrated_anti_old_diagnostic_only": 541930,
+    "v094n_calibrated_physical_matches": 732422,
+    "v094n_physical_matches": 997370,
+    "v094n_repeated_exact_source_pair_fraction": 2.4063286443346e-05,
+    "v094n_repeated_source_endpoint_fraction": 0.6052523135847279,
+    "v094n_stratification": {
+      "0p01_to_0p1au": {
+        "old_anti": 6079,
+        "physical": 6242
+      },
+      "0p1_to_1au": {
+        "old_anti": 1174,
+        "physical": 350
+      },
+      "10_to_60arcmin": {
+        "old_anti": 204883,
+        "physical": 231572
+      },
+      "earth_to_0p01au": {
+        "old_anti": 701899,
+        "physical": 990778
+      },
+      "ge1deg": {
+        "old_anti": 461560,
+        "physical": 722659
+      },
+      "lt10arcmin_combined": {
+        "old_anti": 42709,
+        "physical": 43139
+      }
+    }
+  },
+  "mechanical_replay": {
+    "rot0_calibrated_required": 732422,
+    "rot0_total_required": 997370
+  },
+  "null_geometry": {
+    "anti_direction_control": "180 degrees",
+    "baseline_decomposition": "B = B_parallel_to_field_axis + B_perpendicular",
+    "field_axis": "unit vector to deterministic common-footprint tangent-plane center",
+    "old_v094n_pseudo_range_anti_branch": "NOT USED",
+    "orthogonal_controls": [
+      90,
+      270
+    ],
+    "real_geometry": "0 degrees",
+    "rotation_rule": "rotate only B_perpendicular around the field axis; preserve B_parallel and |B_perpendicular|",
+    "rotations_deg": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "same_acceptance_all_rotations": [
+      "same 7 arcsec raw epipolar candidate generator",
+      "same 2 arcsec final cross-track tolerance",
+      "same full two-ray ray_solution",
+      "same positive tA and tB requirement",
+      "same geocentric Earth-radius floor",
+      "same source-specific Dmax from >=2 arcsec resolution",
+      "same <=2 arcsec ray-closure requirement",
+      "same real-observation visibility prefilter",
+      "same source pools and calibration"
+    ]
+  },
+  "purpose": "Test whether the v094n wide-angle physical-geometry count excess survives a strictly symmetric directional null. The v094n physical-sign branch remains a valid geometric search, but its anti-parallax branch is retired for inference because it used a separate pseudo-range acceptance rather than the exact same ray solver/closure/visibility machinery.",
+  "required_parent_git_commit": "96dcafbc93ebb015ecc6baf5475c27e92958a5f2",
+  "status": "PROSPECTIVE_AGGREGATE_DIRECTIONAL_NULL_AUDIT",
+  "stop_rule": "Interpret symmetric rotation-null results before any unblinding, registration, pixels, or candidate-level follow-up."
+}
