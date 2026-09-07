@@ -1,0 +1,16 @@
+{
+  "frozen_runner_git_blob_sha": "5d5bfa97ee22cedb2f7db37ef1a4849ca0dd550b",
+  "frozen_scientific_parent_commit": "e38ad7af8f03e450f45dd1889c03fb1548f8660e",
+  "geometry_changed": false,
+  "null_changed": false,
+  "partial_output_handling": "delete failed v094n results/work without inspection and regenerate from zero",
+  "population_changed": false,
+  "repair_class": "OPERATIONAL_ONLY",
+  "repair_id": "v094n2_serialization_repair_validator_fix",
+  "scientific_contract_changed": false,
+  "scientific_contract_sha256": "f4c3e6260bf8139ab7ac370e2f9f5a28d46353685dd17f1d07ead516dfb1b643",
+  "serialization_repair": "unchanged from v094n1: append distance_bin and disparity_bin to private CSV fieldnames",
+  "thresholds_changed": false,
+  "v094n1_failure": "validator compared a Git blob SHA against SHA-256 Get-FileHash output",
+  "v094n2_validation": "use git hash-object for the frozen repo runner; compare operational runner text to the repo runner after normalizing only CRLF/LF"
+}
