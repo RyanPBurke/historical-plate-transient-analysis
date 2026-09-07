@@ -1,0 +1,113 @@
+{
+  "astrometric_calibration": {
+    "calibrated_tier_requirement": "at least 30 tight references in that opportunity",
+    "coordinates_written_back": false,
+    "reference_definition": "Same as frozen v094l: mutual-nearest SAME_GAIA pair, observed A/B separation <=5 arcsec, and both APPLAUSE-to-Gaia match distances <=1 arcsec.",
+    "reference_fit": "Recompute the frozen v094l robust affine clipping only to identify retained ordinary-star references; then map B into the A astrometric frame using the component-wise median B-A offset of the 25 nearest retained references to the B-source location (minimum 10).",
+    "uncalibrated_tier": "Opportunities lacking >=30 references are still searched with raw astrometry and labelled HOLD_UNCALIBRATED_ASTROMETRY; they cannot be called strong candidates in v094n."
+  },
+  "blinding": {
+    "blinded_result_ledger": "May contain SHA256 candidate hashes and physical metrics, but no source IDs, Gaia IDs, coordinates, plate IDs, scan IDs, solution IDs, or opportunity IDs.",
+    "private_machine_map": "A private work-state CSV may contain candidate hash -> source/opportunity identifiers and coordinates for later registered follow-up. It is hash-manifested but must not be inspected before the v094n aggregate stop.",
+    "result_console": "aggregate counts only"
+  },
+  "contract_id": "applause_dr4_no_radius_epipolar_parallax_matcher_v094n",
+  "epipolar_geometry": {
+    "angular_maximum_pair_radius": "NONE",
+    "baseline": "duration-weighted simultaneous ECI site-B minus site-A baseline across all positive fragment-overlap intervals",
+    "candidate_generation": "Exact spherical epipolar-plane interval join. Around each B-side source, derive the allowable epipolar azimuth interval corresponding to a raw cross-track tolerance of 7 arcsec, then range-join A-side epipolar azimuths. This is a generator only and does not define scientific acceptance.",
+    "minimum_resolved_disparity_arcsec": 2.0,
+    "raw_generator_cross_track_arcsec": 7.0,
+    "signed_disparity": "With baseline axis from A to B, physical simultaneous parallax requires the B-side polar angle about that axis to exceed the A-side polar angle. The opposite sign is the anti-parallax null.",
+    "why_7_arcsec": "The previously frozen tight reference population has raw same-Gaia A/B separation <=5 arcsec; adding the fixed 2-arcsec final physical closure tolerance gives a conservative 7-arcsec generator that can accommodate the validated relative astrometric field without imposing a source-pair distance maximum."
+  },
+  "fixed_physical_acceptance": {
+    "common_footprint_required": true,
+    "disparity_bins": [
+      "2_TO_5ARCSEC",
+      "5_TO_30ARCSEC",
+      "30_TO_60ARCSEC",
+      "1_TO_10ARCMIN",
+      "10_TO_60ARCMIN",
+      "GE1DEG"
+    ],
+    "distance_bins": [
+      "EARTH_TO_0P01AU",
+      "0P01_TO_0P1AU",
+      "0P1_TO_1AU",
+      "GE1AU"
+    ],
+    "final_cross_track_tolerance_arcsec": 2.0,
+    "horizon_check": "report below-horizon/inconsistent solutions separately; do not promote them",
+    "maximum_distance": "source-specific Dmax = projected simultaneous baseline perpendicular to the A-side line of sight / tan(2 arcsec)",
+    "minimum_geocentric_distance_km": 6378.137,
+    "minimum_signed_disparity_arcsec": 2.0,
+    "positive_ray_parameters_required": true,
+    "ray_closure_tolerance_arcsec": 2.0,
+    "same_gaia_identity_forbidden_by_pool_definition": true
+  },
+  "guards": {
+    "angular_pair_radius_maximum_applied": false,
+    "candidate_disposition_changes": 0,
+    "candidate_human_inspection": 0,
+    "control_queries": 0,
+    "external_gaia_queries": 0,
+    "fits": 0,
+    "network_queries": 0,
+    "nonoverlap_motion_pairing": 0,
+    "pixels": 0,
+    "source_quality_threshold_relaxation": 0,
+    "threshold_retuning_after_results": false
+  },
+  "input_population": {
+    "common_footprint": "exact selected-solution common footprint inherited from v094i-v094m",
+    "nonoverlap": "159 >0-5 minute opportunities remain HOLD_MOTION_PARALLAX_DEGENERATE and are not paired in v094n",
+    "opportunities": "exact frozen 1,240-row v094i <=5-minute plan",
+    "primary_timing": "the 1,081 timing_bin=OVERLAP opportunities only",
+    "source_pool": "For each overlap opportunity, remove every Gaia identity present on both science sides of the common footprint. Every remaining strict-HQ incidence with its side-specific Gaia identity remains eligible; no angular separation maximum and no nearest-neighbour requirement is imposed.",
+    "source_quality": "unchanged strict-HQ: model_prediction >=0.9 AND sextractor_flags=0"
+  },
+  "known_at_freeze": {
+    "interpretation_boundary": "The physical search space is tractable enough to run a directed matcher, but chance burden is strongly heterogeneous. Therefore a signed geometric null and strict blinding are required before individual inspection.",
+    "v094m_actual_overlap": 1081,
+    "v094m_corridor_expected_random_per_source": {
+      "halfwidth_1arcsec": {
+        "median": 0.015416015182576787,
+        "p90": 0.7827655593361178
+      },
+      "halfwidth_2arcsec": {
+        "median": 0.030832030365153574,
+        "p90": 1.5655311186722356
+      },
+      "halfwidth_3arcsec": {
+        "median": 0.04624804554773036,
+        "p90": 2.3482966780083534
+      }
+    },
+    "v094m_median_dmax_2arcsec_au": 0.2581076864853645,
+    "v094m_median_earth_radius_parallax_deg": 3.3594016543032557,
+    "v094m_median_projected_baseline_km": 374.39601077139474,
+    "v094m_median_unshared_density_per_deg2": 9.832560965552958,
+    "v094m_nonoverlap_motion_parallax_holds": 159,
+    "v094m_opportunities": 1240,
+    "v094m_overlap_reference_eligible": 60,
+    "v094m_physical_overlap_geometry_eligible": 1081,
+    "v094m_unshared_hq_incidences_a_plus_b": 14095293
+  },
+  "null_model": {
+    "definition": "Use the same epipolar generator and the same absolute disparity, cross-track, source pools and opportunity geometry, but count pairs whose corrected B polar angle is smaller than A by >=2 arcsec. Compute a pseudo-range from the same stereo triangle using absolute signed disparity. This is a matched geometric chance/systematic null, not a physical object solution.",
+    "name": "ANTI_PARALLAX_SIGN",
+    "stratification": [
+      "global",
+      "site_pair",
+      "epoch_label",
+      "distance_bin",
+      "disparity_bin",
+      "calibration_tier"
+    ]
+  },
+  "purpose": "Perform the first physically directed, no-angular-maximum source pairing on the corrected <=5-minute actual-overlap population. Use exact epipolar geometry from the simultaneous observatory baseline, preserve all strict-HQ sources whose Gaia identity is not shared across the two science sides, and compare the physical parallax sign against an anti-parallax sign null before any individual candidate inspection.",
+  "required_parent_git_commit": "bc425d122b9f293e1be77d321801cafbf49d141c",
+  "status": "PROSPECTIVE_BLINDED_PHYSICAL_MATCHER",
+  "stop_rule": "Stop after aggregate physical-vs-anti-parallax counts, distance/disparity/site/epoch/calibration strata and candidate concentration/reuse diagnostics. Do not inspect private candidate identities until that aggregate stop is interpreted."
+}

@@ -1,0 +1,35 @@
+{
+  "frozen_plan": {
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874"
+  },
+  "plate_site_cache": {
+    "path": "work/applause_dr4_plate_site_provenance_refinement_v093c/tap_cache/plate.csv",
+    "sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402"
+  },
+  "preparation_guards": {
+    "candidate_inspection": 0,
+    "network_queries": 0,
+    "physical_source_pairing": 0,
+    "source_value_reads": 0
+  },
+  "required_parent_git_commit": "bc425d122b9f293e1be77d321801cafbf49d141c",
+  "solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "rows": 21609122,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d"
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094N_BLINDED_MATCHER",
+  "v094m_results": {
+    "manifest": "results/applause_dr4_physical_parallax_search_space_census_v094m/v094m_output_manifest.sha256",
+    "manifest_sha256": "e95689adf8080bf0109997ce7a55d7a6957b3dba5b9efc65f88d04615f65a7f9",
+    "report": "results/applause_dr4_physical_parallax_search_space_census_v094m/applause_dr4_physical_parallax_search_space_census_v094m.json",
+    "report_sha256": "51c91f2199eea0ee718cd1a8f22c8235811165a04f3763bdc6b7f4cb22be1a6d"
+  }
+}
