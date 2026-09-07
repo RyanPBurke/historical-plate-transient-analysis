@@ -1,0 +1,79 @@
+{
+  "contract_id": "applause_dr4_exact_gaia_identity_and_timing_reconstruction_v094q",
+  "downstream_status": {
+    "physical_parallax_rebuild": "Not allowed in v094q. Future branch must also repair historical frame/time semantics, event-time search, side-specific footprints, and upstream opportunity eligibility.",
+    "v094i_gaia_resolved_vs_unresolved_positivity": "Potentially retainable if v094q reconfirms zero positivity changes; exact identity equality metrics require replay.",
+    "v094j_v094k_v094l_v094m_v094n_v094o": "All Gaia-equality-dependent results remain exploratory/HOLD pending exact-ID replay or replacement."
+  },
+  "exact_gaia_repair": {
+    "exact_integer_rule": "catalogue identifiers must be read as integer dtype/string and never pass through float",
+    "legacy_causality_check": "For every row, predict the frozen legacy cached Gaia value using int(round(float(exact_raw_id))) with null -> -1 and require exact agreement with the existing cache. Any disagreement is a HOLD.",
+    "repaired_cache": "Create a new machine-only per-(scan_id,solution_num) NPZ cache with every old array unchanged except gaia_id replaced by the exact raw integer value aligned by exact source_id.",
+    "required_repaired_products": 1386,
+    "required_repaired_rows": 21609122,
+    "source": "347 retained v094i raw TAP VOTables plus frozen 1386 NPZ cache products",
+    "source_id_integrity": "Require raw and cached source_id sets to agree exactly for every non-empty key. source_id is not replaced unless a mismatch is found; any mismatch is a HOLD."
+  },
+  "gaia_equality_impact_audit": {
+    "footprint_for_replay": "Use the same common-intersection clipping as the old equality-dependent analyses only to quantify their impact. This is not approval of common-intersection clipping for the future physical branch.",
+    "measure": [
+      "source incidences classified shared under cached IDs but not exact IDs",
+      "source incidences shared under exact IDs but not cached IDs",
+      "opportunities with any shared/unshared membership change",
+      "tight MNN same-Gaia reference pairs under cached IDs versus exact IDs",
+      "false cached same-Gaia reference pairs",
+      "missed exact same-Gaia reference pairs"
+    ],
+    "no_identity_values_emitted": true,
+    "population": "same frozen 1240 <=5-minute opportunities; report overlap=1081 separately"
+  },
+  "guards": {
+    "candidate_disposition_changes": 0,
+    "candidate_identity_inspection": 0,
+    "coordinates_in_result_outputs": 0,
+    "network_queries": 0,
+    "new_physical_source_pairing": 0,
+    "pixels_or_fits_reads": 0,
+    "private_candidate_map_reads": 0,
+    "registration": 0,
+    "source_or_gaia_ids_in_result_outputs": 0,
+    "threshold_retuning": 0
+  },
+  "independent_timing_reconstruction": {
+    "comparison_to_frozen_plan": [
+      "OVERLAP versus non-overlap classification",
+      "all positive overlap intervals after sorting",
+      "total overlap duration",
+      "minimum fragment gap for non-overlap rows"
+    ],
+    "fragment_rule": {
+      "num_sub_gt1": "Use exposure_sub rows only; require row count=num_sub, unique subexposure_id and subexposure_num, valid start<end, and no overlapping fragments.",
+      "num_sub_le1": "Use valid parent exposure ut_start/ut_end provisionally, matching frozen v094d semantics.",
+      "num_sub_null_or_invalid": "TIMING_STRUCTURALLY_UNRESOLVED"
+    },
+    "purpose": "This is an independent reconstruction from exposure/exposure_sub records; it does not trust fragment_overlap_intervals_json as the timing source.",
+    "sources": [
+      "frozen v094d exposure_full.csv",
+      "frozen v094d exposure_sub_full.csv"
+    ],
+    "tolerance_seconds": 0.001
+  },
+  "known_at_freeze": {
+    "interpretation": "Gaia equality-based analyses are on HOLD because exact-ID collisions are observed. v094p timing durations reproduce the frozen plan but do not independently reconstruct exposure_sub intersections. v094p frame and synthetic results are diagnostics, not a calibrated recovery/error budget.",
+    "v094p_any_side_num_sub_gt1": 58,
+    "v094p_cached_gaia_values_with_multiple_distinct_exact_raw_ids": 26331,
+    "v094p_complete": true,
+    "v094p_gaia_id_rows_changed_by_float_conversion": 10583188,
+    "v094p_gaia_positive_row_cache_keys_verified": 1362,
+    "v094p_gaia_positive_status_changes": 0,
+    "v094p_gaia_rows_compared": 21609122,
+    "v094p_gmst_vs_gcrs_median_arcsec_diagnostic_only": 2049.401347038947,
+    "v094p_max_overlap_interval_gt_10min": 488,
+    "v094p_overlap_opportunities": 1081,
+    "v094p_side_only_strict_hq_incidence_fraction": 0.5442301866965701
+  },
+  "required_parent_git_commit": "d9d1bc3acf7ae6eff03d75afe89c9dd18c64aa30",
+  "scientific_role": "Repair exact Gaia EDR3 identity representation and independently reconstruct exposure/subexposure timing before any further parallax inference. No new physical source pairing or candidate inspection.",
+  "status": "PROSPECTIVE_METHOD_REPAIR_GATE",
+  "stop_rule": "STOP after exact cache repair, aggregate equality-impact audit, and independent timing reconstruction. Interpret before historical-frame validation or any new matcher."
+}

@@ -1,0 +1,1786 @@
+{
+  "expected_cache_products": 1386,
+  "expected_cache_rows": 21609122,
+  "frozen_plan": {
+    "path": "research/prospective_freezes/applause_dr4_le5min_source_state_opportunity_plan_v094i.csv",
+    "rows": 1240,
+    "sha256": "e39e014a1929983741778421f994079b5fdac68d33982f57d20203b4c9e6b874"
+  },
+  "plate_site_cache": {
+    "path": "work/applause_dr4_plate_site_provenance_refinement_v093c/tap_cache/plate.csv",
+    "sha256": "ffbe89d8f4fd895f5b5596de0d6889d6a58e75fecade1692d5307503cb7cd402"
+  },
+  "preparation_guards": {
+    "candidate_identity_reads": 0,
+    "network_queries": 0,
+    "private_candidate_map_reads": 0,
+    "raw_catalogue_value_reads": 0,
+    "source_cache_value_reads": 0
+  },
+  "raw_votables": {
+    "file_count": 347,
+    "files": [
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0123a830ef84d175b8b5.vot",
+        "sha256": "b0da3106df3532b84a3e92313f2c684a4ef3c4143a91c8d5689c8184f94b7609",
+        "size_bytes": 66372412
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_016a3c77eb22604eb85e.vot",
+        "sha256": "599f97ae3ce8eeddd7bda509d8fe7cadf10e4b17bde2834239b6f3543e4088ea",
+        "size_bytes": 427261344
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_018828139e06f5e590ee.vot",
+        "sha256": "aa2b356b03d6ed33ca41a87b033d4046c178047ff70470a202f750896d4ad70f",
+        "size_bytes": 6791298
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_01cd3eaf4a2d71076c3c.vot",
+        "sha256": "892a69fa66a043249629a756abde89ac0824214c9c69f9467aeea75507846352",
+        "size_bytes": 188533142
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_03099d8376a78a0396b6.vot",
+        "sha256": "e113d8b1c88d9e7e9ed81d3865bec38aed525d115036dbed8b3b76ac5703f1b1",
+        "size_bytes": 25054702
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_033efec271b24be49164.vot",
+        "sha256": "2fefe3a93e3074565f289695224e1fab1d9464661338fa99124c7da70dba350e",
+        "size_bytes": 285826000
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_039f7d780c5da2db5bab.vot",
+        "sha256": "bd2452eea3370a053948d99f7c3e7ce9a1e113f9c567cc96cc8953438dcd6ba0",
+        "size_bytes": 44371613
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_051b9ac353021d561fd5.vot",
+        "sha256": "f937f703185b39a7f2fc50a13ae826f32b049f05c5493bf0b71f6061d4a933d9",
+        "size_bytes": 39033022
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0584e9c600ddd1074915.vot",
+        "sha256": "c7cc95d4078cdc7333b733e593b4e12a49296c86cf8c9597bce37047e59b7139",
+        "size_bytes": 74561533
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_060209f6e49de95e272a.vot",
+        "sha256": "cc349dd9625ecc485dfc50f37aaf0a14b6292574c8549bffed6f20f737e94dc0",
+        "size_bytes": 11913002
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_06622bd4d6488b1ed15b.vot",
+        "sha256": "5d9b9a23380a2af883cab1cef34a2d6715bded4f8932fa62bce9fd6a38b40b78",
+        "size_bytes": 844402
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_06a37ebcaa18aa887b09.vot",
+        "sha256": "d822e0ab0d984e7d8f850957479bb02d1e416aa443556faa509bcfaab6ef11f6",
+        "size_bytes": 10896817
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_06fb46ce2a705f932b18.vot",
+        "sha256": "387f66da3d3e346c1893157b53a9cce89b1e6621b1377f577e6ee4ecc84e0fe0",
+        "size_bytes": 20508206
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0775268a573c6f4bc578.vot",
+        "sha256": "cb9bbaa48aebfebe3cb7b7e7b62dec6bdbfc21fa4e72f9c3323ec638eed4ecbf",
+        "size_bytes": 36647226
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_08df5542c03e1cc4aad4.vot",
+        "sha256": "082e2d14dab04a3d59dec6bfcbc0e70745a390181930cb2e099f6f6902ed3e0a",
+        "size_bytes": 5793850
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_09a8f45cccff2226c737.vot",
+        "sha256": "9c3310345988b4837bd65659a27044d6c3c652206b164122d26e682f3523d609",
+        "size_bytes": 30604427
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_09c65116ba26a68d631a.vot",
+        "sha256": "a2a6e4af98d29126dc3475cdab746979d1e99520571ba75ebc21a58a448eaca8",
+        "size_bytes": 53574235
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_09ebe0a8b58e4ea19330.vot",
+        "sha256": "c3cbf93a66992c3dc1aed767aa805b14e67f863744ee1c867ab7bd0e55275068",
+        "size_bytes": 21905812
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0a452ea4c933c269c4eb.vot",
+        "sha256": "c7f6c44530182e55d692db0c22fa165f3d01e57cd6eafcf98f853a7bacc256b0",
+        "size_bytes": 253931477
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0a961554791196f1596d.vot",
+        "sha256": "d371e1b10ff12f6e858108c6da5e137ef9d7a97ffa9a5af327e6d77d3b54620b",
+        "size_bytes": 36090257
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0ae78af9227aaf6520fe.vot",
+        "sha256": "e8d2a60014fc18392557684b0e256b2d3d83d751b0159f098e0dcca186d1d949",
+        "size_bytes": 41561661
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0c003333be7cb6688e77.vot",
+        "sha256": "566f71df5022e73874058a60d43d7dce0441eb25dfc80142ab5b9f74248d5009",
+        "size_bytes": 1380053
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0c21d32ca976146908bf.vot",
+        "sha256": "3204fb4ba960e768cbda9ae5d37fc6954860083441277af97ecd0379262ade0f",
+        "size_bytes": 935927
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0df4e3cea01e90650f0c.vot",
+        "sha256": "968ba24d0d2fc0b6c6c7fe48bb97b2b0dab3547567cc72b14c320012a7ca6a45",
+        "size_bytes": 15597565
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0ec156bb7e7d68b4ae1d.vot",
+        "sha256": "7dc64a2262fa9af622c01c3cb4780dc4a6aaa1637e733bd67b6fea696e3e6678",
+        "size_bytes": 19911567
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0f01703fa5f9077c256c.vot",
+        "sha256": "e8afbcff54bd1e7406a1e87ac84bddad4bf97dfe36dd0e9ff1d0dbd01e76ec65",
+        "size_bytes": 19428655
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0f0cae3eaf05fa4dee9a.vot",
+        "sha256": "7911a224333e9e45582f6336db2c88ecc077b3a522e6a2eacf935f2debd20f86",
+        "size_bytes": 17522876
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0f32ad9a13f90ecf69f2.vot",
+        "sha256": "362a9417b309c827cc6bcbf3734bec6930fe9dcb55a0694750f7b2eafba2d5e8",
+        "size_bytes": 22891105
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_0feb3c16ad517fc40a8a.vot",
+        "sha256": "92305c6ba2e93ba5b1ea5b5c71952868d4db57ab0c1bcc1ed2300dcdf96b31c9",
+        "size_bytes": 14842720
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1025efc72217695bcc01.vot",
+        "sha256": "e436f5c7f9a022fcaeaebed66622b677eea1ccd50cb19a4d686e1edc85d2edda",
+        "size_bytes": 7106842
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1079326cb68bb3f0827f.vot",
+        "sha256": "53908f413d28d3fb75c6f452df5f9af49a2acd03205b97cac4155576c172cb10",
+        "size_bytes": 222823442
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_11e6232a0ad7f61e220d.vot",
+        "sha256": "e0e00028130d33c8fa365cdf2eed720f180762fed5110eecc005952d1086aea5",
+        "size_bytes": 2954133
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1306d9fe2dd3c401417d.vot",
+        "sha256": "27d229f5366c229d6744b84fb681482264144d42c414c134052ce1cd36224c12",
+        "size_bytes": 476716146
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_13335714e0ffad8cc0dd.vot",
+        "sha256": "39b9ebe7d18599a269d0c087902b362047cb0fa40f1d11db627ba67fc8a1bdb8",
+        "size_bytes": 16371112
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_149b641edaed2ca64b31.vot",
+        "sha256": "85ac4dcb794ccc87eb11ce936a128c48c8d798e3dec4325c6f6bc4df03a02d3b",
+        "size_bytes": 67868558
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_15f95878d0b3c9d17843.vot",
+        "sha256": "b7d485f32a35b4238b66df31dc3d11b35426bdcbf7b7a7c84ba71b55da91cac2",
+        "size_bytes": 10758010
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1629d47de9c7cf9e6bdc.vot",
+        "sha256": "a96d128baf17492dfbb30937a5b461c1f3fcbe975906f0920f1302281afa6aef",
+        "size_bytes": 656210
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1777156b51a6719c1748.vot",
+        "sha256": "4013e34fba48d1c85641704989e5ac2f0b50032b7f29651cce623ad830309d1e",
+        "size_bytes": 25346351
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_188f0dc5710c58e7fff5.vot",
+        "sha256": "5e384ecc0ffb33a6aaa6b1fb254b13c286fd96212494f4ed309d4dce52ae1836",
+        "size_bytes": 16293281
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1972ff636e92c5aa0970.vot",
+        "sha256": "2c79c441955c11112dd2d117e0a2534bdacfd0fc10c15f83d9085d6762aa9629",
+        "size_bytes": 45446479
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_19871e595c9b631a7b27.vot",
+        "sha256": "562a75fa15aec35a06bed84cafcc02510f0d4a390b7eb041ce550c38a251e2ee",
+        "size_bytes": 521531262
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1b07aab0b45973d95818.vot",
+        "sha256": "6ab8de35ede0ae18a165017f71fcd021784d938983dd6087586c74cc615495b0",
+        "size_bytes": 29619240
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1b16764044f6aa77a5fb.vot",
+        "sha256": "774004a11019aad50450df6ad4a8bc4db0104ddacec27da4a559821a86389abf",
+        "size_bytes": 11588656
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1c3f370487e46171779e.vot",
+        "sha256": "a1bb5deecd1b1f791e14975bf8060b31b0a2a6b06339900c5b3637ac1abdf6af",
+        "size_bytes": 137533192
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1c83fbd2c622d4dcd598.vot",
+        "sha256": "a3330e1c742cb8cb96aab361370f5468781bd4b949af8e185848b47ebbb259ae",
+        "size_bytes": 17857989
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1ce36bf319b424ccd3e3.vot",
+        "sha256": "278972c480249db088356c6ca3e30627575a0e61215957046d8ee148a3fa16d4",
+        "size_bytes": 12041332
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1d8757d11584d7f92eab.vot",
+        "sha256": "e4f0ccb9286f47df4f9e11369e516c16c2f1b8eec6c5be179b1323966771bbb1",
+        "size_bytes": 171716576
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1db3ca210ebe3a6019a6.vot",
+        "sha256": "584530d8a3a258d40129fc9961007d6c05691012a1dea79d3a926719b60f6960",
+        "size_bytes": 11897099
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_1db9f8e2717640ec8eaa.vot",
+        "sha256": "4b9ee7b25c146aafa5057351fa894e7dd8ed36e4d9673cd2d981bc32681117a7",
+        "size_bytes": 2794521
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_216d1e6117ba4cf38564.vot",
+        "sha256": "26f69eefdf9233e60e972be9b8ef0a373c9ab7b1a2b0d59f9310645f5525910a",
+        "size_bytes": 171269141
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_23ba74df60e6c7af1355.vot",
+        "sha256": "cffd8309602b659a67fdc9e226ecfba9d6f12939915261b9cea319d42945b493",
+        "size_bytes": 19640297
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_24aa7b0e9ac626d99fa1.vot",
+        "sha256": "927813ae405971f0f325cd3fd20a52432f4edb5860be49734b225f64361b7295",
+        "size_bytes": 19951951
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_24d39b12d53316b0dee9.vot",
+        "sha256": "7c1bc60ee0b337f42560d8c5a05be6d3d919f9e3237423086bfcf801a3f34744",
+        "size_bytes": 18436303
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2608e99603db5e995ec6.vot",
+        "sha256": "2411487a5401b543fffbbdded8c41cfd84a1832b6244a6a6308b0893b1bc27ac",
+        "size_bytes": 21681473
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_27da87bd4c93f0c046a9.vot",
+        "sha256": "89aac282acf8a7808941c3ccb6cadb88cdb0c2ab634be5fa4205c695fad6e4b6",
+        "size_bytes": 7352498
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_283b6753193cdcaa789f.vot",
+        "sha256": "7505c1f6b8c8ef1ee9fe1037448d0375e6a56fe99a5dd33087f0e1e3e1f69f7b",
+        "size_bytes": 8672803
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_288e68dcbf5f3c0f77a1.vot",
+        "sha256": "55ad7ee17d70cb69e65125cd15f6a9b11c65a16d0b123b03e5c0077dee77be46",
+        "size_bytes": 2610174
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_28ae5a48092a696a1c02.vot",
+        "sha256": "5c2c66f3aa8263a14d0ef6ade1e669191b0be9e265eb9483f43c0879258638aa",
+        "size_bytes": 41996850
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_29ed4e4c5c31e34df53e.vot",
+        "sha256": "6de962fb4496f7b72b0db34f5a22a970b51442c149c144f6e25b21cdcae72ccc",
+        "size_bytes": 1243904
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2a072f4558af8dc61635.vot",
+        "sha256": "432b80f46eded37083172b57a7e3bdcceaa94ca4334842323fd2364098b261da",
+        "size_bytes": 10572263
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2ac83d83d4e3fcbe04a0.vot",
+        "sha256": "f439ec68807abc5105a5fe14d6bd04ca400adbfb0adbc082b64f1f2ab62e6b92",
+        "size_bytes": 34768610
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2b22ad50eec638e545a5.vot",
+        "sha256": "4c0628709ddec4a68b0ca002911666529d7236f7c70e77fd3a8b5e6e1f319121",
+        "size_bytes": 1775433
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2b99c89df45dc31aa732.vot",
+        "sha256": "43f6b3ed5f11f7144b12c687c22a1b6c096374e847ce2a3806fcad5c4b606a3d",
+        "size_bytes": 28120856
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2bcfe7873310c1ac172c.vot",
+        "sha256": "940266d8a861d48263bb34f90aec34988184842454e9dd9f105e503e743ab34c",
+        "size_bytes": 12614952
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2c1b0b67bc2e856d6436.vot",
+        "sha256": "19c90a030f4d76d621bb1ba02f2b9c74fdd10e700fc5a00dfcc311c458085c7f",
+        "size_bytes": 11766162
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2c231b572f3d9bcd8853.vot",
+        "sha256": "b5d9ebaf64bfaadd919cf589d91f0ba6dbe05d9e6535be4e73d6fe34ab5ff863",
+        "size_bytes": 15500808
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2d3f07ce15b863d41389.vot",
+        "sha256": "f23aec713a31ac32459a518bd3381dc54491bcd6a5161222ba4ab014392ad3aa",
+        "size_bytes": 210267207
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2da03ed7b18e53a78386.vot",
+        "sha256": "7cc13ad752ee0e8365db7f694fa1bad8be53280d75e2ed9af5bf6faf7dadb04d",
+        "size_bytes": 2004724
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2df11031273eba59d174.vot",
+        "sha256": "67693a62f926f46f5dfb24849cb7869012bea6188cbb18ee123e27e479540c1b",
+        "size_bytes": 5660527
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2f5a3f557a00d79a1fd4.vot",
+        "sha256": "ac764ca1e4e586c0498b6aff1525e94a8a20377cf444e1d500fc30ed5c8bc5ef",
+        "size_bytes": 4354403
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_2fe39151bfc7a46ec7dd.vot",
+        "sha256": "05b0b2a10d493e3bdae4104f3fec1382bd53c6e0a4fab6fc1a897c905bd538b7",
+        "size_bytes": 96399817
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3134a29e9b9a0081c989.vot",
+        "sha256": "6f1f615e571abc7de52d3b42a24a6e01f2f958bc3f46f1d1279088b5d9d9da53",
+        "size_bytes": 57702533
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_325d3c070e49abea3409.vot",
+        "sha256": "6cbffb472dbdde5b66445b1187070d113e3e982d7a3274579b68a663461ce1c1",
+        "size_bytes": 92101452
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_33c22ecefbc606d28221.vot",
+        "sha256": "bf185df51c8d171981c431d2ac339ec5284bbede36a4ba9111376922a592bedf",
+        "size_bytes": 31141535
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3872f531d14c4d696065.vot",
+        "sha256": "a108189301aa89d273571b295c0f4f7de234f9bfb3620a248fcc8c6d6e405132",
+        "size_bytes": 2665955
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_39176c9f431a48516f8f.vot",
+        "sha256": "f5877fa05e541ee2e15caa413aeb4177655ce9566acb1bdea43c9188d224c9ad",
+        "size_bytes": 13008405
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3a726182b73741f05ea5.vot",
+        "sha256": "039ccad2dc1e915be16649f3a715139c93e018e68fa997386b6cf06ec56d66a9",
+        "size_bytes": 74295751
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3ad70af075fd203064dc.vot",
+        "sha256": "24fac74549aec32ee95270eb4bc2367adb8206d0107fada7edbce19a9b00bdc0",
+        "size_bytes": 325753526
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3b1ff49a1e43a636d833.vot",
+        "sha256": "2c2f7775e7838caf8e3ee29cb31f08cd8cc2342864e97f955b5dd85389714986",
+        "size_bytes": 49160407
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3b4c1bbcc601ccad6056.vot",
+        "sha256": "49d2b5f36a300c0aaf6168a0f0390c7c51a7c0734c2896daa8043b89fd7d4fb2",
+        "size_bytes": 10925234
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3beae79ec4a727b494aa.vot",
+        "sha256": "41f631da1b93c1a55be056458d57e8f19f50db383d9b81d578c1aa28fcaf87b9",
+        "size_bytes": 11907849
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3c3f7cecb55b8de074bc.vot",
+        "sha256": "50bbdbbea99c7edb854322837c87dacca350f512d8e28c828873ddd6ff60b654",
+        "size_bytes": 13461544
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3c8d30ab5ea18122d790.vot",
+        "sha256": "54e90f17f4f9252dc68518a095ae6e8abbe7c496be8dc9fd89f2baf13a16f0db",
+        "size_bytes": 245764663
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3c945600ecd015ac0714.vot",
+        "sha256": "aeb2a5c4fa9d2d39251a45d8258585737328ecdd235cd49ed3591f30d2805ab5",
+        "size_bytes": 9775798
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3cfe944172ba3f01966c.vot",
+        "sha256": "ce1947dff2dea3260b8ac77a0e9754a8ada5155897128d26d4bb37a928a2ca89",
+        "size_bytes": 42495960
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3e683e65669cf1c9697e.vot",
+        "sha256": "f91bd1f44793f5e7c9264839b7f352f84f06d74ae442b461f9a717ef38d90739",
+        "size_bytes": 5904799
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_3fabf8315fb7cb5c06ac.vot",
+        "sha256": "11162f0b439a80f293258508d790a1dcce81eade7e566199e65d1e5ac9c77959",
+        "size_bytes": 15071700
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_40ab303d74d7e542a430.vot",
+        "sha256": "8eabc2983934eeec5194e5c3d1946b14b9783c1d242e3dd42b34d42d427189d7",
+        "size_bytes": 25972769
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_40ed7565ddfa428dca87.vot",
+        "sha256": "b5c1c589136cd9e74f8aba043c81b52c10573a4708e84ffa84f377dd034d071f",
+        "size_bytes": 54038986
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_410bf6a7e1b368847b1f.vot",
+        "sha256": "34b50d961d97ff285a52cd3bbd36b417b7a8733d93a32c5b3a8b9e13a7b9c937",
+        "size_bytes": 248023914
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4168a7da1b271468cce4.vot",
+        "sha256": "0939853521bc5db3b5feb40c7bbefcbafc74a560c03cbc4efff1ea201a6612ec",
+        "size_bytes": 78591145
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_436c6e5a526ff98438f4.vot",
+        "sha256": "b19efe13cb02f86581563109b8de1916465d38954625f9f5f46f9d1f2b5545c3",
+        "size_bytes": 11885736
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_438fb3eac230dbc8a404.vot",
+        "sha256": "d0786e4ee0918f4595cc49e6c49f3e2b652f62dd8cbf2c70e5dd5c431f030be5",
+        "size_bytes": 75702117
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_44842840f4bb57dcbae2.vot",
+        "sha256": "cd96985d0afc858f254662f89403ba619625ce96c1f95500b42b1aa5da6d55b7",
+        "size_bytes": 22648566
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4532b562681b9c113dcc.vot",
+        "sha256": "faf508eb699771ee5393f407dea33267548a20db66f48fe8e03aefe3c9b46b60",
+        "size_bytes": 3412374
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_458a07b80eef97a735a1.vot",
+        "sha256": "e8ae79261137dbe94f0fdf3d8d521b48d13bfc0f7d16fb66f096f12b971e168c",
+        "size_bytes": 17992178
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_47875f4a4568201889c1.vot",
+        "sha256": "d7b9dd5fabbc708c9ddd70bfc1f62971619b338662a54c4f67fbd06ef6e575a7",
+        "size_bytes": 179216992
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_492682870a78d756c4de.vot",
+        "sha256": "c879a807e836438075bc26081d59e8d9a39c7cfa3fa18bcfaa7732c947aa31f7",
+        "size_bytes": 20372061
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_49409ea2b4afc3436087.vot",
+        "sha256": "ddc7a096e9d7795074f37fd8f38b6c87d31ebcc26c612b30566a3d121677957f",
+        "size_bytes": 15069579
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4971f3eb78fd55537183.vot",
+        "sha256": "021772f5c90f9103de6ab09bdd9bab28448e5dbfe9181eacab2a5eddf5ba8ea2",
+        "size_bytes": 11932365
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_49d3ea4c496db9028e13.vot",
+        "sha256": "6ce0a0c4d0510f352f2fb46892e7681e683e33c9d409e8b789048deeadec36a8",
+        "size_bytes": 3787517
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4a70bfb4c0a3d720b85f.vot",
+        "sha256": "3a6697531f1228a0ac520e2776c0359a8eb70d7c91aac68e35dbf4e06056ec21",
+        "size_bytes": 28539660
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4aa1cf76dfc043bc046e.vot",
+        "sha256": "77d92d0398dc2c636a073b1643ca873171ad772ebf5d2122118818078e1c7e5d",
+        "size_bytes": 17308661
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4b2c32d301254f63e415.vot",
+        "sha256": "51daae8b0d55506d1b462be43a1fea8f2ed93fa2b94cee854799889068738096",
+        "size_bytes": 7222080
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4b840c41ba8703e67ea0.vot",
+        "sha256": "89bc9dafd44e1da95f26d1e96fa9a7ca0e2b83b3c175b5b7d38f17b607d358af",
+        "size_bytes": 19091030
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4c15472bf91fb0d3dcd3.vot",
+        "sha256": "24f9ca6009a882d7add3c65fad9131d2f8d707621a9085f0aa04371aff8f8e83",
+        "size_bytes": 57834113
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4c8d6cbcee56c9015985.vot",
+        "sha256": "12c240bca737e66881b71f2d327ee65019bef0472a309767af53562676b0cf5b",
+        "size_bytes": 160456764
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4ca16629591e818f54aa.vot",
+        "sha256": "b626184f57f24eb5179676c971c36d6640d9649e242cdc4ceae9d548dd9084b6",
+        "size_bytes": 20544121
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4cb42bfe43e9bdc1b48d.vot",
+        "sha256": "3b5bf834f2298f0c217411f099d24c1270ce39df72d9268ec1eb9c7dac0da1a9",
+        "size_bytes": 64647999
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4cd02cca5c459f3887b0.vot",
+        "sha256": "3d220b1024a7ba73d87a877b8f937abd1d0c63b00020d682e2a4a28c3a96a406",
+        "size_bytes": 8384363
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4f055f2b4d17984fe5b6.vot",
+        "sha256": "ae08df6e439dc6f797da117dcedd1bf5ed98b716cb37b4ca56cf43c04d554ca4",
+        "size_bytes": 183946286
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4f73f486d937abf7d6db.vot",
+        "sha256": "3e139abc527f802ea017fe02954e69cfda19dfb78c40feb262ae8116bc50550e",
+        "size_bytes": 3586533
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_4fa78494ee02275a53f9.vot",
+        "sha256": "cd6344016297a5fb20a89a3734ef39cc3f7728b8425cb26d43473852c6f7134f",
+        "size_bytes": 8407036
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_505be4fbd155d1ec1860.vot",
+        "sha256": "8538cacf5afd14b9955efe0160fd231d90199cab266115706a676ecbc56a98eb",
+        "size_bytes": 10683508
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_508e18b377078db97bcf.vot",
+        "sha256": "bfae9f7f777444f9a59f67ae9d30ad1257843bd7fa24fc2ab3e3125be1154ca3",
+        "size_bytes": 23942519
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_50999779ad2b3a178db7.vot",
+        "sha256": "0b1a244a6f5d38a83c273210f399bcac3c728f7242856bd49fa4a19023ae0251",
+        "size_bytes": 72389076
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_50ae268ba7a09d5e800c.vot",
+        "sha256": "8574497608ffc74242739cbc93f93cc7bc5458479aa1e2089eb6ebbf450502b6",
+        "size_bytes": 19197398
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_51d1969dd43a63e85b3d.vot",
+        "sha256": "2fd292acd942f4773128c9500dff1391e7bdeff63a170b4e1e5bc2b9d58dec19",
+        "size_bytes": 119077831
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_53ac7dff0539ed6b1fd7.vot",
+        "sha256": "fca0d85c1802e8506c3ef32f65f3cfb4f1fa4a7aa344ec15ca67433f4ccfda96",
+        "size_bytes": 21112217
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_555621077ba3d923a9e2.vot",
+        "sha256": "fa2b63004ec4ce55ae4bf28c11a0f946e29ae045bc9047bb0d2dda156c63583d",
+        "size_bytes": 5985916
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5556ab8a5c5f088b6864.vot",
+        "sha256": "49b078ed8a30c359a047e292b663c03f63a367ee256805c292595776e0e40a9f",
+        "size_bytes": 11808495
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_56a7ad081573a929d6cf.vot",
+        "sha256": "8107aac73a03021ecc19e7f6bf5b6c7a96dcb30bc7eba69cf8f62472f2d5bea1",
+        "size_bytes": 4046132
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_57e424db4bff3fe7de13.vot",
+        "sha256": "461d39168563c2a5602b4f8ae023bac46843f6516e13a55c61cad6b7a44fd304",
+        "size_bytes": 13200378
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5904e88bd1910d2e58e6.vot",
+        "sha256": "5403c6a19d0c2f00a65a27f7fd99a1b7a9ab9078bb5c96a8f2a367fe982505a6",
+        "size_bytes": 28478353
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_597074a427b1f0c79e56.vot",
+        "sha256": "e0c7a77123952863b083741b21733084f04262bb301737c7d74189c1bd6f6389",
+        "size_bytes": 15520498
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_59d9b32780db3bf6493d.vot",
+        "sha256": "5e7f8438c3bfabbdcac3bf5b936717ccd26149d5ef28650925bba056cfca3e6b",
+        "size_bytes": 6698914
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5a8ce5e746c78158a2b3.vot",
+        "sha256": "31f27c0ba981c89ebff4693e869f1fcd5aabd9e72d52e9c7e73ad82473547c2f",
+        "size_bytes": 14700603
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5b0eb1512990a2632566.vot",
+        "sha256": "8fb1c6543eaffebe1a4c6bce5978952a6d2e412357620639beacf4290297344c",
+        "size_bytes": 11548158
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5b9b5ac5029795a7ceb6.vot",
+        "sha256": "59a03ab7a1a03161a653b86e96c72c033731e9a9d2f1a92036548b8b0579cf05",
+        "size_bytes": 15389352
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5d67706231755e87f43b.vot",
+        "sha256": "2e2e2abbfbc4dc2bc25abfcbf0503ca3e47d209f954b54ce7729d936912f4d31",
+        "size_bytes": 3840854
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5e0c7f932ba9aaafcda8.vot",
+        "sha256": "ae32352f842f4bacd7e27a350320ac45fa16056bacb3e8255bf3212dcb8dbf57",
+        "size_bytes": 1270722
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5f5e9948d0ade930b749.vot",
+        "sha256": "881966a672129c8d72a50121215c05e842dd57d458b42b3532f44fef67c6c4dd",
+        "size_bytes": 33486636
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_5fda2a5fa21340962566.vot",
+        "sha256": "074d695a121a56ed358f347cf5d0fce9ecf7f13469c27c6a809a5e3eb43fd264",
+        "size_bytes": 10404527
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_610db67d0c134621fb4c.vot",
+        "sha256": "687f24fe87cd49e489f7c6a9a0fb008179758d3cf62631ab9f7f71b4e425dc56",
+        "size_bytes": 18178007
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_616b9956857451005b83.vot",
+        "sha256": "e9457668293cea09e1e29fb3010ca50620782e1bf2c00568a3e9a76ab3e5797e",
+        "size_bytes": 971777
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_617535932035d9d8e874.vot",
+        "sha256": "caf9317fe77044dae71d21e4643d146b1d6d59558056262d6c9e9bd0314b6f47",
+        "size_bytes": 7521994
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_61ab47cb1724c66e646a.vot",
+        "sha256": "8abf664e2a3394c99aa871a048e429569aa4594c694700015daf4ec216597edf",
+        "size_bytes": 24833284
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_62533da73f3c883bbc2b.vot",
+        "sha256": "cef3e0087765718f00d7a054c3230f02dec8a71c59a6c1f28d0e2133fb30105a",
+        "size_bytes": 14687829
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_628512a826c3a034ff7d.vot",
+        "sha256": "dbac09018f2ad982610d6e174d28877eee97a0c4c151a40273c3fa525780e1df",
+        "size_bytes": 47143312
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_62d07bae345aba285e85.vot",
+        "sha256": "cd718c5c1bc9b60ef511d1b173c690108c3954adc1f56baf23724e448d254034",
+        "size_bytes": 12261165
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6329feb4cbd73c9deeb5.vot",
+        "sha256": "8a46289abbe065accfcf5b57c42831faa6ad13918909ae2d98e9d3d8ca92c53f",
+        "size_bytes": 11419788
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_63bed0c54c60b77ceeed.vot",
+        "sha256": "78d3efb36927e5c2b2f18485e74a492ad7849a5f8a0065ddbd1161f8ceb64312",
+        "size_bytes": 143435094
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_63fd131ba98570f24ddc.vot",
+        "sha256": "164f15ea1e2cb9b49d7ddad6e6f30bbf1ec94d2c6f22da88cbcc8271880d3cf1",
+        "size_bytes": 625505
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_641e68224ee471486349.vot",
+        "sha256": "5756b1672fe93b26e30f87006cc784a03478bd076b1e51a61c773cbec816b50b",
+        "size_bytes": 30734476
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_649e216cc243cf8d677a.vot",
+        "sha256": "b87bb4fc23d7312f153206def96465d7fe2d33581561e2f60c8b1452abe44bda",
+        "size_bytes": 197832359
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_64e90290d7a174d08914.vot",
+        "sha256": "fe643299c4df9b79328c093be4e2228659165d2e1a3ad095858e1c241de1198f",
+        "size_bytes": 43213156
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_662138507d05c08d716d.vot",
+        "sha256": "d074d59bc7c76ee505c990ba49cd8b9d4c150371922ea8876a1de3836fc1dab5",
+        "size_bytes": 83294360
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_666ebfdf3f35406b7e10.vot",
+        "sha256": "6e6b9e6b083b9d8fe9e911e081331d978460be7a8eae919a60535777b323662d",
+        "size_bytes": 74609342
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_672053b1694503cd6c3c.vot",
+        "sha256": "e6d91de4b9d145e45332644cb2f9824fbd0ebdd5439ce5fbbed5527d54f0656f",
+        "size_bytes": 351742092
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_67dac52ae45d6f4a1f1e.vot",
+        "sha256": "0f1cb43a66793db012253a41b386697fbcfb27746f4668d1297ca5de6c65218d",
+        "size_bytes": 7505505
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_67dcd5ca644451f6b4c3.vot",
+        "sha256": "23f7c988fd5187c36578eb69cb7d77e2ed11c3f468a02f2c2d41c41a7ca6145c",
+        "size_bytes": 14727548
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6a09c8f5eb83dcf18e9c.vot",
+        "sha256": "265e214ae09d2fe390ac5676ed9afc543345146902f0cb1c60c9b5208273af6c",
+        "size_bytes": 13622624
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6ced44aa99ff62b9a8f1.vot",
+        "sha256": "de6a2393d6921b5d79f25299de56a3ffb76ebe427e9216d9d9f844e02d54e446",
+        "size_bytes": 511736582
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6d19bc31d0a7afffe9fb.vot",
+        "sha256": "1f705731c724748290384f32d6d6a1bab166dec9b47150add28468503d008c8f",
+        "size_bytes": 4558229
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6effb7a220568ca687a2.vot",
+        "sha256": "0656b5e8fdb08d421506bccf22f7afeab03f6ab3fcd47a2444bbb12f389bca5f",
+        "size_bytes": 3694880
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_6f1407dd170f19ca1e31.vot",
+        "sha256": "6d751bc3eb1a81041803c097358d84124f0e79cf654deac27dc18b71ec5fb33c",
+        "size_bytes": 43559995
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_70e9488a21e8d8065494.vot",
+        "sha256": "c25a9cb4a9235e453a858b37bcbf0d8243fb49087ec2561da95c0c467effb694",
+        "size_bytes": 14666061
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7249a518b94f21852155.vot",
+        "sha256": "0f5c65503ae9e3b6bc6c2290ec583737c19989a81de2b605e6cb111773c7a405",
+        "size_bytes": 294558855
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_726117fbe606ae7287e5.vot",
+        "sha256": "d2bfb714807459723c5760c89718f2b26f50dc6ce6ce58f0baeed9ab1c7ee022",
+        "size_bytes": 23952926
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7384950d677ddeb62827.vot",
+        "sha256": "37a76ce7c5a93b79454c6e6ccbcd8f744795e1db41e9582338e887d92f9fb81c",
+        "size_bytes": 267599273
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_73b68ea797907d482f3d.vot",
+        "sha256": "4319ac143d5696b6018c1e989edbc5fb763e989bccc01feb74121687e92f6344",
+        "size_bytes": 2935622
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_73ee064c78bd89e8b87b.vot",
+        "sha256": "841b7373889e0f6de98c014486baeb3a36298cf39a5fb75684cb73b80e73693b",
+        "size_bytes": 20597741
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_74429cc8d29dd7b2e2bf.vot",
+        "sha256": "7dbfc65a8328cec5422ad86a039c4211082c9f6c806dfb7cae247be3d4f68b48",
+        "size_bytes": 69287278
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_744fad2076aecc49abbf.vot",
+        "sha256": "5358739bab114e74398c0a1952e8d2b2c51e4cebd5bdae745a79713942a3ef28",
+        "size_bytes": 1446270
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_74896315661ca56058ad.vot",
+        "sha256": "e0f9313bb529395e7a1931e6b82aaf9162ec6301ecbdf2dfacaeb0187d258c81",
+        "size_bytes": 3357998
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_74e6a9088d985b81cd59.vot",
+        "sha256": "412545cd81e9555af03d0456467acb2f4f80ce88ab5e991ad11919791390952d",
+        "size_bytes": 6587459
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_751376d1ad28184dc083.vot",
+        "sha256": "a6e6ddad8ccee3bcc67463dc39a7b35a55b6a36088410920bf359cb15ac61318",
+        "size_bytes": 25839047
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_751cce5cd10154517f7d.vot",
+        "sha256": "41e045f7c30e5e9318b8c6241976124557e00e52d520f2d9934b5412c2884a1a",
+        "size_bytes": 3642555
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_76454656902fb97e21c4.vot",
+        "sha256": "4d488a4e15a9af5fdac9233c562b8f6d8fbb06663e13bd2526fba1072e03b68a",
+        "size_bytes": 63732065
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_768a43e5003272bb6a35.vot",
+        "sha256": "c933fa17d718586c4ad35709ba4b96f8d51e417a6b845889a7f062b86cadfdea",
+        "size_bytes": 850378
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7aea4e8e58f924fb9e5e.vot",
+        "sha256": "0e6d2f9bd8694d2fbb033408c26ab0f906aee4305988e4e428676e689abd1f17",
+        "size_bytes": 44299757
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7d2c5c920c13eb6d9fd6.vot",
+        "sha256": "a57a5ab0c95e89df91d82e4bdaa7633a1e622c8c456bc6e3d61f31ecbea3352a",
+        "size_bytes": 155495671
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7ec44d3a178441c9e35b.vot",
+        "sha256": "22d532d87d26b1634ab2ac6f42cc7d8a97712d37a0f5fc5da72fd49ae96211fc",
+        "size_bytes": 13110067
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7ed40cd50bf248dbdb50.vot",
+        "sha256": "7df43cb527539642d6b9ed887ba6b80b3bdb3d40ac4978b0b53929b94b385081",
+        "size_bytes": 76950990
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_7f7c6463bbed74bdf288.vot",
+        "sha256": "68cca14099480e09188151c6fbab80396474425093858156d397fa1eaa6da503",
+        "size_bytes": 32674259
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_81dd0826b7586f621948.vot",
+        "sha256": "72ceb3ee1cb337f599a48255b8915a9ddf8bfd7de00cc7540c348184e343cf62",
+        "size_bytes": 8942303
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_81ee8808497edad3f871.vot",
+        "sha256": "b3e6a120d1d5e7a7f5f98fc533e5635e80de2dea3107674f930b85f71aa08136",
+        "size_bytes": 12838269
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_826a99a9f3875c6b7ca2.vot",
+        "sha256": "6bb9fc257ee9e4b2d9fcd5622896c41cecb8465270fe7ff2e5c0147b3d61cb6d",
+        "size_bytes": 22884333
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_83ba9d7cc8d7c684e406.vot",
+        "sha256": "5d3a63cdf83d1b71e761aeb1e1900f5175a472b8fe9c0df7fafc9d427c915322",
+        "size_bytes": 24087846
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_84c58a272560aee47b33.vot",
+        "sha256": "b7810e997892fb799d519b377d03afb78ab11b05ece8d43d3afafb535bc1c317",
+        "size_bytes": 20662347
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8597347c8fc4dd68b865.vot",
+        "sha256": "c1746e7d1de7b6bfa35b5e30ac1ecaf5f712027cff003d8d89a55b8dd744e617",
+        "size_bytes": 240887854
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_85e9cb7ba68c4037fc38.vot",
+        "sha256": "8e7f6f07dafc7e53a31d60dec02fad5bba65e794caf711b7c6a62c7e36ff2626",
+        "size_bytes": 20688788
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8694753340cb802463a9.vot",
+        "sha256": "2146af231ca0cca8028be7e1887950ff0072fdeea4f2c4c762af89adc16dd47e",
+        "size_bytes": 22563957
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_86954a5ef37127b71264.vot",
+        "sha256": "f40ea02af4d69a50fe03dcd06d3cb76e519fd5c29e59b64be17f1f030f211717",
+        "size_bytes": 165477616
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8932e2a9180274937c77.vot",
+        "sha256": "0490639acea926647a5c13c331231fc22596b08b1d36474dd9963d025e09c016",
+        "size_bytes": 15468022
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8a66ebaa06405ea0e1f1.vot",
+        "sha256": "906dd12530d6c95b13ee615c588291bbc5d4dea965ed4001e1400b77cc7cea00",
+        "size_bytes": 1303960
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8afdc5055a8f650a3405.vot",
+        "sha256": "a8ebf9ed51c1bad58b2b667340bacab88fcf8af87dbe5a562af617ab8e3c09dd",
+        "size_bytes": 1119753
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8c104b7829ea50ff7873.vot",
+        "sha256": "d67bd420eac945241779ecedb10530dd17bc1fc8d7391005f77f9dbf6782c4ef",
+        "size_bytes": 145392729
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8c55a9e45cfd3a47c850.vot",
+        "sha256": "35cf32a74e1423e9f058cc5e7b4c6b3bc4b1dfeadbc062b378752ed91042cd1b",
+        "size_bytes": 10815422
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8da3a733b416ebf67751.vot",
+        "sha256": "e3d3be632668b4b02bf7ce8ba296c07f86c4063a93ad3546dc3e914db998e37e",
+        "size_bytes": 30486285
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8db1112cf0608958886a.vot",
+        "sha256": "c2318de61c82229020d8e2bfc2543ba66fdcf5e74a7af5a4b47b36d1ac7b159f",
+        "size_bytes": 72345814
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_8fec0b6b944809b59639.vot",
+        "sha256": "d6413a040f7e31f9117b6ce318d4dbdbd218c426d28816567b7651f350b97967",
+        "size_bytes": 5728081
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_91372686352eda180f3a.vot",
+        "sha256": "d02973647be3458c8850331c3d732fc37bb91969f5121481d339c40b1310c419",
+        "size_bytes": 43238816
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_913a3a4fcfbe2c0345e5.vot",
+        "sha256": "da6f737900d0b0e3778ad3b4021fc4e400962b87a0b32a8ad5c50054dee2f4a2",
+        "size_bytes": 17753174
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_91ffb8210096b53d4b77.vot",
+        "sha256": "c948623845cd62737737d09b624fe5211d9c2687536b759d23b60f4b6e3fbac7",
+        "size_bytes": 2672210
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_931330c018f04aef519d.vot",
+        "sha256": "58ef1bf83f68c2669a67bfbe4899900391f3de55bd738e45e3e895cbf0c9b6cb",
+        "size_bytes": 10784357
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_95487c3a671049289e3e.vot",
+        "sha256": "ad6c4d333d627b3faaeff98bb19d77fdb53ca218ad01003187972a05ba2e9878",
+        "size_bytes": 124543458
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_963c9c1c925fad3de1ac.vot",
+        "sha256": "0d4b1201924de89d1e9d064bd566f3448cd256802faa804e7f4388797968f1e3",
+        "size_bytes": 18185043
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_964ed76eb3bf4d2f8da5.vot",
+        "sha256": "93fa38c4d61e9e3ac5afcccc36e5a1b9760f4371245239547d0b3fe170bfc6bd",
+        "size_bytes": 30429291
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_96917eba63ba4446854f.vot",
+        "sha256": "6222b1eb00c735f436cb0a058787b0162b245560921c5818725e38614163fb0f",
+        "size_bytes": 8552798
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_970ea3592129655952f5.vot",
+        "sha256": "89910fc536d929f27228d27712507621cde4d31370f866c72ff606b7239b7d66",
+        "size_bytes": 32995669
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9771def9e1c6d4b8e702.vot",
+        "sha256": "35208afbe1746ae8677f1c42b9a6c481cf7e762311c09cc523ffa854967cc6f4",
+        "size_bytes": 3269504
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_97a65a659dcc39c9b590.vot",
+        "sha256": "b5d5e8a515eeaebe66757ff4c632c05647a9b943bd5e557c1f1914d4a60c32f9",
+        "size_bytes": 55261479
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9a0aa106bb13d2bc2d95.vot",
+        "sha256": "ca6da4934ba8aceb24a8aea8421f3f21a68a85bd1a9750a77893efb243db9cf6",
+        "size_bytes": 14672845
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9ac24d12f783b1d8ce14.vot",
+        "sha256": "693f0351476e7aa7eb1487958f5e45256ea902819ead783b944e5d2de15664b6",
+        "size_bytes": 72893922
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9ae30f193fd5f463f8f8.vot",
+        "sha256": "2981a8c72de7e86d6fc0b1f64f3cff70318a79c02d551755b8673e70ecb62759",
+        "size_bytes": 32861875
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9b73bd796662a957f582.vot",
+        "sha256": "a3525ab7e8945f31de266f442d8fe44210cf8e03b314840ce67b01deff7fd24a",
+        "size_bytes": 12667366
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9c179c2a8794d3852e55.vot",
+        "sha256": "812fd410b701894e7a5e8ca5d3c05e58d98c4a171282cd7f2e97f7f886fec00c",
+        "size_bytes": 33480563
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9cb4edbf9c83915d3ed2.vot",
+        "sha256": "0051bad98313386891bb0dfac72103229032c0b1073b99b252686a9acfd596f5",
+        "size_bytes": 14124017
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9e169517b0c388574007.vot",
+        "sha256": "e4a841ad289e5851ea02592361026e1d8dba9d434981902210c6d5b19918ceb7",
+        "size_bytes": 80253106
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9e17860263aa63cf8a0c.vot",
+        "sha256": "647c9118cab36a06a6cb59469edc101a2434ecab3d3debfd4ef3157906c90257",
+        "size_bytes": 9855737
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9f3159c433663afbd92f.vot",
+        "sha256": "cd57573bf62c51ef26e39509f747e0705513e6dd32899b3b550e94123b1a85d7",
+        "size_bytes": 331386399
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9f84489d8f6fc37b25eb.vot",
+        "sha256": "8bdbf56f180f90540695274241179688310904f061905ad8470fba5fd1e8f795",
+        "size_bytes": 52375137
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_9f88906c5ce71d3b104e.vot",
+        "sha256": "dc06ef0390b6b68c977a6d738edb3b92f12471822241393a04ddb50eddde8f27",
+        "size_bytes": 54375527
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a085bb93b332d87c884c.vot",
+        "sha256": "cd3c3898658f2ce76f055039a4f290fd8fdd41bbbe401622dd9b226c3c3bab93",
+        "size_bytes": 2336100
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a1def42e6f37caa4804d.vot",
+        "sha256": "0ffd1048bdc91445993206131ee7bc47837b3dbd2ec73c4e2382004a9d337b1b",
+        "size_bytes": 34110918
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a1e237068096abb210ae.vot",
+        "sha256": "d7d28842d9d3a827ea071b692771810305ea78b54ee48df82fc1d15c7bd5effe",
+        "size_bytes": 20807230
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a298e93c83de8895ee25.vot",
+        "sha256": "1e37c0e8b3079e5763fc5f39cda7d975459755b93246cccf21a7266ef77d0206",
+        "size_bytes": 164425076
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a31a68eb8c3d34ef5898.vot",
+        "sha256": "8b21ff9a745891742dbff69abb677913d7aa4fb84a500bd354b20810ecf91193",
+        "size_bytes": 27736289
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a3921af4973baca1a605.vot",
+        "sha256": "059c6885dc872f0ff223e486ac2d51d62d72a6e764f4130274c949a3bbbcb74c",
+        "size_bytes": 21079441
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a397380e06cf95a0b948.vot",
+        "sha256": "284493d056a0ebf9bb6268f7b94173063213f0951cfda3e5b73b65a50bb635df",
+        "size_bytes": 33213969
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a48fc6f8e1957d2ef61d.vot",
+        "sha256": "836fc610087b11652eb73a598f3d9a10c77456b97ad7c5a28aa1d801f96a9368",
+        "size_bytes": 548205961
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a5089fb85dd23a14e5ab.vot",
+        "sha256": "64cec9d2ad5351319438d60ca6f7aa8ca6bda59a87100d0aec4f52554dce7fcc",
+        "size_bytes": 74047493
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a58087e025b9c3ad9383.vot",
+        "sha256": "48983fd0e0d22dcf9ee3ac7c0ceb53e5e30f2e7b274315a54eb3c91803f0cfde",
+        "size_bytes": 303746816
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a66255c93b64efa07154.vot",
+        "sha256": "4895d020a3e4db316668bff63356973f55b90867742346c9b73b15cb4f3a518d",
+        "size_bytes": 4760777
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a744edaa9f905efc0754.vot",
+        "sha256": "c89c7399fef4e9ef27568e8978ba68d0f164f07875f77b7c55e2b2610b97a16d",
+        "size_bytes": 22877119
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a76f844c14722f552e03.vot",
+        "sha256": "9f5811b4e8e3b64916d180ea94d2c84f8c563a0bc91d3c5eea5e9d724953e4ce",
+        "size_bytes": 34478671
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a8632cfbaf194ab4ccff.vot",
+        "sha256": "63107f341e1fb7d694cd690a3cb427951e15a8a2fb95d6ad72baf91be4dcd82b",
+        "size_bytes": 2710575
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a8c3f198f235765072e0.vot",
+        "sha256": "a5ace877f295a77e8f4ae5db1ce8eb502a55e484f9b6c141084cc7d771f69108",
+        "size_bytes": 218102720
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a8e47ebeb17c26f6cb9d.vot",
+        "sha256": "3494f1f0a2185693243a8a2d1c3de96c83b90898816ffe2d274ca2f8bc46e266",
+        "size_bytes": 3705787
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_a907ae906b99c9d1e89c.vot",
+        "sha256": "1e49a924d634221b476e976a50772a8a106516501859674cd03e451b230bc049",
+        "size_bytes": 20500426
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ab17bf9638fef07c020a.vot",
+        "sha256": "d0c6bdaf6e0d105cee0c038cef26c58ac1915475e3178b096f91fdbb85cf93b6",
+        "size_bytes": 7562549
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ab4d3899fa1a722f0c78.vot",
+        "sha256": "e9fed5709a3df9b8c93b66de70c3f0ac90bfdb577bfdf6c0093d1e678418eff0",
+        "size_bytes": 251773785
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ab75118b950eff301ae8.vot",
+        "sha256": "9c550602af8bb81bfb24a84278dbff4461c1e87fb53e6c13372d0b0a9cf78be6",
+        "size_bytes": 51043469
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ab7ea38f87a0c7890d10.vot",
+        "sha256": "9f94e01720c1c5528719889ea066d861df553df0e79a3c77f1904196faf45dc4",
+        "size_bytes": 8464859
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ad151bfe6b774f84f561.vot",
+        "sha256": "9f4d5c0887e7894a8a9a5e632ab32b6236ce7386d8bf94fe9394b7f9f55a7a48",
+        "size_bytes": 6627966
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ad910044f2e9ad373679.vot",
+        "sha256": "f61b2fac55e87f2e95873541eb491771a8545beb6835e2b2a4af82cfb1243cf9",
+        "size_bytes": 186776406
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ae5510f95e645e997af9.vot",
+        "sha256": "58484ebf1834f58f833506c934c70f7f47a3e9e5ac0ef120becf1aa123c5726e",
+        "size_bytes": 50256167
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b0cc98f5ce3edd69f3e4.vot",
+        "sha256": "e9c27c421e91bd2b86081f043bc6f42448f522b4ac1f4c46f9908f711336d469",
+        "size_bytes": 192486232
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b1481e7301028d8ef447.vot",
+        "sha256": "6824905989fdd9eb7cb83c1a18816e8b741eab71f4b42d5da2413d8eafa500c4",
+        "size_bytes": 16339563
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b1d50388b226c904ab58.vot",
+        "sha256": "230c80fb1c39484c73562d473b647002fb632722bd26331a46c0d4adb4dafad2",
+        "size_bytes": 37795504
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b252f4b7c73564bd46fa.vot",
+        "sha256": "325231cb943a14c23923c406af305812ccc7037507a4bd8e25e9e547250f1fbb",
+        "size_bytes": 100585648
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b2bf469e7be39f945264.vot",
+        "sha256": "048dcd6a489025e2e2c118b82743ce263d8f57f4c9a0cb73104a6279a9c1d40d",
+        "size_bytes": 11058892
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b2c6b04a81d05ce22a73.vot",
+        "sha256": "1d4cac15764439e31a4327bae39a719c3f003688887c3722bd1cdf16449a7fd6",
+        "size_bytes": 28032884
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b3cbef005388d2497fee.vot",
+        "sha256": "4d6afd58ada5b06ebf39b0fb607541777d6aa34fe008cfb66709ecbc681e9f08",
+        "size_bytes": 12058795
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b414d7770f71daac4157.vot",
+        "sha256": "180bddf3c7ceba87d61ad54c08baa139f3fcff6995eeb9387a4dab1cb6628482",
+        "size_bytes": 10506000
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b455138f7d8dc289a831.vot",
+        "sha256": "3ad863b6d4e41c4f01c12242ae0baeff69e0ba5ad91353cad78d3d1540185680",
+        "size_bytes": 16493180
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b47af92dce8332d93eaf.vot",
+        "sha256": "68ea83326319e11a1766cf51b507f3ec3ac6c25963a76c231230fceeb2c5a2ca",
+        "size_bytes": 17970415
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b47bcba10e3aa3cf9e49.vot",
+        "sha256": "bc4171247fca514fa86800e40e9815985986d8a4528bcf7f68fee83d943860c0",
+        "size_bytes": 33559163
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b6692a4819506ecbda81.vot",
+        "sha256": "5dc1a881d3c06a6b5b2c67ac170072a96113d35ef19e280ad8e364611a6e017e",
+        "size_bytes": 65949983
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_b86f383afee2ca1fb601.vot",
+        "sha256": "9d993a5f919af7592167bb6439b4e056142b2a1fee12499abfb5f852ad40e5d2",
+        "size_bytes": 2958461
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_bb3576c5fdc1d01076a2.vot",
+        "sha256": "e93a0ee378aa656eacaf7398b0c18fad5c550a665f6aae96f3338805ba507ba9",
+        "size_bytes": 12782756
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_bdabe601f59cce580c1f.vot",
+        "sha256": "273f279f4ca27fe04798f38058f21a01acfd839be644b6baf4293b8e1585b1fb",
+        "size_bytes": 26874577
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_bdec2c2e6994082317bc.vot",
+        "sha256": "8a2b69321de160537f2d80711f54f681a44c56e65da06deb423c866ddf590974",
+        "size_bytes": 401019886
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c02ea7baab121630da87.vot",
+        "sha256": "8d871c9cb7283e783e62f21744fcfd2499ef852f5dbad0d1f33d3a1200d66fa4",
+        "size_bytes": 8131905
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c0b87f16675429ea50c7.vot",
+        "sha256": "91335884ff84ec36fad7485b38d07c0d5ed26e700b40d49bb25bba4675bc0594",
+        "size_bytes": 25595097
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c147033146bbc71a203d.vot",
+        "sha256": "5579b6056ef7ce8254eb34b0b5d4b489dfe4c1ee7861a5b94f10356afce8a79f",
+        "size_bytes": 9273321
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c36e8887e4981ec45d7c.vot",
+        "sha256": "e34feb05582248da8e1938df592aa604430ea92347936f569bac56ecbfb67954",
+        "size_bytes": 14625127
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c4539fbb82f4bfe40f72.vot",
+        "sha256": "efeb64f4118696a00fea66a6c9e18dcd177c35ffcd17aaabec1118683d5219ff",
+        "size_bytes": 20118420
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c48f3bf2f9f1e42c7482.vot",
+        "sha256": "59765279007d675a464f565e8906377c282ab2d0c7d24e29c67727e7893459f9",
+        "size_bytes": 2871623
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c505330467e42a9bc2e3.vot",
+        "sha256": "8b2851a10526cde1b071f26c86cd1b90848ad84ed71ccf4fcf755b871271bb7a",
+        "size_bytes": 18284497
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c5205109197351ca5a10.vot",
+        "sha256": "509984f6436f54dd2e2cf730fbefe9a7f7dace1176ea37067779175ef852b4a4",
+        "size_bytes": 27719351
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c52722d897f42dc0f0ee.vot",
+        "sha256": "98e3609d2b91a6088ed423a2a920d4c3496a9052ac334e0bc8e37e0aca39d13a",
+        "size_bytes": 136237914
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c5be094fc558ba74b43c.vot",
+        "sha256": "45284f0e6505d284ea57a401590de75d1ef55865e5a6b48eaf6279100591441a",
+        "size_bytes": 32172748
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c602694042e53386bb5a.vot",
+        "sha256": "70e5cc1a1f9e50ef4c140e2437adc32d05c32a692c3232a5cf3c76da888af0dd",
+        "size_bytes": 27786867
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c61b9bbdfd16223de68d.vot",
+        "sha256": "ced46e398a5ff93b22fde59751652a44da460d4e6a56cd691e7638591807c0c8",
+        "size_bytes": 1974819
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c61e850e5f53e53f8730.vot",
+        "sha256": "9f5f8820b76e233b00f8b8c206aadc3d1596d0fb977465500060f49a01acc1da",
+        "size_bytes": 2541807
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c69daf00ad08f82e2c8b.vot",
+        "sha256": "561cd76e6f486d9c174940c18192215822a04daa4c0984cbab2527f108aa600c",
+        "size_bytes": 19255854
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c78b1cacfacae2b23069.vot",
+        "sha256": "00b0c86471b16d0f839bc9dc5d97cdf85fbcaeb1838811344a3de590a3c83a93",
+        "size_bytes": 20774742
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c80072f4ca83ee293e08.vot",
+        "sha256": "577d0dd668592fbdcfee97959213ebaffdf59842e1e5b02ccd13003e7d5a1e7d",
+        "size_bytes": 1173795
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_c9058333287d4ce6a935.vot",
+        "sha256": "d376ac248df1afae85540f1cf09b282c1f1138b8569db192c6c94140e0df365b",
+        "size_bytes": 2997991
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ca00406c4e7f834aaef5.vot",
+        "sha256": "4d56fa5a77d1dd8f6453ea240c5ee5300a123c1db4b31295d01b1a0accc83a7b",
+        "size_bytes": 4874886
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cb6174ab92365aed2d23.vot",
+        "sha256": "7a94d0df35b488a8244eae1d7ac3cd29bc266594f8345f445ec35f174be68b64",
+        "size_bytes": 25836511
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cb8a3e810f4ca812de0e.vot",
+        "sha256": "0ed4744bc9a1b07acef1dd2c60d70bffd74d0cd1bd7bb7be3df12ff8d8688804",
+        "size_bytes": 3160032
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cb8dda9375ebb2434af0.vot",
+        "sha256": "aca0a3ad3a0ce3ea8c7a538ccaf88677d5db7e9dd36e426108396a00a4e4134c",
+        "size_bytes": 287056355
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cd2041d64ed4e9be2558.vot",
+        "sha256": "faa8d589f16ff33f0525d08e730520975ba05b439359ec27cea0b1f8a4cabb44",
+        "size_bytes": 30462732
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cde5d639b78c4aabf48b.vot",
+        "sha256": "61e9ec637dd9ce57749bede0bc160c562795e062b87b83d303b31e2c6e98a55a",
+        "size_bytes": 23848648
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cebd782f3e65daf320d7.vot",
+        "sha256": "466741478ebb0112f02d3afe4d2f20aa11ab742b5dc381e88eed8747d2364506",
+        "size_bytes": 307421055
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cf68b74d811178504d20.vot",
+        "sha256": "28451ee2ca7c18c07c2265f97596b652e494203c00ac63d3a9530260bceefd79",
+        "size_bytes": 20484799
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_cfc7b39efe73d40ffb72.vot",
+        "sha256": "188a2154de0ee77e8adbb9234771c06033cc38d84b64a10232bd509c190e27e0",
+        "size_bytes": 31558955
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d02774539243b7a3d58c.vot",
+        "sha256": "d3b129f5159c1fbaba2ff9a6335210ee8fdbb75149bdb46caca4d5d4fc920017",
+        "size_bytes": 4499802
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d078b7bb6012421f0636.vot",
+        "sha256": "570a7b6b7654b7d36c1a4efe1be85ce70a550db964a1d620cf674758ec13c75e",
+        "size_bytes": 25522726
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d1f00e5a45a8fd75dede.vot",
+        "sha256": "51d767dd4c7e0a2ab8458ba6e5112e29d3df6a59fd717588566fdb2e6da1b690",
+        "size_bytes": 29562622
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d1ffba8fe157ef334269.vot",
+        "sha256": "2bf63a94f7a080725e52a24a51b3a26aee34c1964016fb5c362711d7c06c47f4",
+        "size_bytes": 59540401
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d3056f165a01c7bd105f.vot",
+        "sha256": "ce6d9cc360b424d91237ab0323189da4a8824c80e1c0abc0039d980642ecd9f2",
+        "size_bytes": 2478271
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d372c65282a64739a1cb.vot",
+        "sha256": "8a7dd3ea09f4b7fee1c66eb9a293c4eb3696a741b2084b703512c5255a7f694a",
+        "size_bytes": 37883569
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d38f989c4dcb496acc09.vot",
+        "sha256": "0935c58bcaf49c86d436b457c18d1fd39dabfdc43aecff49ddd4ebebd2d59bbe",
+        "size_bytes": 3108991
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d531a0bf3a71ac13e80f.vot",
+        "sha256": "58ac31f581fdb003ea5158ec7b0056e45419ada33bc74f880b8e693054313b8e",
+        "size_bytes": 28482117
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d554550c9b40fdc70e38.vot",
+        "sha256": "421a3823e16ec2872d40d944ff6b72915e996f19dc61a8abac8b5389a411ca6e",
+        "size_bytes": 4695555
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d55cc37e26d91be0af95.vot",
+        "sha256": "417dc76bf1db0485719235ea92ac4b1354fcaa90405db49e18fb771cdc954d83",
+        "size_bytes": 325016
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d6f8094a4a560c50e812.vot",
+        "sha256": "76e67da678382be9ad40ddfe07f334d70fd9f36e66a878f1ecc51dbc663b0402",
+        "size_bytes": 2619755
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d76b81ed9c6b7b018f44.vot",
+        "sha256": "c166c991f142011b280d79ccc677e4d99db9762b2db3a8ac45c02e74cecdfe17",
+        "size_bytes": 257844303
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d7feb26b0d6170d73934.vot",
+        "sha256": "804f9fdaa01e8cfe6a3c2cfc2e5defac46af969161fa8047d640b346932fb82e",
+        "size_bytes": 1794904
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d93d70332b8cf1d0b31d.vot",
+        "sha256": "2211949f2f710af0144ec9ff66baacd113d3331ad5bad08194eb0da17755da17",
+        "size_bytes": 12817341
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_d98304cb4ffdc3a60915.vot",
+        "sha256": "cc5efaaf20500f385be2991031da0c64d4aee6c611f715dccef46abe7d6830ec",
+        "size_bytes": 3909675
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_daeddfd262d92fc45818.vot",
+        "sha256": "82268005412c77c54e5e9bc8c97c0492c0691aa214038e5d7151f416225c704e",
+        "size_bytes": 19365419
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_de4e53260ef19f0f5b51.vot",
+        "sha256": "65e615fd9fcc85d097faa8da601a6f0e73bf7806cb2434c75361c04c188cd440",
+        "size_bytes": 188966240
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_de78f26a94c5402914ed.vot",
+        "sha256": "ce3d05cfe7f23a1fdd1216292f8b77d47d0b517420849d3baf19b3bbba5bc64f",
+        "size_bytes": 25182321
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_de9c03c3be017c1116a4.vot",
+        "sha256": "5c6150f819d69e1cd074b265c0d97a62e66e8621de5629a50deb6b518db57771",
+        "size_bytes": 75635755
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_dea6d619869c8e6420ed.vot",
+        "sha256": "13dc9bbd8f83e74927aaaebc39be89e59cbf35eb212b362767b86dacb4ed771d",
+        "size_bytes": 2533086
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e0c7157834ea9217281c.vot",
+        "sha256": "c1a02c6ad98cdf404065a225b6fdb7d7e52d544c71d69044bafe13dbffa6ad4b",
+        "size_bytes": 50884915
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e0f6dfc6e21adb16199e.vot",
+        "sha256": "c1d81bb02050e80d84e3f46eb8dce0aec30995ae5719b808855d17d44bb06e47",
+        "size_bytes": 271216503
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e37cdb87c9e9e72ad8da.vot",
+        "sha256": "654234046bef9d92dd9ed3338f0b3dea43310e02bf13abf735baa33446aebcbc",
+        "size_bytes": 28556175
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e5659314949d0c969d7f.vot",
+        "sha256": "470256175011469aad35d546b6f7e59c3e8ce0e5714ad495f66677e3b4633765",
+        "size_bytes": 73403845
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e63860719b1d121e5687.vot",
+        "sha256": "14c71bf799d53d13ffb1b27fcebe482473d1237b093a32858141e4c67d6112ff",
+        "size_bytes": 544964176
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e6aa980de32ca2752eea.vot",
+        "sha256": "c2019cf7c0cd0986e39d2d4362bde522bcb5b337efe68ddc54cabe572d312cca",
+        "size_bytes": 157010159
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e6ba018263cb2fd1de65.vot",
+        "sha256": "c78c23fe5aa8ad1fad311b100b6ddaa0685c93037db9221b772008074f1a03e5",
+        "size_bytes": 21774357
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e72514230c6e20c9e3cc.vot",
+        "sha256": "84571225fee9532114ddc6cd58217631072c04df60eac4f60759aab00369ca7f",
+        "size_bytes": 20799953
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e950be24bf0679526bf6.vot",
+        "sha256": "0d1434f9c37f4df8be1432420ef8ffdcd3a3f11a55345892e7a53af82ac3afa6",
+        "size_bytes": 44833591
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_e9c9eddd8523cf05bfd0.vot",
+        "sha256": "aefdb2c1f5af8d13710b79de7177f147da4d514bee1f7c0ffba96789b99aadcb",
+        "size_bytes": 37719883
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_eb2f7e2567feaa854728.vot",
+        "sha256": "2ced4339692703aeba5ff11431c1543b428d1b36e420f74921748f55ab0febf5",
+        "size_bytes": 372449298
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ebba4ea5918a029338f4.vot",
+        "sha256": "8bc2dc08ffce0457e6ae494c6fcf5f0e1418cd3abf42eb11666658c2140a5b6e",
+        "size_bytes": 1635969
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ec9172a85c04d1056340.vot",
+        "sha256": "62956bbdeff430544d9ed97a3da09a9988c360cf5102e4e525c7eeaf706c2719",
+        "size_bytes": 28261693
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ec9a8e7a14aa8d1b3d77.vot",
+        "sha256": "8ccae03c99e6997d41390fa40ca1759d6ae8dca103ec73a670eb8c280f4e49a1",
+        "size_bytes": 294006417
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ed84b657153585a6d3e8.vot",
+        "sha256": "c6f9127b21306bc6aab162cdd68c71ca2d9f4eb895fc82dc1e14695a0f80950e",
+        "size_bytes": 17454482
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ee6a6f3331729c9d89b9.vot",
+        "sha256": "ef84dc9a5d013f83ba88ba4a7bcabd2c9d1142521503001968126c383eb61c1b",
+        "size_bytes": 34266822
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ee970d7c209d102c4e21.vot",
+        "sha256": "3dced672b8164ae88aaf7a3663e7e157cc9777fe76f69d96a2082c7b9190cc98",
+        "size_bytes": 239345413
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ef3be4b8703bb5c1b830.vot",
+        "sha256": "9801e6eb79c042c487c1bfe97c8d90adc146ae9711e0c7e8582a2549b87d2adf",
+        "size_bytes": 37647205
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ef88f1d0b407858bb293.vot",
+        "sha256": "24100c41d4a36b35e3a711dae8fbcf498314b8abd9de798107da0a32323e3a39",
+        "size_bytes": 73881266
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_efa72ac9a995f47da566.vot",
+        "sha256": "381fee88b6174ded9a35df6c0e76b141683474c0945affd56e862bf9b3b3f5c1",
+        "size_bytes": 13694605
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f156c5831d282443b9e4.vot",
+        "sha256": "a7a23dcf8bcd3e284f1c6ea57df7a391497b3d0f05a7092ef2400ffb78972e13",
+        "size_bytes": 17965700
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f28af58835e2d876543b.vot",
+        "sha256": "1dddc34dbf11f2ff53ee53dee96e7030a1a85ecd5fd44da041ba7b640c582aab",
+        "size_bytes": 16315461
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f2b8589a2d9ba2f277fb.vot",
+        "sha256": "5ec4109d95e981833a9a254ca6e5e18f93c88cfd8df55343adf387ca752863b2",
+        "size_bytes": 3094307
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f3094cbfb284018a2286.vot",
+        "sha256": "23bf09fa00254c2eca0cd515bb41491b78e7c0395121dda3b2be2c3d56bc0f4d",
+        "size_bytes": 51254697
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f326c56408ef523720de.vot",
+        "sha256": "e4e6e2003bee5ceb66c7714147f221cca93e375dfc52d339bd153146bc71a8a5",
+        "size_bytes": 72597536
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f39e8889eea437b9a577.vot",
+        "sha256": "29bdf28fef89d141313fb774e0e00fb5fbe98528fd99947d0dd8b856695d63c4",
+        "size_bytes": 261045860
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f415e391b7013be665fe.vot",
+        "sha256": "175924da468686437c7618118c27d914839568affe7ace1660c0bb790b2ffd57",
+        "size_bytes": 26228900
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f46c049fc69180861d05.vot",
+        "sha256": "453d1e07fa12e43797d2acbfb3b01e939cc3c8265cd1b4198f724e38b4f1ee21",
+        "size_bytes": 16122699
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f5252c636745e9b5234e.vot",
+        "sha256": "5d5f3bb5d865e479cdfdcf9fb69ad4db9133302fcf021cbbebf0d33584d33c6b",
+        "size_bytes": 113826950
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f56e89b98d6d7f83720c.vot",
+        "sha256": "068fee14dd3b952c30fc97c5404320e311557aad3d10e6e23ac1035234056fa0",
+        "size_bytes": 5809890
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f591829223bb560ed35e.vot",
+        "sha256": "4b8c48b6c19012456b1fbbc5d40219f0f59409af82a23a4f52b02d7e58b8b298",
+        "size_bytes": 13002569
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f7af9f092fcee61d00b9.vot",
+        "sha256": "61d3767fafb044def53bf3335f2216da47f02881d7fc1298257eaa445465f596",
+        "size_bytes": 281612614
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f821c221b7d75a207218.vot",
+        "sha256": "05e0f65fbddf92f6173d87996d171bfb4c7a1192752d83dd3e99ed15f97209bc",
+        "size_bytes": 407539385
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f884e4472248b9957f32.vot",
+        "sha256": "af72a5dbf37bf5f9de9f83841511968fc53ecf42e1d9626946b697999a702aea",
+        "size_bytes": 30760773
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f930c78444b57a7c5b0c.vot",
+        "sha256": "fac573f6f658c57daab8899260fce96882a2519b49e6bd4d41ac21f5a780ba75",
+        "size_bytes": 18628211
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_f93404daadc252ea46de.vot",
+        "sha256": "80487fc23d3c8118e66fea597f4b74fe530077856f04c136c8f12b8d9e39e55a",
+        "size_bytes": 17782996
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fba7c2e0d4861cfae4a3.vot",
+        "sha256": "bbb8d7770ec26363c390f08301345371b34706a647d48ae3a0e562af06e6aa7d",
+        "size_bytes": 46201218
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fc10ff11e10fd00d4a29.vot",
+        "sha256": "1b49626b69f4c5cfbc800cc5a182de1c49b798f2946b9960d07820547af91569",
+        "size_bytes": 6538501
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fd2202d90947f7f44592.vot",
+        "sha256": "9b31fe67838b68428df879d379be2380066925399aeece4b14d7de13b1032d0b",
+        "size_bytes": 1154531
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fd8a3c80d54703a25a81.vot",
+        "sha256": "3ff44ac3e89a8063a2820677211c7aa8734385be685d7771617d2d623667c3c9",
+        "size_bytes": 35344978
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fdd3106e0e1e33d52980.vot",
+        "sha256": "c061f9bbe7447988001ded974e375edeaec3129d4ff2aa55b4ab923d452a2180",
+        "size_bytes": 30681806
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fe235420e85239fcd1d2.vot",
+        "sha256": "ef9e4350a7ccb44b7a6e62ae37f6b984ba0ff0d2b01f915b19ee93d05106d5d6",
+        "size_bytes": 25764569
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fe304e791951ede4b1ef.vot",
+        "sha256": "6623f4e699712cc3d9c305b25af68c4057f1c0ca7c568cb50ec20afb22f7a538",
+        "size_bytes": 9063106
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_fe5ee0b73d84579cdd3e.vot",
+        "sha256": "26cdd1d849d0e46346818f251064fede1b071fc306005452d20f83cd3644d185",
+        "size_bytes": 1014444
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ff2252b2925b07c26da8.vot",
+        "sha256": "9e5683f2f406603222ec3b612f11555a60134bceba8daddc7d7ef18a2a8e51c4",
+        "size_bytes": 29850088
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ffb61cff25912e1fbb4b.vot",
+        "sha256": "27d3118e97376323c68716f6ee8ec5c4faf70688bf90a51f794ea06ff5dabd98",
+        "size_bytes": 17290302
+      },
+      {
+        "path": "work/applause_dr4_corrected_le5min_blind_source_state_census_v094i/tap_raw/group_ffba49127e921c86f2c3.vot",
+        "sha256": "2e2aac527def868eb27998d80c188e5e8c0d2e080dda602e3d9a568dce754fd2",
+        "size_bytes": 61167524
+      }
+    ]
+  },
+  "required_parent_git_commit": "d9d1bc3acf7ae6eff03d75afe89c9dd18c64aa30",
+  "solution_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/solution_full.csv",
+    "sha256": "0e4fc7d72e7dd31e4aa404f4647edb14fc055007633d2cf7006ac8a6f2ecb1f6"
+  },
+  "source_cache_inventory": {
+    "path": "research/prospective_freezes/applause_dr4_v094i_strict_hq_source_cache_inventory_v094j.csv",
+    "products": 1386,
+    "rows": 21609122,
+    "sha256": "76b9f5629f70c488f6ef49ae609e1828c78d0c278ccdff0b90b381c20b87170d"
+  },
+  "status": "PARENT_PROVENANCE_PREPARED_BEFORE_V094Q_VALUES",
+  "v094d_exposure_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/exposure_full.csv",
+    "sha256": "90f81ad3cccb49a4cb77e1c2495e0128bacf330c8f0a3ac787cda44b6d580447"
+  },
+  "v094d_exposure_sub_full": {
+    "path": "work/applause_dr4_fragment_timing_recoverability_audit_v094d/tap_normalized_csv/exposure_sub_full.csv",
+    "sha256": "b4876bf275d5be45428745d5aa7c6cd740323dd33244d897d73a8e685e8be6d8"
+  },
+  "v094p_result": {
+    "manifest_path": "results/applause_dr4_measurement_integrity_validation_gate_v094p/v094p_output_manifest.sha256",
+    "manifest_sha256": "99cd333e3d3a0fae68deb61e43a1a4048aec15fd0cfe5e36f6758834715050f9",
+    "path": "results/applause_dr4_measurement_integrity_validation_gate_v094p/applause_dr4_measurement_integrity_validation_gate_v094p.json",
+    "sha256": "4dcd8303eeaef338fb8b3a0f55ff9f7f63b7a3401974e84de1b62b21a8f070ac"
+  }
+}
