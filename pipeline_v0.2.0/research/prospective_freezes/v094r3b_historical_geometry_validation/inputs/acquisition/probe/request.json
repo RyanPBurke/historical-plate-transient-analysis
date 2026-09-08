@@ -1,0 +1,29 @@
+{
+  "method": "POST",
+  "parameters": {
+    "LANG": "ADQL",
+    "MAXREC": "2",
+    "QUERY": "SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (2194) ORDER BY plate_id",
+    "REQUEST": "doQuery"
+  },
+  "query": "SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (2194) ORDER BY plate_id",
+  "requested_plate_ids": [
+    2194
+  ],
+  "response_headers": {
+    "Allow": "GET, POST, HEAD, OPTIONS",
+    "Content-Language": "en",
+    "Content-Type": "application/xml",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Tue, 08 Sep 2026 20:06:30 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "nginx/1.26.3",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Language, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "response_status": 200,
+  "retrieved_utc": "2026-09-08T20:06:29.969745+00:00",
+  "url": "https://www.plate-archive.org/tap/sync"
+}

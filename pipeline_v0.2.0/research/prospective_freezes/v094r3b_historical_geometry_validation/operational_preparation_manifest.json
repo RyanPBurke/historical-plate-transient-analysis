@@ -1,0 +1,113 @@
+{
+  "applause": {
+    "chunks": [
+      {
+        "chunk": 1,
+        "plate_count": 100,
+        "response_sha256": "b51b825b2d03609907ea4e9857233ae7b9a510543e9d32b1d3c4847979769e7c",
+        "reused": false
+      },
+      {
+        "chunk": 2,
+        "plate_count": 100,
+        "response_sha256": "f46e105e989ab21a6e6ad8ce290f373d6719c830efc87689641452ed488de88a",
+        "reused": false
+      },
+      {
+        "chunk": 3,
+        "plate_count": 100,
+        "response_sha256": "f38f072850074c076054451e61a4fbcc6ce4a9ca28ff3fdcde42b22cb10ca835",
+        "reused": false
+      },
+      {
+        "chunk": 4,
+        "plate_count": 100,
+        "response_sha256": "59fd19d64ff8463d13e4104b248f2f9aa24a26ca78d3f23632b24f3d30706c13",
+        "reused": false
+      },
+      {
+        "chunk": 5,
+        "plate_count": 100,
+        "response_sha256": "2c6a6fa04261943a0afb6eb631d46bb6b51153ea1d0d303b9e6f7fe599975931",
+        "reused": false
+      },
+      {
+        "chunk": 6,
+        "plate_count": 100,
+        "response_sha256": "911ef41864ff0532673d3c47e72c147cfeba6ac0d19375073197e1f610870fdc",
+        "reused": false
+      },
+      {
+        "chunk": 7,
+        "plate_count": 100,
+        "response_sha256": "1933c095690c34fb7e360cf360f5fd8ae437e8e5621551d82b0e824a51c65767",
+        "reused": false
+      },
+      {
+        "chunk": 8,
+        "plate_count": 100,
+        "response_sha256": "0e7cfa149c3ae5d19e8c979a85177be698b8e77b6e42cd0868a7cda6e083a78e",
+        "reused": false
+      },
+      {
+        "chunk": 9,
+        "plate_count": 100,
+        "response_sha256": "d762c38af46be5ae920f189f7af198d3944dd677dbbdc34d92fda36909ebd12c",
+        "reused": false
+      },
+      {
+        "chunk": 10,
+        "plate_count": 100,
+        "response_sha256": "938ef6769a3b00b7360cb6f3727db8f428ee03f75a0ab0726fbc4d8bb61008f5",
+        "reused": false
+      },
+      {
+        "chunk": 11,
+        "plate_count": 100,
+        "response_sha256": "2f0fad3d984bee3e609367828e5a69ff4f35fad096cf75b518db725403593910",
+        "reused": false
+      },
+      {
+        "chunk": 12,
+        "plate_count": 100,
+        "response_sha256": "4459a295d868d2960a3037f1049bc661881ce1fd19fa800a1c14aafa0027660d",
+        "reused": false
+      },
+      {
+        "chunk": 13,
+        "plate_count": 89,
+        "response_sha256": "9fc0208ae913daf7a496fd4a76805a87fb9698559368a23c09776d81de14ca28",
+        "reused": false
+      }
+    ],
+    "combined_path": "work/applause_dr4_v094r3_operational_preparation/acquisition/applause_relevant_plate_geometry.csv",
+    "combined_sha256": "ccd5e42cf04e5c72a767a38a2b6b7d1b36f6efaecdf10c4005af04bc777400cb",
+    "lonlat_mismatches": 0,
+    "missing_elevations": 0,
+    "rows": 1289,
+    "site_name_mismatches": 0
+  },
+  "overlap_calendar_year_max": 1974,
+  "overlap_calendar_year_min": 1928,
+  "references": {
+    "historic_deltat": {
+      "path": "work/applause_dr4_v094r3_operational_preparation/acquisition/references/historic_deltat.data",
+      "reused": false,
+      "sha256": "9f43514119060601a00624a5d9287a91b0b1f5e12bec5209bbabda90b392b70b",
+      "size_bytes": 30345
+    },
+    "iers_c01": {
+      "path": "work/applause_dr4_v094r3_operational_preparation/acquisition/references/EOP_C01_IAU2000_1846-now.txt",
+      "reused": false,
+      "sha256": "846cb53ae1055de1cd80ab78e065b05ad0bc3b224bf8eafe27f428eb12da3ffb",
+      "size_bytes": 992263
+    },
+    "monthly_deltat": null
+  },
+  "relevant_overlap_plates": 1289,
+  "resume_semantics": "validated chunks and references are reused; invalid/failed responses are preserved",
+  "scientific_outcomes_inspected": false,
+  "stage0_cache_integrity_reused": true,
+  "status": "OPERATIONAL_PREPARATION_COMPLETE",
+  "tap_request_note": "FORMAT/RESPONSEFORMAT deliberately omitted; TAP default VOTable required by TAP 1.1"
+}

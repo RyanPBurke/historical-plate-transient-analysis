@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="applause_dr4.plate" content-role="doc" href="https://doi.org/10.17876/plate/dr.4/6"/>
+        <TABLE name="applause_user_anonymous.2026-09-08-20-06-42-469712">
+                <FIELD name="plate_id" ucd="meta.id;meta.main" datatype="int"> <DESCRIPTION>Plate identification number</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_name" ucd="meta.id;instr.obsty" arraysize="80" datatype="char"> <DESCRIPTION>Observatory site name</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_longitude" unit="deg" ucd="pos.earth.lon;instr.obsty" datatype="double"> <DESCRIPTION>East longitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_latitude" unit="deg" ucd="pos.earth.lat;instr.obsty" datatype="double"> <DESCRIPTION>Latitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_elevation" unit="m" ucd="pos.earth.altitude;instr.obsty" datatype="float"> <DESCRIPTION>Elevation of the observatory site</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>8583</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8584</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8617</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8628</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8700</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8701</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8709</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8710</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>8711</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10083</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10086</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10087</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10088</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10089</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10090</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10091</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10092</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10093</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10102</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10103</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10104</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10105</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10111</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10112</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10175</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10176</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10178</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10189</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10190</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10191</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10193</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10194</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10195</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10262</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10316</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10320</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10321</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10369</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10370</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10371</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10374</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10375</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10376</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10377</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10378</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10379</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10383</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10384</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10385</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10386</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10387</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10391</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10392</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10393</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10412</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10413</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10414</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10416</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10417</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10418</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10419</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10438</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10439</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10443</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10444</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10449</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10450</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10451</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10452</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10487</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10521</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10547</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10548</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10550</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10551</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10552</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10567</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10568</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10569</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10570</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10571</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10572</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10652</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10653</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10654</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10691</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10717</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10720</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10721</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10722</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10724</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10725</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10890</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>10907</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11014</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11015</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11016</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11017</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11018</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11021</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+            <INFO name="QUERY_STATUS" value="OK" />
+            <INFO name="QUERY" value="SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (8583,8584,8617,8628,8700,8701,8709,8710,8711,10083,10086,10087,10088,10089,10090,10091,10092,10093,10102,10103,10104,10105,10111,10112,10175,10176,10178,10189,10190,10191,10193,10194,10195,10262,10316,10320,10321,10369,10370,10371,10374,10375,10376,10377,10378,10379,10383,10384,10385,10386,10387,10391,10392,10393,10412,10413,10414,10416,10417,10418,10419,10438,10439,10443,10444,10449,10450,10451,10452,10487,10521,10547,10548,10550,10551,10552,10567,10568,10569,10570,10571,10572,10652,10653,10654,10691,10717,10720,10721,10722,10724,10725,10890,10907,11014,11015,11016,11017,11018,11021) ORDER BY plate_id" />
+            <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+            <INFO name="SOURCE" value="applause_dr4.plate" />
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://www.plate-archive.org/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>

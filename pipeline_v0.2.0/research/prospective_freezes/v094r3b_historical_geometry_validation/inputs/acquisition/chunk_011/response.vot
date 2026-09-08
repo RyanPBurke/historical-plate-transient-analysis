@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="applause_dr4.plate" content-role="doc" href="https://doi.org/10.17876/plate/dr.4/6"/>
+        <TABLE name="applause_user_anonymous.2026-09-08-20-07-09-153032">
+                <FIELD name="plate_id" ucd="meta.id;meta.main" datatype="int"> <DESCRIPTION>Plate identification number</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_name" ucd="meta.id;instr.obsty" arraysize="80" datatype="char"> <DESCRIPTION>Observatory site name</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_longitude" unit="deg" ucd="pos.earth.lon;instr.obsty" datatype="double"> <DESCRIPTION>East longitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_latitude" unit="deg" ucd="pos.earth.lat;instr.obsty" datatype="double"> <DESCRIPTION>Latitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_elevation" unit="m" ucd="pos.earth.altitude;instr.obsty" datatype="float"> <DESCRIPTION>Elevation of the observatory site</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>88887</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>88908</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>88950</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>88955</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>88986</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>88987</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89155</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89162</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89378</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89388</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89478</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89486</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89496</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89516</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89553</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89580</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89584</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89627</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89687</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89702</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89736</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89767</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>89768</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90094</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90147</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90148</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90151</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90248</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90249</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90253</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90257</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90260</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90265</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90269</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90273</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90284</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90285</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90493</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90494</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90497</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90498</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90501</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90502</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90503</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90505</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90506</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90509</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90510</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90513</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90514</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90555</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90563</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90591</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90595</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90697</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90705</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90709</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90716</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90719</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90720</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90748</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90756</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90759</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90760</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90763</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90768</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90772</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90783</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90835</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90840</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90871</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90883</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90887</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90891</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90895</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90899</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90980</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>90984</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91016</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91066</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91067</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91071</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91207</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91299</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91307</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91311</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91327</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91338</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91343</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91362</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91379</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91380</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91396</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91425</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91481</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91482</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91485</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91489</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91490</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>91501</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+            <INFO name="QUERY_STATUS" value="OK" />
+            <INFO name="QUERY" value="SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (88887,88908,88950,88955,88986,88987,89155,89162,89378,89388,89478,89486,89496,89516,89553,89580,89584,89627,89687,89702,89736,89767,89768,90094,90147,90148,90151,90248,90249,90253,90257,90260,90265,90269,90273,90284,90285,90493,90494,90497,90498,90501,90502,90503,90505,90506,90509,90510,90513,90514,90555,90563,90591,90595,90697,90705,90709,90716,90719,90720,90748,90756,90759,90760,90763,90768,90772,90783,90835,90840,90871,90883,90887,90891,90895,90899,90980,90984,91016,91066,91067,91071,91207,91299,91307,91311,91327,91338,91343,91362,91379,91380,91396,91425,91481,91482,91485,91489,91490,91501) ORDER BY plate_id" />
+            <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+            <INFO name="SOURCE" value="applause_dr4.plate" />
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://www.plate-archive.org/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>

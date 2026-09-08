@@ -1,0 +1,10 @@
+{
+  "arrays_compared": 30492,
+  "exact_products_verified": 1386,
+  "gaia_id_changed_rows": 10583188,
+  "gaia_positive_status_changes": 0,
+  "legacy_products_verified": 1386,
+  "non_gaia_array_changes": 0,
+  "rows_verified": 21609122,
+  "status": "PASS"
+}

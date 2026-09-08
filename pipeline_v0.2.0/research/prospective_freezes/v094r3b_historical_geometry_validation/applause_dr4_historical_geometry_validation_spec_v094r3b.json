@@ -1,0 +1,93 @@
+{
+  "foundation_acceptance": {
+    "gaia_only_change": "gaia_id may differ exactly as v094q recorded; source_id and all coordinates/photometry/flags must not change",
+    "legacy_npz": "all 1,386 legacy NPZ files must match the frozen v094i inventory hashes and row counts",
+    "repaired_npz": "all 1,386 v094q repaired caches must match the v094q repaired-cache inventory; compared with legacy, all arrays except gaia_id must have identical names, shape, dtype, and values"
+  },
+  "geometry_validation_endpoint": {
+    "candidate_unblinding_allowed": false,
+    "diagnostics": [
+      "old GMST/alt0 vs corrected baseline direction and length",
+      "site elevation contribution",
+      "baseline sweep across each permitted event-time interval",
+      "DeltaT and polar-motion uncertainty propagated to the geometric quantities used for matching"
+    ],
+    "new_matcher_allowed": false,
+    "reference_precision_rules": {
+      "generator": "Time-dependent epipolar generator criterion is minimum cross-track <=7 arcsec over the allowed overlap intervals.",
+      "nominal_synthetic_recovery": "For every generated jointly observable injection, the time-dependent search must recover the pair with final cross-track <=2 arcsec, ray closure <=2 arcsec, positive rays, geocentric distance >= Earth radius, and recovered distance within 1 percent of truth.",
+      "published_eop_deltat": "Propagate C01 X/Y published errors and historical DeltaT published error through the actual stereo closure/cross-track quantities.",
+      "site_datum": "Report \u00b1107 m site-height sensitivity separately; because APPLAUSE coordinate datum/accuracy is undocumented, final precision certification remains site-metadata-qualified.",
+      "time_search": "Search each allowed overlap interval continuously via deterministic subdivided bounded minimization; event truth time is not supplied to the recovery search."
+    },
+    "report_must_classify_each_opportunity": [
+      "GEOMETRY_SUPPORTED_FOR_SYNTHETIC_TEST",
+      "GEOMETRY_UNRESOLVED_REFERENCE_COVERAGE",
+      "GEOMETRY_UNRESOLVED_SITE_METADATA",
+      "GEOMETRY_UNRESOLVED_PRECISION"
+    ],
+    "synthetic_recovery": {
+      "check": "pass through the complete proposed time-dependent geometry/generator/acceptance path, not just a cross-track proxy",
+      "distances": "predeclared finite-distance grid including near-Earth and larger geocentric distances",
+      "event_times": "span start, interior, and end of validated overlap intervals",
+      "field_positions": "span multiple positions inside the jointly observable side-specific footprints",
+      "objects": "finite-distance events that are simultaneously above both observatory horizons and inside each plate's own footprint",
+      "required": true,
+      "success_output": "recovery fraction and failure reason by distance/time/field-position strata"
+    }
+  },
+  "parent_commit": "bfbc10b0b0357762b74f6ff89ea856cc6509a383",
+  "parent_spec_sha256": "cb16a08778846992bf8a07e85de8aca38b6afa3e9a72fa0974bac83608925e47",
+  "population": {
+    "candidate_identifies": "remain blinded",
+    "source_pairing": "none in operational preparation or geometry validation",
+    "timing_intervals": "v094q-independent exposure/exposure_sub reconstruction, already validated against the frozen plan",
+    "timing_population": "the 1,081 independently validated OVERLAP opportunities from v094q"
+  },
+  "purpose": "Establish whether the historical plate opportunities support the geometric precision required for a finite-distance two-observatory search, before any rebuilt matcher or candidate inspection.",
+  "reference_acceptance": {
+    "applause_plate_geometry": [
+      "exact requested plate-ID set returned",
+      "no duplicate plate IDs",
+      "VOTable QUERY_STATUS contains OK and contains neither ERROR nor OVERFLOW",
+      "required columns present",
+      "plate_id integer",
+      "site_name character",
+      "site_longitude unit deg",
+      "site_latitude unit deg",
+      "site_elevation unit m",
+      "no missing site_elevation for any required overlap plate",
+      "site_name/lon/lat agree with frozen plate cache for all required overlap plates"
+    ],
+    "iers_and_deltat": [
+      "raw bytes retained and SHA256 recorded",
+      "reference date coverage includes all frozen overlap dates",
+      "uncertainty fields/availability recorded rather than assumed",
+      "software and dependency versions recorded at freeze"
+    ]
+  },
+  "site_datum_qualification": {
+    "certification_rule": "The nominal calculation cannot by itself certify 2-arcsec physical precision when the site datum/accuracy is undocumented. Report site-datum status explicitly; do not promote to a new matcher solely from nominal recovery.",
+    "documentation_fact": "APPLAUSE DR4 provides site_longitude/site_latitude in degrees and site_elevation in metres, but does not document an explicit horizontal or vertical datum/accuracy in the plate-table schema.",
+    "height_datum_stress_envelope_m": 107.0,
+    "height_envelope_basis": "Prospectively fixed conservative envelope from the documented global WGS84 EGM2008 geoid-undulation extrema (~-106.91 m to +85.82 m).",
+    "horizontal_coordinate_accuracy": "UNSPECIFIED_BY_APPLAUSE_SCHEMA",
+    "nominal_geometry": "Use the supplied lon/lat/elevation as nominal geodetic coordinates for the diagnostic transform only."
+  },
+  "spec_id": "applause_dr4_historical_geometry_validation_spec_v094r3b",
+  "status": "SCIENTIFIC_SPECIFICATION_FIXED_BEFORE_TARGET_GEOMETRY_OUTCOMES",
+  "time_and_reference_conventions": {
+    "bamberg": "retain the previously frozen longitude/latitude swap; elevation is not swapped",
+    "plate_time_scale": "UT1, consistent with PyPlate handling of UT-derived observation times",
+    "polar_motion": "IERS C01 long-term polar motion",
+    "site_position": "WGS84 geodetic longitude/latitude + APPLAUSE site_elevation",
+    "terrestrial_to_celestial": "ERFA/SOFA IAU 2006/2000A c2t06a",
+    "tt": "UT1 + historical DeltaT"
+  },
+  "workflow": [
+    "Stage 0: verify v094q cache provenance and repair-only semantics",
+    "Stage 1: operational acquisition/preparation; resumable; no target geometry outcomes",
+    "Stage 2: freeze exact inputs, specification, executable, and dependency/reference versions",
+    "Stage 3: local geometry validation + observable synthetic recovery; no network"
+  ]
+}

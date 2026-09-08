@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="applause_dr4.plate" content-role="doc" href="https://doi.org/10.17876/plate/dr.4/6"/>
+        <TABLE name="applause_user_anonymous.2026-09-08-20-06-53-920583">
+                <FIELD name="plate_id" ucd="meta.id;meta.main" datatype="int"> <DESCRIPTION>Plate identification number</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_name" ucd="meta.id;instr.obsty" arraysize="80" datatype="char"> <DESCRIPTION>Observatory site name</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_longitude" unit="deg" ucd="pos.earth.lon;instr.obsty" datatype="double"> <DESCRIPTION>East longitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_latitude" unit="deg" ucd="pos.earth.lat;instr.obsty" datatype="double"> <DESCRIPTION>Latitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_elevation" unit="m" ucd="pos.earth.altitude;instr.obsty" datatype="float"> <DESCRIPTION>Elevation of the observatory site</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>61532</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61533</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61534</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61535</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61536</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61537</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61543</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61544</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61545</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61546</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61557</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61558</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61559</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61560</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61561</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61565</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61566</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61567</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61568</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61569</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61596</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61598</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61600</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61601</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61667</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61668</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61704</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61791</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61792</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61796</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61797</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61798</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61799</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61800</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61801</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61802</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61803</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61810</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61813</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61935</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61940</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61947</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61949</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64780</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64839</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64840</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64871</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64925</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64926</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64982</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>66410</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78070</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78250</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78298</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78373</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78374</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78387</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78466</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78482</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78488</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78499</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78513</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78514</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78809</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>78997</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79065</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79104</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79179</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79186</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79196</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79239</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79242</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79259</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79289</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79328</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79329</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79464</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79522</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79587</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79633</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79643</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79644</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79665</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79672</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79709</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79723</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79749</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79750</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79759</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79819</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79830</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>79974</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80086</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80143</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80260</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80278</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80296</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80409</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80473</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>80541</TD>
+                        <TD>Dr. Remeis-Observatory, Bamberg, Germany</TD>
+                        <TD>49.8845</TD>
+                        <TD>10.8881</TD>
+                        <TD>288.0</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+            <INFO name="QUERY_STATUS" value="OK" />
+            <INFO name="QUERY" value="SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (61532,61533,61534,61535,61536,61537,61543,61544,61545,61546,61557,61558,61559,61560,61561,61565,61566,61567,61568,61569,61596,61598,61600,61601,61667,61668,61704,61791,61792,61796,61797,61798,61799,61800,61801,61802,61803,61810,61813,61935,61940,61947,61949,64780,64839,64840,64871,64925,64926,64982,66410,78070,78250,78298,78373,78374,78387,78466,78482,78488,78499,78513,78514,78809,78997,79065,79104,79179,79186,79196,79239,79242,79259,79289,79328,79329,79464,79522,79587,79633,79643,79644,79665,79672,79709,79723,79749,79750,79759,79819,79830,79974,80086,80143,80260,80278,80296,80409,80473,80541) ORDER BY plate_id" />
+            <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+            <INFO name="SOURCE" value="applause_dr4.plate" />
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://www.plate-archive.org/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>

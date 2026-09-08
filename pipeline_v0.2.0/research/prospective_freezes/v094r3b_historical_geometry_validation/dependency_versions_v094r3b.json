@@ -1,0 +1,8 @@
+{
+  "astropy": "8.0.1",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pyerfa": "2.0.1.5",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "scipy": "1.18.0"
+}

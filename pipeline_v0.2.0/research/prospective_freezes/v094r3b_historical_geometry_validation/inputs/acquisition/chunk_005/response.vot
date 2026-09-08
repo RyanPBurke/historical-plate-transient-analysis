@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="applause_dr4.plate" content-role="doc" href="https://doi.org/10.17876/plate/dr.4/6"/>
+        <TABLE name="applause_user_anonymous.2026-09-08-20-06-46-210603">
+                <FIELD name="plate_id" ucd="meta.id;meta.main" datatype="int"> <DESCRIPTION>Plate identification number</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_name" ucd="meta.id;instr.obsty" arraysize="80" datatype="char"> <DESCRIPTION>Observatory site name</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_longitude" unit="deg" ucd="pos.earth.lon;instr.obsty" datatype="double"> <DESCRIPTION>East longitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_latitude" unit="deg" ucd="pos.earth.lat;instr.obsty" datatype="double"> <DESCRIPTION>Latitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_elevation" unit="m" ucd="pos.earth.altitude;instr.obsty" datatype="float"> <DESCRIPTION>Elevation of the observatory site</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>11042</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11044</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11139</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11140</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11251</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11252</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11255</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11738</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11742</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>11743</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>13607</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18095</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18114</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18133</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18471</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18482</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18492</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18505</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18552</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>18553</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>24611</TD>
+                        <TD>Potsdam-Telegrafenberg</TD>
+                        <TD>13.06417</TD>
+                        <TD>52.38056</TD>
+                        <TD>107.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>24612</TD>
+                        <TD>Potsdam-Telegrafenberg</TD>
+                        <TD>13.06417</TD>
+                        <TD>52.38056</TD>
+                        <TD>107.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>24613</TD>
+                        <TD>Potsdam-Telegrafenberg</TD>
+                        <TD>13.06417</TD>
+                        <TD>52.38056</TD>
+                        <TD>107.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>24614</TD>
+                        <TD>Potsdam-Telegrafenberg</TD>
+                        <TD>13.06417</TD>
+                        <TD>52.38056</TD>
+                        <TD>107.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>28813</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>28849</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>29377</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>29383</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>29389</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>29395</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30055</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30067</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30085</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30091</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30175</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30367</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30373</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30571</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>30937</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>31525</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>31531</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>44702</TD>
+                        <TD>Mount John Observatory, Lake Tekapo, New Zealand</TD>
+                        <TD>170.465</TD>
+                        <TD>-43.9867</TD>
+                        <TD>1029.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>44704</TD>
+                        <TD>Mount John Observatory, Lake Tekapo, New Zealand</TD>
+                        <TD>170.465</TD>
+                        <TD>-43.9867</TD>
+                        <TD>1029.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52053</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52054</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52055</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52056</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52057</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52058</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52252</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>52253</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>53706</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>53744</TD>
+                        <TD>Boyden Observatory, Bloemfontein, South Africa</TD>
+                        <TD>26.4047</TD>
+                        <TD>-29.0388</TD>
+                        <TD>1372.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>56052</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>56053</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>57812</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>57813</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>57870</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>57900</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>57945</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58019</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58020</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58026</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58038</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58101</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58106</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58110</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58147</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58148</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58149</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58150</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58269</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58270</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58308</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58309</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58311</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58330</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58331</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58355</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58360</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58392</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58415</TD>
+                        <TD>Bonn, Germany</TD>
+                        <TD>7.068</TD>
+                        <TD>50.163</TD>
+                        <TD>520.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58514</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58529</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58591</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58592</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>58697</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>59548</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>59743</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>59875</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60353</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60377</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60444</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60445</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60701</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>60704</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61174</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61208</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61209</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>61210</TD>
+                        <TD>Hamburg-Bergedorf, Germany</TD>
+                        <TD>10.242</TD>
+                        <TD>53.482</TD>
+                        <TD>41.0</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+            <INFO name="QUERY_STATUS" value="OK" />
+            <INFO name="QUERY" value="SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (11042,11044,11139,11140,11251,11252,11255,11738,11742,11743,13607,18095,18114,18133,18471,18482,18492,18505,18552,18553,24611,24612,24613,24614,28813,28849,29377,29383,29389,29395,30055,30067,30085,30091,30175,30367,30373,30571,30937,31525,31531,44702,44704,52053,52054,52055,52056,52057,52058,52252,52253,53706,53744,56052,56053,57812,57813,57870,57900,57945,58019,58020,58026,58038,58101,58106,58110,58147,58148,58149,58150,58269,58270,58308,58309,58311,58330,58331,58355,58360,58392,58415,58514,58529,58591,58592,58697,59548,59743,59875,60353,60377,60444,60445,60701,60704,61174,61208,61209,61210) ORDER BY plate_id" />
+            <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+            <INFO name="SOURCE" value="applause_dr4.plate" />
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://www.plate-archive.org/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>
