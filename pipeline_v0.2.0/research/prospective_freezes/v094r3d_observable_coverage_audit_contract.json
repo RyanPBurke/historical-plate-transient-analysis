@@ -1,0 +1,69 @@
+{
+  "audit_outcomes": [
+    "AUDIT_OBSERVABLE_RECOVERY_PASS",
+    "AUDIT_SITE_METADATA_HOLD",
+    "AUDIT_RECOVERY_OR_REFERENCE_HOLD",
+    "AUDIT_NO_JOINT_OBSERVABLE_CASE_FOUND_AT_MAX_RESOLUTION"
+  ],
+  "contract_id": "v094r3d_observable_synthetic_coverage_completion_audit",
+  "coverage_search": {
+    "construction": "Sample topocentric directions inside one plate footprint, intersect each ray with the fixed geocentric-distance sphere, calculate the other site's apparent direction, then require the second footprint, both horizons, and >=2 arcsec disparity.",
+    "deterministic_tangent_grid_resolutions": [
+      9,
+      17,
+      33,
+      65
+    ],
+    "direction": "both A-to-B and B-to-A",
+    "no_case_interpretation": "NO_JOINT_OBSERVABLE_CASE_FOUND_AT_MAX_RESOLUTION, not a precision failure and not proof of physical impossibility",
+    "placements_tested_per_case": "up to 3 deterministic central/mid/outer placements",
+    "stop_within_time_distance_case": "first grid resolution yielding at least 3 distinct jointly observable placements, else continue to 65"
+  },
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "network": 0,
+    "pixels": 0,
+    "private_candidate_map": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "threshold_retuning": 0
+  },
+  "next_matcher_allowed": false,
+  "parent_commit": "e4d1f9918ba498c8432a57809c6d16669c5f93da",
+  "parent_scientific_spec_sha256": "2a24508c359f31bb14d55755c2579e0314d73d152462286606203273619794cd",
+  "purpose": "Resolve the 621 v094r3c opportunities labelled GEOMETRY_UNRESOLVED_PRECISION solely because the sparse 5x5 synthetic placement grid produced zero jointly observable injections.",
+  "r3c_outcome_already_seen": true,
+  "selection": {
+    "candidate_identities_used": false,
+    "criteria": [
+      "classification == GEOMETRY_UNRESOLVED_PRECISION",
+      "synthetic_observable == 0"
+    ],
+    "expected_opportunities": 621,
+    "source": "v094r3c opportunity_geometry_validation_v094r3c.csv"
+  },
+  "status": "PROSPECTIVELY_FIXED_POST_R3C_OUTCOME_INFORMED_AUDIT",
+  "stop_rule": "STOP after r3d aggregate coverage/recovery report; interpret before any catalogue matcher.",
+  "unchanged_science": {
+    "distance_grid_km": [
+      "2*6378.137",
+      "0.01 AU",
+      "0.1 AU"
+    ],
+    "distance_recovery_relative_tolerance": 0.01,
+    "final_cross_track_arcsec": 2.0,
+    "generator_cross_track_arcsec": 7.0,
+    "height_stress_m": 107.0,
+    "minimum_disparity_arcsec": 2.0,
+    "overlap_intervals": "unchanged validated fragment intervals",
+    "published_reference_uncertainty": "unchanged",
+    "ray_closure_arcsec": 2.0,
+    "reference_geometry": "same frozen C01 + historical DeltaT + ERFA/SOFA geometry",
+    "timing_population": "same 1,081 OVERLAP opportunities; audit subset only",
+    "truth_event_times": [
+      "interval start",
+      "interval midpoint",
+      "interval end"
+    ]
+  }
+}
