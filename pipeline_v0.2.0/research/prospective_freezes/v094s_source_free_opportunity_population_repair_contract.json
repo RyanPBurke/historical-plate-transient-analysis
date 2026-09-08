@@ -1,0 +1,36 @@
+{
+  "contract_id": "v094s_source_free_cross_site_opportunity_population_repair",
+  "status": "POST_R3D_METHOD_REPAIR_PROSPECTIVE_BEFORE_V094S_OUTCOMES",
+  "required_parent_git_commit": "81e008b51446cee6a5023e0b184415ba7500b9b5",
+  "scientific_role": "Repair the upstream finite-distance opportunity population by removing the v094h requirement for positive infinity-sky footprint intersection, while preserving frozen v094h exposure eligibility and exposure-to-solution association and using independently reconstructed exposure/subexposure timing.",
+  "population": {
+    "source_universe": "same 139539 APPLAUSE DR4 exposures used by v094h",
+    "timing_statuses": ["PROVISIONAL_PARENT_INTERVAL_NO_EXPLICIT_WARNING", "OPPORTUNITY_TIMING_SUPPORTED_FEATURE_FRAGMENT_UNIDENTIFIED"],
+    "site_identity": "same v094h normalized non-empty site_name; distinct sites only; no minimum distance cutoff",
+    "solution_association": "exact v094h deterministic association: valid scan filename + valid STC polygon; choose smallest separation between parent exposure ra_icrs/dec_icrs and solution center; ties prefer larger num_xmatch then smaller solution_id; if fov1/fov2 exist require separation <= max(1 deg, 0.75*hypot(fov1,fov2)).",
+    "digital_footprint_change": "Each side retains its own valid associated STC polygon. Positive intersection between the two infinity-sky polygons is diagnostic only and is NOT an inclusion criterion."
+  },
+  "timing": {
+    "source": "frozen v094d exposure_full + exposure_sub_full as bound by v094q provenance",
+    "multi_sub_rule": "num_sub>1 requires exactly num_sub rows, unique subexposure IDs/numbers, valid start<end, and non-overlapping subfragments.",
+    "single_sub_rule": "num_sub<=1 uses parent exposure ut_start/ut_end provisionally.",
+    "null_num_sub": "HOLD",
+    "full_population_replay": "For all otherwise-v094h-eligible exposures, independently reconstructed interval sets must match v094d master fragment_intervals_json to 1 ms before temporal pairing.",
+    "primary_pair_metric": "minimum continuous-fragment gap; zero for positive-duration fragment overlap",
+    "exclusive_bins": ["OVERLAP", "GT0_LE5MIN", "GT5_LE10MIN", "GT10_LE15MIN"],
+    "max_gap_seconds": 900.0
+  },
+  "prospective_replay_acceptance": {
+    "master_rows": 139539,
+    "v094h_eligible_exposures": 56703,
+    "distinct_site_temporal_pairs_le15min": 13177,
+    "old_positive_common_footprint_rows": 1541,
+    "old_positive_common_footprint_timing_bins": {"OVERLAP": 1081, "GT0_LE5MIN": 159, "GT5_LE10MIN": 160, "GT10_LE15MIN": 141},
+    "old_positive_common_footprint_le5_keys": 1240,
+    "full_population_timing_interval_mismatches": 0,
+    "old_le5_stable_key_mismatches": 0
+  },
+  "guards": {"source_catalog_reads":0,"candidate_identity_inspection":0,"private_candidate_map_reads":0,"pixels":0,"registration":0,"network":0,"real_source_pairing":0,"threshold_retuning":0},
+  "interpretation": "Outcome-informed methodology repair after r3d, not a new confirmatory candidate search. Newly retained rows remain metadata-level opportunities until corrected geometry/synthetic validation.",
+  "stop_rule": "STOP after v094s census; do not read source catalogues or run the real matcher."
+}
