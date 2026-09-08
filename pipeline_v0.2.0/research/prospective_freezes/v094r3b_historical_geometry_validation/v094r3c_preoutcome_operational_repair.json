@@ -1,0 +1,34 @@
+{
+  "changes": [
+    "classification precedence repaired so undocumented site datum is a qualification, not an unconditional per-opportunity label",
+    "fixed +/-107 m height-stress failure maps to GEOMETRY_UNRESOLVED_SITE_METADATA",
+    "no observable synthetic case, failed nominal recovery, or published-reference >2 arcsec maps to GEOMETRY_UNRESOLVED_PRECISION",
+    "reference-coverage failure remains highest precedence",
+    "otherwise GEOMETRY_SUPPORTED_FOR_SYNTHETIC_TEST",
+    "null-safe guard added for absent final candidate"
+  ],
+  "new_runner_sha256": "75751da3c21c06b7900688d2d4848bcda93bc7cc0c2a49fefeb583fc57c30dd8",
+  "parent_freeze_commit": "6871b35b7b37db2e0186fc0517790bddbbf88626",
+  "parent_runner_sha256": "ea55e06b4d6ddf2106a40ac5d5fa22e496fe4898d363818a82f665acf72dfa0e",
+  "repair_id": "v094r3c_preoutcome_classification_operational_repair",
+  "scientific_spec_sha256_unchanged": "2a24508c359f31bb14d55755c2579e0314d73d152462286606203273619794cd",
+  "status": "FIXED_BEFORE_TARGET_GEOMETRY_OUTCOMES",
+  "target_outcomes_seen_before_repair": false,
+  "unchanged": [
+    "1,081 opportunity population",
+    "validated overlap intervals",
+    "all frozen reference bytes",
+    "site coordinates/elevations",
+    "UT1/TT/EOP transform",
+    "distance grid",
+    "field-position grid",
+    "event-time injections",
+    "7 arcsec generator threshold",
+    "2 arcsec final threshold",
+    "1 percent distance-recovery criterion",
+    "published EOP/DeltaT uncertainty rules",
+    "+/-107 m height stress envelope",
+    "no source pairing",
+    "candidate blinding"
+  ]
+}
