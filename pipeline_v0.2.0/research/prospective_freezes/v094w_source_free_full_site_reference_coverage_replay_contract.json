@@ -1,0 +1,100 @@
+{
+  "acceptance": {
+    "iers_c01_coverage_failures": 0,
+    "missing_plate_cache_rows": 0,
+    "nominal_deltat_coverage_failures": 0,
+    "positive_duration_overlap_intervals": 8925,
+    "reference_hash_mismatches": 0,
+    "site_assignment_mismatches": 0,
+    "site_lonlat_mismatches": 0,
+    "site_metadata_missing_or_ambiguous": 0,
+    "unique_overlap_plates": 6015,
+    "unique_overlap_sites": 10,
+    "v094t_overlap_rows": 8807,
+    "v094t_rows": 13177,
+    "v094t_unique_pair_ids": 13177,
+    "v094v_required_plate_rows_missing": 0
+  },
+  "contract_id": "v094w_source_free_full_site_reference_coverage_replay",
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "distance_grid_evaluation": 0,
+    "finite_distance_geometry": 0,
+    "network": 0,
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "outcomes": [
+    "READY_TO_FREEZE_NOMINAL_FINITE_DISTANCE_GEOMETRY",
+    "COVERAGE_REPLAY_HOLD"
+  ],
+  "parent_population": {
+    "v094t_overlap_pairs": 8807,
+    "v094t_positive_duration_overlap_intervals": 8925,
+    "v094t_temporal_pairs_le15min": 13177,
+    "v094u_outcome": "SITE_OR_REFERENCE_ACQUISITION_REQUIRED",
+    "v094u_unique_overlap_plates": 6015,
+    "v094u_unique_overlap_sites": 10
+  },
+  "required_parent_git_commit": "87b4a875e5895437c004d90fef7fc8acf8dad4b9",
+  "site_foundation": {
+    "bamberg_rule": "Preserve the already-frozen downstream longitude/latitude swap for Dr. Remeis-Observatory, Bamberg, Germany; elevation is not swapped.",
+    "plate_validation_rule": "Every one of the 6,015 v094t OVERLAP plate IDs must exist in the frozen v094s plate cache. For the three v094v sites, the plate must additionally be one of the 47 exact banked APPLAUSE rows. For the seven inherited sites, the frozen plate-cache site/lon/lat must agree with the site's unique r3b lon/lat/elevation tuple within 1e-9 degree.",
+    "r3b": {
+      "plate_geometry_rows": 1289,
+      "plate_geometry_sha256": "ccd5e42cf04e5c72a767a38a2b6b7d1b36f6efaecdf10c4005af04bc777400cb",
+      "role": "site metadata foundation for the seven already-covered v094u sites"
+    },
+    "v094v": {
+      "applause_response_sha256": "c30f700dd6a5d6a1aeeba8030fcce0193a8282e52bc9cf7d0d55d89f2b8bcb32",
+      "bank_commit": "87b4a875e5895437c004d90fef7fc8acf8dad4b9",
+      "required_acquired_plate_rows": 47,
+      "required_new_sites": {
+        "Calar Alto Observatory, Spain": {
+          "elevation_m": 2168.0,
+          "latitude_deg": 37.23,
+          "longitude_deg": -2.537,
+          "required_plates": 12
+        },
+        "La Silla, Chile": {
+          "elevation_m": 2347.0,
+          "latitude_deg": -29.257,
+          "longitude_deg": -70.73,
+          "required_plates": 11
+        },
+        "Observatorio de Fisica Cosmica, San Miguel, Argentina": {
+          "elevation_m": 37.0,
+          "latitude_deg": -58.7317,
+          "longitude_deg": -34.5567,
+          "required_plates": 24
+        }
+      }
+    }
+  },
+  "status": "PROSPECTIVELY_FIXED_AFTER_V094V_ACQUISITION_BANK_BEFORE_COVERAGE_REPLAY_OUTCOMES",
+  "stop_rule": "STOP after full site/reference coverage replay. If READY, freeze the finite-distance geometry algorithm and synthetic-recoverability design separately before calculating geometry outcomes.",
+  "time_reference_foundation": {
+    "historic_deltat": {
+      "domain_max_decimal_year": 1984.5,
+      "sha256": "9f43514119060601a00624a5d9287a91b0b1f5e12bec5209bbabda90b392b70b",
+      "uncertainty_column": true
+    },
+    "iers_c01": {
+      "must_cover_all_overlap_intervals": true,
+      "role": "polar motion",
+      "sha256": "846cb53ae1055de1cd80ab78e065b05ad0bc3b224bf8eafe27f428eb12da3ffb"
+    },
+    "monthly_deltat_v094v": {
+      "domain": "1973-02-01 through 2026-04-01",
+      "records": 639,
+      "sha256": "9f88e53593495a09219fe956eeadea0fa9f8e3e02c310b2aa2b70852383cdf6f",
+      "uncertainty_column": false
+    },
+    "qualification": "A successful replay establishes nominal reference coverage for finite-distance geometry. Intervals after 1984.5 remain DELTAT_UNCERTAINTY_UNAVAILABLE_FROM_FROZEN_REFERENCE and cannot by themselves support the earlier r3b-style 2-arcsec physical precision certification.",
+    "selection_rule": "For nominal DeltaT evaluation use frozen historic_deltat for event times with decimal_year <= 1984.5; use the exact banked v094v monthly deltat.data for later event times. Coverage is evaluated at every positive-duration fragment-overlap interval endpoint. No uncertainty is invented for monthly DeltaT."
+  }
+}
