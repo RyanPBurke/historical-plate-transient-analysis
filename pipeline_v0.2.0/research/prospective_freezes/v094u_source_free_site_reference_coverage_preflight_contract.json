@@ -1,0 +1,74 @@
+{
+  "acceptance": {
+    "missing_required_plates_from_plate_cache": 0,
+    "reference_coverage_failures": 0,
+    "reference_hash_mismatches": 0,
+    "site_lonlat_mismatches_against_r3b": 0,
+    "site_metadata_missing_or_ambiguous": 0,
+    "v094s_plate_cache_runtime_hash_matches_frozen_provenance": true,
+    "v094t_overlap_intervals_all_positive_duration": true,
+    "v094t_overlap_rows": 8807,
+    "v094t_rows": 13177,
+    "v094t_side_vs_plate_cache_site_name_mismatches": 0,
+    "v094t_unique_pair_ids": 13177
+  },
+  "contract_id": "v094u_source_free_site_reference_coverage_preflight",
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "distance_grid_evaluation": 0,
+    "finite_distance_geometry": 0,
+    "network": 0,
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "inherited_geometry_convention_if_ready": {
+    "plate_time_scale": "UT1, consistent with the frozen r3b convention",
+    "polar_motion": "IERS C01 long-term polar motion",
+    "site_datum_qualification": "APPLAUSE horizontal/vertical datum accuracy remains undocumented; nominal geometry must retain the r3b site-metadata qualification and \u00b1107 m height sensitivity.",
+    "site_height_stress_envelope_m": 107.0,
+    "site_position": "WGS84 geodetic longitude/latitude + APPLAUSE site_elevation",
+    "terrestrial_to_celestial": "ERFA/SOFA IAU 2006/2000A c2t06a",
+    "tt": "UT1 + historical DeltaT"
+  },
+  "outcomes": [
+    "READY_TO_FREEZE_FINITE_DISTANCE_GEOMETRY",
+    "SITE_OR_REFERENCE_ACQUISITION_REQUIRED",
+    "PREFLIGHT_REPLAY_HOLD"
+  ],
+  "parent_population": {
+    "all_distinct_site_pairs_le15min": 13177,
+    "analysis": "v094t source-free diagnostic-completion census",
+    "candidate_identities_used": false,
+    "overlap_pairs": 8807,
+    "selection_for_this_preflight": "timing_bin == OVERLAP only"
+  },
+  "purpose": "Determine whether the expanded v094t OVERLAP population can inherit the already-frozen v094r3b site-coordinate/elevation and Earth-orientation/DeltaT reference foundation before any new finite-distance geometry calculation.",
+  "reference_reuse": {
+    "coverage_rule": "The complete minimum-to-maximum UTC span of all v094t positive-duration fragment-overlap intervals must lie inside both frozen reference domains.",
+    "historic_deltat_path": "pipeline_v0.2.0/research/prospective_freezes/v094r3b_historical_geometry_validation/inputs/acquisition/references/historic_deltat.data",
+    "historic_deltat_sha256": "9f43514119060601a00624a5d9287a91b0b1f5e12bec5209bbabda90b392b70b",
+    "iers_c01_path": "pipeline_v0.2.0/research/prospective_freezes/v094r3b_historical_geometry_validation/inputs/acquisition/references/EOP_C01_IAU2000_1846-now.txt",
+    "iers_c01_sha256": "846cb53ae1055de1cd80ab78e065b05ad0bc3b224bf8eafe27f428eb12da3ffb"
+  },
+  "required_parent_git_commit": "2aca4757ad2c9d793f5ac6dce6da063d7317b070",
+  "site_metadata_reuse_rule": {
+    "bamberg_rule": "Preserve the already-frozen downstream longitude/latitude swap for Dr. Remeis-Observatory, Bamberg, Germany; do not swap elevation.",
+    "direct_plate_coverage": "report only; direct r3b plate membership is not required if site-level reuse is independently supported",
+    "frozen_r3b_plate_geometry_rows": 1289,
+    "frozen_r3b_plate_geometry_sha256": "ccd5e42cf04e5c72a767a38a2b6b7d1b36f6efaecdf10c4005af04bc777400cb",
+    "site_level_reuse_requires": [
+      "exact v094t site_name is represented in frozen r3b geometry",
+      "r3b rows for that site define exactly one finite site_longitude/site_latitude/site_elevation tuple",
+      "every required v094t plate exists in the frozen v094s plate-site cache",
+      "each required plate's site_name equals the v094t side's site_name",
+      "each required plate's frozen cache longitude/latitude equals the corresponding r3b site longitude/latitude within 1e-9 degree",
+      "site_elevation is finite"
+    ]
+  },
+  "status": "PROSPECTIVELY_FIXED_AFTER_V094T_CENSUS_BEFORE_NEW_FINITE_DISTANCE_GEOMETRY_OUTCOMES",
+  "stop_rule": "STOP after site/reference coverage classification. If READY, freeze the finite-distance geometry algorithm separately before calculating new geometry outcomes. If acquisition is required, freeze an acquisition-only stage first."
+}
