@@ -1,0 +1,29 @@
+{
+  "first_date": "1973-02-01",
+  "historic_overlap_max_abs_difference_seconds": 0.03928493150693413,
+  "last_date": "2026-04-01",
+  "method": "GET",
+  "records": 639,
+  "required_overlap_max": "1992-11-25T04:50:00+00:00",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "no-cache",
+    "Connection": "close",
+    "Content-Length": "13419",
+    "Content-Security-Policy": "frame-ancestors 'self';",
+    "Content-Type": "text/plain; charset=UTF-8",
+    "Date": "Wed, 09 Sep 2026 17:29:03 GMT",
+    "Last-Modified": "Thu, 18 Jun 2026 17:26:25 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Vary": "Host",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "response_status": 200,
+  "retrieved_utc": "2026-09-09T17:29:01.555373+00:00",
+  "sha256": "9f88e53593495a09219fe956eeadea0fa9f8e3e02c310b2aa2b70852383cdf6f",
+  "size_bytes": 13419,
+  "uncertainty_column_available": false,
+  "url": "https://maia.usno.navy.mil/ser7/deltat.data"
+}

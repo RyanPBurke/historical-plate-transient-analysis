@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="applause_dr4.plate" content-role="doc" href="https://doi.org/10.17876/plate/dr.4/6"/>
+        <TABLE name="applause_user_anonymous.2026-09-09-17-28-58-278573">
+                <FIELD name="plate_id" ucd="meta.id;meta.main" datatype="int"> <DESCRIPTION>Plate identification number</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_name" ucd="meta.id;instr.obsty" arraysize="80" datatype="char"> <DESCRIPTION>Observatory site name</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_longitude" unit="deg" ucd="pos.earth.lon;instr.obsty" datatype="double"> <DESCRIPTION>East longitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_latitude" unit="deg" ucd="pos.earth.lat;instr.obsty" datatype="double"> <DESCRIPTION>Latitude of the observing site, in decimal degrees</DESCRIPTION> </FIELD>
+                
+                <FIELD name="site_elevation" unit="m" ucd="pos.earth.altitude;instr.obsty" datatype="float"> <DESCRIPTION>Elevation of the observatory site</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>26164</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26165</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26284</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26288</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26295</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26570</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26735</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26746</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26747</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26796</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26820</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>26880</TD>
+                        <TD>Calar Alto Observatory, Spain</TD>
+                        <TD>-2.537</TD>
+                        <TD>37.23</TD>
+                        <TD>2168.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45535</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45536</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45537</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45538</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45539</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45540</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45876</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45883</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45908</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45932</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45939</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45964</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45987</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>45994</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46018</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46040</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46069</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46092</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46099</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46124</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46144</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46151</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>46175</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>51955</TD>
+                        <TD>Observatorio de Fisica Cosmica, San Miguel, Argentina</TD>
+                        <TD>-34.5567</TD>
+                        <TD>-58.7317</TD>
+                        <TD>37.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>63885</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>63886</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64006</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64009</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64013</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64163</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64281</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64283</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64285</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64290</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                    <TR>
+                        <TD>64296</TD>
+                        <TD>La Silla, Chile</TD>
+                        <TD>-70.73</TD>
+                        <TD>-29.257</TD>
+                        <TD>2347.0</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+            <INFO name="QUERY_STATUS" value="OK" />
+            <INFO name="QUERY" value="SELECT plate_id,site_name,site_longitude,site_latitude,site_elevation FROM applause_dr4.plate WHERE plate_id IN (26164,26165,26284,26288,26295,26570,26735,26746,26747,26796,26820,26880,45535,45536,45537,45538,45539,45540,45876,45883,45908,45932,45939,45964,45987,45994,46018,46040,46069,46092,46099,46124,46144,46151,46175,51955,63885,63886,64006,64009,64013,64163,64281,64283,64285,64290,64296) ORDER BY plate_id" />
+            <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+            <INFO name="SOURCE" value="applause_dr4.plate" />
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://www.plate-archive.org/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>

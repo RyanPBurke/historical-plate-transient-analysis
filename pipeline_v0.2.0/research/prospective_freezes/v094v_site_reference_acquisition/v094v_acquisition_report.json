@@ -1,0 +1,144 @@
+{
+  "analysis_kind": "v094v_source_free_site_reference_acquisition_repair",
+  "applause": {
+    "query_status": [
+      "OK"
+    ],
+    "response_sha256": "c30f700dd6a5d6a1aeeba8030fcce0193a8282e52bc9cf7d0d55d89f2b8bcb32",
+    "returned_rows": 47,
+    "site_metadata_rows": [
+      {
+        "required_plate_count": 12,
+        "site_elevation_m": 2168.0,
+        "site_latitude": 37.23,
+        "site_longitude": -2.537,
+        "site_name": "Calar Alto Observatory, Spain"
+      },
+      {
+        "required_plate_count": 11,
+        "site_elevation_m": 2347.0,
+        "site_latitude": -29.257,
+        "site_longitude": -70.73,
+        "site_name": "La Silla, Chile"
+      },
+      {
+        "required_plate_count": 24,
+        "site_elevation_m": 37.0,
+        "site_latitude": -58.7317,
+        "site_longitude": -34.5567,
+        "site_name": "Observatorio de Fisica Cosmica, San Miguel, Argentina"
+      }
+    ],
+    "unique_plate_ids": 47
+  },
+  "contract_freeze_commit": "d39fad271ba6c78f2e9daff462a3a91b9065e0ce",
+  "contract_sha256": "8f0f40b58027ba5f1b006648304ab7e40a6cc38de5c8d290e0b3d2007848cdf8",
+  "deltat": {
+    "first_date": "1973-02-01",
+    "historic_overlap_max_abs_difference_seconds": 0.03928493150693413,
+    "last_date": "2026-04-01",
+    "method": "GET",
+    "records": 639,
+    "required_overlap_max": "1992-11-25T04:50:00+00:00",
+    "response_headers": {
+      "Accept-Ranges": "bytes",
+      "Cache-Control": "no-cache",
+      "Connection": "close",
+      "Content-Length": "13419",
+      "Content-Security-Policy": "frame-ancestors 'self';",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Date": "Wed, 09 Sep 2026 17:29:03 GMT",
+      "Last-Modified": "Thu, 18 Jun 2026 17:26:25 GMT",
+      "Server": "Apache",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Vary": "Host",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN"
+    },
+    "response_status": 200,
+    "retrieved_utc": "2026-09-09T17:29:01.555373+00:00",
+    "sha256": "9f88e53593495a09219fe956eeadea0fa9f8e3e02c310b2aa2b70852383cdf6f",
+    "size_bytes": 13419,
+    "uncertainty_column_available": false,
+    "url": "https://maia.usno.navy.mil/ser7/deltat.data"
+  },
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "distance_grid_evaluation": 0,
+    "finite_distance_geometry": 0,
+    "network_hosts_used": [
+      "www.plate-archive.org",
+      "maia.usno.navy.mil"
+    ],
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "next_stage": "Freeze coverage/reuse replay combining 7 inherited r3b sites + 3 acquired sites and historic+monthly DeltaT; no geometry yet.",
+  "outcome": "ACQUISITION_COMPLETE_READY_FOR_COVERAGE_REPLAY",
+  "selection": {
+    "requested_plate_ids": [
+      26164,
+      26165,
+      26284,
+      26288,
+      26295,
+      26570,
+      26735,
+      26746,
+      26747,
+      26796,
+      26820,
+      26880,
+      45535,
+      45536,
+      45537,
+      45538,
+      45539,
+      45540,
+      45876,
+      45883,
+      45908,
+      45932,
+      45939,
+      45964,
+      45987,
+      45994,
+      46018,
+      46040,
+      46069,
+      46092,
+      46099,
+      46124,
+      46144,
+      46151,
+      46175,
+      51955,
+      63885,
+      63886,
+      64006,
+      64009,
+      64013,
+      64163,
+      64281,
+      64283,
+      64285,
+      64290,
+      64296
+    ],
+    "required_plate_count": 47,
+    "sites": {
+      "Calar Alto Observatory, Spain": 12,
+      "La Silla, Chile": 11,
+      "Observatorio de Fisica Cosmica, San Miguel, Argentina": 24
+    }
+  },
+  "status": "COMPLETE",
+  "unchanged_reference": {
+    "iers_c01_sha256": "846cb53ae1055de1cd80ab78e065b05ad0bc3b224bf8eafe27f428eb12da3ffb",
+    "reacquired": false
+  }
+}
