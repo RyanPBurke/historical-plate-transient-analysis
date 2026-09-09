@@ -1,0 +1,76 @@
+{
+  "contract_id": "v094x_parallel8_r3_execution_continuation",
+  "execution": {
+    "chunk_size_pairs": 25,
+    "final_publication": "After every chunk passes full validation and sidecar verification, invoke the exact frozen v094x run() only for checkpoint replay, aggregation, parent-signature replay and atomic final publication.",
+    "max_in_flight_chunks": 8,
+    "resume_existing_checkpoints": true,
+    "worker_processes": 8
+  },
+  "frozen_science_runner": {
+    "path": "pipeline_v0.2.0/tools/run_v094x_source_free_full_population_finite_geometry_synthetic_validation.py",
+    "rule": "Workers import and call the exact frozen v094x process_pair implementation; no scientific function or threshold is copied or modified.",
+    "sha256": "f75a866e63dfedd24a677acd925d8e4e2a53e34d99e582596e0adb9a3db5e7cc"
+  },
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "network_during_science_execution": 0,
+    "pixels": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "r3_repairs": {
+    "initial_schedule_interrupt": "The first schedule() call is inside the same KeyboardInterrupt/drain handler as the main loop; partial submissions are cancelled/drained/checkpointed on interrupt.",
+    "memory_measurement_failure": "OpenProcess/GetProcessMemoryInfo failure is an explicit resource HOLD carrying PID, failed API stage and Windows error code; never substitute zero memory.",
+    "preflight_only": "Optional --preflight-only / -PreflightOnly runs full checkpoint validation/adoption, 8-worker equivalence and resource gate, then exits before unseen chunks are scheduled.",
+    "zero_future_resource_hold": "If a runtime HOLD exists while unfinished work remains but no futures are outstanding, terminate immediately rather than spinning."
+  },
+  "required_parent_git_commit": "49b9aa2fc6c0ad3afea20c85de5d7d27a87cf0f6",
+  "review_repairs": {
+    "checkpoint_integrity": {
+      "all_rows": [
+        "exact CSV schema/order",
+        "pair index/key/signature and parent identity fields",
+        "valid JSON for observable-distance list and every distance subtotal",
+        "nonnegative integer accounting",
+        "recovered + recovery_failures == placements",
+        "with-placement + no-case == time-distance cases",
+        "per-distance grid-level case totals == per-distance cases",
+        "per-distance and aggregate subtotals agree exactly",
+        "observable distance list equals distances with observable placements",
+        "status is consistent with accounting and DeltaT qualification"
+      ],
+      "legacy_serial_adoption": "Existing serial chunks without sidecars are accepted only after full-row semantic validation, then receive a provenance sidecar. Invalid chunks and sidecars are preserved with timestamp suffixes.",
+      "sidecar": "Every accepted checkpoint receives an atomic .meta.json containing CSV SHA256, row count, pair/signature provenance digest, frozen science SHA, execution contract SHA, controller SHA, and hashes of v094t/v094w/v094s parent provenance artifacts."
+    },
+    "equivalence_gate": "Before unseen work, recompute one representative pair from every already-valid checkpoint chunk using the eight-worker pool and require exact OUTPUT_FIELDS equality to its checkpoint row.",
+    "exclusive_controller": "Acquire a project-specific Windows named mutex before loading the pool; a second r1/r2 controller is also rejected by the launcher process check.",
+    "failure_and_interrupt": "Worker exceptions or Ctrl+C stop new submissions, cancel not-started futures, continue collecting successful running results into fully validated checkpoints, record failures, and only then exit HOLD.",
+    "remote_publication": "Initial and resume paths both push/retry the execution-freeze commit and verify origin/main equals that exact commit before any parallel worker pool is allowed to start.",
+    "resources": {
+      "blas_thread_limits": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "max_in_flight_chunks": 8,
+      "pre_pool_dynamic_estimate": "After the controller loads the same frozen foundation that each worker will load, measure the controller process private bytes and working set. Before spawning eight workers require available physical RAM >= max(4 GiB, 1.15 * 8 * controller working set) and available commit >= max(6 GiB, 1.25 * 8 * controller private bytes), plus the 5 GiB disk floor. Then measure actual eight-worker demand during the equivalence gate before unseen chunks are released.",
+      "pre_pool_min_available_commit_gb": "dynamic: max(6 GiB, 1.25 \u00d7 8 \u00d7 loaded-controller private bytes)",
+      "pre_pool_min_available_physical_gb": "dynamic: max(4 GiB, 1.15 \u00d7 8 \u00d7 loaded-controller working set)",
+      "pre_pool_min_free_disk_gb": 5.0,
+      "release_gate": "During the representative-pair gate measure aggregate/peak worker private and working-set memory plus minimum physical/commit headroom. Unseen chunks are not released unless disk >=5 GB, available physical >=2 GB, and available commit >=4 GB after the eight-worker pool is resident.",
+      "runtime_hold": "On any threshold breach stop submissions immediately, cancel futures that have not started, drain running chunks to validated checkpoints, then exit HOLD.",
+      "runtime_min_available_commit_gb": 4.0,
+      "runtime_min_available_physical_gb": 2.0,
+      "runtime_poll_seconds": 2.0,
+      "worker_processes": 8
+    }
+  },
+  "scientific_changes": "NONE",
+  "status": "EXECUTION_ONLY_CONTROL_FLOW_REPAIR_AFTER_R2_REVIEW_BEFORE_PARALLEL_TAKEOVER",
+  "stop_rule": "Same as frozen v094x: stop after the full-population geometry/synthetic validation."
+}
