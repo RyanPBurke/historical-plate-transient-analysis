@@ -1,0 +1,145 @@
+{
+  "contract_id": "v094x_source_free_full_population_finite_geometry_synthetic_validation",
+  "execution": {
+    "chunk_size_pairs": 25,
+    "final_publication": "assemble to unique staging directory and atomically rename only after exact 8807-key/signature replay",
+    "invalid_chunk_rule": "preserve invalid chunk with timestamp suffix before recomputation",
+    "milestones": "print pair and chunk progress",
+    "resume": "validate and reuse completed chunk CSVs by exact expected pair IDs + parent signature hashes"
+  },
+  "finite_distance_grid": {
+    "au_km": 149597870.7,
+    "earth_equatorial_radius_km": 6378.137,
+    "geocentric_distances_km": [
+      "2 * 6378.137",
+      "0.01 * 149597870.7",
+      "0.1 * 149597870.7"
+    ],
+    "interpretation": "These are the prospectively inherited r3b/r3d validation distances. Support at a grid distance demonstrates jointly observable finite-distance geometry there. Failure to find a placement at the maximum deterministic grid resolution is not proof of physical impossibility at that distance or between grid distances."
+  },
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "fits": 0,
+    "network": 0,
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "inherited_geometry_executable": {
+    "historical_scientific_spec_sha256": "2a24508c359f31bb14d55755c2579e0314d73d152462286606203273619794cd",
+    "path": "pipeline_v0.2.0/tools/run_applause_dr4_historical_geometry_validation_v094r3c.py",
+    "reuse": [
+      "C01 parsing/interpolation",
+      "historic/monthly DeltaT interpolation",
+      "WGS84 ECEF site position",
+      "ERFA c2t06a terrestrial-to-celestial transform",
+      "Bamberg coordinate correction",
+      "side-specific polygon projection/containment",
+      "ray closest-approach solution",
+      "cross-track score",
+      "continuous time search using deterministic subdivided bounded minimization",
+      "published-reference and +/-107 m height sensitivity scoring"
+    ]
+  },
+  "next_matcher_allowed": false,
+  "observable_synthetic_design": {
+    "deterministic_tangent_grid_resolutions": [
+      9,
+      17,
+      33,
+      65
+    ],
+    "distance_recovery_relative_tolerance": 0.01,
+    "final_cross_track_arcsec": 2.0,
+    "generator_cross_track_arcsec": 7.0,
+    "joint_observable_requires": [
+      "ray intersects fixed geocentric-distance sphere forward from generating observatory",
+      "object above both local horizons",
+      "apparent direction inside each plate's own side-specific STC polygon",
+      "topocentric disparity >= 2 arcsec"
+    ],
+    "no_case_interpretation": "sampling result only; not proof of physical impossibility",
+    "no_case_status": "NO_JOINT_OBSERVABLE_CASE_FOUND_AT_MAX_RESOLUTION",
+    "placements_retained_per_case": "up to 3 deterministic central/mid/outer placements",
+    "ray_closure_arcsec": 2.0,
+    "sampling_direction": [
+      "A-to-B",
+      "B-to-A"
+    ],
+    "stop_grid_escalation_when": "at least 3 distinct jointly observable placements found in a time-distance case",
+    "time_search": {
+      "interval_segmentation": "max(4, min(16, ceil(duration_seconds/300)))",
+      "maxiter": 80,
+      "minimizer": "scipy.optimize.minimize_scalar bounded",
+      "truth_time_not_supplied_to_recovery": true,
+      "xatol_seconds": 0.001
+    },
+    "truth_event_times_per_overlap_interval": [
+      "start",
+      "midpoint",
+      "end"
+    ]
+  },
+  "opportunity_status_precedence": [
+    "GEOMETRY_REFERENCE_COVERAGE_HOLD",
+    "NO_JOINT_OBSERVABLE_CASE_FOUND_AT_MAX_RESOLUTION when zero placements over all frozen cases",
+    "FINITE_GEOMETRY_SYNTHETIC_PRECISION_HOLD when any found placement fails recovery or available published-reference stress exceeds 2 arcsec",
+    "FINITE_GEOMETRY_SITE_METADATA_STRESS_HOLD when +/-107 m height stress exceeds 2 arcsec",
+    "FINITE_GEOMETRY_SYNTHETIC_PASS_DELTAT_UNCERTAINTY_QUALIFIED when all found placements pass but monthly DeltaT without uncertainty is used",
+    "FINITE_GEOMETRY_SYNTHETIC_PASS otherwise"
+  ],
+  "output_requirements": [
+    "one row per v094t OVERLAP pair",
+    "exact parent signature SHA256",
+    "actual overlap interval count",
+    "nominal baseline length/sweep diagnostics",
+    "DeltaT source/qualification",
+    "legacy infinity diagnostic status retained for stratification only",
+    "time-distance case counts",
+    "cases with/without deterministic observable placements",
+    "grid levels used",
+    "placements/recoveries/failures",
+    "observable distance-grid values",
+    "available published-reference >2arcsec count",
+    "+/-107m height-stress >2arcsec count",
+    "opportunity status",
+    "aggregate results stratified by distance and legacy infinity status"
+  ],
+  "population": {
+    "expected_pairs": 8807,
+    "expected_positive_duration_overlap_intervals": 8925,
+    "expected_unique_plates": 6015,
+    "expected_unique_sites": 10,
+    "infinity_sky_geometry": "diagnostic only; never an inclusion criterion",
+    "legacy_tangent_unresolved_rows_must_remain_in_population": true,
+    "parent_pair_signature_replay_required": true,
+    "source": "completed v094t source-free census",
+    "timing_bin": "OVERLAP only"
+  },
+  "reference_foundation": {
+    "coverage_gate": "v094w READY_TO_FREEZE_NOMINAL_FINITE_DISTANCE_GEOMETRY",
+    "deltat": {
+      "after_decimal_year_1984_5": "exact banked v094v monthly deltat.data; no uncertainty column",
+      "monthly_qualified_pairs_expected": 12,
+      "monthly_rule": "Nominal geometry and C01 uncertainty propagation are allowed. Do not invent a DeltaT uncertainty. Any pair touching monthly DeltaT receives an explicit DELTAT_UNCERTAINTY_UNAVAILABLE qualification and cannot receive an unqualified 2-arcsec physical-precision certification.",
+      "through_decimal_year_1984_5": "frozen historic_deltat.data with published error"
+    },
+    "r3b_geometry_conventions": {
+      "bamberg": "retain frozen longitude/latitude swap; elevation not swapped",
+      "plate_time_scale": "UT1",
+      "polar_motion": "IERS C01",
+      "site_position": "WGS84 geodetic longitude/latitude + APPLAUSE elevation",
+      "terrestrial_to_celestial": "ERFA/SOFA IAU 2006/2000A c2t06a",
+      "tt": "UT1 + DeltaT"
+    },
+    "site_datum_qualification": "APPLAUSE horizontal/elevation datum accuracy remains undocumented. The fixed +/-107 m height stress is retained; this does not resolve horizontal datum uncertainty.",
+    "site_height_stress_m": 107.0
+  },
+  "required_parent_git_commit": "daf31898ec33c4d669bbbf1411c1dcac91bc2802",
+  "scientific_role": "Run the already-validated historical topocentric finite-distance geometry and observable synthetic-recovery design over the corrected full v094t OVERLAP population. This is a distance-grid geometry/precision validation, not a real-source matcher and not a proof of continuous-distance impossibility when a grid case yields no placement.",
+  "status": "PROSPECTIVELY_FIXED_AFTER_V094W_COVERAGE_PASS_BEFORE_V094X_GEOMETRY_OUTCOMES",
+  "stop_rule": "STOP after full-population distance-grid geometry and synthetic-recovery validation. Interpret results before freezing any continuous-distance admissibility search or real-source matcher."
+}
