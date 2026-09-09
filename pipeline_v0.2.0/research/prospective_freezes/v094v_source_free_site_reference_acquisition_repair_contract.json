@@ -1,0 +1,102 @@
+{
+  "contract_id": "v094v_source_free_site_reference_acquisition_repair",
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "distance_grid_evaluation": 0,
+    "finite_distance_geometry": 0,
+    "network": "ALLOWLIST_ONLY_FOR_METADATA_AND_DELTAT_ACQUISITION",
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "network_allowlist": [
+    "https://www.plate-archive.org/tap/sync",
+    "https://maia.usno.navy.mil/ser7/deltat.data"
+  ],
+  "next_geometry_allowed": false,
+  "outcomes": [
+    "ACQUISITION_COMPLETE_READY_FOR_COVERAGE_REPLAY",
+    "APPLAUSE_SITE_METADATA_ACQUISITION_HOLD",
+    "DELTAT_ACQUISITION_OR_COMPATIBILITY_HOLD"
+  ],
+  "parent_preflight": {
+    "analysis": "v094u source-free site/reference coverage preflight",
+    "historic_deltat_max_decimal_year": 1984.5,
+    "iers_c01_complete": true,
+    "outcome": "SITE_OR_REFERENCE_ACQUISITION_REQUIRED",
+    "overlap_pairs": 8807,
+    "overlap_utc_max": "1992-11-25T04:50:00+00:00",
+    "overlap_utc_min": "1928-04-23T21:06:06+00:00",
+    "plate_cache_lonlat_mismatches": 0,
+    "plate_cache_missing": 0,
+    "plate_cache_site_mismatches": 0,
+    "positive_duration_overlap_intervals": 8925,
+    "required_decimal_year_max": 1992.899457346691,
+    "unique_overlap_plates": 6015,
+    "unique_overlap_sites": 10
+  },
+  "publication": {
+    "atomic_final_directory": true,
+    "bank_exact_completed_acquisition_in_git_after_run": true,
+    "method_freeze_before_network": true,
+    "raw_bytes_retained": true,
+    "request_metadata_retained": true,
+    "resumable_after_method_freeze": true,
+    "work_output": "work/applause_dr4_v094v_site_reference_acquisition"
+  },
+  "repair_scope": {
+    "deltat_source": {
+      "provider": "IERS Rapid Service/Prediction Center, U.S. Naval Observatory",
+      "role": "monthly Delta T (TT-UT1) extension beyond frozen historic_deltat.data",
+      "uncertainty_rule": "No uncertainty column is present; record this explicitly and do not invent one.",
+      "url": "https://maia.usno.navy.mil/ser7/deltat.data",
+      "validation": [
+        "HTTP 200",
+        "strictly increasing unique dates",
+        "finite values",
+        "coverage through at least 1992-12-01",
+        "gross compatibility <=0.1 s with frozen historic_deltat.data over 1973-1984.5 using linear interpolation; provenance/unit guard only"
+      ]
+    },
+    "missing_sites": {
+      "Calar Alto Observatory, Spain": 12,
+      "La Silla, Chile": 11,
+      "Observatorio de Fisica Cosmica, San Miguel, Argentina": 24
+    },
+    "required_missing_site_plate_count": 47,
+    "site_metadata_source": {
+      "columns": [
+        "plate_id",
+        "site_name",
+        "site_longitude",
+        "site_latitude",
+        "site_elevation"
+      ],
+      "plate_set_rule": "Derive the exact 47 plate IDs from frozen v094t OVERLAP rows for the three v094u missing sites; do not broaden the query.",
+      "service": "APPLAUSE DR4 TAP",
+      "table": "applause_dr4.plate",
+      "url": "https://www.plate-archive.org/tap/sync",
+      "validation": [
+        "HTTP 200",
+        "VOTable QUERY_STATUS OK; no ERROR/OVERFLOW",
+        "TABLEDATA serialization required for this frozen acquisition client",
+        "returned plate ID set exactly equals requested set",
+        "no duplicate plate IDs",
+        "site name equals frozen assignment",
+        "lon/lat equal frozen v094s plate cache within 1e-9 degree",
+        "finite elevation",
+        "one unique lon/lat/elevation tuple per repaired site"
+      ]
+    },
+    "unchanged_reference": {
+      "action": "reuse unchanged; do not reacquire",
+      "iers_c01_sha256": "846cb53ae1055de1cd80ab78e065b05ad0bc3b224bf8eafe27f428eb12da3ffb"
+    }
+  },
+  "required_parent_git_commit": "6cd1ca39e180194307f2474a04ba6d7f978c088d",
+  "status": "POST_V094U_OUTCOME_INFORMED_ACQUISITION_REPAIR_PROSPECTIVE_BEFORE_NETWORK_RESULTS",
+  "stop_rule": "STOP after exact acquisition bytes/results are banked; separately freeze coverage/reuse replay before finite-distance geometry."
+}
