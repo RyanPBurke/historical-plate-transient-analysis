@@ -1,0 +1,85 @@
+{
+  "contract_id": "v094t_source_free_cross_site_opportunity_population_diagnostic_completion",
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "finite_distance_geometry": 0,
+    "network": 0,
+    "pixels": 0,
+    "private_candidate_map_reads": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "legacy_geometry": {
+    "role": "diagnostic_only_not_an_inclusion_criterion",
+    "statuses": [
+      "LEGACY_TANGENT_POSITIVE",
+      "LEGACY_TANGENT_NONPOSITIVE",
+      "LEGACY_TANGENT_UNRESOLVED"
+    ],
+    "unresolved_output_rule": "retain_row_and_leave_old_common_positive_and_area_fraction_metrics_null",
+    "unresolved_semantics": "The chosen shared tangent projection did not yield a legacy diagnostic. This is not evidence of non-intersection and must not be converted to zero geometry metrics."
+  },
+  "parent_v094s_status": "PROSPECTIVELY_FROZEN_EXECUTION_HELD_DURING_LEGACY_DIAGNOSTIC_GEOMETRY_PARTIAL_OUTPUT_NOT_COMPLETE",
+  "publication": {
+    "existing_v094s_partial_output": "preserve_do_not_overwrite_or_treat_as_complete",
+    "final_directory_semantics": "existence of final v094t result directory means all acceptance checks passed",
+    "rule": "write_to_unique_staging_directory_then_atomically_rename_directory_only_after_all_replay_checks_and_manifest_creation"
+  },
+  "replay_acceptance": {
+    "distinct_site_temporal_pairs_le15min": 13177,
+    "eligible_exposures": 56703,
+    "full_population_timing_interval_mismatches": 0,
+    "master_rows": 139539,
+    "old_le5_stable_key_extra": 0,
+    "old_le5_stable_key_missing": 0,
+    "old_positive_common_footprint_le5_keys": 1240,
+    "old_positive_common_footprint_rows": 1541,
+    "old_positive_common_footprint_timing_bins": {
+      "GT0_LE5MIN": 159,
+      "GT10_LE15MIN": 141,
+      "GT5_LE10MIN": 160,
+      "OVERLAP": 1081
+    },
+    "staged_output_rows": 13177,
+    "staged_output_unique_pair_keys": 13177,
+    "staged_pair_key_set_mismatches": 0,
+    "staged_pair_signature_mismatches": 0
+  },
+  "required_parent_git_commit": "0f56c8397e8ebdd154a9ec026bfe084e5863c7e9",
+  "scientific_role": "Complete the already-defined v094s source-free temporal opportunity census by making the implementation conform to the v094s contract: legacy infinity-sky tangent-plane geometry is diagnostic only and an undefined legacy diagnostic must not veto a temporally eligible cross-site opportunity.",
+  "scope": {
+    "allowed_changes": [
+      "represent legacy tangent-plane diagnostic outcomes as POSITIVE, NONPOSITIVE, or UNRESOLVED",
+      "retain temporal opportunities when the legacy diagnostic is UNRESOLVED and emit null legacy geometry metrics",
+      "re-read staged output and require exact 13177 pair keys plus exact timing/association signatures",
+      "publish final outputs only after all replay guards pass"
+    ],
+    "forbidden_changes": [
+      "exposure eligibility",
+      "exposure-to-solution association",
+      "timing reconstruction",
+      "temporal pairing",
+      "timing thresholds or bins",
+      "source catalogue reads",
+      "candidate identity inspection",
+      "private candidate map reads",
+      "pixels",
+      "registration",
+      "network",
+      "real-source pairing",
+      "finite-distance geometry",
+      "spherical-cap or other replacement geometry inference"
+    ]
+  },
+  "source_guard": {
+    "patch_site_rule": "each intended transformation must match exactly once; otherwise HOLD",
+    "reason": "Avoid platform-dependent CRLF/LF byte-hash differences while binding the repair to the exact frozen Git parent and unmodified tracked source.",
+    "required_clean_worktree": true,
+    "required_parent_git_commit": "0f56c8397e8ebdd154a9ec026bfe084e5863c7e9",
+    "required_unchanged_parent_path": "pipeline_v0.2.0/tools/run_v094s_source_free_opportunity_population_repair.py"
+  },
+  "status": "POST_V094S_MECHANICAL_HOLD_IMPLEMENTATION_REPAIR_PROSPECTIVE_BEFORE_V094T_OUTCOMES",
+  "stop_rule": "STOP after the completed source-free v094t census. Do not read source catalogues or run any real-source matcher. Finite-distance geometry remains a subsequent separately frozen stage."
+}
