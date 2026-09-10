@@ -1,0 +1,30 @@
+{
+  "analysis_kind": "v094z_source_blind_matcher_population",
+  "completed_utc": "2026-09-10T17:39:14.716715+00:00",
+  "excluded_certified_nonadmissible_fragments": 6242,
+  "excluded_certified_nonadmissible_pairs": 6152,
+  "fragment_class_counts": {
+    "GEOMETRY_ADMISSIBLE": 2680,
+    "RETAINED_UNRESOLVED": 3
+  },
+  "guards": {
+    "candidate_identity_reads": 0,
+    "fits": 0,
+    "network": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "source_matching": 0
+  },
+  "linked_parent_witness_rows": 3383,
+  "matcher_semantics": "Matcher may use only retained rows and must still test candidate-specific finite geometry at candidate time/direction.",
+  "next_matcher_allowed": true,
+  "pair_class_counts": {
+    "GEOMETRY_ADMISSIBLE": 2652,
+    "RETAINED_UNRESOLVED": 3
+  },
+  "parent_banked_result_commit": "2d30c9f780d2f2c9d572f81843af9d1c141444ad",
+  "population_fragments": 2683,
+  "population_pairs": 2655,
+  "status": "COMPLETE"
+}

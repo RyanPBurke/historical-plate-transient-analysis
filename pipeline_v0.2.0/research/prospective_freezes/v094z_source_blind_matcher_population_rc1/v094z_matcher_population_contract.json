@@ -1,0 +1,34 @@
+{
+  "contract_id": "v094z_source_blind_matcher_population_rc1",
+  "expected_downstream_counts": {
+    "admissible_fragments": 2680,
+    "admissible_pairs": 2652,
+    "fragments": 2683,
+    "linked_parent_witness_rows": 3383,
+    "pairs": 2655,
+    "unresolved_fragments": 3,
+    "unresolved_pairs": 3
+  },
+  "guards": {
+    "candidate_identity_reads": 0,
+    "fits": 0,
+    "network": 0,
+    "pixels": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "source_matching": 0
+  },
+  "next_matcher_allowed_after_success": true,
+  "note": "Candidate-specific finite-geometry consistency must still be checked at candidate time/direction. v094y witnesses are a population gate, not a complete time-distance feasibility map.",
+  "parent": {
+    "banked_result_commit": "2d30c9f780d2f2c9d572f81843af9d1c141444ad",
+    "fragment_csv_sha256": "360ca4579c1dc6148a0059099dcb6dcab3a213cc243aaeb617c9524e13e2ce3e",
+    "pair_csv_sha256": "109499e0f231ea4fb7e32af839105203bd8325e7a392339b55b3d5d9905dbd8d",
+    "rc4_freeze_commit": "928bc7dad5ab399c9e45efe040322810d5a4e8c4",
+    "release_manifest_sha256": "e980bc57d639b4fece0976a0d269866a70832aeeba23d3633d9fd36aae764575",
+    "report_sha256": "6523f124d77f2c518d9a8d4d132f63cc6e99fc0c9e7c393e1eefc0517f8e3baa",
+    "witness_csv_sha256": "b54785cf206726c02de03627d6a05ea9f199f22e0bfef2a8b0a270e4f59bf1de"
+  },
+  "purpose": "Derive the exact source-matching population from banked v094y RC4 geometry outputs without reading source catalogues, candidate identities, pixels/FITS, registration data, or network resources.",
+  "state": "PROSPECTIVE_DERIVATION_GATE"
+}
