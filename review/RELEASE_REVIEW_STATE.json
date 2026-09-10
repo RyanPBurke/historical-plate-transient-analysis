@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "request_id": "v095a-rc5-release-review",
+  "status": "CHANGES_REQUESTED",
+  "candidate": "v095a_stageA_implementation_rc5",
+  "package_directory": "review/releases/v095a-rc5/package",
+  "archive_path": "review/releases/v095a-rc5/v095a_stageA_implementation_rc5.zip",
+  "archive_sha256": "11993c8c2cf943564300155a07704d85e85845e4f05eb8f2cab4e756cb5aa275",
+  "contract_sha256": "0ed31dcd20e5b75c46fb6ce5405ee0fbcd712b3201175a5b9316f67d0aa344d2",
+  "base_execution_freeze": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
+  "report_path": "review/releases/v095a-rc5/ASTRA_RESPONSE.md",
+  "blocking_findings": [
+    "R1: preserve status/Location across body transport failures",
+    "R2: mandatory, hash-bound, consistent receipt validation on resume/publication"
+  ],
+  "correction_cycles": 0,
+  "max_correction_cycles": 3,
+  "processed_review_comment_ids": [],
+  "allowed_scope": "offline mechanical repair and release review only",
+  "execution_authorized": false
+}
