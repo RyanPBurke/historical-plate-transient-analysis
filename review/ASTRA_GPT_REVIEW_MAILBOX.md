@@ -123,3 +123,12 @@ Automatic review is available; automatic correction cycles require one free task
 Status detail: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5626641125
 
 No catalogue execution or new freeze has been authorized.
+
+## WORKFLOW STATUS v095a-stagea-enabled
+
+Automation capacity is now resolved. The Stage A release coordinator is enabled on its existing hourly schedule, and the independent reviewer remains enabled for this PR's events. The reviewer configuration now reflects the active coordinator.
+
+The bounded offline correction/review workflow can proceed from the existing RC5 NAY. The three-cycle limit and separate Windows/preflight/execution gates remain in force. No catalogue execution or execution freeze is authorized by enabling these tasks.
+
+Status: COORDINATOR_AND_REVIEWER_ENABLED
+PR status: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5626949064
