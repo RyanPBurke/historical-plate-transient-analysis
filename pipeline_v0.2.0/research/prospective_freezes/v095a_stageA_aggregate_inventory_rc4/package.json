@@ -1,0 +1,12 @@
+{
+  "name": "v095a-stagea-offline-sql-tests",
+  "version": "0.0.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:sql": "node test_sql_rc4.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8"
+  }
+}
