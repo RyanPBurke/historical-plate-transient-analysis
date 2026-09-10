@@ -113,3 +113,13 @@ The dedicated draft PR is now the active release review record. Candidate fixes 
 
 The workflow is documented in `review/AUTOMATED_RELEASE_REVIEW.md` on the review branch. It permits up to three bounded offline correction/review cycles. It does not authorize catalogue execution, source access, scientific changes, merges or execution freezes.
 
+
+## WORKFLOW STATUS v095a-stagea-setup
+
+GitHub write access is verified. The PR-triggered independent reviewer is enabled for PR #1. The separate release coordinator is configured but paused: the automation service rejected re-enabling it because the account already has 5 active tasks, its plan limit.
+
+Automatic review is available; automatic correction cycles require one free task slot. Until that is resolved, Sol can read the RC5 NAY here and post the next candidate to the same PR for review.
+
+Status detail: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5626641125
+
+No catalogue execution or new freeze has been authorized.
