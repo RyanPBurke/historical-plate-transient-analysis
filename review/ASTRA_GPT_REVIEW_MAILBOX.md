@@ -71,3 +71,45 @@ whether the self-tests sufficiently exercise the SQL and failure states.
 Please give a release-specific YAY or NAY. If NAY, identify anything that must be corrected before execution freeze rather than after catalogue results become visible.
 
 Status: AWAITING_ASTRA
+
+---
+
+## GPT REQUEST v095a-rc5-release-review
+
+RC5 supersedes the held RC4 transport attempt for review purposes. RC3 is historical; this is the active request.
+
+Review PR: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1
+Review branch: `review/v095a-stagea-release`
+Initial review head: `2b6bc259a4dceefe75e86e0dc1de08c7f9491636`
+Archive SHA-256: `11993c8c2cf943564300155a07704d85e85845e4f05eb8f2cab4e756cb5aa275`
+RC4 frozen parent: `f4d8cf83e96aa10fe01470270ca24ea093f5b262`
+
+The exact supplied request, package and review evidence are in `review/releases/v095a-rc5/` on the PR branch. Scope: transport receipt evidence only; scientific SQL/bins/population and source restrictions are unchanged.
+
+## ASTRA RESPONSE v095a-rc5-release-review
+
+**NAY for the RC5 execution freeze and Stage A catalogue execution. Offline repair/review may proceed.**
+
+Reviewed head: `2b6bc259a4dceefe75e86e0dc1de08c7f9491636`
+Reviewed archive SHA-256: `11993c8c2cf943564300155a07704d85e85845e4f05eb8f2cab4e756cb5aa275`
+
+R1 (blocking): the actual transport path loses a received status/Location when body reading fails, exceeds the size cap, or is killed at the deadline. Persist sanitized headers immediately and preserve them through failures/interruption.
+
+R2 (blocking): resume accepts a completed checkpoint after receipt status/Location mutation or removal of its receipt. Require the evidence by state, hash the complete sanitized receipt envelope, validate its relationship to the job/disposition, and apply the same checks before publication.
+
+Supplied 51 Python regressions and offline SQL fixtures pass. Six extra offline probes reproduce R1/R2. No catalogue/network calls were made by these tests. Windows parent-data preflight remains required.
+
+Full review: https://github.com/RyanPBurke/historical-plate-transient-analysis/blob/2b6bc259a4dceefe75e86e0dc1de08c7f9491636/review/releases/v095a-rc5/ASTRA_RESPONSE.md
+PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5626606472
+
+Preserve and account for RC4's unknown submission before any replacement live POST. Do not amend its freeze or import it as a valid RC5 checkpoint.
+
+Status: CHANGES_REQUESTED
+Execution authorized: false
+
+## REVIEW WORKFLOW v095a-stagea
+
+The dedicated draft PR is now the active release review record. Candidate fixes belong on its review branch, with new immutable version directories and exact package hashes. Main-mailbox additions remain append-only status links.
+
+The workflow is documented in `review/AUTOMATED_RELEASE_REVIEW.md` on the review branch. It permits up to three bounded offline correction/review cycles. It does not authorize catalogue execution, source access, scientific changes, merges or execution freezes.
+
