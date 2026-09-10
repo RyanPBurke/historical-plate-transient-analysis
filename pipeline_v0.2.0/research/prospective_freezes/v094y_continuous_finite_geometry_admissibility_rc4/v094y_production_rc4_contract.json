@@ -1,0 +1,103 @@
+{
+  "checkpoint_validation": {
+    "canonical_payload_sha": true,
+    "leaf_coverage_replay_for_negative_unresolved": true,
+    "negative_certificate_support_reverification": true,
+    "parent_fragment_time_replay": true,
+    "parent_input_provenance_digest": true,
+    "recompute_pair_aggregation": true,
+    "release_manifest_identity": true,
+    "runner_core_contract_hashes": true,
+    "status_accounting": true,
+    "witness_reverification": true
+  },
+  "contract_id": "v094y_continuous_finite_geometry_admissibility_production_rc4",
+  "fixed_time_extent": {
+    "failed_unbounded_proof_is_not_bounded": true,
+    "finite_upper_bound_allowed_only_after": "VERIFIED_BOUNDED plus exhaustive exact rational vertex maximization",
+    "recession_states": [
+      "VERIFIED_UNBOUNDED",
+      "VERIFIED_BOUNDED",
+      "UNRESOLVED"
+    ],
+    "unresolved_upper_extent_preserves_positive_existence": true
+  },
+  "git_freeze": {
+    "production_args": [
+      "--freeze-commit",
+      "--freeze-evidence"
+    ],
+    "remote_origin_main_evidence_created_outside_science_runner": true,
+    "require_head_equals_commit": true,
+    "require_tracked_tree_clean": true,
+    "required_before_production": true,
+    "verify_git_blobs_against_running_release": true
+  },
+  "guards": {
+    "candidate_identity_inspection": 0,
+    "fits": 0,
+    "network_in_science_runner": 0,
+    "pixels": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0,
+    "threshold_retuning": 0
+  },
+  "negative_proof": {
+    "all_cells_cover_fragment": true,
+    "exact_farkas_required": true,
+    "lp_infeasible_alone_sufficient": false,
+    "nominal_model_only": true,
+    "outer_relaxation": "footprint only; horizon/Earth omitted"
+  },
+  "next_matcher_allowed": false,
+  "parent_v094x": {
+    "placements": 29147,
+    "science_runner_sha256": "f75a866e63dfedd24a677acd925d8e4e2a53e34d99e582596e0adb9a3db5e7cc"
+  },
+  "polygon_preflight": {
+    "great_circle_semantics": true,
+    "no_silent_repair": true,
+    "reject_collinear_boundary_degeneracy": true,
+    "reject_nonadjacent_edge_cross_or_touch": true,
+    "reject_repeated_vertices": true,
+    "reject_zero_length_edges": true
+  },
+  "population": {
+    "all_fragments_required": true,
+    "no_infinity_common_footprint_gate": true,
+    "pairs": 8807,
+    "positive_duration_overlap_fragments": 8925
+  },
+  "rc4_focused_corrections": {
+    "freeze_evidence_encoding": "Python reads freeze-evidence JSON using utf-8-sig; BOM and BOM-less UTF-8 are both accepted.",
+    "geometry_code_provenance": "Both production and release-regression foundation provenance include Path(repo)/vx.GEOM_REL. Changing the executed inherited geometry module changes the provenance digest and invalidates release-bound checkpoints/evidence.",
+    "inherited_coordinate_transform": "Physical Earth-frame checks and site preflight consume the frozen parent's rc2t field exactly. A supplied site state without rc2t is an explicit HOLD/error, never identity fallback.",
+    "release_regression_required_again": true
+  },
+  "release_bound_regression_required": {
+    "legacy_nonpositive_finite_positive_pairs": 122,
+    "must_match_current_release_manifest_and_input_provenance": true,
+    "placements": 29147,
+    "positive_pairs": 1200,
+    "tangent_unresolved_pairs": 30,
+    "work_dir": "work/v094y_rc4_release_regression"
+  },
+  "repo_freeze_paths": {
+    "contract": "pipeline_v0.2.0/research/prospective_freezes/v094y_continuous_finite_geometry_admissibility_rc4/v094y_production_rc4_contract.json",
+    "core": "pipeline_v0.2.0/tools/v094y_finite_geometry_core_rc4.py",
+    "production_runner": "pipeline_v0.2.0/tools/run_v094y_production_rc4.py",
+    "regression_runner": "pipeline_v0.2.0/tools/run_v094y_rc4_release_regression.py",
+    "release_manifest": "pipeline_v0.2.0/research/prospective_freezes/v094y_continuous_finite_geometry_admissibility_rc4/release_manifest.sha256"
+  },
+  "state": "RELEASE_CANDIDATE_FOR_REVIEW_NOT_YET_BANKED",
+  "time_profile": {
+    "max_cells_per_fragment": 16383,
+    "max_depth": 18,
+    "min_cell_width_s": 0.0625,
+    "motion_bound_km_s": 0.6,
+    "name": "P3",
+    "reference_switch_allowance_km": 0.03
+  },
+  "windows_mutex_name": "Local\\v094y_continuous_finite_geometry_admissibility_rc4_controller"
+}
