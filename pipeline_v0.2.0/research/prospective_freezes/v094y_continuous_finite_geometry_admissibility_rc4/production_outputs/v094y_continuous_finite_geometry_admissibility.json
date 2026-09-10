@@ -1,0 +1,53 @@
+{
+  "analysis_kind": "v094y_continuous_finite_geometry_admissibility",
+  "completed_utc": "2026-09-10T14:50:03.684550+00:00",
+  "contract_sha256": "169cf18a0a0e12c227388b6f28317cf7f34af8c975ac62d0f1e8d199ccbf4567",
+  "core_sha256": "32a5d6b25dd91bdfb3d85028b47762e6bbbb68a8d61afe9e4d30fe5a3839f195",
+  "fragment_status_counts": {
+    "FINITE_GEOMETRY_ADMISSIBLE_WITNESS": 2680,
+    "FINITE_GEOMETRY_CERTIFIED_NONADMISSIBLE": 6242,
+    "FINITE_GEOMETRY_UNRESOLVED": 3
+  },
+  "input_provenance_sha256": "fac0993e225b3a35e325cdda78aaa8e25437384f2db1bce026cb3564baaf44db",
+  "motion_bound_km_s": 0.6,
+  "negative_interpretation": "CERTIFIED_NONADMISSIBLE applies under the frozen nominal timing/site model only.",
+  "next_matcher_allowed": false,
+  "pair_status_counts": {
+    "FINITE_GEOMETRY_ADMISSIBLE_WITNESS": 2652,
+    "FINITE_GEOMETRY_CERTIFIED_NONADMISSIBLE": 6152,
+    "FINITE_GEOMETRY_UNRESOLVED": 3
+  },
+  "parent_gate_hashes": {
+    "rc4_checkpoint_manifest_sha256": "6ebde4ccac60bf2815e87aee8965f61d0dc1311995d2576ac3624a6344d1bf53",
+    "rc4_release_regression_summary_sha256": "15955a4d62a33b53437399128317ee7d025f666d4766e8cf8168a721db74f4ba",
+    "time_budget_survey_sha256": "d55d9d4ca7a6c5bb9bbe9be78fb793cd77370bfd3b9a73f90d311165f8effedb"
+  },
+  "population_fragments": 8925,
+  "population_pairs": 8807,
+  "positive_interpretation": "A witness proves existence; PARTIAL_UNRESOLVED means the complete time-distance extent was not mapped.",
+  "production_guards": {
+    "candidate_identity_inspection": 0,
+    "network": 0,
+    "pixels": 0,
+    "real_source_pairing": 0,
+    "registration": 0,
+    "source_catalog_reads": 0
+  },
+  "reference_switch_allowance_km": 0.03,
+  "release_identity": {
+    "contract_sha256": "169cf18a0a0e12c227388b6f28317cf7f34af8c975ac62d0f1e8d199ccbf4567",
+    "core_sha256": "32a5d6b25dd91bdfb3d85028b47762e6bbbb68a8d61afe9e4d30fe5a3839f195",
+    "production_runner_sha256": "bfb209c830795f359bf02da1fd0069cd2017dbede0c12428e932e2b99746db6b",
+    "regression_runner_sha256": "e14248a0af37446dc0354b42a425caa7cf36407a7c46ab5158fa0d7fab53f4a2",
+    "release_manifest_sha256": "e980bc57d639b4fece0976a0d269866a70832aeeba23d3633d9fd36aae764575"
+  },
+  "runner_sha256": "bfb209c830795f359bf02da1fd0069cd2017dbede0c12428e932e2b99746db6b",
+  "selected_time_profile": {
+    "max_cells_per_fragment": 16383,
+    "max_depth": 18,
+    "min_cell_width_s": 0.0625,
+    "name": "P3"
+  },
+  "status": "COMPLETE",
+  "witness_rows": 3383
+}
