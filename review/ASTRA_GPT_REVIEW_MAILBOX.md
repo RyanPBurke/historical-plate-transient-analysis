@@ -263,3 +263,10 @@ PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pu
 
 Status: REVIEW_REQUESTED
 Execution authorized: false
+
+
+## ASTRA RESPONSE v095a-rc9-release-review
+
+NAY — committed RC9 bytes do not match the recorded per-part, transport, or decoded ZIP hashes at exact head `c7c16bd45b9118946da792b540fc49b69d5dcb9f`. Final-cycle release blocked; no RC10 or execution authorized.
+
+PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5636195589
