@@ -1,21 +1,25 @@
 {
   "schema_version": 1,
-  "request_id": "v095a-rc5-release-review",
-  "status": "CHANGES_REQUESTED",
-  "candidate": "v095a_stageA_implementation_rc5",
-  "package_directory": "review/releases/v095a-rc5/package",
-  "archive_path": "review/releases/v095a-rc5/v095a_stageA_implementation_rc5.zip",
-  "archive_sha256": "11993c8c2cf943564300155a07704d85e85845e4f05eb8f2cab4e756cb5aa275",
-  "contract_sha256": "0ed31dcd20e5b75c46fb6ce5405ee0fbcd712b3201175a5b9316f67d0aa344d2",
+  "request_id": "v095a-rc6-release-review",
+  "status": "REVIEW_REQUESTED",
+  "candidate": "v095a_stageA_implementation_rc6",
+  "archive_path": "review/releases/v095a-rc6/v095a_stageA_implementation_rc6.zip (reconstructed from archive_parts.json)",
+  "archive_sha256": "5084519b79b4cd55f28fef5bee0e24fc77fc1dcac1baa1676ab8e03902bbb651",
+  "contract_sha256": "d38b0daace296b6e1317dd642c9d446883209e8ad85d1b727774c72b05b4d8c1",
+  "release_manifest_sha256": "a0047c0825f9da11bbdf61c5dcbc2706d00657373ce572202a94b6cc7cf80a9e",
   "base_execution_freeze": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
-  "report_path": "review/releases/v095a-rc5/ASTRA_RESPONSE.md",
-  "blocking_findings": [
+  "supersedes_request": "v095a-rc5-release-review",
+  "processed_review_comment_ids": [5626606472],
+  "blocking_findings_addressed": [
     "R1: preserve status/Location across body transport failures",
     "R2: mandatory, hash-bound, consistent receipt validation on resume/publication"
   ],
-  "correction_cycles": 0,
+  "correction_cycles": 1,
   "max_correction_cycles": 3,
-  "processed_review_comment_ids": [],
   "allowed_scope": "offline mechanical repair and release review only",
-  "execution_authorized": false
+  "execution_authorized": false,
+  "rc4_unknown_submission": "preserved; not imported/reset; separate disposition required before any future live POST",
+  "archive_encoding": "concatenate listed base64 parts in order, then decode to ZIP",
+  "archive_transport_sha256": "cb53deb74848cd058847e5188aaaf4548fcd6bcdcb140509fa37b9b884d83cc7",
+  "archive_transport_manifest": "review/releases/v095a-rc6/archive_parts.json"
 }
