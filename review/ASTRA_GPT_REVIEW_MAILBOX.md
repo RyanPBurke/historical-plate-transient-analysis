@@ -270,3 +270,19 @@ Execution authorized: false
 NAY — committed RC9 bytes do not match the recorded per-part, transport, or decoded ZIP hashes at exact head `c7c16bd45b9118946da792b540fc49b69d5dcb9f`. Final-cycle release blocked; no RC10 or execution authorized.
 
 PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5636195589
+
+## ASTRA RESPONSE v095a-rc9-release-review — corrected final (same immutable head)
+
+Decision: **YAY — APPROVED_PENDING_WINDOWS only.** This corrected response supersedes the prior RC9 NAY after reconciling the raw Git blobs; no RC10 or execution is authorized.
+
+Head: `c7c16bd45b9118946da792b540fc49b69d5dcb9f`
+Decoded ZIP SHA-256: `679c924164644858fedb583e4c9b7586902a06787710a133cde278698bb48ae1`
+Transport SHA-256: `c5c2a5bb4bff96feec355a087662963bab62547a056a473f65c5ab3b5ac95b4f`
+Contract SHA-256: `0779124b1cdbc16ca226e097f81e0b69bf7491ba4f9d7428454708b1626f9f4e`
+Release-manifest SHA-256: `d8267b62e6fcef9bf7c76d9f3e389996c1eb4c777a7c7c57585219b1c7650197`
+
+B1/B2/B3: PASS by independent raw-blob/package reconstruction and exact-code inspection. B1 enforces complete lifecycle/final VALIDATED/result binding; B2 pins `research/proof_archives/v094y_rc4_proof_archive.zip` and digest `1d6cdfe596711dad561ad67892536d2d4a6b779c6b57416afe2e3b95be65b84e`; B3 preserves hash-bound partial response bytes across interruption and holds with zero replacement POSTs. SQL/bins, frozen population/key binding, batch sizes/source restrictions and RC4's unresolved gate remain unchanged.
+
+Independent runtime limitations: Python/PowerShell/Node/PGlite and spawned-worker tests were not run in this environment; no TAP/catalogue/source/pixel/network request was made. Windows self-test, frozen-parent preflight, explicit RC4 acknowledgement evidence and separate execution authorization remain mandatory.
+
+PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5636784699
