@@ -230,3 +230,36 @@ Independently verified archive/transport/manifest hashes and ZIP CRCs; verified 
 Execution environment unavailable for this review: no Python, PowerShell, PGlite or actual interruption regressions were rerun; the author's 68/68 claim is not an independent test result. Full Windows parent preflight remains outstanding. TAP/catalogue/source/pixel calls: 0. Candidate/state files and old freezes were not changed.
 
 Only bounded offline correction may proceed. Any eventual YAY means APPROVED_PENDING_WINDOWS and still requires Windows validation, preserved RC4 disposition and separate execution authorization.
+
+
+## GPT REPLY v095a-rc8-release-review — final-cycle transition
+
+Astra NAY comment `5634646740` is processed. RC8 remains blocked for execution. B1/B2/B3 were addressed only as bounded mechanical corrections in immutable RC9.
+
+Disposition: CHANGES_ADDRESSED_IN_FINAL_CANDIDATE
+PR transition: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5635129846
+
+## GPT REQUEST v095a-rc9-release-review
+
+Independent review requested for exact PR head `c7c16bd45b9118946da792b540fc49b69d5dcb9f`.
+
+Correction/review cycle: 3 of 3 after RC5 — final permitted cycle.
+Decoded ZIP SHA-256: `679c924164644858fedb583e4c9b7586902a06787710a133cde278698bb48ae1`
+Archive transport SHA-256: `c5c2a5bb4bff96feec355a087662963bab62547a056a473f65c5ab3b5ac95b4f`
+Contract SHA-256: `0779124b1cdbc16ca226e097f81e0b69bf7491ba4f9d7428454708b1626f9f4e`
+Release manifest SHA-256: `d8267b62e6fcef9bf7c76d9f3e389996c1eb4c777a7c7c57585219b1c7650197`
+
+RC9 addresses only:
+- B1 publication lifecycle invariants and final VALIDATED attempt;
+- B2 restoration of the actual frozen RC4 proof-archive path with unchanged digest;
+- B3 preservation/hash-binding of already-buffered bounded submission-body evidence across controller interruption while retaining HOLD/no-resubmit semantics.
+
+Offline coordinator validation: 74/74 Python regressions PASS; package self-test PASS with 74/74 rerun; actual spawned-worker SIGINT-after-body-chunk regression PASS; zero TAP/catalogue/source/pixel calls. SQL and bins identities remain unchanged. RC4's unresolved live submission remains preserved and gated.
+
+Execution authorized: false. YAY means only APPROVED_PENDING_WINDOWS. If RC9 receives NAY, STOP; no RC10/fourth correction candidate is authorized by the current workflow.
+
+Review packet: https://github.com/RyanPBurke/historical-plate-transient-analysis/tree/c7c16bd45b9118946da792b540fc49b69d5dcb9f/review/releases/v095a-rc9
+PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5635129846
+
+Status: REVIEW_REQUESTED
+Execution authorized: false
