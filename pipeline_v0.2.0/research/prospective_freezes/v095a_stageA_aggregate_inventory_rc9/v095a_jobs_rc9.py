@@ -461,7 +461,7 @@ def run_batch(client, family, number, query, fields, parse, validate, expected,
                      'header_receipt_file': f'attempt_{attempt_no:02d}_submission_headers.json'}
                 meta['attempts'].append(a); save()  # Durable intent BEFORE POST.
                 response = request('POST', BASE, end=clock.monotonic()+HTTP_BUDGET,
-                                   data={'QUERY': query.decode('utf-8'), 'LANG': 'postgresql-9.6',
+                                   data={'QUERY': query.decode('utf-8'), 'LANG': 'PostgreSQL',
                                          'QUEUE': '1h', 'PHASE': 'RUN'}, max_bytes=SUBMISSION_BODY_LIMIT, read_body=True,
                                    durable_receipt_path=directory/a['header_receipt_file'],
                                    durable_partial_body_path=directory/f"attempt_{attempt_no:02d}_submission_partial.bin")
