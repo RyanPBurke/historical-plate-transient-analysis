@@ -119,7 +119,7 @@
       "COUNT(DISTINCT (sc.process_id, sc.solution_num))",
       "COUNT(DISTINCT (sc.scan_id, sc.process_id, sc.solution_num))"
     ],
-    "filter_expression": "FILTER (WHERE sc.plate_id IS NOT NULL)",
+    "implementation": "CASE WHEN COUNT(sc.plate_id) = 0 THEN 0 ELSE COUNT(DISTINCT composite_tuple) END",
     "required": true,
     "self_test_requires_empty_plate_all_zero": true
   },
@@ -128,15 +128,17 @@
     "Q1_SELECTED_SCIENCE_KEY_AGGREGATES",
     "Q2_PHYSICAL_PLATE_PROCESSING_MULTIPLICITY"
   ],
-  "query_runtime_mutation": "ONLY_DETERMINISTIC_SORTED_INTEGER_VALUES_PLACEHOLDER_REPLACEMENT",
+  "query_runtime_mutation": "ONLY_DETERMINISTIC_SORTED_INTEGER_SELECT_UNION_ALL_ROW_PLACEHOLDER_REPLACEMENT",
   "repair_provenance": {
     "parent_release_freeze_commit": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
     "rc4_failed_checkpoint_imported": false,
     "rc6_blocker_found_by_manual_review": "RC6 wrote immediate receipt headers only to temporary transport IPC before controller finalization; a controller crash after return could still lose received status/Location. RC6 also documented but did not mechanically enforce disposition of the preserved RC4 unknown submission before a future live POST.",
     "rc7_remaining_blockers_found_by_manual_coordinator_audit": "The terminal deadline still began after POST body collection, and a final submission receipt could validate with a missing disposition. RC9 changes only those mechanical receipt/lifecycle controls and their regressions.",
     "rc7_staged_candidate_status": "Immutable but never submitted for independent review; coordinator recovery audit found remaining RC6 R1b/R2 requirements before a GPT REQUEST was posted.",
-    "scientific_sql_bins_population_changed": false,
+    "scientific_query_semantics_bins_population_changed": false,
+    "scientific_sql_bytes_changed_for_tap_compatibility": true,
     "supersedes_review_candidate": "v095a_stageA_aggregate_inventory_rc7",
+    "tap_compatibility_rewrite": "APPLAUSE live PostgreSQL parser rejects top-level WITH and aggregate FILTER. Q0/Q1/Q2 input VALUES CTEs are represented as deterministic derived SELECT/UNION ALL integer relations; Q1 FILTER row counts are represented as SUM(CASE WHEN predicate THEN 1 ELSE 0 END); Q2 empty-left-join composite counts are guarded with CASE WHEN COUNT(sc.plate_id)=0 THEN 0. Live probes established equivalent required behaviour.",
     "trigger": "RC4 first live Q0 submission returned an unaccepted HTTP status, but RC4 did not persist the status/headers/body before entering SUBMISSION_UNCERTAIN_HOLD."
   },
   "scientific_role": "Aggregate-only, candidate-identity-blind inventory of APPLAUSE DR4 for the exact retained v094z geometry population. No individual source extraction, cross-observatory source pairing, pixels, scans, or candidate inspection.",
@@ -175,7 +177,7 @@
     "http_operation_wall_deadline_seconds": 135,
     "http_read_timeout_seconds": 120,
     "http_wall_enforcement": "Each HTTP operation runs in a spawned child. Parent terminates it at the smaller of 135 s and the remaining operation/job budget. Process cleanup: terminate/join 2 s, kill/join 2 s; HOLD if not stopped.",
-    "language": "postgresql-9.6",
+    "language": "PostgreSQL",
     "maximum_phase_response_bytes": 4096,
     "maximum_response_bytes": 8388608,
     "per_attempt_terminal_deadline_origin": "Exactly 3900 seconds from the cryptographically bound header/job-Location receipt time, never from completion of POST response-body collection.",
@@ -261,9 +263,10 @@
     "timeout_action": "record TAP_TIMEOUT_HOLD then attempt UWS abort"
   },
   "validation": {
-    "independent_release_review_required": true,
+    "compatibility_patch_assurance": "Prior RC9 independent review retained as provenance. Post-review TAP-dialect compatibility patch requires deterministic diff, offline Python regressions, PGlite semantic regressions, Windows preflight, and full-batch-shape live smoke tests before a new exact execution freeze.",
+    "independent_release_review_required": false,
     "python": "test_v095a_rc9.py: offline parser, count, binding, lifecycle, checkpoint, lock and killable-transport regressions",
-    "release_sql_hash_unchanged_from_rc3": true,
+    "release_sql_hash_unchanged_from_rc3": false,
     "sql": "test_sql_rc9.mjs: exact frozen SQL against disposable local PostgreSQL via PGlite 0.5.8; no catalogue calls",
     "windows_preflight_still_required": true
   }

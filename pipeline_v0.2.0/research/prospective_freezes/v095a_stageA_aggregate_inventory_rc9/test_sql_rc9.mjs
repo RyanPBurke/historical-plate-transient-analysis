@@ -5,9 +5,34 @@ import { PGlite } from '@electric-sql/pglite';
 // Synthetic metadata and measurements only. No archive service is queried.
 const db = new PGlite();
 const sql = readFileSync(new URL('./v095a_stageA_queries_rc9.sql', import.meta.url), 'utf8');
-const q0 = sql.match(/WITH wanted[\s\S]*?ORDER BY w.key_id;/)[0];
-const q1 = sql.match(/WITH selected[\s\S]*?ORDER BY s.key_id;/)[0];
-const q2 = sql.match(/WITH plates[\s\S]*?ORDER BY p.plate_id;/)[0];
+const extract = family => {
+  const begin = `-- BEGIN ${family}`;
+  const end = `-- END ${family}`;
+  assert.equal(sql.split(begin).length - 1, 1);
+  assert.equal(sql.split(end).length - 1, 1);
+  return sql.split(begin)[1].split(end)[0].trim();
+};
+
+const rowTable = (template, placeholder, columns, rows) => {
+  assert.equal(template.split(placeholder).length - 1, 1);
+
+  const relation = rows.map((row, i) =>
+    '    SELECT ' +
+    row.map((v, j) =>
+      String(v) + (i === 0 ? ` AS ${columns[j]}` : '')
+    ).join(', ')
+  ).join('\n    UNION ALL\n');
+
+  return template.replace(placeholder, relation);
+};
+
+const q0 = extract('Q0_SELECTED_SOLUTION_BINDING');
+const q1 = extract('Q1_SELECTED_SCIENCE_KEY_AGGREGATES');
+const q2 = extract('Q2_PHYSICAL_PLATE_PROCESSING_MULTIPLICITY');
+
+assert.equal(/\bWITH\s+(wanted|selected|plates)\b/.test(sql), false);
+assert.equal(sql.includes(' FILTER ('), false);
+
 await db.exec(`
 CREATE SCHEMA applause_dr4;
 CREATE TABLE applause_dr4.solution (
@@ -22,7 +47,12 @@ CREATE TABLE applause_dr4.source_calib (
 );
 INSERT INTO applause_dr4.solution VALUES (1001,101,201,301,1,401);
 `);
-const binding = await db.query(q0.replace('/*__Q0_VALUES__*/', '(1,1001,101,201),(2,1002,102,202)'));
+const binding = await db.query(rowTable(
+  q0,
+  '/*__Q0_VALUES__*/',
+  ['key_id','solution_id','expected_plate_id','expected_scan_id'],
+  [[1,1001,101,201],[2,1002,102,202]]
+));
 assert.deepEqual(binding.rows.map(r=>r.solution_row_found),[1,0]);
 assert.equal(binding.rows[1].process_id,null);
 assert.deepEqual([binding.rows[0].returned_plate_id,binding.rows[0].returned_scan_id,
@@ -47,7 +77,12 @@ rows.push([103,203,303,1,...Array(8).fill(null)]);
 for(const key of [[104,201,301,1],[101,999,301,1],[101,201,999,1],[101,201,301,2]])
  rows.push([...key,...Array(8).fill(null)]);
 await db.exec('INSERT INTO applause_dr4.source_calib VALUES '+rows.map(r=>'('+r.map(scalar).join(',')+')').join(',')+';');
-const inventory = await db.query(q1.replace('/*__Q1_VALUES__*/','(1,101,201,301,1),(2,102,202,302,1),(3,103,203,303,1)'));
+const inventory = await db.query(rowTable(
+  q1,
+  '/*__Q1_VALUES__*/',
+  ['key_id','plate_id','scan_id','process_id','solution_num'],
+  [[1,101,201,301,1],[2,102,202,302,1],[3,103,203,303,1]]
+));
 assert.deepEqual(inventory.rows.map(r=>Number(r.source_rows)),[n,0,1]);
 const families = ['gaia_','sexflag_','mp_','raerr_','decerr_','coord_','annular_'];
 for(const row of inventory.rows){
@@ -65,7 +100,12 @@ assert.deepEqual(['both_null','ra_null_only','dec_null_only','valid_icrs_bounds'
  .map(k=>Number(inventory.rows[0]['coord_'+k])),[2,2,2,5,8]);
 console.log('Q1 selected-key isolation, absent key, real NULL row, bin boundaries/NaN/infinity completeness: PASS');
 
-const original = await db.query(q2.replace('/*__Q2_VALUES__*/','(101),(102),(103)'));
+const original = await db.query(rowTable(
+  q2,
+  '/*__Q2_VALUES__*/',
+  ['plate_id'],
+  [[101],[102],[103]]
+));
 const empty = original.rows.find(r=>r.plate_id===102);
 assert.equal(Number(empty.all_processing_source_rows),0);
 assert.equal(Number(empty.distinct_scans),0);
@@ -78,13 +118,24 @@ const populated=original.rows.find(r=>r.plate_id===101);
 assert.deepEqual(['all_processing_source_rows','distinct_scans','distinct_processes',
  'distinct_process_solution_nums','distinct_scan_process_solution_nums']
  .map(k=>Number(populated[k])),[22,2,2,3,4]);
-// Negative regression: the old unfiltered composite query must yield 1, not 0.
-const old=q2.replaceAll(' FILTER (WHERE sc.plate_id IS NOT NULL)','');
-const broken=await db.query(old.replace('/*__Q2_VALUES__*/','(101),(102),(103)'));
-const brokenEmpty=broken.rows.find(r=>r.plate_id===102);
-assert.equal(Number(brokenEmpty.distinct_process_solution_nums),1);
-assert.equal(Number(brokenEmpty.distinct_scan_process_solution_nums),1);
-assert.deepEqual(broken.rows.find(r=>r.plate_id===101),populated);
-console.log('Q2 RC9 empty plate all zero, populated multiplicity, old-query negative regression: PASS');
+// Negative regression: an unguarded composite tuple on an unmatched
+// LEFT JOIN row counts the all-NULL composite as one in PostgreSQL/PGlite.
+const broken = await db.query(`
+SELECT
+  p.plate_id,
+  COUNT(DISTINCT (sc.process_id, sc.solution_num))
+    AS distinct_process_solution_nums,
+  COUNT(DISTINCT (sc.scan_id, sc.process_id, sc.solution_num))
+    AS distinct_scan_process_solution_nums
+FROM (SELECT 102 AS plate_id) AS p
+LEFT JOIN applause_dr4.source_calib AS sc
+  ON sc.plate_id = p.plate_id
+GROUP BY p.plate_id
+`);
+
+assert.equal(Number(broken.rows[0].distinct_process_solution_nums),1);
+assert.equal(Number(broken.rows[0].distinct_scan_process_solution_nums),1);
+
+console.log('Q2 empty plate all zero, populated multiplicity, unguarded-tuple negative regression: PASS');
 console.log('Engine:',(await db.query('SELECT version() AS version')).rows[0].version);
 await db.close();

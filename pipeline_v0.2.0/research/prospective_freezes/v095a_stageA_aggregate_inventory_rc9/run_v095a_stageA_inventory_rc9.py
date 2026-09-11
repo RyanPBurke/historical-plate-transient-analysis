@@ -18,8 +18,8 @@ import tempfile
 import time
 from v095a_runtime_rc9 import ProjectLock, BoundedHTTP
 
-CONTRACT_SHA = "0779124b1cdbc16ca226e097f81e0b69bf7491ba4f9d7428454708b1626f9f4e"
-SQL_SHA = "1e318f66a80453208e77c41ccb89b6340c29b639b53741b634a459d649308b21"
+CONTRACT_SHA = "04aba806f0bfa7ddd88db9380ae11855a70f443b5738a4e46cb62101e3830d10"
+SQL_SHA = "c18f4f751fcc7afca2a9cba4c3d8a4c3e7e0d8390d2cf7f595b7d5cd46d92843"
 BINS_SHA = "c4fd3724579f37b847c1a4549fb6c45066531efc3607b1e37eca0a5567366313"
 
 V094Z_COMMIT = "97005975e356fdef17022d000fb593006f9e6c3e"
@@ -51,7 +51,7 @@ Q2_BATCH = 500
 
 TAP_BASE = "https://www.plate-archive.org/tap"
 TAP_ASYNC = TAP_BASE.rstrip("/") + "/async"
-TAP_LANG = "postgresql-9.6"
+TAP_LANG = "PostgreSQL"
 TAP_QUEUE = "1h"
 HTTP_TIMEOUT = (15, 120)
 ATTEMPT_DEADLINE_S = 3900.0
@@ -221,14 +221,54 @@ def extract_template(family: str) -> str:
 def materialize(template: str, placeholder: str, rows) -> bytes:
     if template.count(placeholder) != 1:
         raise SystemExit(f"QUERY_HASH_HOLD: placeholder count {placeholder}")
-    vals = []
+
+    rows = list(rows)
+
+    if not rows:
+        raise SystemExit("QUERY_HASH_HOLD: empty row batch")
+
+    # Validate exact integers before any SQL rendering.
     for row in rows:
         if any(type(x) is not int for x in row):
-            raise SystemExit("QUERY_HASH_HOLD: VALUES require exact integers")
-        vals.append("    (" + ", ".join(str(int(x)) for x in row) + ")")
-    if not vals:
-        raise SystemExit("QUERY_HASH_HOLD: empty VALUES batch")
-    q = template.replace(placeholder, ",\n".join(vals))
+            raise SystemExit("QUERY_HASH_HOLD: row inputs require exact integers")
+
+    columns = {
+        "/*__Q0_VALUES__*/": (
+            "key_id", "solution_id", "expected_plate_id", "expected_scan_id"
+        ),
+        "/*__Q1_VALUES__*/": (
+            "key_id", "plate_id", "scan_id", "process_id", "solution_num"
+        ),
+        "/*__Q2_VALUES__*/": (
+            "plate_id",
+        ),
+    }.get(placeholder)
+
+    if columns is None:
+        raise SystemExit(f"QUERY_HASH_HOLD: unknown row placeholder {placeholder}")
+
+    selects = []
+
+    for number, row in enumerate(rows):
+        if len(row) != len(columns):
+            raise SystemExit("QUERY_HASH_HOLD: row width mismatch")
+
+        rendered = []
+
+        for column, value in zip(columns, row):
+            token = str(int(value))
+
+            # Column names are established once by the first SELECT.
+            if number == 0:
+                token += f" AS {column}"
+
+            rendered.append(token)
+
+        selects.append("    SELECT " + ", ".join(rendered))
+
+    relation = "\n    UNION ALL\n".join(selects)
+    q = template.replace(placeholder, relation)
+
     return q.encode("utf-8")
 
 
