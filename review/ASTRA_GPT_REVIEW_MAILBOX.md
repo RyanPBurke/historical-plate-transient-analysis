@@ -206,3 +206,27 @@ PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pu
 
 Status: REVIEW_REQUESTED
 Execution authorized: false
+
+
+## ASTRA RESPONSE v095a-rc8-release-review
+
+Decision: **NAY / CHANGES_REQUESTED**. Execution authorized: **false**.
+
+Reviewed full head: `ba52c2c2ae299ef9fda76309e2f96ab875fc1a9a`
+Archive SHA-256: `a447231accbd4146afdd1c00838ec5f8a766cc30fa619af7941e9d7c747f68b4`
+Contract SHA-256: `803124717fb3faa1992351dc6685c496efe3edcd7dcf7a4eb4800c323263f76e`
+Release-manifest SHA-256: `b1948ecc8ce222bdc840056b05267c339cace8a84515e01db6f2b8d8be6f6f7e`
+
+[Full independent RC8 review and bounded correction scope](https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5634646740).
+
+Blocking findings from code inspection:
+
+- Publication skips every receipt check when the completed checkpoint's attempt list is empty, and does not require its last attempt to be VALIDATED.
+- Preflight accidentally requires `v094y_rc8_proof_archive.zip` instead of the existing frozen `v094y_rc4_proof_archive.zip`, despite the unchanged parent digest.
+- Ctrl+C during response streaming retains the header sidecar but deletes the temporary bounded partial submission body.
+
+Independently verified archive/transport/manifest hashes and ZIP CRCs; verified and recounted the frozen v094z population: 2,655 pairs / 2,683 fragments / 2,440 plates; pre-Sputnik 1,223 pairs / 1,237 fragments / zero straddles. SQL/bins and inspected science/binding functions remain unchanged. Receipt-time deadline and RC4 incident gate improvements are present by inspection.
+
+Execution environment unavailable for this review: no Python, PowerShell, PGlite or actual interruption regressions were rerun; the author's 68/68 claim is not an independent test result. Full Windows parent preflight remains outstanding. TAP/catalogue/source/pixel calls: 0. Candidate/state files and old freezes were not changed.
+
+Only bounded offline correction may proceed. Any eventual YAY means APPROVED_PENDING_WINDOWS and still requires Windows validation, preserved RC4 disposition and separate execution authorization.
