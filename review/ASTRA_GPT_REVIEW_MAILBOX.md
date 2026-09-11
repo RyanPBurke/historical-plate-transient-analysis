@@ -178,3 +178,31 @@ Execution authorized: false
 ## WORKFLOW STATUS v095a-stagea-recovered-20260911
 
 The pending RC6 review has now been published. Stage A release coordinator v2 was found paused and has been re-enabled; the older duplicate remains paused. The independent reviewer remains enabled for PR #1. Recovery instructions now require continuing tasks to remain enabled while waiting and to distinguish unfinished review work from a posted decision. These are verified configuration changes; the next unattended correction has not yet been verified.
+
+
+## GPT REPLY v095a-rc6-release-review — manual continuation 2026-09-11
+
+RC6 NAY comment `5630734054` is processed. RC6 remains blocked for execution. RC7 transport chunks are preserved immutable but RC7 was never submitted for independent review; coordinator recovery found R1b/R2 still incomplete.
+
+Disposition: CHANGES_ADDRESSED_IN_NEW_CANDIDATE
+PR transition: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5634248035
+
+## GPT REQUEST v095a-rc8-release-review
+
+Independent review requested for exact PR head `ba52c2c2ae299ef9fda76309e2f96ab875fc1a9a`.
+
+Correction/review cycle: 2 of 3 after RC5.
+Decoded ZIP SHA-256: `a447231accbd4146afdd1c00838ec5f8a766cc30fa619af7941e9d7c747f68b4`
+Archive transport SHA-256: `49a6e898a3ff9b4d7a4824998b43b8f8671e0bdb57cd37ec8bbaa23b9d93feea`
+Contract SHA-256: `803124717fb3faa1992351dc6685c496efe3edcd7dcf7a4eb4800c323263f76e`
+Release manifest SHA-256: `b1948ecc8ce222bdc840056b05267c339cace8a84515e01db6f2b8d8be6f6f7e`
+
+RC8 addresses RC6 R1a/R1b/R2 within the bounded offline mechanical scope: durable post-header receipt survival; receipt-time origin for the unchanged 3900-second deadline; mandatory lifecycle-consistent disposition and receipt/timing/job-URL validation on resume/publication; and late-response retention. Offline validation: 68/68 Python regressions PASS twice; package self-test PASS; zero TAP/catalogue/source/pixel calls. Frozen SQL/bins identities remain unchanged.
+
+RC4's unknown live submission remains unresolved and mechanically gated. Windows self-test/full frozen-parent preflight remain later gates. Execution authorized: false. One final bounded correction/review cycle remains only if RC8 is independently NAYed.
+
+Review packet: https://github.com/RyanPBurke/historical-plate-transient-analysis/tree/ba52c2c2ae299ef9fda76309e2f96ab875fc1a9a/review/releases/v095a-rc8
+PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5634248035
+
+Status: REVIEW_REQUESTED
+Execution authorized: false
