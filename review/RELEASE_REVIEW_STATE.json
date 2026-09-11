@@ -1,34 +1,34 @@
 {
-  "schema_version": 1,
-  "request_id": "v095a-rc8-release-review",
-  "status": "REVIEW_REQUESTED",
-  "candidate": "v095a_stageA_implementation_rc8",
-  "archive_path": "review/releases/v095a-rc8/v095a_stageA_implementation_rc8.zip (reconstructed from archive_parts.json)",
-  "archive_sha256": "a447231accbd4146afdd1c00838ec5f8a766cc30fa619af7941e9d7c747f68b4",
-  "contract_sha256": "803124717fb3faa1992351dc6685c496efe3edcd7dcf7a4eb4800c323263f76e",
-  "release_manifest_sha256": "b1948ecc8ce222bdc840056b05267c339cace8a84515e01db6f2b8d8be6f6f7e",
+  "allowed_scope": "offline mechanical repair and release review only",
+  "archive_encoding": "concatenate listed base64 parts in order, then decode to ZIP",
+  "archive_path": "review/releases/v095a-rc9/v095a_stageA_implementation_rc9.zip (reconstructed from archive_parts.json)",
+  "archive_sha256": "679c924164644858fedb583e4c9b7586902a06787710a133cde278698bb48ae1",
+  "archive_transport_manifest": "review/releases/v095a-rc9/archive_parts.json",
+  "archive_transport_sha256": "c5c2a5bb4bff96feec355a087662963bab62547a056a473f65c5ab3b5ac95b4f",
   "base_execution_freeze": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
-  "supersedes_request": "v095a-rc6-release-review",
-  "staged_unrequested_candidate": "v095a_stageA_implementation_rc7",
+  "blocking_findings_addressed": [
+    "B1: complete publication checkpoint/lifecycle invariants",
+    "B2: restore frozen RC4 proof archive path",
+    "B3: preserve/hash bounded partial submission body across controller interruption"
+  ],
+  "candidate": "v095a_stageA_implementation_rc9",
+  "contract_sha256": "0779124b1cdbc16ca226e097f81e0b69bf7491ba4f9d7428454708b1626f9f4e",
+  "correction_cycles": 3,
+  "execution_authorized": false,
+  "final_correction_candidate": true,
+  "max_correction_cycles": 3,
+  "offline_validation": "74/74 Python regressions PASS; package self-test PASS rerunning 74/74; catalogue/network calls=0; unchanged PGlite fixture not rerun because local Node dependency directory absent",
+  "on_nay": "STOP_AND_NOTIFY_RYAN_NO_FOURTH_CORRECTION_CANDIDATE",
   "processed_review_comment_ids": [
     5626606472,
-    5630734054
+    5630734054,
+    5634646740
   ],
-  "blocking_findings_addressed": [
-    "R1a: preserve sanitized status/Location through controller interruption after headers",
-    "R1b: derive the unchanged 3900-second terminal deadline from cryptographically bound header/job-Location receipt time",
-    "R2: require lifecycle-consistent submission disposition and repeat receipt/timing/job-URL validation on resume/publication"
-  ],
-  "correction_cycles": 2,
-  "max_correction_cycles": 3,
-  "final_correction_candidate": false,
-  "allowed_scope": "offline mechanical repair and release review only",
-  "execution_authorized": false,
   "rc4_unknown_submission": "preserved unresolved; not rejected/completed/imported/reset; explicit acknowledgement gate remains required before any future live POST",
-  "archive_encoding": "concatenate listed base64 parts in order, then decode to ZIP",
-  "archive_transport_sha256": "49a6e898a3ff9b4d7a4824998b43b8f8671e0bdb57cd37ec8bbaa23b9d93feea",
-  "archive_transport_manifest": "review/releases/v095a-rc8/archive_parts.json",
-  "offline_validation": "68/68 Python regressions PASS twice; package self-test PASS; catalogue/network calls=0; unchanged PGlite fixture not rerun because local dependency directory absent",
-  "on_nay": "ONE_FINAL_BOUNDED_CORRECTION_REVIEW_CYCLE_REMAINS",
-  "remaining_correction_review_cycles": 1
+  "release_manifest_sha256": "d8267b62e6fcef9bf7c76d9f3e389996c1eb4c777a7c7c57585219b1c7650197",
+  "remaining_correction_review_cycles": 0,
+  "request_id": "v095a-rc9-release-review",
+  "schema_version": 1,
+  "status": "REVIEW_REQUESTED",
+  "supersedes_request": "v095a-rc8-release-review"
 }
