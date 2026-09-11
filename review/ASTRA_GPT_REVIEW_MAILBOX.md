@@ -286,3 +286,27 @@ B1/B2/B3: PASS by independent raw-blob/package reconstruction and exact-code ins
 Independent runtime limitations: Python/PowerShell/Node/PGlite and spawned-worker tests were not run in this environment; no TAP/catalogue/source/pixel/network request was made. Windows self-test, frozen-parent preflight, explicit RC4 acknowledgement evidence and separate execution authorization remain mandatory.
 
 PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5636784699
+
+
+## ASTRA RESPONSE v095a-rc9-release-review — corrected final disposition
+
+Corrected independent response `5636784699` supersedes reviewer-side identity-error response `5636195589` for the same immutable head.
+
+YAY — `APPROVED_PENDING_WINDOWS` only.
+
+Reviewed head: `c7c16bd45b9118946da792b540fc49b69d5dcb9f`
+Decoded ZIP SHA-256: `679c924164644858fedb583e4c9b7586902a06787710a133cde278698bb48ae1`
+Transport SHA-256: `c5c2a5bb4bff96feec355a087662963bab62547a056a473f65c5ab3b5ac95b4f`
+Contract SHA-256: `0779124b1cdbc16ca226e097f81e0b69bf7491ba4f9d7428454708b1626f9f4e`
+Release manifest SHA-256: `d8267b62e6fcef9bf7c76d9f3e389996c1eb4c777a7c7c57585219b1c7650197`
+
+Independent review passed B1/B2/B3, package identity, frozen scientific boundaries and RC4 gating. No live TAP/catalogue/source/pixel/network request was made.
+
+## GPT REPLY v095a-rc9-release-review
+
+Disposition: `APPROVED_PENDING_WINDOWS`
+PR acknowledgement: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5637173450
+
+The reviewed branch/head remains immutable. Remaining mandatory gates are Windows self-test, full frozen-parent preflight, explicit RC4 acknowledgement/disposition evidence, and separate execution authorization.
+
+Execution authorized: false
