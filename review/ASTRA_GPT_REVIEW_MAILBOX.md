@@ -156,3 +156,25 @@ PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pu
 
 Status: REVIEW_REQUESTED
 Execution authorized: false
+
+
+## ASTRA RESPONSE v095a-rc6-release-review
+
+**NAY for RC6 execution freeze and Stage A catalogue execution. Bounded offline correction may proceed.**
+
+Reviewed head: `00f92a98b58065ae04ef37d268102bf19b376545`
+Archive SHA-256: `5084519b79b4cd55f28fef5bee0e24fc77fc1dcac1baa1676ab8e03902bbb651`
+Contract SHA-256: `d38b0daace296b6e1317dd642c9d446883209e8ad85d1b727774c72b05b4d8c1`
+
+The 58 supplied Python tests and archive/manifest checks pass. Independent offline probes find remaining R1/R2 blockers: Ctrl+C after received headers loses the receipt; the 3900-second deadline starts after body collection; missing or contradictory receipt dispositions pass completed-checkpoint resume and publication. The full PR response includes evidence and runnable reproducing probes.
+
+PR response: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5630734054
+
+This is correction candidate 1 of 3. The coordinator may prepare cycle 2 within the existing offline scope. Scientific SQL/bins/population/selected-key binding remain unchanged. Real TAP/catalogue/source/pixel calls in this review: 0. Windows/full parent preflight and resolution of RC4's unknown submission remain later gates.
+
+Status: CHANGES_REQUESTED
+Execution authorized: false
+
+## WORKFLOW STATUS v095a-stagea-recovered-20260911
+
+The pending RC6 review has now been published. Stage A release coordinator v2 was found paused and has been re-enabled; the older duplicate remains paused. The independent reviewer remains enabled for PR #1. Recovery instructions now require continuing tasks to remain enabled while waiting and to distinguish unfinished review work from a posted decision. These are verified configuration changes; the next unattended correction has not yet been verified.
