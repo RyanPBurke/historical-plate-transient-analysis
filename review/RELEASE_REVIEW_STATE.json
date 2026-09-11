@@ -1,25 +1,34 @@
 {
   "schema_version": 1,
-  "request_id": "v095a-rc6-release-review",
+  "request_id": "v095a-rc8-release-review",
   "status": "REVIEW_REQUESTED",
-  "candidate": "v095a_stageA_implementation_rc6",
-  "archive_path": "review/releases/v095a-rc6/v095a_stageA_implementation_rc6.zip (reconstructed from archive_parts.json)",
-  "archive_sha256": "5084519b79b4cd55f28fef5bee0e24fc77fc1dcac1baa1676ab8e03902bbb651",
-  "contract_sha256": "d38b0daace296b6e1317dd642c9d446883209e8ad85d1b727774c72b05b4d8c1",
-  "release_manifest_sha256": "a0047c0825f9da11bbdf61c5dcbc2706d00657373ce572202a94b6cc7cf80a9e",
+  "candidate": "v095a_stageA_implementation_rc8",
+  "archive_path": "review/releases/v095a-rc8/v095a_stageA_implementation_rc8.zip (reconstructed from archive_parts.json)",
+  "archive_sha256": "a447231accbd4146afdd1c00838ec5f8a766cc30fa619af7941e9d7c747f68b4",
+  "contract_sha256": "803124717fb3faa1992351dc6685c496efe3edcd7dcf7a4eb4800c323263f76e",
+  "release_manifest_sha256": "b1948ecc8ce222bdc840056b05267c339cace8a84515e01db6f2b8d8be6f6f7e",
   "base_execution_freeze": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
-  "supersedes_request": "v095a-rc5-release-review",
-  "processed_review_comment_ids": [5626606472],
-  "blocking_findings_addressed": [
-    "R1: preserve status/Location across body transport failures",
-    "R2: mandatory, hash-bound, consistent receipt validation on resume/publication"
+  "supersedes_request": "v095a-rc6-release-review",
+  "staged_unrequested_candidate": "v095a_stageA_implementation_rc7",
+  "processed_review_comment_ids": [
+    5626606472,
+    5630734054
   ],
-  "correction_cycles": 1,
+  "blocking_findings_addressed": [
+    "R1a: preserve sanitized status/Location through controller interruption after headers",
+    "R1b: derive the unchanged 3900-second terminal deadline from cryptographically bound header/job-Location receipt time",
+    "R2: require lifecycle-consistent submission disposition and repeat receipt/timing/job-URL validation on resume/publication"
+  ],
+  "correction_cycles": 2,
   "max_correction_cycles": 3,
+  "final_correction_candidate": false,
   "allowed_scope": "offline mechanical repair and release review only",
   "execution_authorized": false,
-  "rc4_unknown_submission": "preserved; not imported/reset; separate disposition required before any future live POST",
+  "rc4_unknown_submission": "preserved unresolved; not rejected/completed/imported/reset; explicit acknowledgement gate remains required before any future live POST",
   "archive_encoding": "concatenate listed base64 parts in order, then decode to ZIP",
-  "archive_transport_sha256": "cb53deb74848cd058847e5188aaaf4548fcd6bcdcb140509fa37b9b884d83cc7",
-  "archive_transport_manifest": "review/releases/v095a-rc6/archive_parts.json"
+  "archive_transport_sha256": "49a6e898a3ff9b4d7a4824998b43b8f8671e0bdb57cd37ec8bbaa23b9d93feea",
+  "archive_transport_manifest": "review/releases/v095a-rc8/archive_parts.json",
+  "offline_validation": "68/68 Python regressions PASS twice; package self-test PASS; catalogue/network calls=0; unchanged PGlite fixture not rerun because local dependency directory absent",
+  "on_nay": "ONE_FINAL_BOUNDED_CORRECTION_REVIEW_CYCLE_REMAINS",
+  "remaining_correction_review_cycles": 1
 }
