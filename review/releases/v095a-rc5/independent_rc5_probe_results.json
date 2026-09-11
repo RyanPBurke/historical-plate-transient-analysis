@@ -1,0 +1,51 @@
+{
+  "catalogue_calls": 0,
+  "network_calls": 0,
+  "results": [
+    {
+      "probe": "stream_error",
+      "synthetic_received_status": 303,
+      "retained_status": null,
+      "retained_headers": {},
+      "partial_bytes": 6,
+      "requests": 1,
+      "hold": "SUBMISSION_UNCERTAIN_HOLD: reconcile receipt before further submission",
+      "receipt_loss_reproduced": true
+    },
+    {
+      "probe": "overflow",
+      "synthetic_received_status": 401,
+      "retained_status": null,
+      "retained_headers": {},
+      "partial_bytes": 6,
+      "requests": 1,
+      "hold": "SUBMISSION_UNCERTAIN_HOLD: reconcile receipt before further submission",
+      "receipt_loss_reproduced": true
+    },
+    {
+      "probe": "deadline",
+      "synthetic_received_status": 303,
+      "retained_status": null,
+      "retained_headers": {},
+      "partial_bytes": 43,
+      "requests": 1,
+      "hold": "SUBMISSION_UNCERTAIN_HOLD: reconcile receipt before further submission",
+      "receipt_loss_reproduced": true
+    },
+    {
+      "probe": "change_status",
+      "inconsistent_checkpoint_accepted": true,
+      "new_requests": 0
+    },
+    {
+      "probe": "change_location",
+      "inconsistent_checkpoint_accepted": true,
+      "new_requests": 0
+    },
+    {
+      "probe": "remove_receipt",
+      "inconsistent_checkpoint_accepted": true,
+      "new_requests": 0
+    }
+  ]
+}
