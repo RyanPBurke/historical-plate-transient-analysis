@@ -1,0 +1,270 @@
+{
+  "batch_sizes": {
+    "Q0_SELECTED_SOLUTION_BINDING": 1000,
+    "Q1_SELECTED_SCIENCE_KEY_AGGREGATES": 250,
+    "Q2_PHYSICAL_PLATE_PROCESSING_MULTIPLICITY": 500
+  },
+  "checkpoint": {
+    "binding": [
+      "release_freeze_commit",
+      "release_manifest_sha256",
+      "contract_sha256",
+      "sql_sha256",
+      "bins_sha256",
+      "parent_pair_sha256",
+      "parent_fragment_sha256",
+      "parent_summary_sha256",
+      "foundation_sha256",
+      "proof_archive_sha256",
+      "query_sha256",
+      "expected_keys_sha256",
+      "prior_rc4_incident_evidence_sha256"
+    ],
+    "durable_events": "Submission intent is persisted before POST. A predeclared per-attempt durable header-receipt sidecar in the batch work directory is written atomically by the HTTP worker immediately after response headers arrive, before body streaming, and survives controller/worker interruption. The sidecar cryptographically binds sanitized status/selected headers plus receipt wall-clock and monotonic times. If controller interruption occurs during bounded submission-body streaming, the spawned worker is stopped and already-fsynced bounded body bytes are atomically copied from temporary IPC to the batch work directory before cleanup, then hash-bound into the retained uncertain submission envelope. Final submission evidence, canonical receipt envelope, job URL/deadline, every phase observation, abort state, result validation, retry count and interruption state are separately persisted.",
+    "schema_version": 4
+  },
+  "contract_id": "v095a_stageA_aggregate_inventory_rc9",
+  "expected_population": {
+    "fragments": 2683,
+    "pairs": 2655,
+    "pre_sputnik_fragments": 1237,
+    "pre_sputnik_pairs": 1223,
+    "retained_fragment_straddles_launch": 0,
+    "unique_physical_plates": 2440
+  },
+  "failure_semantics": {
+    "aggregate_bin_sum_mismatch": "AGGREGATE_COMPLETENESS_HOLD",
+    "cross_query": "Sum selected science-key source_rows per plate <= that plate Q2 all-processing source_rows; otherwise HOLD.",
+    "csv": "UTF-8-sig, strict CSV parser over preserved newlines; exact header/order/width; reject CR/LF/NUL in integer fields; integers never parsed through float.",
+    "failed_result_evidence": "Hash and retain raw/partial aggregate response bytes before validation, with per-attempt provenance; never echo body values in logs. Invalid checkpoints are preserved and cannot silently trigger new queries.",
+    "missing_failed_or_truncated_never_zero": true,
+    "missing_solution_binding": "MISSING_SOLUTION_BINDING_HOLD",
+    "parse_or_truncation": "RESULT_PARSE_HOLD",
+    "physical_plate_result_missing": "PHYSICAL_PLATE_RESULT_MISSING_HOLD",
+    "q2_relationships": "nonnegative counts; scans <= scan/process/solution combinations <= source_rows; processes <= process/solution combinations <= scan/process/solution combinations; positive source_rows require both composite counts >= 1.",
+    "query_hash_mismatch": "QUERY_HASH_HOLD",
+    "schema_mismatch": "RESULT_SCHEMA_HOLD",
+    "selected_key_result_missing": "SELECTED_KEY_RESULT_MISSING_HOLD",
+    "tap_http_error": "TAP_HTTP_HOLD",
+    "tap_job_aborted": "TAP_JOB_ABORTED_HOLD",
+    "tap_job_error": "TAP_JOB_ERROR_HOLD",
+    "tap_submission_explicit_rejection": "HTTP 4xx except 408: TAP_SUBMISSION_REJECTED_HOLD; status/selected headers/body hash and bounded raw response are preserved; no automatic resubmission.",
+    "tap_submission_uncertain": "Transport failure, HTTP 408, unexpected non-accepted 2xx/3xx/5xx, or accepted status without a valid same-origin job Location: SUBMISSION_UNCERTAIN_HOLD; evidence preserved; no automatic resubmission.",
+    "tap_timeout": "TAP_TIMEOUT_HOLD",
+    "zero_source_rows": "ZERO_SOURCE_ROWS_CONFIRMED only when expected Q1 selected-key row exists and source_rows=0"
+  },
+  "gaia_id_handling": {
+    "float_conversion_forbidden": true,
+    "future_exact_integer_or_string_only": true,
+    "individual_ids_in_stage_a": false,
+    "null_zero_negative_positive_semantics_not_conflated": true
+  },
+  "network_accounting": "Counters are initiated HTTP operation attempts, including failures. Report this invocation separately from cumulative retained batch evidence. Git verification remains separate. Individual source and pixel calls remain zero.",
+  "network_counters": [
+    "git_provenance_network_calls",
+    "catalogue_tap_metadata_binding_calls",
+    "catalogue_tap_aggregate_inventory_calls",
+    "individual_source_catalogue_calls",
+    "pixel_or_scan_network_calls"
+  ],
+  "parents": {
+    "v094y_foundation_input_provenance_sha256": "fac0993e225b3a35e325cdda78aaa8e25437384f2db1bce026cb3564baaf44db",
+    "v094y_proof_archive_sha256": "1d6cdfe596711dad561ad67892536d2d4a6b779c6b57416afe2e3b95be65b84e",
+    "v094y_results_commit": "2d30c9f780d2f2c9d572f81843af9d1c141444ad",
+    "v094z_exact_byte_freeze_commit": "97005975e356fdef17022d000fb593006f9e6c3e",
+    "v094z_matcher_fragments_sha256": "8c70f9452f022748d350ac73724afc871c4475978f66d0779a35f0957ba28e93",
+    "v094z_matcher_pairs_sha256": "a34fd25fe7539e2e04e022d86c9866403a340c0c4b7ba6a1b9a7e154a07b1462",
+    "v094z_matcher_population_sha256": "bcd28db6a7fb26c4581299a459661165c558a1c7cd1d8e10d72e1bf6f95f8522"
+  },
+  "permissions": {
+    "candidate_identity_inspection_allowed": false,
+    "cross_observatory_source_pairing_allowed": false,
+    "individual_coordinates_return_allowed": false,
+    "individual_photometry_return_allowed": false,
+    "individual_source_extraction_allowed": false,
+    "individual_source_id_return_allowed": false,
+    "inherited_v094z_next_matcher_allowed_is_execution_permission": false,
+    "pixels_or_scans_allowed": false,
+    "stage_a_aggregate_inventory_allowed_only_after_release_freeze": true,
+    "threshold_retuning_allowed": false
+  },
+  "post_stage_a": {
+    "individual_source_extraction_allowed": false,
+    "requires_new_reviewed_contract_for": [
+      "astrometric uncertainty treatment and catalogue coordinate/error semantics",
+      "chance-association controls using identical continuous-time/finite-distance optimisation and shared-plate dependence blocks",
+      "candidate-specific continuous-time finite-distance geometry",
+      "site uncertainty and height-stress treatment",
+      "individual Gaia-ID handling and source extraction"
+    ]
+  },
+  "prior_rc4_unknown_submission_gate": {
+    "acknowledgement_status": "UNRESOLVED_UNKNOWN_SUBMISSION_ACKNOWLEDGED_FOR_SUPERSEDING_READ_ONLY_RETRY",
+    "explicit_user_acknowledgement_required": true,
+    "preserve_original_checkpoint": true,
+    "production_requires_evidence_argument": true,
+    "production_verifies_checkpoint_sha_and_original_failed_hold_shape_before_any TAP submission": true,
+    "reclassifies_rc4_submission": false,
+    "source_checkpoint": "work/v095a_stageA_aggregate_inventory_rc4/jobs/Q0_SELECTED_SOLUTION_BINDING/batch_0001/meta.json"
+  },
+  "publication": {
+    "controller_lock": "OS byte-range/file lock at ProjectRoot/work/v095a_stageA_controller.lock, held through all mutable preflight, batch and publication work; released by OS on process death.",
+    "final_publish": "Unique staging directory, validated checkpoint allowlist, recursive SHA-256 manifest including job evidence, atomic rename under project lock; never delete another staging directory.",
+    "result_directory": "results/applause_dr4_v095a_stageA_aggregate_inventory_rc9",
+    "resume": "Resume only the exact release/context/query/expected-key identity. Reuse validated results; reconcile retained active jobs under the original cryptographically bound header-receipt deadline; never reset attempt budgets or automatically replace invalid/failed checkpoints.",
+    "work_directory": "work/v095a_stageA_aggregate_inventory_rc9"
+  },
+  "q2_empty_plate_correction": {
+    "applies_to": [
+      "COUNT(DISTINCT (sc.process_id, sc.solution_num))",
+      "COUNT(DISTINCT (sc.scan_id, sc.process_id, sc.solution_num))"
+    ],
+    "filter_expression": "FILTER (WHERE sc.plate_id IS NOT NULL)",
+    "required": true,
+    "self_test_requires_empty_plate_all_zero": true
+  },
+  "query_families": [
+    "Q0_SELECTED_SOLUTION_BINDING",
+    "Q1_SELECTED_SCIENCE_KEY_AGGREGATES",
+    "Q2_PHYSICAL_PLATE_PROCESSING_MULTIPLICITY"
+  ],
+  "query_runtime_mutation": "ONLY_DETERMINISTIC_SORTED_INTEGER_VALUES_PLACEHOLDER_REPLACEMENT",
+  "repair_provenance": {
+    "parent_release_freeze_commit": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
+    "rc4_failed_checkpoint_imported": false,
+    "rc6_blocker_found_by_manual_review": "RC6 wrote immediate receipt headers only to temporary transport IPC before controller finalization; a controller crash after return could still lose received status/Location. RC6 also documented but did not mechanically enforce disposition of the preserved RC4 unknown submission before a future live POST.",
+    "rc7_remaining_blockers_found_by_manual_coordinator_audit": "The terminal deadline still began after POST body collection, and a final submission receipt could validate with a missing disposition. RC9 changes only those mechanical receipt/lifecycle controls and their regressions.",
+    "rc7_staged_candidate_status": "Immutable but never submitted for independent review; coordinator recovery audit found remaining RC6 R1b/R2 requirements before a GPT REQUEST was posted.",
+    "scientific_sql_bins_population_changed": false,
+    "supersedes_review_candidate": "v095a_stageA_aggregate_inventory_rc7",
+    "trigger": "RC4 first live Q0 submission returned an unaccepted HTTP status, but RC4 did not persist the status/headers/body before entering SUBMISSION_UNCERTAIN_HOLD."
+  },
+  "scientific_role": "Aggregate-only, candidate-identity-blind inventory of APPLAUSE DR4 for the exact retained v094z geometry population. No individual source extraction, cross-observatory source pairing, pixels, scans, or candidate inspection.",
+  "selected_solution_binding": {
+    "frozen_parent_fields": [
+      "exposure_id",
+      "plate_id",
+      "scan_id",
+      "solution_id"
+    ],
+    "metadata_binding_table": "applause_dr4.solution",
+    "missing_duplicate_or_conflicting_binding": "HOLD",
+    "parent": "completed frozen v094t source-free opportunity census intersected by exact v094z pair_id",
+    "q0_must_match_frozen_plate_and_scan": true,
+    "science_key": [
+      "plate_id",
+      "scan_id",
+      "process_id",
+      "solution_num"
+    ]
+  },
+  "state": "IMPLEMENTATION_RELEASE_CANDIDATE_NOT_EXECUTION_FROZEN",
+  "stop_rule": "STOP after validated aggregate inventory and interpretation. No individual source row extraction or matching.",
+  "supersedes": "v095a_stageA_aggregate_inventory_rc7",
+  "tap": {
+    "abort_policy": "135 s total budget for abort POST and terminal-phase confirmation. An HTTP acknowledgement alone is not a confirmed abort. Unconfirmed jobs remain recorded and block new submissions.",
+    "accepted_submission_statuses": [
+      201,
+      302,
+      303
+    ],
+    "async_path": "/async",
+    "authentication": "APPLAUSE_TOKEN environment variable if present; otherwise anonymous; token value must never be logged",
+    "get_redirects": "At most three redirects, HTTPS same archive origin, within the original operation deadline.",
+    "http_connect_timeout_seconds": 15,
+    "http_operation_wall_deadline_seconds": 135,
+    "http_read_timeout_seconds": 120,
+    "http_wall_enforcement": "Each HTTP operation runs in a spawned child. Parent terminates it at the smaller of 135 s and the remaining operation/job budget. Process cleanup: terminate/join 2 s, kill/join 2 s; HOLD if not stopped.",
+    "language": "postgresql-9.6",
+    "maximum_phase_response_bytes": 4096,
+    "maximum_response_bytes": 8388608,
+    "per_attempt_terminal_deadline_origin": "Exactly 3900 seconds from the cryptographically bound header/job-Location receipt time, never from completion of POST response-body collection.",
+    "per_attempt_terminal_deadline_seconds": 3900,
+    "poll_schedule": [
+      {
+        "elapsed_lt_seconds": 60,
+        "interval_seconds": 5
+      },
+      {
+        "elapsed_lt_seconds": 600,
+        "interval_seconds": 15
+      },
+      {
+        "elapsed_gte_seconds": 600,
+        "interval_seconds": 30
+      }
+    ],
+    "post_redirects": "Submission POST is not automatically followed: record and validate Location before polling. Unknown acceptance is a durable HOLD, never an automatic resubmission.",
+    "queue": "1h",
+    "result_download_retry": {
+      "attempts_persist_across_resume": true,
+      "delays_seconds": [
+        30,
+        120
+      ],
+      "each_attempt_wall_seconds": 135,
+      "maximum_attempts_per_completed_job": 3,
+      "same_job_required": true
+    },
+    "result_format": "csv",
+    "retry": {
+      "delays_seconds": [
+        30,
+        120
+      ],
+      "identical_query_bytes_required": true,
+      "initial_plus_resubmissions": 3,
+      "scope": "Three submission attempts total per batch across every invocation; 30/120 s delays. Validation failures and unknown submission receipts are sticky HOLDs."
+    },
+    "service_url": "https://www.plate-archive.org/tap",
+    "submission_response_evidence": {
+      "ambiguous_other_unaccepted_or_bad_location": "SUBMISSION_UNCERTAIN_HOLD",
+      "body_not_printed": true,
+      "durable_header_fields": [
+        "status",
+        "location",
+        "content-type",
+        "content-length",
+        "received_epoch",
+        "received_monotonic",
+        "receipt_sha256"
+      ],
+      "explicit_4xx_except_408": "TAP_SUBMISSION_REJECTED_HOLD",
+      "final_envelope_fields": [
+        "status",
+        "headers",
+        "body_sha256",
+        "body_bytes",
+        "artifact",
+        "partial",
+        "transport_failure",
+        "header_receipt_file",
+        "header_receipt_sha256",
+        "header_received_epoch",
+        "header_received_monotonic",
+        "receipt_sha256"
+      ],
+      "mandatory_disposition_by_state": "Any final submission envelope requires a known disposition. WAITING/FETCHING/VALIDATED/ABORT_PENDING/RETRYABLE require JOB_RECEIPT_VALIDATED; a validated-job disposition left in SUBMITTING is a conservative HOLD.",
+      "maximum_body_bytes": 65536,
+      "no_automatic_resubmission_after_rejection_or_uncertainty": true,
+      "publication_revalidation": true,
+      "receipt_timing_binding": "Header receipt wall/monotonic times are self-hash-bound, repeated in the final envelope, and must exactly define submitted/deadline fields for progressed job states.",
+      "state_dependent_validation": true,
+      "worker_durable_header_sidecar": "Predeclared attempt_XX_submission_headers.json under the batch work directory; atomic fsync+replace immediately after status/selected headers arrive and before body streaming."
+    },
+    "terminal_deadline_scope": "3900 s from receipt of the job URL; original UTC/monotonic expiry retained on resume; late terminal responses rejected.",
+    "terminal_phases": [
+      "COMPLETED",
+      "ERROR",
+      "ABORTED"
+    ],
+    "timeout_action": "record TAP_TIMEOUT_HOLD then attempt UWS abort"
+  },
+  "validation": {
+    "independent_release_review_required": true,
+    "python": "test_v095a_rc9.py: offline parser, count, binding, lifecycle, checkpoint, lock and killable-transport regressions",
+    "release_sql_hash_unchanged_from_rc3": true,
+    "sql": "test_sql_rc9.mjs: exact frozen SQL against disposable local PostgreSQL via PGlite 0.5.8; no catalogue calls",
+    "windows_preflight_still_required": true
+  }
+}
