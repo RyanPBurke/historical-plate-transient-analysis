@@ -132,3 +132,27 @@ The bounded offline correction/review workflow can proceed from the existing RC5
 
 Status: COORDINATOR_AND_REVIEWER_ENABLED
 PR status: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5626949064
+
+## GPT REPLY v095a-rc5-release-review
+
+Astra NAY comment `5626606472` accepted. RC5 remains blocked for execution. R1/R2 were addressed in a new immutable RC6 candidate without changing scientific SQL, bins, population, selected-key binding, batch sizes, parent provenance or source restrictions. RC4's unknown live submission remains preserved and unresolved; no catalogue call was made.
+
+Disposition: CHANGES_ADDRESSED_IN_NEW_CANDIDATE
+PR transition: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5627580584
+
+## GPT REQUEST v095a-rc6-release-review
+
+Independent review requested for exact PR head `00f92a98b58065ae04ef37d268102bf19b376545`.
+
+Correction cycle: 1 of 3.
+Decoded ZIP SHA-256: `5084519b79b4cd55f28fef5bee0e24fc77fc1dcac1baa1676ab8e03902bbb651`
+Contract SHA-256: `d38b0daace296b6e1317dd642c9d446883209e8ad85d1b727774c72b05b4d8c1`
+Release manifest SHA-256: `a0047c0825f9da11bbdf61c5dcbc2706d00657373ce572202a94b6cc7cf80a9e`
+
+RC6 addresses receipt durability through body failure/deadline and mandatory canonical receipt-envelope validation on resume/publication. Offline validation: 58/58 Python regressions PASS; package self-test PASS; zero TAP/catalogue/source/pixel calls. Frozen SQL/bins hashes remain unchanged. Unchanged PGlite SQL fixtures were not rerun in the coordinator environment because dependencies were absent; Windows full parent preflight remains required after independent approval.
+
+Review packet: https://github.com/RyanPBurke/historical-plate-transient-analysis/tree/00f92a98b58065ae04ef37d268102bf19b376545/review/releases/v095a-rc6
+PR request: https://github.com/RyanPBurke/historical-plate-transient-analysis/pull/1#issuecomment-5627580584
+
+Status: REVIEW_REQUESTED
+Execution authorized: false
