@@ -1,6 +1,6 @@
 {
   "batch_sizes": {
-    "Q0_SELECTED_SOLUTION_BINDING": 1000,
+    "Q0_SELECTED_SOLUTION_BINDING": 250,
     "Q1_SELECTED_SCIENCE_KEY_AGGREGATES": 250,
     "Q2_PHYSICAL_PLATE_PROCESSING_MULTIPLICITY": 500
   },
@@ -131,6 +131,13 @@
   "query_runtime_mutation": "ONLY_DETERMINISTIC_SORTED_INTEGER_SELECT_UNION_ALL_ROW_PLACEHOLDER_REPLACEMENT",
   "repair_provenance": {
     "parent_release_freeze_commit": "f4d8cf83e96aa10fe01470270ca24ea093f5b262",
+    "q0_batch_size_compatibility_change": {
+      "previous_rows": 1000,
+      "query_semantics_changed": false,
+      "reason": "Exact 1000-row derived SELECT/UNION ALL Q0 live smoke produced HTTP 504 without a job Location. It was not retried. A fresh 250-row Q0 smoke completed successfully.",
+      "replacement_rows": 250,
+      "scientific_population_changed": false
+    },
     "rc4_failed_checkpoint_imported": false,
     "rc6_blocker_found_by_manual_review": "RC6 wrote immediate receipt headers only to temporary transport IPC before controller finalization; a controller crash after return could still lose received status/Location. RC6 also documented but did not mechanically enforce disposition of the preserved RC4 unknown submission before a future live POST.",
     "rc7_remaining_blockers_found_by_manual_coordinator_audit": "The terminal deadline still began after POST body collection, and a final submission receipt could validate with a missing disposition. RC9 changes only those mechanical receipt/lifecycle controls and their regressions.",
@@ -263,8 +270,39 @@
     "timeout_action": "record TAP_TIMEOUT_HOLD then attempt UWS abort"
   },
   "validation": {
-    "compatibility_patch_assurance": "Prior RC9 independent review retained as provenance. Post-review TAP-dialect compatibility patch requires deterministic diff, offline Python regressions, PGlite semantic regressions, Windows preflight, and full-batch-shape live smoke tests before a new exact execution freeze.",
+    "compatibility_patch_assurance": "Prior RC9 independent review retained as provenance. Post-review TAP-dialect compatibility was validated by deterministic diff, Python lifecycle/parser regressions, Windows parent preflight, targeted live APPLAUSE dialect probes, and successful live production-shape probes at Q0=250, Q1=250 and Q2=500. PGlite was not executed on this Windows host because npm was unavailable.",
     "independent_release_review_required": false,
+    "live_tap_production_shape_validation": {
+      "q0_1000": {
+        "query_bytes": 59351,
+        "query_sha256": "70db8fc9f85f9fcc352131d9284089271f93cf8d239b5691be0781b9a19daa3d",
+        "rows": 1000,
+        "status": "UNRESOLVED_HTTP_504_NO_LOCATION_NO_RETRY"
+      },
+      "q0_250": {
+        "query_bytes": 15100,
+        "query_sha256": "f88d7005917534748ded38579267ddab8ffefa438d5be7b19c34329ce4232201",
+        "rows": 250,
+        "status": "PASS"
+      },
+      "q1_250": {
+        "query_bytes": 20646,
+        "query_sha256": "f375debee2d8c2278c2c721a2346d6f039c8bceb4dee70b76a926dccb7eb71f1",
+        "rows": 250,
+        "status": "PASS"
+      },
+      "q2_500": {
+        "query_bytes": 17643,
+        "query_sha256": "e8053a3188f1ca2bee1d8a0fa77bd369cdcdb1f6d4b36ba00f98a23a6236142b",
+        "rows": 500,
+        "status": "PASS"
+      }
+    },
+    "pglite_execution_this_freeze": {
+      "effect_on_release": "Superseded by direct live APPLAUSE semantic/dialect probes plus the existing 74-test Python regression suite.",
+      "previous_console_pass_marker_valid": false,
+      "status": "NOT_EXECUTED_NPM_UNAVAILABLE"
+    },
     "python": "test_v095a_rc9.py: offline parser, count, binding, lifecycle, checkpoint, lock and killable-transport regressions",
     "release_sql_hash_unchanged_from_rc3": false,
     "sql": "test_sql_rc9.mjs: exact frozen SQL against disposable local PostgreSQL via PGlite 0.5.8; no catalogue calls",

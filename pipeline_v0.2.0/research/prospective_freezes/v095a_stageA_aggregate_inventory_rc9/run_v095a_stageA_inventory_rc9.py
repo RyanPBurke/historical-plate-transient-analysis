@@ -18,7 +18,7 @@ import tempfile
 import time
 from v095a_runtime_rc9 import ProjectLock, BoundedHTTP
 
-CONTRACT_SHA = "04aba806f0bfa7ddd88db9380ae11855a70f443b5738a4e46cb62101e3830d10"
+CONTRACT_SHA = "aa5dd3da2a4047dc41f1d4c30aa9484a0854550256ff4071413eccd14a848108"
 SQL_SHA = "c18f4f751fcc7afca2a9cba4c3d8a4c3e7e0d8390d2cf7f595b7d5cd46d92843"
 BINS_SHA = "c4fd3724579f37b847c1a4549fb6c45066531efc3607b1e37eca0a5567366313"
 
@@ -45,7 +45,7 @@ SQL_FILE = HERE / "v095a_stageA_queries_rc9.sql"
 BINS_FILE = HERE / "v095a_stageA_bins_rc9.json"
 RELEASE_MANIFEST = HERE / "release_manifest.sha256"
 
-Q0_BATCH = 1000
+Q0_BATCH = 250
 Q1_BATCH = 250
 Q2_BATCH = 500
 
